@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "royal-bengal-tiger",
+    "commonName": "Royal Bengal Tiger",
+    "scientificName": "Panthera tigris tigris",
+    "taxon": "mammal",
+    "conservationStatus": "EN",
+    "description": "India's national animal and the country's most iconic big cat, found in mangrove forests, grasslands, and dense deciduous forests across central and eastern India.",
+    "habitat": "Mangrove forests, grasslands, dry and moist deciduous forests",
+    "stateSlugs": ["west-bengal", "madhya-pradesh", "rajasthan"],
+    "photoUrl": null,
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  },
+  {
+    "slug": "asiatic-lion",
+    "commonName": "Asiatic Lion",
+    "scientificName": "Panthera leo leo",
+    "taxon": "mammal",
+    "conservationStatus": "EN",
+    "description": "The world's last wild population of Asiatic lions survives exclusively in and around the Gir Forest, making Gujarat their sole natural home.",
+    "habitat": "Dry deciduous forest and scrubland",
+    "stateSlugs": ["gujarat"],
+    "photoUrl": null,
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  },
+  {
+    "slug": "indian-rhinoceros",
+    "commonName": "Indian Rhinoceros",
+    "scientificName": "Rhinoceros unicornis",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "Also called the One-Horned Rhinoceros, this armored-looking giant is a conservation success story, with Assam's floodplains hosting the vast majority of the wild population.",
+    "habitat": "Riverine grasslands and floodplains",
+    "stateSlugs": ["assam"],
+    "photoUrl": null,
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  },
+  {
+    "slug": "asian-elephant",
+    "commonName": "Asian Elephant",
+    "scientificName": "Elephas maximus indicus",
+    "taxon": "mammal",
+    "conservationStatus": "EN",
+    "description": "India holds the largest population of wild Asian elephants in the world, with the Western Ghats forests of Kerala and Karnataka among their most important strongholds.",
+    "habitat": "Tropical evergreen and deciduous forests, grasslands",
+    "stateSlugs": ["kerala", "karnataka"],
+    "photoUrl": null,
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  },
+  {
+    "slug": "lion-tailed-macaque",
+    "commonName": "Lion-tailed Macaque",
+    "scientificName": "Macaca silenus",
+    "taxon": "mammal",
+    "conservationStatus": "EN",
+    "description": "One of the rarest and most endangered primates, recognizable by its silver mane, found only in fragmented rainforest pockets of the Western Ghats.",
+    "habitat": "Tropical rainforest canopy, Western Ghats",
+    "stateSlugs": ["karnataka"],
+    "photoUrl": null,
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  },
+  {
+    "slug": "great-indian-bustard",
+    "commonName": "Great Indian Bustard",
+    "scientificName": "Ardeotis nigriceps",
+    "taxon": "bird",
+    "conservationStatus": "CR",
+    "description": "One of the heaviest flying birds and among the most critically endangered in the world, clinging on in the arid grasslands of Rajasthan's Thar Desert.",
+    "habitat": "Arid and semi-arid grasslands, scrubland",
+    "stateSlugs": ["rajasthan"],
+    "photoUrl": null,
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  },
+  {
+    "slug": "barasingha",
+    "commonName": "Barasingha",
+    "scientificName": "Rucervus duvaucelii",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "Also called the swamp deer, this is Madhya Pradesh's state animal — Kanha National Park's conservation program brought the local subspecies back from the brink of extinction.",
+    "habitat": "Swampy grasslands and moist deciduous forest",
+    "stateSlugs": ["madhya-pradesh"],
+    "photoUrl": null,
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  },
+  {
+    "slug": "indian-giant-squirrel",
+    "commonName": "Indian Giant Squirrel",
+    "scientificName": "Ratufa indica",
+    "taxon": "mammal",
+    "conservationStatus": "LC",
+    "description": "Maharashtra's state animal, a strikingly multicolored tree-dwelling squirrel capable of leaping several meters between branches in the state's dense forests.",
+    "habitat": "Tropical and subtropical moist deciduous forest canopy",
+    "stateSlugs": ["maharashtra"],
+    "photoUrl": null,
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  },
+  {
+    "slug": "indian-eagle-owl",
+    "commonName": "Indian Eagle-Owl",
+    "scientificName": "Bubo bengalensis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A large, tufted nocturnal raptor often found roosting on rocky cliffs and ravines, with a haunting deep call that carries far across open terrain.",
+    "habitat": "Rocky hillsides, ravines, scrub forest",
+    "stateSlugs": ["rajasthan"],
+    "photoUrl": null,
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  },
+  {
+    "slug": "indian-peafowl",
+    "commonName": "Indian Peafowl",
+    "scientificName": "Pavo cristatus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "India's national bird, instantly recognizable by the male's iridescent train of feathers, found across much of the country in open forest and farmland.",
+    "habitat": "Open forest, scrubland, farmland edges",
+    "stateSlugs": ["rajasthan", "madhya-pradesh"],
+    "photoUrl": null,
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  }
+]

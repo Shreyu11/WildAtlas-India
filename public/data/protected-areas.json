@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "kaziranga-national-park",
+    "name": "Kaziranga National Park",
+    "type": "national-park",
+    "stateSlug": "assam",
+    "headlineSpeciesSlug": "indian-rhinoceros",
+    "lat": 26.5775,
+    "lng": 93.1711
+  },
+  {
+    "slug": "gir-national-park",
+    "name": "Gir National Park",
+    "type": "national-park",
+    "stateSlug": "gujarat",
+    "headlineSpeciesSlug": "asiatic-lion",
+    "lat": 21.1288,
+    "lng": 70.7996
+  },
+  {
+    "slug": "ranthambore-national-park",
+    "name": "Ranthambore National Park",
+    "type": "national-park",
+    "stateSlug": "rajasthan",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 26.0173,
+    "lng": 76.5026
+  },
+  {
+    "slug": "periyar-wildlife-sanctuary",
+    "name": "Periyar Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 9.4667,
+    "lng": 77.15
+  }
+]
