@@ -13,8 +13,129 @@
     "uniqueFeatures": "UNESCO World Heritage site hosting two-thirds of the world's Great One-horned Rhinoceroses.",
     "sources": [
       {
-        "label": "MoEFCC / Assam Forest Department",
+        "label": "MoEFCC / Assam Forest Dept",
         "url": "https://kaziranga.assam.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "manas-national-park",
+    "name": "Manas National Park",
+    "type": "national-park",
+    "stateSlug": "assam",
+    "headlineSpeciesSlug": "indian-rhinoceros",
+    "photoUrl": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&auto=format&fit=crop&q=80",
+    "lat": 26.6594,
+    "lng": 91.0011,
+    "areaSqKm": 950,
+    "websiteUrl": "https://forest.assam.gov.in",
+    "uniqueFeatures": "UNESCO World Heritage Site at Himalayan foothills, known for Pygmy Hog and Golden Langur.",
+    "sources": [
+      {
+        "label": "Assam Forest Dept",
+        "url": "https://forest.assam.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "nameri-national-park",
+    "name": "Nameri National Park",
+    "type": "national-park",
+    "stateSlug": "assam",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 26.9317,
+    "lng": 92.8683,
+    "areaSqKm": 200,
+    "websiteUrl": "https://forest.assam.gov.in",
+    "uniqueFeatures": "Eastern Himalayan foothills sanctuary famous for White-winged Wood Duck.",
+    "sources": [
+      {
+        "label": "WII / Assam Forest Dept",
+        "url": "https://forest.assam.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "orang-national-park",
+    "name": "Orang National Park",
+    "type": "national-park",
+    "stateSlug": "assam",
+    "headlineSpeciesSlug": "indian-rhinoceros",
+    "lat": 26.55,
+    "lng": 92.3667,
+    "areaSqKm": 78.8,
+    "websiteUrl": "https://forest.assam.gov.in",
+    "uniqueFeatures": "Known as Mini Kaziranga due to its rich Rhino and Tiger population.",
+    "sources": [
+      {
+        "label": "WII",
+        "url": "https://wii.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "dibru-saikhowa-national-park",
+    "name": "Dibru-Saikhowa National Park",
+    "type": "national-park",
+    "stateSlug": "assam",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 27.6,
+    "lng": 95.3833,
+    "areaSqKm": 340,
+    "websiteUrl": "https://forest.assam.gov.in",
+    "uniqueFeatures": "Feral horses and endangered White-winged Wood Duck breeding ground.",
+    "sources": [
+      {
+        "label": "WII",
+        "url": "https://wii.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "raimona-national-park",
+    "name": "Raimona National Park",
+    "type": "national-park",
+    "stateSlug": "assam",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 26.65,
+    "lng": 89.9833,
+    "areaSqKm": 422,
+    "websiteUrl": "https://forest.assam.gov.in",
+    "uniqueFeatures": "Notable habitat for Golden Langur in western Assam.",
+    "sources": [
+      {
+        "label": "Assam Forest Dept",
+        "url": "https://forest.assam.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "dihing-patkai-national-park",
+    "name": "Dihing Patkai National Park",
+    "type": "national-park",
+    "stateSlug": "assam",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 27.3167,
+    "lng": 95.4833,
+    "areaSqKm": 231.6,
+    "websiteUrl": "https://forest.assam.gov.in",
+    "uniqueFeatures": "The Amazon of the East — vast lowland rainforest.",
+    "sources": [
+      {
+        "label": "Assam Forest Dept",
+        "url": "https://forest.assam.gov.in",
         "accessedDate": "2026-07-29"
       }
     ],
@@ -34,7 +155,67 @@
     "uniqueFeatures": "The sole surviving natural habitat of the Asiatic Lion in the world.",
     "sources": [
       {
-        "label": "Gujarat Forest Department",
+        "label": "Gujarat Forest Dept",
+        "url": "https://forests.gujarat.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "blackbuck-national-park-velavadar",
+    "name": "Blackbuck National Park, Velavadar",
+    "type": "national-park",
+    "stateSlug": "gujarat",
+    "headlineSpeciesSlug": "asiatic-lion",
+    "lat": 22.0333,
+    "lng": 72.0333,
+    "areaSqKm": 34.08,
+    "websiteUrl": "https://forests.gujarat.gov.in",
+    "uniqueFeatures": "Flat open grassland sanctuary famous for massive Blackbuck herds and Lesser Florican.",
+    "sources": [
+      {
+        "label": "Gujarat Forest Dept",
+        "url": "https://forests.gujarat.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "marine-national-park-gulf-of-kutch",
+    "name": "Marine National Park, Gulf of Kutch",
+    "type": "national-park",
+    "stateSlug": "gujarat",
+    "headlineSpeciesSlug": "asiatic-lion",
+    "lat": 22.4833,
+    "lng": 69.6167,
+    "areaSqKm": 162.89,
+    "websiteUrl": "https://forests.gujarat.gov.in",
+    "uniqueFeatures": "First marine national park in India protecting coral reefs and mangroves.",
+    "sources": [
+      {
+        "label": "WII",
+        "url": "https://wii.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "vansda-national-park",
+    "name": "Vansda National Park",
+    "type": "national-park",
+    "stateSlug": "gujarat",
+    "headlineSpeciesSlug": "asiatic-lion",
+    "lat": 20.7667,
+    "lng": 73.4833,
+    "areaSqKm": 23.99,
+    "websiteUrl": "https://forests.gujarat.gov.in",
+    "uniqueFeatures": "Dense moist deciduous forest of Dang south Gujarat.",
+    "sources": [
+      {
+        "label": "Gujarat Forest Dept",
         "url": "https://forests.gujarat.gov.in",
         "accessedDate": "2026-07-29"
       }
@@ -52,10 +233,90 @@
     "lng": 76.5026,
     "areaSqKm": 1334,
     "websiteUrl": "https://forest.rajasthan.gov.in",
-    "uniqueFeatures": "Famous for diurnal tiger sightings amidst ancient Ranthambore Fort ruins and dry deciduous forest.",
+    "uniqueFeatures": "Famous for diurnal tiger sightings amidst ancient Ranthambore Fort ruins.",
     "sources": [
       {
-        "label": "Rajasthan Forest Department",
+        "label": "Rajasthan Forest Dept",
+        "url": "https://forest.rajasthan.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "sariska-national-park",
+    "name": "Sariska National Park",
+    "type": "national-park",
+    "stateSlug": "rajasthan",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 27.3167,
+    "lng": 76.4333,
+    "areaSqKm": 881,
+    "websiteUrl": "https://forest.rajasthan.gov.in",
+    "uniqueFeatures": "Aravalli hills reserve, famous for successful tiger relocation program.",
+    "sources": [
+      {
+        "label": "Rajasthan Forest Dept",
+        "url": "https://forest.rajasthan.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "desert-national-park",
+    "name": "Desert National Park",
+    "type": "national-park",
+    "stateSlug": "rajasthan",
+    "headlineSpeciesSlug": "great-indian-bustard",
+    "lat": 27.0333,
+    "lng": 70.8833,
+    "areaSqKm": 3162,
+    "websiteUrl": "https://forest.rajasthan.gov.in",
+    "uniqueFeatures": "Vast Thar Desert ecosystem, crucial stronghold for the Critically Endangered Great Indian Bustard.",
+    "sources": [
+      {
+        "label": "WII",
+        "url": "https://wii.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "keoladeo-national-park",
+    "name": "Keoladeo National Park",
+    "type": "national-park",
+    "stateSlug": "rajasthan",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 27.16,
+    "lng": 77.52,
+    "areaSqKm": 28.73,
+    "websiteUrl": "https://forest.rajasthan.gov.in",
+    "uniqueFeatures": "UNESCO World Heritage bird sanctuary, hosting over 370 migratory species.",
+    "sources": [
+      {
+        "label": "Rajasthan Forest Dept",
+        "url": "https://forest.rajasthan.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "mukundra-hills-national-park",
+    "name": "Mukundra Hills National Park",
+    "type": "national-park",
+    "stateSlug": "rajasthan",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 24.8,
+    "lng": 75.8333,
+    "areaSqKm": 759.99,
+    "websiteUrl": "https://forest.rajasthan.gov.in",
+    "uniqueFeatures": "Chambal river valley reserve, third tiger reserve of Rajasthan.",
+    "sources": [
+      {
+        "label": "Rajasthan Forest Dept",
         "url": "https://forest.rajasthan.gov.in",
         "accessedDate": "2026-07-29"
       }
@@ -73,11 +334,111 @@
     "lng": 78.77,
     "areaSqKm": 1318,
     "websiteUrl": "https://corbettonline.uk.gov.in",
-    "uniqueFeatures": "India's oldest national park, established in 1936, and birthplace of Project Tiger.",
+    "uniqueFeatures": "India's oldest national park, established in 1936, birthplace of Project Tiger.",
     "sources": [
       {
-        "label": "Uttarakhand Forest Department",
+        "label": "Uttarakhand Forest Dept",
         "url": "https://corbettonline.uk.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "rajaji-national-park",
+    "name": "Rajaji National Park",
+    "type": "national-park",
+    "stateSlug": "uttarakhand",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 30.0833,
+    "lng": 78.1833,
+    "areaSqKm": 820.42,
+    "websiteUrl": "https://rajajinationalpark.co.in",
+    "uniqueFeatures": "Shivalik foothills elephant corridor and tiger reserve.",
+    "sources": [
+      {
+        "label": "Uttarakhand Forest Dept",
+        "url": "https://uk.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "nanda-devi-national-park",
+    "name": "Nanda Devi National Park",
+    "type": "national-park",
+    "stateSlug": "uttarakhand",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 30.3833,
+    "lng": 79.9667,
+    "areaSqKm": 630.33,
+    "websiteUrl": "https://forest.uk.gov.in",
+    "uniqueFeatures": "UNESCO World Heritage glaciated peak reserve centered around Nanda Devi peak.",
+    "sources": [
+      {
+        "label": "WII",
+        "url": "https://wii.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "valley-of-flowers-national-park",
+    "name": "Valley of Flowers National Park",
+    "type": "national-park",
+    "stateSlug": "uttarakhand",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 30.7333,
+    "lng": 79.6333,
+    "areaSqKm": 87.5,
+    "websiteUrl": "https://forest.uk.gov.in",
+    "uniqueFeatures": "UNESCO World Heritage alpine meadow carpeted with endemic Himalayan flora.",
+    "sources": [
+      {
+        "label": "WII",
+        "url": "https://wii.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "gangotri-national-park",
+    "name": "Gangotri National Park",
+    "type": "national-park",
+    "stateSlug": "uttarakhand",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 30.9833,
+    "lng": 79.0833,
+    "areaSqKm": 2390,
+    "websiteUrl": "https://forest.uk.gov.in",
+    "uniqueFeatures": "High altitude Himalayan park housing the origin of river Ganga.",
+    "sources": [
+      {
+        "label": "Uttarakhand Forest Dept",
+        "url": "https://uk.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "govind-pashu-vihar-national-park",
+    "name": "Govind Pashu Vihar National Park",
+    "type": "national-park",
+    "stateSlug": "uttarakhand",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 31.0833,
+    "lng": 78.3667,
+    "areaSqKm": 472.08,
+    "websiteUrl": "https://forest.uk.gov.in",
+    "uniqueFeatures": "High altitude sanctuary protecting Snow Leopard and Bearded Vulture.",
+    "sources": [
+      {
+        "label": "Uttarakhand Forest Dept",
+        "url": "https://uk.gov.in",
         "accessedDate": "2026-07-29"
       }
     ],
@@ -94,10 +455,10 @@
     "lng": 80.6115,
     "areaSqKm": 940,
     "websiteUrl": "https://mpforest.gov.in",
-    "uniqueFeatures": "Vast sal forests and meadows that inspired Rudyard Kipling's Jungle Book; home to the rare Hard-ground Barasingha.",
+    "uniqueFeatures": "Sal forest landscape that inspired Kipling's Jungle Book; saved the Hard-ground Barasingha.",
     "sources": [
       {
-        "label": "MP Forest Department",
+        "label": "MP Forest Dept",
         "url": "https://mpforest.gov.in",
         "accessedDate": "2026-07-29"
       }
@@ -115,10 +476,190 @@
     "lng": 81.0261,
     "areaSqKm": 1536,
     "websiteUrl": "https://mpforest.gov.in",
-    "uniqueFeatures": "Boasts one of the highest known densities of Royal Bengal Tigers in India.",
+    "uniqueFeatures": "Highest tiger density in India, built around Bandhavgarh Fort.",
     "sources": [
       {
-        "label": "MP Forest Department",
+        "label": "MP Forest Dept",
+        "url": "https://mpforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "pench-national-park-mp",
+    "name": "Pench National Park",
+    "type": "national-park",
+    "stateSlug": "madhya-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 21.7667,
+    "lng": 79.3,
+    "areaSqKm": 758,
+    "websiteUrl": "https://mpforest.gov.in",
+    "uniqueFeatures": "Tiger reserve along Pench River spanning MP and Maharashtra border.",
+    "sources": [
+      {
+        "label": "MP Forest Dept",
+        "url": "https://mpforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "satpura-national-park",
+    "name": "Satpura National Park",
+    "type": "national-park",
+    "stateSlug": "madhya-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 22.4833,
+    "lng": 78.4333,
+    "areaSqKm": 524,
+    "websiteUrl": "https://mpforest.gov.in",
+    "uniqueFeatures": "Satpura range reserve with walking safaris and canoe excursions.",
+    "sources": [
+      {
+        "label": "MP Forest Dept",
+        "url": "https://mpforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "panna-national-park",
+    "name": "Panna National Park",
+    "type": "national-park",
+    "stateSlug": "madhya-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 24.7167,
+    "lng": 80,
+    "areaSqKm": 542.67,
+    "websiteUrl": "https://mpforest.gov.in",
+    "uniqueFeatures": "Ken River gorge habitat, famous for successful tiger reintroduction.",
+    "sources": [
+      {
+        "label": "MP Forest Dept",
+        "url": "https://mpforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "kuno-national-park",
+    "name": "Kuno National Park",
+    "type": "national-park",
+    "stateSlug": "madhya-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 25.6,
+    "lng": 77.2667,
+    "areaSqKm": 748.76,
+    "websiteUrl": "https://mpforest.gov.in",
+    "uniqueFeatures": "Site of India's historic Cheetah Reintroduction Project.",
+    "sources": [
+      {
+        "label": "MoEFCC / MP Forest",
+        "url": "https://mpforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "sanjay-national-park-mp",
+    "name": "Sanjay National Park",
+    "type": "national-park",
+    "stateSlug": "madhya-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 24.1667,
+    "lng": 81.8833,
+    "areaSqKm": 466.7,
+    "websiteUrl": "https://mpforest.gov.in",
+    "uniqueFeatures": "Part of Sanjay-Dubri Tiger Reserve in Narmada catchment.",
+    "sources": [
+      {
+        "label": "MP Forest Dept",
+        "url": "https://mpforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "madhav-national-park",
+    "name": "Madhav National Park",
+    "type": "national-park",
+    "stateSlug": "madhya-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 25.4333,
+    "lng": 77.7,
+    "areaSqKm": 354,
+    "websiteUrl": "https://mpforest.gov.in",
+    "uniqueFeatures": "Vindhyan hills ecosystem near Shivpuri with Sakhya Sagar lake.",
+    "sources": [
+      {
+        "label": "MP Forest Dept",
+        "url": "https://mpforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "fossil-national-park-mandla",
+    "name": "Mandla Plant Fossils National Park",
+    "type": "national-park",
+    "stateSlug": "madhya-pradesh",
+    "headlineSpeciesSlug": "barasingha",
+    "lat": 23.0833,
+    "lng": 80.6,
+    "areaSqKm": 0.27,
+    "websiteUrl": "https://mpforest.gov.in",
+    "uniqueFeatures": "Preserves plant fossils between 40 and 150 million years old.",
+    "sources": [
+      {
+        "label": "WII",
+        "url": "https://wii.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "dinosaurs-fossils-national-park-dhar",
+    "name": "Dhar Dinosaur Fossils National Park",
+    "type": "national-park",
+    "stateSlug": "madhya-pradesh",
+    "headlineSpeciesSlug": "barasingha",
+    "lat": 22.3833,
+    "lng": 75.3333,
+    "areaSqKm": 0.89,
+    "websiteUrl": "https://mpforest.gov.in",
+    "uniqueFeatures": "Preserves fossilized dinosaur eggs and nests.",
+    "sources": [
+      {
+        "label": "WII",
+        "url": "https://wii.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "van-vihar-national-park-bhopal",
+    "name": "Van Vihar National Park",
+    "type": "national-park",
+    "stateSlug": "madhya-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 23.2367,
+    "lng": 77.3803,
+    "areaSqKm": 4.45,
+    "websiteUrl": "https://mpforest.gov.in",
+    "uniqueFeatures": "Urban national park along Upper Lake in Bhopal.",
+    "sources": [
+      {
+        "label": "MP Forest Dept",
         "url": "https://mpforest.gov.in",
         "accessedDate": "2026-07-29"
       }
@@ -136,10 +677,10 @@
     "lng": 88.9007,
     "areaSqKm": 1330,
     "websiteUrl": "https://westbengalforest.gov.in",
-    "uniqueFeatures": "UNESCO Biosphere Reserve featuring the world's largest mangrove forest, home to swimming tigers.",
+    "uniqueFeatures": "World's largest mangrove forest reserve, home to swimming tigers.",
     "sources": [
       {
-        "label": "West Bengal Forest Department",
+        "label": "West Bengal Forest Dept",
         "url": "https://westbengalforest.gov.in",
         "accessedDate": "2026-07-29"
       }
@@ -147,7 +688,127 @@
     "needsResearch": false
   },
   {
-    "slug": "silent-valley-national-park",
+    "slug": "buxa-national-park",
+    "name": "Buxa National Park",
+    "type": "national-park",
+    "stateSlug": "west-bengal",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 26.75,
+    "lng": 89.65,
+    "areaSqKm": 760,
+    "websiteUrl": "https://westbengalforest.gov.in",
+    "uniqueFeatures": "Eastern Dooars tiger reserve bordering Bhutan.",
+    "sources": [
+      {
+        "label": "WB Forest Dept",
+        "url": "https://westbengalforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "gorumara-national-park",
+    "name": "Gorumara National Park",
+    "type": "national-park",
+    "stateSlug": "west-bengal",
+    "headlineSpeciesSlug": "indian-rhinoceros",
+    "lat": 26.8,
+    "lng": 88.8,
+    "areaSqKm": 79.45,
+    "websiteUrl": "https://westbengalforest.gov.in",
+    "uniqueFeatures": "Dooars floodplain park famous for Indian Rhinoceros sightings.",
+    "sources": [
+      {
+        "label": "WB Forest Dept",
+        "url": "https://westbengalforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "jaldapara-national-park",
+    "name": "Jaldapara National Park",
+    "type": "national-park",
+    "stateSlug": "west-bengal",
+    "headlineSpeciesSlug": "indian-rhinoceros",
+    "lat": 26.7,
+    "lng": 89.3,
+    "areaSqKm": 216.51,
+    "websiteUrl": "https://westbengalforest.gov.in",
+    "uniqueFeatures": "Holds the second largest population of One-horned Rhinos in India after Kaziranga.",
+    "sources": [
+      {
+        "label": "WB Forest Dept",
+        "url": "https://westbengalforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "neora-valley-national-park",
+    "name": "Neora Valley National Park",
+    "type": "national-park",
+    "stateSlug": "west-bengal",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 27.05,
+    "lng": 88.75,
+    "areaSqKm": 88,
+    "websiteUrl": "https://westbengalforest.gov.in",
+    "uniqueFeatures": "Pristine virgin forest ecosystem in Kalimpong hills.",
+    "sources": [
+      {
+        "label": "WB Forest Dept",
+        "url": "https://westbengalforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "singalila-national-park",
+    "name": "Singalila National Park",
+    "type": "national-park",
+    "stateSlug": "west-bengal",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 27.05,
+    "lng": 88.0333,
+    "areaSqKm": 78.6,
+    "websiteUrl": "https://westbengalforest.gov.in",
+    "uniqueFeatures": "High altitude Eastern Himalayan park along Singalila Ridge, home to Red Panda.",
+    "sources": [
+      {
+        "label": "WB Forest Dept",
+        "url": "https://westbengalforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "periyar-national-park",
+    "name": "Periyar National Park",
+    "type": "national-park",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 9.4667,
+    "lng": 77.15,
+    "areaSqKm": 350,
+    "websiteUrl": "https://periyartigerreserve.org",
+    "uniqueFeatures": "Western Ghats elephant sanctuary centered around Periyar Lake.",
+    "sources": [
+      {
+        "label": "Kerala Forest Dept",
+        "url": "https://keralaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "silent-valley-national-park-kerala",
     "name": "Silent Valley National Park",
     "type": "national-park",
     "stateSlug": "kerala",
@@ -157,10 +818,10 @@
     "lng": 76.4422,
     "areaSqKm": 237,
     "websiteUrl": "https://keralaforest.gov.in",
-    "uniqueFeatures": "Pristine Western Ghats tropical evergreen rainforest preserving endangered endemic primates.",
+    "uniqueFeatures": "Pristine rainforest stronghold for Lion-tailed Macaques.",
     "sources": [
       {
-        "label": "Kerala Forest Department",
+        "label": "Kerala Forest Dept",
         "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
       }
@@ -168,7 +829,447 @@
     "needsResearch": false
   },
   {
-    "slug": "hemis-national-park",
+    "slug": "eravikulam-national-park",
+    "name": "Eravikulam National Park",
+    "type": "national-park",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 10.2,
+    "lng": 77.0833,
+    "areaSqKm": 97,
+    "websiteUrl": "https://eravikulam.org",
+    "uniqueFeatures": "High altitude shola-grassland sanctuary protecting Nilgiri Tahr and Neelakurinji blooms.",
+    "sources": [
+      {
+        "label": "Kerala Forest Dept",
+        "url": "https://keralaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "anamudi-shola-national-park",
+    "name": "Anamudi Shola National Park",
+    "type": "national-park",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 10.2,
+    "lng": 77.1667,
+    "areaSqKm": 7.5,
+    "websiteUrl": "https://keralaforest.gov.in",
+    "uniqueFeatures": "Protected shola forest ecosystem surrounding Anamudi Peak.",
+    "sources": [
+      {
+        "label": "Kerala Forest Dept",
+        "url": "https://keralaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "pambadum-shola-national-park",
+    "name": "Pambadum Shola National Park",
+    "type": "national-park",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 10.1333,
+    "lng": 77.2667,
+    "areaSqKm": 1.32,
+    "websiteUrl": "https://keralaforest.gov.in",
+    "uniqueFeatures": "Smallest national park in Kerala protecting high altitude shola forests.",
+    "sources": [
+      {
+        "label": "Kerala Forest Dept",
+        "url": "https://keralaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "mathikettan-shola-national-park",
+    "name": "Mathikettan Shola National Park",
+    "type": "national-park",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 9.9667,
+    "lng": 77.2333,
+    "areaSqKm": 12.82,
+    "websiteUrl": "https://keralaforest.gov.in",
+    "uniqueFeatures": "Crucial elephant migration corridor connecting Cardamom Hills.",
+    "sources": [
+      {
+        "label": "Kerala Forest Dept",
+        "url": "https://keralaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "bandipur-national-park",
+    "name": "Bandipur National Park",
+    "type": "national-park",
+    "stateSlug": "karnataka",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 11.6667,
+    "lng": 76.6333,
+    "areaSqKm": 874,
+    "websiteUrl": "https://aranya.gov.in",
+    "uniqueFeatures": "Part of Nilgiri Biosphere Reserve, premier elephant and tiger stronghold.",
+    "sources": [
+      {
+        "label": "Karnataka Forest Dept",
+        "url": "https://aranya.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "nagarhole-national-park",
+    "name": "Nagarhole National Park (Kabini)",
+    "type": "national-park",
+    "stateSlug": "karnataka",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 12.0333,
+    "lng": 76.15,
+    "areaSqKm": 643,
+    "websiteUrl": "https://aranya.gov.in",
+    "uniqueFeatures": "Famous for Kabini riverfront wildlife sightings and leopards.",
+    "sources": [
+      {
+        "label": "Karnataka Forest Dept",
+        "url": "https://aranya.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "bannerghatta-national-park",
+    "name": "Bannerghatta National Park",
+    "type": "national-park",
+    "stateSlug": "karnataka",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 12.8,
+    "lng": 77.5833,
+    "areaSqKm": 260.5,
+    "websiteUrl": "https://aranya.gov.in",
+    "uniqueFeatures": "Urban national park near Bengaluru featuring elephant corridor and rescue center.",
+    "sources": [
+      {
+        "label": "Karnataka Forest Dept",
+        "url": "https://aranya.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "kudremukh-national-park",
+    "name": "Kudremukh National Park",
+    "type": "national-park",
+    "stateSlug": "karnataka",
+    "headlineSpeciesSlug": "lion-tailed-macaque",
+    "lat": 13.2167,
+    "lng": 75.25,
+    "areaSqKm": 600.32,
+    "websiteUrl": "https://aranya.gov.in",
+    "uniqueFeatures": "Western Ghats tropical wet evergreen forest, prime Lion-tailed Macaque habitat.",
+    "sources": [
+      {
+        "label": "Karnataka Forest Dept",
+        "url": "https://aranya.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "ansi-national-park-kali",
+    "name": "Kali Tiger Reserve (Anshi National Park)",
+    "type": "national-park",
+    "stateSlug": "karnataka",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 15,
+    "lng": 74.3333,
+    "areaSqKm": 417.34,
+    "websiteUrl": "https://aranya.gov.in",
+    "uniqueFeatures": "Dense Western Ghats rainforest along Kali River, home to Black Panthers.",
+    "sources": [
+      {
+        "label": "Karnataka Forest Dept",
+        "url": "https://aranya.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "mudumalai-national-park",
+    "name": "Mudumalai National Park",
+    "type": "national-park",
+    "stateSlug": "tamil-nadu",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 11.5667,
+    "lng": 76.5333,
+    "areaSqKm": 321,
+    "websiteUrl": "https://forests.tn.gov.in",
+    "uniqueFeatures": "Nilgiri biosphere tiger and elephant sanctuary bordering Kerala and Karnataka.",
+    "sources": [
+      {
+        "label": "TN Forest Dept",
+        "url": "https://forests.tn.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "guindy-national-park",
+    "name": "Guindy National Park",
+    "type": "national-park",
+    "stateSlug": "tamil-nadu",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 13,
+    "lng": 80.2167,
+    "areaSqKm": 2.7,
+    "websiteUrl": "https://forests.tn.gov.in",
+    "uniqueFeatures": "One of the few national parks situated inside a major Indian metropolis (Chennai).",
+    "sources": [
+      {
+        "label": "TN Forest Dept",
+        "url": "https://forests.tn.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "gulf-of-mannar-marine-national-park",
+    "name": "Gulf of Mannar Marine National Park",
+    "type": "national-park",
+    "stateSlug": "tamil-nadu",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 9.2333,
+    "lng": 79.1333,
+    "areaSqKm": 560,
+    "websiteUrl": "https://forests.tn.gov.in",
+    "uniqueFeatures": "Consists of 21 islands protecting coral reefs, sea turtles, and Dugongs.",
+    "sources": [
+      {
+        "label": "TN Forest Dept",
+        "url": "https://forests.tn.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "indira-gandhi-national-park-anamalai",
+    "name": "Anamalai Tiger Reserve (Indira Gandhi NP)",
+    "type": "national-park",
+    "stateSlug": "tamil-nadu",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 10.5,
+    "lng": 76.8333,
+    "areaSqKm": 117.1,
+    "websiteUrl": "https://forests.tn.gov.in",
+    "uniqueFeatures": "Western Ghats mountain reserve famous for Nilgiri Tahr and Great Hornbills.",
+    "sources": [
+      {
+        "label": "TN Forest Dept",
+        "url": "https://forests.tn.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "mukurthi-national-park",
+    "name": "Mukurthi National Park",
+    "type": "national-park",
+    "stateSlug": "tamil-nadu",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 11.3,
+    "lng": 76.55,
+    "areaSqKm": 78.46,
+    "websiteUrl": "https://forests.tn.gov.in",
+    "uniqueFeatures": "High altitude Nilgiri montane grassland created specifically to protect the Nilgiri Tahr.",
+    "sources": [
+      {
+        "label": "TN Forest Dept",
+        "url": "https://forests.tn.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "tadoba-andhari-national-park",
+    "name": "Tadoba Andhari National Park",
+    "type": "national-park",
+    "stateSlug": "maharashtra",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 20.25,
+    "lng": 79.35,
+    "areaSqKm": 625.4,
+    "websiteUrl": "https://mahaforest.gov.in",
+    "uniqueFeatures": "Maharashtra's oldest and largest national park, famous for high tiger sighting frequency.",
+    "sources": [
+      {
+        "label": "Maharashtra Forest Dept",
+        "url": "https://mahaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "sanjay-gandhi-national-park",
+    "name": "Sanjay Gandhi National Park (Borivali)",
+    "type": "national-park",
+    "stateSlug": "maharashtra",
+    "headlineSpeciesSlug": "indian-giant-squirrel",
+    "lat": 19.2333,
+    "lng": 72.9167,
+    "areaSqKm": 87,
+    "websiteUrl": "https://sgnp.maharashtra.gov.in",
+    "uniqueFeatures": "Vast protected tropical forest inside Mumbai city limits, housing Kanheri Caves and leopards.",
+    "sources": [
+      {
+        "label": "Maharashtra Forest Dept",
+        "url": "https://sgnp.maharashtra.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "pench-national-park-maharashtra",
+    "name": "Pench National Park (Maharashtra)",
+    "type": "national-park",
+    "stateSlug": "maharashtra",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 21.6167,
+    "lng": 79.2167,
+    "areaSqKm": 257.26,
+    "websiteUrl": "https://mahaforest.gov.in",
+    "uniqueFeatures": "Southern extension of the Pench tiger habitat in Nagpur district.",
+    "sources": [
+      {
+        "label": "Maharashtra Forest Dept",
+        "url": "https://mahaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "navegaon-national-park",
+    "name": "Navegaon National Park",
+    "type": "national-park",
+    "stateSlug": "maharashtra",
+    "headlineSpeciesSlug": "indian-giant-squirrel",
+    "lat": 20.9167,
+    "lng": 80.1667,
+    "areaSqKm": 133.88,
+    "websiteUrl": "https://mahaforest.gov.in",
+    "uniqueFeatures": "Vidarbha forest reserve around Navegaon Lake, vital bird migration habitat.",
+    "sources": [
+      {
+        "label": "Maharashtra Forest Dept",
+        "url": "https://mahaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "gugamal-national-park",
+    "name": "Gugamal National Park (Melghat)",
+    "type": "national-park",
+    "stateSlug": "maharashtra",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 21.3667,
+    "lng": 77.2,
+    "areaSqKm": 361.28,
+    "websiteUrl": "https://mahaforest.gov.in",
+    "uniqueFeatures": "Satpura hill forest of Melghat Tiger Reserve.",
+    "sources": [
+      {
+        "label": "Maharashtra Forest Dept",
+        "url": "https://mahaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "chandoli-national-park",
+    "name": "Chandoli National Park",
+    "type": "national-park",
+    "stateSlug": "maharashtra",
+    "headlineSpeciesSlug": "indian-giant-squirrel",
+    "lat": 17.1333,
+    "lng": 73.85,
+    "areaSqKm": 317.67,
+    "websiteUrl": "https://mahaforest.gov.in",
+    "uniqueFeatures": "UNESCO Sahyadri Tiger Reserve core area along Chandoli Dam.",
+    "sources": [
+      {
+        "label": "Maharashtra Forest Dept",
+        "url": "https://mahaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "similipal-national-park",
+    "name": "Similipal National Park",
+    "type": "national-park",
+    "stateSlug": "odisha",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 21.9333,
+    "lng": 86.3333,
+    "areaSqKm": 845.7,
+    "websiteUrl": "https://similipal.org",
+    "uniqueFeatures": "UNESCO Biosphere Reserve, home to unique melanistic (black) tigers.",
+    "sources": [
+      {
+        "label": "Odisha Forest Dept",
+        "url": "https://similipal.org",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "bhitarkanika-national-park",
+    "name": "Bhitarkanika National Park",
+    "type": "national-park",
+    "stateSlug": "odisha",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 20.7333,
+    "lng": 86.8667,
+    "areaSqKm": 145,
+    "websiteUrl": "https://odishaforest.in",
+    "uniqueFeatures": "India's premier saltwater crocodile breeding sanctuary and mangrove delta.",
+    "sources": [
+      {
+        "label": "Odisha Forest Dept",
+        "url": "https://odishaforest.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "hemis-national-park-ladakh",
     "name": "Hemis National Park",
     "type": "national-park",
     "stateSlug": "jammu-and-kashmir",
@@ -178,10 +1279,10 @@
     "lng": 77.42,
     "areaSqKm": 4400,
     "websiteUrl": "https://jkwildlife.com",
-    "uniqueFeatures": "India's largest national park, located in high-altitude Ladakh; world capital of the Snow Leopard.",
+    "uniqueFeatures": "India's largest national park; global stronghold for Snow Leopards.",
     "sources": [
       {
-        "label": "J&K Wildlife Protection Department",
+        "label": "J&K Wildlife Dept",
         "url": "https://jkwildlife.com",
         "accessedDate": "2026-07-29"
       }
@@ -189,21 +1290,820 @@
     "needsResearch": false
   },
   {
-    "slug": "manas-national-park",
-    "name": "Manas National Park",
+    "slug": "dachigam-national-park",
+    "name": "Dachigam National Park",
     "type": "national-park",
-    "stateSlug": "assam",
-    "headlineSpeciesSlug": "indian-rhinoceros",
-    "photoUrl": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&auto=format&fit=crop&q=80",
-    "lat": 26.6594,
-    "lng": 91.0011,
-    "areaSqKm": 950,
-    "websiteUrl": "https://forest.assam.gov.in",
-    "uniqueFeatures": "UNESCO World Heritage Site at the Himalayan foothills, famous for Pygmy Hog, Golden Langur, and Wild Water Buffalo.",
+    "stateSlug": "jammu-and-kashmir",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 34.1333,
+    "lng": 74.9333,
+    "areaSqKm": 141,
+    "websiteUrl": "https://jkwildlife.com",
+    "uniqueFeatures": "The sole natural habitat of the critically endangered Hangul (Kashmir Stag).",
     "sources": [
       {
-        "label": "Assam Forest Department",
-        "url": "https://forest.assam.gov.in",
+        "label": "J&K Wildlife Dept",
+        "url": "https://jkwildlife.com",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "kishtwar-national-park",
+    "name": "Kishtwar High Altitude National Park",
+    "type": "national-park",
+    "stateSlug": "jammu-and-kashmir",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 33.3333,
+    "lng": 75.7667,
+    "areaSqKm": 400,
+    "websiteUrl": "https://jkwildlife.com",
+    "uniqueFeatures": "High altitude alpine park protecting Himalayan Brown Bear and Musk Deer.",
+    "sources": [
+      {
+        "label": "J&K Wildlife Dept",
+        "url": "https://jkwildlife.com",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "kazinag-national-park",
+    "name": "Kazinag National Park",
+    "type": "national-park",
+    "stateSlug": "jammu-and-kashmir",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 34.2,
+    "lng": 74.05,
+    "areaSqKm": 160,
+    "websiteUrl": "https://jkwildlife.com",
+    "uniqueFeatures": "Created along LOC to protect the endangered Markhor wild goat.",
+    "sources": [
+      {
+        "label": "J&K Wildlife Dept",
+        "url": "https://jkwildlife.com",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "salim-ali-national-park-srinagar",
+    "name": "City Forest (Salim Ali) National Park",
+    "type": "national-park",
+    "stateSlug": "jammu-and-kashmir",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 34.0833,
+    "lng": 74.8333,
+    "areaSqKm": 9.07,
+    "websiteUrl": "https://jkwildlife.com",
+    "uniqueFeatures": "Urban wetland national park in Srinagar near Dal Lake.",
+    "sources": [
+      {
+        "label": "J&K Wildlife Dept",
+        "url": "https://jkwildlife.com",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "great-himalayan-national-park",
+    "name": "Great Himalayan National Park",
+    "type": "national-park",
+    "stateSlug": "himachal-pradesh",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 31.6333,
+    "lng": 77.4333,
+    "areaSqKm": 754.4,
+    "websiteUrl": "https://greathimalayannationalpark.com",
+    "uniqueFeatures": "UNESCO World Heritage site protecting Western Himalayan biodiversity and Western Tragopan.",
+    "sources": [
+      {
+        "label": "HP Forest Dept",
+        "url": "https://hpforest.nic.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "pin-valley-national-park",
+    "name": "Pin Valley National Park",
+    "type": "national-park",
+    "stateSlug": "himachal-pradesh",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 32.0167,
+    "lng": 77.9167,
+    "areaSqKm": 675,
+    "websiteUrl": "https://hpforest.nic.in",
+    "uniqueFeatures": "Cold desert high altitude park in Spiti Valley, habitat of Snow Leopard and Ibex.",
+    "sources": [
+      {
+        "label": "HP Forest Dept",
+        "url": "https://hpforest.nic.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "inderkilla-national-park",
+    "name": "Inderkilla National Park",
+    "type": "national-park",
+    "stateSlug": "himachal-pradesh",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 32.2,
+    "lng": 77.2,
+    "areaSqKm": 104,
+    "websiteUrl": "https://hpforest.nic.in",
+    "uniqueFeatures": "Kullu mountain park protecting rare flora and alpine fauna.",
+    "sources": [
+      {
+        "label": "HP Forest Dept",
+        "url": "https://hpforest.nic.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "khirganga-national-park",
+    "name": "Khirganga National Park",
+    "type": "national-park",
+    "stateSlug": "himachal-pradesh",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 31.9833,
+    "lng": 77.5167,
+    "areaSqKm": 710,
+    "websiteUrl": "https://hpforest.nic.in",
+    "uniqueFeatures": "High altitude Parvati Valley reserve.",
+    "sources": [
+      {
+        "label": "HP Forest Dept",
+        "url": "https://hpforest.nic.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "simbalbara-national-park",
+    "name": "Simbalbara National Park",
+    "type": "national-park",
+    "stateSlug": "himachal-pradesh",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 30.4333,
+    "lng": 77.5167,
+    "areaSqKm": 27.88,
+    "websiteUrl": "https://hpforest.nic.in",
+    "uniqueFeatures": "Shivalik valley park protecting Goral and Sambhar in Sirmaur district.",
+    "sources": [
+      {
+        "label": "HP Forest Dept",
+        "url": "https://hpforest.nic.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "dudhwa-national-park",
+    "name": "Dudhwa National Park",
+    "type": "national-park",
+    "stateSlug": "uttar-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 28.5,
+    "lng": 80.65,
+    "areaSqKm": 490.3,
+    "websiteUrl": "https://dudhwatigerreserve.in",
+    "uniqueFeatures": "Terai marshland reserve along Nepal border protecting Swamp Deer, Rhinos, and Tigers.",
+    "sources": [
+      {
+        "label": "UP Forest Dept",
+        "url": "https://upforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "valmiki-national-park",
+    "name": "Valmiki National Park",
+    "type": "national-park",
+    "stateSlug": "bihar",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 27.35,
+    "lng": 84.15,
+    "areaSqKm": 335.65,
+    "websiteUrl": "https://forest.bihar.gov.in",
+    "uniqueFeatures": "Bihar's sole tiger reserve, located along Gandak River contiguous with Chitwan in Nepal.",
+    "sources": [
+      {
+        "label": "Bihar Forest Dept",
+        "url": "https://forest.bihar.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "indravati-national-park",
+    "name": "Indravati National Park",
+    "type": "national-park",
+    "stateSlug": "chhattisgarh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 18.9667,
+    "lng": 81.1667,
+    "areaSqKm": 1258,
+    "websiteUrl": "https://forest.cg.gov.in",
+    "uniqueFeatures": "Famous as one of the last wild refuges for the endangered Wild Water Buffalo.",
+    "sources": [
+      {
+        "label": "CG Forest Dept",
+        "url": "https://forest.cg.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "kanger-valley-national-park",
+    "name": "Kanger Valley National Park",
+    "type": "national-park",
+    "stateSlug": "chhattisgarh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 18.8833,
+    "lng": 81.9833,
+    "areaSqKm": 200,
+    "websiteUrl": "https://forest.cg.gov.in",
+    "uniqueFeatures": "Famous for subterranean limestone caves (Kotumsar Caves) and Bastar Hill Myna.",
+    "sources": [
+      {
+        "label": "CG Forest Dept",
+        "url": "https://forest.cg.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "guru-ghasidas-national-park",
+    "name": "Guru Ghasidas National Park",
+    "type": "national-park",
+    "stateSlug": "chhattisgarh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 23.75,
+    "lng": 82.3333,
+    "areaSqKm": 1440.7,
+    "websiteUrl": "https://forest.cg.gov.in",
+    "uniqueFeatures": "Vast northern Chhattisgarh forest connecting Sanjay Tiger Reserve in MP.",
+    "sources": [
+      {
+        "label": "CG Forest Dept",
+        "url": "https://forest.cg.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "betla-national-park",
+    "name": "Betla National Park",
+    "type": "national-park",
+    "stateSlug": "jharkhand",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 23.7167,
+    "lng": 84.1833,
+    "areaSqKm": 226,
+    "websiteUrl": "https://forest.jharkhand.gov.in",
+    "uniqueFeatures": "One of India's earliest Project Tiger reserves in Chota Nagpur plateau.",
+    "sources": [
+      {
+        "label": "Jharkhand Forest Dept",
+        "url": "https://forest.jharkhand.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "papikonda-national-park",
+    "name": "Papikonda National Park",
+    "type": "national-park",
+    "stateSlug": "andhra-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 17.5,
+    "lng": 81.5,
+    "areaSqKm": 1012.86,
+    "websiteUrl": "https://forests.ap.gov.in",
+    "uniqueFeatures": "Eastern Ghats river gorge reserve along Godavari River.",
+    "sources": [
+      {
+        "label": "AP Forest Dept",
+        "url": "https://forests.ap.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "sri-venkateswara-national-park",
+    "name": "Sri Venkateswara National Park",
+    "type": "national-park",
+    "stateSlug": "andhra-pradesh",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 13.75,
+    "lng": 79.35,
+    "areaSqKm": 353.62,
+    "websiteUrl": "https://forests.ap.gov.in",
+    "uniqueFeatures": "Seshachalam Biosphere Reserve, sanctuary for endemic Red Sanders tree.",
+    "sources": [
+      {
+        "label": "AP Forest Dept",
+        "url": "https://forests.ap.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "kasu-brahmananda-reddy-national-park",
+    "name": "Kasu Brahmananda Reddy National Park",
+    "type": "national-park",
+    "stateSlug": "telangana",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 17.4167,
+    "lng": 78.4333,
+    "areaSqKm": 1.43,
+    "websiteUrl": "https://forests.telangana.gov.in",
+    "uniqueFeatures": "Urban national park in Jubilee Hills, Hyderabad.",
+    "sources": [
+      {
+        "label": "Telangana Forest Dept",
+        "url": "https://forests.telangana.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "mahavir-harina-vanasthali-national-park",
+    "name": "Mahavir Harina Vanasthali National Park",
+    "type": "national-park",
+    "stateSlug": "telangana",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 17.3333,
+    "lng": 78.5833,
+    "areaSqKm": 14.59,
+    "websiteUrl": "https://forests.telangana.gov.in",
+    "uniqueFeatures": "Blackbuck sanctuary on outskirts of Hyderabad.",
+    "sources": [
+      {
+        "label": "Telangana Forest Dept",
+        "url": "https://forests.telangana.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "mrugavani-national-park",
+    "name": "Mrugavani National Park",
+    "type": "national-park",
+    "stateSlug": "telangana",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 17.35,
+    "lng": 78.3333,
+    "areaSqKm": 3.6,
+    "websiteUrl": "https://forests.telangana.gov.in",
+    "uniqueFeatures": "Deciduous rocky scrub forest reserve in Chilkur, Hyderabad.",
+    "sources": [
+      {
+        "label": "Telangana Forest Dept",
+        "url": "https://forests.telangana.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "भगवान-महावीर-राष्ट्रीय-उद्यान-mollem",
+    "name": "Bhagwan Mahaveer (Mollem) National Park",
+    "type": "national-park",
+    "stateSlug": "goa",
+    "headlineSpeciesSlug": "great-hornbill",
+    "lat": 15.3667,
+    "lng": 74.25,
+    "areaSqKm": 107,
+    "websiteUrl": "https://forest.goa.gov.in",
+    "uniqueFeatures": "Western Ghats tropical forest housing Dudhsagar Falls.",
+    "sources": [
+      {
+        "label": "Goa Forest Dept",
+        "url": "https://forest.goa.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "namdapha-national-park",
+    "name": "Namdapha National Park",
+    "type": "national-park",
+    "stateSlug": "arunachal-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 27.5,
+    "lng": 96.5,
+    "areaSqKm": 1985.2,
+    "websiteUrl": "https://arunachalforest.gov.in",
+    "uniqueFeatures": "Biodiversity hotspot where snow leopards, cloud leopards, common leopards, and tigers coexist.",
+    "sources": [
+      {
+        "label": "Arunachal Forest Dept",
+        "url": "https://arunachalforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "mouling-national-park",
+    "name": "Mouling National Park",
+    "type": "national-park",
+    "stateSlug": "arunachal-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 28.5,
+    "lng": 94.75,
+    "areaSqKm": 483,
+    "websiteUrl": "https://arunachalforest.gov.in",
+    "uniqueFeatures": "Siang valley park protecting Red Panda and Takin.",
+    "sources": [
+      {
+        "label": "Arunachal Forest Dept",
+        "url": "https://arunachalforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "keibul-lamjao-national-park",
+    "name": "Keibul Lamjao National Park",
+    "type": "national-park",
+    "stateSlug": "manipur",
+    "headlineSpeciesSlug": "barasingha",
+    "lat": 24.5,
+    "lng": 93.85,
+    "areaSqKm": 40,
+    "websiteUrl": "https://forest.manipur.gov.in",
+    "uniqueFeatures": "The world's only floating national park, located on Loktak Lake; sole home of Sangai deer.",
+    "sources": [
+      {
+        "label": "Manipur Forest Dept",
+        "url": "https://forest.manipur.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "balphakram-national-park",
+    "name": "Balphakram National Park",
+    "type": "national-park",
+    "stateSlug": "meghalaya",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 25.2167,
+    "lng": 90.8667,
+    "areaSqKm": 220,
+    "websiteUrl": "https://megforest.gov.in",
+    "uniqueFeatures": "Garo Hills plateau canyon park famous for Asian Elephants and Red Pandas.",
+    "sources": [
+      {
+        "label": "Meghalaya Forest Dept",
+        "url": "https://megforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "nokrek-national-park",
+    "name": "Nokrek National Park",
+    "type": "national-park",
+    "stateSlug": "meghalaya",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 25.4833,
+    "lng": 90.3167,
+    "areaSqKm": 47.48,
+    "websiteUrl": "https://megforest.gov.in",
+    "uniqueFeatures": "UNESCO Biosphere Reserve in West Garo Hills protecting wild Citrus (gene sanctuary).",
+    "sources": [
+      {
+        "label": "Meghalaya Forest Dept",
+        "url": "https://megforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "murlen-national-park",
+    "name": "Murlen National Park",
+    "type": "national-park",
+    "stateSlug": "mizoram",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 23.6333,
+    "lng": 93.2833,
+    "areaSqKm": 100,
+    "websiteUrl": "https://forest.mizoram.gov.in",
+    "uniqueFeatures": "Dense sub-tropical forest where sunlight barely penetrates the canopy.",
+    "sources": [
+      {
+        "label": "Mizoram Forest Dept",
+        "url": "https://forest.mizoram.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "phawngpui-blue-mountain-national-park",
+    "name": "Phawngpui Blue Mountain National Park",
+    "type": "national-park",
+    "stateSlug": "mizoram",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 22.65,
+    "lng": 93.0333,
+    "areaSqKm": 50,
+    "websiteUrl": "https://forest.mizoram.gov.in",
+    "uniqueFeatures": "Highest peak reserve in Mizoram, home to Blyth's Tragopan.",
+    "sources": [
+      {
+        "label": "Mizoram Forest Dept",
+        "url": "https://forest.mizoram.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "ntangki-national-park",
+    "name": "Ntangki National Park",
+    "type": "national-park",
+    "stateSlug": "nagaland",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 25.5667,
+    "lng": 93.5333,
+    "areaSqKm": 202.02,
+    "websiteUrl": "https://forest.nagaland.gov.in",
+    "uniqueFeatures": "Peren district rainforest protecting Hoolock Gibbon and Hornbills.",
+    "sources": [
+      {
+        "label": "Nagaland Forest Dept",
+        "url": "https://forest.nagaland.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "khangchendzonga-national-park",
+    "name": "Khangchendzonga National Park",
+    "type": "national-park",
+    "stateSlug": "sikkim",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 27.6,
+    "lng": 88.3333,
+    "areaSqKm": 1784,
+    "websiteUrl": "https://sikkimforest.gov.in",
+    "uniqueFeatures": "UNESCO Mixed Heritage Site surrounding Mt. Kanchenjunga, world's 3rd highest peak.",
+    "sources": [
+      {
+        "label": "Sikkim Forest Dept",
+        "url": "https://sikkimforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "clouded-leopard-national-park",
+    "name": "Clouded Leopard National Park",
+    "type": "national-park",
+    "stateSlug": "tripura",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 23.6167,
+    "lng": 91.3167,
+    "areaSqKm": 5.08,
+    "websiteUrl": "https://forest.tripura.gov.in",
+    "uniqueFeatures": "Part of Sepahijala Wildlife Sanctuary protecting rare Clouded Leopards.",
+    "sources": [
+      {
+        "label": "Tripura Forest Dept",
+        "url": "https://forest.tripura.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "bison-rajbari-national-park",
+    "name": "Rajbari (Bison) National Park",
+    "type": "national-park",
+    "stateSlug": "tripura",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 23.2833,
+    "lng": 91.4333,
+    "areaSqKm": 31.63,
+    "websiteUrl": "https://forest.tripura.gov.in",
+    "uniqueFeatures": "Trishna Wildlife Sanctuary core protecting Indian Gaur (Bison).",
+    "sources": [
+      {
+        "label": "Tripura Forest Dept",
+        "url": "https://forest.tripura.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "campbell-bay-national-park",
+    "name": "Campbell Bay National Park",
+    "type": "national-park",
+    "stateSlug": "andaman-and-nicobar-islands",
+    "headlineSpeciesSlug": "nicobar-long-tailed-macaque",
+    "lat": 7,
+    "lng": 93.8,
+    "areaSqKm": 426,
+    "websiteUrl": "https://forest.andaman.gov.in",
+    "uniqueFeatures": "Great Nicobar Biosphere Reserve protecting Nicobar Megapode and Crab-eating Macaque.",
+    "sources": [
+      {
+        "label": "A&N Forest Dept",
+        "url": "https://forest.andaman.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "galathea-bay-national-park",
+    "name": "Galathea Bay National Park",
+    "type": "national-park",
+    "stateSlug": "andaman-and-nicobar-islands",
+    "headlineSpeciesSlug": "nicobar-long-tailed-macaque",
+    "lat": 6.8333,
+    "lng": 93.85,
+    "areaSqKm": 110,
+    "websiteUrl": "https://forest.andaman.gov.in",
+    "uniqueFeatures": "Great Nicobar nesting beach for Giant Leatherback Sea Turtles.",
+    "sources": [
+      {
+        "label": "A&N Forest Dept",
+        "url": "https://forest.andaman.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "mahatma-gandhi-marine-national-park",
+    "name": "Mahatma Gandhi Marine National Park",
+    "type": "national-park",
+    "stateSlug": "andaman-and-nicobar-islands",
+    "headlineSpeciesSlug": "narcondam-hornbill",
+    "lat": 11.6,
+    "lng": 92.5833,
+    "areaSqKm": 281.5,
+    "websiteUrl": "https://forest.andaman.gov.in",
+    "uniqueFeatures": "Wandoor coral reef islands preserving rich marine life and sea turtles.",
+    "sources": [
+      {
+        "label": "A&N Forest Dept",
+        "url": "https://forest.andaman.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "middle-button-island-national-park",
+    "name": "Middle Button Island National Park",
+    "type": "national-park",
+    "stateSlug": "andaman-and-nicobar-islands",
+    "headlineSpeciesSlug": "narcondam-hornbill",
+    "lat": 12.2833,
+    "lng": 92.9667,
+    "areaSqKm": 0.44,
+    "websiteUrl": "https://forest.andaman.gov.in",
+    "uniqueFeatures": "Island park protecting coral reefs and Spotted Deer.",
+    "sources": [
+      {
+        "label": "A&N Forest Dept",
+        "url": "https://forest.andaman.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "north-button-island-national-park",
+    "name": "North Button Island National Park",
+    "type": "national-park",
+    "stateSlug": "andaman-and-nicobar-islands",
+    "headlineSpeciesSlug": "narcondam-hornbill",
+    "lat": 12.3167,
+    "lng": 92.9333,
+    "areaSqKm": 0.44,
+    "websiteUrl": "https://forest.andaman.gov.in",
+    "uniqueFeatures": "Dugong and dolphin marine island reserve.",
+    "sources": [
+      {
+        "label": "A&N Forest Dept",
+        "url": "https://forest.andaman.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "south-button-island-national-park",
+    "name": "South Button Island National Park",
+    "type": "national-park",
+    "stateSlug": "andaman-and-nicobar-islands",
+    "headlineSpeciesSlug": "narcondam-hornbill",
+    "lat": 12.2167,
+    "lng": 93.0167,
+    "areaSqKm": 0.03,
+    "websiteUrl": "https://forest.andaman.gov.in",
+    "uniqueFeatures": "Tiny islet famous for scuba diving among shallow coral reefs.",
+    "sources": [
+      {
+        "label": "A&N Forest Dept",
+        "url": "https://forest.andaman.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "mount-harriet-national-park",
+    "name": "Mount Manipur (Harriet) National Park",
+    "type": "national-park",
+    "stateSlug": "andaman-and-nicobar-islands",
+    "headlineSpeciesSlug": "narcondam-hornbill",
+    "lat": 11.7167,
+    "lng": 92.7333,
+    "areaSqKm": 46.62,
+    "websiteUrl": "https://forest.andaman.gov.in",
+    "uniqueFeatures": "Peak reserve near Port Blair depicted on the back of the ₹20 currency note.",
+    "sources": [
+      {
+        "label": "A&N Forest Dept",
+        "url": "https://forest.andaman.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "rani-jhansi-marine-national-park",
+    "name": "Rani Jhansi Marine National Park",
+    "type": "national-park",
+    "stateSlug": "andaman-and-nicobar-islands",
+    "headlineSpeciesSlug": "narcondam-hornbill",
+    "lat": 12,
+    "lng": 93.0833,
+    "areaSqKm": 256.14,
+    "websiteUrl": "https://forest.andaman.gov.in",
+    "uniqueFeatures": "Ritchie's Archipelago coral reef reserve.",
+    "sources": [
+      {
+        "label": "A&N Forest Dept",
+        "url": "https://forest.andaman.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "saddle-peak-national-park",
+    "name": "Saddle Peak National Park",
+    "type": "national-park",
+    "stateSlug": "andaman-and-nicobar-islands",
+    "headlineSpeciesSlug": "narcondam-hornbill",
+    "lat": 13.25,
+    "lng": 93.0333,
+    "areaSqKm": 32.54,
+    "websiteUrl": "https://forest.andaman.gov.in",
+    "uniqueFeatures": "Highest point in North Andaman surrounded by uninhabited tropical forest.",
+    "sources": [
+      {
+        "label": "A&N Forest Dept",
+        "url": "https://forest.andaman.gov.in",
         "accessedDate": "2026-07-29"
       }
     ],

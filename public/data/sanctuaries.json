@@ -10,11 +10,91 @@
     "lng": 77.15,
     "areaSqKm": 777,
     "websiteUrl": "https://periyartigerreserve.org",
-    "uniqueFeatures": "Scenic artificial lake formed by Mullaperiyar Dam where wild elephant herds come to bathe.",
+    "uniqueFeatures": "Scenic artificial lake formed by Mullaperiyar Dam where wild elephant herds gather.",
     "sources": [
       {
         "label": "Periyar Tiger Reserve",
         "url": "https://periyartigerreserve.org",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "wayanad-wildlife-sanctuary",
+    "name": "Wayanad Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 11.6833,
+    "lng": 76.3667,
+    "areaSqKm": 344.44,
+    "websiteUrl": "https://keralaforest.gov.in",
+    "uniqueFeatures": "Part of Nilgiri Biosphere Reserve connecting Bandipur and Mudumalai.",
+    "sources": [
+      {
+        "label": "Kerala Forest Dept",
+        "url": "https://keralaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "parambikulam-tiger-reserve",
+    "name": "Parambikulam Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 10.4,
+    "lng": 76.7833,
+    "areaSqKm": 285,
+    "websiteUrl": "https://parambikulam.org",
+    "uniqueFeatures": "High tiger density reserve featuring Kannimara Teak, one of the world's oldest teak trees.",
+    "sources": [
+      {
+        "label": "Kerala Forest Dept",
+        "url": "https://keralaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "thattekad-bird-sanctuary",
+    "name": "Thattekad Bird Sanctuary (Salim Ali)",
+    "type": "bird-sanctuary",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 10.1333,
+    "lng": 76.6833,
+    "areaSqKm": 25.16,
+    "websiteUrl": "https://keralaforest.gov.in",
+    "uniqueFeatures": "Described by Dr. Salim Ali as the richest bird habitat in peninsular India.",
+    "sources": [
+      {
+        "label": "Kerala Forest Dept",
+        "url": "https://keralaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "kumarakom-bird-sanctuary",
+    "name": "Kumarakom Bird Sanctuary",
+    "type": "bird-sanctuary",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 9.6167,
+    "lng": 76.4333,
+    "areaSqKm": 0.57,
+    "websiteUrl": "https://keralaforest.gov.in",
+    "uniqueFeatures": "Vembanad lakefront wetland roosting ground for migratory Siberian Cranes.",
+    "sources": [
+      {
+        "label": "Kerala Forest Dept",
+        "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
       }
     ],
@@ -31,10 +111,70 @@
     "lng": 77.52,
     "areaSqKm": 29,
     "websiteUrl": "https://forest.rajasthan.gov.in",
-    "uniqueFeatures": "UNESCO World Heritage wetlands hosting over 370 resident and migratory bird species every winter.",
+    "uniqueFeatures": "UNESCO World Heritage wetlands hosting over 370 bird species.",
     "sources": [
       {
-        "label": "Rajasthan Forest Department",
+        "label": "Rajasthan Forest Dept",
+        "url": "https://forest.rajasthan.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "kumbhalgarh-wildlife-sanctuary",
+    "name": "Kumbhalgarh Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "rajasthan",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 25.1333,
+    "lng": 73.5833,
+    "areaSqKm": 578,
+    "websiteUrl": "https://forest.rajasthan.gov.in",
+    "uniqueFeatures": "Aravalli range sanctuary surrounding historical Kumbhalgarh Fort.",
+    "sources": [
+      {
+        "label": "Rajasthan Forest Dept",
+        "url": "https://forest.rajasthan.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "national-chambal-sanctuary",
+    "name": "National Chambal Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "rajasthan",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 26.8333,
+    "lng": 78.4333,
+    "areaSqKm": 5400,
+    "websiteUrl": "https://forest.rajasthan.gov.in",
+    "uniqueFeatures": "Tri-state river sanctuary protecting critically endangered Gharial and Gangetic Dolphin.",
+    "sources": [
+      {
+        "label": "WII",
+        "url": "https://wii.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "mount-abu-wildlife-sanctuary",
+    "name": "Mount Abu Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "rajasthan",
+    "headlineSpeciesSlug": "indian-eagle-owl",
+    "lat": 24.6,
+    "lng": 72.7167,
+    "areaSqKm": 288,
+    "websiteUrl": "https://forest.rajasthan.gov.in",
+    "uniqueFeatures": "Sub-tropical forest plateau in Aravalli range rich in orchids and leopards.",
+    "sources": [
+      {
+        "label": "Rajasthan Forest Dept",
         "url": "https://forest.rajasthan.gov.in",
         "accessedDate": "2026-07-29"
       }
@@ -52,10 +192,50 @@
     "lng": 73.8706,
     "areaSqKm": 1.8,
     "websiteUrl": "https://forest.goa.gov.in",
-    "uniqueFeatures": "Estuarine mangrove habitat along Mandovi River named after India's pioneer ornithologist Dr. Salim Ali.",
+    "uniqueFeatures": "Estuarine mangrove habitat along Mandovi River named after Dr. Salim Ali.",
     "sources": [
       {
-        "label": "Goa Forest Department",
+        "label": "Goa Forest Dept",
+        "url": "https://forest.goa.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "cotigao-wildlife-sanctuary",
+    "name": "Cotigao Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "goa",
+    "headlineSpeciesSlug": "great-hornbill",
+    "lat": 14.9667,
+    "lng": 74.15,
+    "areaSqKm": 86,
+    "websiteUrl": "https://forest.goa.gov.in",
+    "uniqueFeatures": "Dense multi-story Western Ghats forest with observation treetop decks.",
+    "sources": [
+      {
+        "label": "Goa Forest Dept",
+        "url": "https://forest.goa.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "netravali-wildlife-sanctuary",
+    "name": "Netravali Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "goa",
+    "headlineSpeciesSlug": "great-hornbill",
+    "lat": 15.1167,
+    "lng": 74.2,
+    "areaSqKm": 211,
+    "websiteUrl": "https://forest.goa.gov.in",
+    "uniqueFeatures": "Crucial Western Ghats corridor connecting Bhagwan Mahaveer and Bhimgad.",
+    "sources": [
+      {
+        "label": "Goa Forest Dept",
         "url": "https://forest.goa.gov.in",
         "accessedDate": "2026-07-29"
       }
@@ -73,10 +253,50 @@
     "lng": 86.8683,
     "areaSqKm": 672,
     "websiteUrl": "https://odishaforest.in",
-    "uniqueFeatures": "India's second largest mangrove ecosystem, famous for giant Saltwater Crocodiles and nesting Olive Ridley sea turtles.",
+    "uniqueFeatures": "Second largest mangrove ecosystem in India, famous for giant Saltwater Crocodiles.",
     "sources": [
       {
-        "label": "Odisha Forest Department",
+        "label": "Odisha Forest Dept",
+        "url": "https://odishaforest.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "chilika-lake-nalabana-bird-sanctuary",
+    "name": "Nalabana Bird Sanctuary (Chilika Lake)",
+    "type": "bird-sanctuary",
+    "stateSlug": "odisha",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 19.6833,
+    "lng": 85.35,
+    "areaSqKm": 15.53,
+    "websiteUrl": "https://chilika.com",
+    "uniqueFeatures": "Core island sanctuary of Asia's largest brackish water lagoon, hosting over a million wintering waterfowl.",
+    "sources": [
+      {
+        "label": "Chilika Development Authority",
+        "url": "https://chilika.com",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "gahirmatha-marine-sanctuary",
+    "name": "Gahirmatha Marine Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "odisha",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "lat": 20.7333,
+    "lng": 87.0167,
+    "areaSqKm": 1435,
+    "websiteUrl": "https://odishaforest.in",
+    "uniqueFeatures": "World's largest rookery for Olive Ridley Sea Turtles.",
+    "sources": [
+      {
+        "label": "Odisha Forest Dept",
         "url": "https://odishaforest.in",
         "accessedDate": "2026-07-29"
       }
@@ -94,11 +314,311 @@
     "lng": 79.8453,
     "areaSqKm": 21,
     "websiteUrl": "https://forests.tn.gov.in",
-    "uniqueFeatures": "Ramsar wetland site along Palk Strait, famous for thousands of wintering Greater Flamingos and Blackbuck antelopes.",
+    "uniqueFeatures": "Ramsar wetland site along Palk Strait, famous for wintering Greater Flamingos.",
     "sources": [
       {
-        "label": "Tamil Nadu Forest Department",
+        "label": "TN Forest Dept",
         "url": "https://forests.tn.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "vedanthangal-bird-sanctuary",
+    "name": "Vedanthangal Bird Sanctuary",
+    "type": "bird-sanctuary",
+    "stateSlug": "tamil-nadu",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 12.55,
+    "lng": 79.8667,
+    "areaSqKm": 0.3,
+    "websiteUrl": "https://forests.tn.gov.in",
+    "uniqueFeatures": "India's oldest waterbird sanctuary, protected by villagers for over 250 years.",
+    "sources": [
+      {
+        "label": "TN Forest Dept",
+        "url": "https://forests.tn.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "srivilliputhur-grizzled-squirrel-sanctuary",
+    "name": "Srivilliputhur Grizzled Squirrel Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "tamil-nadu",
+    "headlineSpeciesSlug": "indian-giant-squirrel",
+    "lat": 9.6167,
+    "lng": 77.5333,
+    "areaSqKm": 485,
+    "websiteUrl": "https://forests.tn.gov.in",
+    "uniqueFeatures": "Created specifically to protect the near-threatened Grizzled Giant Squirrel.",
+    "sources": [
+      {
+        "label": "TN Forest Dept",
+        "url": "https://forests.tn.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "kutch-desert-wildlife-sanctuary",
+    "name": "Kutch Desert Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "gujarat",
+    "headlineSpeciesSlug": "asiatic-lion",
+    "lat": 23.95,
+    "lng": 70.3833,
+    "areaSqKm": 7506.22,
+    "websiteUrl": "https://forests.gujarat.gov.in",
+    "uniqueFeatures": "Largest sanctuary in India, containing the famous Flamingo City breeding ground.",
+    "sources": [
+      {
+        "label": "Gujarat Forest Dept",
+        "url": "https://forests.gujarat.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "wild-ass-sanctuary-little-rann-of-kutch",
+    "name": "Wild Ass Sanctuary (Little Rann of Kutch)",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "gujarat",
+    "headlineSpeciesSlug": "asiatic-lion",
+    "lat": 23.4333,
+    "lng": 71.3833,
+    "areaSqKm": 4953.7,
+    "websiteUrl": "https://forests.gujarat.gov.in",
+    "uniqueFeatures": "The sole refuge of the endangered Indian Wild Ass (Khur).",
+    "sources": [
+      {
+        "label": "Gujarat Forest Dept",
+        "url": "https://forests.gujarat.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "nal-sarovar-bird-sanctuary",
+    "name": "Nal Sarovar Bird Sanctuary",
+    "type": "bird-sanctuary",
+    "stateSlug": "gujarat",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 22.8,
+    "lng": 72.0333,
+    "areaSqKm": 120.82,
+    "websiteUrl": "https://forests.gujarat.gov.in",
+    "uniqueFeatures": "Largest wetland bird sanctuary in Gujarat, hosting pelicans, flamingos, and storks.",
+    "sources": [
+      {
+        "label": "Gujarat Forest Dept",
+        "url": "https://forests.gujarat.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "cauvery-wildlife-sanctuary",
+    "name": "Cauvery Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "karnataka",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 12.2167,
+    "lng": 77.45,
+    "areaSqKm": 1027,
+    "websiteUrl": "https://aranya.gov.in",
+    "uniqueFeatures": "Riverine elephant corridor along Cauvery River, sanctuary for Mahseer fish.",
+    "sources": [
+      {
+        "label": "Karnataka Forest Dept",
+        "url": "https://aranya.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "bhadra-wildlife-sanctuary",
+    "name": "Bhadra Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "karnataka",
+    "headlineSpeciesSlug": "asian-elephant",
+    "lat": 13.5,
+    "lng": 75.6333,
+    "areaSqKm": 492.46,
+    "websiteUrl": "https://aranya.gov.in",
+    "uniqueFeatures": "Western Ghats tiger reserve surrounded by Bababudangiri hills.",
+    "sources": [
+      {
+        "label": "Karnataka Forest Dept",
+        "url": "https://aranya.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "ranganathittu-bird-sanctuary",
+    "name": "Ranganathittu Bird Sanctuary",
+    "type": "bird-sanctuary",
+    "stateSlug": "karnataka",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "lat": 12.4239,
+    "lng": 76.6669,
+    "areaSqKm": 0.67,
+    "websiteUrl": "https://aranya.gov.in",
+    "uniqueFeatures": "Ramsar islet sanctuary on Kaveri river near Mysuru, nesting site for Painted Storks.",
+    "sources": [
+      {
+        "label": "Karnataka Forest Dept",
+        "url": "https://aranya.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "koyna-wildlife-sanctuary",
+    "name": "Koyna Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "maharashtra",
+    "headlineSpeciesSlug": "indian-giant-squirrel",
+    "lat": 17.65,
+    "lng": 73.7,
+    "areaSqKm": 426.52,
+    "websiteUrl": "https://mahaforest.gov.in",
+    "uniqueFeatures": "UNESCO World Heritage Western Ghats reserve surrounding Shivsagar Lake.",
+    "sources": [
+      {
+        "label": "Maharashtra Forest Dept",
+        "url": "https://mahaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "bhimashankar-wildlife-sanctuary",
+    "name": "Bhimashankar Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "maharashtra",
+    "headlineSpeciesSlug": "indian-giant-squirrel",
+    "lat": 19.0667,
+    "lng": 73.55,
+    "areaSqKm": 130.78,
+    "websiteUrl": "https://mahaforest.gov.in",
+    "uniqueFeatures": "Created specifically to protect the Indian Giant Squirrel (Shekru).",
+    "sources": [
+      {
+        "label": "Maharashtra Forest Dept",
+        "url": "https://mahaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "radhanagari-wildlife-sanctuary",
+    "name": "Radhanagari Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "maharashtra",
+    "headlineSpeciesSlug": "indian-giant-squirrel",
+    "lat": 16.2333,
+    "lng": 73.9,
+    "areaSqKm": 351.16,
+    "websiteUrl": "https://mahaforest.gov.in",
+    "uniqueFeatures": "First sanctuary in Maharashtra, prime habitat for Indian Bison (Gaur).",
+    "sources": [
+      {
+        "label": "Maharashtra Forest Dept",
+        "url": "https://mahaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "pobitora-wildlife-sanctuary",
+    "name": "Pobitora Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "assam",
+    "headlineSpeciesSlug": "indian-rhinoceros",
+    "lat": 26.2167,
+    "lng": 92.05,
+    "areaSqKm": 38.85,
+    "websiteUrl": "https://forest.assam.gov.in",
+    "uniqueFeatures": "Highest density of One-horned Rhinoceroses in the world.",
+    "sources": [
+      {
+        "label": "Assam Forest Dept",
+        "url": "https://forest.assam.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "hoollongapar-gibbon-sanctuary",
+    "name": "Hoollongapar Gibbon Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "assam",
+    "headlineSpeciesSlug": "indian-rhinoceros",
+    "lat": 26.6833,
+    "lng": 94.3667,
+    "areaSqKm": 20.98,
+    "websiteUrl": "https://forest.assam.gov.in",
+    "uniqueFeatures": "Sole sanctuary in India named after India's only ape species, the Hoolock Gibbon.",
+    "sources": [
+      {
+        "label": "Assam Forest Dept",
+        "url": "https://forest.assam.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "chambal-sanctuary-hp",
+    "name": "Kalatop Khajjiar Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "himachal-pradesh",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 32.55,
+    "lng": 76.0167,
+    "areaSqKm": 30.69,
+    "websiteUrl": "https://hpforest.nic.in",
+    "uniqueFeatures": "Deodar forest sanctuary near Dalhousie protecting Himalayan Black Bear and Serow.",
+    "sources": [
+      {
+        "label": "HP Forest Dept",
+        "url": "https://hpforest.nic.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "gulmarg-wildlife-sanctuary",
+    "name": "Gulmarg Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "jammu-and-kashmir",
+    "headlineSpeciesSlug": "snow-leopard",
+    "lat": 34.05,
+    "lng": 74.3833,
+    "areaSqKm": 180,
+    "websiteUrl": "https://jkwildlife.com",
+    "uniqueFeatures": "Pir Panjal mountain range sanctuary protecting Musk Deer and Himalayan Monal.",
+    "sources": [
+      {
+        "label": "J&K Wildlife Dept",
+        "url": "https://jkwildlife.com",
         "accessedDate": "2026-07-29"
       }
     ],
