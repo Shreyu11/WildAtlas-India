@@ -43,28 +43,67 @@ export default async function ProtectedAreaDetail({ slug }: { slug: string }) {
         )}
       </p>
 
-      {headline && (
-        <Link
-          href={`/species/${headline.slug}`}
-          className="mt-6 flex items-center gap-3 rounded border border-zinc-200 p-3 hover:bg-zinc-50"
-        >
-          <span className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-full bg-zinc-100 text-xl">
-            {headline.photoUrl ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={headline.photoUrl}
-                alt={headline.commonName}
-                className="h-full w-full object-cover"
-              />
-            ) : (
-              SPECIES_ICON[headline.slug] ?? DEFAULT_SPECIES_ICON
-            )}
+      {area.areaSqKm && (
+        <p className="mt-2 text-xs text-zinc-600">
+          Total Area: <span className="font-semibold text-zinc-800">{area.areaSqKm.toLocaleString()} sq km</span>
+        </p>
+      )}
+
+      {area.uniqueFeatures && (
+        <div className="mt-4 rounded-xl bg-zinc-50 p-3.5 border border-zinc-100">
+          <span className="block font-mono text-[10px] font-semibold text-zinc-400 uppercase tracking-wider mb-1">
+            Unique Characteristics
           </span>
-          <div>
-            <p className="font-medium text-zinc-900">{headline.commonName}</p>
-            <p className="font-mono text-[10px] uppercase text-zinc-400">Headline species</p>
-          </div>
-        </Link>
+          <p className="text-xs text-zinc-700 leading-relaxed">{area.uniqueFeatures}</p>
+        </div>
+      )}
+
+      {headline && (
+        <div className="mt-5">
+          <span className="block font-mono text-[10px] font-semibold text-zinc-400 uppercase tracking-wider mb-2">
+            Flagship Wildlife Species
+          </span>
+          <Link
+            href={`/species/${headline.slug}`}
+            className="flex items-center gap-3 rounded-xl border border-zinc-200 p-3 hover:bg-zinc-50 transition"
+          >
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-full bg-zinc-100 text-xl">
+              {headline.photoUrl ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={headline.photoUrl}
+                  alt={headline.commonName}
+                  className="h-full w-full object-cover"
+                />
+              ) : (
+                SPECIES_ICON[headline.slug] ?? DEFAULT_SPECIES_ICON
+              )}
+            </span>
+            <div>
+              <p className="font-medium text-zinc-900 text-sm">{headline.commonName}</p>
+              <p className="font-mono text-[10px] uppercase text-zinc-400">Headline species</p>
+            </div>
+          </Link>
+        </div>
+      )}
+
+      {area.websiteUrl && (
+        <div className="mt-5 pt-3 border-t border-zinc-100">
+          <a
+            href={area.websiteUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-xs font-medium text-zinc-600 hover:text-zinc-900 underline underline-offset-2"
+          >
+            Visit Official Portal ↗
+          </a>
+        </div>
+      )}
+
+      {area.sources && area.sources.length > 0 && (
+        <div className="mt-4 text-[11px] text-zinc-400">
+          Source: {area.sources.map((s) => s.label).join(", ")}
+        </div>
       )}
 
       <DataAttributionFooter />
