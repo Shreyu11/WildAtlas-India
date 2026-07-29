@@ -741,9 +741,7 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       });
     }
 
-    for (const marker of markers.protectedAreaMarkers) {
-      const pa = protectedAreaBySlug.get(marker.protectedAreaSlug);
-      if (!pa) continue;
+    for (const pa of protectedAreas) {
       const headline = speciesBySlug.get(pa.headlineSpeciesSlug);
 
       const wrapper = protectedAreaMarkerEl(pa, headline, {
@@ -757,11 +755,11 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       });
       wrapper.addEventListener("click", handleMarkerClick(wrapper));
 
-      const m = new Marker({ element: wrapper }).setLngLat([marker.lng, marker.lat]).addTo(map);
+      const m = new Marker({ element: wrapper }).setLngLat([pa.lng, pa.lat]).addTo(map);
       createdMarkers.push(m);
 
       const label = new Marker({ element: labelEl(pa.name, "protected-area"), anchor: "top", offset: [0, 14] })
-        .setLngLat([marker.lng, marker.lat])
+        .setLngLat([pa.lng, pa.lat])
         .addTo(map);
       createdMarkers.push(label);
 
@@ -772,8 +770,8 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
         paType: pa.type,
         headlineSpeciesSlug: pa.headlineSpeciesSlug,
         stateSlug: pa.stateSlug,
-        lng: marker.lng,
-        lat: marker.lat,
+        lng: pa.lng,
+        lat: pa.lat,
       });
     }
 
