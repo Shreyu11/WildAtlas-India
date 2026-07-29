@@ -87,6 +87,37 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
         )}
       </dl>
 
+      {item.populationTrend && item.populationTrend.length > 0 && (
+        <div className="mt-5 rounded-xl bg-zinc-50 p-3.5 border border-zinc-200/60">
+          <span className="block font-mono text-[10px] font-semibold text-zinc-500 uppercase tracking-wider mb-3">
+            Official Population Census Trend
+          </span>
+          <div className="flex items-end justify-between gap-3 pt-1 pb-1">
+            {item.populationTrend.map((pt) => {
+              const maxEst = Math.max(...item.populationTrend!.map((p) => p.estimate || 1));
+              const heightPct = Math.min(100, Math.max(18, ((pt.estimate ?? 0) / maxEst) * 100));
+              return (
+                <div key={pt.year} className="flex flex-col items-center flex-1">
+                  <span className="font-mono text-[11px] font-semibold text-zinc-800 mb-1">
+                    {pt.estimate ? pt.estimate.toLocaleString() : "N/A"}
+                  </span>
+                  <div className="w-full bg-zinc-200/80 rounded-t-md h-16 flex items-end p-0.5">
+                    <div
+                      className="bg-emerald-600 w-full rounded-t transition-all duration-500"
+                      style={{ height: `${heightPct}%` }}
+                    />
+                  </div>
+                  <span className="font-mono text-[10px] text-zinc-500 mt-1.5 font-medium">{pt.year}</span>
+                </div>
+              );
+            })}
+          </div>
+          <p className="mt-2.5 pt-2 border-t border-zinc-200/40 text-[10px] text-zinc-400 font-mono">
+            Census Source: {item.populationTrend[item.populationTrend.length - 1].source}
+          </p>
+        </div>
+      )}
+
       {item.sourceCitations && item.sourceCitations.length > 0 && (
         <div className="mt-6 pt-3 border-t border-zinc-100 text-[11px] text-zinc-400">
           <span className="font-mono uppercase text-[10px] text-zinc-400 block mb-1">Citations & Data Sources</span>

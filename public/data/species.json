@@ -25,6 +25,13 @@
       "genus": "Panthera",
       "species": "Panthera tigris"
     },
+    "populationTrend": [
+      { "year": 2006, "estimate": 1411, "source": "All India Tiger Estimation (NTCA/WII)" },
+      { "year": 2010, "estimate": 1706, "source": "All India Tiger Estimation (NTCA/WII)" },
+      { "year": 2014, "estimate": 2226, "source": "All India Tiger Estimation (NTCA/WII)" },
+      { "year": 2018, "estimate": 2967, "source": "All India Tiger Estimation (NTCA/WII)" },
+      { "year": 2022, "estimate": 3682, "source": "Status of Tigers in India 2022 (NTCA)" }
+    ],
     "worldAnimalDaySlug": "world-tiger-day",
     "conservationEfforts": ["Project Tiger", "NTCA Tiger Census"],
     "needsResearch": false
@@ -55,6 +62,12 @@
       "genus": "Panthera",
       "species": "Panthera leo"
     },
+    "populationTrend": [
+      { "year": 2005, "estimate": 359, "source": "Gujarat Forest Department Census" },
+      { "year": 2010, "estimate": 411, "source": "Gujarat Forest Department Census" },
+      { "year": 2015, "estimate": 523, "source": "Gujarat Forest Department Census" },
+      { "year": 2020, "estimate": 674, "source": "Poonam Avlokan Lion Census" }
+    ],
     "worldAnimalDaySlug": "world-lion-day",
     "conservationEfforts": ["Asiatic Lion Conservation Project"],
     "needsResearch": false
@@ -85,6 +98,12 @@
       "genus": "Rhinoceros",
       "species": "Rhinoceros unicornis"
     },
+    "populationTrend": [
+      { "year": 1966, "estimate": 366, "source": "Assam Forest Department Historical Census" },
+      { "year": 1999, "estimate": 1552, "source": "Kaziranga Rhino Census" },
+      { "year": 2018, "estimate": 2413, "source": "Kaziranga Rhino Census" },
+      { "year": 2022, "estimate": 2613, "source": "14th Kaziranga Rhino Census" }
+    ],
     "worldAnimalDaySlug": "world-rhino-day",
     "conservationEfforts": ["Indian Rhino Vision 2020"],
     "needsResearch": false
@@ -115,6 +134,11 @@
       "genus": "Elephas",
       "species": "Elephas maximus"
     },
+    "populationTrend": [
+      { "year": 2007, "estimate": 27694, "source": "Project Elephant Census" },
+      { "year": 2012, "estimate": 29576, "source": "Project Elephant Census" },
+      { "year": 2017, "estimate": 27312, "source": "Synchronized Elephant Census" }
+    ],
     "worldAnimalDaySlug": "world-elephant-day",
     "conservationEfforts": ["Project Elephant", "Elephant Corridors Initiative"],
     "needsResearch": false
@@ -145,6 +169,10 @@
       "genus": "Macaca",
       "species": "Macaca silenus"
     },
+    "populationTrend": [
+      { "year": 2003, "estimate": 3000, "source": "IUCN Species Assessment" },
+      { "year": 2015, "estimate": 4000, "source": "Western Ghats Primate Survey" }
+    ],
     "needsResearch": false
   },
   {
@@ -173,6 +201,11 @@
       "genus": "Ardeotis",
       "species": "Ardeotis nigriceps"
     },
+    "populationTrend": [
+      { "year": 1969, "estimate": 1260, "source": "WII Historical Census" },
+      { "year": 2011, "estimate": 250, "source": "IUCN Red List Assessment" },
+      { "year": 2018, "estimate": 150, "source": "WII Status Report" }
+    ],
     "conservationEfforts": ["Project Great Indian Bustard", "Captive Breeding Program (Sam)"],
     "needsResearch": false
   },
@@ -202,6 +235,11 @@
       "genus": "Rucervus",
       "species": "Rucervus duvaucelii"
     },
+    "populationTrend": [
+      { "year": 1970, "estimate": 66, "source": "Kanha Barasingha Conservation Recovery" },
+      { "year": 2000, "estimate": 350, "source": "Kanha National Park Census" },
+      { "year": 2020, "estimate": 800, "source": "MP Forest Department Census" }
+    ],
     "needsResearch": false
   },
   {
@@ -314,6 +352,10 @@
       "genus": "Rhyticeros",
       "species": "Rhyticeros narcondami"
     },
+    "populationTrend": [
+      { "year": 1998, "estimate": 300, "source": "SACON Narcondam Survey" },
+      { "year": 2020, "estimate": 1000, "source": "WII Andaman Island Census" }
+    ],
     "needsResearch": false
   },
   {
