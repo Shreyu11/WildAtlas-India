@@ -17,7 +17,13 @@ export default function WelcomeCard() {
   if (dismissed) return null;
 
   return (
-    <div className="absolute bottom-6 left-6 w-72 rounded-lg border border-zinc-200 bg-white p-4 shadow-lg">
+    // Bottom-right, beside the map's zoom controls (MapLibre NavigationControl
+    // sits ~10px from the bottom-right corner) — right-20 clears it. z-20
+    // is needed because MapLibre's own controls (including the attribution
+    // strip, which runs along the bottom of the map) carry z-index: 2 —
+    // without a higher z-index here, that attribution text shows through
+    // this card instead of being covered by its opaque background.
+    <div className="absolute bottom-6 right-20 z-20 w-72 rounded-lg border border-zinc-200 bg-white p-4 shadow-lg">
       <div className="flex items-start justify-between gap-2">
         <p className="font-semibold">Hi there 👋</p>
         <button

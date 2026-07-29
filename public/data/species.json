@@ -8,7 +8,13 @@
     "description": "India's national animal and the country's most iconic big cat, found in mangrove forests, grasslands, and dense deciduous forests across central and eastern India.",
     "habitat": "Mangrove forests, grasslands, dry and moist deciduous forests",
     "stateSlugs": ["west-bengal", "madhya-pradesh", "rajasthan"],
-    "photoUrl": null,
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3.jpg/960px-Bengal_tiger_%28Panthera_tigris_tigris%29_female_3.jpg",
+    "photoAttribution": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3.jpg"
+    },
     "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
   },
   {
@@ -20,7 +26,13 @@
     "description": "The world's last wild population of Asiatic lions survives exclusively in and around the Gir Forest, making Gujarat their sole natural home.",
     "habitat": "Dry deciduous forest and scrubland",
     "stateSlugs": ["gujarat"],
-    "photoUrl": null,
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Asiatic_Lion_Royal_Walk_at_Gir_National_Park%2C_Gujrat%2C_India.jpg/960px-Asiatic_Lion_Royal_Walk_at_Gir_National_Park%2C_Gujrat%2C_India.jpg",
+    "photoAttribution": {
+      "author": "Rohit Sharma",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asiatic_Lion_Royal_Walk_at_Gir_National_Park,_Gujrat,_India.jpg"
+    },
     "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
   },
   {
@@ -32,7 +44,13 @@
     "description": "Also called the One-Horned Rhinoceros, this armored-looking giant is a conservation success story, with Assam's floodplains hosting the vast majority of the wild population.",
     "habitat": "Riverine grasslands and floodplains",
     "stateSlugs": ["assam"],
-    "photoUrl": null,
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg/960px-Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg",
+    "photoAttribution": {
+      "author": "Tisha Mukherjee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg"
+    },
     "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
   },
   {
@@ -44,7 +62,13 @@
     "description": "India holds the largest population of wild Asian elephants in the world, with the Western Ghats forests of Kerala and Karnataka among their most important strongholds.",
     "habitat": "Tropical evergreen and deciduous forests, grasslands",
     "stateSlugs": ["kerala", "karnataka"],
-    "photoUrl": null,
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Indian_elephant_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg/960px-Indian_elephant_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg",
+    "photoAttribution": {
+      "author": "Tisha Mukherjee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_elephant_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg"
+    },
     "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
   },
   {
@@ -56,7 +80,13 @@
     "description": "One of the rarest and most endangered primates, recognizable by its silver mane, found only in fragmented rainforest pockets of the Western Ghats.",
     "habitat": "Tropical rainforest canopy, Western Ghats",
     "stateSlugs": ["karnataka"],
-    "photoUrl": null,
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/LTM_profile.JPG/960px-LTM_profile.JPG",
+    "photoAttribution": {
+      "author": "T. R. Shankar Raman",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LTM_profile.JPG"
+    },
     "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
   },
   {
@@ -68,7 +98,13 @@
     "description": "One of the heaviest flying birds and among the most critically endangered in the world, clinging on in the arid grasslands of Rajasthan's Thar Desert.",
     "habitat": "Arid and semi-arid grasslands, scrubland",
     "stateSlugs": ["rajasthan"],
-    "photoUrl": null,
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Great_Indian_Bustard_Ardeotis_nigriceps_by_Raju_Kasambe_DSCN9716_01.jpg/960px-Great_Indian_Bustard_Ardeotis_nigriceps_by_Raju_Kasambe_DSCN9716_01.jpg",
+    "photoAttribution": {
+      "author": "Dr. Raju Kasambe",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Indian_Bustard_Ardeotis_nigriceps_by_Raju_Kasambe_DSCN9716_01.jpg"
+    },
     "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
   },
   {
@@ -80,7 +116,13 @@
     "description": "Also called the swamp deer, this is Madhya Pradesh's state animal — Kanha National Park's conservation program brought the local subspecies back from the brink of extinction.",
     "habitat": "Swampy grasslands and moist deciduous forest",
     "stateSlugs": ["madhya-pradesh"],
-    "photoUrl": null,
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Barasingha_in_Kanha_National_Park_01.jpg/960px-Barasingha_in_Kanha_National_Park_01.jpg",
+    "photoAttribution": {
+      "author": "Bernard Gagnon",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barasingha_in_Kanha_National_Park_01.jpg"
+    },
     "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
   },
   {
@@ -92,7 +134,13 @@
     "description": "Maharashtra's state animal, a strikingly multicolored tree-dwelling squirrel capable of leaping several meters between branches in the state's dense forests.",
     "habitat": "Tropical and subtropical moist deciduous forest canopy",
     "stateSlugs": ["maharashtra"],
-    "photoUrl": null,
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Indian_giant_squirrel_by_Tisha_Mukherjee_09.jpg/960px-Indian_giant_squirrel_by_Tisha_Mukherjee_09.jpg",
+    "photoAttribution": {
+      "author": "Tisha Mukherjee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_giant_squirrel_by_Tisha_Mukherjee_09.jpg"
+    },
     "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
   },
   {
@@ -104,7 +152,13 @@
     "description": "A large, tufted nocturnal raptor often found roosting on rocky cliffs and ravines, with a haunting deep call that carries far across open terrain.",
     "habitat": "Rocky hillsides, ravines, scrub forest",
     "stateSlugs": ["rajasthan"],
-    "photoUrl": null,
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Indian_eagle-owl%2C_Bhigwan_4.jpg/960px-Indian_eagle-owl%2C_Bhigwan_4.jpg",
+    "photoAttribution": {
+      "author": "Drsssuresh1961",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_eagle-owl,_Bhigwan_4.jpg"
+    },
     "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
   },
   {
@@ -116,7 +170,49 @@
     "description": "India's national bird, instantly recognizable by the male's iridescent train of feathers, found across much of the country in open forest and farmland.",
     "habitat": "Open forest, scrubland, farmland edges",
     "stateSlugs": ["rajasthan", "madhya-pradesh"],
-    "photoUrl": null,
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Portrait_of_an_Indian_peafowl.jpg/960px-Portrait_of_an_Indian_peafowl.jpg",
+    "photoAttribution": {
+      "author": "Clément Bardot",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_an_Indian_peafowl.jpg"
+    },
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  },
+  {
+    "slug": "narcondam-hornbill",
+    "commonName": "Narcondam Hornbill",
+    "scientificName": "Rhyticeros narcondami",
+    "taxon": "bird",
+    "conservationStatus": "VU",
+    "description": "One of the world's most range-restricted birds, found nowhere on Earth except the forests of tiny Narcondam Island — a dormant volcanic island in the Andamans just 6.8 square kilometers in size.",
+    "habitat": "Tropical evergreen island forest",
+    "stateSlugs": ["andaman-and-nicobar-islands"],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Narcondam_Hornbill_DSCN1242_15.jpg/960px-Narcondam_Hornbill_DSCN1242_15.jpg",
+    "photoAttribution": {
+      "author": "Rohitjahnavi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Narcondam_Hornbill_DSCN1242_15.jpg"
+    },
+    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+  },
+  {
+    "slug": "nicobar-long-tailed-macaque",
+    "commonName": "Nicobar Long-tailed Macaque",
+    "scientificName": "Macaca fascicularis umbrosus",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "A distinct, dark-coated subspecies of crab-eating macaque found only on the southern Nicobar islands of Great Nicobar, Little Nicobar, and Katchal, where it forages along mangrove-fringed shores.",
+    "habitat": "Tropical rainforest and mangrove-fringed coastline",
+    "stateSlugs": ["andaman-and-nicobar-islands"],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Nicobar_Long-tailed_or_Crab-eating_Macaque_%28Macaca_fascicularis_umbrosa%29.jpg/960px-Nicobar_Long-tailed_or_Crab-eating_Macaque_%28Macaca_fascicularis_umbrosa%29.jpg",
+    "photoAttribution": {
+      "author": "Arijit Pal",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nicobar_Long-tailed_or_Crab-eating_Macaque_(Macaca_fascicularis_umbrosa).jpg"
+    },
     "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
   }
 ]

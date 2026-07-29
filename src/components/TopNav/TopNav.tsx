@@ -34,12 +34,16 @@ function AccountIcon() {
 
 export default function TopNav() {
   return (
-    <nav className="flex h-16 w-full items-center gap-4 border-b border-zinc-200 px-4">
+    <nav className="fixed inset-x-0 top-0 z-30 flex h-16 items-center gap-4 bg-white/5 px-4 backdrop-blur-[1px]">
       <Link href="/" className="shrink-0 text-lg font-semibold tracking-tight">
         🐾 WildAtlas India
       </Link>
 
-      <div className="mx-auto w-full max-w-md">
+      {/* Absolutely centered on the full nav width — a flex mx-auto here
+          would center within the leftover space between the logo and the
+          icon row instead, which skews off true page-center since those
+          two aren't the same width. */}
+      <div className="absolute left-1/2 top-1/2 w-full max-w-md -translate-x-1/2 -translate-y-1/2">
         <SearchBar />
       </div>
 

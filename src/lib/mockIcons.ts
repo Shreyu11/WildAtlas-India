@@ -1,7 +1,7 @@
 // Illustrated-icon fallback per species (PRD Section 4.4 — used when no
-// rights-cleared photo exists, which is every mock species right now).
-// Replace with real photoUrl-driven circular photo crops once the pipeline
-// sources rights-cleared images.
+// rights-cleared photo exists). All 10 current mock species now carry a
+// real, attributed photoUrl (see public/data/species.json), so these only
+// render for a species that's missing one.
 export const SPECIES_ICON: Record<string, string> = {
   "royal-bengal-tiger": "🐅",
   "asiatic-lion": "🦁",
@@ -13,6 +13,8 @@ export const SPECIES_ICON: Record<string, string> = {
   "indian-giant-squirrel": "🐿️",
   "indian-eagle-owl": "🦉",
   "indian-peafowl": "🦚",
+  "narcondam-hornbill": "🐦",
+  "nicobar-long-tailed-macaque": "🐒",
 };
 
 export const DEFAULT_SPECIES_ICON = "🐾";
@@ -25,3 +27,6 @@ export const PROTECTED_AREA_ICON: Record<string, string> = {
   "wildlife-sanctuary": "🏕️",
   "bird-sanctuary": "🪶",
 };
+
+export const ZOO_ICON = "🏛️";
+

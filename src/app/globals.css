@@ -1,6 +1,18 @@
 @import "tailwindcss";
 
+/*
+ * Deliberately light-only: the design is near-monochrome white/light-gray
+ * by spec (PRD Section 7, "color is reserved for wildlife"), and every
+ * surface (Drawer, ExploreRail, WelcomeCard, map popups) hard-codes a white
+ * background rather than following the OS theme. This app never had a real
+ * dark mode — the old `prefers-color-scheme: dark` override below only
+ * flipped --foreground to near-white while those surfaces stayed white,
+ * producing invisible white-on-white text for anyone in OS dark mode.
+ * `color-scheme: light` also stops the browser from auto-dark-styling form
+ * controls/scrollbars to match text that was never actually inverted.
+ */
 :root {
+  color-scheme: light;
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -10,13 +22,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-manrope);
   --font-mono: var(--font-jetbrains-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {

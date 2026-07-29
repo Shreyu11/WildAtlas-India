@@ -8,12 +8,14 @@
     { "speciesSlug": "lion-tailed-macaque", "stateSlug": "karnataka", "lat": 15.3173, "lng": 75.7139 },
     { "speciesSlug": "great-indian-bustard", "stateSlug": "rajasthan", "lat": 27.0238, "lng": 74.2179 },
     { "speciesSlug": "barasingha", "stateSlug": "madhya-pradesh", "lat": 22.9734, "lng": 78.6569 },
-    { "speciesSlug": "indian-giant-squirrel", "stateSlug": "maharashtra", "lat": 19.7515, "lng": 75.7139 }
+    { "speciesSlug": "indian-giant-squirrel", "stateSlug": "maharashtra", "lat": 19.7515, "lng": 75.7139 },
+    { "speciesSlug": "narcondam-hornbill", "stateSlug": "andaman-and-nicobar-islands", "lat": 11.7401, "lng": 92.6586 }
   ],
   "protectedAreaMarkers": [
     { "protectedAreaSlug": "kaziranga-national-park", "lat": 26.5775, "lng": 93.1711 },
     { "protectedAreaSlug": "gir-national-park", "lat": 21.1288, "lng": 70.7996 },
     { "protectedAreaSlug": "ranthambore-national-park", "lat": 26.0173, "lng": 76.5026 },
-    { "protectedAreaSlug": "periyar-wildlife-sanctuary", "lat": 9.4667, "lng": 77.15 }
+    { "protectedAreaSlug": "periyar-wildlife-sanctuary", "lat": 9.4667, "lng": 77.15 },
+    { "protectedAreaSlug": "keoladeo-bird-sanctuary", "lat": 27.16, "lng": 77.52 }
   ]
 }

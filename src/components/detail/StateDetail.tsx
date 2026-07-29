@@ -15,7 +15,7 @@ export default async function StateDetail({ slug }: { slug: string }) {
 
   return (
     <>
-      <h1 className="text-2xl font-semibold">{state.name}</h1>
+      <h1 className="text-2xl font-semibold text-zinc-900">{state.name}</h1>
 
       <ul className="mt-6 flex flex-col gap-4">
         {stateSpecies.map((item) => (
@@ -24,11 +24,16 @@ export default async function StateDetail({ slug }: { slug: string }) {
               href={`/species/${item.slug}`}
               className="flex items-start gap-3 rounded border border-zinc-200 p-3 hover:bg-zinc-50"
             >
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-zinc-100 text-xl">
-                {SPECIES_ICON[item.slug] ?? DEFAULT_SPECIES_ICON}
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-full bg-zinc-100 text-xl">
+                {item.photoUrl ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={item.photoUrl} alt={item.commonName} className="h-full w-full object-cover" />
+                ) : (
+                  SPECIES_ICON[item.slug] ?? DEFAULT_SPECIES_ICON
+                )}
               </span>
               <div>
-                <p className="font-medium">
+                <p className="font-medium text-zinc-900">
                   {item.commonName}
                   {item.slug === state.dominantSpeciesSlug && (
                     <span className="ml-2 font-mono text-[10px] uppercase text-zinc-400">

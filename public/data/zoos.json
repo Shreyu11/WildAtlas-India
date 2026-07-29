@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "alipore-zoological-gardens",
+    "name": "Alipore Zoological Gardens",
+    "stateSlug": "west-bengal",
+    "city": "Kolkata",
+    "establishedYear": 1876,
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "photoUrl": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop&q=80",
+    "lat": 22.5354,
+    "lng": 88.3329,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alipore_Zoological_Gardens"
+  },
+  {
+    "slug": "sakkarbaug-zoological-garden",
+    "name": "Sakkarbaug Zoological Garden",
+    "stateSlug": "gujarat",
+    "city": "Junagadh",
+    "establishedYear": 1863,
+    "headlineSpeciesSlug": "asiatic-lion",
+    "photoUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=800&auto=format&fit=crop&q=80",
+    "lat": 21.5222,
+    "lng": 70.4579,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakkarbaug_Zoological_Garden"
+  },
+  {
+    "slug": "assam-state-zoo-cum-botanical-garden",
+    "name": "Assam State Zoo cum Botanical Garden",
+    "stateSlug": "assam",
+    "city": "Guwahati",
+    "establishedYear": 1957,
+    "headlineSpeciesSlug": "indian-rhinoceros",
+    "photoUrl": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&auto=format&fit=crop&q=80",
+    "lat": 26.1526,
+    "lng": 91.7864,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Assam_State_Zoo"
+  },
+  {
+    "slug": "thiruvananthapuram-zoo",
+    "name": "Thiruvananthapuram Zoo (Sri Chitra Zoological Park)",
+    "stateSlug": "kerala",
+    "city": "Thiruvananthapuram",
+    "establishedYear": 1859,
+    "headlineSpeciesSlug": "asian-elephant",
+    "photoUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "lat": 8.5074,
+    "lng": 76.9541,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Thiruvananthapuram_Zoo"
+  },
+  {
+    "slug": "sri-chamarajendra-zoological-gardens",
+    "name": "Sri Chamarajendra Zoological Gardens (Mysore Zoo)",
+    "stateSlug": "karnataka",
+    "city": "Mysuru",
+    "establishedYear": 1892,
+    "headlineSpeciesSlug": "lion-tailed-macaque",
+    "photoUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef9?w=800&auto=format&fit=crop&q=80",
+    "lat": 12.3052,
+    "lng": 76.6552,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mysore_Zoo"
+  },
+  {
+    "slug": "nahargarh-biological-park",
+    "name": "Nahargarh Biological Park",
+    "stateSlug": "rajasthan",
+    "city": "Jaipur",
+    "establishedYear": 2010,
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "photoUrl": "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=800&auto=format&fit=crop&q=80",
+    "lat": 26.9622,
+    "lng": 75.8317,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nahargarh_Biological_Park"
+  },
+  {
+    "slug": "van-vihar-national-park",
+    "name": "Van Vihar National Park",
+    "stateSlug": "madhya-pradesh",
+    "city": "Bhopal",
+    "establishedYear": 1979,
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "photoUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "lat": 23.2367,
+    "lng": 77.3803,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Van_Vihar_National_Park"
+  },
+  {
+    "slug": "veermata-jijabai-bhonsale-udyan",
+    "name": "Veermata Jijabai Bhonsale Udyan (Byculla Zoo)",
+    "stateSlug": "maharashtra",
+    "city": "Mumbai",
+    "establishedYear": 1861,
+    "headlineSpeciesSlug": null,
+    "photoUrl": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=800&auto=format&fit=crop&q=80",
+    "lat": 18.975,
+    "lng": 72.8347,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Veermata_Jijabai_Bhonsale_Udyan_and_Zoo"
+  }
+]

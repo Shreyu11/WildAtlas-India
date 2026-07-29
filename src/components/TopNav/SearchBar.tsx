@@ -9,8 +9,11 @@ export default function SearchBar() {
 
   return (
     <div className="relative w-full">
+      {/* type="text", not "search" — type="search" adds the browser's own
+          native clear-icon in Chrome/Edge/Safari, which stacked with our
+          custom clear button below and showed two "x" icons at once. */}
       <input
-        type="search"
+        type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search species, states, or parks…"

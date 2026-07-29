@@ -62,5 +62,13 @@
     "speciesSlugs": ["indian-giant-squirrel"],
     "lat": 19.7515,
     "lng": 75.7139
+  },
+  {
+    "slug": "andaman-and-nicobar-islands",
+    "name": "Andaman and Nicobar",
+    "dominantSpeciesSlug": "narcondam-hornbill",
+    "speciesSlugs": ["narcondam-hornbill", "nicobar-long-tailed-macaque"],
+    "lat": 11.7401,
+    "lng": 92.6586
   }
 ]

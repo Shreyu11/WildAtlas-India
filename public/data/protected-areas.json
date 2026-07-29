@@ -5,6 +5,7 @@
     "type": "national-park",
     "stateSlug": "assam",
     "headlineSpeciesSlug": "indian-rhinoceros",
+    "photoUrl": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&auto=format&fit=crop&q=80",
     "lat": 26.5775,
     "lng": 93.1711
   },
@@ -14,6 +15,7 @@
     "type": "national-park",
     "stateSlug": "gujarat",
     "headlineSpeciesSlug": "asiatic-lion",
+    "photoUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=800&auto=format&fit=crop&q=80",
     "lat": 21.1288,
     "lng": 70.7996
   },
@@ -23,6 +25,7 @@
     "type": "national-park",
     "stateSlug": "rajasthan",
     "headlineSpeciesSlug": "royal-bengal-tiger",
+    "photoUrl": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=800&auto=format&fit=crop&q=80",
     "lat": 26.0173,
     "lng": 76.5026
   },
@@ -32,7 +35,18 @@
     "type": "wildlife-sanctuary",
     "stateSlug": "kerala",
     "headlineSpeciesSlug": "asian-elephant",
+    "photoUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
     "lat": 9.4667,
     "lng": 77.15
+  },
+  {
+    "slug": "keoladeo-bird-sanctuary",
+    "name": "Keoladeo Bird Sanctuary",
+    "type": "bird-sanctuary",
+    "stateSlug": "rajasthan",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "photoUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "lat": 27.16,
+    "lng": 77.52
   }
 ]

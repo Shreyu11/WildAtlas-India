@@ -12,6 +12,13 @@ export type ConservationStatus =
   | "EW" // Extinct in the Wild
   | "EX"; // Extinct
 
+export interface PhotoAttribution {
+  author: string;
+  license: string;
+  licenseUrl: string;
+  sourceUrl: string;
+}
+
 export interface Species {
   slug: string;
   commonName: string;
@@ -22,6 +29,7 @@ export interface Species {
   habitat: string;
   stateSlugs: string[];
   photoUrl: string | null; // null falls back to an illustrated icon (PRD 4.4)
+  photoAttribution: PhotoAttribution | null; // required whenever photoUrl is set
   sourceCitations: string[];
 }
 
@@ -40,8 +48,57 @@ export interface ProtectedArea {
   type: "national-park" | "wildlife-sanctuary" | "bird-sanctuary";
   stateSlug: string;
   headlineSpeciesSlug: string;
+  photoUrl?: string | null;
   lat: number;
   lng: number;
+}
+
+// State-wise zoo directory. A distinct entity from ProtectedArea (a zoo is
+// an ex-situ, captive-animal facility, not a wild habitat), but modeled the
+// same way pending a real CZA (Central Zoo Authority) data source. Mock/
+// hand-curated for now — wikipediaUrl is the citation per entry, matching
+// the FunFact pattern below, since there's no pipeline source yet.
+export interface Zoo {
+  slug: string;
+  name: string;
+  stateSlug: string;
+  city: string;
+  establishedYear: number | null;
+  headlineSpeciesSlug: string | null; // notable resident species, if in the mock dataset
+  photoUrl?: string | null;
+  lat: number;
+  lng: number;
+  wikipediaUrl: string;
+}
+
+// Internationally observed single-species awareness days with a fixed
+// annual calendar date (date-varying observances like World Migratory Bird
+// Day, whose date shifts year to year, are deliberately excluded — the
+// fixed "MM-DD" format can't represent them). Intended for a future
+// "Today is World Tiger Day"-style callout; database-only for now, not
+// wired into any UI.
+export interface WorldAnimalDay {
+  slug: string;
+  name: string;
+  date: string; // "MM-DD", fixed annual date
+  animal: string;
+  taxon: Taxon;
+  description: string;
+  speciesSlug: string | null; // links to a Species record when one exists in the mock dataset
+  wikipediaUrl: string;
+}
+
+// Curated trivia (PRD "transparent, cited data" — each entry carries its
+// own Wikipedia citation). speciesSlug links to a Species record when one
+// exists in the current mock dataset; several animals here (cheetah,
+// flamingo, house crow, sloth bear, sarus crane) aren't in species.json yet,
+// so it's null for those and the card falls back to the Wikipedia source.
+export interface FunFact {
+  animal: string;
+  taxon: Taxon;
+  fact: string;
+  wikipediaUrl: string;
+  speciesSlug: string | null;
 }
 
 export type MarkerZoomTier = "country" | "region" | "protected-area";
@@ -60,3 +117,14 @@ export interface MarkerTier {
     lng: number;
   }>;
 }
+
+export interface SpeciesDensityCell {
+  minLng: number;
+  minLat: number;
+  maxLng: number;
+  maxLat: number;
+  level: 1 | 2 | 3;
+}
+
+export type SpeciesDensityMap = Record<string, SpeciesDensityCell[]>;
+

@@ -4,31 +4,87 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import {
   Map as MaplibreMap,
   Marker,
-  Popup,
   NavigationControl,
   AttributionControl,
   LngLatBounds,
+  type GeoJSONSource,
 } from "maplibre-gl";
-import { useEffect, useRef } from "react";
-import { useRouter } from "next/navigation";
-import type { MarkerTier, ProtectedArea, Species, State } from "@/lib/types";
-import { DEFAULT_SPECIES_ICON, PROTECTED_AREA_ICON, SPECIES_ICON } from "@/lib/mockIcons";
+import { useEffect, useRef, useState } from "react";
+import { useRouter, usePathname } from "next/navigation";
+import type { MarkerTier, ProtectedArea, Species, SpeciesDensityCell, SpeciesDensityMap, State, Zoo } from "@/lib/types";
+import { DEFAULT_SPECIES_ICON, PROTECTED_AREA_ICON, SPECIES_ICON, ZOO_ICON } from "@/lib/mockIcons";
 import { CONSERVATION_LABEL, CONSERVATION_TONE } from "@/lib/conservation";
 import { useSearch } from "@/components/SearchProvider/SearchProvider";
+import { useMapSettings } from "@/components/MapSettingsProvider/MapSettingsProvider";
 
 interface MapProps {
   states: State[];
   species: Species[];
   protectedAreas: ProtectedArea[];
+  zoos?: Zoo[];
+  speciesDensity?: SpeciesDensityMap;
   markers: MarkerTier;
 }
 
+// Fallback center/zoom for the instant before the map's first layout pass —
+// immediately replaced by fitIndiaBounds() below, which derives the actual
+// zoom from the container's real size instead of a fixed guess.
 const DEFAULT_CENTER: [number, number] = [82.8, 22.5];
 const DEFAULT_ZOOM = 3.6;
-const DEFAULT_STATE_FILL = "#eaeae6";
+// Rough India bounding box (mainland + Andaman & Nicobar). Fitting to this
+// on load — rather than a fixed center/zoom — means the initial view
+// adapts to the actual viewport/container size instead of over- or
+// under-zooming on very wide or very narrow screens.
+const INDIA_BOUNDS: [[number, number], [number, number]] = [
+  [68.0, 6.0],
+  [97.5, 36.0],
+];
+// Tailwind's gray-100 / gray-200 — used directly as hex since these feed
+// MapLibre's `paint` config (plain JS values, not Tailwind classes).
+const DEFAULT_STATE_FILL = "#F3F4F6";
+const HOVER_STATE_FILL = "#E5E7EB";
 const HIGHLIGHT_STATE_FILL = "#c9c9bd";
-const DIM_OPACITY = "0.25";
-const FULL_OPACITY = "1";
+// Darkened version of HIGHLIGHT_STATE_FILL, used when hovering a state that's
+// already highlighted by a search match — hover still gives feedback, but as
+// a darker shade of that state's *current* color rather than overriding it
+// with the plain (non-highlight) hover color.
+const HIGHLIGHT_STATE_HOVER_FILL = "#b4b4a6";
+
+// Hover always gives feedback over the search-match highlight — it's a
+// direct, real-time cursor interaction — but on an already-highlighted state
+// it darkens that highlight color instead of replacing it with the plain
+// hover color, so the state reads as "this one, but hovered" rather than
+// losing its highlight.
+function buildFillColorExpression(matchedStateNames: string[]): unknown {
+  return [
+    "case",
+    [
+      "all",
+      ["boolean", ["feature-state", "hover"], false],
+      ["in", ["get", "NAME_1"], ["literal", matchedStateNames]],
+    ],
+    HIGHLIGHT_STATE_HOVER_FILL,
+    ["boolean", ["feature-state", "hover"], false],
+    HOVER_STATE_FILL,
+    ["in", ["get", "NAME_1"], ["literal", matchedStateNames]],
+    HIGHLIGHT_STATE_FILL,
+    DEFAULT_STATE_FILL,
+  ];
+}
+
+// Empty starting point for the "species-hotspot" source below — populated
+// only once a species search actually has real anchor points to show.
+const EMPTY_FEATURE_COLLECTION = { type: "FeatureCollection" as const, features: [] };
+
+// Search-driven "hotspot" glow (see buildHotspotFeatures below) — soft,
+// blurred circles anchored only on real data points (a species' own state
+// marker, or a protected area that lists it as headline species), never a
+// fabricated density surface. Two stacked circles per point (soft outer
+// halo + slightly denser core) read as a glow rather than a hard-edged pin.
+// Kept monochrome/gray, not a new saturated color, per "color is reserved
+// for wildlife" (PRD Section 7) — this is a search-relevance indicator, not
+// a wildlife photo.
+const HOTSPOT_GLOW_COLOR = "#6b6b60";
 
 // Monochrome basemap (PRD Section 4.6): plain fill/line layers over the
 // bundled state-boundary GeoJSON, no external tile fetch, no road/POI/label
@@ -39,6 +95,17 @@ const MAP_STYLE = {
     "india-states": {
       type: "geojson" as const,
       data: "/data/geo/india-states.geojson",
+      // Lets each feature be addressed by its state name via feature-state
+      // (used for the hover highlight) instead of MapLibre's internal ids.
+      promoteId: "NAME_1",
+    },
+    "species-hotspot": {
+      type: "geojson" as const,
+      data: EMPTY_FEATURE_COLLECTION as GeoJSON.FeatureCollection,
+    },
+    "species-density-grid": {
+      type: "geojson" as const,
+      data: EMPTY_FEATURE_COLLECTION as GeoJSON.FeatureCollection,
     },
   },
   layers: [
@@ -49,7 +116,40 @@ const MAP_STYLE = {
       id: "states-fill",
       type: "fill" as const,
       source: "india-states",
-      paint: { "fill-color": DEFAULT_STATE_FILL, "fill-opacity": 1 },
+      paint: { "fill-color": buildFillColorExpression([]) as string, "fill-opacity": 1 },
+    },
+    {
+      id: "species-density-fill",
+      type: "fill" as const,
+      source: "species-density-grid",
+      paint: {
+        "fill-color": [
+          "match",
+          ["get", "level"],
+          1, "#fde047",
+          2, "#f97316",
+          3, "#dc2626",
+          "#fde047"
+        ],
+        "fill-opacity": [
+          "match",
+          ["get", "level"],
+          1, 0.45,
+          2, 0.60,
+          3, 0.75,
+          0.5
+        ]
+      },
+    },
+    {
+      id: "species-density-outline",
+      type: "line" as const,
+      source: "species-density-grid",
+      paint: {
+        "line-color": "#ffffff",
+        "line-width": 1.2,
+        "line-opacity": 0.8,
+      },
     },
     {
       id: "states-outline",
@@ -57,93 +157,383 @@ const MAP_STYLE = {
       source: "india-states",
       paint: { "line-color": "#8a8a82", "line-width": 0.75 },
     },
+    // Wide, heavily-blurred halo — the outer fade of the glow.
+    {
+      id: "species-hotspot-outer",
+      type: "circle" as const,
+      source: "species-hotspot",
+      paint: {
+        "circle-radius": 55,
+        "circle-color": HOTSPOT_GLOW_COLOR,
+        "circle-opacity": 0.18,
+        "circle-blur": 1,
+      },
+    },
+    // Smaller, denser core so the anchor point itself still reads clearly.
+    {
+      id: "species-hotspot-inner",
+      type: "circle" as const,
+      source: "species-hotspot",
+      paint: {
+        "circle-radius": 22,
+        "circle-color": HOTSPOT_GLOW_COLOR,
+        "circle-opacity": 0.3,
+        "circle-blur": 0.6,
+      },
+    },
   ],
 };
 
-function speciesMarkerEl(species: Species | undefined): HTMLDivElement {
-  const el = document.createElement("div");
-  el.className =
-    "flex h-11 w-11 items-center justify-center rounded-full border-2 border-white bg-zinc-200 text-xl shadow-md cursor-pointer transition-opacity";
-  el.textContent = species
-    ? SPECIES_ICON[species.slug] ?? DEFAULT_SPECIES_ICON
-    : DEFAULT_SPECIES_ICON;
-  return el;
+// Real anchor points only — a species' own state marker location, plus any
+// protected area that lists it as headline species — never a fabricated
+// range/density surface (PRD "transparent, cited data").
+function buildHotspotFeatures(
+  matchedSpeciesSlugs: Set<string>,
+  speciesMarkerMeta: SpeciesMarkerMeta[],
+  protectedAreas: ProtectedArea[],
+): GeoJSON.FeatureCollection {
+  const seen = new Set<string>();
+  const features: GeoJSON.Feature[] = [];
+  const addPoint = (lng: number, lat: number) => {
+    const key = `${lng},${lat}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    features.push({ type: "Feature", properties: {}, geometry: { type: "Point", coordinates: [lng, lat] } });
+  };
+
+  for (const { speciesSlug, lng, lat } of speciesMarkerMeta) {
+    if (matchedSpeciesSlugs.has(speciesSlug)) addPoint(lng, lat);
+  }
+  for (const pa of protectedAreas) {
+    if (matchedSpeciesSlugs.has(pa.headlineSpeciesSlug)) addPoint(pa.lng, pa.lat);
+  }
+
+  return { type: "FeatureCollection", features };
 }
 
-function protectedAreaMarkerEl(type: ProtectedArea["type"]): HTMLDivElement {
-  const el = document.createElement("div");
-  el.className =
-    "flex h-6 w-6 items-center justify-center rounded-full border-2 border-zinc-600 bg-white text-xs shadow cursor-pointer transition-opacity";
-  el.textContent = PROTECTED_AREA_ICON[type] ?? "📍";
-  return el;
+function buildDensityGridFeatures(
+  targetSpeciesSlugs: Set<string>,
+  densityData?: SpeciesDensityMap,
+): GeoJSON.FeatureCollection {
+  if (!densityData || targetSpeciesSlugs.size === 0) {
+    return EMPTY_FEATURE_COLLECTION as GeoJSON.FeatureCollection;
+  }
+
+  const features: GeoJSON.Feature[] = [];
+
+  for (const slug of targetSpeciesSlugs) {
+    const cells = densityData[slug];
+    if (!cells) continue;
+
+    for (const cell of cells) {
+      features.push({
+        type: "Feature",
+        properties: { level: cell.level, speciesSlug: slug },
+        geometry: {
+          type: "Polygon",
+          coordinates: [
+            [
+              [cell.minLng, cell.minLat],
+              [cell.maxLng, cell.minLat],
+              [cell.maxLng, cell.maxLat],
+              [cell.minLng, cell.maxLat],
+              [cell.minLng, cell.minLat],
+            ],
+          ],
+        },
+      });
+    }
+  }
+
+  return { type: "FeatureCollection", features };
+}
+
+// Default marker -> hover -> click reads as ONE element evolving, not a
+// hover preview handing off to an unrelated popup. A `expanded` class, set
+// by the click handler in the mount effect below, drives the exact same
+// descendant-selector mechanism `group-hover:` already uses — just
+// `[.expanded_&]:` instead — so the compact hover card and the full
+// click-detail card are two states of the same DOM, not two DOM subtrees.
+//
+// The always-present 44px circle/icon never resizes itself (so the map's
+// percentage-based anchor math, and the marker's actual geo-coordinate,
+// never move), and this card's own bottom edge is pinned to `bottom-1/2` of
+// that fixed-size wrapper, i.e. exactly the circle's center, in both the
+// compact and expanded state. Its tail (last flex child, so it renders at
+// that pinned bottom edge) always points back at that same center point
+// regardless of how tall the card grows.
+//
+// Only opacity/transform/width/grid-template-rows animate — no
+// height/border-radius/flex changes — which is what keeps every transition
+// smooth; a discrete property like flex-direction can't be interpolated, so
+// animating it (an earlier version of this did) snaps instead of easing.
+// The detail block's reveal uses a `grid-rows-[0fr] -> [1fr]` transition
+// rather than a `max-height` hack — grid-rows animates to the block's
+// *actual* content height, so a long description doesn't get clipped or
+// finish revealing early against an arbitrary cap.
+//
+// Shared by both marker types below. `photo` fills the card's full content
+// width (not a narrower centered square), so the gap around it reads as the
+// same `p-2` on every side — a fixed-width photo narrower than the card
+// left more visible margin on the left/right than on top, since that margin
+// came from centering rather than padding.
+function buildMarkerCard(opts: {
+  photoUrl: string | null | undefined;
+  fallbackIcon: string;
+  altText: string;
+  label: string;
+  subtitle?: string;
+  fact: string;
+  status?: Species["conservationStatus"];
+  href: string;
+  onNavigate: (href: string) => void;
+}): HTMLDivElement {
+  // Scales up from near the base marker's own footprint (rather than just
+  // fading in place), so growing into the card reads as that marker's shape
+  // stretching upward, not a separate element popping in beside it.
+  const tooltip = document.createElement("div");
+  tooltip.className =
+    "absolute bottom-1/2 left-1/2 flex origin-bottom -translate-x-1/2 scale-50 flex-col items-center opacity-0 pointer-events-none transition duration-200 ease-out group-hover:scale-100 group-hover:opacity-100 [.expanded_&]:pointer-events-auto [.expanded_&]:scale-100 [.expanded_&]:opacity-100";
+
+  const card = document.createElement("div");
+  card.className =
+    "flex w-28 flex-col items-center gap-1 rounded-2xl border border-white bg-white p-2 shadow-lg transition-[width] duration-300 ease-out [.expanded_&]:w-56 [.expanded_&]:cursor-pointer";
+  card.addEventListener("click", (e) => {
+    if (tooltip.parentElement?.classList.contains("expanded")) {
+      e.stopPropagation();
+      opts.onNavigate(opts.href);
+    }
+  });
+  tooltip.appendChild(card);
+
+  const photo = document.createElement("div");
+  photo.className = "aspect-square w-full shrink-0 overflow-hidden rounded-xl bg-zinc-200";
+  if (opts.photoUrl) {
+    const img = document.createElement("img");
+    img.src = opts.photoUrl;
+    img.alt = opts.altText;
+    img.className = "h-full w-full object-cover";
+    img.onerror = () => {
+      photo.className =
+        "aspect-square w-full shrink-0 overflow-hidden rounded-xl bg-zinc-200 flex items-center justify-center text-2xl";
+      photo.replaceChildren();
+      photo.textContent = opts.fallbackIcon;
+    };
+    photo.appendChild(img);
+  } else {
+    photo.className += " flex items-center justify-center text-2xl";
+    photo.textContent = opts.fallbackIcon;
+  }
+  card.appendChild(photo);
+
+  // Full name, no truncation — wraps onto a second line for longer names
+  // (e.g. "Lion-tailed Macaque") instead of clipping with an ellipsis.
+  const label = document.createElement("span");
+  label.className =
+    "w-full text-center font-mono text-[10px] font-semibold leading-tight text-zinc-800";
+  label.textContent = opts.label;
+  card.appendChild(label);
+
+  // Collapsed to zero height at rest (the compact hover state); only grows
+  // open once the wrapper's `expanded` class is set by a click.
+  const detailGrid = document.createElement("div");
+  detailGrid.className =
+    "grid w-full grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out [.expanded_&]:grid-rows-[1fr]";
+  card.appendChild(detailGrid);
+
+  // `overflow-hidden` on this inner wrapper (not the grid track itself) is
+  // what makes the grid-rows trick clip cleanly while it's collapsing.
+  const detail = document.createElement("div");
+  detail.className = "flex flex-col items-start gap-1 overflow-hidden text-left";
+  detailGrid.appendChild(detail);
+
+  if (opts.subtitle) {
+    const subtitle = document.createElement("p");
+    subtitle.className = "pt-1 text-[10px] text-zinc-500";
+    subtitle.textContent = opts.subtitle;
+    detail.appendChild(subtitle);
+  }
+
+  const fact = document.createElement("p");
+  fact.className = "text-[11px] leading-snug text-zinc-600";
+  fact.textContent = opts.fact;
+  detail.appendChild(fact);
+
+  if (opts.status) {
+    const badge = document.createElement("span");
+    badge.className = `inline-block rounded px-1.5 py-0.5 text-[10px] font-mono ${CONSERVATION_TONE[opts.status]}`;
+    badge.textContent = CONSERVATION_LABEL[opts.status];
+    detail.appendChild(badge);
+  }
+
+  // Real <a> (not a div with a click handler) for semantics/accessibility;
+  // navigation itself goes through onNavigate (Next.js router.push) rather
+  // than the href, since a plain browser navigation would bypass the
+  // intercepting route the drawer relies on.
+  const link = document.createElement("a");
+  link.href = opts.href;
+  link.className = "text-[11px] font-medium text-zinc-900 underline underline-offset-2";
+  link.textContent = "View details";
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    opts.onNavigate(opts.href);
+  });
+  detail.appendChild(link);
+
+  // Last flex child of `tooltip`, so it sits at the tooltip's pinned bottom
+  // edge — a diamond (square rotated 45°) reads as a downward-pointing tail.
+  const tail = document.createElement("div");
+  tail.className = "-mt-1 h-3 w-3 rotate-45 rounded-[2px] bg-white shadow-md";
+  tooltip.appendChild(tail);
+
+  return tooltip;
+}
+
+function speciesMarkerEl(
+  species: Species | undefined,
+  detail: {
+    subtitle?: string;
+    fact: string;
+    status?: Species["conservationStatus"];
+    href: string;
+    onNavigate: (href: string) => void;
+  },
+): HTMLDivElement {
+  const wrapper = document.createElement("div");
+  // `[&.expanded]:z-50` (self, not descendant) keeps an expanded card above
+  // sibling markers even after the mouse moves away from it post-click.
+  wrapper.className = "group cursor-pointer hover:z-50 [&.expanded]:z-50";
+
+  const circle = document.createElement("div");
+  circle.className =
+    "h-11 w-11 overflow-hidden rounded-full border-2 border-white bg-zinc-200 shadow-md transition-opacity duration-200 ease-out group-hover:opacity-0 [.expanded_&]:opacity-0";
+  wrapper.appendChild(circle);
+
+  const fallbackIcon = species ? SPECIES_ICON[species.slug] ?? DEFAULT_SPECIES_ICON : DEFAULT_SPECIES_ICON;
+
+  if (species?.photoUrl) {
+    const img = document.createElement("img");
+    img.src = species.photoUrl;
+    img.alt = species.commonName;
+    img.className = "h-full w-full object-cover";
+    circle.appendChild(img);
+  } else {
+    circle.className += " flex items-center justify-center text-xl";
+    circle.textContent = fallbackIcon;
+  }
+
+  wrapper.appendChild(
+    buildMarkerCard({
+      photoUrl: species?.photoUrl,
+      fallbackIcon,
+      altText: species?.commonName ?? "",
+      label: species?.commonName ?? "",
+      ...detail,
+    }),
+  );
+
+  return wrapper;
+}
+
+// Base pin stays the small, distinct non-animal icon at rest (PRD 4.5 —
+// species and protected-area markers must never be visually conflated);
+// only the card shows a photo, borrowed from the park's headline species
+// when one's known.
+function protectedAreaMarkerEl(
+  pa: ProtectedArea,
+  headline: Species | undefined,
+  detail: { subtitle?: string; fact: string; href: string; onNavigate: (href: string) => void },
+): HTMLDivElement {
+  const wrapper = document.createElement("div");
+  wrapper.className = "group cursor-pointer hover:z-50 [&.expanded]:z-50";
+
+  const fallbackIcon = PROTECTED_AREA_ICON[pa.type] ?? "📍";
+
+  const icon = document.createElement("div");
+  icon.className =
+    "flex h-6 w-6 items-center justify-center rounded-full border-2 border-zinc-600 bg-white text-xs shadow transition-opacity duration-200 ease-out group-hover:opacity-0 [.expanded_&]:opacity-0";
+  icon.textContent = fallbackIcon;
+  wrapper.appendChild(icon);
+
+  wrapper.appendChild(
+    buildMarkerCard({
+      photoUrl: pa.photoUrl,
+      fallbackIcon,
+      altText: pa.name,
+      label: pa.name,
+      ...detail,
+    }),
+  );
+
+  return wrapper;
+}
+
+function zooMarkerEl(
+  zoo: Zoo,
+  headline: Species | undefined,
+  detail: { subtitle?: string; fact: string; href: string; onNavigate: (href: string) => void },
+): HTMLDivElement {
+  const wrapper = document.createElement("div");
+  wrapper.className = "group cursor-pointer hover:z-50 [&.expanded]:z-50";
+
+  const icon = document.createElement("div");
+  icon.className =
+    "flex h-6 w-6 items-center justify-center rounded-full border-2 border-zinc-700 bg-white text-xs shadow transition-opacity duration-200 ease-out group-hover:opacity-0 [.expanded_&]:opacity-0";
+  icon.textContent = ZOO_ICON;
+  wrapper.appendChild(icon);
+
+  wrapper.appendChild(
+    buildMarkerCard({
+      photoUrl: zoo.photoUrl,
+      fallbackIcon: ZOO_ICON,
+      altText: zoo.name,
+      label: zoo.name,
+      ...detail,
+    }),
+  );
+
+  return wrapper;
+}
+
+// Bounding-box center of a GeoJSON Polygon/MultiPolygon geometry, used to
+// place a label for states that have no species marker to anchor to.
+function geometryBoundsCenter(geometry: { coordinates: unknown }): [number, number] {
+  let minLng = Infinity;
+  let minLat = Infinity;
+  let maxLng = -Infinity;
+  let maxLat = -Infinity;
+  const walk = (coords: unknown): void => {
+    if (Array.isArray(coords) && typeof coords[0] === "number") {
+      const [lng, lat] = coords as [number, number];
+      if (lng < minLng) minLng = lng;
+      if (lng > maxLng) maxLng = lng;
+      if (lat < minLat) minLat = lat;
+      if (lat > maxLat) maxLat = lat;
+      return;
+    }
+    if (Array.isArray(coords)) coords.forEach(walk);
+  };
+  walk(geometry.coordinates);
+  return [(minLng + maxLng) / 2, (minLat + maxLat) / 2];
 }
 
 // Plain DOM text labels, not MapLibre's native symbol/text layers — those
 // render pre-baked glyph bitmaps from a "glyphs" PBF server and can't use an
 // arbitrary web font at runtime. This lets labels use JetBrains Mono
 // (font-mono) directly, no glyphs server needed.
+//
+// Protected-area (national park) names are the more specific, more useful
+// label when you're zoomed in enough to read either one, so they're set
+// bigger and darker than state names — state labels stay the quieter,
+// background layer.
 function labelEl(text: string, kind: "state" | "protected-area"): HTMLDivElement {
   const el = document.createElement("div");
   el.className =
     kind === "state"
-      ? "font-mono text-[9px] uppercase tracking-wide text-zinc-500 pointer-events-none select-none whitespace-nowrap transition-opacity"
-      : "font-mono text-[8px] text-zinc-400 pointer-events-none select-none whitespace-nowrap transition-opacity";
+      ? "font-mono text-[9px] uppercase tracking-wide text-zinc-400 pointer-events-none select-none whitespace-nowrap transition-opacity"
+      : "font-mono text-[10px] font-semibold text-zinc-700 pointer-events-none select-none whitespace-nowrap transition-opacity";
   el.textContent = text;
   return el;
-}
-
-// Built as real DOM nodes (not an HTML string via .setHTML()) so the "View
-// details" link can trigger a real Next.js soft navigation via router.push
-// — a plain <a href> would do a hard browser navigation instead, which
-// bypasses Next.js's intercepting routes (the drawer would never open).
-function buildPopupContent(
-  opts: {
-    title: string;
-    subtitle?: string;
-    fact: string;
-    status?: Species["conservationStatus"];
-    href: string;
-  },
-  onNavigate: (href: string) => void,
-): HTMLElement {
-  const container = document.createElement("div");
-  container.className = "p-1 max-w-[220px]";
-
-  const title = document.createElement("p");
-  title.className = "font-semibold text-sm";
-  title.textContent = opts.title;
-  container.appendChild(title);
-
-  if (opts.subtitle) {
-    const subtitle = document.createElement("p");
-    subtitle.className = "text-xs text-zinc-500";
-    subtitle.textContent = opts.subtitle;
-    container.appendChild(subtitle);
-  }
-
-  const fact = document.createElement("p");
-  fact.className = "text-xs text-zinc-600 mt-1";
-  fact.textContent = opts.fact;
-  container.appendChild(fact);
-
-  if (opts.status) {
-    const badge = document.createElement("span");
-    badge.className = `inline-block mt-1 rounded px-1.5 py-0.5 text-[10px] font-mono ${CONSERVATION_TONE[opts.status]}`;
-    badge.textContent = CONSERVATION_LABEL[opts.status];
-    container.appendChild(badge);
-  }
-
-  const link = document.createElement("a");
-  link.href = opts.href;
-  link.className = "block mt-2 text-xs font-medium underline underline-offset-2";
-  link.textContent = "View details";
-  link.addEventListener("click", (e) => {
-    e.preventDefault();
-    onNavigate(opts.href);
-  });
-  container.appendChild(link);
-
-  return container;
 }
 
 interface SpeciesMarkerMeta {
@@ -159,20 +549,41 @@ interface ProtectedAreaMarkerMeta {
   marker: Marker;
   label: Marker;
   paSlug: string;
+  paType: ProtectedArea["type"];
+  headlineSpeciesSlug: string;
   stateSlug: string;
   lng: number;
   lat: number;
 }
 
-export default function Map({ states, species, protectedAreas, markers }: MapProps) {
+interface ZooMarkerMeta {
+  marker: Marker;
+  label: Marker;
+  zooSlug: string;
+  headlineSpeciesSlug: string | null;
+  stateSlug: string;
+  lng: number;
+  lat: number;
+}
+
+export default function Map({ states, species, protectedAreas, zoos = [], speciesDensity, markers }: MapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
+  const pathname = usePathname();
   const { query } = useSearch();
+  const { settings } = useMapSettings();
+  const [selectedSpeciesSlug, setSelectedSpeciesSlug] = useState<string | null>(null);
 
   const mapInstanceRef = useRef<MaplibreMap | null>(null);
   const stateNameBySlugRef = useRef<Map<string, string>>(new globalThis.Map());
   const speciesMarkerMetaRef = useRef<SpeciesMarkerMeta[]>([]);
   const protectedAreaMarkerMetaRef = useRef<ProtectedAreaMarkerMeta[]>([]);
+  const zooMarkerMetaRef = useRef<ZooMarkerMeta[]>([]);
+  // The single marker (if any) currently click-expanded into its full detail
+  // card — shared between the mount effect (which sets it) and the search
+  // effect (which collapses it when the query changes).
+  const expandedMarkerRef = useRef<HTMLDivElement | null>(null);
+  const prevQueryRef = useRef(query);
 
   // Mount effect: creates the map, markers, and labels once (per data
   // change). Search-driven visual updates are handled by a separate, lighter
@@ -196,6 +607,16 @@ export default function Map({ states, species, protectedAreas, markers }: MapPro
     });
     mapInstanceRef.current = map;
 
+    // Replace the fixed fallback center/zoom with a fit derived from the
+    // container's actual size, once the map has laid out and the style has
+    // loaded — this is what makes the initial zoom adapt to viewport size
+    // instead of over-zooming on a narrow window or under-zooming on a
+    // wide one.
+    map.on("load", () => {
+      map.resize();
+      map.fitBounds(INDIA_BOUNDS, { padding: 40, duration: 0 });
+    });
+
     map.addControl(new NavigationControl({ showCompass: false }), "bottom-right");
     map.addControl(
       new AttributionControl({
@@ -205,32 +626,103 @@ export default function Map({ states, species, protectedAreas, markers }: MapPro
       }),
     );
 
+    // Hover highlight for states — toggles a "hover" feature-state (paired
+    // with promoteId: "NAME_1" on the source above) rather than rewriting
+    // the whole fill-color paint property on every mousemove.
+    let hoveredStateId: string | number | null = null;
+    const handleStateMouseMove = (e: { features?: Array<{ id?: string | number }> }) => {
+      const nextId = e.features?.[0]?.id;
+      if (nextId === undefined || nextId === hoveredStateId) return;
+      if (hoveredStateId !== null) {
+        map.setFeatureState({ source: "india-states", id: hoveredStateId }, { hover: false });
+      }
+      map.setFeatureState({ source: "india-states", id: nextId }, { hover: true });
+      hoveredStateId = nextId;
+    };
+    const handleStateMouseLeave = () => {
+      if (hoveredStateId !== null) {
+        map.setFeatureState({ source: "india-states", id: hoveredStateId }, { hover: false });
+        hoveredStateId = null;
+      }
+    };
+    map.on("mousemove", "states-fill", handleStateMouseMove);
+    map.on("mouseleave", "states-fill", handleStateMouseLeave);
+
+    // Only one marker's detail card is expanded (click-pinned) at a time —
+    // clicking a different marker collapses whichever was open first, and
+    // clicking empty map area or pressing Escape collapses the current one.
+    const collapseExpandedMarker = () => {
+      expandedMarkerRef.current?.classList.remove("expanded");
+      expandedMarkerRef.current = null;
+    };
+    const toggleExpandedMarker = (wrapper: HTMLDivElement) => {
+      if (expandedMarkerRef.current === wrapper) {
+        collapseExpandedMarker();
+        return;
+      }
+      collapseExpandedMarker();
+      wrapper.classList.add("expanded");
+      expandedMarkerRef.current = wrapper;
+    };
+    // Clicks on the "View details" link handle their own navigation+collapse
+    // (see buildMarkerCard) — this only toggles for clicks elsewhere on the
+    // marker (photo, name, description, or the base circle/icon itself).
+    const handleMarkerClick = (wrapper: HTMLDivElement, speciesSlug?: string) => (e: MouseEvent) => {
+      if (e.target instanceof Element && e.target.closest("a")) return;
+      toggleExpandedMarker(wrapper);
+      if (speciesSlug) {
+        setSelectedSpeciesSlug((prev) => (prev === speciesSlug ? null : speciesSlug));
+      }
+    };
+    // MapLibre's generic map "click" fires for clicks anywhere in the map's
+    // interaction area, including on marker DOM elements sitting on top of
+    // the canvas — not just genuine empty-map clicks. Without this guard it
+    // immediately re-collapses the card a marker's own click just expanded
+    // (same click, two handlers). Only collapse when the click didn't
+    // originate from inside any marker.
+    const handleMapBackgroundClick = (e: { originalEvent?: MouseEvent }) => {
+      const target = e.originalEvent?.target;
+      if (target instanceof Element && target.closest(".maplibregl-marker")) return;
+      collapseExpandedMarker();
+      setSelectedSpeciesSlug(null);
+    };
+    const handleEscapeKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        collapseExpandedMarker();
+        setSelectedSpeciesSlug(null);
+      }
+    };
+    map.on("click", handleMapBackgroundClick);
+    document.addEventListener("keydown", handleEscapeKey);
+
     const createdMarkers: Marker[] = [];
     const speciesMeta: SpeciesMarkerMeta[] = [];
     const paMeta: ProtectedAreaMarkerMeta[] = [];
+    const zooMeta: ZooMarkerMeta[] = [];
+    // States that already get a name label anchored to their species
+    // marker — the geojson-driven pass below fills in every other state so
+    // all state names show on the map, not just the ones with mock data.
+    const labeledStateNames = new Set<string>();
 
     for (const marker of markers.speciesMarkers) {
       const sp = speciesBySlug.get(marker.speciesSlug);
       const st = stateBySlug.get(marker.stateSlug);
       if (!sp || !st) continue;
+      labeledStateNames.add(st.name);
 
-      const popup = new Popup({ offset: 24, closeButton: false }).setDOMContent(
-        buildPopupContent(
-          {
-            title: sp.commonName,
-            subtitle: `Dominant species — ${st.name}`,
-            fact: sp.description,
-            status: sp.conservationStatus,
-            href: `/state/${st.slug}`,
-          },
-          (href) => router.push(href),
-        ),
-      );
+      const wrapper = speciesMarkerEl(sp, {
+        subtitle: `Dominant species — ${st.name}`,
+        fact: sp.description,
+        status: sp.conservationStatus,
+        href: `/species/${sp.slug}`,
+        onNavigate: (href) => {
+          collapseExpandedMarker();
+          router.push(href);
+        },
+      });
+      wrapper.addEventListener("click", handleMarkerClick(wrapper, sp.slug));
 
-      const m = new Marker({ element: speciesMarkerEl(sp) })
-        .setLngLat([marker.lng, marker.lat])
-        .setPopup(popup)
-        .addTo(map);
+      const m = new Marker({ element: wrapper }).setLngLat([marker.lng, marker.lat]).addTo(map);
       createdMarkers.push(m);
 
       const label = new Marker({ element: labelEl(st.name, "state"), anchor: "top", offset: [0, 24] })
@@ -253,22 +745,18 @@ export default function Map({ states, species, protectedAreas, markers }: MapPro
       if (!pa) continue;
       const headline = speciesBySlug.get(pa.headlineSpeciesSlug);
 
-      const popup = new Popup({ offset: 12, closeButton: false }).setDOMContent(
-        buildPopupContent(
-          {
-            title: pa.name,
-            subtitle: pa.type.replace(/-/g, " "),
-            fact: headline ? `Headline species: ${headline.commonName}` : "",
-            href: `/protected-area/${pa.slug}`,
-          },
-          (href) => router.push(href),
-        ),
-      );
+      const wrapper = protectedAreaMarkerEl(pa, headline, {
+        subtitle: pa.type.replace(/-/g, " "),
+        fact: headline ? `Headline species: ${headline.commonName}` : "",
+        href: `/protected-area/${pa.slug}`,
+        onNavigate: (href) => {
+          collapseExpandedMarker();
+          router.push(href);
+        },
+      });
+      wrapper.addEventListener("click", handleMarkerClick(wrapper));
 
-      const m = new Marker({ element: protectedAreaMarkerEl(pa.type) })
-        .setLngLat([marker.lng, marker.lat])
-        .setPopup(popup)
-        .addTo(map);
+      const m = new Marker({ element: wrapper }).setLngLat([marker.lng, marker.lat]).addTo(map);
       createdMarkers.push(m);
 
       const label = new Marker({ element: labelEl(pa.name, "protected-area"), anchor: "top", offset: [0, 14] })
@@ -280,14 +768,70 @@ export default function Map({ states, species, protectedAreas, markers }: MapPro
         marker: m,
         label,
         paSlug: pa.slug,
+        paType: pa.type,
+        headlineSpeciesSlug: pa.headlineSpeciesSlug,
         stateSlug: pa.stateSlug,
         lng: marker.lng,
         lat: marker.lat,
       });
     }
 
+    for (const z of zoos) {
+      const headline = z.headlineSpeciesSlug ? speciesBySlug.get(z.headlineSpeciesSlug) : undefined;
+      const wrapper = zooMarkerEl(z, headline, {
+        subtitle: `Zoo — ${z.city}`,
+        fact: headline ? `Headline species: ${headline.commonName}` : `Est. ${z.establishedYear ?? "N/A"}`,
+        href: `/zoo/${z.slug}`,
+        onNavigate: (href) => {
+          collapseExpandedMarker();
+          router.push(href);
+        },
+      });
+      wrapper.addEventListener("click", handleMarkerClick(wrapper));
+
+      const m = new Marker({ element: wrapper }).setLngLat([z.lng, z.lat]).addTo(map);
+      createdMarkers.push(m);
+
+      const label = new Marker({ element: labelEl(z.name, "protected-area"), anchor: "top", offset: [0, 14] })
+        .setLngLat([z.lng, z.lat])
+        .addTo(map);
+      createdMarkers.push(label);
+
+      zooMeta.push({
+        marker: m,
+        label,
+        zooSlug: z.slug,
+        headlineSpeciesSlug: z.headlineSpeciesSlug,
+        stateSlug: z.stateSlug,
+        lng: z.lng,
+        lat: z.lat,
+      });
+    }
+
     speciesMarkerMetaRef.current = speciesMeta;
     protectedAreaMarkerMetaRef.current = paMeta;
+    zooMarkerMetaRef.current = zooMeta;
+
+    // Label every remaining state/UT from the boundary geojson itself (not
+    // just the ones with a mock species marker), so the map always shows
+    // all state names. Reuses the same file MapLibre already fetched for
+    // the source above, so this is served from the browser cache.
+    let cancelled = false;
+    fetch("/data/geo/india-states.geojson")
+      .then((res) => res.json())
+      .then((geojson: { features: Array<{ properties?: { NAME_1?: string }; geometry: { coordinates: unknown } }> }) => {
+        if (cancelled) return;
+        for (const feature of geojson.features) {
+          const name = feature.properties?.NAME_1;
+          if (!name || labeledStateNames.has(name)) continue;
+          const [lng, lat] = geometryBoundsCenter(feature.geometry);
+          const label = new Marker({ element: labelEl(name, "state"), anchor: "center" })
+            .setLngLat([lng, lat])
+            .addTo(map);
+          createdMarkers.push(label);
+        }
+      })
+      .catch(() => {});
 
     // MapLibre measures its container once at construction time; in a flex
     // layout that measurement can land before Tailwind/layout has settled to
@@ -296,39 +840,148 @@ export default function Map({ states, species, protectedAreas, markers }: MapPro
     resizeObserver.observe(containerRef.current);
 
     return () => {
+      cancelled = true;
       resizeObserver.disconnect();
+      map.off("mousemove", "states-fill", handleStateMouseMove);
+      map.off("mouseleave", "states-fill", handleStateMouseLeave);
+      map.off("click", handleMapBackgroundClick);
+      document.removeEventListener("keydown", handleEscapeKey);
+      expandedMarkerRef.current = null;
       createdMarkers.forEach((m) => m.remove());
       map.remove();
       mapInstanceRef.current = null;
     };
-  }, [states, species, protectedAreas, markers, router]);
+  }, [states, species, protectedAreas, zoos, markers, router]);
 
-  // Search-driven spotlight/highlight (map-native filter, not navigation —
-  // matching pins/labels stay full opacity, others dim; matched states'
-  // fill is emphasized; camera fits bounds to the current matches).
+  // Search & Map Layer Settings & Density Grid filter effect
   useEffect(() => {
     const map = mapInstanceRef.current;
     if (!map) return;
 
+    if (prevQueryRef.current !== query) {
+      expandedMarkerRef.current?.classList.remove("expanded");
+      expandedMarkerRef.current = null;
+      prevQueryRef.current = query;
+    }
+
     const q = query.trim().toLowerCase();
+    const speciesBySlug = new globalThis.Map(species.map((s) => [s.slug, s]));
 
     const resetFill = () => {
       if (map.getLayer("states-fill")) {
-        map.setPaintProperty("states-fill", "fill-color", DEFAULT_STATE_FILL);
+        map.setPaintProperty("states-fill", "fill-color", buildFillColorExpression([]) as string);
       }
     };
+    const hotspotSource = map.getSource("species-hotspot") as GeoJSONSource | undefined;
+    const densitySource = map.getSource("species-density-grid") as GeoJSONSource | undefined;
+    const speciesSlugFromPath = pathname?.startsWith("/species/")
+      ? pathname.split("/species/")[1]?.split("/")[0]
+      : null;
+    const activeSpeciesSlug = selectedSpeciesSlug || speciesSlugFromPath;
+
+    // Helper functions to check layer toggle settings
+    const isSpeciesLayerVisible = (speciesSlug: string) => {
+      const sp = speciesBySlug.get(speciesSlug);
+      if (!sp) return true;
+      if (sp.taxon === "mammal" && !settings.mammals) return false;
+      if (sp.taxon === "bird" && !settings.birds) return false;
+      return true;
+    };
+
+    const isPaLayerVisible = (paType: ProtectedArea["type"]) => {
+      if (paType === "national-park" && !settings.nationalParks) return false;
+      if (paType === "bird-sanctuary" && !settings.birdSanctuaries) return false;
+      if (paType === "wildlife-sanctuary" && !settings.wildlifeSanctuaries) return false;
+      return true;
+    };
+
+    const isZooLayerVisible = () => settings.zoos;
+
+    // Determine target species for density grid overlay
+    const targetDensitySpecies = new Set<string>();
+
+    if (activeSpeciesSlug) {
+      targetDensitySpecies.add(activeSpeciesSlug);
+    }
+
+    if (q) {
+      const directSpeciesMatches = species
+        .filter(
+          (s) => s.commonName.toLowerCase().includes(q) || s.scientificName.toLowerCase().includes(q),
+        )
+        .map((s) => s.slug);
+      directSpeciesMatches.forEach((slug) => targetDensitySpecies.add(slug));
+    }
+
+    // Render density grid features for target species
+    densitySource?.setData(buildDensityGridFeatures(targetDensitySpecies, speciesDensity));
 
     if (!q) {
-      speciesMarkerMetaRef.current.forEach(({ marker, label }) => {
-        marker.getElement().style.opacity = FULL_OPACITY;
-        label.getElement().style.opacity = FULL_OPACITY;
+      const activeSpecies = activeSpeciesSlug ? speciesBySlug.get(activeSpeciesSlug) : null;
+      const activeSpeciesStateSlugs = activeSpecies ? new Set(activeSpecies.stateSlugs) : null;
+
+      speciesMarkerMetaRef.current.forEach(({ marker, label, speciesSlug }) => {
+        const layerVisible = isSpeciesLayerVisible(speciesSlug);
+        const speciesMatched = !activeSpeciesSlug || speciesSlug === activeSpeciesSlug;
+        const visible = layerVisible && speciesMatched;
+        marker.getElement().style.display = visible ? "" : "none";
+        label.getElement().style.display = visible ? "" : "none";
       });
-      protectedAreaMarkerMetaRef.current.forEach(({ marker, label }) => {
-        marker.getElement().style.opacity = FULL_OPACITY;
-        label.getElement().style.opacity = FULL_OPACITY;
+
+      protectedAreaMarkerMetaRef.current.forEach(({ marker, label, paType, headlineSpeciesSlug }) => {
+        const layerVisible = isPaLayerVisible(paType);
+        const speciesMatched = !activeSpeciesSlug || headlineSpeciesSlug === activeSpeciesSlug;
+        const visible = layerVisible && speciesMatched;
+        marker.getElement().style.display = visible ? "" : "none";
+        label.getElement().style.display = visible ? "" : "none";
       });
-      resetFill();
-      map.flyTo({ center: DEFAULT_CENTER, zoom: DEFAULT_ZOOM, duration: 500 });
+
+      zooMarkerMetaRef.current.forEach(({ marker, label, headlineSpeciesSlug }) => {
+        const layerVisible = isZooLayerVisible();
+        const speciesMatched = !activeSpeciesSlug || headlineSpeciesSlug === activeSpeciesSlug;
+        const visible = layerVisible && speciesMatched;
+        marker.getElement().style.display = visible ? "" : "none";
+        label.getElement().style.display = visible ? "" : "none";
+      });
+
+      if (activeSpeciesSlug && activeSpeciesStateSlugs) {
+        const matchedStateNames = Array.from(activeSpeciesStateSlugs)
+          .map((slug) => stateNameBySlugRef.current.get(slug))
+          .filter((name): name is string => Boolean(name));
+
+        if (map.getLayer("states-fill")) {
+          map.setPaintProperty(
+            "states-fill",
+            "fill-color",
+            buildFillColorExpression(matchedStateNames) as string,
+          );
+        }
+
+        const bounds = new LngLatBounds();
+        if (speciesDensity && speciesDensity[activeSpeciesSlug]) {
+          for (const cell of speciesDensity[activeSpeciesSlug]) {
+            bounds.extend([cell.minLng, cell.minLat]);
+            bounds.extend([cell.maxLng, cell.maxLat]);
+          }
+        }
+        speciesMarkerMetaRef.current.forEach(({ speciesSlug, lng, lat }) => {
+          if (speciesSlug === activeSpeciesSlug) bounds.extend([lng, lat]);
+        });
+        protectedAreaMarkerMetaRef.current.forEach(({ headlineSpeciesSlug, lng, lat }) => {
+          if (headlineSpeciesSlug === activeSpeciesSlug) bounds.extend([lng, lat]);
+        });
+        zooMarkerMetaRef.current.forEach(({ headlineSpeciesSlug, lng, lat }) => {
+          if (headlineSpeciesSlug === activeSpeciesSlug) bounds.extend([lng, lat]);
+        });
+
+        if (!bounds.isEmpty()) {
+          map.fitBounds(bounds, { padding: 80, maxZoom: 7, duration: 500 });
+        }
+      } else {
+        resetFill();
+        hotspotSource?.setData(EMPTY_FEATURE_COLLECTION as GeoJSON.FeatureCollection);
+      }
+
       return;
     }
 
@@ -342,17 +995,22 @@ export default function Map({ states, species, protectedAreas, markers }: MapPro
     const matchedProtectedAreaSlugs = new Set(
       protectedAreas.filter((p) => p.name.toLowerCase().includes(q)).map((p) => p.slug),
     );
-    const matchedStateSlugs = new Set(
+    const matchedZooSlugs = new Set(
+      zoos.filter((z) => z.name.toLowerCase().includes(q) || z.city.toLowerCase().includes(q)).map((z) => z.slug),
+    );
+    const directMatchedStateSlugs = new Set(
       states.filter((s) => s.name.toLowerCase().includes(q)).map((s) => s.slug),
     );
+    const matchedStateSlugs = new Set(directMatchedStateSlugs);
 
-    // Cascade: a matched species/protected-area highlights its state(s); a
-    // directly-matched state highlights the protected areas within it.
     for (const sp of species) {
       if (matchedSpeciesSlugs.has(sp.slug)) sp.stateSlugs.forEach((slug) => matchedStateSlugs.add(slug));
     }
     for (const pa of protectedAreas) {
       if (matchedProtectedAreaSlugs.has(pa.slug)) matchedStateSlugs.add(pa.stateSlug);
+    }
+    for (const z of zoos) {
+      if (matchedZooSlugs.has(z.slug)) matchedStateSlugs.add(z.stateSlug);
     }
     for (const pa of protectedAreas) {
       if (matchedStateSlugs.has(pa.stateSlug)) matchedProtectedAreaSlugs.add(pa.slug);
@@ -361,21 +1019,43 @@ export default function Map({ states, species, protectedAreas, markers }: MapPro
     const bounds = new LngLatBounds();
     let hasMatch = false;
 
-    speciesMarkerMetaRef.current.forEach(({ marker, label, speciesSlug, stateSlug, lng, lat }) => {
-      const matched = matchedSpeciesSlugs.has(speciesSlug) || matchedStateSlugs.has(stateSlug);
-      marker.getElement().style.opacity = matched ? FULL_OPACITY : DIM_OPACITY;
-      label.getElement().style.opacity = matched ? FULL_OPACITY : DIM_OPACITY;
-      if (matched) {
+    speciesMarkerMetaRef.current.forEach(({ marker, label, speciesSlug, lng, lat }) => {
+      const searchMatched = matchedSpeciesSlugs.has(speciesSlug) || directMatchedStateSlugs.has(stateSlug);
+      const layerVisible = isSpeciesLayerVisible(speciesSlug);
+      const speciesMatched = !activeSpeciesSlug || speciesSlug === activeSpeciesSlug;
+      const visible = searchMatched && layerVisible && speciesMatched;
+
+      marker.getElement().style.display = visible ? "" : "none";
+      label.getElement().style.display = visible ? "" : "none";
+      if (visible) {
         bounds.extend([lng, lat]);
         hasMatch = true;
       }
     });
 
-    protectedAreaMarkerMetaRef.current.forEach(({ marker, label, paSlug, lng, lat }) => {
-      const matched = matchedProtectedAreaSlugs.has(paSlug);
-      marker.getElement().style.opacity = matched ? FULL_OPACITY : DIM_OPACITY;
-      label.getElement().style.opacity = matched ? FULL_OPACITY : DIM_OPACITY;
-      if (matched) {
+    protectedAreaMarkerMetaRef.current.forEach(({ marker, label, paSlug, paType, headlineSpeciesSlug, lng, lat }) => {
+      const searchMatched = matchedProtectedAreaSlugs.has(paSlug);
+      const layerVisible = isPaLayerVisible(paType);
+      const speciesMatched = !activeSpeciesSlug || headlineSpeciesSlug === activeSpeciesSlug;
+      const visible = searchMatched && layerVisible && speciesMatched;
+
+      marker.getElement().style.display = visible ? "" : "none";
+      label.getElement().style.display = visible ? "" : "none";
+      if (visible) {
+        bounds.extend([lng, lat]);
+        hasMatch = true;
+      }
+    });
+
+    zooMarkerMetaRef.current.forEach(({ marker, label, zooSlug, headlineSpeciesSlug, lng, lat }) => {
+      const searchMatched = matchedZooSlugs.has(zooSlug);
+      const layerVisible = isZooLayerVisible();
+      const speciesMatched = !activeSpeciesSlug || headlineSpeciesSlug === activeSpeciesSlug;
+      const visible = searchMatched && layerVisible && speciesMatched;
+
+      marker.getElement().style.display = visible ? "" : "none";
+      label.getElement().style.display = visible ? "" : "none";
+      if (visible) {
         bounds.extend([lng, lat]);
         hasMatch = true;
       }
@@ -389,21 +1069,18 @@ export default function Map({ states, species, protectedAreas, markers }: MapPro
       map.setPaintProperty(
         "states-fill",
         "fill-color",
-        matchedStateNames.length > 0
-          ? ([
-              "case",
-              ["in", ["get", "NAME_1"], ["literal", matchedStateNames]],
-              HIGHLIGHT_STATE_FILL,
-              DEFAULT_STATE_FILL,
-            ] as unknown as string)
-          : DEFAULT_STATE_FILL,
+        buildFillColorExpression(matchedStateNames) as string,
       );
     }
+
+    hotspotSource?.setData(
+      buildHotspotFeatures(matchedSpeciesSlugs, speciesMarkerMetaRef.current, protectedAreas) as GeoJSON.FeatureCollection,
+    );
 
     if (hasMatch) {
       map.fitBounds(bounds, { padding: 80, maxZoom: 7, duration: 500 });
     }
-  }, [query, states, species, protectedAreas]);
+  }, [query, settings, selectedSpeciesSlug, pathname, speciesDensity, states, species, protectedAreas, zoos, markers, router]);
 
   return <div ref={containerRef} className="h-full w-full" />;
 }

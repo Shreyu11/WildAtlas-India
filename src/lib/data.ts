@@ -1,6 +1,6 @@
 import { readFile } from "fs/promises";
 import path from "path";
-import type { MarkerTier, ProtectedArea, Species, State } from "./types";
+import type { FunFact, MarkerTier, ProtectedArea, Species, SpeciesDensityMap, State, WorldAnimalDay, Zoo } from "./types";
 
 // Reads mock JSON from public/data/. Swapping in real pipeline output later
 // is a one-file change: point these at the same paths once the Python
@@ -28,3 +28,20 @@ export function getProtectedAreas(): Promise<ProtectedArea[]> {
 export function getCountryMarkers(): Promise<MarkerTier> {
   return readJson<MarkerTier>("markers/country.json");
 }
+
+export function getFunFacts(): Promise<FunFact[]> {
+  return readJson<FunFact[]>("fun-facts.json");
+}
+
+export function getZoos(): Promise<Zoo[]> {
+  return readJson<Zoo[]>("zoos.json");
+}
+
+export function getWorldAnimalDays(): Promise<WorldAnimalDay[]> {
+  return readJson<WorldAnimalDay[]>("world-animal-days.json");
+}
+
+export function getSpeciesDensity(): Promise<SpeciesDensityMap> {
+  return readJson<SpeciesDensityMap>("species-density.json");
+}
+

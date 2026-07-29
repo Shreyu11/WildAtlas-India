@@ -4,6 +4,7 @@ import "./globals.css";
 import TopNav from "@/components/TopNav/TopNav";
 import GridBackground from "@/components/GridBackground/GridBackground";
 import { SearchProvider } from "@/components/SearchProvider/SearchProvider";
+import { MapSettingsProvider } from "@/components/MapSettingsProvider/MapSettingsProvider";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -32,13 +33,19 @@ export default function RootLayout({
       lang="en"
       className={`${manrope.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        <SearchProvider>
-          <GridBackground />
-          <TopNav />
-          <main className="relative min-h-0 flex-1">{children}</main>
-          {modal}
-        </SearchProvider>
+      <body className="relative h-full">
+        <MapSettingsProvider>
+          <SearchProvider>
+            <GridBackground />
+            {/* Full-bleed, edge-to-edge — TopNav floats on top of this (fixed,
+                transparent) rather than sitting in its own row above it, so
+                the map is actually visible/blurred behind the header instead
+                of just the plain GridBackground dots. */}
+            <main className="absolute inset-0">{children}</main>
+            <TopNav />
+            {modal}
+          </SearchProvider>
+        </MapSettingsProvider>
       </body>
     </html>
   );
