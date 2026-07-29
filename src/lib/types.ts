@@ -19,6 +19,40 @@ export interface PhotoAttribution {
   sourceUrl: string;
 }
 
+export interface DataSourceRef {
+  label: string;
+  url: string;
+  accessedDate: string;
+}
+
+export interface TaxonClassification {
+  kingdom?: string;
+  phylum?: string;
+  class?: string;
+  order?: string;
+  family?: string;
+  genus?: string;
+  species?: string;
+}
+
+export interface PopulationTrendPoint {
+  year: number;
+  estimate: number | null;
+  source: string;
+}
+
+export interface SeasonalInfo {
+  bestViewingMonths?: string[];
+  breedingSeason?: string;
+  migration?: string;
+}
+
+export interface VisitingHours {
+  openMonths?: string;
+  timings?: string;
+  closedSeason?: string;
+}
+
 export interface Species {
   slug: string;
   commonName: string;
@@ -31,6 +65,17 @@ export interface Species {
   photoUrl: string | null; // null falls back to an illustrated icon (PRD 4.4)
   photoAttribution: PhotoAttribution | null; // required whenever photoUrl is set
   sourceCitations: string[];
+  // Additive fields per DATASET_PLAN.md §2.1
+  taxonClassification?: TaxonClassification | null;
+  photos?: PhotoAttribution[];
+  habitats?: string[] | null;
+  populationTrend?: PopulationTrendPoint[] | null;
+  keyFeaturesRole?: string | null;
+  seasonalInfo?: SeasonalInfo | null;
+  worldAnimalDaySlug?: string | null;
+  conservationEfforts?: string[] | null;
+  relatedSuggestions?: string[];
+  needsResearch?: boolean;
 }
 
 export interface State {
@@ -51,7 +96,20 @@ export interface ProtectedArea {
   photoUrl?: string | null;
   lat: number;
   lng: number;
+  // Additive fields per DATASET_PLAN.md §2.2
+  areaSqKm?: number | null;
+  visitingHours?: VisitingHours | null;
+  websiteUrl?: string | null;
+  latestUpdates?: Array<{ date: string; note: string; sourceUrl: string }>;
+  uniqueFeatures?: string | null;
+  additionalKeySpeciesSlugs?: string[];
+  relatedSuggestions?: string[];
+  sources?: DataSourceRef[];
+  needsResearch?: boolean;
 }
+
+export type NationalPark = ProtectedArea & { type: "national-park" };
+export type Sanctuary = ProtectedArea & { type: "wildlife-sanctuary" | "bird-sanctuary" };
 
 // State-wise zoo directory. A distinct entity from ProtectedArea (a zoo is
 // an ex-situ, captive-animal facility, not a wild habitat), but modeled the
@@ -69,6 +127,16 @@ export interface Zoo {
   lat: number;
   lng: number;
   wikipediaUrl: string;
+  // Additive fields per DATASET_PLAN.md §2.2
+  areaSqKm?: number | null;
+  visitingHours?: VisitingHours | null;
+  websiteUrl?: string | null;
+  latestUpdates?: Array<{ date: string; note: string; sourceUrl: string }>;
+  uniqueFeatures?: string | null;
+  additionalKeySpeciesSlugs?: string[];
+  relatedSuggestions?: string[];
+  sources?: DataSourceRef[];
+  needsResearch?: boolean;
 }
 
 // Internationally observed single-species awareness days with a fixed

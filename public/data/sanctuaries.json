@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "periyar-wildlife-sanctuary",
+    "name": "Periyar Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "asian-elephant",
+    "photoUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "lat": 9.4667,
+    "lng": 77.15,
+    "areaSqKm": 777,
+    "websiteUrl": "https://periyartigerreserve.org",
+    "uniqueFeatures": "Scenic artificial lake formed by Mullaperiyar Dam where wild elephant herds come to bathe.",
+    "sources": [
+      {
+        "label": "Periyar Tiger Reserve",
+        "url": "https://periyartigerreserve.org",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "keoladeo-bird-sanctuary",
+    "name": "Keoladeo Bird Sanctuary",
+    "type": "bird-sanctuary",
+    "stateSlug": "rajasthan",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "photoUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "lat": 27.16,
+    "lng": 77.52,
+    "areaSqKm": 29,
+    "websiteUrl": "https://forest.rajasthan.gov.in",
+    "uniqueFeatures": "UNESCO World Heritage wetlands hosting over 370 resident and migratory bird species every winter.",
+    "sources": [
+      {
+        "label": "Rajasthan Forest Department",
+        "url": "https://forest.rajasthan.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "salim-ali-bird-sanctuary",
+    "name": "Salim Ali Bird Sanctuary",
+    "type": "bird-sanctuary",
+    "stateSlug": "goa",
+    "headlineSpeciesSlug": "great-hornbill",
+    "photoUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "lat": 15.5128,
+    "lng": 73.8706,
+    "areaSqKm": 1.8,
+    "websiteUrl": "https://forest.goa.gov.in",
+    "uniqueFeatures": "Estuarine mangrove habitat along Mandovi River named after India's pioneer ornithologist Dr. Salim Ali.",
+    "sources": [
+      {
+        "label": "Goa Forest Department",
+        "url": "https://forest.goa.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "bhitarkanika-wildlife-sanctuary",
+    "name": "Bhitarkanika Wildlife Sanctuary",
+    "type": "wildlife-sanctuary",
+    "stateSlug": "odisha",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "photoUrl": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop&q=80",
+    "lat": 20.7067,
+    "lng": 86.8683,
+    "areaSqKm": 672,
+    "websiteUrl": "https://odishaforest.in",
+    "uniqueFeatures": "India's second largest mangrove ecosystem, famous for giant Saltwater Crocodiles and nesting Olive Ridley sea turtles.",
+    "sources": [
+      {
+        "label": "Odisha Forest Department",
+        "url": "https://odishaforest.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "point-calimere-wildlife-and-bird-sanctuary",
+    "name": "Point Calimere Wildlife & Bird Sanctuary",
+    "type": "bird-sanctuary",
+    "stateSlug": "tamil-nadu",
+    "headlineSpeciesSlug": "indian-peafowl",
+    "photoUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "lat": 10.3014,
+    "lng": 79.8453,
+    "areaSqKm": 21,
+    "websiteUrl": "https://forests.tn.gov.in",
+    "uniqueFeatures": "Ramsar wetland site along Palk Strait, famous for thousands of wintering Greater Flamingos and Blackbuck antelopes.",
+    "sources": [
+      {
+        "label": "Tamil Nadu Forest Department",
+        "url": "https://forests.tn.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  }
+]

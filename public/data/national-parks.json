@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "kaziranga-national-park",
+    "name": "Kaziranga National Park",
+    "type": "national-park",
+    "stateSlug": "assam",
+    "headlineSpeciesSlug": "indian-rhinoceros",
+    "photoUrl": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&auto=format&fit=crop&q=80",
+    "lat": 26.5775,
+    "lng": 93.1711,
+    "areaSqKm": 1090,
+    "websiteUrl": "https://kaziranga.assam.gov.in",
+    "uniqueFeatures": "UNESCO World Heritage site hosting two-thirds of the world's Great One-horned Rhinoceroses.",
+    "sources": [
+      {
+        "label": "MoEFCC / Assam Forest Department",
+        "url": "https://kaziranga.assam.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "gir-national-park",
+    "name": "Gir National Park",
+    "type": "national-park",
+    "stateSlug": "gujarat",
+    "headlineSpeciesSlug": "asiatic-lion",
+    "photoUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=800&auto=format&fit=crop&q=80",
+    "lat": 21.1288,
+    "lng": 70.7996,
+    "areaSqKm": 1412,
+    "websiteUrl": "https://forests.gujarat.gov.in",
+    "uniqueFeatures": "The sole surviving natural habitat of the Asiatic Lion in the world.",
+    "sources": [
+      {
+        "label": "Gujarat Forest Department",
+        "url": "https://forests.gujarat.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "ranthambore-national-park",
+    "name": "Ranthambore National Park",
+    "type": "national-park",
+    "stateSlug": "rajasthan",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "photoUrl": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=800&auto=format&fit=crop&q=80",
+    "lat": 26.0173,
+    "lng": 76.5026,
+    "areaSqKm": 1334,
+    "websiteUrl": "https://forest.rajasthan.gov.in",
+    "uniqueFeatures": "Famous for diurnal tiger sightings amidst ancient Ranthambore Fort ruins and dry deciduous forest.",
+    "sources": [
+      {
+        "label": "Rajasthan Forest Department",
+        "url": "https://forest.rajasthan.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "jim-corbett-national-park",
+    "name": "Jim Corbett National Park",
+    "type": "national-park",
+    "stateSlug": "uttarakhand",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "photoUrl": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&auto=format&fit=crop&q=80",
+    "lat": 29.53,
+    "lng": 78.77,
+    "areaSqKm": 1318,
+    "websiteUrl": "https://corbettonline.uk.gov.in",
+    "uniqueFeatures": "India's oldest national park, established in 1936, and birthplace of Project Tiger.",
+    "sources": [
+      {
+        "label": "Uttarakhand Forest Department",
+        "url": "https://corbettonline.uk.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "kanha-national-park",
+    "name": "Kanha National Park",
+    "type": "national-park",
+    "stateSlug": "madhya-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "photoUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "lat": 22.3344,
+    "lng": 80.6115,
+    "areaSqKm": 940,
+    "websiteUrl": "https://mpforest.gov.in",
+    "uniqueFeatures": "Vast sal forests and meadows that inspired Rudyard Kipling's Jungle Book; home to the rare Hard-ground Barasingha.",
+    "sources": [
+      {
+        "label": "MP Forest Department",
+        "url": "https://mpforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "bandhavgarh-national-park",
+    "name": "Bandhavgarh National Park",
+    "type": "national-park",
+    "stateSlug": "madhya-pradesh",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "photoUrl": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=800&auto=format&fit=crop&q=80",
+    "lat": 23.7014,
+    "lng": 81.0261,
+    "areaSqKm": 1536,
+    "websiteUrl": "https://mpforest.gov.in",
+    "uniqueFeatures": "Boasts one of the highest known densities of Royal Bengal Tigers in India.",
+    "sources": [
+      {
+        "label": "MP Forest Department",
+        "url": "https://mpforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "sundarbans-national-park",
+    "name": "Sundarbans National Park",
+    "type": "national-park",
+    "stateSlug": "west-bengal",
+    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "photoUrl": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop&q=80",
+    "lat": 21.9497,
+    "lng": 88.9007,
+    "areaSqKm": 1330,
+    "websiteUrl": "https://westbengalforest.gov.in",
+    "uniqueFeatures": "UNESCO Biosphere Reserve featuring the world's largest mangrove forest, home to swimming tigers.",
+    "sources": [
+      {
+        "label": "West Bengal Forest Department",
+        "url": "https://westbengalforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "silent-valley-national-park",
+    "name": "Silent Valley National Park",
+    "type": "national-park",
+    "stateSlug": "kerala",
+    "headlineSpeciesSlug": "lion-tailed-macaque",
+    "photoUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "lat": 11.0822,
+    "lng": 76.4422,
+    "areaSqKm": 237,
+    "websiteUrl": "https://keralaforest.gov.in",
+    "uniqueFeatures": "Pristine Western Ghats tropical evergreen rainforest preserving endangered endemic primates.",
+    "sources": [
+      {
+        "label": "Kerala Forest Department",
+        "url": "https://keralaforest.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "hemis-national-park",
+    "name": "Hemis National Park",
+    "type": "national-park",
+    "stateSlug": "jammu-and-kashmir",
+    "headlineSpeciesSlug": "snow-leopard",
+    "photoUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "lat": 33.92,
+    "lng": 77.42,
+    "areaSqKm": 4400,
+    "websiteUrl": "https://jkwildlife.com",
+    "uniqueFeatures": "India's largest national park, located in high-altitude Ladakh; world capital of the Snow Leopard.",
+    "sources": [
+      {
+        "label": "J&K Wildlife Protection Department",
+        "url": "https://jkwildlife.com",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "manas-national-park",
+    "name": "Manas National Park",
+    "type": "national-park",
+    "stateSlug": "assam",
+    "headlineSpeciesSlug": "indian-rhinoceros",
+    "photoUrl": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&auto=format&fit=crop&q=80",
+    "lat": 26.6594,
+    "lng": 91.0011,
+    "areaSqKm": 950,
+    "websiteUrl": "https://forest.assam.gov.in",
+    "uniqueFeatures": "UNESCO World Heritage Site at the Himalayan foothills, famous for Pygmy Hog, Golden Langur, and Wild Water Buffalo.",
+    "sources": [
+      {
+        "label": "Assam Forest Department",
+        "url": "https://forest.assam.gov.in",
+        "accessedDate": "2026-07-29"
+      }
+    ],
+    "needsResearch": false
+  }
+]

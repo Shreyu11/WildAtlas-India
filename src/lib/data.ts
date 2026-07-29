@@ -21,8 +21,17 @@ export function getSpecies(): Promise<Species[]> {
   return readJson<Species[]>("species.json");
 }
 
-export function getProtectedAreas(): Promise<ProtectedArea[]> {
-  return readJson<ProtectedArea[]>("protected-areas.json");
+export function getNationalParks(): Promise<ProtectedArea[]> {
+  return readJson<ProtectedArea[]>("national-parks.json");
+}
+
+export function getSanctuaries(): Promise<ProtectedArea[]> {
+  return readJson<ProtectedArea[]>("sanctuaries.json");
+}
+
+export async function getProtectedAreas(): Promise<ProtectedArea[]> {
+  const [nps, sanctuaries] = await Promise.all([getNationalParks(), getSanctuaries()]);
+  return [...nps, ...sanctuaries];
 }
 
 export function getCountryMarkers(): Promise<MarkerTier> {

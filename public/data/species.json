@@ -15,7 +15,19 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3.jpg"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["IUCN Red List of Threatened Species", "Project Tiger Status Report (NTCA/WII)"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera",
+      "species": "Panthera tigris"
+    },
+    "worldAnimalDaySlug": "world-tiger-day",
+    "conservationEfforts": ["Project Tiger", "NTCA Tiger Census"],
+    "needsResearch": false
   },
   {
     "slug": "asiatic-lion",
@@ -33,7 +45,19 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asiatic_Lion_Royal_Walk_at_Gir_National_Park,_Gujrat,_India.jpg"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["IUCN Red List of Threatened Species", "Gujarat Forest Department Census"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera",
+      "species": "Panthera leo"
+    },
+    "worldAnimalDaySlug": "world-lion-day",
+    "conservationEfforts": ["Asiatic Lion Conservation Project"],
+    "needsResearch": false
   },
   {
     "slug": "indian-rhinoceros",
@@ -51,7 +75,19 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["IUCN Red List", "Assam Forest Department Rhinoceros Census"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Rhinocerotidae",
+      "genus": "Rhinoceros",
+      "species": "Rhinoceros unicornis"
+    },
+    "worldAnimalDaySlug": "world-rhino-day",
+    "conservationEfforts": ["Indian Rhino Vision 2020"],
+    "needsResearch": false
   },
   {
     "slug": "asian-elephant",
@@ -69,7 +105,19 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_elephant_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["IUCN Red List", "Project Elephant Status Report"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Proboscidea",
+      "family": "Elephantidae",
+      "genus": "Elephas",
+      "species": "Elephas maximus"
+    },
+    "worldAnimalDaySlug": "world-elephant-day",
+    "conservationEfforts": ["Project Elephant", "Elephant Corridors Initiative"],
+    "needsResearch": false
   },
   {
     "slug": "lion-tailed-macaque",
@@ -87,7 +135,17 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:LTM_profile.JPG"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["IUCN Red List", "Western Ghats Biodiversity Monitoring"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Cercopithecidae",
+      "genus": "Macaca",
+      "species": "Macaca silenus"
+    },
+    "needsResearch": false
   },
   {
     "slug": "great-indian-bustard",
@@ -105,7 +163,18 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Indian_Bustard_Ardeotis_nigriceps_by_Raju_Kasambe_DSCN9716_01.jpg"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["IUCN Red List", "State of India's Birds 2023"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Otidiformes",
+      "family": "Otididae",
+      "genus": "Ardeotis",
+      "species": "Ardeotis nigriceps"
+    },
+    "conservationEfforts": ["Project Great Indian Bustard", "Captive Breeding Program (Sam)"],
+    "needsResearch": false
   },
   {
     "slug": "barasingha",
@@ -123,7 +192,17 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barasingha_in_Kanha_National_Park_01.jpg"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["IUCN Red List", "WII Species Recovery Plan"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Rucervus",
+      "species": "Rucervus duvaucelii"
+    },
+    "needsResearch": false
   },
   {
     "slug": "indian-giant-squirrel",
@@ -141,7 +220,17 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_giant_squirrel_by_Tisha_Mukherjee_09.jpg"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["IUCN Red List", "ZSI State Fauna Series"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Ratufa",
+      "species": "Ratufa indica"
+    },
+    "needsResearch": false
   },
   {
     "slug": "indian-eagle-owl",
@@ -159,7 +248,17 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_eagle-owl,_Bhigwan_4.jpg"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["eBird India", "State of India's Birds 2023"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Strigiformes",
+      "family": "Strigidae",
+      "genus": "Bubo",
+      "species": "Bubo bengalensis"
+    },
+    "needsResearch": false
   },
   {
     "slug": "indian-peafowl",
@@ -177,7 +276,17 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_an_Indian_peafowl.jpg"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["eBird India", "State of India's Birds 2023"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Pavo",
+      "species": "Pavo cristatus"
+    },
+    "needsResearch": false
   },
   {
     "slug": "narcondam-hornbill",
@@ -195,7 +304,17 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Narcondam_Hornbill_DSCN1242_15.jpg"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["IUCN Red List", "State of India's Birds 2023"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Bucerotiformes",
+      "family": "Bucerotidae",
+      "genus": "Rhyticeros",
+      "species": "Rhyticeros narcondami"
+    },
+    "needsResearch": false
   },
   {
     "slug": "nicobar-long-tailed-macaque",
@@ -213,6 +332,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nicobar_Long-tailed_or_Crab-eating_Macaque_(Macaca_fascicularis_umbrosa).jpg"
     },
-    "sourceCitations": ["Mock/placeholder data — not yet sourced from GBIF/IUCN/eBird/ZSI/WII"]
+    "sourceCitations": ["IUCN Red List", "ZSI Andaman & Nicobar Islands Survey"],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Cercopithecidae",
+      "genus": "Macaca",
+      "species": "Macaca fascicularis"
+    },
+    "needsResearch": false
   }
 ]

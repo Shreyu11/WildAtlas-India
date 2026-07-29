@@ -8,6 +8,7 @@ import {
   AttributionControl,
   LngLatBounds,
   type GeoJSONSource,
+  type StyleSpecification,
 } from "maplibre-gl";
 import { useEffect, useRef, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
@@ -598,7 +599,7 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
 
     const map = new MaplibreMap({
       container: containerRef.current,
-      style: MAP_STYLE,
+      style: MAP_STYLE as unknown as StyleSpecification,
       center: DEFAULT_CENTER,
       zoom: DEFAULT_ZOOM,
       minZoom: 3,
@@ -1019,7 +1020,7 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
     const bounds = new LngLatBounds();
     let hasMatch = false;
 
-    speciesMarkerMetaRef.current.forEach(({ marker, label, speciesSlug, lng, lat }) => {
+    speciesMarkerMetaRef.current.forEach(({ marker, label, speciesSlug, stateSlug, lng, lat }) => {
       const searchMatched = matchedSpeciesSlugs.has(speciesSlug) || directMatchedStateSlugs.has(stateSlug);
       const layerVisible = isSpeciesLayerVisible(speciesSlug);
       const speciesMatched = !activeSpeciesSlug || speciesSlug === activeSpeciesSlug;
