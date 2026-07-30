@@ -2,9 +2,8 @@
 
 import { useEffect, useRef } from "react";
 import { useSearch } from "@/components/SearchProvider/SearchProvider";
+import { Search, X } from "lucide-react";
 
-// Filters/spotlights the map itself (see Map.tsx) rather than navigating —
-// a deliberate departure from the earlier "jump to detail page" idea.
 export default function SearchBar() {
   const { query, setQuery } = useSearch();
   const inputRef = useRef<HTMLInputElement>(null);
@@ -22,20 +21,18 @@ export default function SearchBar() {
   }, []);
 
   return (
-    <div className="relative w-full">
-      {/* type="text", not "search" — type="search" adds the browser's own
-          native clear-icon in Chrome/Edge/Safari, which stacked with our
-          custom clear button below and showed two "x" icons at once. */}
+    <div className="relative flex items-center w-full group">
+      <Search className="absolute left-4 h-4 w-4 text-zinc-400 group-focus-within:text-zinc-700 transition-colors pointer-events-none" />
       <input
         ref={inputRef}
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search species, states, or parks…"
-        className="h-12 w-full rounded-full border border-zinc-200 bg-zinc-50 px-5 pr-12 text-sm text-zinc-900 placeholder:text-zinc-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400 shadow-sm"
+        placeholder="Spotlight species, states, or parks…"
+        className="h-11 w-full rounded-full border border-black/5 bg-zinc-200/50 hover:bg-zinc-200/70 focus:bg-white/95 focus:border-zinc-300 pl-11 pr-12 text-sm text-zinc-900 placeholder:text-zinc-400 focus:outline-none focus:ring-4 focus:ring-black/5 shadow-inner transition-all duration-200 ease-ios"
       />
       {!query ? (
-        <kbd className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 hidden select-none rounded border border-zinc-200 bg-zinc-100 px-1.5 py-0.5 font-mono text-[10px] font-medium text-zinc-400 sm:inline-block">
+        <kbd className="pointer-events-none absolute right-3.5 top-1/2 -translate-y-1/2 hidden select-none rounded-md border border-black/10 bg-white/80 px-1.5 py-0.5 font-mono text-[10px] font-medium text-zinc-500 shadow-2xs sm:inline-block">
           ⌘K
         </kbd>
       ) : (
@@ -43,9 +40,9 @@ export default function SearchBar() {
           type="button"
           aria-label="Clear search"
           onClick={() => setQuery("")}
-          className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-zinc-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+          className="absolute right-3.5 top-1/2 -translate-y-1/2 inline-flex h-6 w-6 items-center justify-center rounded-full bg-zinc-300/60 text-zinc-600 hover:bg-zinc-300 hover:text-zinc-900 transition-colors active:scale-90"
         >
-          ✕
+          <X className="h-3.5 w-3.5" />
         </button>
       )}
     </div>

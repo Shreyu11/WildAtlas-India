@@ -100,16 +100,16 @@ export default function MapViewSettings() {
     <div ref={panelRef} className="absolute bottom-6 left-6 z-30 flex flex-col items-start">
       {/* Popover Settings Panel */}
       {isOpen && (
-        <div className="mb-3 w-80 rounded-2xl border border-zinc-200 bg-white/95 p-4 shadow-xl backdrop-blur-md transition-all duration-200 ease-out animate-in fade-in slide-in-from-bottom-2">
+        <div className="mb-3 w-84 rounded-[24px] border border-white/60 bg-white/90 p-5 shadow-2xl backdrop-blur-2xl transition-all duration-300 ease-ios animate-in fade-in slide-in-from-bottom-2">
           {/* Header */}
-          <div className="flex items-center justify-between pb-3 border-b border-zinc-100">
-            <h2 className="font-mono text-xs font-semibold uppercase tracking-wider text-zinc-700">
+          <div className="flex items-center justify-between pb-3 border-b border-zinc-200/60">
+            <h2 className="font-sans text-xs font-bold uppercase tracking-wider text-zinc-800">
               Map View Settings
             </h2>
             <button
               type="button"
               onClick={() => setIsOpen(false)}
-              className="inline-flex h-7 w-7 items-center justify-center rounded-lg text-zinc-400 hover:bg-zinc-100 hover:text-zinc-700 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+              className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-zinc-200/50 text-zinc-600 hover:bg-zinc-200/80 hover:text-zinc-900 transition-all duration-200 ease-ios active:scale-90"
               title="Close settings"
               aria-label="Close settings"
             >
@@ -119,28 +119,28 @@ export default function MapViewSettings() {
 
           {/* Details Section */}
           <div className="mt-3">
-            <div className="space-y-2.5">
+            <div className="space-y-1.5">
               {toggleItems.map((item) => {
                 const isActive = settings[item.key];
                 return (
                   <div
                     key={item.key}
                     onClick={() => toggleSetting(item.key)}
-                    className="group flex items-center justify-between p-2 rounded-xl cursor-pointer hover:bg-zinc-50 transition"
+                    className="group flex items-center justify-between p-2.5 rounded-2xl cursor-pointer hover:bg-zinc-100/60 active:bg-zinc-200/50 transition-colors duration-150 ease-ios"
                   >
-                    <div className="flex items-center gap-2.5 pr-2">
-                      <span className="text-base leading-none select-none">{item.icon}</span>
+                    <div className="flex items-center gap-3 pr-2">
+                      <span className="text-lg leading-none select-none p-1.5 rounded-xl bg-zinc-100 border border-black/5 shadow-2xs">{item.icon}</span>
                       <div className="flex flex-col">
-                        <span className="text-xs font-semibold text-zinc-800 leading-tight">
+                        <span className="text-xs font-semibold text-zinc-900 leading-tight">
                           {item.label}
                         </span>
-                        <span className="text-[10px] text-zinc-500 leading-tight mt-0.5">
+                        <span className="text-[11px] text-zinc-500 leading-tight mt-0.5">
                           {item.description}
                         </span>
                       </div>
                     </div>
 
-                    {/* Custom Toggle Switch */}
+                    {/* Authentic iOS Toggle Switch */}
                     <button
                       type="button"
                       role="switch"
@@ -149,13 +149,13 @@ export default function MapViewSettings() {
                         e.stopPropagation();
                         toggleSetting(item.key);
                       }}
-                      className={`relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none ${
-                        isActive ? "bg-zinc-800" : "bg-zinc-200"
+                      className={`relative inline-flex h-7 w-12 shrink-0 cursor-pointer rounded-full p-0.5 transition-colors duration-200 ease-ios focus:outline-none ${
+                        isActive ? "bg-emerald-500" : "bg-zinc-300/80"
                       }`}
                     >
                       <span
-                        className={`pointer-events-none inline-block h-4 w-4 transform rounded-full bg-white shadow-sm ring-0 transition duration-200 ease-in-out ${
-                          isActive ? "translate-x-4" : "translate-x-0"
+                        className={`pointer-events-none inline-block h-6 w-6 transform rounded-full bg-white shadow-md transition duration-200 ease-ios ${
+                          isActive ? "translate-x-5" : "translate-x-0"
                         }`}
                       />
                     </button>
@@ -171,11 +171,11 @@ export default function MapViewSettings() {
       <button
         type="button"
         onClick={() => setIsOpen((prev) => !prev)}
-        className="group flex items-center gap-2.5 rounded-2xl border border-zinc-300 bg-white/95 p-1.5 pr-3.5 shadow-lg backdrop-blur-md transition hover:border-zinc-400 hover:shadow-xl focus:outline-none"
+        className="group flex items-center gap-3 rounded-full border border-white/60 bg-white/80 p-2 pr-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios hover:bg-white active:scale-95 focus:outline-none"
         title="Map view settings (Shift+V)"
       >
         {/* Layer preview thumbnail */}
-        <div className="relative flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-zinc-200 bg-zinc-100 shadow-inner group-hover:scale-105 transition">
+        <div className="relative flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full border border-zinc-200 bg-zinc-100 shadow-inner group-hover:scale-105 transition-transform duration-200 ease-ios">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="18"
@@ -194,10 +194,10 @@ export default function MapViewSettings() {
           </svg>
         </div>
         <div className="flex flex-col items-start text-left">
-          <span className="font-mono text-[11px] font-bold text-zinc-800 leading-tight">
+          <span className="font-sans text-xs font-bold text-zinc-900 leading-tight">
             Map view
           </span>
-          <span className="text-[10px] text-zinc-500 leading-tight">
+          <span className="text-[10px] font-medium text-zinc-500 leading-tight">
             Layers & details
           </span>
         </div>

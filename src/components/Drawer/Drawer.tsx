@@ -4,9 +4,6 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { X } from "lucide-react";
 
-// Slide-in/out duration — kept in sync with the transition-duration class
-// below so the router.back() navigation (which unmounts this component) is
-// deferred until the closing animation has actually finished playing.
 const TRANSITION_MS = 300;
 
 interface DrawerProps {
@@ -38,20 +35,25 @@ export default function Drawer({ children, title = "Species Info" }: DrawerProps
 
   return (
     <div
-      className={`fixed inset-y-0 right-0 z-50 flex w-[28vw] min-w-[340px] flex-col bg-white shadow-2xl transition-transform duration-300 ease-in-out ${
+      className={`fixed inset-y-0 right-0 z-50 flex w-[30vw] min-w-[360px] flex-col rounded-l-[32px] border-l border-white/60 bg-white/90 backdrop-blur-2xl shadow-2xl transition-transform duration-300 ease-ios ${
         entered ? "translate-x-0" : "translate-x-full"
       }`}
     >
+      {/* iOS Sheet Grab Bar Handle */}
+      <div className="flex w-full justify-center pt-3 pb-1">
+        <div className="h-1.2 w-10 rounded-full bg-zinc-300/80" />
+      </div>
+
       {/* Top Header Bar */}
-      <div className="sticky top-0 z-10 flex h-14 shrink-0 items-center justify-between border-b border-zinc-200 bg-white/95 px-6 backdrop-blur-md">
-        <h2 className="font-mono text-xs font-semibold uppercase tracking-wider text-zinc-700">
+      <div className="sticky top-0 z-10 flex h-13 shrink-0 items-center justify-between border-b border-zinc-200/60 bg-white/70 px-6 backdrop-blur-xl">
+        <h2 className="font-sans text-xs font-bold uppercase tracking-wider text-zinc-800">
           {title}
         </h2>
         <button
           type="button"
           aria-label="Close panel"
           onClick={close}
-          className="inline-flex h-8 w-8 items-center justify-center rounded-lg text-zinc-500 hover:bg-zinc-100 hover:text-zinc-900 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+          className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-zinc-200/50 text-zinc-600 hover:bg-zinc-200/80 hover:text-zinc-900 transition-all duration-200 ease-ios active:scale-90"
         >
           <X className="h-4 w-4" />
         </button>

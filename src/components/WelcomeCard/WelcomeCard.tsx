@@ -1,12 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { X } from "lucide-react";
 
 const STORAGE_KEY = "wildatlas-welcome-dismissed";
 
-// Dismissible onboarding card (PRD Section 4.0) — one-tap dismiss, never
-// shown again after. No personalized greeting yet: there's no user-identity
-// system in Phase 1 scope, so this stays generic rather than faking one.
 export default function WelcomeCard() {
   const [dismissed, setDismissed] = useState(true);
 
@@ -17,30 +15,24 @@ export default function WelcomeCard() {
   if (dismissed) return null;
 
   return (
-    // Bottom-right, beside the map's zoom controls (MapLibre NavigationControl
-    // sits ~10px from the bottom-right corner) — right-20 clears it. z-20
-    // is needed because MapLibre's own controls (including the attribution
-    // strip, which runs along the bottom of the map) carry z-index: 2 —
-    // without a higher z-index here, that attribution text shows through
-    // this card instead of being covered by its opaque background.
-    <div className="absolute bottom-6 right-20 z-20 w-72 rounded-lg border border-zinc-200 bg-white p-4 shadow-lg">
-      <div className="flex items-start justify-between gap-2">
-        <p className="font-semibold">Hi there 👋</p>
+    <div className="absolute bottom-6 right-20 z-20 w-80 rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios">
+      <div className="flex items-center justify-between gap-2 border-b border-zinc-200/60 pb-2">
+        <p className="font-sans text-sm font-bold text-zinc-900">Hi there 👋</p>
         <button
           type="button"
           aria-label="Dismiss welcome card"
-          className="text-zinc-400 hover:text-zinc-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+          className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-zinc-200/50 text-zinc-600 hover:bg-zinc-200/80 hover:text-zinc-900 transition-all duration-200 ease-ios active:scale-90"
           onClick={() => {
             localStorage.setItem(STORAGE_KEY, "true");
             setDismissed(true);
           }}
         >
-          ✕
+          <X className="h-3.5 w-3.5" />
         </button>
       </div>
-      <p className="mt-2 text-sm text-zinc-600">
-        Explore India&apos;s wildlife state by state — tap a marker on the
-        map, or start from a species on the left.
+      <p className="mt-2.5 text-xs font-normal leading-relaxed text-zinc-600">
+        Explore India&apos;s wildlife state by state — tap a photo bubble on the
+        map, or spotlight a species from search above.
       </p>
     </div>
   );

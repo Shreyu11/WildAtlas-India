@@ -29,22 +29,22 @@ export default function ExploreRail({ species }: { species: Species[] }) {
   const speciesBySlug = new Map(species.map((s) => [s.slug, s]));
 
   return (
-    <div className="absolute left-6 top-24 w-44 rounded-xl border border-zinc-200 bg-white/95 p-4 shadow-lg backdrop-blur-md">
-      <div className="mb-3 flex items-center justify-between gap-2 border-b border-zinc-100 pb-2">
-        <p className="font-mono text-xs font-semibold uppercase tracking-wider text-zinc-700">Explore</p>
+    <div className="absolute left-6 top-24 w-48 rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios">
+      <div className="mb-3 flex items-center justify-between gap-2 border-b border-zinc-200/60 pb-2">
+        <p className="font-sans text-xs font-bold uppercase tracking-wider text-zinc-800">Explore</p>
         <button
           type="button"
           aria-label="Dismiss explore menu"
-          className="inline-flex h-7 w-7 items-center justify-center rounded-lg text-zinc-400 hover:bg-zinc-100 hover:text-zinc-700 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+          className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-zinc-200/50 text-zinc-600 hover:bg-zinc-200/80 hover:text-zinc-900 transition-all duration-200 ease-ios active:scale-90"
           onClick={() => {
             localStorage.setItem(STORAGE_KEY, "true");
             setDismissed(true);
           }}
         >
-          <X className="h-4 w-4" />
+          <X className="h-3.5 w-3.5" />
         </button>
       </div>
-      <ul className="flex flex-col gap-4">
+      <ul className="flex flex-col gap-2.5">
         {CURATED_SLUGS.map((entry) => {
           const item = speciesBySlug.get(entry.speciesSlug);
           return (
@@ -52,9 +52,9 @@ export default function ExploreRail({ species }: { species: Species[] }) {
               <Link
                 href={`/species/${entry.speciesSlug}`}
                 onClick={() => setQuery(item?.commonName ?? entry.label)}
-                className="flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+                className="group flex items-center gap-3 p-1.5 rounded-xl hover:bg-zinc-100/70 active:scale-95 transition-all duration-150 ease-ios"
               >
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full border border-zinc-200 bg-zinc-50 text-lg">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full border border-white/80 bg-zinc-100 text-lg shadow-2xs group-hover:scale-105 transition-transform duration-200 ease-ios">
                   {item?.photoUrl ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
@@ -63,10 +63,12 @@ export default function ExploreRail({ species }: { species: Species[] }) {
                       className="h-full w-full object-cover"
                     />
                   ) : (
-                    SPECIES_ICON[entry.speciesSlug] ?? DEFAULT_SPECIES_ICON
+                    <span>{SPECIES_ICON[entry.speciesSlug] ?? DEFAULT_SPECIES_ICON}</span>
                   )}
                 </span>
-                <span className="text-sm text-zinc-900">{entry.label}</span>
+                <span className="text-xs font-semibold text-zinc-900 leading-tight">
+                  {entry.label}
+                </span>
               </Link>
             </li>
           );

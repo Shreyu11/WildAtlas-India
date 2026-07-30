@@ -294,12 +294,17 @@ function buildMarkerCard(opts: {
   // fading in place), so growing into the card reads as that marker's shape
   // stretching upward, not a separate element popping in beside it.
   const tooltip = document.createElement("div");
+  // `drop-shadow` (a filter, not `box-shadow`) here rather than on `card`
+  // alone — filter-based shadows follow the actual rendered silhouette of
+  // everything inside this wrapper, so the card *and* the tail below read
+  // as one continuous shape with a single soft shadow, instead of two
+  // separately-shadowed pieces that visibly seam where they meet.
   tooltip.className =
-    "absolute bottom-1/2 left-1/2 flex origin-bottom -translate-x-1/2 scale-50 flex-col items-center opacity-0 pointer-events-none transition duration-200 ease-out group-hover:scale-100 group-hover:opacity-100 [.expanded_&]:pointer-events-auto [.expanded_&]:scale-100 [.expanded_&]:opacity-100";
+    "absolute bottom-1/2 left-1/2 flex origin-bottom -translate-x-1/2 scale-50 flex-col items-center opacity-0 pointer-events-none drop-shadow-lg transition duration-200 ease-out group-hover:scale-100 group-hover:opacity-100 [.expanded_&]:pointer-events-auto [.expanded_&]:scale-100 [.expanded_&]:opacity-100";
 
   const card = document.createElement("div");
   card.className =
-    "flex w-28 flex-col items-center gap-1 rounded-2xl border border-white bg-white p-2 shadow-lg transition-[width] duration-300 ease-out [.expanded_&]:w-56 [.expanded_&]:cursor-pointer";
+    "flex w-28 flex-col items-center gap-1 rounded-2xl border border-white bg-white p-2 transition-[width] duration-300 ease-out [.expanded_&]:w-56 [.expanded_&]:cursor-pointer";
   card.addEventListener("click", (e) => {
     if (tooltip.parentElement?.classList.contains("expanded")) {
       e.stopPropagation();
@@ -382,10 +387,13 @@ function buildMarkerCard(opts: {
   });
   detail.appendChild(link);
 
-  // Last flex child of `tooltip`, so it sits at the tooltip's pinned bottom
-  // edge — a diamond (square rotated 45°) reads as a downward-pointing tail.
+  // Last flex child of `tooltip`, so it sits flush against the card's
+  // bottom edge — a plain CSS border-triangle (not a rotated, separately-
+  // shadowed square) gives a crisp point with no visible seam where it
+  // meets the card, since it shares the same white fill and has no shadow
+  // of its own (the wrapper's `drop-shadow-lg` covers both).
   const tail = document.createElement("div");
-  tail.className = "-mt-1 h-3 w-3 rotate-45 rounded-[2px] bg-white shadow-md";
+  tail.className = "h-0 w-0 border-x-[7px] border-x-transparent border-t-[8px] border-t-white";
   tooltip.appendChild(tail);
 
   return tooltip;
@@ -510,7 +518,7 @@ function clusterMarkerEl(count: number, onClick: () => void): HTMLDivElement {
 
   const el = document.createElement("div");
   el.className =
-    `flex cursor-pointer items-center justify-center rounded-full border-2 border-zinc-700 bg-white font-mono font-bold text-zinc-800 shadow-md transition-transform hover:scale-110 ${textSizeClass}`;
+    `flex cursor-pointer items-center justify-center rounded-full border-2 border-zinc-700 bg-white font-mono font-bold text-zinc-800 shadow-md transition-transform ${textSizeClass}`;
   el.style.width = `${size}px`;
   el.style.height = `${size}px`;
   el.textContent = String(count);
@@ -898,8 +906,8 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
     const matchedSpeciesSlugs = new Set(
       q
         ? species
-            .filter((s) => s.commonName.toLowerCase().includes(q) || s.scientificName.toLowerCase().includes(q))
-            .map((s) => s.slug)
+          .filter((s) => s.commonName.toLowerCase().includes(q) || s.scientificName.toLowerCase().includes(q))
+          .map((s) => s.slug)
         : [],
     );
     const directMatchedStateSlugs = new Set(

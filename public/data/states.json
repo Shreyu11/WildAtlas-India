@@ -238,10 +238,8 @@
   {
     "slug": "lakshadweep",
     "name": "Lakshadweep",
-    "dominantSpeciesSlug": "greater-flamingo",
-    "speciesSlugs": [
-      "greater-flamingo"
-    ],
+    "dominantSpeciesSlug": "",
+    "speciesSlugs": [],
     "lat": 8.2975,
     "lng": 73.065
   },

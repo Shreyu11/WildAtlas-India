@@ -5,6 +5,8 @@ import Link from "next/link";
 import type { FunFact, Species } from "@/lib/types";
 import { DEFAULT_SPECIES_ICON, SPECIES_ICON } from "@/lib/mockIcons";
 
+import { X } from "lucide-react";
+
 const STORAGE_PREFIX = "wildatlas-funfact-dismissed-";
 
 function todayKey(): string {
@@ -49,26 +51,26 @@ export default function FunFactCard({ facts, species }: { facts: FunFact[]; spec
   return (
     // top-24, not top-6 — TopNav now floats fixed over the map (h-16) rather
     // than sitting in its own row above it, so this needs to clear it.
-    <div className="absolute right-6 top-24 w-[26rem] max-w-[calc(100vw-3rem)] rounded-lg border border-zinc-200 bg-white p-4 shadow-lg">
-      <div className="flex items-start justify-between gap-2">
-        <p className="font-mono text-[10px] uppercase tracking-wide text-zinc-400">
+    <div className="absolute right-6 top-24 w-[26rem] max-w-[calc(100vw-3rem)] rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios">
+      <div className="flex items-center justify-between gap-2 border-b border-zinc-200/60 pb-2">
+        <p className="font-sans text-xs font-bold uppercase tracking-wider text-zinc-800">
           Did you know?
         </p>
         <button
           type="button"
           aria-label="Dismiss fun fact"
-          className="text-zinc-400 hover:text-zinc-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+          className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-zinc-200/50 text-zinc-600 hover:bg-zinc-200/80 hover:text-zinc-900 transition-all duration-200 ease-ios active:scale-90"
           onClick={() => {
             localStorage.setItem(STORAGE_PREFIX + key, "true");
             setDismissed(true);
           }}
         >
-          ✕
+          <X className="h-3.5 w-3.5" />
         </button>
       </div>
 
-      <div className="mt-2 flex items-start gap-3">
-        <span className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-zinc-200 bg-zinc-100 text-xl">
+      <div className="mt-3 flex items-start gap-3">
+        <span className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-white/80 bg-zinc-100 text-xl shadow-2xs">
           {linkedSpecies?.photoUrl ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
@@ -81,21 +83,21 @@ export default function FunFactCard({ facts, species }: { facts: FunFact[]; spec
           )}
         </span>
         <div className="min-w-0">
-          <p className="text-sm font-semibold text-zinc-900">{fact.animal}</p>
-          <p className="mt-1 text-sm text-zinc-600">{fact.fact}</p>
+          <p className="text-sm font-bold text-zinc-900 leading-tight">{fact.animal}</p>
+          <p className="mt-1 text-xs leading-relaxed text-zinc-600">{fact.fact}</p>
           {linkedSpecies ? (
             <Link
               href={`/species/${linkedSpecies.slug}`}
-              className="mt-2 inline-block text-xs font-medium text-zinc-900 underline underline-offset-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+              className="mt-2.5 inline-flex items-center gap-1 rounded-full bg-zinc-900 px-3 py-1 text-[11px] font-semibold text-white transition-all duration-200 ease-ios hover:bg-zinc-800 active:scale-95 shadow-2xs"
             >
-              Learn more
+              Learn species →
             </Link>
           ) : (
             <a
               href={fact.wikipediaUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 inline-block text-xs font-medium text-zinc-900 underline underline-offset-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+              className="mt-2.5 inline-flex items-center gap-1 text-[11px] font-semibold text-zinc-700 underline underline-offset-2 hover:text-zinc-900 transition-colors"
             >
               Source: Wikipedia ↗
             </a>
