@@ -32,7 +32,7 @@ export default function SearchBar() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search species, states, or parks…"
-        className="w-full rounded-full border border-zinc-200 bg-zinc-50 px-4 py-2 pr-10 text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+        className="h-12 w-full rounded-full border border-zinc-200 bg-zinc-50 px-5 pr-12 text-sm text-zinc-900 placeholder:text-zinc-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400 shadow-sm"
       />
       {!query ? (
         <kbd className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 hidden select-none rounded border border-zinc-200 bg-zinc-100 px-1.5 py-0.5 font-mono text-[10px] font-medium text-zinc-400 sm:inline-block">
