@@ -100,7 +100,7 @@ export default function MapViewSettings() {
     <div ref={panelRef} className="absolute bottom-6 left-6 z-30 flex flex-col items-start">
       {/* Popover Settings Panel */}
       {isOpen && (
-        <div className="mb-3 w-84 rounded-[24px] border border-white/60 bg-white/90 p-5 shadow-2xl backdrop-blur-2xl transition-all duration-300 ease-ios animate-in fade-in slide-in-from-bottom-2">
+        <div className="mb-3 w-84 rounded-[24px] border border-zinc-300/80 bg-white/95 p-5 shadow-2xl backdrop-blur-2xl transition-all duration-300 ease-ios animate-in fade-in slide-in-from-bottom-2">
           {/* Header */}
           <div className="flex items-center justify-between pb-3 border-b border-zinc-200/60">
             <h2 className="font-sans text-xs font-bold uppercase tracking-wider text-zinc-800">
@@ -171,7 +171,7 @@ export default function MapViewSettings() {
       <button
         type="button"
         onClick={() => setIsOpen((prev) => !prev)}
-        className="group flex items-center gap-3 rounded-full border border-white/60 bg-white/80 p-2 pr-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios hover:bg-white active:scale-95 focus:outline-none"
+        className="group flex items-center gap-3 rounded-full border border-zinc-300/80 bg-white/90 p-2 pr-4 shadow-md backdrop-blur-xl transition-all duration-200 ease-ios hover:border-zinc-400 hover:bg-white active:scale-95 focus:outline-none"
         title="Map view settings (Shift+V)"
       >
         {/* Layer preview thumbnail */}
