@@ -9,7 +9,7 @@ export default async function SpeciesModal({
   const { slug } = await params;
 
   return (
-    <Drawer>
+    <Drawer title="Species Info">
       <SpeciesDetail slug={slug} />
     </Drawer>
   );

@@ -1,73 +1,1682 @@
 {
-  "asiatic-lion": [
-    { "minLng": 70.6, "minLat": 21.0, "maxLng": 70.95, "maxLat": 21.3, "level": 3 },
-    { "minLng": 70.4, "minLat": 21.4, "maxLng": 70.65, "maxLat": 21.6, "level": 2 },
-    { "minLng": 71.0, "minLat": 21.1, "maxLng": 71.3, "maxLat": 21.35, "level": 2 },
-    { "minLng": 70.9, "minLat": 20.8, "maxLng": 71.3, "maxLat": 21.05, "level": 1 },
-    { "minLng": 69.6, "minLat": 21.6, "maxLng": 69.9, "maxLat": 21.85, "level": 1 }
-  ],
   "royal-bengal-tiger": [
-    { "minLng": 88.7, "minLat": 21.7, "maxLng": 89.1, "maxLat": 22.1, "level": 3 },
-    { "minLng": 88.4, "minLat": 21.9, "maxLng": 88.8, "maxLat": 22.3, "level": 2 },
-    { "minLng": 80.5, "minLat": 22.2, "maxLng": 80.9, "maxLat": 22.5, "level": 3 },
-    { "minLng": 80.8, "minLat": 23.6, "maxLng": 81.15, "maxLat": 23.9, "level": 3 },
-    { "minLng": 79.1, "minLat": 21.6, "maxLng": 79.5, "maxLat": 21.9, "level": 2 },
-    { "minLng": 76.4, "minLat": 25.9, "maxLng": 76.7, "maxLat": 26.15, "level": 3 },
-    { "minLng": 76.3, "minLat": 27.2, "maxLng": 76.6, "maxLat": 27.5, "level": 2 }
+    {
+      "minLng": 87.105,
+      "minLat": 22.2368,
+      "maxLng": 88.605,
+      "maxLat": 23.7368,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 78.2693,
+      "minLat": 29.3168,
+      "maxLng": 79.7693,
+      "maxLat": 30.8168,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 92.1876,
+      "minLat": 25.4506,
+      "maxLng": 93.6876,
+      "maxLat": 26.9506,
+      "level": 2
+    }
+  ],
+  "asiatic-lion": [
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    }
   ],
   "indian-rhinoceros": [
-    { "minLng": 93.1, "minLat": 26.5, "maxLng": 93.4, "maxLat": 26.75, "level": 3 },
-    { "minLng": 92.8, "minLat": 26.45, "maxLng": 93.15, "maxLat": 26.65, "level": 2 },
-    { "minLng": 91.95, "minLat": 26.1, "maxLng": 92.15, "maxLat": 26.25, "level": 3 },
-    { "minLng": 92.4, "minLat": 26.5, "maxLng": 92.65, "maxLat": 26.65, "level": 2 },
-    { "minLng": 90.9, "minLat": 26.6, "maxLng": 91.25, "maxLat": 26.85, "level": 1 }
+    {
+      "minLng": 92.1876,
+      "minLat": 25.4506,
+      "maxLng": 93.6876,
+      "maxLat": 26.9506,
+      "level": 2
+    },
+    {
+      "minLng": 87.105,
+      "minLat": 22.2368,
+      "maxLng": 88.605,
+      "maxLat": 23.7368,
+      "level": 2
+    },
+    {
+      "minLng": 80.1962,
+      "minLat": 26.0967,
+      "maxLng": 81.6962,
+      "maxLat": 27.5967,
+      "level": 2
+    }
   ],
   "asian-elephant": [
-    { "minLng": 77.0, "minLat": 9.3, "maxLng": 77.3, "maxLat": 9.6, "level": 3 },
-    { "minLng": 76.2, "minLat": 11.6, "maxLng": 76.5, "maxLat": 11.9, "level": 3 },
-    { "minLng": 76.4, "minLat": 11.0, "maxLng": 76.7, "maxLat": 11.25, "level": 2 },
-    { "minLng": 76.4, "minLat": 11.6, "maxLng": 76.7, "maxLat": 11.9, "level": 3 },
-    { "minLng": 76.1, "minLat": 11.9, "maxLng": 76.4, "maxLat": 12.2, "level": 3 },
-    { "minLng": 77.0, "minLat": 11.9, "maxLng": 77.3, "maxLat": 12.15, "level": 2 }
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    },
+    {
+      "minLng": 92.1876,
+      "minLat": 25.4506,
+      "maxLng": 93.6876,
+      "maxLat": 26.9506,
+      "level": 2
+    },
+    {
+      "minLng": 84.3485,
+      "minLat": 20.2017,
+      "maxLng": 85.8485,
+      "maxLat": 21.7017,
+      "level": 2
+    },
+    {
+      "minLng": 78.2693,
+      "minLat": 29.3168,
+      "maxLng": 79.7693,
+      "maxLat": 30.8168,
+      "level": 2
+    }
   ],
   "lion-tailed-macaque": [
-    { "minLng": 74.7, "minLat": 14.1, "maxLng": 74.95, "maxLat": 14.35, "level": 3 },
-    { "minLng": 75.0, "minLat": 13.4, "maxLng": 75.25, "maxLat": 13.65, "level": 3 },
-    { "minLng": 76.4, "minLat": 11.0, "maxLng": 76.6, "maxLat": 11.2, "level": 2 },
-    { "minLng": 76.9, "minLat": 10.3, "maxLng": 77.2, "maxLat": 10.55, "level": 2 }
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    }
   ],
   "great-indian-bustard": [
-    { "minLng": 70.7, "minLat": 26.6, "maxLng": 71.0, "maxLat": 26.9, "level": 3 },
-    { "minLng": 70.9, "minLat": 26.8, "maxLng": 71.3, "maxLat": 27.1, "level": 2 },
-    { "minLng": 71.5, "minLat": 26.8, "maxLng": 71.9, "maxLat": 27.1, "level": 1 }
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    }
   ],
   "barasingha": [
-    { "minLng": 80.55, "minLat": 22.25, "maxLng": 80.8, "maxLat": 22.45, "level": 3 },
-    { "minLng": 80.7, "minLat": 22.35, "maxLng": 80.95, "maxLat": 22.55, "level": 2 },
-    { "minLng": 78.2, "minLat": 22.4, "maxLng": 78.5, "maxLat": 22.65, "level": 1 }
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 80.1962,
+      "minLat": 26.0967,
+      "maxLng": 81.6962,
+      "maxLat": 27.5967,
+      "level": 2
+    },
+    {
+      "minLng": 92.1876,
+      "minLat": 25.4506,
+      "maxLng": 93.6876,
+      "maxLat": 26.9506,
+      "level": 2
+    }
   ],
   "indian-giant-squirrel": [
-    { "minLng": 73.5, "minLat": 19.0, "maxLng": 73.75, "maxLat": 19.25, "level": 3 },
-    { "minLng": 73.6, "minLat": 17.8, "maxLng": 73.85, "maxLat": 18.05, "level": 3 },
-    { "minLng": 73.9, "minLat": 16.3, "maxLng": 74.15, "maxLat": 16.55, "level": 2 },
-    { "minLng": 73.7, "minLat": 19.35, "maxLng": 73.95, "maxLat": 19.6, "level": 1 }
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    }
   ],
   "indian-eagle-owl": [
-    { "minLng": 72.5, "minLat": 26.0, "maxLng": 72.8, "maxLat": 26.3, "level": 3 },
-    { "minLng": 73.2, "minLat": 25.4, "maxLng": 73.5, "maxLat": 25.7, "level": 2 },
-    { "minLng": 73.8, "minLat": 24.5, "maxLng": 74.1, "maxLat": 24.8, "level": 1 }
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    }
   ],
   "indian-peafowl": [
-    { "minLng": 75.6, "minLat": 26.8, "maxLng": 76.0, "maxLat": 27.2, "level": 3 },
-    { "minLng": 76.2, "minLat": 25.8, "maxLng": 76.5, "maxLat": 26.1, "level": 2 },
-    { "minLng": 75.8, "minLat": 23.1, "maxLng": 76.2, "maxLat": 23.4, "level": 2 }
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 74.5912,
+      "minLat": 30.3971,
+      "maxLng": 76.0912,
+      "maxLat": 31.8971,
+      "level": 2
+    },
+    {
+      "minLng": 75.3356,
+      "minLat": 28.3088,
+      "maxLng": 76.8356,
+      "maxLat": 29.8088,
+      "level": 2
+    },
+    {
+      "minLng": 80.1962,
+      "minLat": 26.0967,
+      "maxLng": 81.6962,
+      "maxLat": 27.5967,
+      "level": 2
+    }
   ],
   "narcondam-hornbill": [
-    { "minLng": 94.25, "minLat": 13.43, "maxLng": 94.29, "maxLat": 13.46, "level": 3 },
-    { "minLng": 94.24, "minLat": 13.42, "maxLng": 94.28, "maxLat": 13.45, "level": 2 }
+    {
+      "minLng": 91.9086,
+      "minLat": 10.9901,
+      "maxLng": 93.4086,
+      "maxLat": 12.4901,
+      "level": 2
+    }
   ],
   "nicobar-long-tailed-macaque": [
-    { "minLng": 93.75, "minLat": 6.9, "maxLng": 93.95, "maxLat": 7.15, "level": 3 },
-    { "minLng": 93.65, "minLat": 7.3, "maxLng": 93.85, "maxLat": 7.5, "level": 2 }
+    {
+      "minLng": 91.9086,
+      "minLat": 10.9901,
+      "maxLng": 93.4086,
+      "maxLat": 12.4901,
+      "level": 2
+    }
+  ],
+  "snow-leopard": [
+    {
+      "minLng": 76.8271,
+      "minLat": 33.4026,
+      "maxLng": 78.3271,
+      "maxLat": 34.9026,
+      "level": 2
+    },
+    {
+      "minLng": 75.8262,
+      "minLat": 33.0282,
+      "maxLng": 77.3262,
+      "maxLat": 34.5282,
+      "level": 2
+    },
+    {
+      "minLng": 76.4234,
+      "minLat": 30.3548,
+      "maxLng": 77.9234,
+      "maxLat": 31.8548,
+      "level": 2
+    },
+    {
+      "minLng": 78.2693,
+      "minLat": 29.3168,
+      "maxLng": 79.7693,
+      "maxLat": 30.8168,
+      "level": 2
+    },
+    {
+      "minLng": 87.7622,
+      "minLat": 26.783,
+      "maxLng": 89.2622,
+      "maxLat": 28.283,
+      "level": 2
+    },
+    {
+      "minLng": 93.9778,
+      "minLat": 27.468,
+      "maxLng": 95.4778,
+      "maxLat": 28.968,
+      "level": 2
+    }
+  ],
+  "sloth-bear": [
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 81.1161,
+      "minLat": 20.5287,
+      "maxLng": 82.6161,
+      "maxLat": 22.0287,
+      "level": 2
+    }
+  ],
+  "indian-leopard": [
+    {
+      "minLng": 78.2693,
+      "minLat": 29.3168,
+      "maxLng": 79.7693,
+      "maxLat": 30.8168,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 76.4234,
+      "minLat": 30.3548,
+      "maxLng": 77.9234,
+      "maxLat": 31.8548,
+      "level": 2
+    }
+  ],
+  "cheetah": [
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    }
+  ],
+  "nilgiri-tahr": [
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    },
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    }
+  ],
+  "sangai": [
+    {
+      "minLng": 93.1563,
+      "minLat": 23.9137,
+      "maxLng": 94.6563,
+      "maxLat": 25.4137,
+      "level": 2
+    }
+  ],
+  "red-panda": [
+    {
+      "minLng": 87.7622,
+      "minLat": 26.783,
+      "maxLng": 89.2622,
+      "maxLat": 28.283,
+      "level": 2
+    },
+    {
+      "minLng": 87.105,
+      "minLat": 22.2368,
+      "maxLng": 88.605,
+      "maxLat": 23.7368,
+      "level": 2
+    },
+    {
+      "minLng": 93.9778,
+      "minLat": 27.468,
+      "maxLng": 95.4778,
+      "maxLat": 28.968,
+      "level": 2
+    },
+    {
+      "minLng": 90.6162,
+      "minLat": 24.717,
+      "maxLng": 92.1162,
+      "maxLat": 26.217,
+      "level": 2
+    }
+  ],
+  "gaur": [
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 73.374,
+      "minLat": 14.5493,
+      "maxLng": 74.874,
+      "maxLat": 16.0493,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    }
+  ],
+  "hoolock-gibbon": [
+    {
+      "minLng": 92.1876,
+      "minLat": 25.4506,
+      "maxLng": 93.6876,
+      "maxLat": 26.9506,
+      "level": 2
+    },
+    {
+      "minLng": 90.6162,
+      "minLat": 24.717,
+      "maxLng": 92.1162,
+      "maxLat": 26.217,
+      "level": 2
+    },
+    {
+      "minLng": 93.9778,
+      "minLat": 27.468,
+      "maxLng": 95.4778,
+      "maxLat": 28.968,
+      "level": 2
+    },
+    {
+      "minLng": 93.8124,
+      "minLat": 25.4084,
+      "maxLng": 95.3124,
+      "maxLat": 26.9084,
+      "level": 2
+    },
+    {
+      "minLng": 92.1876,
+      "minLat": 22.4145,
+      "maxLng": 93.6876,
+      "maxLat": 23.9145,
+      "level": 2
+    }
+  ],
+  "clouded-leopard": [
+    {
+      "minLng": 90.6162,
+      "minLat": 24.717,
+      "maxLng": 92.1162,
+      "maxLat": 26.217,
+      "level": 2
+    },
+    {
+      "minLng": 91.2382,
+      "minLat": 23.1908,
+      "maxLng": 92.7382,
+      "maxLat": 24.6908,
+      "level": 2
+    },
+    {
+      "minLng": 92.1876,
+      "minLat": 25.4506,
+      "maxLng": 93.6876,
+      "maxLat": 26.9506,
+      "level": 2
+    },
+    {
+      "minLng": 93.9778,
+      "minLat": 27.468,
+      "maxLng": 95.4778,
+      "maxLat": 28.968,
+      "level": 2
+    },
+    {
+      "minLng": 92.1876,
+      "minLat": 22.4145,
+      "maxLng": 93.6876,
+      "maxLat": 23.9145,
+      "level": 2
+    }
+  ],
+  "blackbuck": [
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 74.5912,
+      "minLat": 30.3971,
+      "maxLng": 76.0912,
+      "maxLat": 31.8971,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 78.99,
+      "minLat": 15.1629,
+      "maxLng": 80.49,
+      "maxLat": 16.6629,
+      "level": 2
+    },
+    {
+      "minLng": 75.3356,
+      "minLat": 28.3088,
+      "maxLng": 76.8356,
+      "maxLat": 29.8088,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 78.2693,
+      "minLat": 17.3624,
+      "maxLng": 79.7693,
+      "maxLat": 18.8624,
+      "level": 2
+    }
+  ],
+  "chital": [
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 78.2693,
+      "minLat": 29.3168,
+      "maxLng": 79.7693,
+      "maxLat": 30.8168,
+      "level": 2
+    },
+    {
+      "minLng": 87.105,
+      "minLat": 22.2368,
+      "maxLng": 88.605,
+      "maxLat": 23.7368,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    }
+  ],
+  "sambar-deer": [
+    {
+      "minLng": 84.3485,
+      "minLat": 20.2017,
+      "maxLng": 85.8485,
+      "maxLat": 21.7017,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 78.2693,
+      "minLat": 29.3168,
+      "maxLng": 79.7693,
+      "maxLat": 30.8168,
+      "level": 2
+    },
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    }
+  ],
+  "hangul": [
+    {
+      "minLng": 75.8262,
+      "minLat": 33.0282,
+      "maxLng": 77.3262,
+      "maxLat": 34.5282,
+      "level": 2
+    }
+  ],
+  "dhole": [
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 92.1876,
+      "minLat": 25.4506,
+      "maxLng": 93.6876,
+      "maxLat": 26.9506,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    }
+  ],
+  "indian-gray-wolf": [
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 78.99,
+      "minLat": 15.1629,
+      "maxLng": 80.49,
+      "maxLat": 16.6629,
+      "level": 2
+    }
+  ],
+  "golden-jackal": [
+    {
+      "minLng": 74.5912,
+      "minLat": 30.3971,
+      "maxLng": 76.0912,
+      "maxLat": 31.8971,
+      "level": 2
+    },
+    {
+      "minLng": 75.3356,
+      "minLat": 28.3088,
+      "maxLng": 76.8356,
+      "maxLat": 29.8088,
+      "level": 2
+    },
+    {
+      "minLng": 80.1962,
+      "minLat": 26.0967,
+      "maxLng": 81.6962,
+      "maxLat": 27.5967,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 87.105,
+      "minLat": 22.2368,
+      "maxLng": 88.605,
+      "maxLat": 23.7368,
+      "level": 2
+    }
+  ],
+  "striped-hyena": [
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 78.2693,
+      "minLat": 17.3624,
+      "maxLng": 79.7693,
+      "maxLat": 18.8624,
+      "level": 2
+    }
+  ],
+  "nilgai": [
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 80.1962,
+      "minLat": 26.0967,
+      "maxLng": 81.6962,
+      "maxLat": 27.5967,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 75.3356,
+      "minLat": 28.3088,
+      "maxLng": 76.8356,
+      "maxLat": 29.8088,
+      "level": 2
+    },
+    {
+      "minLng": 74.5912,
+      "minLat": 30.3971,
+      "maxLng": 76.0912,
+      "maxLat": 31.8971,
+      "level": 2
+    },
+    {
+      "minLng": 76.3525,
+      "minLat": 27.9541,
+      "maxLng": 77.8525,
+      "maxLat": 29.4541,
+      "level": 2
+    }
+  ],
+  "chinkara": [
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 74.5912,
+      "minLat": 30.3971,
+      "maxLng": 76.0912,
+      "maxLat": 31.8971,
+      "level": 2
+    },
+    {
+      "minLng": 75.3356,
+      "minLat": 28.3088,
+      "maxLng": 76.8356,
+      "maxLat": 29.8088,
+      "level": 2
+    }
+  ],
+  "indian-wild-ass": [
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    }
+  ],
+  "wild-water-buffalo": [
+    {
+      "minLng": 92.1876,
+      "minLat": 25.4506,
+      "maxLng": 93.6876,
+      "maxLat": 26.9506,
+      "level": 2
+    },
+    {
+      "minLng": 81.1161,
+      "minLat": 20.5287,
+      "maxLng": 82.6161,
+      "maxLat": 22.0287,
+      "level": 2
+    },
+    {
+      "minLng": 93.9778,
+      "minLat": 27.468,
+      "maxLng": 95.4778,
+      "maxLat": 28.968,
+      "level": 2
+    },
+    {
+      "minLng": 90.6162,
+      "minLat": 24.717,
+      "maxLng": 92.1162,
+      "maxLat": 26.217,
+      "level": 2
+    }
+  ],
+  "great-hornbill": [
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    },
+    {
+      "minLng": 93.9778,
+      "minLat": 27.468,
+      "maxLng": 95.4778,
+      "maxLat": 28.968,
+      "level": 2
+    },
+    {
+      "minLng": 73.374,
+      "minLat": 14.5493,
+      "maxLng": 74.874,
+      "maxLat": 16.0493,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    },
+    {
+      "minLng": 92.1876,
+      "minLat": 25.4506,
+      "maxLng": 93.6876,
+      "maxLat": 26.9506,
+      "level": 2
+    }
+  ],
+  "himalayan-monal": [
+    {
+      "minLng": 78.2693,
+      "minLat": 29.3168,
+      "maxLng": 79.7693,
+      "maxLat": 30.8168,
+      "level": 2
+    },
+    {
+      "minLng": 76.4234,
+      "minLat": 30.3548,
+      "maxLng": 77.9234,
+      "maxLat": 31.8548,
+      "level": 2
+    },
+    {
+      "minLng": 75.8262,
+      "minLat": 33.0282,
+      "maxLng": 77.3262,
+      "maxLat": 34.5282,
+      "level": 2
+    },
+    {
+      "minLng": 87.7622,
+      "minLat": 26.783,
+      "maxLng": 89.2622,
+      "maxLat": 28.283,
+      "level": 2
+    },
+    {
+      "minLng": 93.9778,
+      "minLat": 27.468,
+      "maxLng": 95.4778,
+      "maxLat": 28.968,
+      "level": 2
+    }
+  ],
+  "sarus-crane": [
+    {
+      "minLng": 80.1962,
+      "minLat": 26.0967,
+      "maxLng": 81.6962,
+      "maxLat": 27.5967,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 75.3356,
+      "minLat": 28.3088,
+      "maxLng": 76.8356,
+      "maxLat": 29.8088,
+      "level": 2
+    }
+  ],
+  "greater-flamingo": [
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 84.3485,
+      "minLat": 20.2017,
+      "maxLng": 85.8485,
+      "maxLat": 21.7017,
+      "level": 2
+    },
+    {
+      "minLng": 78.99,
+      "minLat": 15.1629,
+      "maxLng": 80.49,
+      "maxLat": 16.6629,
+      "level": 2
+    }
+  ],
+  "house-sparrow": [
+    {
+      "minLng": 76.3525,
+      "minLat": 27.9541,
+      "maxLng": 77.8525,
+      "maxLat": 29.4541,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 80.1962,
+      "minLat": 26.0967,
+      "maxLng": 81.6962,
+      "maxLat": 27.5967,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 87.105,
+      "minLat": 22.2368,
+      "maxLng": 88.605,
+      "maxLat": 23.7368,
+      "level": 2
+    },
+    {
+      "minLng": 74.5912,
+      "minLat": 30.3971,
+      "maxLng": 76.0912,
+      "maxLat": 31.8971,
+      "level": 2
+    }
+  ],
+  "black-necked-crane": [
+    {
+      "minLng": 76.8271,
+      "minLat": 33.4026,
+      "maxLng": 78.3271,
+      "maxLat": 34.9026,
+      "level": 2
+    },
+    {
+      "minLng": 75.8262,
+      "minLat": 33.0282,
+      "maxLng": 77.3262,
+      "maxLat": 34.5282,
+      "level": 2
+    },
+    {
+      "minLng": 93.9778,
+      "minLat": 27.468,
+      "maxLng": 95.4778,
+      "maxLat": 28.968,
+      "level": 2
+    }
+  ],
+  "malabar-pied-hornbill": [
+    {
+      "minLng": 73.374,
+      "minLat": 14.5493,
+      "maxLng": 74.874,
+      "maxLat": 16.0493,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 84.3485,
+      "minLat": 20.2017,
+      "maxLng": 85.8485,
+      "maxLat": 21.7017,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    }
+  ],
+  "indian-vulture": [
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    }
+  ],
+  "forest-owlet": [
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    }
+  ],
+  "painted-stork": [
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    },
+    {
+      "minLng": 76.3525,
+      "minLat": 27.9541,
+      "maxLng": 77.8525,
+      "maxLat": 29.4541,
+      "level": 2
+    },
+    {
+      "minLng": 80.1962,
+      "minLat": 26.0967,
+      "maxLng": 81.6962,
+      "maxLat": 27.5967,
+      "level": 2
+    }
+  ],
+  "bar-headed-goose": [
+    {
+      "minLng": 76.8271,
+      "minLat": 33.4026,
+      "maxLng": 78.3271,
+      "maxLat": 34.9026,
+      "level": 2
+    },
+    {
+      "minLng": 76.4234,
+      "minLat": 30.3548,
+      "maxLng": 77.9234,
+      "maxLat": 31.8548,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    },
+    {
+      "minLng": 84.3485,
+      "minLat": 20.2017,
+      "maxLng": 85.8485,
+      "maxLat": 21.7017,
+      "level": 2
+    },
+    {
+      "minLng": 87.105,
+      "minLat": 22.2368,
+      "maxLng": 88.605,
+      "maxLat": 23.7368,
+      "level": 2
+    }
+  ],
+  "indian-roller": [
+    {
+      "minLng": 84.3485,
+      "minLat": 20.2017,
+      "maxLng": 85.8485,
+      "maxLat": 21.7017,
+      "level": 2
+    },
+    {
+      "minLng": 78.2693,
+      "minLat": 17.3624,
+      "maxLng": 79.7693,
+      "maxLat": 18.8624,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 78.99,
+      "minLat": 15.1629,
+      "maxLng": 80.49,
+      "maxLat": 16.6629,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 73.4679,
+      "minLat": 26.2738,
+      "maxLng": 74.9679,
+      "maxLat": 27.7738,
+      "level": 2
+    }
+  ],
+  "house-crow": [
+    {
+      "minLng": 76.3525,
+      "minLat": 27.9541,
+      "maxLng": 77.8525,
+      "maxLat": 29.4541,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    },
+    {
+      "minLng": 87.105,
+      "minLat": 22.2368,
+      "maxLng": 88.605,
+      "maxLat": 23.7368,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    },
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    },
+    {
+      "minLng": 70.4424,
+      "minLat": 21.5087,
+      "maxLng": 71.9424,
+      "maxLat": 23.0087,
+      "level": 2
+    }
+  ],
+  "malabar-whistling-thrush": [
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    },
+    {
+      "minLng": 73.374,
+      "minLat": 14.5493,
+      "maxLng": 74.874,
+      "maxLat": 16.0493,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 19.0015,
+      "maxLng": 76.4639,
+      "maxLat": 20.5015,
+      "level": 2
+    }
+  ],
+  "indian-pitta": [
+    {
+      "minLng": 75.5211,
+      "minLat": 10.1005,
+      "maxLng": 77.0211,
+      "maxLat": 11.6005,
+      "level": 2
+    },
+    {
+      "minLng": 74.9639,
+      "minLat": 14.5673,
+      "maxLng": 76.4639,
+      "maxLat": 16.0673,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 10.3771,
+      "maxLng": 79.4069,
+      "maxLat": 11.8771,
+      "level": 2
+    },
+    {
+      "minLng": 77.9069,
+      "minLat": 22.2234,
+      "maxLng": 79.4069,
+      "maxLat": 23.7234,
+      "level": 2
+    },
+    {
+      "minLng": 84.3485,
+      "minLat": 20.2017,
+      "maxLng": 85.8485,
+      "maxLat": 21.7017,
+      "level": 2
+    },
+    {
+      "minLng": 87.105,
+      "minLat": 22.2368,
+      "maxLng": 88.605,
+      "maxLat": 23.7368,
+      "level": 2
+    }
   ]
 }

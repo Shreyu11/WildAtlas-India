@@ -5,6 +5,7 @@ import TopNav from "@/components/TopNav/TopNav";
 import GridBackground from "@/components/GridBackground/GridBackground";
 import { SearchProvider } from "@/components/SearchProvider/SearchProvider";
 import { MapSettingsProvider } from "@/components/MapSettingsProvider/MapSettingsProvider";
+import { AmbientAudioProvider } from "@/components/AmbientAudioProvider/AmbientAudioProvider";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -36,14 +37,16 @@ export default function RootLayout({
       <body className="relative h-full">
         <MapSettingsProvider>
           <SearchProvider>
-            <GridBackground />
-            {/* Full-bleed, edge-to-edge — TopNav floats on top of this (fixed,
-                transparent) rather than sitting in its own row above it, so
-                the map is actually visible/blurred behind the header instead
-                of just the plain GridBackground dots. */}
-            <main className="absolute inset-0">{children}</main>
-            <TopNav />
-            {modal}
+            <AmbientAudioProvider>
+              <GridBackground />
+              {/* Full-bleed, edge-to-edge — TopNav floats on top of this (fixed,
+                  transparent) rather than sitting in its own row above it, so
+                  the map is actually visible/blurred behind the header instead
+                  of just the plain GridBackground dots. */}
+              <main className="absolute inset-0">{children}</main>
+              <TopNav />
+              {modal}
+            </AmbientAudioProvider>
           </SearchProvider>
         </MapSettingsProvider>
       </body>

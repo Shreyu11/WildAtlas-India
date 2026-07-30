@@ -1,74 +1,467 @@
 [
   {
-    "slug": "west-bengal",
-    "name": "West Bengal",
-    "dominantSpeciesSlug": "royal-bengal-tiger",
-    "speciesSlugs": ["royal-bengal-tiger"],
-    "lat": 22.9868,
-    "lng": 87.855
+    "slug": "andaman-and-nicobar-islands",
+    "name": "Andaman & Nicobar",
+    "dominantSpeciesSlug": "narcondam-hornbill",
+    "speciesSlugs": [
+      "narcondam-hornbill",
+      "nicobar-long-tailed-macaque"
+    ],
+    "lat": 10.828,
+    "lng": 93.242
   },
   {
-    "slug": "gujarat",
-    "name": "Gujarat",
-    "dominantSpeciesSlug": "asiatic-lion",
-    "speciesSlugs": ["asiatic-lion"],
-    "lat": 22.2587,
-    "lng": 71.1924
+    "slug": "andhra-pradesh",
+    "name": "Andhra Pradesh",
+    "dominantSpeciesSlug": "blackbuck",
+    "speciesSlugs": [
+      "blackbuck",
+      "slender-loris",
+      "greater-flamingo",
+      "indian-roller"
+    ],
+    "lat": 16.264,
+    "lng": 80.759
+  },
+  {
+    "slug": "arunachal-pradesh",
+    "name": "Arunachal Pradesh",
+    "dominantSpeciesSlug": "great-hornbill",
+    "speciesSlugs": [
+      "great-hornbill",
+      "red-panda",
+      "snow-leopard",
+      "hoolock-gibbon",
+      "clouded-leopard"
+    ],
+    "lat": 28.0595,
+    "lng": 94.479
   },
   {
     "slug": "assam",
     "name": "Assam",
     "dominantSpeciesSlug": "indian-rhinoceros",
-    "speciesSlugs": ["indian-rhinoceros"],
-    "lat": 26.2006,
-    "lng": 92.9376
+    "speciesSlugs": [
+      "indian-rhinoceros",
+      "asian-elephant",
+      "hoolock-gibbon",
+      "golden-langur",
+      "royal-bengal-tiger",
+      "wild-water-buffalo"
+    ],
+    "lat": 26.056,
+    "lng": 92.855
   },
   {
-    "slug": "kerala",
-    "name": "Kerala",
+    "slug": "bihar",
+    "name": "Bihar",
+    "dominantSpeciesSlug": "indian-rhinoceros",
+    "speciesSlugs": [
+      "indian-rhinoceros",
+      "royal-bengal-tiger",
+      "asian-elephant"
+    ],
+    "lat": 25.9045,
+    "lng": 85.803
+  },
+  {
+    "slug": "chandigarh",
+    "name": "Chandigarh",
+    "dominantSpeciesSlug": "indian-peafowl",
+    "speciesSlugs": [
+      "indian-peafowl",
+      "house-sparrow"
+    ],
+    "lat": 30.733,
+    "lng": 76.7635
+  },
+  {
+    "slug": "chhattisgarh",
+    "name": "Chhattisgarh",
+    "dominantSpeciesSlug": "wild-water-buffalo",
+    "speciesSlugs": [
+      "wild-water-buffalo",
+      "royal-bengal-tiger",
+      "sloth-bear"
+    ],
+    "lat": 20.942,
+    "lng": 82.315
+  },
+  {
+    "slug": "dadra-and-nagar-haveli-and-daman-and-diu",
+    "name": "Dadra & Nagar Haveli and Daman & Diu",
+    "dominantSpeciesSlug": "greater-flamingo",
+    "speciesSlugs": [
+      "greater-flamingo",
+      "indian-leopard"
+    ],
+    "lat": 20.6795,
+    "lng": 71.7755
+  },
+  {
+    "slug": "delhi",
+    "name": "Delhi",
+    "dominantSpeciesSlug": "house-sparrow",
+    "speciesSlugs": [
+      "house-sparrow",
+      "nilgai",
+      "hanuman-langur",
+      "painted-stork",
+      "house-crow"
+    ],
+    "lat": 28.6415,
+    "lng": 77.085
+  },
+  {
+    "slug": "goa",
+    "name": "Goa",
+    "dominantSpeciesSlug": "gaur",
+    "speciesSlugs": [
+      "gaur",
+      "great-hornbill",
+      "malabar-pied-hornbill",
+      "malabar-whistling-thrush",
+      "smooth-coated-otter"
+    ],
+    "lat": 15.347,
+    "lng": 74.011
+  },
+  {
+    "slug": "gujarat",
+    "name": "Gujarat",
+    "dominantSpeciesSlug": "asiatic-lion",
+    "speciesSlugs": [
+      "asiatic-lion",
+      "greater-flamingo",
+      "indian-wild-ass",
+      "blackbuck",
+      "chinkara",
+      "sarus-crane"
+    ],
+    "lat": 22.414,
+    "lng": 71.333
+  },
+  {
+    "slug": "haryana",
+    "name": "Haryana",
+    "dominantSpeciesSlug": "blackbuck",
+    "speciesSlugs": [
+      "blackbuck",
+      "indian-peafowl",
+      "nilgai",
+      "chinkara",
+      "sarus-crane"
+    ],
+    "lat": 29.2935,
+    "lng": 76.0285
+  },
+  {
+    "slug": "himachal-pradesh",
+    "name": "Himachal Pradesh",
+    "dominantSpeciesSlug": "himalayan-monal",
+    "speciesSlugs": [
+      "himalayan-monal",
+      "snow-leopard",
+      "indian-leopard",
+      "bar-headed-goose"
+    ],
+    "lat": 31.8195,
+    "lng": 77.288
+  },
+  {
+    "slug": "jammu-and-kashmir",
+    "name": "Jammu & Kashmir",
+    "dominantSpeciesSlug": "hangul",
+    "speciesSlugs": [
+      "hangul",
+      "snow-leopard",
+      "black-necked-crane",
+      "himalayan-monal"
+    ],
+    "lat": 33.8905,
+    "lng": 76.6635
+  },
+  {
+    "slug": "jharkhand",
+    "name": "Jharkhand",
     "dominantSpeciesSlug": "asian-elephant",
-    "speciesSlugs": ["asian-elephant"],
-    "lat": 10.8505,
-    "lng": 76.2711
+    "speciesSlugs": [
+      "asian-elephant",
+      "royal-bengal-tiger",
+      "sloth-bear"
+    ],
+    "lat": 23.652,
+    "lng": 85.6485
   },
   {
     "slug": "karnataka",
     "name": "Karnataka",
     "dominantSpeciesSlug": "lion-tailed-macaque",
-    "speciesSlugs": ["lion-tailed-macaque", "asian-elephant"],
-    "lat": 15.3173,
-    "lng": 75.7139
+    "speciesSlugs": [
+      "lion-tailed-macaque",
+      "asian-elephant",
+      "gaur",
+      "dhole",
+      "indian-giant-squirrel",
+      "indian-roller"
+    ],
+    "lat": 15.0195,
+    "lng": 76.335
   },
   {
-    "slug": "rajasthan",
-    "name": "Rajasthan",
-    "dominantSpeciesSlug": "great-indian-bustard",
-    "speciesSlugs": ["great-indian-bustard", "indian-eagle-owl", "indian-peafowl", "royal-bengal-tiger"],
-    "lat": 27.0238,
-    "lng": 74.2179
+    "slug": "kerala",
+    "name": "Kerala",
+    "dominantSpeciesSlug": "asian-elephant",
+    "speciesSlugs": [
+      "asian-elephant",
+      "nilgiri-tahr",
+      "lion-tailed-macaque",
+      "great-hornbill",
+      "malabar-whistling-thrush",
+      "gaur"
+    ],
+    "lat": 10.541,
+    "lng": 76.1315
+  },
+  {
+    "slug": "ladakh",
+    "name": "Ladakh",
+    "dominantSpeciesSlug": "snow-leopard",
+    "speciesSlugs": [
+      "snow-leopard",
+      "black-necked-crane",
+      "bar-headed-goose"
+    ],
+    "lat": 34.1526,
+    "lng": 77.5771
+  },
+  {
+    "slug": "lakshadweep",
+    "name": "Lakshadweep",
+    "dominantSpeciesSlug": "greater-flamingo",
+    "speciesSlugs": [
+      "greater-flamingo"
+    ],
+    "lat": 8.2975,
+    "lng": 73.065
   },
   {
     "slug": "madhya-pradesh",
     "name": "Madhya Pradesh",
     "dominantSpeciesSlug": "barasingha",
-    "speciesSlugs": ["barasingha", "royal-bengal-tiger", "indian-peafowl"],
-    "lat": 22.9734,
-    "lng": 78.6569
+    "speciesSlugs": [
+      "barasingha",
+      "royal-bengal-tiger",
+      "cheetah",
+      "sloth-bear",
+      "indian-leopard",
+      "chital"
+    ],
+    "lat": 23.9745,
+    "lng": 78.426
   },
   {
     "slug": "maharashtra",
     "name": "Maharashtra",
     "dominantSpeciesSlug": "indian-giant-squirrel",
-    "speciesSlugs": ["indian-giant-squirrel"],
-    "lat": 19.7515,
-    "lng": 75.7139
+    "speciesSlugs": [
+      "indian-giant-squirrel",
+      "royal-bengal-tiger",
+      "indian-leopard",
+      "forest-owlet",
+      "sloth-bear"
+    ],
+    "lat": 18.818,
+    "lng": 76.7715
   },
   {
-    "slug": "andaman-and-nicobar-islands",
-    "name": "Andaman and Nicobar",
-    "dominantSpeciesSlug": "narcondam-hornbill",
-    "speciesSlugs": ["narcondam-hornbill", "nicobar-long-tailed-macaque"],
-    "lat": 11.7401,
-    "lng": 92.6586
+    "slug": "manipur",
+    "name": "Manipur",
+    "dominantSpeciesSlug": "sangai",
+    "speciesSlugs": [
+      "sangai",
+      "hoolock-gibbon"
+    ],
+    "lat": 24.7705,
+    "lng": 93.8685
+  },
+  {
+    "slug": "meghalaya",
+    "name": "Meghalaya",
+    "dominantSpeciesSlug": "clouded-leopard",
+    "speciesSlugs": [
+      "clouded-leopard",
+      "hoolock-gibbon",
+      "capped-langur",
+      "red-panda"
+    ],
+    "lat": 25.5755,
+    "lng": 91.3125
+  },
+  {
+    "slug": "mizoram",
+    "name": "Mizoram",
+    "dominantSpeciesSlug": "hoolock-gibbon",
+    "speciesSlugs": [
+      "hoolock-gibbon",
+      "clouded-leopard",
+      "capped-langur"
+    ],
+    "lat": 23.243,
+    "lng": 92.8535
+  },
+  {
+    "slug": "nagaland",
+    "name": "Nagaland",
+    "dominantSpeciesSlug": "hoolock-gibbon",
+    "speciesSlugs": [
+      "hoolock-gibbon",
+      "capped-langur"
+    ],
+    "lat": 26.1225,
+    "lng": 94.288
+  },
+  {
+    "slug": "odisha",
+    "name": "Odisha",
+    "dominantSpeciesSlug": "sambar-deer",
+    "speciesSlugs": [
+      "sambar-deer",
+      "indian-roller",
+      "asian-elephant",
+      "smooth-coated-otter",
+      "greater-flamingo"
+    ],
+    "lat": 20.1835,
+    "lng": 84.433
+  },
+  {
+    "slug": "puducherry",
+    "name": "Puducherry",
+    "dominantSpeciesSlug": "indian-peafowl",
+    "speciesSlugs": [
+      "indian-peafowl"
+    ],
+    "lat": 13.776,
+    "lng": 78.7605
+  },
+  {
+    "slug": "punjab",
+    "name": "Punjab",
+    "dominantSpeciesSlug": "blackbuck",
+    "speciesSlugs": [
+      "blackbuck",
+      "indian-peafowl",
+      "chinkara",
+      "golden-jackal"
+    ],
+    "lat": 31.064,
+    "lng": 75.4
+  },
+  {
+    "slug": "rajasthan",
+    "name": "Rajasthan",
+    "dominantSpeciesSlug": "great-indian-bustard",
+    "speciesSlugs": [
+      "great-indian-bustard",
+      "royal-bengal-tiger",
+      "indian-eagle-owl",
+      "chinkara",
+      "sarus-crane",
+      "indian-vulture"
+    ],
+    "lat": 26.629,
+    "lng": 73.8725
+  },
+  {
+    "slug": "sikkim",
+    "name": "Sikkim",
+    "dominantSpeciesSlug": "red-panda",
+    "speciesSlugs": [
+      "red-panda",
+      "snow-leopard",
+      "himalayan-monal"
+    ],
+    "lat": 27.6065,
+    "lng": 88.4695
+  },
+  {
+    "slug": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "dominantSpeciesSlug": "nilgiri-tahr",
+    "speciesSlugs": [
+      "nilgiri-tahr",
+      "asian-elephant",
+      "lion-tailed-macaque",
+      "slender-loris",
+      "painted-stork"
+    ],
+    "lat": 10.808,
+    "lng": 78.286
+  },
+  {
+    "slug": "telangana",
+    "name": "Telangana",
+    "dominantSpeciesSlug": "indian-roller",
+    "speciesSlugs": [
+      "indian-roller",
+      "blackbuck",
+      "royal-bengal-tiger",
+      "striped-hyena"
+    ],
+    "lat": 18.1124,
+    "lng": 79.0193
+  },
+  {
+    "slug": "tripura",
+    "name": "Tripura",
+    "dominantSpeciesSlug": "clouded-leopard",
+    "speciesSlugs": [
+      "clouded-leopard",
+      "capped-langur"
+    ],
+    "lat": 23.7425,
+    "lng": 91.746
+  },
+  {
+    "slug": "uttar-pradesh",
+    "name": "Uttar Pradesh",
+    "dominantSpeciesSlug": "sarus-crane",
+    "speciesSlugs": [
+      "sarus-crane",
+      "barasingha",
+      "indian-rhinoceros",
+      "nilgai",
+      "painted-stork"
+    ],
+    "lat": 27.1415,
+    "lng": 80.8555
+  },
+  {
+    "slug": "uttarakhand",
+    "name": "Uttarakhand",
+    "dominantSpeciesSlug": "himalayan-monal",
+    "speciesSlugs": [
+      "himalayan-monal",
+      "royal-bengal-tiger",
+      "snow-leopard",
+      "indian-leopard",
+      "asian-elephant"
+    ],
+    "lat": 30.0945,
+    "lng": 79.291
+  },
+  {
+    "slug": "west-bengal",
+    "name": "West Bengal",
+    "dominantSpeciesSlug": "royal-bengal-tiger",
+    "speciesSlugs": [
+      "royal-bengal-tiger",
+      "indian-rhinoceros",
+      "red-panda",
+      "smooth-coated-otter"
+    ],
+    "lat": 24.381,
+    "lng": 87.852
   }
 ]

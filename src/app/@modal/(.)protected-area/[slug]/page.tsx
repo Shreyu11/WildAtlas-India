@@ -9,7 +9,7 @@ export default async function ProtectedAreaModal({
   const { slug } = await params;
 
   return (
-    <Drawer>
+    <Drawer title="Protected Area Info">
       <ProtectedAreaDetail slug={slug} />
     </Drawer>
   );

@@ -9,7 +9,7 @@ export default async function ZooModal({
   const { slug } = await params;
 
   return (
-    <Drawer>
+    <Drawer title="Zoo Info">
       <ZooDetail slug={slug} />
     </Drawer>
   );

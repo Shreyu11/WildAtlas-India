@@ -5,7 +5,7 @@
     "date": "07-29",
     "animal": "Tiger",
     "taxon": "mammal",
-    "description": "Also called Global Tiger Day, established in 2010 at the St. Petersburg Tiger Summit to raise awareness of wild tiger conservation. India holds roughly 70% of the world's wild tiger population.",
+    "description": "Established in 2010 to raise awareness of wild tiger conservation. India holds ~70% of wild tigers.",
     "speciesSlug": "royal-bengal-tiger",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/International_Tiger_Day"
   },
@@ -15,7 +15,7 @@
     "date": "08-10",
     "animal": "Lion",
     "taxon": "mammal",
-    "description": "An awareness day for lion conservation worldwide. In India, it spotlights the Asiatic lion, which survives in the wild only in and around Gir Forest, Gujarat.",
+    "description": "In India, spotlights the Asiatic lion surviving in Gujarat's Gir Forest.",
     "speciesSlug": "asiatic-lion",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/World_Lion_Day"
   },
@@ -25,7 +25,7 @@
     "date": "08-12",
     "animal": "Elephant",
     "taxon": "mammal",
-    "description": "Launched in 2012 to bring attention to the urgent threats facing Asian and African elephants, including habitat loss, poaching, and human-elephant conflict.",
+    "description": "Spotlights threats facing Asian and African elephants, including habitat loss and human-elephant conflict.",
     "speciesSlug": "asian-elephant",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/World_Elephant_Day"
   },
@@ -35,7 +35,7 @@
     "date": "09-22",
     "animal": "Rhinoceros",
     "taxon": "mammal",
-    "description": "Celebrates all five rhino species. In India, it centers on the greater one-horned (Indian) rhinoceros, whose largest population lives in Assam's Kaziranga National Park.",
+    "description": "Celebrates all five rhino species; in India centers on the one-horned rhino.",
     "speciesSlug": "indian-rhinoceros",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/World_Rhino_Day"
   },
@@ -45,8 +45,8 @@
     "date": "03-20",
     "animal": "House Sparrow",
     "taxon": "bird",
-    "description": "Started by the Nature Forever Society in Nashik, India, to raise awareness of the house sparrow's decline in Indian cities and other common birds' conservation.",
-    "speciesSlug": null,
+    "description": "Started by Nature Forever Society in Nashik, India, to raise awareness of house sparrows and common birds.",
+    "speciesSlug": "house-sparrow",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/World_Sparrow_Day"
   }
 ]

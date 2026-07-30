@@ -61,6 +61,24 @@ export function AmbientAudioProvider({ children }: { children: React.ReactNode }
     });
   };
 
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement ||
+        (e.target instanceof HTMLElement && e.target.isContentEditable)
+      ) {
+        return;
+      }
+      if (e.shiftKey && e.key.toLowerCase() === "m") {
+        e.preventDefault();
+        toggleMuted();
+      }
+    }
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
   const value = useMemo(() => ({ muted, toggleMuted }), [muted]);
 
   return (

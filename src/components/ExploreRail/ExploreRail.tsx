@@ -2,20 +2,13 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { X } from "lucide-react";
 import type { Species } from "@/lib/types";
 import { DEFAULT_SPECIES_ICON, SPECIES_ICON } from "@/lib/mockIcons";
 import { useSearch } from "@/components/SearchProvider/SearchProvider";
 
 const STORAGE_KEY = "wildatlas-explore-dismissed";
 
-// Curated quick-start species (PRD Section 4.0). Editorially curated, not
-// data-driven — just which species.json entries to feature, so the photo
-// itself stays a single source of truth. The wireframe's fourth entry was
-// a cobra — reptiles are out of Phase 1 scope (project CLAUDE.md), so it's
-// swapped for the Indian Peafowl (India's national bird) here instead.
-//
-// Floats over the map (like WelcomeCard) rather than a docked sidebar, so
-// the map can use the full viewport width — dismissible the same way.
 const CURATED_SLUGS: Array<{ speciesSlug: string; label: string }> = [
   { speciesSlug: "royal-bengal-tiger", label: "Tigers" },
   { speciesSlug: "asian-elephant", label: "Elephants" },
@@ -36,21 +29,19 @@ export default function ExploreRail({ species }: { species: Species[] }) {
   const speciesBySlug = new Map(species.map((s) => [s.slug, s]));
 
   return (
-    // top-24, not top-6 — TopNav now floats fixed over the map (h-16) rather
-    // than sitting in its own row above it, so this needs to clear it.
-    <div className="absolute left-6 top-24 w-40 rounded-lg border border-zinc-200 bg-white p-4 shadow-lg">
-      <div className="mb-4 flex items-center justify-between gap-2">
-        <p className="text-sm font-medium text-zinc-500">Explore →</p>
+    <div className="absolute left-6 top-24 w-44 rounded-xl border border-zinc-200 bg-white/95 p-4 shadow-lg backdrop-blur-md">
+      <div className="mb-3 flex items-center justify-between gap-2 border-b border-zinc-100 pb-2">
+        <p className="font-mono text-xs font-semibold uppercase tracking-wider text-zinc-700">Explore</p>
         <button
           type="button"
           aria-label="Dismiss explore menu"
-          className="text-zinc-400 hover:text-zinc-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+          className="inline-flex h-7 w-7 items-center justify-center rounded-lg text-zinc-400 hover:bg-zinc-100 hover:text-zinc-700 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
           onClick={() => {
             localStorage.setItem(STORAGE_KEY, "true");
             setDismissed(true);
           }}
         >
-          ✕
+          <X className="h-4 w-4" />
         </button>
       </div>
       <ul className="flex flex-col gap-4">

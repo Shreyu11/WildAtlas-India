@@ -9,7 +9,7 @@ export default async function StateModal({
   const { slug } = await params;
 
   return (
-    <Drawer>
+    <Drawer title="State Info">
       <StateDetail slug={slug} />
     </Drawer>
   );

@@ -585,11 +585,44 @@ function labelEl(text: string, kind: "state" | "protected-area"): HTMLDivElement
 
 interface SpeciesMarkerMeta {
   marker: Marker;
-  label: Marker;
   speciesSlug: string;
   stateSlug: string;
   lng: number;
   lat: number;
+}
+
+interface StateLabelMeta {
+  label: Marker;
+  stateSlug: string;
+  stateName: string;
+  lng: number;
+  lat: number;
+}
+
+const GEO_NAME_ALIASES: Record<string, string[]> = {
+  "odisha": ["Odisha", "Orissa"],
+  "uttarakhand": ["Uttarakhand", "Uttaranchal"],
+  "andaman-and-nicobar-islands": ["Andaman & Nicobar", "Andaman and Nicobar"],
+  "jammu-and-kashmir": ["Jammu & Kashmir", "Jammu and Kashmir"],
+  "dadra-and-nagar-haveli-and-daman-and-diu": [
+    "Dadra & Nagar Haveli and Daman & Diu",
+    "Dadra and Nagar Haveli",
+    "Daman and Diu"
+  ],
+  "puducherry": ["Puducherry", "Pondicherry"],
+};
+
+function getGeoNamesForStateSlugs(stateSlugs: Iterable<string>, stateNameBySlug: Map<string, string>): string[] {
+  const geoNames = new Set<string>();
+  for (const slug of stateSlugs) {
+    const name = stateNameBySlug.get(slug);
+    if (name) geoNames.add(name);
+    const aliases = GEO_NAME_ALIASES[slug];
+    if (aliases) {
+      aliases.forEach((a) => geoNames.add(a));
+    }
+  }
+  return Array.from(geoNames);
 }
 
 export default function Map({ states, species, protectedAreas, zoos = [], speciesDensity, markers }: MapProps) {
@@ -599,32 +632,17 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
   const { query } = useSearch();
   const { settings } = useMapSettings();
   const [selectedSpeciesSlug, setSelectedSpeciesSlug] = useState<string | null>(null);
-  // Bumped on every "moveend" (pan or zoom settling) so the clustering
-  // render effect below re-runs — supercluster needs the current viewport
-  // bbox + zoom to decide what merges into a cluster badge vs. renders as
-  // its own marker, and neither of those change via React props/state.
   const [viewTick, setViewTick] = useState(0);
 
   const mapInstanceRef = useRef<MaplibreMap | null>(null);
   const stateNameBySlugRef = useRef<Map<string, string>>(new globalThis.Map());
   const speciesMarkerMetaRef = useRef<SpeciesMarkerMeta[]>([]);
-  // Ephemeral cluster/leaf markers + labels for protected areas & zoos —
-  // rebuilt from scratch whenever the clustering render below decides the
-  // cluster/leaf layout actually changed (see `lastClusterSignatureRef`),
-  // unlike the species markers above which are created once and only
-  // toggled.
+  const stateLabelMetaRef = useRef<StateLabelMeta[]>([]);
   const paZooMarkersRef = useRef<Marker[]>([]);
-  // A cheap fingerprint of the last rendered cluster/leaf set (sorted
-  // "kind:id" strings) — lets the clustering effect skip tearing down and
-  // rebuilding every PA/zoo marker on every single "moveend" (e.g. a pan
-  // that doesn't change which points are visible/clustered), which is what
-  // produced a visible flicker on every pan/zoom in an earlier version.
   const lastClusterSignatureRef = useRef<string>("");
-  // The single marker (if any) currently click-expanded into its full detail
-  // card — shared between the mount effect (which sets it) and the search
-  // effect (which collapses it when the query changes).
   const expandedMarkerRef = useRef<HTMLDivElement | null>(null);
   const prevQueryRef = useRef(query);
+  const prevFitKeyRef = useRef<string>("");
 
   // Mount effect: creates the map, markers, and labels once (per data
   // change). Search-driven visual updates are handled by a separate, lighter
@@ -737,16 +755,12 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
 
     const createdMarkers: Marker[] = [];
     const speciesMeta: SpeciesMarkerMeta[] = [];
-    // States that already get a name label anchored to their species
-    // marker — the geojson-driven pass below fills in every other state so
-    // all state names show on the map, not just the ones with mock data.
-    const labeledStateNames = new Set<string>();
+    const stateMeta: StateLabelMeta[] = [];
 
     for (const marker of markers.speciesMarkers) {
       const sp = speciesBySlug.get(marker.speciesSlug);
       const st = stateBySlug.get(marker.stateSlug);
       if (!sp || !st) continue;
-      labeledStateNames.add(st.name);
 
       const wrapper = speciesMarkerEl(sp, {
         subtitle: `Dominant species — ${st.name}`,
@@ -763,14 +777,8 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       const m = new Marker({ element: wrapper }).setLngLat([marker.lng, marker.lat]).addTo(map);
       createdMarkers.push(m);
 
-      const label = new Marker({ element: labelEl(st.name, "state"), anchor: "top", offset: [0, 24] })
-        .setLngLat([marker.lng, marker.lat])
-        .addTo(map);
-      createdMarkers.push(label);
-
       speciesMeta.push({
         marker: m,
-        label,
         speciesSlug: sp.slug,
         stateSlug: st.slug,
         lng: marker.lng,
@@ -778,46 +786,31 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       });
     }
 
-    speciesMarkerMetaRef.current = speciesMeta;
+    for (const st of states) {
+      const label = new Marker({ element: labelEl(st.name, "state"), anchor: "center" })
+        .setLngLat([st.lng, st.lat])
+        .addTo(map);
+      createdMarkers.push(label);
 
-    // Protected-area/zoo markers are *not* created here — they're owned
-    // entirely by the clustering render in the search/settings effect below,
-    // since which ones exist as individual markers vs. collapse into a
-    // cluster badge depends on the current zoom/viewport, not just on data.
-    // "moveend" covers both pans and zooms settling, so a single listener
-    // is enough to know when to re-run that clustering pass.
+      stateMeta.push({
+        label,
+        stateSlug: st.slug,
+        stateName: st.name,
+        lng: st.lng,
+        lat: st.lat,
+      });
+    }
+
+    speciesMarkerMetaRef.current = speciesMeta;
+    stateLabelMetaRef.current = stateMeta;
+
     const handleMoveEnd = () => setViewTick((t) => t + 1);
     map.on("moveend", handleMoveEnd);
 
-    // Label every remaining state/UT from the boundary geojson itself (not
-    // just the ones with a mock species marker), so the map always shows
-    // all state names. Reuses the same file MapLibre already fetched for
-    // the source above, so this is served from the browser cache.
-    let cancelled = false;
-    fetch("/data/geo/india-states.geojson")
-      .then((res) => res.json())
-      .then((geojson: { features: Array<{ properties?: { NAME_1?: string }; geometry: { coordinates: unknown } }> }) => {
-        if (cancelled) return;
-        for (const feature of geojson.features) {
-          const name = feature.properties?.NAME_1;
-          if (!name || labeledStateNames.has(name)) continue;
-          const [lng, lat] = geometryBoundsCenter(feature.geometry);
-          const label = new Marker({ element: labelEl(name, "state"), anchor: "center" })
-            .setLngLat([lng, lat])
-            .addTo(map);
-          createdMarkers.push(label);
-        }
-      })
-      .catch(() => {});
-
-    // MapLibre measures its container once at construction time; in a flex
-    // layout that measurement can land before Tailwind/layout has settled to
-    // its final size, leaving the canvas stuck small. Keep it in sync.
     const resizeObserver = new ResizeObserver(() => map.resize());
     resizeObserver.observe(containerRef.current);
 
     return () => {
-      cancelled = true;
       resizeObserver.disconnect();
       map.off("mousemove", "states-fill", handleStateMouseMove);
       map.off("mouseleave", "states-fill", handleStateMouseLeave);
@@ -872,7 +865,7 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
     const isPaLayerVisible = (paType: ProtectedArea["type"]) => {
       if (paType === "national-park" && !settings.nationalParks) return false;
       if (paType === "bird-sanctuary" && !settings.birdSanctuaries) return false;
-      if (paType === "wildlife-sanctuary" && !settings.wildlifeSanctuaries) return false;
+      if ((paType === "wildlife-sanctuary" || (paType as string).includes("sanctuary")) && paType !== "bird-sanctuary" && !settings.wildlifeSanctuaries) return false;
       return true;
     };
 
@@ -935,50 +928,59 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       }
     }
 
+    const fitKey = `${activeSpeciesSlug || ""}:${q}`;
+    const shouldFitBounds = fitKey !== prevFitKeyRef.current;
+    if (shouldFitBounds) {
+      prevFitKeyRef.current = fitKey;
+    }
+
     if (!q) {
       const activeSpecies = activeSpeciesSlug ? speciesBySlug.get(activeSpeciesSlug) : null;
       const activeSpeciesStateSlugs = activeSpecies ? new Set(activeSpecies.stateSlugs) : null;
 
-      speciesMarkerMetaRef.current.forEach(({ marker, label, speciesSlug }) => {
+      speciesMarkerMetaRef.current.forEach(({ marker, speciesSlug }) => {
         const layerVisible = isSpeciesLayerVisible(speciesSlug);
         const speciesMatched = !activeSpeciesSlug || speciesSlug === activeSpeciesSlug;
         const visible = layerVisible && speciesMatched;
         marker.getElement().style.display = visible ? "" : "none";
-        label.getElement().style.display = visible ? "" : "none";
+      });
+
+      stateLabelMetaRef.current.forEach(({ label }) => {
+        label.getElement().style.display = "";
       });
 
       if (activeSpeciesSlug && activeSpeciesStateSlugs) {
-        const matchedStateNames = Array.from(activeSpeciesStateSlugs)
-          .map((slug) => stateNameBySlugRef.current.get(slug))
-          .filter((name): name is string => Boolean(name));
+        const matchedStateGeoNames = getGeoNamesForStateSlugs(activeSpeciesStateSlugs, stateNameBySlugRef.current);
 
         if (map.getLayer("states-fill")) {
           map.setPaintProperty(
             "states-fill",
             "fill-color",
-            buildFillColorExpression(matchedStateNames) as string,
+            buildFillColorExpression(matchedStateGeoNames) as string,
           );
         }
 
-        const bounds = new LngLatBounds();
-        if (speciesDensity && speciesDensity[activeSpeciesSlug]) {
-          for (const cell of speciesDensity[activeSpeciesSlug]) {
-            bounds.extend([cell.minLng, cell.minLat]);
-            bounds.extend([cell.maxLng, cell.maxLat]);
+        if (shouldFitBounds) {
+          const bounds = new LngLatBounds();
+          if (speciesDensity && speciesDensity[activeSpeciesSlug]) {
+            for (const cell of speciesDensity[activeSpeciesSlug]) {
+              bounds.extend([cell.minLng, cell.minLat]);
+              bounds.extend([cell.maxLng, cell.maxLat]);
+            }
           }
-        }
-        speciesMarkerMetaRef.current.forEach(({ speciesSlug, lng, lat }) => {
-          if (speciesSlug === activeSpeciesSlug) bounds.extend([lng, lat]);
-        });
-        for (const pa of protectedAreas) {
-          if (pa.headlineSpeciesSlug === activeSpeciesSlug) bounds.extend([pa.lng, pa.lat]);
-        }
-        for (const z of zoos) {
-          if (z.headlineSpeciesSlug === activeSpeciesSlug) bounds.extend([z.lng, z.lat]);
-        }
+          speciesMarkerMetaRef.current.forEach(({ speciesSlug, lng, lat }) => {
+            if (speciesSlug === activeSpeciesSlug) bounds.extend([lng, lat]);
+          });
+          for (const pa of protectedAreas) {
+            if (pa.headlineSpeciesSlug === activeSpeciesSlug) bounds.extend([pa.lng, pa.lat]);
+          }
+          for (const z of zoos) {
+            if (z.headlineSpeciesSlug === activeSpeciesSlug) bounds.extend([z.lng, z.lat]);
+          }
 
-        if (!bounds.isEmpty()) {
-          map.fitBounds(bounds, { padding: 80, maxZoom: 7, duration: 500 });
+          if (!bounds.isEmpty()) {
+            map.fitBounds(bounds, { padding: 80, maxZoom: 7, duration: 500 });
+          }
         }
       } else {
         resetFill();
@@ -988,18 +990,22 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       const bounds = new LngLatBounds();
       let hasMatch = false;
 
-      speciesMarkerMetaRef.current.forEach(({ marker, label, speciesSlug, stateSlug, lng, lat }) => {
+      speciesMarkerMetaRef.current.forEach(({ marker, speciesSlug, stateSlug, lng, lat }) => {
         const searchMatched = matchedSpeciesSlugs.has(speciesSlug) || directMatchedStateSlugs.has(stateSlug);
         const layerVisible = isSpeciesLayerVisible(speciesSlug);
         const speciesMatched = !activeSpeciesSlug || speciesSlug === activeSpeciesSlug;
         const visible = searchMatched && layerVisible && speciesMatched;
 
         marker.getElement().style.display = visible ? "" : "none";
-        label.getElement().style.display = visible ? "" : "none";
         if (visible) {
           bounds.extend([lng, lat]);
           hasMatch = true;
         }
+      });
+
+      stateLabelMetaRef.current.forEach(({ label, stateSlug }) => {
+        const visible = matchedStateSlugs.has(stateSlug);
+        label.getElement().style.display = visible ? "" : "none";
       });
 
       for (const pa of protectedAreas) {
@@ -1023,15 +1029,13 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
         }
       }
 
-      const matchedStateNames = Array.from(matchedStateSlugs)
-        .map((slug) => stateNameBySlugRef.current.get(slug))
-        .filter((name): name is string => Boolean(name));
+      const matchedStateGeoNames = getGeoNamesForStateSlugs(matchedStateSlugs, stateNameBySlugRef.current);
 
       if (map.getLayer("states-fill")) {
         map.setPaintProperty(
           "states-fill",
           "fill-color",
-          buildFillColorExpression(matchedStateNames) as string,
+          buildFillColorExpression(matchedStateGeoNames) as string,
         );
       }
 
@@ -1039,7 +1043,7 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
         buildHotspotFeatures(matchedSpeciesSlugs, speciesMarkerMetaRef.current, protectedAreas) as GeoJSON.FeatureCollection,
       );
 
-      if (hasMatch) {
+      if (shouldFitBounds && hasMatch) {
         map.fitBounds(bounds, { padding: 80, maxZoom: 7, duration: 500 });
       }
     }

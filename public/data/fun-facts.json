@@ -2,14 +2,14 @@
   {
     "animal": "Bengal Tiger",
     "taxon": "mammal",
-    "fact": "Bengal tigers have striped skin, not just striped fur — the pattern is unique to each individual, like a fingerprint. India holds roughly 70% of the world's wild tiger population.",
+    "fact": "Bengal tigers have striped skin, not just striped fur — the pattern is unique to each individual like a fingerprint. India holds roughly 70% of the world's wild tiger population.",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Bengal_tiger",
     "speciesSlug": "royal-bengal-tiger"
   },
   {
     "animal": "Indian (Asian) Elephant",
     "taxon": "mammal",
-    "fact": "Asian elephants, found across central and southern India, are one of the few animals known to mourn their dead, sometimes standing vigil over a deceased herd member's remains for days.",
+    "fact": "Asian elephants are one of the few animals known to mourn their dead, sometimes standing vigil over a deceased herd member's remains for days.",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Indian_elephant",
     "speciesSlug": "asian-elephant"
   },
@@ -23,50 +23,50 @@
   {
     "animal": "Cheetah",
     "taxon": "mammal",
-    "fact": "India reintroduced cheetahs in 2022 at Kuno National Park, over 70 years after the species was declared extinct in the country — the world's first intercontinental large-carnivore translocation.",
+    "fact": "India reintroduced cheetahs in 2022 at Kuno National Park, over 70 years after the species was declared extinct in the country.",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Cheetah_reintroduction_in_India",
-    "speciesSlug": null
+    "speciesSlug": "cheetah"
   },
   {
-    "animal": "Indian Peafowl (Peacock)",
+    "animal": "Indian Peafowl",
     "taxon": "bird",
-    "fact": "The Indian peacock, India's national bird, can't actually fly far — its train feathers are too heavy for sustained flight, so it relies mostly on running and short bursts to escape predators.",
+    "fact": "The Indian peacock, India's national bird, can't fly far — its train feathers are heavy, so it relies on short bursts to escape predators.",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Indian_peafowl",
     "speciesSlug": "indian-peafowl"
   },
   {
     "animal": "Greater Flamingo",
     "taxon": "bird",
-    "fact": "Greater flamingos flock by the thousands to the Rann of Kutch in Gujarat, one of the largest flamingo breeding grounds in Asia; their pink color comes entirely from pigments in the shrimp and algae they eat.",
+    "fact": "Greater flamingos flock by the thousands to the Rann of Kutch in Gujarat, one of the largest flamingo breeding grounds in Asia.",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Greater_flamingo",
-    "speciesSlug": null
+    "speciesSlug": "greater-flamingo"
   },
   {
-    "animal": "Indian (One-Horned) Rhinoceros",
+    "animal": "Indian Rhinoceros",
     "taxon": "mammal",
-    "fact": "The great Indian one-horned rhinoceros, concentrated in Assam's Kaziranga National Park, has skin so thick and armor-like it looks like natural plating — yet it's soft enough to be prone to sunburn.",
+    "fact": "The great Indian one-horned rhinoceros has skin so thick and armor-like it looks like natural plating — yet soft enough to be prone to sunburn.",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Indian_rhinoceros",
     "speciesSlug": "indian-rhinoceros"
   },
   {
     "animal": "House Crow",
     "taxon": "bird",
-    "fact": "House crows, common across Indian cities, can recognize individual human faces and hold grudges against people who've wronged them, passing that recognition on to other crows.",
+    "fact": "House crows can recognize individual human faces and hold long-standing grudges, passing recognition on to other crows.",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/House_crow",
-    "speciesSlug": null
+    "speciesSlug": "house-crow"
   },
   {
     "animal": "Sloth Bear",
     "taxon": "mammal",
-    "fact": "The sloth bear, found across the Indian subcontinent, uses its long lower lip and gap-toothed mouth like a vacuum to noisily suck up termites and ants.",
+    "fact": "The sloth bear uses its long lower lip and gap-toothed mouth like a vacuum cleaner to noisily suck up termites and ants.",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Sloth_bear",
-    "speciesSlug": null
+    "speciesSlug": "sloth-bear"
   },
   {
     "animal": "Sarus Crane",
     "taxon": "bird",
     "fact": "Sarus cranes, the tallest flying birds in the world, mate for life and are revered in Indian folklore as a symbol of marital devotion.",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Sarus_crane",
-    "speciesSlug": null
+    "speciesSlug": "sarus-crane"
   }
 ]

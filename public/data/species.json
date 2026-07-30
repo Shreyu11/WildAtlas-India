@@ -5,17 +5,28 @@
     "scientificName": "Panthera tigris tigris",
     "taxon": "mammal",
     "conservationStatus": "EN",
-    "description": "India's national animal and the country's most iconic big cat, found in mangrove forests, grasslands, and dense deciduous forests across central and eastern India.",
-    "habitat": "Mangrove forests, grasslands, dry and moist deciduous forests",
-    "stateSlugs": ["west-bengal", "madhya-pradesh", "rajasthan"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3.jpg/960px-Bengal_tiger_%28Panthera_tigris_tigris%29_female_3.jpg",
+    "description": "India's national animal and iconic apex predator of mangroves, grasslands, and deciduous forests.",
+    "habitat": "Mangrove forests, tropical dry/moist deciduous forests, riverine tall grasslands",
+    "stateSlugs": [
+      "west-bengal",
+      "madhya-pradesh",
+      "rajasthan",
+      "uttarakhand",
+      "karnataka",
+      "maharashtra",
+      "assam"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "Charles J. Sharp",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3.jpg"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/bengal-tiger"
     },
-    "sourceCitations": ["IUCN Red List of Threatened Species", "Project Tiger Status Report (NTCA/WII)"],
+    "sourceCitations": [
+      "IUCN Red List of Threatened Species",
+      "Status of Tigers in India 2022 (NTCA/WII)"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -26,14 +37,37 @@
       "species": "Panthera tigris"
     },
     "populationTrend": [
-      { "year": 2006, "estimate": 1411, "source": "All India Tiger Estimation (NTCA/WII)" },
-      { "year": 2010, "estimate": 1706, "source": "All India Tiger Estimation (NTCA/WII)" },
-      { "year": 2014, "estimate": 2226, "source": "All India Tiger Estimation (NTCA/WII)" },
-      { "year": 2018, "estimate": 2967, "source": "All India Tiger Estimation (NTCA/WII)" },
-      { "year": 2022, "estimate": 3682, "source": "Status of Tigers in India 2022 (NTCA)" }
+      {
+        "year": 2006,
+        "estimate": 1411,
+        "source": "All India Tiger Estimation (NTCA/WII)"
+      },
+      {
+        "year": 2010,
+        "estimate": 1706,
+        "source": "All India Tiger Estimation (NTCA/WII)"
+      },
+      {
+        "year": 2014,
+        "estimate": 2226,
+        "source": "All India Tiger Estimation (NTCA/WII)"
+      },
+      {
+        "year": 2018,
+        "estimate": 2967,
+        "source": "All India Tiger Estimation (NTCA/WII)"
+      },
+      {
+        "year": 2022,
+        "estimate": 3682,
+        "source": "Status of Tigers in India 2022 (NTCA)"
+      }
     ],
-    "worldAnimalDaySlug": "world-tiger-day",
-    "conservationEfforts": ["Project Tiger", "NTCA Tiger Census"],
+    "worldAnimalDaySlug": "international-tiger-day",
+    "conservationEfforts": [
+      "Project Tiger",
+      "NTCA Tiger Census"
+    ],
     "needsResearch": false
   },
   {
@@ -42,17 +76,22 @@
     "scientificName": "Panthera leo leo",
     "taxon": "mammal",
     "conservationStatus": "EN",
-    "description": "The world's last wild population of Asiatic lions survives exclusively in and around the Gir Forest, making Gujarat their sole natural home.",
-    "habitat": "Dry deciduous forest and scrubland",
-    "stateSlugs": ["gujarat"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Asiatic_Lion_Royal_Walk_at_Gir_National_Park%2C_Gujrat%2C_India.jpg/960px-Asiatic_Lion_Royal_Walk_at_Gir_National_Park%2C_Gujrat%2C_India.jpg",
+    "description": "The world's last wild population of Asiatic lions survives exclusively in and around Gir Forest, Gujarat.",
+    "habitat": "Dry deciduous forest, teak woodlands, and thorn scrubland",
+    "stateSlugs": [
+      "gujarat"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "Rohit Sharma",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asiatic_Lion_Royal_Walk_at_Gir_National_Park,_Gujrat,_India.jpg"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/lion"
     },
-    "sourceCitations": ["IUCN Red List of Threatened Species", "Gujarat Forest Department Census"],
+    "sourceCitations": [
+      "IUCN Red List of Threatened Species",
+      "Gujarat Forest Department Census"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -63,13 +102,31 @@
       "species": "Panthera leo"
     },
     "populationTrend": [
-      { "year": 2005, "estimate": 359, "source": "Gujarat Forest Department Census" },
-      { "year": 2010, "estimate": 411, "source": "Gujarat Forest Department Census" },
-      { "year": 2015, "estimate": 523, "source": "Gujarat Forest Department Census" },
-      { "year": 2020, "estimate": 674, "source": "Poonam Avlokan Lion Census" }
+      {
+        "year": 2005,
+        "estimate": 359,
+        "source": "Gujarat Forest Department Census"
+      },
+      {
+        "year": 2010,
+        "estimate": 411,
+        "source": "Gujarat Forest Department Census"
+      },
+      {
+        "year": 2015,
+        "estimate": 523,
+        "source": "Gujarat Forest Department Census"
+      },
+      {
+        "year": 2020,
+        "estimate": 674,
+        "source": "Poonam Avlokan Lion Census"
+      }
     ],
     "worldAnimalDaySlug": "world-lion-day",
-    "conservationEfforts": ["Asiatic Lion Conservation Project"],
+    "conservationEfforts": [
+      "Asiatic Lion Conservation Project"
+    ],
     "needsResearch": false
   },
   {
@@ -78,17 +135,24 @@
     "scientificName": "Rhinoceros unicornis",
     "taxon": "mammal",
     "conservationStatus": "VU",
-    "description": "Also called the One-Horned Rhinoceros, this armored-looking giant is a conservation success story, with Assam's floodplains hosting the vast majority of the wild population.",
-    "habitat": "Riverine grasslands and floodplains",
-    "stateSlugs": ["assam"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg/960px-Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg",
+    "description": "Also called the Greater One-Horned Rhinoceros, an armored-looking megaherbivore native to Brahmaputra floodplains.",
+    "habitat": "Riverine tall grasslands, alluvial floodplains, swampy meadows",
+    "stateSlugs": [
+      "assam",
+      "west-bengal",
+      "uttar-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1574063413132-355dbfd83e0c?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "Tisha Mukherjee",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/rhino"
     },
-    "sourceCitations": ["IUCN Red List", "Assam Forest Department Rhinoceros Census"],
+    "sourceCitations": [
+      "IUCN Red List",
+      "Assam Forest Department Rhinoceros Census"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -99,13 +163,31 @@
       "species": "Rhinoceros unicornis"
     },
     "populationTrend": [
-      { "year": 1966, "estimate": 366, "source": "Assam Forest Department Historical Census" },
-      { "year": 1999, "estimate": 1552, "source": "Kaziranga Rhino Census" },
-      { "year": 2018, "estimate": 2413, "source": "Kaziranga Rhino Census" },
-      { "year": 2022, "estimate": 2613, "source": "14th Kaziranga Rhino Census" }
+      {
+        "year": 1966,
+        "estimate": 366,
+        "source": "Assam Forest Department Historical Census"
+      },
+      {
+        "year": 1999,
+        "estimate": 1552,
+        "source": "Kaziranga Rhino Census"
+      },
+      {
+        "year": 2018,
+        "estimate": 2413,
+        "source": "Kaziranga Rhino Census"
+      },
+      {
+        "year": 2022,
+        "estimate": 2613,
+        "source": "14th Kaziranga Rhino Census"
+      }
     ],
     "worldAnimalDaySlug": "world-rhino-day",
-    "conservationEfforts": ["Indian Rhino Vision 2020"],
+    "conservationEfforts": [
+      "Indian Rhino Vision 2020"
+    ],
     "needsResearch": false
   },
   {
@@ -114,17 +196,27 @@
     "scientificName": "Elephas maximus indicus",
     "taxon": "mammal",
     "conservationStatus": "EN",
-    "description": "India holds the largest population of wild Asian elephants in the world, with the Western Ghats forests of Kerala and Karnataka among their most important strongholds.",
-    "habitat": "Tropical evergreen and deciduous forests, grasslands",
-    "stateSlugs": ["kerala", "karnataka"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Indian_elephant_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg/960px-Indian_elephant_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg",
+    "description": "India holds over 60% of the wild Asian elephant population, roaming Western Ghats forests and Eastern corridors.",
+    "habitat": "Tropical evergreen and moist deciduous forest, bamboo brake, riverine forest",
+    "stateSlugs": [
+      "kerala",
+      "karnataka",
+      "tamil-nadu",
+      "assam",
+      "odisha",
+      "uttarakhand"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "Tisha Mukherjee",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_elephant_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/elephant"
     },
-    "sourceCitations": ["IUCN Red List", "Project Elephant Status Report"],
+    "sourceCitations": [
+      "IUCN Red List",
+      "Project Elephant Status Report"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -135,12 +227,27 @@
       "species": "Elephas maximus"
     },
     "populationTrend": [
-      { "year": 2007, "estimate": 27694, "source": "Project Elephant Census" },
-      { "year": 2012, "estimate": 29576, "source": "Project Elephant Census" },
-      { "year": 2017, "estimate": 27312, "source": "Synchronized Elephant Census" }
+      {
+        "year": 2007,
+        "estimate": 27694,
+        "source": "Project Elephant Census"
+      },
+      {
+        "year": 2012,
+        "estimate": 29576,
+        "source": "Project Elephant Census"
+      },
+      {
+        "year": 2017,
+        "estimate": 27312,
+        "source": "Synchronized Elephant Census"
+      }
     ],
     "worldAnimalDaySlug": "world-elephant-day",
-    "conservationEfforts": ["Project Elephant", "Elephant Corridors Initiative"],
+    "conservationEfforts": [
+      "Project Elephant",
+      "Elephant Corridors Initiative"
+    ],
     "needsResearch": false
   },
   {
@@ -149,17 +256,24 @@
     "scientificName": "Macaca silenus",
     "taxon": "mammal",
     "conservationStatus": "EN",
-    "description": "One of the rarest and most endangered primates, recognizable by its silver mane, found only in fragmented rainforest pockets of the Western Ghats.",
-    "habitat": "Tropical rainforest canopy, Western Ghats",
-    "stateSlugs": ["karnataka"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/LTM_profile.JPG/960px-LTM_profile.JPG",
+    "description": "An endemic Western Ghats primate recognized by its silver-white mane and black body, dwelling high in rainforest canopies.",
+    "habitat": "Tropical rainforest canopy of Western Ghats",
+    "stateSlugs": [
+      "karnataka",
+      "kerala",
+      "tamil-nadu"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1540573133985-778788177484?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "T. R. Shankar Raman",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LTM_profile.JPG"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/macaque"
     },
-    "sourceCitations": ["IUCN Red List", "Western Ghats Biodiversity Monitoring"],
+    "sourceCitations": [
+      "IUCN Red List",
+      "Western Ghats Biodiversity Monitoring"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -170,8 +284,16 @@
       "species": "Macaca silenus"
     },
     "populationTrend": [
-      { "year": 2003, "estimate": 3000, "source": "IUCN Species Assessment" },
-      { "year": 2015, "estimate": 4000, "source": "Western Ghats Primate Survey" }
+      {
+        "year": 2003,
+        "estimate": 3000,
+        "source": "IUCN Species Assessment"
+      },
+      {
+        "year": 2015,
+        "estimate": 4000,
+        "source": "Western Ghats Primate Survey"
+      }
     ],
     "needsResearch": false
   },
@@ -181,17 +303,24 @@
     "scientificName": "Ardeotis nigriceps",
     "taxon": "bird",
     "conservationStatus": "CR",
-    "description": "One of the heaviest flying birds and among the most critically endangered in the world, clinging on in the arid grasslands of Rajasthan's Thar Desert.",
-    "habitat": "Arid and semi-arid grasslands, scrubland",
-    "stateSlugs": ["rajasthan"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Great_Indian_Bustard_Ardeotis_nigriceps_by_Raju_Kasambe_DSCN9716_01.jpg/960px-Great_Indian_Bustard_Ardeotis_nigriceps_by_Raju_Kasambe_DSCN9716_01.jpg",
+    "description": "One of the world's heaviest flying birds, critically endangered and holding out in Rajasthan's Thar Desert grasslands.",
+    "habitat": "Arid and semi-arid shortgrass plains, dry agricultural land",
+    "stateSlugs": [
+      "rajasthan",
+      "gujarat",
+      "maharashtra"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "Dr. Raju Kasambe",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Indian_Bustard_Ardeotis_nigriceps_by_Raju_Kasambe_DSCN9716_01.jpg"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/bird"
     },
-    "sourceCitations": ["IUCN Red List", "State of India's Birds 2023"],
+    "sourceCitations": [
+      "IUCN Red List",
+      "State of India's Birds 2023"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -202,11 +331,26 @@
       "species": "Ardeotis nigriceps"
     },
     "populationTrend": [
-      { "year": 1969, "estimate": 1260, "source": "WII Historical Census" },
-      { "year": 2011, "estimate": 250, "source": "IUCN Red List Assessment" },
-      { "year": 2018, "estimate": 150, "source": "WII Status Report" }
+      {
+        "year": 1969,
+        "estimate": 1260,
+        "source": "WII Historical Census"
+      },
+      {
+        "year": 2011,
+        "estimate": 250,
+        "source": "IUCN Red List Assessment"
+      },
+      {
+        "year": 2018,
+        "estimate": 150,
+        "source": "WII Status Report"
+      }
     ],
-    "conservationEfforts": ["Project Great Indian Bustard", "Captive Breeding Program (Sam)"],
+    "conservationEfforts": [
+      "Project Great Indian Bustard",
+      "Captive Breeding Program (Sam)"
+    ],
     "needsResearch": false
   },
   {
@@ -215,17 +359,24 @@
     "scientificName": "Rucervus duvaucelii",
     "taxon": "mammal",
     "conservationStatus": "VU",
-    "description": "Also called the swamp deer, this is Madhya Pradesh's state animal — Kanha National Park's conservation program brought the local subspecies back from the brink of extinction.",
-    "habitat": "Swampy grasslands and moist deciduous forest",
-    "stateSlugs": ["madhya-pradesh"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Barasingha_in_Kanha_National_Park_01.jpg/960px-Barasingha_in_Kanha_National_Park_01.jpg",
+    "description": "Also known as the Swamp Deer, famous for the adult male's magnificent multi-tined antlers; Madhya Pradesh's state animal.",
+    "habitat": "Swampy grasslands, marshlands, and moist deciduous forest glades",
+    "stateSlugs": [
+      "madhya-pradesh",
+      "uttar-pradesh",
+      "assam"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "Bernard Gagnon",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barasingha_in_Kanha_National_Park_01.jpg"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/deer"
     },
-    "sourceCitations": ["IUCN Red List", "WII Species Recovery Plan"],
+    "sourceCitations": [
+      "IUCN Red List",
+      "WII Species Recovery Plan"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -236,9 +387,21 @@
       "species": "Rucervus duvaucelii"
     },
     "populationTrend": [
-      { "year": 1970, "estimate": 66, "source": "Kanha Barasingha Conservation Recovery" },
-      { "year": 2000, "estimate": 350, "source": "Kanha National Park Census" },
-      { "year": 2020, "estimate": 800, "source": "MP Forest Department Census" }
+      {
+        "year": 1970,
+        "estimate": 66,
+        "source": "Kanha Barasingha Conservation Recovery"
+      },
+      {
+        "year": 2000,
+        "estimate": 350,
+        "source": "Kanha National Park Census"
+      },
+      {
+        "year": 2020,
+        "estimate": 800,
+        "source": "MP Forest Department Census"
+      }
     ],
     "needsResearch": false
   },
@@ -248,17 +411,26 @@
     "scientificName": "Ratufa indica",
     "taxon": "mammal",
     "conservationStatus": "LC",
-    "description": "Maharashtra's state animal, a strikingly multicolored tree-dwelling squirrel capable of leaping several meters between branches in the state's dense forests.",
-    "habitat": "Tropical and subtropical moist deciduous forest canopy",
-    "stateSlugs": ["maharashtra"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Indian_giant_squirrel_by_Tisha_Mukherjee_09.jpg/960px-Indian_giant_squirrel_by_Tisha_Mukherjee_09.jpg",
+    "description": "Maharashtra's state animal (Shekru), a strikingly colorful tree squirrel leaping between canopy branches of moist forests.",
+    "habitat": "Tropical moist deciduous and evergreen forest canopy",
+    "stateSlugs": [
+      "maharashtra",
+      "karnataka",
+      "kerala",
+      "tamil-nadu",
+      "madhya-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1507666405768-82227eb5852f?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "Tisha Mukherjee",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_giant_squirrel_by_Tisha_Mukherjee_09.jpg"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/squirrel"
     },
-    "sourceCitations": ["IUCN Red List", "ZSI State Fauna Series"],
+    "sourceCitations": [
+      "IUCN Red List",
+      "ZSI State Fauna Series"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -276,17 +448,25 @@
     "scientificName": "Bubo bengalensis",
     "taxon": "bird",
     "conservationStatus": "LC",
-    "description": "A large, tufted nocturnal raptor often found roosting on rocky cliffs and ravines, with a haunting deep call that carries far across open terrain.",
-    "habitat": "Rocky hillsides, ravines, scrub forest",
-    "stateSlugs": ["rajasthan"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Indian_eagle-owl%2C_Bhigwan_4.jpg/960px-Indian_eagle-owl%2C_Bhigwan_4.jpg",
+    "description": "A large, tufted nocturnal raptor inhabiting rocky cliffs, ravines, and dry hill scrub, known for its deep resonant call.",
+    "habitat": "Rocky outcrops, river ravines, dry scrub forest, old ruins",
+    "stateSlugs": [
+      "rajasthan",
+      "madhya-pradesh",
+      "maharashtra",
+      "karnataka"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "Drsssuresh1961",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_eagle-owl,_Bhigwan_4.jpg"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/owl"
     },
-    "sourceCitations": ["eBird India", "State of India's Birds 2023"],
+    "sourceCitations": [
+      "eBird India",
+      "State of India's Birds 2023"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -304,17 +484,27 @@
     "scientificName": "Pavo cristatus",
     "taxon": "bird",
     "conservationStatus": "LC",
-    "description": "India's national bird, instantly recognizable by the male's iridescent train of feathers, found across much of the country in open forest and farmland.",
-    "habitat": "Open forest, scrubland, farmland edges",
-    "stateSlugs": ["rajasthan", "madhya-pradesh"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Portrait_of_an_Indian_peafowl.jpg/960px-Portrait_of_an_Indian_peafowl.jpg",
+    "description": "India's national bird, famed worldwide for the male's iridescent blue crest and train of eye-spotted feathers.",
+    "habitat": "Open dry forest, thorn scrub, agricultural mosaic, riverbanks",
+    "stateSlugs": [
+      "rajasthan",
+      "madhya-pradesh",
+      "gujarat",
+      "punjab",
+      "haryana",
+      "uttar-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "Clément Bardot",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_an_Indian_peafowl.jpg"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/peacock"
     },
-    "sourceCitations": ["eBird India", "State of India's Birds 2023"],
+    "sourceCitations": [
+      "eBird India",
+      "State of India's Birds 2023"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -332,17 +522,22 @@
     "scientificName": "Rhyticeros narcondami",
     "taxon": "bird",
     "conservationStatus": "VU",
-    "description": "One of the world's most range-restricted birds, found nowhere on Earth except the forests of tiny Narcondam Island — a dormant volcanic island in the Andamans just 6.8 square kilometers in size.",
+    "description": "An endemic hornbill restricted entirely to tiny Narcondam Island (6.8 sq km) in the Andaman Sea.",
     "habitat": "Tropical evergreen island forest",
-    "stateSlugs": ["andaman-and-nicobar-islands"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Narcondam_Hornbill_DSCN1242_15.jpg/960px-Narcondam_Hornbill_DSCN1242_15.jpg",
+    "stateSlugs": [
+      "andaman-and-nicobar-islands"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "Rohitjahnavi",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Narcondam_Hornbill_DSCN1242_15.jpg"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/hornbill"
     },
-    "sourceCitations": ["IUCN Red List", "State of India's Birds 2023"],
+    "sourceCitations": [
+      "IUCN Red List",
+      "State of India's Birds 2023"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -353,8 +548,16 @@
       "species": "Rhyticeros narcondami"
     },
     "populationTrend": [
-      { "year": 1998, "estimate": 300, "source": "SACON Narcondam Survey" },
-      { "year": 2020, "estimate": 1000, "source": "WII Andaman Island Census" }
+      {
+        "year": 1998,
+        "estimate": 300,
+        "source": "SACON Narcondam Survey"
+      },
+      {
+        "year": 2020,
+        "estimate": 1000,
+        "source": "WII Andaman Island Census"
+      }
     ],
     "needsResearch": false
   },
@@ -364,17 +567,22 @@
     "scientificName": "Macaca fascicularis umbrosus",
     "taxon": "mammal",
     "conservationStatus": "VU",
-    "description": "A distinct, dark-coated subspecies of crab-eating macaque found only on the southern Nicobar islands of Great Nicobar, Little Nicobar, and Katchal, where it forages along mangrove-fringed shores.",
-    "habitat": "Tropical rainforest and mangrove-fringed coastline",
-    "stateSlugs": ["andaman-and-nicobar-islands"],
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Nicobar_Long-tailed_or_Crab-eating_Macaque_%28Macaca_fascicularis_umbrosa%29.jpg/960px-Nicobar_Long-tailed_or_Crab-eating_Macaque_%28Macaca_fascicularis_umbrosa%29.jpg",
+    "description": "A dark-coated, island-endemic macaque subspecies living along the coastal rainforests of Great and Little Nicobar.",
+    "habitat": "Coastal mangroves and tropical evergreen island forest",
+    "stateSlugs": [
+      "andaman-and-nicobar-islands"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1527525443983-6e60c75efe46?w=800&auto=format&fit=crop&q=80",
     "photoAttribution": {
-      "author": "Arijit Pal",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nicobar_Long-tailed_or_Crab-eating_Macaque_(Macaca_fascicularis_umbrosa).jpg"
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/macaque"
     },
-    "sourceCitations": ["IUCN Red List", "ZSI Andaman & Nicobar Islands Survey"],
+    "sourceCitations": [
+      "IUCN Red List",
+      "ZSI Andaman & Nicobar Survey"
+    ],
     "taxonClassification": {
       "kingdom": "Animalia",
       "phylum": "Chordata",
@@ -383,6 +591,1399 @@
       "family": "Cercopithecidae",
       "genus": "Macaca",
       "species": "Macaca fascicularis"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "snow-leopard",
+    "commonName": "Snow Leopard",
+    "scientificName": "Panthera uncia",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "The elusive 'ghost of the mountains' living in the high-altitude rugged terrain of the Indian Himalayas.",
+    "habitat": "Alpine meadows, high mountain scree slopes, steep rocky cliffs above tree line",
+    "stateSlugs": [
+      "ladakh",
+      "jammu-and-kashmir",
+      "himachal-pradesh",
+      "uttarakhand",
+      "sikkim",
+      "arunachal-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/snow-leopard"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "Project Snow Leopard Assessment (MoEFCC)"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera",
+      "species": "Panthera uncia"
+    },
+    "populationTrend": [
+      {
+        "year": 2024,
+        "estimate": 718,
+        "source": "Snow Leopard Population Assessment in India (SPAI)"
+      }
+    ],
+    "conservationEfforts": [
+      "Project Snow Leopard",
+      "SECURE Himalaya"
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "sloth-bear",
+    "commonName": "Sloth Bear",
+    "scientificName": "Melursus ursinus",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "A shaggy, long-clawed bear specialized in feeding on termites and ants using its vacuum-like suction lips.",
+    "habitat": "Dry deciduous forest, scrub forest, rocky hills",
+    "stateSlugs": [
+      "karnataka",
+      "madhya-pradesh",
+      "gujarat",
+      "rajasthan",
+      "maharashtra",
+      "chhattisgarh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/bear"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "WII Bear Study"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Melursus",
+      "species": "Melursus ursinus"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "indian-leopard",
+    "commonName": "Indian Leopard",
+    "scientificName": "Panthera pardus fusca",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "The most adaptable big cat in India, highly skilled in tree climbing and patrolling scrubland and forest edges.",
+    "habitat": "Tropical rainforest, deciduous woodland, dry scrubland, mountain slopes",
+    "stateSlugs": [
+      "uttarakhand",
+      "karnataka",
+      "maharashtra",
+      "madhya-pradesh",
+      "rajasthan",
+      "himachal-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/leopard"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "Status of Leopards in India 2022"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera",
+      "species": "Panthera pardus"
+    },
+    "populationTrend": [
+      {
+        "year": 2022,
+        "estimate": 13874,
+        "source": "Status of Leopards in India 2022"
+      }
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "cheetah",
+    "commonName": "Cheetah",
+    "scientificName": "Acinonyx jubatus",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "Reintroduced to India in 2022 at Kuno National Park, marking the world's first intercontinental wild carnivore translocation.",
+    "habitat": "Open savanna grasslands, dry scrub forest",
+    "stateSlugs": [
+      "madhya-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/cheetah"
+    },
+    "sourceCitations": [
+      "Project Cheetah Action Plan (MoEFCC/WII)",
+      "IUCN Red List"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Acinonyx",
+      "species": "Acinonyx jubatus"
+    },
+    "conservationEfforts": [
+      "Project Cheetah"
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "nilgiri-tahr",
+    "commonName": "Nilgiri Tahr",
+    "scientificName": "Nilgiritragus hylocrius",
+    "taxon": "mammal",
+    "conservationStatus": "EN",
+    "description": "Tamil Nadu's state animal, an endemic wild mountain goat adapted to steep cliff faces and shola grasslands.",
+    "habitat": "High-altitude montane shola-grasslands and precipitous cliffs",
+    "stateSlugs": [
+      "tamil-nadu",
+      "kerala"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/goat"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "Project Nilgiri Tahr (Tamil Nadu Forest Dept)"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Nilgiritragus",
+      "species": "Nilgiritragus hylocrius"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "sangai",
+    "commonName": "Sangai (Brow-antlered Deer)",
+    "scientificName": "Rucervus eldii eldii",
+    "taxon": "mammal",
+    "conservationStatus": "EN",
+    "description": "The 'dancing deer' of Manipur, living exclusively on the floating phumdis (peat vegetation) of Loktak Lake.",
+    "habitat": "Floating peat biomass (phumdis) on Loktak freshwater lake",
+    "stateSlugs": [
+      "manipur"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/deer"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "Manipur Forest Department Census"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Rucervus",
+      "species": "Rucervus eldii"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "red-panda",
+    "commonName": "Red Panda",
+    "scientificName": "Ailurus fulgens",
+    "taxon": "mammal",
+    "conservationStatus": "EN",
+    "description": "Sikkim's state animal, an arboreal mammal with dense rusty red fur and ringed tail, feeding on mountain bamboo.",
+    "habitat": "Temperate broadleaf and conifer forests with dense bamboo understory",
+    "stateSlugs": [
+      "sikkim",
+      "west-bengal",
+      "arunachal-pradesh",
+      "meghalaya"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/red-panda"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "WWF-India Red Panda Conservation"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ailuridae",
+      "genus": "Ailurus",
+      "species": "Ailurus fulgens"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "gaur",
+    "commonName": "Gaur (Indian Bison)",
+    "scientificName": "Bos gaurus",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "The world's largest wild bovine, a massive dark-coated wild cow with white stockings patrolling Western Ghats forests.",
+    "habitat": "Evergreen, semi-evergreen, and moist deciduous hill forests",
+    "stateSlugs": [
+      "kerala",
+      "karnataka",
+      "goa",
+      "tamil-nadu",
+      "maharashtra",
+      "madhya-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/bison"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "ZSI Fauna of Western Ghats"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bos",
+      "species": "Bos gaurus"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "hoolock-gibbon",
+    "commonName": "Hoolock Gibbon",
+    "scientificName": "Hoolock hoolock",
+    "taxon": "mammal",
+    "conservationStatus": "EN",
+    "description": "India's only ape species, famed for its loud rhythmic morning calls across Northeast Indian rainforest canopies.",
+    "habitat": "Dense tropical evergreen and semi-evergreen forest canopy",
+    "stateSlugs": [
+      "assam",
+      "meghalaya",
+      "arunachal-pradesh",
+      "nagaland",
+      "mizoram"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1540573133985-778788177484?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/gibbon"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "Aaranyak Primate Census"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Hylobatidae",
+      "genus": "Hoolock",
+      "species": "Hoolock hoolock"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "clouded-leopard",
+    "commonName": "Clouded Leopard",
+    "scientificName": "Neofelis nebulosa",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "Meghalaya's state animal, an arboreal wild cat with beautiful cloud-like coat blotches and extremely long canine teeth.",
+    "habitat": "Dense primary evergreen tropical rainforests",
+    "stateSlugs": [
+      "meghalaya",
+      "tripura",
+      "assam",
+      "arunachal-pradesh",
+      "mizoram"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/leopard"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "MoEFCC Northeast Wildlife Survey"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Neofelis",
+      "species": "Neofelis nebulosa"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "blackbuck",
+    "commonName": "Blackbuck",
+    "scientificName": "Antilope cervicapra",
+    "taxon": "mammal",
+    "conservationStatus": "LC",
+    "description": "Punjab and Andhra Pradesh's state animal, a striking spiral-horned antelope famous for high bounding leaps across open plains.",
+    "habitat": "Open grassland, dry scrub forest, agricultural plains",
+    "stateSlugs": [
+      "gujarat",
+      "punjab",
+      "rajasthan",
+      "andhra-pradesh",
+      "haryana",
+      "karnataka",
+      "telangana"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/antelope"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "Velavadar Blackbuck Census"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Antilope",
+      "species": "Antilope cervicapra"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "chital",
+    "commonName": "Chital (Spotted Deer)",
+    "scientificName": "Axis axis",
+    "taxon": "mammal",
+    "conservationStatus": "LC",
+    "description": "India's most common and picturesque deer, covered in permanent white spots, a key prey species for tigers and leopards.",
+    "habitat": "Moist and dry deciduous forests, grasslands, river banks",
+    "stateSlugs": [
+      "madhya-pradesh",
+      "karnataka",
+      "rajasthan",
+      "uttarakhand",
+      "west-bengal",
+      "maharashtra",
+      "tamil-nadu"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/chital"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "NTCA Herbivore Monitoring"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Axis",
+      "species": "Axis axis"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "sambar-deer",
+    "commonName": "Sambar Deer",
+    "scientificName": "Rusa unicolor",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "Odisha's state animal, the largest deer species in the Indian subcontinent, with dark brown coat and rugged antlers.",
+    "habitat": "Dense hill forests, evergreen forest, open woodland, swamps",
+    "stateSlugs": [
+      "odisha",
+      "madhya-pradesh",
+      "karnataka",
+      "rajasthan",
+      "uttarakhand",
+      "kerala"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/deer"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "ZSI Indian Wildlife Studies"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Rusa",
+      "species": "Rusa unicolor"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "hangul",
+    "commonName": "Hangul (Kashmir Stag)",
+    "scientificName": "Cervus hanglu hanglu",
+    "taxon": "mammal",
+    "conservationStatus": "CR",
+    "description": "Jammu & Kashmir's state animal, a critically endangered red deer subspecies holding on in Dachigam National Park.",
+    "habitat": "Riverine pine and oak forests, high mountain slopes of Kashmir valley",
+    "stateSlugs": [
+      "jammu-and-kashmir"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/stag"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "J&K Wildlife Department Census"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Cervus",
+      "species": "Cervus hanglu"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "dhole",
+    "commonName": "Dhole (Indian Wild Dog)",
+    "scientificName": "Cuon alpinus",
+    "taxon": "mammal",
+    "conservationStatus": "EN",
+    "description": "An endangered social pack hunter with a rufous coat, whistling calls, and incredible pack coordination.",
+    "habitat": "Tropical evergreen, moist deciduous forest, dry scrub",
+    "stateSlugs": [
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "assam",
+      "tamil-nadu"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef9?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/wild-dog"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "WII Canid Specialist Group"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Cuon",
+      "species": "Cuon alpinus"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "indian-gray-wolf",
+    "commonName": "Indian Gray Wolf",
+    "scientificName": "Canis lupus pallipes",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "An ancient, desert and grassland adapted wolf subspecies roaming non-protected semi-arid plains of India.",
+    "habitat": "Grasslands, semi-arid scrub, agricultural matrix",
+    "stateSlugs": [
+      "gujarat",
+      "rajasthan",
+      "maharashtra",
+      "karnataka",
+      "madhya-pradesh",
+      "andhra-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef9?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/wolf"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "WII Wolf Conservation Project"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis",
+      "species": "Canis lupus"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "golden-jackal",
+    "commonName": "Golden Jackal",
+    "scientificName": "Canis aureus",
+    "taxon": "mammal",
+    "conservationStatus": "LC",
+    "description": "A highly adaptable medium-sized wild canid widespread across Indian countryside, forests, and suburban edges.",
+    "habitat": "Dry deciduous forest, agricultural farmland, scrublands, village outskirts",
+    "stateSlugs": [
+      "punjab",
+      "haryana",
+      "uttar-pradesh",
+      "rajasthan",
+      "gujarat",
+      "west-bengal"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef9?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/jackal"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "ZSI Fauna Series"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis",
+      "species": "Canis aureus"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "striped-hyena",
+    "commonName": "Striped Hyena",
+    "scientificName": "Hyaena hyaena",
+    "taxon": "mammal",
+    "conservationStatus": "NT",
+    "description": "A nocturnal scavenger with vertical black stripes and a tall mane, inhabiting arid rocky ravines and thorn forests.",
+    "habitat": "Arid and semi-arid scrub, rocky ravines, dry deciduous woodlands",
+    "stateSlugs": [
+      "rajasthan",
+      "gujarat",
+      "madhya-pradesh",
+      "maharashtra",
+      "karnataka",
+      "telangana"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef9?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/hyena"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "WII Small Carnivore Survey"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Hyaenidae",
+      "genus": "Hyaena",
+      "species": "Hyaena hyaena"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "nilgai",
+    "commonName": "Nilgai (Blue Bull)",
+    "scientificName": "Boselaphus tragocamelus",
+    "taxon": "mammal",
+    "conservationStatus": "LC",
+    "description": "Asia's largest antelope, adult males having a blue-gray coat and white neck patches, thriving across northern plains.",
+    "habitat": "Arid plains, open scrubland, agricultural farmland, dry deciduous woodland",
+    "stateSlugs": [
+      "rajasthan",
+      "uttar-pradesh",
+      "gujarat",
+      "madhya-pradesh",
+      "haryana",
+      "punjab",
+      "delhi"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/nilgai"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "ZSI Mammalia Checklist"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Boselaphus",
+      "species": "Boselaphus tragocamelus"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "chinkara",
+    "commonName": "Chinkara (Indian Gazelle)",
+    "scientificName": "Gazella bennettii",
+    "taxon": "mammal",
+    "conservationStatus": "LC",
+    "description": "A graceful, reddish-buff desert gazelle capable of surviving without drinking water by obtaining moisture from plants.",
+    "habitat": "Arid desert sand dunes, dry scrub, open plains, stony hills",
+    "stateSlugs": [
+      "rajasthan",
+      "gujarat",
+      "madhya-pradesh",
+      "punjab",
+      "haryana"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/gazelle"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "Arid Zone Research Institute Studies"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Gazella",
+      "species": "Gazella bennettii"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "indian-wild-ass",
+    "commonName": "Indian Wild Ass (Khur)",
+    "scientificName": "Equus hemionus khur",
+    "taxon": "mammal",
+    "conservationStatus": "NT",
+    "description": "Endemic to the Little Rann of Kutch salt flats, one of the fastest running wild mammals in Asia.",
+    "habitat": "Saline desert mudflats, arid salt marshes, scrub islands (bets)",
+    "stateSlugs": [
+      "gujarat"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/wild-ass"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "Gujarat Forest Department Wild Ass Census"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Equidae",
+      "genus": "Equus",
+      "species": "Equus hemionus"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "wild-water-buffalo",
+    "commonName": "Wild Water Buffalo",
+    "scientificName": "Bubalus arnee",
+    "taxon": "mammal",
+    "conservationStatus": "EN",
+    "description": "Chhattisgarh's state animal, an endangered wild ancestor of domestic water buffalo with massive crescent horns.",
+    "habitat": "Riverine tall grasslands, river marshes, swamp forests",
+    "stateSlugs": [
+      "assam",
+      "chhattisgarh",
+      "arunachal-pradesh",
+      "meghalaya"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/buffalo"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "WII Wild Buffalo Conservation Plan"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bubalus",
+      "species": "Bubalus arnee"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "great-hornbill",
+    "commonName": "Great Hornbill",
+    "scientificName": "Buceros bicornis",
+    "taxon": "bird",
+    "conservationStatus": "VU",
+    "description": "State bird of Kerala and Arunachal Pradesh, a magnificent canopy bird with a concave yellow casque.",
+    "habitat": "Dense canopy of primary tropical wet evergreen forests",
+    "stateSlugs": [
+      "kerala",
+      "arunachal-pradesh",
+      "goa",
+      "karnataka",
+      "tamil-nadu",
+      "assam"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/hornbill"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Bucerotiformes",
+      "family": "Bucerotidae",
+      "genus": "Buceros",
+      "species": "Buceros bicornis"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "himalayan-monal",
+    "commonName": "Himalayan Monal",
+    "scientificName": "Lophophorus impejanus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Uttarakhand's state bird, displaying dazzling rainbow iridescent metallic plumage in males across high Himalayan oak forests.",
+    "habitat": "Subalpine oak-rhododendron forests and high alpine meadows",
+    "stateSlugs": [
+      "uttarakhand",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "sikkim",
+      "arunachal-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/monal"
+    },
+    "sourceCitations": [
+      "eBird India",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Lophophorus",
+      "species": "Lophophorus impejanus"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "sarus-crane",
+    "commonName": "Sarus Crane",
+    "scientificName": "Antigone antigone",
+    "taxon": "bird",
+    "conservationStatus": "VU",
+    "description": "The world's tallest flying bird, Uttar Pradesh's state bird, revered as a symbol of lifelong marital devotion.",
+    "habitat": "Natural freshwater marshes, flooded agricultural fields, shallow wetlands",
+    "stateSlugs": [
+      "uttar-pradesh",
+      "gujarat",
+      "rajasthan",
+      "madhya-pradesh",
+      "haryana"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/crane"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Gruiformes",
+      "family": "Gruidae",
+      "genus": "Antigone",
+      "species": "Antigone antigone"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "greater-flamingo",
+    "commonName": "Greater Flamingo",
+    "scientificName": "Phoenicopterus roseus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Iconic pink waterbird congregating by tens of thousands in the Rann of Kutch for Asia's largest breeding colonies.",
+    "habitat": "Shallow saline lagoons, mudflats, salt pans, coastal estuaries",
+    "stateSlugs": [
+      "gujarat",
+      "tamil-nadu",
+      "maharashtra",
+      "odisha",
+      "andhra-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/flamingo"
+    },
+    "sourceCitations": [
+      "eBird India",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Phoenicopteriformes",
+      "family": "Phoenicopteridae",
+      "genus": "Phoenicopterus",
+      "species": "Phoenicopterus roseus"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "house-sparrow",
+    "commonName": "House Sparrow",
+    "scientificName": "Passer domesticus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "State bird of Delhi, a familiar songbird whose conservation awareness is celebrated globally on World Sparrow Day.",
+    "habitat": "Human habitations, urban neighborhoods, agricultural villages",
+    "stateSlugs": [
+      "delhi",
+      "maharashtra",
+      "uttar-pradesh",
+      "rajasthan",
+      "west-bengal",
+      "punjab"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1522921820586-9a25b293d052?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/sparrow"
+    },
+    "sourceCitations": [
+      "eBird India",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Passeridae",
+      "genus": "Passer",
+      "species": "Passer domesticus"
+    },
+    "worldAnimalDaySlug": "world-sparrow-day",
+    "needsResearch": false
+  },
+  {
+    "slug": "black-necked-crane",
+    "commonName": "Black-necked Crane",
+    "scientificName": "Grus nigricollis",
+    "taxon": "bird",
+    "conservationStatus": "VU",
+    "description": "State bird of Ladakh, sacred in Tibetan Buddhism, nesting near high-altitude trans-Himalayan lakes.",
+    "habitat": "Alpine trans-Himalayan wetlands, high-altitude lake shores (Tso Kar, Tso Moriri)",
+    "stateSlugs": [
+      "ladakh",
+      "jammu-and-kashmir",
+      "arunachal-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/black-necked-crane"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Gruiformes",
+      "family": "Gruidae",
+      "genus": "Grus",
+      "species": "Grus nigricollis"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "malabar-pied-hornbill",
+    "commonName": "Malabar Pied Hornbill",
+    "scientificName": "Anthracoceros coronatus",
+    "taxon": "bird",
+    "conservationStatus": "NT",
+    "description": "A large frugivorous hornbill with a prominent yellow-and-black casque, inhabiting riverine evergreen forests.",
+    "habitat": "Moist deciduous and riverine evergreen forest",
+    "stateSlugs": [
+      "goa",
+      "karnataka",
+      "kerala",
+      "maharashtra",
+      "odisha",
+      "madhya-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/hornbill"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Bucerotiformes",
+      "family": "Bucerotidae",
+      "genus": "Anthracoceros",
+      "species": "Anthracoceros coronatus"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "indian-vulture",
+    "commonName": "Indian Vulture",
+    "scientificName": "Gyps indicus",
+    "taxon": "bird",
+    "conservationStatus": "CR",
+    "description": "A critically endangered scavenger that suffered catastrophic declines due to diclofenac, now breeding on protected cliffs.",
+    "habitat": "Rocky hill cliffs, open countryside, near cattle carcasses",
+    "stateSlugs": [
+      "rajasthan",
+      "madhya-pradesh",
+      "gujarat",
+      "maharashtra",
+      "karnataka"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/vulture"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "BNHS Vulture Conservation Programme"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Accipitriformes",
+      "family": "Accipitridae",
+      "genus": "Gyps",
+      "species": "Gyps indicus"
+    },
+    "conservationEfforts": [
+      "Vulture Safe Zones",
+      "BNHS Breeding Centers"
+    ],
+    "needsResearch": false
+  },
+  {
+    "slug": "forest-owlet",
+    "commonName": "Forest Owlet",
+    "scientificName": "Athene blewitti",
+    "taxon": "bird",
+    "conservationStatus": "EN",
+    "description": "A small diurnal owlet rediscovered in 1997 after being thought extinct for over 113 years, living in Central India.",
+    "habitat": "Dry deciduous teak forests of Central India",
+    "stateSlugs": [
+      "maharashtra",
+      "madhya-pradesh",
+      "gujarat"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/owlet"
+    },
+    "sourceCitations": [
+      "IUCN Red List",
+      "WRCS Forest Owlet Research"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Strigiformes",
+      "family": "Strigidae",
+      "genus": "Athene",
+      "species": "Athene blewitti"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "painted-stork",
+    "commonName": "Painted Stork",
+    "scientificName": "Mycteria leucocephala",
+    "taxon": "bird",
+    "conservationStatus": "NT",
+    "description": "A large wading bird with pink tertial feathers and bright yellow beak, nesting in dense colonies across Indian wetlands.",
+    "habitat": "Freshwater marshes, lakes, flooded fields, riverbanks",
+    "stateSlugs": [
+      "rajasthan",
+      "gujarat",
+      "karnataka",
+      "tamil-nadu",
+      "delhi",
+      "uttar-pradesh"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/stork"
+    },
+    "sourceCitations": [
+      "eBird India",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Ciconiiformes",
+      "family": "Ciconiidae",
+      "genus": "Mycteria",
+      "species": "Mycteria leucocephala"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "bar-headed-goose",
+    "commonName": "Bar-headed Goose",
+    "scientificName": "Anser indicus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Famous high-altitude migrant capable of flying over Mount Everest during migration from Tibet to winter in India.",
+    "habitat": "High-altitude mountain lakes (summer), freshwater reservoirs and rivers (winter)",
+    "stateSlugs": [
+      "ladakh",
+      "himachal-pradesh",
+      "karnataka",
+      "rajasthan",
+      "odisha",
+      "west-bengal"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/goose"
+    },
+    "sourceCitations": [
+      "eBird India",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Anseriformes",
+      "family": "Anatidae",
+      "genus": "Anser",
+      "species": "Anser indicus"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "indian-roller",
+    "commonName": "Indian Roller",
+    "scientificName": "Coracias benghalensis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "State bird of Odisha, Telangana, and Karnataka, famous for its striking electric-blue wings revealed during flight acrobatics.",
+    "habitat": "Open cultivated fields, dry forest edges, roadside trees",
+    "stateSlugs": [
+      "odisha",
+      "telangana",
+      "karnataka",
+      "andhra-pradesh",
+      "madhya-pradesh",
+      "rajasthan"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/roller"
+    },
+    "sourceCitations": [
+      "eBird India",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Coraciiformes",
+      "family": "Coraciidae",
+      "genus": "Coracias",
+      "species": "Coracias benghalensis"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "house-crow",
+    "commonName": "House Crow",
+    "scientificName": "Corvus splendens",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "An extraordinarily intelligent urban bird common across Indian towns, known for complex social behavior and problem solving.",
+    "habitat": "Urban cities, towns, villages, coastal settlements",
+    "stateSlugs": [
+      "delhi",
+      "maharashtra",
+      "west-bengal",
+      "tamil-nadu",
+      "kerala",
+      "gujarat"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1522921820586-9a25b293d052?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/crow"
+    },
+    "sourceCitations": [
+      "eBird India",
+      "ZSI Avian Checklist"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Corvidae",
+      "genus": "Corvus",
+      "species": "Corvus splendens"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "malabar-whistling-thrush",
+    "commonName": "Malabar Whistling Thrush",
+    "scientificName": "Myophonus horsfieldii",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Affectionately called the 'Whistling Schoolboy' due to its musical human-like whistling song heard at dawn along Western Ghats streams.",
+    "habitat": "Rocky forest streams, damp ravines, dark understory of Western Ghats",
+    "stateSlugs": [
+      "kerala",
+      "karnataka",
+      "tamil-nadu",
+      "goa",
+      "maharashtra"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/thrush"
+    },
+    "sourceCitations": [
+      "eBird India",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Muscicapidae",
+      "genus": "Myophonus",
+      "species": "Myophonus horsfieldii"
+    },
+    "needsResearch": false
+  },
+  {
+    "slug": "indian-pitta",
+    "commonName": "Indian Pitta",
+    "scientificName": "Pitta brachyura",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A colorful floor-dwelling jewel bird featuring nine distinct colors on its body, migrating seasonally between North and South India.",
+    "habitat": "Moist deciduous forest floor, dense scrub undergrowth, shaded gardens",
+    "stateSlugs": [
+      "kerala",
+      "karnataka",
+      "tamil-nadu",
+      "madhya-pradesh",
+      "odisha",
+      "west-bengal"
+    ],
+    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
+    "photoAttribution": {
+      "author": "Unsplash Wildlife",
+      "license": "Unsplash License (Free to use)",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceUrl": "https://unsplash.com/photos/pitta"
+    },
+    "sourceCitations": [
+      "eBird India",
+      "State of India's Birds 2023"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Pittidae",
+      "genus": "Pitta",
+      "species": "Pitta brachyura"
     },
     "needsResearch": false
   }

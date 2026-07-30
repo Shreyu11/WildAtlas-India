@@ -1,12 +1,32 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { X } from "lucide-react";
 import { useMapSettings, type MapSettings } from "@/components/MapSettingsProvider/MapSettingsProvider";
 
 export default function MapViewSettings() {
   const [isOpen, setIsOpen] = useState(false);
   const { settings, toggleSetting } = useMapSettings();
   const panelRef = useRef<HTMLDivElement>(null);
+
+  // Global Shift+V keyboard shortcut to toggle settings panel open/close
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement ||
+        (e.target instanceof HTMLElement && e.target.isContentEditable)
+      ) {
+        return;
+      }
+      if (e.shiftKey && e.key.toLowerCase() === "v") {
+        e.preventDefault();
+        setIsOpen((prev) => !prev);
+      }
+    }
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
 
   // Close panel on outside click or Escape key
   useEffect(() => {
@@ -63,6 +83,12 @@ export default function MapViewSettings() {
       icon: "🏞️",
     },
     {
+      key: "wildlifeSanctuaries",
+      label: "Wildlife Sanctuaries",
+      description: "Protected wildlife habitats & reserves",
+      icon: "🏕️",
+    },
+    {
       key: "birdSanctuaries",
       label: "Bird Sanctuaries",
       description: "Avian sanctuaries & wetlands",
@@ -77,43 +103,22 @@ export default function MapViewSettings() {
         <div className="mb-3 w-80 rounded-2xl border border-zinc-200 bg-white/95 p-4 shadow-xl backdrop-blur-md transition-all duration-200 ease-out animate-in fade-in slide-in-from-bottom-2">
           {/* Header */}
           <div className="flex items-center justify-between pb-3 border-b border-zinc-100">
-            <div className="flex items-center gap-2">
-              <span className="font-semibold text-sm text-zinc-900 tracking-tight">
-                Map view settings
-              </span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <button
-                type="button"
-                onClick={() => setIsOpen(false)}
-                className="flex h-6 w-6 items-center justify-center rounded-full text-zinc-400 hover:bg-zinc-100 hover:text-zinc-700 transition"
-                title="Close settings"
-                aria-label="Close settings"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="14"
-                  height="14"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M18 6 6 18" />
-                  <path d="m6 6 12 12" />
-                </svg>
-              </button>
-            </div>
+            <h2 className="font-mono text-xs font-semibold uppercase tracking-wider text-zinc-700">
+              Map View Settings
+            </h2>
+            <button
+              type="button"
+              onClick={() => setIsOpen(false)}
+              className="inline-flex h-7 w-7 items-center justify-center rounded-lg text-zinc-400 hover:bg-zinc-100 hover:text-zinc-700 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-zinc-400"
+              title="Close settings"
+              aria-label="Close settings"
+            >
+              <X className="h-4 w-4" />
+            </button>
           </div>
 
           {/* Details Section */}
           <div className="mt-3">
-            <span className="block font-mono text-[11px] font-semibold text-zinc-400 uppercase tracking-wider mb-2">
-              Details
-            </span>
-
             <div className="space-y-2.5">
               {toggleItems.map((item) => {
                 const isActive = settings[item.key];
@@ -167,7 +172,7 @@ export default function MapViewSettings() {
         type="button"
         onClick={() => setIsOpen((prev) => !prev)}
         className="group flex items-center gap-2.5 rounded-2xl border border-zinc-300 bg-white/95 p-1.5 pr-3.5 shadow-lg backdrop-blur-md transition hover:border-zinc-400 hover:shadow-xl focus:outline-none"
-        title="Map view settings"
+        title="Map view settings (Shift+V)"
       >
         {/* Layer preview thumbnail */}
         <div className="relative flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-zinc-200 bg-zinc-100 shadow-inner group-hover:scale-105 transition">
