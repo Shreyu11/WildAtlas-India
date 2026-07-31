@@ -4,6 +4,7 @@ import { getSpecies, getStates } from "@/lib/data";
 import { CONSERVATION_LABEL, CONSERVATION_TONE } from "@/lib/conservation";
 import { SPECIES_ICON, DEFAULT_SPECIES_ICON } from "@/lib/mockIcons";
 import DataAttributionFooter from "@/components/DataAttributionFooter";
+import SpeciesAudioPlayer from "@/components/audio/SpeciesAudioPlayer";
 
 export default async function SpeciesDetail({ slug }: { slug: string }) {
   const [species, states] = await Promise.all([getSpecies(), getStates()]);
@@ -26,6 +27,13 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
         <h1 className="text-2xl font-semibold text-zinc-900">{item.commonName}</h1>
         <p className="text-sm italic text-zinc-500">{item.scientificName}</p>
       </div>
+
+      {/* iOS Glassmorphic Species Audio Player */}
+      <SpeciesAudioPlayer
+        audioUrl={item.audioUrl}
+        audioAttribution={item.audioAttribution}
+        speciesName={item.commonName}
+      />
 
       {item.photoAttribution && (
         <p className="mt-1.5 text-[11px] text-zinc-400">

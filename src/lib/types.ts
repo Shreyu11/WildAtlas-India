@@ -51,6 +51,12 @@ export interface VisitingHours {
   openMonths?: string;
   timings?: string;
   closedSeason?: string;
+  // Whether the site is open to the general public: "open" (standard entry/
+  // safari permit only), "permit-required" (a specific access permit beyond
+  // standard entry, e.g. Inner Line Permit, seasonal wildlife permit), or
+  // "restricted" (not routinely open to the general public even with effort).
+  publicAccess?: "open" | "permit-required" | "restricted" | null;
+  accessNotes?: string | null;
 }
 
 export interface Species {
@@ -64,6 +70,8 @@ export interface Species {
   stateSlugs: string[];
   photoUrl: string | null; // null falls back to an illustrated icon (PRD 4.4)
   photoAttribution: PhotoAttribution | null; // required whenever photoUrl is set
+  audioUrl?: string | null;
+  audioAttribution?: PhotoAttribution | null;
   sourceCitations: string[];
   // Additive fields per DATASET_PLAN.md §2.1
   taxonClassification?: TaxonClassification | null;
