@@ -246,27 +246,27 @@ export default function SearchBar() {
                         onMouseEnter={() => setSelectedIndex(item.globalIndex)}
                         className={`group flex items-center justify-between p-2 rounded-xl cursor-pointer transition-all duration-150 ease-ios ${
                           isSelected
-                            ? "bg-zinc-900 text-white shadow-sm"
-                            : "hover:bg-zinc-100/80 text-zinc-900"
+                            ? "bg-zinc-200/80 text-zinc-900 shadow-2xs"
+                            : "hover:bg-zinc-100 text-zinc-900"
                         }`}
                       >
                         <div className="flex items-center gap-3 min-w-0 pr-2">
                           {item.photoUrl ? (
-                            <span className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full border border-white/60 bg-zinc-100 shadow-2xs">
+                            <span className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full border border-white/80 bg-zinc-100 shadow-2xs">
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <img src={item.photoUrl} alt={item.title} className="h-full w-full object-cover" />
                             </span>
                           ) : (
-                            <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-base border select-none ${isSelected ? "border-zinc-700 bg-zinc-800" : "border-zinc-200 bg-zinc-100"}`}>
+                            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-base border border-zinc-200 bg-zinc-100 select-none">
                               {item.icon || "🐾"}
                             </span>
                           )}
                           <div className="flex flex-col min-w-0">
-                            <span className="text-xs font-semibold leading-tight truncate">
+                            <span className="text-xs font-semibold text-zinc-900 leading-tight truncate">
                               {item.title}
                             </span>
                             {item.subtitle && (
-                              <span className={`text-[11px] leading-tight truncate mt-0.5 ${isSelected ? "text-zinc-300" : "text-zinc-500"}`}>
+                              <span className="text-[11px] text-zinc-500 leading-tight truncate mt-0.5">
                                 {item.subtitle}
                               </span>
                             )}
@@ -274,11 +274,7 @@ export default function SearchBar() {
                         </div>
 
                         {item.badge && (
-                          <span className={`shrink-0 rounded-full px-2 py-0.5 text-[10px] font-medium tracking-wide ${
-                            isSelected
-                              ? "bg-zinc-800 text-zinc-200"
-                              : "bg-zinc-100 text-zinc-600 border border-zinc-200/80"
-                          }`}>
+                          <span className="shrink-0 rounded-full px-2 py-0.5 text-[10px] font-medium tracking-wide bg-zinc-100 text-zinc-600 border border-zinc-200/80">
                             {item.badge}
                           </span>
                         )}

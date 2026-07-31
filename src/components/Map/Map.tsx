@@ -314,7 +314,7 @@ function buildMarkerCard(opts: {
   tooltip.appendChild(card);
 
   const photo = document.createElement("div");
-  photo.className = "aspect-square w-full shrink-0 overflow-hidden rounded-xl bg-zinc-200";
+  photo.className = "aspect-[4/3] w-full shrink-0 overflow-hidden rounded-xl bg-zinc-200";
   if (opts.photoUrl) {
     const img = document.createElement("img");
     img.src = opts.photoUrl;
@@ -322,7 +322,7 @@ function buildMarkerCard(opts: {
     img.className = "h-full w-full object-cover";
     img.onerror = () => {
       photo.className =
-        "aspect-square w-full shrink-0 overflow-hidden rounded-xl bg-zinc-200 flex items-center justify-center text-2xl";
+        "aspect-[4/3] w-full shrink-0 overflow-hidden rounded-xl bg-zinc-200 flex items-center justify-center text-2xl";
       photo.replaceChildren();
       photo.textContent = opts.fallbackIcon;
     };
