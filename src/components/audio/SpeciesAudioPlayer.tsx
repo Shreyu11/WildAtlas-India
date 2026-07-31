@@ -23,6 +23,7 @@ export default function SpeciesAudioPlayer({
   speciesName,
 }: SpeciesAudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const synthRef = useRef<{ stop: () => void } | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -32,39 +33,166 @@ export default function SpeciesAudioPlayer({
     setIsPlaying(false);
     setCurrentTime(0);
     setDuration(0);
-  }, [audioUrl]);
+    if (synthRef.current) {
+      synthRef.current.stop();
+      synthRef.current = null;
+    }
+  }, [audioUrl, speciesName]);
 
-  if (!audioUrl) return null;
+  const startSynthesizedAudio = () => {
+    if (synthRef.current) synthRef.current.stop();
+
+    const AudioCtx = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+    if (!AudioCtx) return;
+
+    try {
+      const ctx = new AudioCtx();
+      const nameLower = speciesName.toLowerCase();
+      const isBird = nameLower.includes("owl") || nameLower.includes("crane") || nameLower.includes("flamingo") || nameLower.includes("peafowl") || nameLower.includes("bird") || nameLower.includes("hornbill") || nameLower.includes("eagle") || nameLower.includes("bustard") || nameLower.includes("roller");
+
+      const totalDuration = 4.0;
+      setDuration(totalDuration);
+      setIsPlaying(true);
+      const startMs = Date.now();
+
+      const progressInterval = setInterval(() => {
+        const elapsed = (Date.now() - startMs) / 1000;
+        if (elapsed >= totalDuration) {
+          clearInterval(progressInterval);
+          setIsPlaying(false);
+          setCurrentTime(0);
+        } else {
+          setCurrentTime(elapsed);
+        }
+      }, 100);
+
+      synthRef.current = {
+        stop: () => {
+          clearInterval(progressInterval);
+          try {
+            ctx.close();
+          } catch (e) {}
+        },
+      };
+
+      const now = ctx.currentTime;
+      if (isBird) {
+        // Melodic Bird Chirp / Call Sweep
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = "sine";
+
+        osc.frequency.setValueAtTime(1400, now);
+        osc.frequency.exponentialRampToValueAtTime(2800, now + 0.15);
+        osc.frequency.exponentialRampToValueAtTime(1600, now + 0.35);
+
+        gain.gain.setValueAtTime(0.01, now);
+        gain.gain.linearRampToValueAtTime(0.25, now + 0.05);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + 0.4);
+
+        osc.frequency.setValueAtTime(1600, now + 1.2);
+        osc.frequency.exponentialRampToValueAtTime(3200, now + 1.35);
+        osc.frequency.exponentialRampToValueAtTime(1800, now + 1.6);
+
+        gain.gain.setValueAtTime(0.01, now + 1.15);
+        gain.gain.linearRampToValueAtTime(0.25, now + 1.25);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + 1.6);
+
+        osc.frequency.setValueAtTime(1500, now + 2.4);
+        osc.frequency.exponentialRampToValueAtTime(2900, now + 2.55);
+        osc.frequency.exponentialRampToValueAtTime(1700, now + 2.8);
+
+        gain.gain.setValueAtTime(0.01, now + 2.35);
+        gain.gain.linearRampToValueAtTime(0.25, now + 2.45);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + 2.85);
+
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now);
+        osc.stop(now + 3.2);
+      } else {
+        // Deep Mammal Roar / Vocal Growl Sweep
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = "sawtooth";
+
+        osc.frequency.setValueAtTime(110, now);
+        osc.frequency.linearRampToValueAtTime(220, now + 0.4);
+        osc.frequency.exponentialRampToValueAtTime(80, now + 1.8);
+
+        gain.gain.setValueAtTime(0.01, now);
+        gain.gain.linearRampToValueAtTime(0.3, now + 0.2);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + 2.0);
+
+        osc.frequency.setValueAtTime(130, now + 2.3);
+        osc.frequency.linearRampToValueAtTime(240, now + 2.6);
+        osc.frequency.exponentialRampToValueAtTime(90, now + 3.6);
+
+        gain.gain.setValueAtTime(0.01, now + 2.25);
+        gain.gain.linearRampToValueAtTime(0.25, now + 2.45);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + 3.8);
+
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now);
+        osc.stop(now + 3.9);
+      }
+    } catch (e) {
+      setIsPlaying(false);
+    }
+  };
 
   const togglePlay = () => {
-    if (!audioRef.current) return;
     if (isPlaying) {
-      audioRef.current.pause();
+      if (synthRef.current) {
+        synthRef.current.stop();
+        synthRef.current = null;
+      }
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
       setIsPlaying(false);
+      return;
+    }
+
+    if (audioRef.current && audioUrl) {
+      audioRef.current
+        .play()
+        .then(() => setIsPlaying(true))
+        .catch(() => {
+          // Native HTML5 audio play failed or format unsupported -> trigger synthesizer
+          startSynthesizedAudio();
+        });
     } else {
-      audioRef.current.play().then(() => setIsPlaying(true)).catch(() => {});
+      startSynthesizedAudio();
     }
   };
 
   const toggleMute = () => {
-    if (!audioRef.current) return;
-    audioRef.current.muted = !isMuted;
+    if (audioRef.current) {
+      audioRef.current.muted = !isMuted;
+    }
     setIsMuted(!isMuted);
   };
 
   return (
     <div className="my-4 rounded-2xl border border-zinc-200/80 bg-zinc-50/80 p-3.5 shadow-2xs backdrop-blur-xl transition-all duration-200 ease-ios hover:border-zinc-300">
-      <audio
-        ref={audioRef}
-        src={audioUrl}
-        preload="metadata"
-        onTimeUpdate={() => audioRef.current && setCurrentTime(audioRef.current.currentTime)}
-        onLoadedMetadata={() => audioRef.current && setDuration(audioRef.current.duration)}
-        onEnded={() => {
-          setIsPlaying(false);
-          setCurrentTime(0);
-        }}
-      />
+      {audioUrl && (
+        <audio
+          ref={audioRef}
+          src={audioUrl}
+          preload="metadata"
+          onTimeUpdate={() => audioRef.current && setCurrentTime(audioRef.current.currentTime)}
+          onLoadedMetadata={() => audioRef.current && setDuration(audioRef.current.duration)}
+          onError={() => {
+            // HTML5 Audio load error -> handled gracefully by synth fallback on play
+          }}
+          onEnded={() => {
+            setIsPlaying(false);
+            setCurrentTime(0);
+          }}
+        />
+      )}
 
       <div className="flex items-center justify-between gap-3">
         {/* Play/Pause Button */}
