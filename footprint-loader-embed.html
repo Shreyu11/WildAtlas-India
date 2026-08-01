@@ -1,0 +1,58 @@
+<!-- Footprint loader — standalone snippet, paste into any page/site -->
+<style>
+  @keyframes pawMotion {
+    0% { transform: translateY(6px) scale(0.85); }
+    15% { transform: translateY(0) scale(1); }
+    55% { transform: translateY(0) scale(1); }
+    75% { transform: translateY(-4px) scale(0.9); }
+    100% { transform: translateY(-4px) scale(0.9); }
+  }
+  @keyframes pawFadePad {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    54% { opacity: 1; }
+    64% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  @keyframes pawFadeToes {
+    0% { opacity: 0; }
+    17% { opacity: 1; }
+    60% { opacity: 1; }
+    73% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  .footprint-loader { position: relative; width: 96px; height: 80px; }
+  .footprint-loader .paw { position: absolute; width: 34px; height: 34px; }
+  .footprint-loader .paw-motion { width: 34px; height: 34px; animation: pawMotion 2.4s ease-in-out infinite; }
+  .footprint-loader .pad { animation: pawFadePad 2.4s ease-in-out infinite; }
+  .footprint-loader .toes { animation: pawFadeToes 2.4s ease-in-out infinite; }
+</style>
+
+<div class="footprint-loader" role="status" aria-label="Loading">
+  <div class="paw" style="left:30px; top:36px; transform:rotate(-20deg);">
+    <div class="paw-motion" style="animation-delay:0s;">
+      <svg viewBox="0 0 64 64" width="34" height="34" style="display:block;">
+        <ellipse class="pad" cx="32" cy="42" rx="16" ry="13" fill="#1a1a1a" style="animation-delay:0s;"></ellipse>
+        <g class="toes" style="animation-delay:0s;">
+          <ellipse cx="14" cy="20" rx="7" ry="9" fill="#1a1a1a"></ellipse>
+          <ellipse cx="30" cy="12" rx="7.5" ry="9.5" fill="#1a1a1a"></ellipse>
+          <ellipse cx="47" cy="14" rx="7" ry="9" fill="#1a1a1a"></ellipse>
+          <ellipse cx="58" cy="26" rx="6" ry="8" fill="#1a1a1a"></ellipse>
+        </g>
+      </svg>
+    </div>
+  </div>
+  <div class="paw" style="left:70px; top:10px; transform:rotate(12deg);">
+    <div class="paw-motion" style="animation-delay:-1.2s;">
+      <svg viewBox="0 0 64 64" width="34" height="34" style="display:block;">
+        <ellipse class="pad" cx="32" cy="42" rx="16" ry="13" fill="#1a1a1a" style="animation-delay:-1.2s;"></ellipse>
+        <g class="toes" style="animation-delay:-1.2s;">
+          <ellipse cx="14" cy="20" rx="7" ry="9" fill="#1a1a1a"></ellipse>
+          <ellipse cx="30" cy="12" rx="7.5" ry="9.5" fill="#1a1a1a"></ellipse>
+          <ellipse cx="47" cy="14" rx="7" ry="9" fill="#1a1a1a"></ellipse>
+          <ellipse cx="58" cy="26" rx="6" ry="8" fill="#1a1a1a"></ellipse>
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>

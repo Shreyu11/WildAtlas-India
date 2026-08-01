@@ -2,6 +2,15 @@
 
 Total Sourced Species: 49
 
+## Public-access pass (`visitingHours.publicAccess`) — 2026-07-31
+
+Filled `publicAccess`/`accessNotes` for all 144 park/sanctuary/zoo entries (105 national parks + 31 sanctuaries + 8 zoos).
+
+- **Individually researched exceptions** (10 entries, each with its own dedicated source in `sources`): `nanda-devi-national-park`, `campbell-bay-national-park`, `galathea-bay-national-park` (all `"restricted"`); `namdapha-national-park`, `mouling-national-park`, `ntangki-national-park`, `murlen-national-park`, `phawngpui-blue-mountain-national-park`, `keibul-lamjao-national-park`, `gahirmatha-marine-sanctuary` (all `"permit-required"`, mostly state Inner Line Permit regimes).
+- **Remaining 134 entries** default to `"open"`, reusing each entry's existing `sources` entry (state forest department / WII / official portal already on record) as the citation. This default was **not individually re-verified per park** against a source that explicitly states "open to the public" — it reflects the general, well-documented policy that Indian national parks/sanctuaries operate on a standard public safari/eco-tourism entry model, and the fact that most entries already link to a live state forest department visitor/booking portal. Flagging here per the dataset guardrails so this is legible as a reasoned default, not an independently sourced fact for all 134.
+- **Not covered by this pass**: seasonal monsoon closures (many parks, e.g. Kaziranga/Ranthambore/Gir, close ~Jul–Oct) — that's a separate `closedSeason` field, still empty for all entries and out of scope for this pass.
+- If a specific park's public-access status is challenged or turns out wrong, re-verify against that state's forest department site directly rather than trusting the "open" default.
+
 ## Species List
 - [x] Royal Bengal Tiger (`royal-bengal-tiger`) — MAMMAL, EN status, IUCN Red List of Threatened Species, Status of Tigers in India 2022 (NTCA/WII)
 - [x] Asiatic Lion (`asiatic-lion`) — MAMMAL, EN status, IUCN Red List of Threatened Species, Gujarat Forest Department Census

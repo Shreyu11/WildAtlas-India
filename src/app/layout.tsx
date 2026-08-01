@@ -6,6 +6,7 @@ import GridBackground from "@/components/GridBackground/GridBackground";
 import { SearchProvider } from "@/components/SearchProvider/SearchProvider";
 import { MapSettingsProvider } from "@/components/MapSettingsProvider/MapSettingsProvider";
 import { AmbientAudioProvider } from "@/components/AmbientAudioProvider/AmbientAudioProvider";
+import FootprintLoader from "@/components/FootprintLoader/FootprintLoader";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -33,8 +34,10 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${manrope.variable} ${jetbrainsMono.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
-      <body className="relative h-full">
+      <body className="relative h-full" suppressHydrationWarning>
+        <FootprintLoader />
         <MapSettingsProvider>
           <SearchProvider>
             <AmbientAudioProvider>

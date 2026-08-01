@@ -90,9 +90,13 @@ export interface State {
   slug: string;
   name: string;
   dominantSpeciesSlug: string;
+  stateAnimalSlug?: string | null;
+  stateBirdSlug?: string | null;
   speciesSlugs: string[];
   lat: number;
   lng: number;
+  photoUrl?: string | null;
+  overview?: string | null;
 }
 
 export interface ProtectedArea {

@@ -681,6 +681,10 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
     map.on("load", () => {
       map.resize();
       map.fitBounds(INDIA_BOUNDS, { padding: 40, duration: 0 });
+      const attribEl = containerRef.current?.querySelector(".maplibregl-ctrl-attrib");
+      if (attribEl) {
+        attribEl.classList.remove("maplibregl-compact-show");
+      }
     });
 
     map.addControl(new NavigationControl({ showCompass: false }), "bottom-right");
@@ -704,15 +708,37 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       }
       map.setFeatureState({ source: "india-states", id: nextId }, { hover: true });
       hoveredStateId = nextId;
+      map.getCanvas().style.cursor = "pointer";
     };
     const handleStateMouseLeave = () => {
       if (hoveredStateId !== null) {
         map.setFeatureState({ source: "india-states", id: hoveredStateId }, { hover: false });
         hoveredStateId = null;
       }
+      map.getCanvas().style.cursor = "";
     };
+
+    const handleStateClick = (e: { originalEvent?: MouseEvent; features?: Array<{ id?: string | number; properties?: Record<string, any> }> }) => {
+      const target = e.originalEvent?.target;
+      if (target instanceof Element && target.closest(".maplibregl-marker")) {
+        return;
+      }
+      const feature = e.features?.[0];
+      if (!feature) return;
+      const stateName = (feature.id || feature.properties?.NAME_1 || feature.properties?.name || "") as string;
+      const foundState = states.find(
+        (s) =>
+          s.name.toLowerCase() === stateName.toLowerCase() ||
+          s.slug === stateName.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
+      );
+      if (foundState) {
+        router.push(`/state/${foundState.slug}`);
+      }
+    };
+
     map.on("mousemove", "states-fill", handleStateMouseMove);
     map.on("mouseleave", "states-fill", handleStateMouseLeave);
+    map.on("click", "states-fill", handleStateClick);
 
     // Only one marker's detail card is expanded (click-pinned) at a time —
     // clicking a different marker collapses whichever was open first, and
@@ -734,6 +760,7 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
     // (see buildMarkerCard) — this only toggles for clicks elsewhere on the
     // marker (photo, name, description, or the base circle/icon itself).
     const handleMarkerClick = (wrapper: HTMLDivElement, speciesSlug?: string) => (e: MouseEvent) => {
+      e.stopPropagation();
       if (e.target instanceof Element && e.target.closest("a")) return;
       toggleExpandedMarker(wrapper);
       if (speciesSlug) {
@@ -795,7 +822,13 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
     }
 
     for (const st of states) {
-      const label = new Marker({ element: labelEl(st.name, "state"), anchor: "center" })
+      const el = labelEl(st.name, "state");
+      el.style.cursor = "pointer";
+      el.addEventListener("click", (e) => {
+        e.stopPropagation();
+        router.push(`/state/${st.slug}`);
+      });
+      const label = new Marker({ element: el, anchor: "center" })
         .setLngLat([st.lng, st.lat])
         .addTo(map);
       createdMarkers.push(label);

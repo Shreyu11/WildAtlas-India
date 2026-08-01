@@ -12,6 +12,7 @@ Status: **planning, reconciled with current codebase** — see "Resolved decisio
 | Initial scale | **Full seed list** (all ~106 national parks, ~565 sanctuaries, CZA-recognized zoos, full mammal+bird IUCN/Project Tiger-Elephant species roster) | User's explicit call. Executed in two speed-separated phases — see §5. |
 | Google ratings/reviews (parks/zoos/sanctuaries) | **Skipped for now** | Only available via the paid/gated Google Places API — not on the approved source list (§4) and needs "explicit approval" per CLAUDE.md. Also breaks the static-snapshot data model: Places API terms restrict caching duration and require "Powered by Google" attribution, so it'd need a live API route rather than a committed JSON field. Revisit later as its own deliberate decision. |
 | "Have you visited?" flag | **Local-only, `localStorage`, no accounts** | Not a sourced fact about the place, so it doesn't belong in this dataset's schema/citation model at all — it's per-browser user state, same pattern as the existing `WelcomeCard`/`ExploreRail` dismiss flags. An account-backed, cross-device version would need real auth first (`TopNav`'s account icon is currently just a stub) — out of scope here. |
+| Sanctuary/park/zoo coordinates source | **Protected Planet / WDPA approved as a source (2026-07-31)**, added to §4 | `ProtectedArea.lat`/`lng` are non-nullable required fields, but Wikipedia's sanctuary list (used as the §4 starting-index source) has no coordinates column. Protected Planet (UNEP-WCMC + IUCN's World Database on Protected Areas) is free for non-commercial use, monthly-updated, and a natural complement to the already-approved "IUCN Red List spatial data" line — explicit user approval given rather than silently expanding the source list. |
 
 Two gaps in the original doc, fixed here regardless of the above:
 - Every park/sanctuary/zoo record **must** carry `lat`/`lng` — this app is entirely map-marker-driven (see CLAUDE.md's map interaction model); the original doc's shared shape omitted coordinates.
@@ -52,7 +53,7 @@ Existing required fields on `ProtectedArea` (`slug`, `name`, `type`, `stateSlug`
 | Field | Type | Notes |
 |---|---|---|
 | `areaSqKm` | `number \| null` | |
-| `visitingHours` | `{ openMonths?: string, timings?: string, closedSeason?: string } \| null` | |
+| `visitingHours` | `{ openMonths?: string, timings?: string, closedSeason?: string, publicAccess?: "open" \| "permit-required" \| "restricted" \| null, accessNotes?: string \| null } \| null` | `publicAccess`/`accessNotes` filled for all 105 parks + 31 sanctuaries + 8 zoos (2026-07-31 pass) — `"open"` default (standard entry/safari permit only), `"permit-required"` for sites needing a specific access permit beyond standard entry (e.g. state Inner Line Permit, seasonal wildlife-viewing permit), `"restricted"` for sites not routinely open even with effort (e.g. Nanda Devi core zone, Nicobar-group parks). See `PUBLIC_ACCESS_LABEL` in `src/lib/mockIcons.ts` for the UI label mapping. |
 | `websiteUrl` | `string \| null` | official site only |
 | `latestUpdates` | `Array<{ date: string, note: string, sourceUrl: string }>` | default `[]` |
 | `uniqueFeatures` | `string \| null` | |
@@ -84,6 +85,7 @@ Deliberately excluded from the JSON files above, per §0:
 - Status/taxonomy: IUCN Red List, Wikipedia infobox, GBIF
 - States/habitats: Wildlife Institute of India, ENVIS, state forest department sites
 - National parks/sanctuaries directory: MoEFCC, state forest department portals; Wikipedia list pages as a **starting index only** — verify area/status against an official source before trusting numbers
+- Park/sanctuary/zoo coordinates: **Protected Planet / WDPA** (api.protectedplanet.net), approved 2026-07-31 — see §0. Free for non-commercial use; cite as "Protected Planet / WDPA" per its terms of use.
 - Population trends: IUCN assessments, WWF India, WII census reports, Project Tiger/Elephant status reports
 - Photos: Wikimedia Commons / iNaturalist, CC-BY / CC-BY-SA / public-domain only, license + attribution stored alongside the URL
 - News/latest updates: official park/zoo press pages, PIB releases

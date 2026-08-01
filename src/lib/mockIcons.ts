@@ -59,3 +59,9 @@ export const PROTECTED_AREA_ICON: Record<string, string> = {
 };
 
 export const ZOO_ICON = "🏛️";
+
+export const PUBLIC_ACCESS_LABEL: Record<"open" | "permit-required" | "restricted", string> = {
+  open: "Open to Public",
+  "permit-required": "Permit Required",
+  restricted: "Restricted Access",
+};

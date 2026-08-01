@@ -68,14 +68,7 @@
       "Project Tiger",
       "NTCA Tiger Census"
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panthera_tigris_roar.ogg"
-    }
+    "needsResearch": false
   },
   {
     "slug": "asiatic-lion",
@@ -134,14 +127,7 @@
     "conservationEfforts": [
       "Asiatic Lion Conservation Project"
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Panthera_leo_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panthera_leo_roar.ogg"
-    }
+    "needsResearch": false
   },
   {
     "slug": "indian-rhinoceros",
@@ -202,14 +188,7 @@
     "conservationEfforts": [
       "Indian Rhino Vision 2020"
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Rhinoceros_unicornis_snort.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhinoceros_unicornis_snort.ogg"
-    }
+    "needsResearch": false
   },
   {
     "slug": "asian-elephant",
@@ -269,14 +248,7 @@
       "Project Elephant",
       "Elephant Corridors Initiative"
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Elephas_maximus_trumpet.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elephas_maximus_trumpet.ogg"
-    }
+    "needsResearch": false
   },
   {
     "slug": "lion-tailed-macaque",
@@ -323,14 +295,7 @@
         "source": "Western Ghats Primate Survey"
       }
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "great-indian-bustard",
@@ -386,14 +351,7 @@
       "Project Great Indian Bustard",
       "Captive Breeding Program (Sam)"
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "barasingha",
@@ -445,14 +403,7 @@
         "source": "MP Forest Department Census"
       }
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "indian-giant-squirrel",
@@ -489,14 +440,7 @@
       "genus": "Ratufa",
       "species": "Ratufa indica"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "indian-eagle-owl",
@@ -532,14 +476,7 @@
       "genus": "Bubo",
       "species": "Bubo bengalensis"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Bubo_bubo_hoot.ogg",
-    "audioAttribution": {
-      "author": "Xeno-Canto / Wikimedia",
-      "license": "CC BY-NC-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bubo_bubo_hoot.ogg"
-    }
+    "needsResearch": false
   },
   {
     "slug": "indian-peafowl",
@@ -577,14 +514,7 @@
       "genus": "Pavo",
       "species": "Pavo cristatus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pavo_cristatus_call.ogg"
-    }
+    "needsResearch": false
   },
   {
     "slug": "narcondam-hornbill",
@@ -629,14 +559,7 @@
         "source": "WII Andaman Island Census"
       }
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "nicobar-long-tailed-macaque",
@@ -669,14 +592,7 @@
       "genus": "Macaca",
       "species": "Macaca fascicularis"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "snow-leopard",
@@ -725,14 +641,7 @@
       "Project Snow Leopard",
       "SECURE Himalaya"
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "sloth-bear",
@@ -770,14 +679,7 @@
       "genus": "Melursus",
       "species": "Melursus ursinus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "indian-leopard",
@@ -822,14 +724,7 @@
         "source": "Status of Leopards in India 2022"
       }
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Panthera_pardus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panthera_pardus_call.ogg"
-    }
+    "needsResearch": false
   },
   {
     "slug": "cheetah",
@@ -865,14 +760,7 @@
     "conservationEfforts": [
       "Project Cheetah"
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "nilgiri-tahr",
@@ -906,14 +794,7 @@
       "genus": "Nilgiritragus",
       "species": "Nilgiritragus hylocrius"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "sangai",
@@ -946,14 +827,7 @@
       "genus": "Rucervus",
       "species": "Rucervus eldii"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "red-panda",
@@ -989,14 +863,7 @@
       "genus": "Ailurus",
       "species": "Ailurus fulgens"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "gaur",
@@ -1034,14 +901,7 @@
       "genus": "Bos",
       "species": "Bos gaurus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "hoolock-gibbon",
@@ -1078,14 +938,7 @@
       "genus": "Hoolock",
       "species": "Hoolock hoolock"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "clouded-leopard",
@@ -1122,14 +975,7 @@
       "genus": "Neofelis",
       "species": "Neofelis nebulosa"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "blackbuck",
@@ -1168,14 +1014,7 @@
       "genus": "Antilope",
       "species": "Antilope cervicapra"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "chital",
@@ -1214,14 +1053,7 @@
       "genus": "Axis",
       "species": "Axis axis"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "sambar-deer",
@@ -1259,14 +1091,7 @@
       "genus": "Rusa",
       "species": "Rusa unicolor"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "hangul",
@@ -1299,14 +1124,7 @@
       "genus": "Cervus",
       "species": "Cervus hanglu"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "dhole",
@@ -1344,14 +1162,7 @@
       "genus": "Cuon",
       "species": "Cuon alpinus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "indian-gray-wolf",
@@ -1389,14 +1200,7 @@
       "genus": "Canis",
       "species": "Canis lupus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "golden-jackal",
@@ -1434,14 +1238,7 @@
       "genus": "Canis",
       "species": "Canis aureus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "striped-hyena",
@@ -1479,14 +1276,7 @@
       "genus": "Hyaena",
       "species": "Hyaena hyaena"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "nilgai",
@@ -1525,14 +1315,7 @@
       "genus": "Boselaphus",
       "species": "Boselaphus tragocamelus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "chinkara",
@@ -1569,14 +1352,7 @@
       "genus": "Gazella",
       "species": "Gazella bennettii"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "indian-wild-ass",
@@ -1609,14 +1385,7 @@
       "genus": "Equus",
       "species": "Equus hemionus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "wild-water-buffalo",
@@ -1652,14 +1421,7 @@
       "genus": "Bubalus",
       "species": "Bubalus arnee"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Panthera_tigris_roar.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "great-hornbill",
@@ -1697,14 +1459,7 @@
       "genus": "Buceros",
       "species": "Buceros bicornis"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Buceros_bicornis_call.ogg",
-    "audioAttribution": {
-      "author": "Xeno-Canto / Wikimedia",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buceros_bicornis_call.ogg"
-    }
+    "needsResearch": false
   },
   {
     "slug": "himalayan-monal",
@@ -1741,14 +1496,7 @@
       "genus": "Lophophorus",
       "species": "Lophophorus impejanus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "sarus-crane",
@@ -1785,14 +1533,7 @@
       "genus": "Antigone",
       "species": "Antigone antigone"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Antigone_antigone_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antigone_antigone_call.ogg"
-    }
+    "needsResearch": false
   },
   {
     "slug": "greater-flamingo",
@@ -1829,14 +1570,7 @@
       "genus": "Phoenicopterus",
       "species": "Phoenicopterus roseus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Phoenicopterus_roseus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phoenicopterus_roseus_call.ogg"
-    }
+    "needsResearch": false
   },
   {
     "slug": "house-sparrow",
@@ -1875,14 +1609,7 @@
       "species": "Passer domesticus"
     },
     "worldAnimalDaySlug": "world-sparrow-day",
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "black-necked-crane",
@@ -1917,14 +1644,7 @@
       "genus": "Grus",
       "species": "Grus nigricollis"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "malabar-pied-hornbill",
@@ -1962,14 +1682,7 @@
       "genus": "Anthracoceros",
       "species": "Anthracoceros coronatus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "indian-vulture",
@@ -2010,14 +1723,7 @@
       "Vulture Safe Zones",
       "BNHS Breeding Centers"
     ],
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "forest-owlet",
@@ -2052,14 +1758,7 @@
       "genus": "Athene",
       "species": "Athene blewitti"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "painted-stork",
@@ -2097,14 +1796,7 @@
       "genus": "Mycteria",
       "species": "Mycteria leucocephala"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "bar-headed-goose",
@@ -2142,14 +1834,7 @@
       "genus": "Anser",
       "species": "Anser indicus"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "indian-roller",
@@ -2187,14 +1872,7 @@
       "genus": "Coracias",
       "species": "Coracias benghalensis"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "house-crow",
@@ -2232,14 +1910,7 @@
       "genus": "Corvus",
       "species": "Corvus splendens"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "malabar-whistling-thrush",
@@ -2276,14 +1947,7 @@
       "genus": "Myophonus",
       "species": "Myophonus horsfieldii"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   },
   {
     "slug": "indian-pitta",
@@ -2321,13 +1985,6 @@
       "genus": "Pitta",
       "species": "Pitta brachyura"
     },
-    "needsResearch": false,
-    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pavo_cristatus_call.ogg",
-    "audioAttribution": {
-      "author": "Wikimedia Commons Wildlife Archive",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org"
-    }
+    "needsResearch": false
   }
 ]

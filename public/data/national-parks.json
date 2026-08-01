@@ -18,7 +18,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "manas-national-park",
@@ -39,7 +43,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "nameri-national-park",
@@ -59,7 +67,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "orang-national-park",
@@ -79,7 +91,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "dibru-saikhowa-national-park",
@@ -99,7 +115,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "raimona-national-park",
@@ -119,7 +139,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "dihing-patkai-national-park",
@@ -139,7 +163,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "gir-national-park",
@@ -160,7 +188,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "blackbuck-national-park-velavadar",
@@ -180,7 +212,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "marine-national-park-gulf-of-kutch",
@@ -200,7 +236,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "vansda-national-park",
@@ -220,7 +260,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "ranthambore-national-park",
@@ -241,7 +285,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "sariska-national-park",
@@ -261,7 +309,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "desert-national-park",
@@ -281,7 +333,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "keoladeo-national-park",
@@ -301,7 +357,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "mukundra-hills-national-park",
@@ -321,7 +381,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "jim-corbett-national-park",
@@ -342,7 +406,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "rajaji-national-park",
@@ -362,7 +430,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "nanda-devi-national-park",
@@ -380,9 +452,18 @@
         "label": "WII",
         "url": "https://wii.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Nanda Devi National Park visitor guidelines (Uttarakhand Forest Dept / trekking permit summaries)",
+        "url": "https://himalayatrekker.com/trek-permits-regulations/uttarakhand-trekking-permits-regulations/",
+        "accessedDate": "2026-07-31"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "restricted",
+      "accessNotes": "Inner sanctuary (core zone) closed to general trekking/mountaineering since 1983 to protect the fragile high-alpine ecosystem after over-visitation and grazing damage. Limited eco-tourism reopened in 2003 under strict caps: max 500 permitted visitors per season, groups of up to 5 with a registered guide, permits issued by the DFO Joshimath."
+    }
   },
   {
     "slug": "valley-of-flowers-national-park",
@@ -402,7 +483,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "gangotri-national-park",
@@ -422,7 +507,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "govind-pashu-vihar-national-park",
@@ -442,7 +531,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "kanha-national-park",
@@ -463,7 +556,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "bandhavgarh-national-park",
@@ -484,7 +581,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "pench-national-park-mp",
@@ -504,7 +605,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "satpura-national-park",
@@ -524,7 +629,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "panna-national-park",
@@ -544,7 +653,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "kuno-national-park",
@@ -564,7 +677,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "sanjay-national-park-mp",
@@ -584,7 +701,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "madhav-national-park",
@@ -604,7 +725,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "fossil-national-park-mandla",
@@ -624,7 +749,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "dinosaurs-fossils-national-park-dhar",
@@ -644,7 +773,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "van-vihar-national-park-bhopal",
@@ -664,7 +797,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "sundarbans-national-park",
@@ -685,7 +822,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "buxa-national-park",
@@ -705,7 +846,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "gorumara-national-park",
@@ -725,7 +870,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "jaldapara-national-park",
@@ -745,7 +894,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "neora-valley-national-park",
@@ -765,7 +918,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "singalila-national-park",
@@ -785,7 +942,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "periyar-national-park",
@@ -805,7 +966,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "silent-valley-national-park-kerala",
@@ -826,7 +991,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "eravikulam-national-park",
@@ -846,7 +1015,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "anamudi-shola-national-park",
@@ -866,7 +1039,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "pambadum-shola-national-park",
@@ -886,7 +1063,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "mathikettan-shola-national-park",
@@ -906,7 +1087,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "bandipur-national-park",
@@ -926,7 +1111,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "nagarhole-national-park",
@@ -946,7 +1135,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "bannerghatta-national-park",
@@ -966,7 +1159,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "kudremukh-national-park",
@@ -986,7 +1183,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "ansi-national-park-kali",
@@ -1006,7 +1207,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "mudumalai-national-park",
@@ -1026,7 +1231,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "guindy-national-park",
@@ -1046,7 +1255,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "gulf-of-mannar-marine-national-park",
@@ -1066,7 +1279,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "indira-gandhi-national-park-anamalai",
@@ -1086,7 +1303,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "mukurthi-national-park",
@@ -1106,7 +1327,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "tadoba-andhari-national-park",
@@ -1126,7 +1351,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "sanjay-gandhi-national-park",
@@ -1146,7 +1375,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "pench-national-park-maharashtra",
@@ -1166,7 +1399,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "navegaon-national-park",
@@ -1186,7 +1423,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "gugamal-national-park",
@@ -1206,7 +1447,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "chandoli-national-park",
@@ -1226,7 +1471,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "similipal-national-park",
@@ -1246,7 +1495,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "bhitarkanika-national-park",
@@ -1266,7 +1519,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "hemis-national-park-ladakh",
@@ -1287,7 +1544,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "dachigam-national-park",
@@ -1307,7 +1568,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "kishtwar-national-park",
@@ -1327,7 +1592,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "kazinag-national-park",
@@ -1347,7 +1616,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "salim-ali-national-park-srinagar",
@@ -1367,7 +1640,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "great-himalayan-national-park",
@@ -1387,7 +1664,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "pin-valley-national-park",
@@ -1407,7 +1688,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "inderkilla-national-park",
@@ -1427,7 +1712,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "khirganga-national-park",
@@ -1447,7 +1736,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "simbalbara-national-park",
@@ -1467,7 +1760,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "dudhwa-national-park",
@@ -1487,7 +1784,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "valmiki-national-park",
@@ -1507,7 +1808,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "indravati-national-park",
@@ -1527,7 +1832,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "kanger-valley-national-park",
@@ -1547,7 +1856,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "guru-ghasidas-national-park",
@@ -1567,7 +1880,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "betla-national-park",
@@ -1587,7 +1904,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "papikonda-national-park",
@@ -1607,7 +1928,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "sri-venkateswara-national-park",
@@ -1627,7 +1952,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "kasu-brahmananda-reddy-national-park",
@@ -1647,7 +1976,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "mahavir-harina-vanasthali-national-park",
@@ -1667,7 +2000,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "mrugavani-national-park",
@@ -1687,7 +2024,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "भगवान-महावीर-राष्ट्रीय-उद्यान-mollem",
@@ -1707,7 +2048,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "namdapha-national-park",
@@ -1725,9 +2070,18 @@
         "label": "Arunachal Forest Dept",
         "url": "https://arunachalforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Inner Line Permit (ILP) for Arunachal Pradesh",
+        "url": "https://www.tourmyindia.com/states/arunachalpradesh/permit-for-indian.html",
+        "accessedDate": "2026-07-31"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "permit-required",
+      "accessNotes": "Arunachal Pradesh Inner Line Permit (ILP) required for all non-resident Indian citizens; foreign nationals additionally need a Protected Area Permit (PAP). Standard park entry is otherwise open once the ILP/PAP is obtained."
+    }
   },
   {
     "slug": "mouling-national-park",
@@ -1745,9 +2099,18 @@
         "label": "Arunachal Forest Dept",
         "url": "https://arunachalforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Inner Line Permit (ILP) for Arunachal Pradesh",
+        "url": "https://www.tourmyindia.com/states/arunachalpradesh/permit-for-indian.html",
+        "accessedDate": "2026-07-31"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "permit-required",
+      "accessNotes": "Arunachal Pradesh Inner Line Permit (ILP) required for all non-resident Indian citizens; foreign nationals additionally need a Protected Area Permit (PAP). Remote and largely undeveloped for tourism beyond the permit requirement."
+    }
   },
   {
     "slug": "keibul-lamjao-national-park",
@@ -1765,9 +2128,18 @@
         "label": "Manipur Forest Dept",
         "url": "https://forest.manipur.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Inner-Line Permit in Manipur",
+        "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/inner-line-permit-in-manipur",
+        "accessedDate": "2026-07-31"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "permit-required",
+      "accessNotes": "Manipur Inner Line Permit (ILP) required for all domestic (non-Manipur-resident) visitors since the state was brought under the ILP system in December 2019."
+    }
   },
   {
     "slug": "balphakram-national-park",
@@ -1787,7 +2159,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "nokrek-national-park",
@@ -1807,7 +2183,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "murlen-national-park",
@@ -1825,9 +2205,18 @@
         "label": "Mizoram Forest Dept",
         "url": "https://forest.mizoram.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Inner Line Permits for Northeast India",
+        "url": "https://www.northeasttourspackages.in/blog/permits-northeast-india",
+        "accessedDate": "2026-07-31"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "permit-required",
+      "accessNotes": "Mizoram Inner Line Permit (ILP) required for all domestic (non-Mizoram-resident) visitors; free, fast online application."
+    }
   },
   {
     "slug": "phawngpui-blue-mountain-national-park",
@@ -1845,9 +2234,18 @@
         "label": "Mizoram Forest Dept",
         "url": "https://forest.mizoram.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Inner Line Permits for Northeast India",
+        "url": "https://www.northeasttourspackages.in/blog/permits-northeast-india",
+        "accessedDate": "2026-07-31"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "permit-required",
+      "accessNotes": "Mizoram Inner Line Permit (ILP) required for all domestic (non-Mizoram-resident) visitors; free, fast online application."
+    }
   },
   {
     "slug": "ntangki-national-park",
@@ -1865,9 +2263,18 @@
         "label": "Nagaland Forest Dept",
         "url": "https://forest.nagaland.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Nagaland ILP Information",
+        "url": "https://police.nagaland.gov.in/ilp-information/",
+        "accessedDate": "2026-07-31"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "permit-required",
+      "accessNotes": "Nagaland Inner Line Permit (ILP) required for all domestic (non-Nagaland-resident) visitors; free online application, no separate requirement for foreign passport holders beyond local police registration."
+    }
   },
   {
     "slug": "khangchendzonga-national-park",
@@ -1887,7 +2294,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "clouded-leopard-national-park",
@@ -1907,7 +2318,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "bison-rajbari-national-park",
@@ -1927,7 +2342,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "campbell-bay-national-park",
@@ -1945,9 +2364,18 @@
         "label": "A&N Forest Dept",
         "url": "https://forest.andaman.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Andaman & Nicobar entry permit guidelines",
+        "url": "https://www.tourmyindia.com/states/andaman/entry-permits.html",
+        "accessedDate": "2026-07-31"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "restricted",
+      "accessNotes": "On Great Nicobar Island; travel to the Nicobar group is highly restricted for both Indian citizens and foreigners, with permits rarely issued except in exceptional cases approved by the Deputy Commissioner, Andaman District. Reached only by weekly government ferry or helicopter from Port Blair (3-4 days by sea); no general tourist infrastructure."
+    }
   },
   {
     "slug": "galathea-bay-national-park",
@@ -1965,9 +2393,18 @@
         "label": "A&N Forest Dept",
         "url": "https://forest.andaman.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Andaman & Nicobar entry permit guidelines",
+        "url": "https://www.tourmyindia.com/states/andaman/entry-permits.html",
+        "accessedDate": "2026-07-31"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "restricted",
+      "accessNotes": "On Great Nicobar Island; same Nicobar-group travel restrictions as Campbell Bay National Park apply (permits rarely issued to Indian citizens or foreigners). Part of the area affected by the Great Nicobar development project, with no general tourist infrastructure."
+    }
   },
   {
     "slug": "mahatma-gandhi-marine-national-park",
@@ -1987,7 +2424,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "middle-button-island-national-park",
@@ -2007,7 +2448,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "north-button-island-national-park",
@@ -2027,7 +2472,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "south-button-island-national-park",
@@ -2047,7 +2496,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "mount-harriet-national-park",
@@ -2067,7 +2520,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "rani-jhansi-marine-national-park",
@@ -2087,7 +2544,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "saddle-peak-national-park",
@@ -2107,6 +2568,10 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   }
 ]

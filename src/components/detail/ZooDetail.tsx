@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getZoos, getSpecies, getStates } from "@/lib/data";
-import { SPECIES_ICON, DEFAULT_SPECIES_ICON, ZOO_ICON } from "@/lib/mockIcons";
+import { SPECIES_ICON, DEFAULT_SPECIES_ICON, PUBLIC_ACCESS_LABEL } from "@/lib/mockIcons";
 import DataAttributionFooter from "@/components/DataAttributionFooter";
 
 export default async function ZooDetail({ slug }: { slug: string }) {
@@ -50,6 +50,17 @@ export default async function ZooDetail({ slug }: { slug: string }) {
         <p className="mt-2 text-xs text-zinc-600">
           Established in <span className="font-semibold text-zinc-800">{zoo.establishedYear}</span>
         </p>
+      )}
+
+      {zoo.visitingHours?.publicAccess && (
+        <div className="mt-3 flex items-start gap-2">
+          <span className="inline-block shrink-0 rounded-md bg-zinc-100 px-2 py-0.5 font-mono text-[10px] text-zinc-700 border border-zinc-200">
+            {PUBLIC_ACCESS_LABEL[zoo.visitingHours.publicAccess]}
+          </span>
+          {zoo.visitingHours.accessNotes && (
+            <p className="text-[11px] text-zinc-500 leading-relaxed">{zoo.visitingHours.accessNotes}</p>
+          )}
+        </div>
       )}
 
       {headline && (

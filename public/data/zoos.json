@@ -9,7 +9,18 @@
     "photoUrl": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop&q=80",
     "lat": 22.5354,
     "lng": 88.3329,
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alipore_Zoological_Gardens"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alipore_Zoological_Gardens",
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    },
+    "sources": [
+      {
+        "label": "Alipore Zoological Gardens (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Alipore_Zoological_Gardens",
+        "accessedDate": "2026-07-31"
+      }
+    ]
   },
   {
     "slug": "sakkarbaug-zoological-garden",
@@ -21,7 +32,18 @@
     "photoUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=800&auto=format&fit=crop&q=80",
     "lat": 21.5222,
     "lng": 70.4579,
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakkarbaug_Zoological_Garden"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakkarbaug_Zoological_Garden",
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    },
+    "sources": [
+      {
+        "label": "Sakkarbaug Zoological Garden (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Sakkarbaug_Zoological_Garden",
+        "accessedDate": "2026-07-31"
+      }
+    ]
   },
   {
     "slug": "assam-state-zoo-cum-botanical-garden",
@@ -33,7 +55,18 @@
     "photoUrl": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&auto=format&fit=crop&q=80",
     "lat": 26.1526,
     "lng": 91.7864,
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Assam_State_Zoo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Assam_State_Zoo",
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    },
+    "sources": [
+      {
+        "label": "Assam State Zoo cum Botanical Garden (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Assam_State_Zoo",
+        "accessedDate": "2026-07-31"
+      }
+    ]
   },
   {
     "slug": "thiruvananthapuram-zoo",
@@ -45,7 +78,18 @@
     "photoUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
     "lat": 8.5074,
     "lng": 76.9541,
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Thiruvananthapuram_Zoo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Thiruvananthapuram_Zoo",
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    },
+    "sources": [
+      {
+        "label": "Thiruvananthapuram Zoo (Sri Chitra Zoological Park) (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Thiruvananthapuram_Zoo",
+        "accessedDate": "2026-07-31"
+      }
+    ]
   },
   {
     "slug": "sri-chamarajendra-zoological-gardens",
@@ -57,7 +101,18 @@
     "photoUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef9?w=800&auto=format&fit=crop&q=80",
     "lat": 12.3052,
     "lng": 76.6552,
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mysore_Zoo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mysore_Zoo",
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    },
+    "sources": [
+      {
+        "label": "Sri Chamarajendra Zoological Gardens (Mysore Zoo) (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Mysore_Zoo",
+        "accessedDate": "2026-07-31"
+      }
+    ]
   },
   {
     "slug": "nahargarh-biological-park",
@@ -69,7 +124,18 @@
     "photoUrl": "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=800&auto=format&fit=crop&q=80",
     "lat": 26.9622,
     "lng": 75.8317,
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nahargarh_Biological_Park"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nahargarh_Biological_Park",
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    },
+    "sources": [
+      {
+        "label": "Nahargarh Biological Park (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Nahargarh_Biological_Park",
+        "accessedDate": "2026-07-31"
+      }
+    ]
   },
   {
     "slug": "van-vihar-national-park",
@@ -81,7 +147,18 @@
     "photoUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
     "lat": 23.2367,
     "lng": 77.3803,
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Van_Vihar_National_Park"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Van_Vihar_National_Park",
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    },
+    "sources": [
+      {
+        "label": "Van Vihar National Park (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Van_Vihar_National_Park",
+        "accessedDate": "2026-07-31"
+      }
+    ]
   },
   {
     "slug": "veermata-jijabai-bhonsale-udyan",
@@ -93,6 +170,17 @@
     "photoUrl": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=800&auto=format&fit=crop&q=80",
     "lat": 18.975,
     "lng": 72.8347,
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Veermata_Jijabai_Bhonsale_Udyan_and_Zoo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Veermata_Jijabai_Bhonsale_Udyan_and_Zoo",
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    },
+    "sources": [
+      {
+        "label": "Veermata Jijabai Bhonsale Udyan (Byculla Zoo) (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Veermata_Jijabai_Bhonsale_Udyan_and_Zoo",
+        "accessedDate": "2026-07-31"
+      }
+    ]
   }
 ]

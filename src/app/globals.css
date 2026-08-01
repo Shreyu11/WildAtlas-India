@@ -66,3 +66,63 @@ body {
 .ease-ios {
   transition-timing-function: cubic-bezier(0.32, 0.72, 0, 1);
 }
+
+/* Footprint Loader Animations */
+@keyframes pawMotion {
+  0% { transform: translateY(6px) scale(0.85); }
+  15% { transform: translateY(0) scale(1); }
+  55% { transform: translateY(0) scale(1); }
+  75% { transform: translateY(-4px) scale(0.9); }
+  100% { transform: translateY(-4px) scale(0.9); }
+}
+
+@keyframes pawFadePad {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  54% { opacity: 1; }
+  64% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes pawFadeToes {
+  0% { opacity: 0; }
+  17% { opacity: 1; }
+  60% { opacity: 1; }
+  73% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.footprint-loader {
+  position: relative;
+  width: 94px;
+  height: 80px;
+}
+
+.paw {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+}
+
+.paw-motion {
+  width: 34px;
+  height: 34px;
+  animation: pawMotion 2.4s ease-in-out infinite;
+}
+
+.pad {
+  animation: pawFadePad 2.4s ease-in-out infinite;
+}
+
+.toes {
+  animation: pawFadeToes 2.4s ease-in-out infinite;
+}
+
+/* MapLibre Attribution Control - Closed by default, expands on hover/focus */
+.maplibregl-ctrl-attrib.maplibregl-compact:not(:hover):not(:focus-within) {
+  background-color: transparent !important;
+}
+
+.maplibregl-ctrl-attrib.maplibregl-compact:not(:hover):not(:focus-within) .maplibregl-ctrl-attrib-inner {
+  display: none !important;
+}

@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProtectedAreas, getSpecies, getStates } from "@/lib/data";
-import { SPECIES_ICON, DEFAULT_SPECIES_ICON } from "@/lib/mockIcons";
+import { SPECIES_ICON, DEFAULT_SPECIES_ICON, PUBLIC_ACCESS_LABEL } from "@/lib/mockIcons";
 import DataAttributionFooter from "@/components/DataAttributionFooter";
 
 export default async function ProtectedAreaDetail({ slug }: { slug: string }) {
@@ -47,6 +47,17 @@ export default async function ProtectedAreaDetail({ slug }: { slug: string }) {
         <p className="mt-2 text-xs text-zinc-600">
           Total Area: <span className="font-semibold text-zinc-800">{area.areaSqKm.toLocaleString()} sq km</span>
         </p>
+      )}
+
+      {area.visitingHours?.publicAccess && (
+        <div className="mt-3 flex items-start gap-2">
+          <span className="inline-block shrink-0 rounded-md bg-zinc-100 px-2 py-0.5 font-mono text-[10px] text-zinc-700 border border-zinc-200">
+            {PUBLIC_ACCESS_LABEL[area.visitingHours.publicAccess]}
+          </span>
+          {area.visitingHours.accessNotes && (
+            <p className="text-[11px] text-zinc-500 leading-relaxed">{area.visitingHours.accessNotes}</p>
+          )}
+        </div>
       )}
 
       {area.uniqueFeatures && (

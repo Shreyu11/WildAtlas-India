@@ -6,51 +6,10 @@ import { useMapSettings, type MapSettings } from "@/components/MapSettingsProvid
 
 export default function MapViewSettings() {
   const [isOpen, setIsOpen] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const { settings, toggleSetting } = useMapSettings();
   const panelRef = useRef<HTMLDivElement>(null);
-
-  // Global Shift+V keyboard shortcut to toggle settings panel open/close
-  useEffect(() => {
-    function handleKeyDown(e: KeyboardEvent) {
-      if (
-        e.target instanceof HTMLInputElement ||
-        e.target instanceof HTMLTextAreaElement ||
-        (e.target instanceof HTMLElement && e.target.isContentEditable)
-      ) {
-        return;
-      }
-      if (e.shiftKey && e.key.toLowerCase() === "v") {
-        e.preventDefault();
-        setIsOpen((prev) => !prev);
-      }
-    }
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
-
-  // Close panel on outside click or Escape key
-  useEffect(() => {
-    if (!isOpen) return;
-
-    const handleOutsideClick = (e: MouseEvent) => {
-      if (panelRef.current && !panelRef.current.contains(e.target as Node)) {
-        setIsOpen(false);
-      }
-    };
-
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        setIsOpen(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handleOutsideClick);
-    document.addEventListener("keydown", handleKeyDown);
-    return () => {
-      document.removeEventListener("mousedown", handleOutsideClick);
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-  }, [isOpen]);
+  const selectedIndexRef = useRef(selectedIndex);
 
   const toggleItems: Array<{
     key: keyof MapSettings;
@@ -96,6 +55,88 @@ export default function MapViewSettings() {
     },
   ];
 
+  // Sync ref with selectedIndex
+  useEffect(() => {
+    selectedIndexRef.current = selectedIndex;
+  }, [selectedIndex]);
+
+  // Reset keyboard navigation index whenever panel opens
+  useEffect(() => {
+    if (isOpen) {
+      setSelectedIndex(0);
+    }
+  }, [isOpen]);
+
+  // Global Shift+V keyboard shortcut to toggle settings panel open/close
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement ||
+        (e.target instanceof HTMLElement && e.target.isContentEditable)
+      ) {
+        return;
+      }
+      if (e.shiftKey && e.key.toLowerCase() === "v") {
+        e.preventDefault();
+        setIsOpen((prev) => !prev);
+      }
+    }
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
+  // Panel-open Keyboard navigation (Up/Down arrows, Enter to toggle, Esc to close)
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const handleOutsideClick = (e: MouseEvent) => {
+      if (panelRef.current && !panelRef.current.contains(e.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // 1. Esc to close menu
+      if (e.key === "Escape") {
+        e.preventDefault();
+        setIsOpen(false);
+        return;
+      }
+
+      // 2. Arrow Down to navigate down
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        setSelectedIndex((prev) => (prev + 1) % toggleItems.length);
+        return;
+      }
+
+      // 3. Arrow Up to navigate up
+      if (e.key === "ArrowUp") {
+        e.preventDefault();
+        setSelectedIndex((prev) => (prev - 1 + toggleItems.length) % toggleItems.length);
+        return;
+      }
+
+      // 4. Enter or Space to trigger toggle
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        const targetKey = toggleItems[selectedIndexRef.current]?.key;
+        if (targetKey) {
+          toggleSetting(targetKey);
+        }
+        return;
+      }
+    };
+
+    document.addEventListener("mousedown", handleOutsideClick);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isOpen, toggleItems, toggleSetting]);
+
   return (
     <div ref={panelRef} className="absolute bottom-6 left-6 z-30 flex flex-col items-start">
       {/* Popover Settings Panel */}
@@ -103,14 +144,19 @@ export default function MapViewSettings() {
         <div className="mb-3 w-84 rounded-[24px] border border-zinc-300/80 bg-white/95 p-5 shadow-2xl backdrop-blur-2xl transition-all duration-300 ease-ios animate-in fade-in slide-in-from-bottom-2">
           {/* Header */}
           <div className="flex items-center justify-between pb-3 border-b border-zinc-200/60">
-            <h2 className="font-sans text-xs font-bold uppercase tracking-wider text-zinc-800">
-              Map View Settings
-            </h2>
+            <div>
+              <h2 className="font-sans text-xs font-bold uppercase tracking-wider text-zinc-800">
+                Map View Settings
+              </h2>
+              <span className="font-mono text-[10px] text-zinc-400 block mt-0.5">
+                ↑/↓ Navigate · Enter Toggle · Esc Close
+              </span>
+            </div>
             <button
               type="button"
               onClick={() => setIsOpen(false)}
               className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-zinc-200/50 text-zinc-600 hover:bg-zinc-200/80 hover:text-zinc-900 transition-all duration-200 ease-ios active:scale-90"
-              title="Close settings"
+              title="Close settings (Esc)"
               aria-label="Close settings"
             >
               <X className="h-4 w-4" />
@@ -120,16 +166,27 @@ export default function MapViewSettings() {
           {/* Details Section */}
           <div className="mt-3">
             <div className="space-y-1.5">
-              {toggleItems.map((item) => {
+              {toggleItems.map((item, index) => {
                 const isActive = settings[item.key];
+                const isSelected = selectedIndex === index;
                 return (
                   <div
                     key={item.key}
-                    onClick={() => toggleSetting(item.key)}
-                    className="group flex items-center justify-between p-2.5 rounded-2xl cursor-pointer hover:bg-zinc-100/60 active:bg-zinc-200/50 transition-colors duration-150 ease-ios"
+                    onMouseEnter={() => setSelectedIndex(index)}
+                    onClick={() => {
+                      setSelectedIndex(index);
+                      toggleSetting(item.key);
+                    }}
+                    className={`group flex items-center justify-between p-2.5 rounded-2xl cursor-pointer transition-all duration-150 ease-ios ${
+                      isSelected
+                        ? "bg-zinc-200/80 text-zinc-900 shadow-2xs"
+                        : "hover:bg-zinc-100 text-zinc-900"
+                    }`}
                   >
                     <div className="flex items-center gap-3 pr-2">
-                      <span className="text-lg leading-none select-none p-1.5 rounded-xl bg-zinc-100 border border-black/5 shadow-2xs">{item.icon}</span>
+                      <span className="text-lg leading-none select-none p-1.5 rounded-xl bg-zinc-100 border border-black/5 shadow-2xs">
+                        {item.icon}
+                      </span>
                       <div className="flex flex-col">
                         <span className="text-xs font-semibold text-zinc-900 leading-tight">
                           {item.label}
@@ -143,10 +200,12 @@ export default function MapViewSettings() {
                     {/* Authentic iOS Toggle Switch */}
                     <button
                       type="button"
+                      tabIndex={-1}
                       role="switch"
                       aria-checked={isActive}
                       onClick={(e) => {
                         e.stopPropagation();
+                        setSelectedIndex(index);
                         toggleSetting(item.key);
                       }}
                       className={`relative inline-flex h-7 w-12 shrink-0 cursor-pointer rounded-full p-0.5 transition-colors duration-200 ease-ios focus:outline-none ${

@@ -18,7 +18,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "wayanad-wildlife-sanctuary",
@@ -38,7 +42,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "parambikulam-tiger-reserve",
@@ -58,7 +66,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "thattekad-bird-sanctuary",
@@ -78,7 +90,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "kumarakom-bird-sanctuary",
@@ -98,7 +114,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "keoladeo-bird-sanctuary",
@@ -119,7 +139,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "kumbhalgarh-wildlife-sanctuary",
@@ -139,7 +163,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "national-chambal-sanctuary",
@@ -159,7 +187,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "mount-abu-wildlife-sanctuary",
@@ -179,7 +211,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "salim-ali-bird-sanctuary",
@@ -200,7 +236,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "cotigao-wildlife-sanctuary",
@@ -220,7 +260,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "netravali-wildlife-sanctuary",
@@ -240,7 +284,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "bhitarkanika-wildlife-sanctuary",
@@ -261,7 +309,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "chilika-lake-nalabana-bird-sanctuary",
@@ -281,7 +333,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "gahirmatha-marine-sanctuary",
@@ -299,9 +355,18 @@
         "label": "Odisha Forest Dept",
         "url": "https://odishaforest.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Gahirmatha Marine Sanctuary visitor guidelines",
+        "url": "https://en.wikipedia.org/wiki/Gahirmatha_Marine_Sanctuary",
+        "accessedDate": "2026-07-31"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "permit-required",
+      "accessNotes": "Mandatory permits required given the sensitive olive ridley turtle nesting habitat; access is via guided motorboat tours from a limited number of permitted operators. Zones can close on short notice during the annual mass-nesting period (Jan-Feb) and hatching season."
+    }
   },
   {
     "slug": "point-calimere-wildlife-and-bird-sanctuary",
@@ -322,7 +387,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "vedanthangal-bird-sanctuary",
@@ -342,7 +411,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "srivilliputhur-grizzled-squirrel-sanctuary",
@@ -362,7 +435,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "kutch-desert-wildlife-sanctuary",
@@ -382,7 +459,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "wild-ass-sanctuary-little-rann-of-kutch",
@@ -402,7 +483,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "nal-sarovar-bird-sanctuary",
@@ -422,7 +507,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "cauvery-wildlife-sanctuary",
@@ -442,7 +531,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "bhadra-wildlife-sanctuary",
@@ -462,7 +555,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "ranganathittu-bird-sanctuary",
@@ -482,7 +579,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "koyna-wildlife-sanctuary",
@@ -502,7 +603,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "bhimashankar-wildlife-sanctuary",
@@ -522,7 +627,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "radhanagari-wildlife-sanctuary",
@@ -542,7 +651,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "pobitora-wildlife-sanctuary",
@@ -562,7 +675,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "hoollongapar-gibbon-sanctuary",
@@ -582,7 +699,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "chambal-sanctuary-hp",
@@ -602,7 +723,11 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   },
   {
     "slug": "gulmarg-wildlife-sanctuary",
@@ -622,6 +747,10 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "visitingHours": {
+      "publicAccess": "open",
+      "accessNotes": null
+    }
   }
 ]

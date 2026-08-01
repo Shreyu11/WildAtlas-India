@@ -4,7 +4,8 @@ import { getSpecies, getStates } from "@/lib/data";
 import { CONSERVATION_LABEL, CONSERVATION_TONE } from "@/lib/conservation";
 import { SPECIES_ICON, DEFAULT_SPECIES_ICON } from "@/lib/mockIcons";
 import DataAttributionFooter from "@/components/DataAttributionFooter";
-import SpeciesAudioPlayer from "@/components/audio/SpeciesAudioPlayer";
+
+import SpeciesAudioButton from "@/components/audio/SpeciesAudioButton";
 
 export default async function SpeciesDetail({ slug }: { slug: string }) {
   const [species, states] = await Promise.all([getSpecies(), getStates()]);
@@ -24,16 +25,12 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
       )}
 
       <div>
-        <h1 className="text-2xl font-semibold text-zinc-900">{item.commonName}</h1>
+        <div className="flex items-center gap-2.5">
+          <h1 className="text-2xl font-semibold text-zinc-900">{item.commonName}</h1>
+          <SpeciesAudioButton audioUrl={item.audioUrl} speciesName={item.commonName} size="md" />
+        </div>
         <p className="text-sm italic text-zinc-500">{item.scientificName}</p>
       </div>
-
-      {/* iOS Glassmorphic Species Audio Player */}
-      <SpeciesAudioPlayer
-        audioUrl={item.audioUrl}
-        audioAttribution={item.audioAttribution}
-        speciesName={item.commonName}
-      />
 
       {item.photoAttribution && (
         <p className="mt-1.5 text-[11px] text-zinc-400">
@@ -65,6 +62,14 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
       <p className="mt-4 text-zinc-700 text-sm leading-relaxed">{item.description}</p>
 
       <dl className="mt-6 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2.5 text-xs text-zinc-900">
+        <dt className="font-mono uppercase text-zinc-400">IUCN Status</dt>
+        <dd>
+          <span
+            className={`inline-block rounded px-2 py-0.5 font-mono text-xs font-semibold ${CONSERVATION_TONE[item.conservationStatus]}`}
+          >
+            {CONSERVATION_LABEL[item.conservationStatus]}
+          </span>
+        </dd>
         <dt className="font-mono uppercase text-zinc-400">Habitat</dt>
         <dd className="text-zinc-800">{item.habitat}</dd>
         <dt className="font-mono uppercase text-zinc-400">Found in</dt>
