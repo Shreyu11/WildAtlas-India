@@ -210,6 +210,228 @@
       "stateSlug": "west-bengal",
       "lat": 22.9868,
       "lng": 87.855
+    },
+    {
+      "speciesSlug": "common-myna",
+      "stateSlug": "delhi",
+      "lat": 29.0415,
+      "lng": 77.485
+    },
+    {
+      "speciesSlug": "red-vented-bulbul",
+      "stateSlug": "haryana",
+      "lat": 29.6935,
+      "lng": 76.4285
+    },
+    {
+      "speciesSlug": "rock-pigeon",
+      "stateSlug": "punjab",
+      "lat": 31.464,
+      "lng": 75.8
+    },
+    {
+      "speciesSlug": "black-drongo",
+      "stateSlug": "bihar",
+      "lat": 26.3045,
+      "lng": 86.203
+    },
+    {
+      "speciesSlug": "large-billed-crow",
+      "stateSlug": "jharkhand",
+      "lat": 24.052,
+      "lng": 86.0485
+    },
+    {
+      "speciesSlug": "common-tailorbird",
+      "stateSlug": "odisha",
+      "lat": 20.5835,
+      "lng": 84.833
+    },
+    {
+      "speciesSlug": "indian-pond-heron",
+      "stateSlug": "west-bengal",
+      "lat": 24.781,
+      "lng": 88.252
+    },
+    {
+      "speciesSlug": "black-kite",
+      "stateSlug": "rajasthan",
+      "lat": 27.029,
+      "lng": 74.2725
+    },
+    {
+      "speciesSlug": "spotted-dove",
+      "stateSlug": "madhya-pradesh",
+      "lat": 24.3745,
+      "lng": 78.826
+    },
+    {
+      "speciesSlug": "greater-coucal",
+      "stateSlug": "chhattisgarh",
+      "lat": 21.342,
+      "lng": 82.715
+    },
+    {
+      "speciesSlug": "red-wattled-lapwing",
+      "stateSlug": "gujarat",
+      "lat": 22.814,
+      "lng": 71.733
+    },
+    {
+      "speciesSlug": "oriental-magpie-robin",
+      "stateSlug": "maharashtra",
+      "lat": 19.218,
+      "lng": 77.1715
+    },
+    {
+      "speciesSlug": "red-whiskered-bulbul",
+      "stateSlug": "karnataka",
+      "lat": 15.4195,
+      "lng": 76.735
+    },
+    {
+      "speciesSlug": "green-bee-eater",
+      "stateSlug": "tamil-nadu",
+      "lat": 11.208,
+      "lng": 78.686
+    },
+    {
+      "speciesSlug": "purple-sunbird",
+      "stateSlug": "andhra-pradesh",
+      "lat": 16.664,
+      "lng": 81.159
+    },
+    {
+      "speciesSlug": "little-cormorant",
+      "stateSlug": "lakshadweep",
+      "lat": 8.2975,
+      "lng": 73.065
+    },
+    {
+      "speciesSlug": "purple-rumped-sunbird",
+      "stateSlug": "kerala",
+      "lat": 10.941,
+      "lng": 76.5315
+    },
+    {
+      "speciesSlug": "ashy-prinia",
+      "stateSlug": "himachal-pradesh",
+      "lat": 32.2195,
+      "lng": 76.888
+    },
+    {
+      "speciesSlug": "rufous-treepie",
+      "stateSlug": "uttarakhand",
+      "lat": 30.4945,
+      "lng": 78.891
+    },
+    {
+      "speciesSlug": "white-cheeked-barbet",
+      "stateSlug": "goa",
+      "lat": 15.747,
+      "lng": 73.611
+    },
+    {
+      "speciesSlug": "little-egret",
+      "stateSlug": "andaman-and-nicobar-islands",
+      "lat": 11.228,
+      "lng": 92.842
+    },
+    {
+      "speciesSlug": "jungle-babbler",
+      "stateSlug": "uttar-pradesh",
+      "lat": 27.5415,
+      "lng": 80.4555
+    },
+    {
+      "speciesSlug": "indian-robin",
+      "stateSlug": "telangana",
+      "lat": 18.5124,
+      "lng": 78.6193
+    },
+    {
+      "speciesSlug": "coppersmith-barbet",
+      "stateSlug": "assam",
+      "lat": 26.456,
+      "lng": 92.455
+    },
+    {
+      "speciesSlug": "brahminy-kite",
+      "stateSlug": "odisha",
+      "lat": 20.8335,
+      "lng": 83.783
+    },
+    {
+      "speciesSlug": "laughing-dove",
+      "stateSlug": "gujarat",
+      "lat": 23.064,
+      "lng": 70.683
+    },
+    {
+      "speciesSlug": "white-breasted-waterhen",
+      "stateSlug": "madhya-pradesh",
+      "lat": 24.6245,
+      "lng": 77.776
+    },
+    {
+      "speciesSlug": "black-rumped-flameback",
+      "stateSlug": "west-bengal",
+      "lat": 25.031,
+      "lng": 87.202
+    },
+    {
+      "speciesSlug": "eurasian-collared-dove",
+      "stateSlug": "punjab",
+      "lat": 31.714,
+      "lng": 74.75
+    },
+    {
+      "speciesSlug": "grey-francolin",
+      "stateSlug": "haryana",
+      "lat": 29.9435,
+      "lng": 75.3785
+    },
+    {
+      "speciesSlug": "barn-swallow",
+      "stateSlug": "sikkim",
+      "lat": 28.0065,
+      "lng": 88.0695
+    },
+    {
+      "speciesSlug": "common-iora",
+      "stateSlug": "karnataka",
+      "lat": 15.6695,
+      "lng": 75.685
+    },
+    {
+      "speciesSlug": "pale-billed-flowerpecker",
+      "stateSlug": "kerala",
+      "lat": 11.191,
+      "lng": 75.4815
+    },
+    {
+      "speciesSlug": "pied-bushchat",
+      "stateSlug": "maharashtra",
+      "lat": 19.468,
+      "lng": 76.1215
+    },
+    {
+      "speciesSlug": "asian-palm-swift",
+      "stateSlug": "puducherry",
+      "lat": 14.176,
+      "lng": 78.3605
+    },
+    {
+      "speciesSlug": "grey-heron",
+      "stateSlug": "bihar",
+      "lat": 26.5545,
+      "lng": 85.153
+    },
+    {
+      "speciesSlug": "indian-white-eye",
+      "stateSlug": "tamil-nadu",
+      "lat": 11.458,
+      "lng": 77.636
     }
   ],
   "protectedAreaMarkers": [

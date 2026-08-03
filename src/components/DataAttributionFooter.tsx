@@ -3,12 +3,16 @@
 // citation here is that fact itself, not a fabricated source. Species
 // photos are the exception: they're real, individually credited images
 // from Wikimedia Commons (see the photo credit line on each species page).
-export default function DataAttributionFooter() {
+// `extra` lets a specific detail page (e.g. SpeciesDetail) note additional
+// real, cited data it carries beyond photos, without claiming that on
+// pages (zoos/protected areas/states) that don't have it.
+export default function DataAttributionFooter({ extra }: { extra?: string }) {
   return (
     <p className="mt-8 border-t border-zinc-200 pt-3 font-mono text-xs text-zinc-400">
       Mock/placeholder data for this prototype — not yet sourced from GBIF, IUCN Red List,
       eBird/State of India&apos;s Birds, ZSI, or WII. Species photos are real, sourced from
-      Wikimedia Commons and individually credited on each species page.
+      Wikimedia Commons and individually credited on each species page.{" "}
+      {extra}
     </p>
   );
 }

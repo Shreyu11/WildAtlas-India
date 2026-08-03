@@ -43,25 +43,21 @@ export default function StateDetailTabs({
   return (
     <div className="space-y-5">
       {/* 1. State Topology Cover Photo */}
-      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl bg-zinc-900 shadow-md">
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl bg-zinc-100 flex items-center justify-center border border-zinc-200/60">
         {state.photoUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={state.photoUrl}
-            alt={`${state.name} topology`}
-            className="h-full w-full object-cover opacity-90 transition-transform duration-500 hover:scale-105"
+            alt={`${state.name} satellite view`}
+            className="h-full w-full object-contain transition-transform duration-500 hover:scale-105"
           />
         ) : (
-          <div className="flex h-full w-full items-center justify-center bg-emerald-900/40 text-emerald-100 font-mono text-sm">
+          <div className="flex h-full w-full items-center justify-center bg-zinc-200 text-zinc-600 font-mono text-sm">
             Topology Photo
           </div>
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-        <div className="absolute bottom-3 left-4 right-4 text-white">
-          <span className="inline-block rounded-full bg-emerald-500/80 px-2.5 py-0.5 font-mono text-[10px] font-semibold uppercase tracking-wider text-white backdrop-blur-md">
-            State Wildlife Profile
-          </span>
-          <h1 className="mt-1 text-2xl font-bold tracking-tight text-white drop-shadow-sm">
+        <div className="absolute bottom-3 left-4 right-4 pointer-events-none">
+          <h1 className="text-2xl font-bold tracking-tight text-zinc-900">
             {state.name}
           </h1>
         </div>
@@ -123,7 +119,7 @@ export default function StateDetailTabs({
       {/* 3. Overview in Context of Wildlife */}
       <div>
         <h2 className="font-mono text-[11px] font-semibold uppercase tracking-wider text-zinc-400 mb-1">
-          Wildlife & Ecosystem Overview
+          Overview
         </h2>
         <p className="text-sm text-zinc-700 leading-relaxed font-sans">
           {state.overview || `${state.name} features rich habitats and biodiversity essential to India's wildlife.`}

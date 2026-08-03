@@ -14,7 +14,7 @@ export default async function StatePage({
       <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-xl">
         <div className="flex h-14 items-center justify-between border-b border-zinc-200 bg-white px-6">
           <h2 className="font-mono text-xs font-semibold uppercase tracking-wider text-zinc-700">
-            State Info
+            State Wildlife Profile
           </h2>
           <Link
             href="/"

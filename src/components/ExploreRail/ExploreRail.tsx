@@ -74,6 +74,12 @@ export default function ExploreRail({ species }: { species: Species[] }) {
           );
         })}
       </ul>
+      <Link
+        href="/species"
+        className="mt-3 block border-t border-zinc-200/60 pt-2.5 text-center text-[11px] font-semibold text-zinc-500 hover:text-zinc-900 transition-colors duration-150 ease-ios"
+      >
+        See all species &rarr;
+      </Link>
     </div>
   );
 }

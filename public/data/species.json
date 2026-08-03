@@ -16,12 +16,12 @@
       "maharashtra",
       "assam"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiger%20In%20The%20Golden%20Light%20%28139530741%29.jpeg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/bengal-tiger"
+      "author": "\nRohit Varma",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiger_In_The_Golden_Light_(139530741).jpeg"
     },
     "sourceCitations": [
       "IUCN Red List of Threatened Species",
@@ -68,7 +68,33 @@
       "Project Tiger",
       "NTCA Tiger Census"
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "massKg": {
+        "value": {
+          "min": 80.0,
+          "max": 260.0,
+          "note": "from parent taxon tiger (Q19939), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q19939",
+          "accessedDate": "2026-08-03"
+        }
+      },
+      "gestationDays": {
+        "value": {
+          "min": 102,
+          "max": 112,
+          "note": "from parent taxon tiger (Q19939), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q19939",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "asiatic-lion",
@@ -81,12 +107,12 @@
     "stateSlugs": [
       "gujarat"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Asiatic%20Lion%20Gir%20Forest.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/lion"
+      "author": "Nikunj vasoya",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asiatic_Lion_Gir_Forest.jpg"
     },
     "sourceCitations": [
       "IUCN Red List of Threatened Species",
@@ -127,7 +153,33 @@
     "conservationEfforts": [
       "Asiatic Lion Conservation Project"
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "massKg": {
+        "value": {
+          "min": 126.0,
+          "max": 188.0,
+          "note": "from parent taxon lion (Q140), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q140",
+          "accessedDate": "2026-08-03"
+        }
+      },
+      "gestationDays": {
+        "value": {
+          "min": 100,
+          "max": 116,
+          "note": "from parent taxon lion (Q140), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q140",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "indian-rhinoceros",
@@ -142,12 +194,12 @@
       "west-bengal",
       "uttar-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1574063413132-355dbfd83e0c?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20rhinoceros%20%28Rhinoceros%20unicornis%29%204.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/rhino"
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_rhinoceros_(Rhinoceros_unicornis)_4.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -188,7 +240,20 @@
     "conservationEfforts": [
       "Indian Rhino Vision 2020"
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 480,
+          "max": 480
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q47910",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "asian-elephant",
@@ -206,12 +271,12 @@
       "odisha",
       "uttarakhand"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephas%20maximus%20%28Bandipur%29.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/elephant"
+      "author": "Yathin S Krishnappa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elephas_maximus_(Bandipur).jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -248,7 +313,21 @@
       "Project Elephant",
       "Elephant Corridors Initiative"
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 670,
+          "max": 670,
+          "note": "from parent taxon Asian elephant (Q133006), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q133006",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "lion-tailed-macaque",
@@ -263,12 +342,12 @@
       "kerala",
       "tamil-nadu"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1540573133985-778788177484?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion%20Tailed%20Macaque%20aggression.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/macaque"
+      "author": "Amitayu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lion_Tailed_Macaque_aggression.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -295,7 +374,21 @@
         "source": "Western Ghats Primate Survey"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 160,
+          "max": 170,
+          "note": "from parent taxon Macaca (Q177601), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q177601",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "great-indian-bustard",
@@ -310,12 +403,12 @@
       "gujarat",
       "maharashtra"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardeotis%20nigriceps%2C%20Desert%20National%20Park%2C%20Rajasthan%2C%20India%201.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/bird"
+      "author": "Original: SVKMBFLY; this edit: MPF",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ardeotis_nigriceps,_Desert_National_Park,_Rajasthan,_India_1.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -351,7 +444,7 @@
       "Project Great Indian Bustard",
       "Captive Breeding Program (Sam)"
     ],
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "barasingha",
@@ -366,12 +459,12 @@
       "uttar-pradesh",
       "assam"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rucervus%20duvaucelii%20ranjitsinhi%20128361061.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/deer"
+      "author": "Rejoice Gassah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rucervus_duvaucelii_ranjitsinhi_128361061.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -403,7 +496,20 @@
         "source": "MP Forest Department Census"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 213,
+          "max": 244
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q506308",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "indian-giant-squirrel",
@@ -420,12 +526,12 @@
       "tamil-nadu",
       "madhya-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1507666405768-82227eb5852f?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ratufa%20indica%20%28Bhadra%2C%202006%29.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/squirrel"
+      "author": "Yathin S Krishnappa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ratufa_indica_(Bhadra,_2006).jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -440,7 +546,7 @@
       "genus": "Ratufa",
       "species": "Ratufa indica"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "indian-eagle-owl",
@@ -456,12 +562,12 @@
       "maharashtra",
       "karnataka"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubo%20bengalensis%2C%20Shivapuri%20Nagarjun%20NP%2C%20Nepal%2027.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/owl"
+      "author": "Sangyam adventurer",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bubo_bengalensis,_Shivapuri_Nagarjun_NP,_Nepal_27.jpg"
     },
     "sourceCitations": [
       "eBird India",
@@ -476,7 +582,7 @@
       "genus": "Bubo",
       "species": "Bubo bengalensis"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "indian-peafowl",
@@ -494,12 +600,12 @@
       "haryana",
       "uttar-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peafowls%201.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/peacock"
+      "author": "Jameela P.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_peafowls_1.jpg"
     },
     "sourceCitations": [
       "eBird India",
@@ -514,7 +620,7 @@
       "genus": "Pavo",
       "species": "Pavo cristatus"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "narcondam-hornbill",
@@ -527,12 +633,12 @@
     "stateSlugs": [
       "andaman-and-nicobar-islands"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Narcondam%20Hornbill%20DSCN1242%2019.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/hornbill"
+      "author": "Rohitjahnavi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Narcondam_Hornbill_DSCN1242_19.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -559,7 +665,7 @@
         "source": "WII Andaman Island Census"
       }
     ],
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "nicobar-long-tailed-macaque",
@@ -572,12 +678,12 @@
     "stateSlugs": [
       "andaman-and-nicobar-islands"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1527525443983-6e60c75efe46?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Macaca%20fascicularis%20in%20Tarutao%20National%20Marine%20Park.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/macaque"
+      "author": "Rushen; Owner: Thai National Parks",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macaca_fascicularis_in_Tarutao_National_Marine_Park.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -592,7 +698,7 @@
       "genus": "Macaca",
       "species": "Macaca fascicularis"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "snow-leopard",
@@ -610,12 +716,12 @@
       "sikkim",
       "arunachal-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncia%20uncia.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/snow-leopard"
+      "author": "Bernard Landgraf",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uncia_uncia.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -641,7 +747,20 @@
       "Project Snow Leopard",
       "SECURE Himalaya"
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 102,
+          "max": 102
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q30197",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "sloth-bear",
@@ -659,12 +778,12 @@
       "maharashtra",
       "chhattisgarh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/SlothBear.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/bear"
+      "author": "Saumitra Newalkar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SlothBear.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -679,7 +798,20 @@
       "genus": "Melursus",
       "species": "Melursus ursinus"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 209,
+          "max": 211
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q145016",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "indian-leopard",
@@ -697,12 +829,12 @@
       "rajasthan",
       "himachal-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Panthera%20pardus%20close%20up.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/leopard"
+      "author": "tropicaLiving",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panthera_pardus_close_up.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -724,7 +856,21 @@
         "source": "Status of Leopards in India 2022"
       }
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 91,
+          "max": 91,
+          "note": "from parent taxon leopard (Q34706), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q34706",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "cheetah",
@@ -737,12 +883,12 @@
     "stateSlugs": [
       "madhya-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cheetah%20%28Acinonyx%20jubatus%29%20female%202.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/cheetah"
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheetah_(Acinonyx_jubatus)_female_2.jpg"
     },
     "sourceCitations": [
       "Project Cheetah Action Plan (MoEFCC/WII)",
@@ -760,7 +906,31 @@
     "conservationEfforts": [
       "Project Cheetah"
     ],
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "massKg": {
+        "value": {
+          "min": 35.0,
+          "max": 40.2
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23907",
+          "accessedDate": "2026-08-03"
+        }
+      },
+      "gestationDays": {
+        "value": {
+          "min": 92,
+          "max": 92
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23907",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "nilgiri-tahr",
@@ -774,12 +944,12 @@
       "tamil-nadu",
       "kerala"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nilgiri%20tahr%20%28Nilgiritragus%20hylocrius%29%20female.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/goat"
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nilgiri_tahr_(Nilgiritragus_hylocrius)_female.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -794,7 +964,7 @@
       "genus": "Nilgiritragus",
       "species": "Nilgiritragus hylocrius"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "sangai",
@@ -807,12 +977,12 @@
     "stateSlugs": [
       "manipur"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rucervus%20eldii%20thamin%2086968220.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/deer"
+      "author": "Wich’yanan L",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rucervus_eldii_thamin_86968220.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -827,7 +997,21 @@
       "genus": "Rucervus",
       "species": "Rucervus eldii"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 213,
+          "max": 244,
+          "note": "from parent taxon Rucervus eldii (Q646488), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q646488",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "red-panda",
@@ -843,12 +1027,12 @@
       "arunachal-pradesh",
       "meghalaya"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Panda%20%2824986761703%29.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/red-panda"
+      "author": "Mathias Appel",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Panda_(24986761703).jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -863,7 +1047,31 @@
       "genus": "Ailurus",
       "species": "Ailurus fulgens"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "massKg": {
+        "value": {
+          "min": 5.0,
+          "max": 5.0
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q41960",
+          "accessedDate": "2026-08-03"
+        }
+      },
+      "gestationDays": {
+        "value": {
+          "min": 112,
+          "max": 158
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q41960",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "gaur",
@@ -881,12 +1089,12 @@
       "maharashtra",
       "madhya-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Gaur%20from%20anaimalai%20hills%20JEG5290.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/bison"
+      "author": "PJeganathan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Gaur_from_anaimalai_hills_JEG5290.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -901,7 +1109,20 @@
       "genus": "Bos",
       "species": "Bos gaurus"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 270,
+          "max": 280
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q174296",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "hoolock-gibbon",
@@ -918,12 +1139,12 @@
       "nagaland",
       "mizoram"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1540573133985-778788177484?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoolock%20gibbon%2C%20Lawachara%20National%20Park.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/gibbon"
+      "author": "Abdul Momin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoolock_gibbon,_Lawachara_National_Park.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -938,7 +1159,33 @@
       "genus": "Hoolock",
       "species": "Hoolock hoolock"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "massKg": {
+        "value": {
+          "min": 4.0,
+          "max": 13.0,
+          "note": "from parent taxon gibbon (Q185939), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q185939",
+          "accessedDate": "2026-08-03"
+        }
+      },
+      "gestationDays": {
+        "value": {
+          "min": 230,
+          "max": 234,
+          "note": "from parent taxon Hoolock (Q303166), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q303166",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "clouded-leopard",
@@ -955,12 +1202,12 @@
       "arunachal-pradesh",
       "mizoram"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Clouded%20Leopard%20%28205918213%29.jpeg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/leopard"
+      "author": "Lee Elvin",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clouded_Leopard_(205918213).jpeg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -975,7 +1222,20 @@
       "genus": "Neofelis",
       "species": "Neofelis nebulosa"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 90,
+          "max": 90
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q36135",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "blackbuck",
@@ -994,12 +1254,12 @@
       "karnataka",
       "telangana"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blackbuck%20Female%20Grazing.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/antelope"
+      "author": "Rawalams",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blackbuck_Female_Grazing.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1014,7 +1274,20 @@
       "genus": "Antilope",
       "species": "Antilope cervicapra"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 152,
+          "max": 183
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183339",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "chital",
@@ -1033,12 +1306,12 @@
       "maharashtra",
       "tamil-nadu"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chital%20in%20Sanjay%20Dubri%20Tiger%20Reserve%20December%202024%20by%20Tisha%20Mukherjee%2001.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/chital"
+      "author": "Tisha Mukherjee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chital_in_Sanjay_Dubri_Tiger_Reserve_December_2024_by_Tisha_Mukherjee_01.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1053,7 +1326,20 @@
       "genus": "Axis",
       "species": "Axis axis"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 210,
+          "max": 224
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q232054",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "sambar-deer",
@@ -1071,12 +1357,12 @@
       "uttarakhand",
       "kerala"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sambar%20%28Cervus%20unicolor%20unicolor%29%20male.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/deer"
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sambar_(Cervus_unicolor_unicolor)_male.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1091,7 +1377,20 @@
       "genus": "Rusa",
       "species": "Rusa unicolor"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 240,
+          "max": 240
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q229337",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "hangul",
@@ -1104,12 +1403,12 @@
     "stateSlugs": [
       "jammu-and-kashmir"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Last%20Surviving%20Population%20of%20Hangul.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/stag"
+      "author": "Tahirshawl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Last_Surviving_Population_of_Hangul.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1124,7 +1423,7 @@
       "genus": "Cervus",
       "species": "Cervus hanglu"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "dhole",
@@ -1142,12 +1441,12 @@
       "assam",
       "tamil-nadu"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef9?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dhole%28Asiatic%20wild%20dog%29.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/wild-dog"
+      "author": "Davidvraju",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dhole(Asiatic_wild_dog).jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1162,7 +1461,20 @@
       "genus": "Cuon",
       "species": "Cuon alpinus"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 60,
+          "max": 62
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q132585",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "indian-gray-wolf",
@@ -1180,12 +1492,12 @@
       "madhya-pradesh",
       "andhra-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef9?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/MC%20Timberwolf.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/wolf"
+      "author": "Christian Mehlführer, User:Chmehl",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MC_Timberwolf.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1200,7 +1512,21 @@
       "genus": "Canis",
       "species": "Canis lupus"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 61,
+          "max": 63,
+          "note": "from parent taxon Canis lupus (Q18498), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18498",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "golden-jackal",
@@ -1218,12 +1544,12 @@
       "gujarat",
       "west-bengal"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef9?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/001%20Golden%20jackal%20and%20azureum%20flowers%20in%20Jim%20Corbett%20National%20Park%20Photo%20by%20Giles%20Laurent.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/jackal"
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:001_Golden_jackal_and_azureum_flowers_in_Jim_Corbett_National_Park_Photo_by_Giles_Laurent.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1238,7 +1564,7 @@
       "genus": "Canis",
       "species": "Canis aureus"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "striped-hyena",
@@ -1256,12 +1582,12 @@
       "karnataka",
       "telangana"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef9?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Striped%20Hyena%20Adult.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/hyena"
+      "author": "Sumeet Moghe",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Striped_Hyena_Adult.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1276,7 +1602,31 @@
       "genus": "Hyaena",
       "species": "Hyaena hyaena"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "massKg": {
+        "value": {
+          "min": 25.0,
+          "max": 55.0
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q188657",
+          "accessedDate": "2026-08-03"
+        }
+      },
+      "gestationDays": {
+        "value": {
+          "min": 90,
+          "max": 92
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q188657",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "nilgai",
@@ -1295,12 +1645,12 @@
       "punjab",
       "delhi"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nilgai%20%28Boselaphus%20tragocamelus%29%20male.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/nilgai"
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nilgai_(Boselaphus_tragocamelus)_male.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1315,7 +1665,20 @@
       "genus": "Boselaphus",
       "species": "Boselaphus tragocamelus"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 213,
+          "max": 274
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q200444",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "chinkara",
@@ -1332,12 +1695,12 @@
       "punjab",
       "haryana"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gazella%20bennettii%20in%20Iran%2001.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/gazelle"
+      "author": "Abolfazl Fallahzadeh",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gazella_bennettii_in_Iran_01.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1352,7 +1715,7 @@
       "genus": "Gazella",
       "species": "Gazella bennettii"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "indian-wild-ass",
@@ -1365,12 +1728,12 @@
     "stateSlugs": [
       "gujarat"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Wild%20Ass%20in%20the%20Rann%20of%20Kutch.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/wild-ass"
+      "author": "Ikshan Ganpathi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Wild_Ass_in_the_Rann_of_Kutch.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1385,7 +1748,21 @@
       "genus": "Equus",
       "species": "Equus hemionus"
     },
-    "needsResearch": false
+    "needsResearch": false,
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 365,
+          "max": 365,
+          "note": "from parent taxon onager (Q180960), not subspecies-specific"
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q180960",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "wild-water-buffalo",
@@ -1401,12 +1778,12 @@
       "arunachal-pradesh",
       "meghalaya"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Water%20Buffalo%20Bubalus%20arnee%20by%20Dr%20Raju%20Kasambe%20IMG%200347%20%2811%29%20%28cropped%29.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/buffalo"
+      "author": "Dr. Raju Kasambe",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Water_Buffalo_Bubalus_arnee_by_Dr_Raju_Kasambe_IMG_0347_(11)_(cropped).jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1421,7 +1798,7 @@
       "genus": "Bubalus",
       "species": "Bubalus arnee"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "great-hornbill",
@@ -1439,12 +1816,12 @@
       "tamil-nadu",
       "assam"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Hornbill%20Goa.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/hornbill"
+      "author": "Rajan Hatiskar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Hornbill_Goa.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1459,7 +1836,7 @@
       "genus": "Buceros",
       "species": "Buceros bicornis"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "himalayan-monal",
@@ -1476,12 +1853,12 @@
       "sikkim",
       "arunachal-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Himalayan%20Monal%20Adult%20Female%20Tungnath%20Rudraprayag%20Uttarakhand%20India%2014.06.2013.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/monal"
+      "author": "Dibyendu Ash",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Himalayan_Monal_Adult_Female_Tungnath_Rudraprayag_Uttarakhand_India_14.06.2013.jpg"
     },
     "sourceCitations": [
       "eBird India",
@@ -1496,7 +1873,7 @@
       "genus": "Lophophorus",
       "species": "Lophophorus impejanus"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "sarus-crane",
@@ -1513,12 +1890,12 @@
       "madhya-pradesh",
       "haryana"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarus%20crane%20%28Grus%20antigone%29.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/crane"
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarus_crane_(Grus_antigone).jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1533,7 +1910,7 @@
       "genus": "Antigone",
       "species": "Antigone antigone"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "greater-flamingo",
@@ -1550,12 +1927,12 @@
       "odisha",
       "andhra-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/009%20Greater%20flamingos%20male%20and%20female%20in%20the%20Camargue%20during%20mating%20season%20Photo%20by%20Giles%20Laurent.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/flamingo"
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:009_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg"
     },
     "sourceCitations": [
       "eBird India",
@@ -1570,7 +1947,20 @@
       "genus": "Phoenicopterus",
       "species": "Phoenicopterus roseus"
     },
-    "needsResearch": false
+    "needsResearch": true,
+    "physicalTraits": {
+      "lengthCm": {
+        "value": {
+          "min": 120,
+          "max": 145
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q179863",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "house-sparrow",
@@ -1588,12 +1978,12 @@
       "west-bengal",
       "punjab"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1522921820586-9a25b293d052?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/House%20sparrow%20male%20in%20Prospect%20Park%20%2853532%29.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/sparrow"
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_(53532).jpg"
     },
     "sourceCitations": [
       "eBird India",
@@ -1609,7 +1999,7 @@
       "species": "Passer domesticus"
     },
     "worldAnimalDaySlug": "world-sparrow-day",
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "black-necked-crane",
@@ -1624,12 +2014,12 @@
       "jammu-and-kashmir",
       "arunachal-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grus%20nigricollis%20-Bronx%20Zoo-8-3c.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/black-necked-crane"
+      "author": "derivative work: Snowmanradio (talk)\nGrus_nigricollis_-Bronx_Zoo-8.jpg: Eric Savage",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grus_nigricollis_-Bronx_Zoo-8-3c.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1644,7 +2034,7 @@
       "genus": "Grus",
       "species": "Grus nigricollis"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "malabar-pied-hornbill",
@@ -1662,12 +2052,12 @@
       "odisha",
       "madhya-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Malabar%20pied%20hornbill%20%28Anthracoceros%20coronatus%29%20male.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/hornbill"
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malabar_pied_hornbill_(Anthracoceros_coronatus)_male.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1682,7 +2072,7 @@
       "genus": "Anthracoceros",
       "species": "Anthracoceros coronatus"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "indian-vulture",
@@ -1699,12 +2089,12 @@
       "maharashtra",
       "karnataka"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20vulture%20on%20cliff.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/vulture"
+      "author": "Yathin sk at English Wikipedia",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_vulture_on_cliff.jpg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1723,7 +2113,20 @@
       "Vulture Safe Zones",
       "BNHS Breeding Centers"
     ],
-    "needsResearch": false
+    "needsResearch": true,
+    "physicalTraits": {
+      "massKg": {
+        "value": {
+          "min": 5.5,
+          "max": 5.5
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q248086",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "forest-owlet",
@@ -1738,12 +2141,12 @@
       "madhya-pradesh",
       "gujarat"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20Owlet%20Athene%20blewitti%20by%20Ashahar%20alias%20Krishna%20Khan.jpeg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/owlet"
+      "author": "No machine-readable author provided. Ashahar alias Krishna Khan assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forest_Owlet_Athene_blewitti_by_Ashahar_alias_Krishna_Khan.jpeg"
     },
     "sourceCitations": [
       "IUCN Red List",
@@ -1758,7 +2161,7 @@
       "genus": "Athene",
       "species": "Athene blewitti"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "painted-stork",
@@ -1776,12 +2179,12 @@
       "delhi",
       "uttar-pradesh"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mycteria%20leucocephala%20-%20Pak%20Thale.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/stork"
+      "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mycteria_leucocephala_-_Pak_Thale.jpg"
     },
     "sourceCitations": [
       "eBird India",
@@ -1796,7 +2199,7 @@
       "genus": "Mycteria",
       "species": "Mycteria leucocephala"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "bar-headed-goose",
@@ -1814,12 +2217,12 @@
       "odisha",
       "west-bengal"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bar-headed%20Goose%20by%20Tisha%20Mukherjee%2003.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/goose"
+      "author": "Tisha Mukherjee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bar-headed_Goose_by_Tisha_Mukherjee_03.jpg"
     },
     "sourceCitations": [
       "eBird India",
@@ -1834,7 +2237,20 @@
       "genus": "Anser",
       "species": "Anser indicus"
     },
-    "needsResearch": false
+    "needsResearch": true,
+    "physicalTraits": {
+      "massKg": {
+        "value": {
+          "min": 2.2,
+          "max": 2.5
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q191125",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    }
   },
   {
     "slug": "indian-roller",
@@ -1852,12 +2268,12 @@
       "madhya-pradesh",
       "rajasthan"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Roller%20%28Coracias%20benghalensis%292.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/roller"
+      "author": "Koshyk",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Roller_(Coracias_benghalensis)2.jpg"
     },
     "sourceCitations": [
       "eBird India",
@@ -1872,7 +2288,7 @@
       "genus": "Coracias",
       "species": "Coracias benghalensis"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "house-crow",
@@ -1890,12 +2306,12 @@
       "kerala",
       "gujarat"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1522921820586-9a25b293d052?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Crow%20by%20Challiyan.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/crow"
+      "author": "Challiyan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crow_by_Challiyan.jpg"
     },
     "sourceCitations": [
       "eBird India",
@@ -1910,7 +2326,7 @@
       "genus": "Corvus",
       "species": "Corvus splendens"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "malabar-whistling-thrush",
@@ -1927,12 +2343,12 @@
       "goa",
       "maharashtra"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Malabar%20Whistling-Thrush.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/thrush"
+      "author": "Chandru0072",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malabar_Whistling-Thrush.jpg"
     },
     "sourceCitations": [
       "eBird India",
@@ -1947,7 +2363,7 @@
       "genus": "Myophonus",
       "species": "Myophonus horsfieldii"
     },
-    "needsResearch": false
+    "needsResearch": true
   },
   {
     "slug": "indian-pitta",
@@ -1965,12 +2381,12 @@
       "odisha",
       "west-bengal"
     ],
-    "photoUrl": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pitta%20brachyura.jpg?width=800",
     "photoAttribution": {
-      "author": "Unsplash Wildlife",
-      "license": "Unsplash License (Free to use)",
-      "licenseUrl": "https://unsplash.com/license",
-      "sourceUrl": "https://unsplash.com/photos/pitta"
+      "author": "Unknown",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pitta_brachyura.jpg"
     },
     "sourceCitations": [
       "eBird India",
@@ -1985,6 +2401,3005 @@
       "genus": "Pitta",
       "species": "Pitta brachyura"
     },
+    "needsResearch": true
+  },
+  {
+    "slug": "rose-ringed-parakeet",
+    "commonName": "Rose-ringed Parakeet",
+    "scientificName": "Psittacula krameri",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Vibrant green parakeet with a distinctive rose-pink and black neck ring, designated as the official State Bird of Andhra Pradesh.",
+    "habitat": "Woodlands, agricultural fields, urban parks, and dry tropical countryside.",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "telangana",
+      "karnataka",
+      "tamil-nadu"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rose-ringed%20parakeet%20%28Psittacula%20krameri%20borealis%29%20male%20Jaipur.jpg?width=800",
+    "photoAttribution": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rose-ringed_parakeet_(Psittacula_krameri_borealis)_male_Jaipur.jpg"
+    },
+    "sourceCitations": [
+      "IUCN Red List of Threatened Species",
+      "Andhra Pradesh State Wildlife Symbols Notification (2018)"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittaculidae",
+      "genus": "Psittacula",
+      "species": "Psittacula krameri"
+    },
+    "needsResearch": true
+  },
+  {
+    "slug": "white-throated-kingfisher",
+    "commonName": "White-throated Kingfisher",
+    "scientificName": "Halcyon smyrnensis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Tree kingfisher with electric blue back, deep chestnut head and belly, and a brilliant white throat, designated as the official State Bird of West Bengal.",
+    "habitat": "Wetlands, agricultural fields, mangrove channels, and forest ponds.",
+    "stateSlugs": [
+      "west-bengal",
+      "assam",
+      "odisha",
+      "bihar"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Halcyon%20smyrnensis%20-%20White-throated%20kingfisher%2002.jpg?width=800",
+    "photoAttribution": {
+      "author": "Zeynel Cebeci",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halcyon_smyrnensis_-_White-throated_kingfisher_02.jpg"
+    },
+    "sourceCitations": [
+      "IUCN Red List of Threatened Species",
+      "West Bengal State Symbols Portal"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Coraciiformes",
+      "family": "Alcedinidae",
+      "genus": "Halcyon",
+      "species": "Halcyon smyrnensis"
+    },
+    "needsResearch": true
+  },
+  {
+    "slug": "yellow-footed-green-pigeon",
+    "commonName": "Yellow-footed Green Pigeon",
+    "scientificName": "Treron phoenicopterus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Frugivorous pigeon with vibrant green plumage, lilac shoulder patches, and bright yellow feet, designated as the official State Bird of Maharashtra.",
+    "habitat": "Tropical rainforests, banyan groves, and moist deciduous woodlands.",
+    "stateSlugs": [
+      "maharashtra",
+      "madhya-pradesh",
+      "gujarat",
+      "karnataka"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yellow-footed%20Green-Pigeon%20%28Treron%20phoenicopterus%29%20male-8.jpg?width=800",
+    "photoAttribution": {
+      "author": "Lip Kee Yap",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yellow-footed_Green-Pigeon_(Treron_phoenicopterus)_male-8.jpg"
+    },
+    "sourceCitations": [
+      "IUCN Red List of Threatened Species",
+      "Maharashtra Forest Department Records"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Columbiformes",
+      "family": "Columbidae",
+      "genus": "Treron",
+      "species": "Treron phoenicopterus"
+    },
+    "needsResearch": true
+  },
+  {
+    "slug": "emerald-dove",
+    "commonName": "Emerald Dove",
+    "scientificName": "Chalcophaps indica",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Stocky ground pigeon with brilliant metallic emerald-green wings and soft pinkish-grey underparts, designated as the official State Bird of Tamil Nadu.",
+    "habitat": "Dense tropical rainforests, Western Ghats thickets, and bamboo reserves.",
+    "stateSlugs": [
+      "tamil-nadu",
+      "kerala",
+      "andaman-and-nicobar-islands"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Asian%20Emerald%20Dove%20in%20Kuldiha%20Wildlife%20Sanctuary%20March%202025%20by%20Tisha%20Mukherjee%2002.jpg?width=800",
+    "photoAttribution": {
+      "author": "Tisha Mukherjee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asian_Emerald_Dove_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_02.jpg"
+    },
+    "sourceCitations": [
+      "IUCN Red List of Threatened Species",
+      "Tamil Nadu Forest Department"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Columbiformes",
+      "family": "Columbidae",
+      "genus": "Chalcophaps",
+      "species": "Chalcophaps indica"
+    },
+    "needsResearch": true
+  },
+  {
+    "slug": "hill-myna",
+    "commonName": "Hill Myna",
+    "scientificName": "Gracula religiosa",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Glossy black bird with bright yellow head wattles, renowned for its incredible vocal mimicry, designated as the official State Bird of Meghalaya and Chhattisgarh.",
+    "habitat": "Subtropical evergreen hill forests and moist forest canopies.",
+    "stateSlugs": [
+      "meghalaya",
+      "chhattisgarh",
+      "assam",
+      "odisha"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Hill%20Myna%2C%20Satchari%20NP%2C%20Bangladesh%201.jpg?width=800",
+    "photoAttribution": {
+      "author": "Nafis Ameen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_Hill_Myna,_Satchari_NP,_Bangladesh_1.jpg"
+    },
+    "sourceCitations": [
+      "IUCN Red List of Threatened Species",
+      "Meghalaya & Chhattisgarh State Wildlife Boards"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Sturnidae",
+      "genus": "Gracula",
+      "species": "Gracula religiosa"
+    },
+    "needsResearch": true
+  },
+  {
+    "slug": "asian-koel",
+    "commonName": "Asian Koel",
+    "scientificName": "Eudynamys scolopaceus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Cuckoo species famed in Indian poetry for its resonant whistle, designated as the official State Bird of Jharkhand and Puducherry.",
+    "habitat": "Open tropical woodlands, orchards, and suburban gardens.",
+    "stateSlugs": [
+      "jharkhand",
+      "puducherry",
+      "bihar",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudynamys%20scolopacea%20-%2020080801.jpg?width=800",
+    "photoAttribution": {
+      "author": "Doug Janson",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eudynamys_scolopacea_-_20080801.jpg"
+    },
+    "sourceCitations": [
+      "IUCN Red List of Threatened Species",
+      "Jharkhand State Wildlife Records"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Cuculiformes",
+      "family": "Cuculidae",
+      "genus": "Eudynamys",
+      "species": "Eudynamys scolopaceus"
+    },
+    "needsResearch": true
+  },
+  {
+    "slug": "fishing-cat",
+    "commonName": "Fishing Cat",
+    "scientificName": "Prionailurus viverrinus",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "Medium-sized wild cat specially adapted to wetland environments with webbed paws for hunting fish, designated as the official State Animal of West Bengal.",
+    "habitat": "Sundarbans mangroves, freshwater marshes, and riverine swamps.",
+    "stateSlugs": [
+      "west-bengal",
+      "odisha",
+      "andhra-pradesh"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fishing%20Cat%20-%20Wild%20Cat.jpg?width=800",
+    "photoAttribution": {
+      "author": "ISMAIL SHAH KHADHARI",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishing_Cat_-_Wild_Cat.jpg"
+    },
+    "sourceCitations": [
+      "IUCN Red List of Threatened Species",
+      "West Bengal Biodiversity Board"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Prionailurus",
+      "species": "Prionailurus viverrinus"
+    },
+    "physicalTraits": {
+      "gestationDays": {
+        "value": {
+          "min": 63,
+          "max": 67
+        },
+        "source": {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q190674",
+          "accessedDate": "2026-08-03"
+        }
+      }
+    },
     "needsResearch": false
+  },
+  {
+    "slug": "mithun",
+    "commonName": "Mithun (Gayal)",
+    "scientificName": "Bos frontalis",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "Substantial bovine species of Northeast India with distinct white stockings, designated as the official State Animal of Arunachal Pradesh and Nagaland.",
+    "habitat": "Subtropical montane forests, hill tracts, and bamboo clearings.",
+    "stateSlugs": [
+      "arunachal-pradesh",
+      "nagaland",
+      "manipur",
+      "mizoram"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/B4%20darjeling%20para-5.jpg?width=800",
+    "photoAttribution": {
+      "author": "Aditya Kabir",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:B4_darjeling_para-5.jpg"
+    },
+    "sourceCitations": [
+      "IUCN Red List of Threatened Species",
+      "Northeast Hill Wildlife Records"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bos",
+      "species": "Bos frontalis"
+    },
+    "needsResearch": true
+  },
+  {
+    "slug": "dugong",
+    "commonName": "Dugong (Sea Cow)",
+    "scientificName": "Dugong dugon",
+    "taxon": "mammal",
+    "conservationStatus": "VU",
+    "description": "Gentle marine herbivore that grazes on underwater seagrass meadows, designated as the official State Animal of Andaman & Nicobar Islands.",
+    "habitat": "Shallow coastal marine waters, sheltered bays, and seagrass beds.",
+    "stateSlugs": [
+      "andaman-and-nicobar-islands",
+      "tamil-nadu",
+      "gujarat"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dugong%20Marsa%20Alam.jpg?width=800",
+    "photoAttribution": {
+      "author": "Julien Willem",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dugong_Marsa_Alam.jpg"
+    },
+    "sourceCitations": [
+      "IUCN Red List of Threatened Species",
+      "Andaman & Nicobar Forest Department"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Sirenia",
+      "family": "Dugongidae",
+      "genus": "Dugong",
+      "species": "Dugong dugon"
+    },
+    "needsResearch": true
+  },
+  {
+    "slug": "common-myna",
+    "commonName": "Common Myna",
+    "scientificName": "Acridotheres tristis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "One of the most familiar birds in Indian towns and cities, recognized by its chocolate-brown body, glossy black hood, and the bare yellow skin patch behind each eye. This highly adaptable omnivore forages on lawns and pavements in pairs, defends its nesting territory aggressively against rivals, and gathers in communal roosts that can number in the thousands at dusk.",
+    "habitat": "Urban areas, farmland, and open scrub close to human settlement",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Myna%20%28Acridotheres%20tristis%29%20on%20Kapok%20%28Ceiba%20pentandra%29%20in%20Kolkata%20W%20IMG%204297.jpg?width=800",
+    "photoAttribution": {
+      "author": "Asim Mohal",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_Myna_(Acridotheres_tristis)_on_Kapok_(Ceiba_pentandra)_in_Kolkata_W_IMG_4297.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Common_myna"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Sturnidae",
+      "genus": "Acridotheres",
+      "species": "Acridotheres tristis"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "red-vented-bulbul",
+    "commonName": "Red-vented Bulbul",
+    "scientificName": "Pycnonotus cafer",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A common garden and scrubland bird easily told apart by its short, squarish crest, scaly dark-brown body, white rump, and the splash of red under its tail. It feeds on fruit, nectar, and insects in dry scrub, open forest, and cultivated land, and builds a cup nest low in bushes during the June-to-September breeding season across most of the subcontinent.",
+    "habitat": "Dry scrub, open forest, plains, and cultivated land",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Red-vented%20Bulbul%20%28Pycnonotus%20cafer%29%20in%20Tirunelveli%2C%20India.jpg?width=800",
+    "photoAttribution": {
+      "author": "K. Hari Krishnan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red-vented_Bulbul_(Pycnonotus_cafer)_in_Tirunelveli,_India.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Red-vented_bulbul"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Pycnonotidae",
+      "genus": "Pycnonotus",
+      "species": "Pycnonotus cafer"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "rock-pigeon",
+    "commonName": "Rock Pigeon",
+    "scientificName": "Columba livia",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Ancestor of the domestic and feral pigeons seen in almost every Indian city, the rock pigeon has pale grey plumage with two dark wing bars and an iridescent green-and-purple sheen on the neck. Naturally a cliff-nesting species, it now breeds on building ledges nationwide, forages on the ground in large gregarious flocks, and is monogamous, typically raising two chicks per brood.",
+    "habitat": "Cliffs and rocky terrain naturally; building ledges and urban open ground today",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Columba%20livia%20Baltasound%20Shetland%201.jpg?width=800",
+    "photoAttribution": {
+      "author": "Mike Pennington",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columba_livia_Baltasound_Shetland_1.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Rock_dove"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Columbiformes",
+      "family": "Columbidae",
+      "genus": "Columba",
+      "species": "Columba livia"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "black-drongo",
+    "commonName": "Black Drongo",
+    "scientificName": "Dicrurus macrocercus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "An all-black bird with a sharply forked tail, well known for perching conspicuously on wires and bare branches while sallying out after insects. Despite its small size it is fiercely territorial, mobbing and chasing off much larger crows and birds of prey that stray near its nest, a trait that has made it a familiar sight over farmland and open country nationwide.",
+    "habitat": "Open agricultural land and light forest edges",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Drongo%20%28Dicrurus%20macrocercus%29%20IMG%207702%20%281%29..JPG?width=800",
+    "photoAttribution": {
+      "author": "Dr. Raju Kasambe",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Drongo_(Dicrurus_macrocercus)_IMG_7702_(1)..JPG"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Black_drongo"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Dicruridae",
+      "genus": "Dicrurus",
+      "species": "Dicrurus macrocercus"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "large-billed-crow",
+    "commonName": "Large-billed Crow",
+    "scientificName": "Corvus macrorhynchos",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A big, all-black crow with a heavy, arched bill and a glossy purple sheen to its plumage, often confused with the smaller house crow. It is an opportunistic omnivore that forages on the ground and in trees across woodland, parkland, and cultivated country, and is bold enough to scavenge readily around towns and villages wherever it occurs.",
+    "habitat": "Woodland, parks, gardens, and cultivated land with trees",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Large%20billed%20Crow%20I%20IMG%200965.jpg?width=800",
+    "photoAttribution": {
+      "author": "J.M.Garg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Large_billed_Crow_I_IMG_0965.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Large-billed_crow"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Corvidae",
+      "genus": "Corvus",
+      "species": "Corvus macrorhynchos"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "common-tailorbird",
+    "commonName": "Common Tailorbird",
+    "scientificName": "Orthotomus sutorius",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A tiny, bright-green warbler with creamy underparts, a rufous cap, and a long tail typically cocked upright. Named for its habit of stitching leaves together with plant fibre to build a concealed nest pouch, it stays mostly hidden in scrub and garden foliage but gives away its presence with a loud, repeated 'cheeup-cheeup-cheeup' call heard across gardens and farmland throughout the subcontinent.",
+    "habitat": "Open farmland, scrub, forest edges, and urban gardens",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2005-tailor-bird.jpg?width=800",
+    "photoAttribution": {
+      "author": "Yathin S Krishnappa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2005-tailor-bird.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Common_tailorbird"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Cisticolidae",
+      "genus": "Orthotomus",
+      "species": "Orthotomus sutorius"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "indian-pond-heron",
+    "commonName": "Indian Pond Heron",
+    "scientificName": "Ardeola grayii",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A stocky, well-camouflaged heron, streaked olive-brown while standing still but revealing bright white wings the instant it takes flight. Also called the paddybird, it stalks fish, crustaceans, aquatic insects, and tadpoles at the edge of ponds and paddy fields, standing motionless for long stretches, and its dull plumage lets observers approach unusually close before it moves.",
+    "habitat": "Marshes, ponds, paddy fields, and other shallow wetlands",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Pond%20Heron%20in%20Sri%20Lanka.jpg?width=800",
+    "photoAttribution": {
+      "author": "Hafiz Issadeen",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Pond_Heron_in_Sri_Lanka.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Indian_pond_heron"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Pelecaniformes",
+      "family": "Ardeidae",
+      "genus": "Ardeola",
+      "species": "Ardeola grayii"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "black-kite",
+    "commonName": "Black Kite",
+    "scientificName": "Milvus migrans",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A medium-sized bird of prey identified in flight by its angled wings and shallow forked tail, commonly seen gliding on thermals over towns and rubbish dumps. Largely a scavenger and opportunistic hunter, the Indian subspecies reaches some of the highest urban raptor densities recorded anywhere in the world, thriving in cities while generally avoiding heavily forested country.",
+    "habitat": "Urban areas, open country, and farmland, avoiding dense forest",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2007-black-kite.jpg?width=800",
+    "photoAttribution": {
+      "author": "Yathin S Krishnappa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2007-black-kite.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Black_kite"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Accipitriformes",
+      "family": "Accipitridae",
+      "genus": "Milvus",
+      "species": "Milvus migrans"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "spotted-dove",
+    "commonName": "Spotted Dove",
+    "scientificName": "Spilopelia chinensis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A slim, long-tailed dove with warm buff-brown plumage and a distinctive black collar finely spotted with white on the back and sides of the neck. It forages on the ground for seeds and grain, usually in pairs or small groups, and favours lightly wooded country, gardens, and urban parks, tending to occur in moister regions than the closely related laughing dove.",
+    "habitat": "Light forest, gardens, cultivated land, and urban parks",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Spilopelia%20chinensis%20Zhengzhou%2020210607.jpg?width=800",
+    "photoAttribution": {
+      "author": "iNaturalist/zinogre",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spilopelia_chinensis_Zhengzhou_20210607.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Spotted_dove"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Columbiformes",
+      "family": "Columbidae",
+      "genus": "Spilopelia",
+      "species": "Spilopelia chinensis"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "greater-coucal",
+    "commonName": "Greater Coucal",
+    "scientificName": "Centropus sinensis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "Also known as the crow pheasant, this large, non-parasitic cuckoo has a glossy black head and body, chestnut wings, and striking ruby-red eyes. A weak flier, it moves mostly by clambering through undergrowth or walking on the ground, hunting insects, snails, small vertebrates, and the eggs and chicks of other birds across jungle edges, farmland, and even city gardens.",
+    "habitat": "Jungle edges, scrub, cultivated land, and urban gardens",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Greater%20Coucal%20I%20IMG%207775.jpg?width=800",
+    "photoAttribution": {
+      "author": "J.M.Garg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greater_Coucal_I_IMG_7775.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Greater_coucal"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Cuculiformes",
+      "family": "Cuculidae",
+      "genus": "Centropus",
+      "species": "Centropus sinensis"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "red-wattled-lapwing",
+    "commonName": "Red-wattled Lapwing",
+    "scientificName": "Vanellus indicus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A large, sharply marked wader with a black head and bib, brown back, and a bright red fleshy wattle in front of each eye. Usually seen in pairs or small groups near water, it is famous for its loud, scolding 'did-he-do-it' alarm call, given persistently at any intruder near its nest, and it occurs at almost any wetland habitat across South Asia.",
+    "habitat": "Open wetlands, grassland, and farmland near water",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Red-wattled%20Lapwing%20denoised.jpg?width=800",
+    "photoAttribution": {
+      "author": "Red-wattled_Lapwing_cropped.jpg: *Red-wattled_Lapwing.jpg: Karunakar Rayker from India\nderivative work: Samsara (talk)\nderivative work: Samsara",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red-wattled_Lapwing_denoised.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Red-wattled_lapwing"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Charadriiformes",
+      "family": "Charadriidae",
+      "genus": "Vanellus",
+      "species": "Vanellus indicus"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "oriental-magpie-robin",
+    "commonName": "Oriental Magpie-Robin",
+    "scientificName": "Copsychus saularis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A small, confident songbird with a long, often cocked tail; males are glossy black and white with a bold white shoulder patch, while females wear a softer grey-and-white version of the same pattern. It favours open woodland and gardens close to people, foraging on the ground for insects, and males sing loudly and persistently from treetop perches through the breeding season.",
+    "habitat": "Open woodland, gardens, and cultivated land near settlements",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oriental%20magpie-robin%20%28Copsychus%20saularis%20ceylonensis%29%20male.jpg?width=800",
+    "photoAttribution": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oriental_magpie-robin_(Copsychus_saularis_ceylonensis)_male.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Oriental_magpie-robin"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Muscicapidae",
+      "genus": "Copsychus",
+      "species": "Copsychus saularis"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "red-whiskered-bulbul",
+    "commonName": "Red-whiskered Bulbul",
+    "scientificName": "Pycnonotus jocosus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A lively, crested bulbul with brown upperparts, whitish underparts, and a small crimson streak below the eye that gives the species its name. Its tall, pointed black crest and loud, cheerful call make it conspicuous in lightly wooded country, scrub, and farmland, where it often announces itself from a treetop perch, especially in the early morning.",
+    "habitat": "Lightly wooded country, scrub, and farmland",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pycnonotus%20jocosus%20%281%29.jpg?width=800",
+    "photoAttribution": {
+      "author": "Charles Lam from Hong Kong, China",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pycnonotus_jocosus_(1).jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Red-whiskered_bulbul"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Pycnonotidae",
+      "genus": "Pycnonotus",
+      "species": "Pycnonotus jocosus"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "green-bee-eater",
+    "commonName": "Green Bee-eater",
+    "scientificName": "Merops orientalis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A slender, brilliantly coloured bee-eater, almost entirely grass-green with a blue-tinged chin and throat, rufous crown, and two long central tail feathers. It hunts flying insects from low, open perches with quick sallying flights and is highly social, gathering to roost communally in groups of up to a few hundred birds in grassland and open scrub country.",
+    "habitat": "Grassland, open scrub, and cultivated land",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20Bee-eater%20%28Merops%20orientalis%29%20%40%20Madayippara.jpg?width=800",
+    "photoAttribution": {
+      "author": "Vivek Puliyeri",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_Bee-eater_(Merops_orientalis)_@_Madayippara.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Asian_green_bee-eater"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Coraciiformes",
+      "family": "Meropidae",
+      "genus": "Merops",
+      "species": "Merops orientalis"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "purple-sunbird",
+    "commonName": "Purple Sunbird",
+    "scientificName": "Cinnyris asiaticus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A tiny nectar-feeder under 10 centimetres long, with a fine down-curved bill built for probing flowers. Breeding males show iridescent purplish-black plumage that flashes metallic in sunlight, while females are olive-brown above with pale yellow underparts. It feeds mainly on nectar and small insects in gardens and thin forest, usually perching to feed rather than hovering like a hummingbird.",
+    "habitat": "Thin forest, scrub, and garden land, including dense urban areas",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Purple%20Sunbird%20%28Nectarinia%20asiatica%29-%20Male%20%28Breeding%29%20on%20Kapok%20%28Ceiba%20pentandra%29%20in%20Kolkata%20I%20IMG%201893.jpg?width=800",
+    "photoAttribution": {
+      "author": "J.M.Garg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Purple_Sunbird_(Nectarinia_asiatica)-_Male_(Breeding)_on_Kapok_(Ceiba_pentandra)_in_Kolkata_I_IMG_1893.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Purple_sunbird"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Nectariniidae",
+      "genus": "Cinnyris",
+      "species": "Cinnyris asiaticus"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "little-cormorant",
+    "commonName": "Little Cormorant",
+    "scientificName": "Microcarbo niger",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A small waterbird that turns glossy all-black with a short crest and white facial flecks in the breeding season, appearing plainer brown with a whitish throat at other times. It dives from the surface to chase small fish in ponds, lakes, and streams, and frequently perches with wings spread wide to dry after fishing, a habit shared with other cormorants.",
+    "habitat": "Ponds, lakes, streams, and other shallow freshwater bodies",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Microcarbo%20niger%20-%20Laem%20Pak%20Bia.jpg?width=800",
+    "photoAttribution": {
+      "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Microcarbo_niger_-_Laem_Pak_Bia.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Little_cormorant"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Suliformes",
+      "family": "Phalacrocoracidae",
+      "genus": "Microcarbo",
+      "species": "Microcarbo niger"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "purple-rumped-sunbird",
+    "commonName": "Purple-rumped Sunbird",
+    "scientificName": "Leptocoma zeylonica",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A diminutive nectar-feeder under 10 centimetres long, with a thin down-curved bill and brush-tipped tongue built for sipping flowers. Males show dark maroon upperparts, a blue-green crown, and a violet rump patch, while females are plainer olive-brown with yellowish underparts. A common resident of gardens, scrub, and cultivated land across peninsular and eastern India, it stays away from dense, unbroken forest.",
+    "habitat": "Gardens, scrub, and cultivated land with scattered trees",
+    "stateSlugs": [
+      "karnataka",
+      "tamil-nadu",
+      "andhra-pradesh",
+      "telangana",
+      "kerala",
+      "maharashtra",
+      "goa",
+      "gujarat",
+      "madhya-pradesh",
+      "chhattisgarh",
+      "odisha",
+      "west-bengal",
+      "jharkhand",
+      "bihar",
+      "uttar-pradesh",
+      "assam",
+      "meghalaya",
+      "puducherry"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Purple-rumped%20sunbird%20%28Kerala%2C%202015%29.jpg?width=800",
+    "photoAttribution": {
+      "author": "CLpramod",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Purple-rumped_sunbird_(Kerala,_2015).jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Purple-rumped_sunbird"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Nectariniidae",
+      "genus": "Leptocoma",
+      "species": "Leptocoma zeylonica"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "ashy-prinia",
+    "commonName": "Ashy Prinia",
+    "scientificName": "Prinia socialis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A small, active warbler with short rounded wings and a long, graduated tail tipped in cream and black. It flits through scrubland, grassland, and garden hedges hunting insects, and during its bouncing display flight produces a distinctive crackling, spark-like sound. Widespread across most of India, it thins out toward the drier northwest and the Himalayan foothills mark the edge of its range.",
+    "habitat": "Dry open grassland, scrubland, and garden hedges",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashy%20Prinia%20%28Prinia%20socialis%29%20in%20Hyderabad%20W%20IMG%208745.jpg?width=800",
+    "photoAttribution": {
+      "author": "J.M.Garg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ashy_Prinia_(Prinia_socialis)_in_Hyderabad_W_IMG_8745.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Ashy_prinia"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Cisticolidae",
+      "genus": "Prinia",
+      "species": "Prinia socialis"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "rufous-treepie",
+    "commonName": "Rufous Treepie",
+    "scientificName": "Dendrocitta vagabunda",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A striking, long-tailed corvid with a black head, cinnamon body, and a bluish-grey tail tipped in black. Conspicuous and noisy, it moves through open forest, scrubland, and gardens in small groups, giving a wide repertoire of calls including a distinctive bob-o-link. Populations across the subcontinent vary subtly in size and brightness, and Himalayan birds shift elevation seasonally.",
+    "habitat": "Open forest, scrubland, and gardens",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rufous%20treepie%20%28Dendrocitta%20vagabunda%29%2002.jpg?width=800",
+    "photoAttribution": {
+      "author": "Paramanu Sarkar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rufous_treepie_(Dendrocitta_vagabunda)_02.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Rufous_treepie"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Corvidae",
+      "genus": "Dendrocitta",
+      "species": "Dendrocitta vagabunda"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "white-cheeked-barbet",
+    "commonName": "White-cheeked Barbet",
+    "scientificName": "Psilopogon viridis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A stocky green barbet with a brown, white-streaked head and a bold white cheek stripe, endemic to the hill forests of southern India. Mostly a fruit-eater, it excavates its own nest cavities in tree trunks and stays still and well-camouflaged in the canopy, making it far easier to hear than to see.",
+    "habitat": "Western Ghats forest and adjoining hill forest of southern India",
+    "stateSlugs": [
+      "maharashtra",
+      "goa",
+      "karnataka",
+      "kerala",
+      "tamil-nadu",
+      "andhra-pradesh",
+      "telangana"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/White-cheeked%20Barbet%2C%20Bengaluru%2C%2005%20FEB%202017.jpg?width=800",
+    "photoAttribution": {
+      "author": "Vimal Rajyaguru",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:White-cheeked_Barbet,_Bengaluru,_05_FEB_2017.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/White-cheeked_barbet"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Piciformes",
+      "family": "Megalaimidae",
+      "genus": "Psilopogon",
+      "species": "Psilopogon viridis"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "little-egret",
+    "commonName": "Little Egret",
+    "scientificName": "Egretta garzetta",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A slender all-white heron with a fine black bill, black legs, and yellow feet, common at wetlands, rivers, and coastlines across India. It hunts small fish and aquatic invertebrates with an active style, often running through shallow water with wings raised or stirring the bottom with a shuffling foot to flush prey.",
+    "habitat": "Wetlands, rivers, coastlines, and paddy fields",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aigrette%20garzette%20au%20lac%20sud%20de%20Tunis%20%28site%20RAMSAR%29.jpg?width=800",
+    "photoAttribution": {
+      "author": "El Golli Mohamed",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aigrette_garzette_au_lac_sud_de_Tunis_(site_RAMSAR).jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Little_egret"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Pelecaniformes",
+      "family": "Ardeidae",
+      "genus": "Egretta",
+      "species": "Egretta garzetta"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "jungle-babbler",
+    "commonName": "Jungle Babbler",
+    "scientificName": "Turdoides striata",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A drab, brownish-grey babbler with a yellow bill, best known for moving in noisy, sociable flocks of six to ten birds that gave rise to its popular local nickname, the \"seven sisters.\" Found across forests and cultivated land through much of the subcontinent, with a paler subspecies adapted to the deserts of Rajasthan and the Rann of Kutch.",
+    "habitat": "Forest edges, scrubland, and cultivated land",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2005-jungle-babbler.jpg?width=800",
+    "photoAttribution": {
+      "author": "Yathin S Krishnappa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2005-jungle-babbler.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Jungle_babbler"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Leiothrichidae",
+      "genus": "Turdoides",
+      "species": "Turdoides striata"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "indian-robin",
+    "commonName": "Indian Robin",
+    "scientificName": "Saxicoloides fulicatus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A small, confident bird of open scrub, males mostly black with a white shoulder patch and females plain brownish-grey. It runs along bare ground and low walls with its tail cocked upright, hunting insects, and different populations across the subcontinent vary between brown-backed and all-black-backed males.",
+    "habitat": "Open scrub, bare ground, and rocky country",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Copsychus%20fulicatus%20fulicatus%2C%20male%2C%20Coimbatore%20district.jpg?width=800",
+    "photoAttribution": {
+      "author": "PJeganathan, cropped & flipped left-right for taxobox use by MPF",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Copsychus_fulicatus_fulicatus,_male,_Coimbatore_district.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Indian_robin"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Muscicapidae",
+      "genus": "Saxicoloides",
+      "species": "Saxicoloides fulicatus"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "coppersmith-barbet",
+    "commonName": "Coppersmith Barbet",
+    "scientificName": "Psilopogon haemacephalus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A small green barbet with a crimson forehead and breast patch and yellow cheeks and throat, named for its metronomic \"tuk...tuk...tuk\" call that resembles a coppersmith's hammer. Almost entirely fruit-eating, it frequents gardens, groves, and open woodland, and is scarcer in India's arid northwest than across the rest of the subcontinent.",
+    "habitat": "Gardens, groves, and sparse woodland",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Coppersmith%20Barbet%20%28Megalaima%20haemacephala%29%20calling%20in%20Hyderabad%20W%20IMG%208290.jpg?width=800",
+    "photoAttribution": {
+      "author": "J.M.Garg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coppersmith_Barbet_(Megalaima_haemacephala)_calling_in_Hyderabad_W_IMG_8290.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Coppersmith_barbet"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Piciformes",
+      "family": "Megalaimidae",
+      "genus": "Psilopogon",
+      "species": "Psilopogon haemacephalus"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "brahminy-kite",
+    "commonName": "Brahminy Kite",
+    "scientificName": "Haliastur indus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A medium-sized raptor with a white head and breast set against chestnut body plumage and black wingtips, common along coasts, rivers, and inland wetlands. Largely a scavenger of dead fish and crabs, it also takes live prey opportunistically, and in the Himalayan foothills it has been recorded soaring above 5,000 feet.",
+    "habitat": "Coastal areas, rivers, and inland wetlands",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brahminy%20kite%20%28Haliastur%20indus%20indus%29.jpg?width=800",
+    "photoAttribution": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brahminy_kite_(Haliastur_indus_indus).jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Brahminy_kite"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Accipitriformes",
+      "family": "Accipitridae",
+      "genus": "Haliastur",
+      "species": "Haliastur indus"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "laughing-dove",
+    "commonName": "Laughing Dove",
+    "scientificName": "Spilopelia senegalensis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A small, pinkish-brown dove with a chequered patch of black-and-white speckling on its neck, common in dry scrub, semi-desert, and cultivated land. It forages on the ground for fallen seeds and small insects, and pairs perform head-bobbing courtship displays accompanied by a soft, bubbling coo.",
+    "habitat": "Dry scrub, semi-desert, and cultivated land",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Spilopelia%20senegalensis%20-%20Laughing%20Dove%2C%20Adana%202016-12-10%2001-2.jpg?width=800",
+    "photoAttribution": {
+      "author": "Zeynel Cebeci",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spilopelia_senegalensis_-_Laughing_Dove,_Adana_2016-12-10_01-2.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Laughing_dove"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Columbiformes",
+      "family": "Columbidae",
+      "genus": "Spilopelia",
+      "species": "Spilopelia senegalensis"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "white-breasted-waterhen",
+    "commonName": "White-breasted Waterhen",
+    "scientificName": "Amaurornis phoenicurus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A dark slaty waterbird with a clean white face, breast, and belly, bolder and more visible than most rails as it walks across open marsh vegetation with its short tail flicked upright. Active mainly at dawn and dusk, it gives loud croaking calls through the breeding season and occurs from the plains up to over 1,000 metres in the hills.",
+    "habitat": "Marshes, ponds, and vegetation at the water's edge",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20breasted%20Waterhen%20I4-Bhopal%20IMG%200515.jpg?width=800",
+    "photoAttribution": {
+      "author": "J.M.Garg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_breasted_Waterhen_I4-Bhopal_IMG_0515.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/White-breasted_waterhen"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Gruiformes",
+      "family": "Rallidae",
+      "genus": "Amaurornis",
+      "species": "Amaurornis phoenicurus"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "black-rumped-flameback",
+    "commonName": "Black-rumped Flameback",
+    "scientificName": "Dinopium benghalense",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A golden-backed woodpecker with a black rump and a finely white-marked black throat that distinguishes it from other goldenbacks, well adapted to wooded avenues in towns as well as natural forest. Found widely across the subcontinent up to about 1,200 metres elevation, it thins out toward the arid Kutch and Rajasthan desert country.",
+    "habitat": "Open forest, wooded farmland, and tree-lined urban avenues",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Black-rumped%20Flameback%20in%20Rabindra%20Sarobar%20January%202025%20by%20Tisha%20Mukherjee%2001.jpg?width=800",
+    "photoAttribution": {
+      "author": "Tisha Mukherjee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black-rumped_Flameback_in_Rabindra_Sarobar_January_2025_by_Tisha_Mukherjee_01.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Black-rumped_flameback"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Piciformes",
+      "family": "Picidae",
+      "genus": "Dinopium",
+      "species": "Dinopium benghalense"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "eurasian-collared-dove",
+    "commonName": "Eurasian Collared Dove",
+    "scientificName": "Streptopelia decaocto",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A pale grey-buff dove with a neat black half-collar edged in white at the nape, easily told by its flat, three-syllable \"goo-GOO-goo\" call. It breeds readily close to people wherever grain and food scraps are reliable, and its historic range across warm temperate and subtropical Asia runs from Turkey through India to Sri Lanka.",
+    "habitat": "Farmland, villages, and urban areas near a reliable food supply",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Streptopelia%20decaocto%2C%20H%C4%83rman%2C%20Rom%C3%A2nia%20%2834881606270%29.jpg?width=800",
+    "photoAttribution": {
+      "author": "xulescu_g",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Streptopelia_decaocto,_H%C4%83rman,_Rom%C3%A2nia_(34881606270).jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Eurasian_collared_dove"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Columbiformes",
+      "family": "Columbidae",
+      "genus": "Streptopelia",
+      "species": "Streptopelia decaocto"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "grey-francolin",
+    "commonName": "Grey Francolin",
+    "scientificName": "Ortygornis pondicerianus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A ground-dwelling gamebird with finely barred grey-brown plumage and a pale face bordered by a thin black throat line, common across open cultivated land and scrub forest. A weak flier, it prefers to escape danger by running into cover, and it is found through most of the subcontinent south of the Himalayan foothills, rarely above 500 metres.",
+    "habitat": "Open cultivated land and scrub forest",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20francolin%20bng.png?width=800",
+    "photoAttribution": {
+      "author": "Subramanya C K",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grey_francolin_bng.png"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Grey_francolin"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Ortygornis",
+      "species": "Ortygornis pondicerianus"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "barn-swallow",
+    "commonName": "Barn Swallow",
+    "scientificName": "Hirundo rustica",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A swift, agile bird with steel-blue upperparts, a rufous throat, and a deeply forked tail, seen hawking insects low over farmland, pasture, and open water. India hosts large numbers of migratory barn swallows through the winter months, in addition to a breeding population recorded in Sikkim.",
+    "habitat": "Open farmland and pasture, usually near water",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rauchschwalbe%20Hirundo%20rustica.jpg?width=800",
+    "photoAttribution": {
+      "author": "Andreas Trepte",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rauchschwalbe_Hirundo_rustica.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Barn_swallow"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Hirundinidae",
+      "genus": "Hirundo",
+      "species": "Hirundo rustica"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "common-iora",
+    "commonName": "Common Iora",
+    "scientificName": "Aegithina tiphia",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A small, active bird of scrub and forest edge; breeding males show a black cap and back against green wings, while females are a soft olive throughout. Males perform an elaborate courtship display, fluffing their feathers and spiralling down from a perch, and populations across India vary in exactly how much black the male shows on the head and mantle.",
+    "habitat": "Scrub, forest edge, and wooded gardens",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Iora.jpg?width=800",
+    "photoAttribution": {
+      "author": "Flickr user NatureAtYourBackyard . Photo uploaded to commons by user ltshears",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_Iora.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Common_iora"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Aegithinidae",
+      "genus": "Aegithina",
+      "species": "Aegithina tiphia"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "pale-billed-flowerpecker",
+    "commonName": "Pale-billed Flowerpecker",
+    "scientificName": "Dicaeum erythrorhynchos",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "One of the smallest birds in the region at around 8 centimetres, plain olive-brown with a slim, pale, downcurved bill. It feeds on nectar and berries in forest and garden alike, and by passing mistletoe seeds through its gut largely undamaged, it plays an outsized role in spreading this parasitic plant through the treetops of southern India.",
+    "habitat": "Forest and garden trees across southern India",
+    "stateSlugs": [
+      "maharashtra",
+      "goa",
+      "karnataka",
+      "kerala",
+      "tamil-nadu",
+      "andhra-pradesh",
+      "telangana"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pale-billed%20Flowerpecker%20%28Dicaeum%20erythrorhynchos%29%20preening%20in%20Hyderabad%2C%20AP%20W%20IMG%207326.jpg?width=800",
+    "photoAttribution": {
+      "author": "J.M.Garg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pale-billed_Flowerpecker_(Dicaeum_erythrorhynchos)_preening_in_Hyderabad,_AP_W_IMG_7326.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Pale-billed_flowerpecker"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Dicaeidae",
+      "genus": "Dicaeum",
+      "species": "Dicaeum erythrorhynchos"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "pied-bushchat",
+    "commonName": "Pied Bushchat",
+    "scientificName": "Saxicola caprata",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A small, upright perching bird; males are boldly black with white patches on the rump, wing, and lower belly, while females are a drab, streaked brown. It hunts insects from low perches in open country, and its regional populations shift seasonally, arriving on the Karwar coast each October and leaving by May, while remaining absent from Gujarat outside the winter months.",
+    "habitat": "Open grassland and scrub, often near cultivation",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pied%20bushchat%20%28Saxicola%20caprata%20bicolor%29%20female.jpg?width=800",
+    "photoAttribution": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pied_bushchat_(Saxicola_caprata_bicolor)_female.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Pied_bushchat"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Muscicapidae",
+      "genus": "Saxicola",
+      "species": "Saxicola caprata"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "asian-palm-swift",
+    "commonName": "Asian Palm Swift",
+    "scientificName": "Cypsiurus balasiensis",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A slim, pale brown swift with long, swept-back, crescent-shaped wings and a deeply forked tail, spending almost its entire life on the wing. It feeds and even drinks in flight, and its strong association with palm trees — where it glues its tiny nest to the underside of a frond — makes it a familiar sight over open country and cultivation across tropical India.",
+    "habitat": "Open country and cultivation with palm trees",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Asian%20Palm%20Swift%20Cypsiurus%20balasiensis%20in%20flight%2002.JPG?width=800",
+    "photoAttribution": {
+      "author": "Dr. Raju Kasambe",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asian_Palm_Swift_Cypsiurus_balasiensis_in_flight_02.JPG"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Asian_palm_swift"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Apodiformes",
+      "family": "Apodidae",
+      "genus": "Cypsiurus",
+      "species": "Cypsiurus balasiensis"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "grey-heron",
+    "commonName": "Grey Heron",
+    "scientificName": "Ardea cinerea",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A tall, grey-and-white wading bird standing up to a metre high, found at lakes, rivers, marshes, and coastlines. It hunts by standing motionless or wading slowly through shallow water before striking at fish with a swift thrust of its long bill, and its range extends from Europe through the Middle East into India.",
+    "habitat": "Lakes, rivers, marshes, and coastlines",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardea%20cinerea%20-%20Pak%20Thale.jpg?width=800",
+    "photoAttribution": {
+      "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ardea_cinerea_-_Pak_Thale.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Grey_heron"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Pelecaniformes",
+      "family": "Ardeidae",
+      "genus": "Ardea",
+      "species": "Ardea cinerea"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
+  },
+  {
+    "slug": "indian-white-eye",
+    "commonName": "Indian White-eye",
+    "scientificName": "Zosterops palpebrosus",
+    "taxon": "bird",
+    "conservationStatus": "LC",
+    "description": "A tiny, sociable bird with yellowish-olive upperparts, a bright white ring around the eye, and a yellow throat, usually seen foraging in small, active flocks for nectar and insects. Widespread across the subcontinent, hill populations in the Western Ghats and southern hills are recognized as distinct from the birds of the northern plains.",
+    "habitat": "Gardens, forest edge, and scrub",
+    "stateSlugs": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "assam",
+      "bihar",
+      "chandigarh",
+      "chhattisgarh",
+      "dadra-and-nagar-haveli-and-daman-and-diu",
+      "delhi",
+      "goa",
+      "gujarat",
+      "haryana",
+      "himachal-pradesh",
+      "jammu-and-kashmir",
+      "jharkhand",
+      "karnataka",
+      "kerala",
+      "madhya-pradesh",
+      "maharashtra",
+      "manipur",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "sikkim",
+      "tamil-nadu",
+      "telangana",
+      "tripura",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oriental%20White%20Eyes.jpg?width=800",
+    "photoAttribution": {
+      "author": "AshishTripurwar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oriental_White_Eyes.jpg"
+    },
+    "sourceCitations": [
+      "GBIF Occurrence Records (India)",
+      "https://en.wikipedia.org/wiki/Indian_white-eye"
+    ],
+    "taxonClassification": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Zosteropidae",
+      "genus": "Zosterops",
+      "species": "Zosterops palpebrosus"
+    },
+    "photos": [],
+    "habitats": null,
+    "populationTrend": null,
+    "physicalTraits": null,
+    "keyFeaturesRole": null,
+    "seasonalInfo": null,
+    "worldAnimalDaySlug": null,
+    "conservationEfforts": null,
+    "relatedSuggestions": [],
+    "needsResearch": true
   }
 ]

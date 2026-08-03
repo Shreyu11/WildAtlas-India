@@ -1,10 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import type { FunFact, Species } from "@/lib/types";
 import { DEFAULT_SPECIES_ICON, SPECIES_ICON } from "@/lib/mockIcons";
-
 import { X } from "lucide-react";
 
 const STORAGE_PREFIX = "wildatlas-funfact-dismissed-";
@@ -28,12 +27,11 @@ function pickFactOfTheDay(facts: FunFact[]): FunFact | undefined {
 // localStorage-dismiss pattern as WelcomeCard, but keyed per-day since the
 // content itself changes daily. Facts come from public/data/fun-facts.json,
 // each carrying its own Wikipedia citation (PRD "transparent, cited data").
-// When the animal also has a species.json entry, that entry supplies the
-// photo and the "Learn more" link goes to its in-app page; otherwise the
-// card falls back to the illustrated icon and links out to Wikipedia.
+// Clicking anywhere on the card (except close button) opens the details drawer.
 export default function FunFactCard({ facts, species }: { facts: FunFact[]; species: Species[] }) {
   const [dismissed, setDismissed] = useState(true);
   const [key, setKey] = useState<string | null>(null);
+  const router = useRouter();
 
   useEffect(() => {
     const todaysKey = todayKey();
@@ -48,10 +46,22 @@ export default function FunFactCard({ facts, species }: { facts: FunFact[]; spec
 
   if (dismissed || !fact || !key) return null;
 
+  const handleCardClick = () => {
+    if (linkedSpecies) {
+      router.push(`/species/${linkedSpecies.slug}`);
+    } else if (fact.wikipediaUrl) {
+      window.open(fact.wikipediaUrl, "_blank", "noopener,noreferrer");
+    }
+  };
+
   return (
     // top-24, not top-6 — TopNav now floats fixed over the map (h-16) rather
     // than sitting in its own row above it, so this needs to clear it.
-    <div className="absolute right-6 top-24 w-[26rem] max-w-[calc(100vw-3rem)] rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios">
+    <div
+      onClick={handleCardClick}
+      className="group absolute right-6 top-24 w-[26rem] max-w-[calc(100vw-3rem)] cursor-pointer rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios hover:border-zinc-300 hover:shadow-2xl active:scale-[0.99]"
+      title={linkedSpecies ? `View ${linkedSpecies.commonName} details` : "View source on Wikipedia"}
+    >
       <div className="flex items-center justify-between gap-2 border-b border-zinc-200/60 pb-2">
         <p className="font-sans text-xs font-bold uppercase tracking-wider text-zinc-800">
           Did you know?
@@ -60,7 +70,8 @@ export default function FunFactCard({ facts, species }: { facts: FunFact[]; spec
           type="button"
           aria-label="Dismiss fun fact"
           className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-zinc-200/50 text-zinc-600 hover:bg-zinc-200/80 hover:text-zinc-900 transition-all duration-200 ease-ios active:scale-90"
-          onClick={() => {
+          onClick={(e) => {
+            e.stopPropagation();
             localStorage.setItem(STORAGE_PREFIX + key, "true");
             setDismissed(true);
           }}
@@ -70,7 +81,7 @@ export default function FunFactCard({ facts, species }: { facts: FunFact[]; spec
       </div>
 
       <div className="mt-3 flex items-start gap-3">
-        <span className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-white/80 bg-zinc-100 text-xl shadow-2xs">
+        <span className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-white/80 bg-zinc-100 text-xl shadow-2xs group-hover:scale-105 transition-transform duration-200">
           {linkedSpecies?.photoUrl ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
@@ -82,26 +93,11 @@ export default function FunFactCard({ facts, species }: { facts: FunFact[]; spec
             (linkedSpecies && SPECIES_ICON[linkedSpecies.slug]) ?? DEFAULT_SPECIES_ICON
           )}
         </span>
-        <div className="min-w-0">
-          <p className="text-sm font-bold text-zinc-900 leading-tight">{fact.animal}</p>
+        <div className="min-w-0 flex-1">
+          <p className="text-sm font-bold text-zinc-900 leading-tight group-hover:text-emerald-700 transition-colors">
+            {fact.animal}
+          </p>
           <p className="mt-1 text-xs leading-relaxed text-zinc-600">{fact.fact}</p>
-          {linkedSpecies ? (
-            <Link
-              href={`/species/${linkedSpecies.slug}`}
-              className="mt-2.5 inline-flex items-center gap-1 rounded-full bg-zinc-900 px-3 py-1 text-[11px] font-semibold text-white transition-all duration-200 ease-ios hover:bg-zinc-800 active:scale-95 shadow-2xs"
-            >
-              Learn species →
-            </Link>
-          ) : (
-            <a
-              href={fact.wikipediaUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-2.5 inline-flex items-center gap-1 text-[11px] font-semibold text-zinc-700 underline underline-offset-2 hover:text-zinc-900 transition-colors"
-            >
-              Source: Wikipedia ↗
-            </a>
-          )}
         </div>
       </div>
     </div>

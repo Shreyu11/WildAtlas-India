@@ -41,6 +41,21 @@ export interface PopulationTrendPoint {
   source: string;
 }
 
+export interface CitedFact<T> {
+  value: T;
+  source: DataSourceRef;
+}
+
+export interface PhysicalTraits {
+  massKg?: CitedFact<{ min: number; max: number; note?: string }> | null;
+  heightCm?: CitedFact<{ min: number; max: number; note?: string }> | null;
+  lengthCm?: CitedFact<{ min: number; max: number; note?: string }> | null;
+  trophicLevel?: CitedFact<string> | null;
+  collectiveNoun?: CitedFact<string> | null;
+  termForYoung?: CitedFact<string> | null;
+  gestationDays?: CitedFact<{ min: number; max: number }> | null;
+}
+
 export interface SeasonalInfo {
   bestViewingMonths?: string[];
   breedingSeason?: string;
@@ -78,6 +93,7 @@ export interface Species {
   photos?: PhotoAttribution[];
   habitats?: string[] | null;
   populationTrend?: PopulationTrendPoint[] | null;
+  physicalTraits?: PhysicalTraits | null;
   keyFeaturesRole?: string | null;
   seasonalInfo?: SeasonalInfo | null;
   worldAnimalDaySlug?: string | null;
@@ -99,6 +115,16 @@ export interface State {
   overview?: string | null;
 }
 
+// A travel/trip-planning link. "official" is the entity's own site or its
+// state's official tourism board; "operators" is third-party trip/stay/
+// experience content (Wikivoyage article) — kept in separate buckets so the
+// UI can label them distinctly and never imply either is sponsored/paid
+// placement (CLAUDE.md: "no monetization of any kind").
+export interface TravelLinks {
+  official: Array<{ label: string; url: string }>;
+  operators: Array<{ label: string; url: string }>;
+}
+
 export interface ProtectedArea {
   slug: string;
   name: string;
@@ -118,6 +144,10 @@ export interface ProtectedArea {
   relatedSuggestions?: string[];
   sources?: DataSourceRef[];
   needsResearch?: boolean;
+  // Additive fields per DATASET_PLAN.md §2.2, 2026-08-03
+  description?: string | null;
+  photoAttribution?: PhotoAttribution | null; // required whenever photoUrl is a real (non-mock) photo
+  travelLinks?: TravelLinks | null;
 }
 
 export type NationalPark = ProtectedArea & { type: "national-park" };
@@ -149,6 +179,10 @@ export interface Zoo {
   relatedSuggestions?: string[];
   sources?: DataSourceRef[];
   needsResearch?: boolean;
+  // Additive fields per DATASET_PLAN.md §2.2, 2026-08-03. No travelLinks here
+  // — zoos are ex-situ facilities, "trip/stay" framing doesn't apply.
+  description?: string | null;
+  photoAttribution?: PhotoAttribution | null;
 }
 
 // Internationally observed single-species awareness days with a fixed

@@ -18,14 +18,11 @@
 
 ## 1. Feature: Public Roadmap with Voting + Suggestions
 
-### 1.1 Scope decision needed before building (see Section 5)
+### 1.1 Voting model — decided: anonymous, one vote per user/session
 
-Two viable models — plan supports either, but the data model and abuse-prevention approach differ:
+**Confirmed:** anonymous voting, no login required. One upvote per item per visitor, enforced by a combination of a long-lived anonymous session cookie (`wildatlas-voter-id`, set on first vote) plus a hashed IP as a secondary signal, rate-limited via Upstash (Section 1.2). This matches the "public good, low-friction" framing from the PRD and avoids standing up auth (NextAuth / Clerk / Supabase Auth) just for this feature.
 
-- **A. Anonymous voting** — no login; dedupe by a combination of signed cookie + hashed IP, rate-limited.
-- **B. Login-gated voting** — requires an account; dedupe is trivial (one vote per user_id).
-
-Since the app currently has zero auth, **Option A ships faster** and matches "public good, low-friction" framing from the PRD. Option B requires standing up auth (NextAuth / Clerk / Supabase Auth) first, which is a bigger, separable project. Recommendation: **build A now**, structure the schema so B can be layered in later without a rewrite (see 1.3).
+The schema (1.3) already keys `roadmap_votes` on `voter_key` rather than a hard-coded user id, so if login accounts are introduced later for some other reason, votes could be migrated to `user_id`-keyed dedup without a rewrite — but that's not part of this build.
 
 ### 1.2 New infrastructure required
 
@@ -75,7 +72,7 @@ Keeping `roadmap_suggestions` separate from `roadmap_items` means raw suggestion
 
 ### 1.5 Frontend
 
-- New route: `src/app/roadmap/page.tsx` — public page, linked from `TopNav`'s Info icon (or a new dedicated icon — see open question in Section 5).
+- New route: `src/app/roadmap/page.tsx` — public page, linked from the "Platform Roadmap" entry in `TopNav`'s Info dropdown (Section 2.3).
 - Sections: "Planned / In Progress / Shipped" columns or filterable list (status enum drives grouping), each item showing title, description, vote count, and a vote button that reflects the visitor's own vote state (fetched via their `voter_key` cookie).
 - "Suggest a feature" — a simple form (title + description) at the bottom of the page or in a modal, posting to `/api/roadmap/suggestions`. Show a confirmation state ("Thanks — under review") rather than instantly listing it, since it isn't public until promoted.
 - Voter identity: on first visit to `/roadmap` (or first vote attempt), set a long-lived anonymous `wildatlas-voter-id` cookie (crypto-random UUID) if not already present — this is the anon identity used for the `voter_key` hash, separate from any onboarding-related storage keys.
@@ -102,7 +99,7 @@ Populate `roadmap_items` at launch with the Phase 2/3 ideas already written in `
 
 Extend the existing dismiss-once-and-remember pattern (`WelcomeCard` + `localStorage`) into a **sequential 3-step spotlight tour** rather than introducing a heavier tutorial library, since this app already leans toward minimal, non-blocking UI per the PRD ("Lightweight onboarding... not a blocking tutorial").
 
-Given the app is a small custom Tailwind/MapLibre build (no design-system dependency), recommend a **small custom `OnboardingTour` component** rather than pulling in `react-joyride` or `driver.js` — those libraries fight with MapLibre's own canvas layering and add a dependency for something that's ~150 lines of positioned tooltips. Build vs. library is a real tradeoff though — flagged as a decision point in Section 5.
+**Confirmed:** build a small custom `OnboardingTour` component rather than pulling in `react-joyride` or `driver.js` — those libraries fight with MapLibre's own canvas layering and add a dependency for something that's ~150 lines of positioned tooltips, and stays consistent with the rest of the app's hand-rolled UI.
 
 ### 2.2 New component: `src/components/OnboardingTour/OnboardingTour.tsx`
 
@@ -115,9 +112,15 @@ Given the app is a small custom Tailwind/MapLibre build (no design-system depend
 - Each step: a small arrow-pointing tooltip (positioned via `getBoundingClientRect` on the target ref, recalculated on resize) with "Next" / "Skip" controls. Skipping or finishing either way sets the localStorage flag — every exit path is a one-way dismissal, matching the "never shown again after" requirement in the PRD.
 - Should not fire simultaneously with `WelcomeCard` — sequence them (e.g. welcome card dismiss triggers tour start, or tour runs first and welcome card is folded into step 0) rather than showing two dismissible overlays at once. Recommend **folding `WelcomeCard` into the tour as its intro step**, replacing rather than duplicating it.
 
-### 2.3 Wiring the Info icon (prerequisite)
+### 2.3 Wiring the Info icon — decided: dropdown menu
 
-`TopNav.tsx`'s `Info` button currently has no `onClick`. This plan adds a simple About/Info panel (could be a lightweight modal reusing the existing `Drawer` component already in `src/components/Drawer`) covering data sources and citations — needed both as its own useful feature and as the anchor target for onboarding step 3.
+**Confirmed:** `TopNav.tsx`'s `Info` button (currently a dead button) becomes a dropdown menu with three entries, and doubles as the entry point for both onboarding and the roadmap — no separate roadmap icon needed:
+
+1. **"What is WildAtlas.India?"** — opens the About panel (lightweight modal, reusing the existing `Drawer` component in `src/components/Drawer`) covering what the site is, data sources, and citations. This is also the anchor target for onboarding step 3.
+2. **"Walk me through platform"** — manually restarts the onboarding tour on demand, for visitors who dismissed it and want it back, or return visitors who forgot. Requires `OnboardingProvider` (2.2) to expose a `restart()` action (not just the one-time auto-trigger), which resets `currentStep` to 0 and re-activates the tour without touching the `wildatlas-onboarding-complete` flag until the visitor exits again.
+3. **"Platform Roadmap"** — links to `/roadmap` (Section 1).
+
+This resolves the "where does the roadmap link live" open question from the earlier draft — it lives in the Info dropdown alongside About and the tour restart, rather than getting its own icon.
 
 ### 2.4 Accessibility
 
@@ -149,9 +152,8 @@ These two features are independent and can be built in parallel or either order 
 | Roadmap: seeding + abuse-prevention tuning | 0.5 day |
 | QA pass on both (incl. mobile, a11y) | 0.5–1 day |
 
-## 5. Open decisions before/while building
+## 5. Decisions log
 
-- **Anon vs. login-gated voting** — recommended anon-first (Section 1.1); confirm before building the schema, since retrofitting auth-linked votes later is more work than starting with it.
-- **Where does the roadmap link live in `TopNav`?** — reuse the `Info` icon's dropdown, or add a distinct icon/link. Recommend a distinct entry since Info is being repurposed for data-source/about content in Section 2.3.
-- **Custom tooltip component vs. `react-joyride`/`driver.js`** — recommended custom (Section 2.1) for consistency with the existing hand-rolled UI and to avoid canvas-layering conflicts with MapLibre; flag if you'd rather not maintain custom positioning logic.
-- **Moderation UI for suggestions** — v1 plan assumes you review suggestions directly via the Postgres dashboard rather than building an admin screen; revisit if suggestion volume grows.
+- **Moderation UI for suggestions — decided: no admin screen this phase.** Review suggestions directly via the Postgres dashboard; revisit only if suggestion volume grows enough to make that impractical.
+
+No open decisions remain — this plan is ready to build against.

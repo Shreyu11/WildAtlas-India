@@ -337,7 +337,7 @@ function buildMarkerCard(opts: {
   // (e.g. "Lion-tailed Macaque") instead of clipping with an ellipsis.
   const label = document.createElement("span");
   label.className =
-    "w-full text-center font-mono text-[10px] font-semibold leading-tight text-zinc-800";
+    "w-full text-center [.expanded_&]:text-left font-mono text-[10px] [.expanded_&]:text-[14px] font-semibold leading-tight text-zinc-800";
   label.textContent = opts.label;
   card.appendChild(label);
 
@@ -366,26 +366,35 @@ function buildMarkerCard(opts: {
   fact.textContent = opts.fact;
   detail.appendChild(fact);
 
+  // Footer row container (status badge on left, arrow button on bottom right)
+  const footerRow = document.createElement("div");
+  footerRow.className = "mt-1 flex w-full items-center justify-between pt-1";
+
+  const leftBox = document.createElement("div");
+  leftBox.className = "flex items-center gap-1.5";
   if (opts.status) {
     const badge = document.createElement("span");
     badge.className = `inline-block rounded px-1.5 py-0.5 text-[10px] font-mono ${CONSERVATION_TONE[opts.status]}`;
     badge.textContent = CONSERVATION_LABEL[opts.status];
-    detail.appendChild(badge);
+    leftBox.appendChild(badge);
   }
+  footerRow.appendChild(leftBox);
 
   // Real <a> (not a div with a click handler) for semantics/accessibility;
-  // navigation itself goes through onNavigate (Next.js router.push) rather
-  // than the href, since a plain browser navigation would bypass the
-  // intercepting route the drawer relies on.
+  // navigation itself goes through onNavigate (Next.js router.push).
   const link = document.createElement("a");
   link.href = opts.href;
-  link.className = "text-[11px] font-medium text-zinc-900 underline underline-offset-2";
-  link.textContent = "View details";
+  link.setAttribute("aria-label", "View details");
+  link.className =
+    "ml-auto flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900 text-white transition-all duration-200 hover:bg-zinc-800 active:scale-90 shadow-2xs";
+  link.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>`;
   link.addEventListener("click", (e) => {
     e.preventDefault();
     opts.onNavigate(opts.href);
   });
-  detail.appendChild(link);
+  footerRow.appendChild(link);
+
+  detail.appendChild(footerRow);
 
   // Last flex child of `tooltip`, so it sits flush against the card's
   // bottom edge — a plain CSS border-triangle (not a rotated, separately-
@@ -718,6 +727,31 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       map.getCanvas().style.cursor = "";
     };
 
+const STATE_NAME_ALIASES: Record<string, string> = {
+  uttaranchal: "uttarakhand",
+  orissa: "odisha",
+  "andaman and nicobar": "andaman-and-nicobar-islands",
+  "andaman & nicobar": "andaman-and-nicobar-islands",
+  "dadra and nagar haveli": "dadra-and-nagar-haveli-and-daman-and-diu",
+  "daman and diu": "dadra-and-nagar-haveli-and-daman-and-diu",
+};
+
+function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | undefined {
+  const norm = nameOrSlug.toLowerCase().trim();
+  const aliasSlug = STATE_NAME_ALIASES[norm];
+  if (aliasSlug) {
+    const match = states.find((s) => s.slug === aliasSlug);
+    if (match) return match;
+  }
+  const slugified = norm.replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return states.find(
+    (s) =>
+      s.name.toLowerCase() === norm ||
+      s.slug === slugified ||
+      s.slug === norm
+  );
+}
+
     const handleStateClick = (e: { originalEvent?: MouseEvent; features?: Array<{ id?: string | number; properties?: Record<string, any> }> }) => {
       const target = e.originalEvent?.target;
       if (target instanceof Element && target.closest(".maplibregl-marker")) {
@@ -725,12 +759,8 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       }
       const feature = e.features?.[0];
       if (!feature) return;
-      const stateName = (feature.id || feature.properties?.NAME_1 || feature.properties?.name || "") as string;
-      const foundState = states.find(
-        (s) =>
-          s.name.toLowerCase() === stateName.toLowerCase() ||
-          s.slug === stateName.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
-      );
+      const rawName = (feature.id || feature.properties?.NAME_1 || feature.properties?.name || "") as string;
+      const foundState = findStateByNameOrSlug(states, rawName);
       if (foundState) {
         router.push(`/state/${foundState.slug}`);
       }
@@ -779,14 +809,19 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       collapseExpandedMarker();
       setSelectedSpeciesSlug(null);
     };
-    const handleEscapeKey = (e: KeyboardEvent) => {
+    const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         collapseExpandedMarker();
         setSelectedSpeciesSlug(null);
       }
+      if ((e.metaKey || e.ctrlKey) && (e.key === "0" || e.code === "Digit0" || e.code === "Numpad0")) {
+        e.preventDefault();
+        map.resize();
+        map.fitBounds(INDIA_BOUNDS, { padding: 40, duration: 600 });
+      }
     };
     map.on("click", handleMapBackgroundClick);
-    document.addEventListener("keydown", handleEscapeKey);
+    document.addEventListener("keydown", handleKeyDown);
 
     const createdMarkers: Marker[] = [];
     const speciesMeta: SpeciesMarkerMeta[] = [];
@@ -797,8 +832,9 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       const st = stateBySlug.get(marker.stateSlug);
       if (!sp || !st) continue;
 
+      const isDominant = st.dominantSpeciesSlug === sp.slug;
       const wrapper = speciesMarkerEl(sp, {
-        subtitle: `Dominant species — ${st.name}`,
+        subtitle: isDominant ? `Dominant species — ${st.name}` : `Also found in ${st.name}`,
         fact: sp.description,
         status: sp.conservationStatus,
         href: `/species/${sp.slug}`,
@@ -857,7 +893,7 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
       map.off("mouseleave", "states-fill", handleStateMouseLeave);
       map.off("click", handleMapBackgroundClick);
       map.off("moveend", handleMoveEnd);
-      document.removeEventListener("keydown", handleEscapeKey);
+      document.removeEventListener("keydown", handleKeyDown);
       expandedMarkerRef.current = null;
       paZooMarkersRef.current.forEach((m) => m.remove());
       paZooMarkersRef.current = [];

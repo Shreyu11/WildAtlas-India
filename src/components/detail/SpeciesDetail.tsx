@@ -1,19 +1,57 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getSpecies, getStates } from "@/lib/data";
+import { getSpecies, getStates, getFunFacts } from "@/lib/data";
 import { CONSERVATION_LABEL, CONSERVATION_TONE } from "@/lib/conservation";
 import { SPECIES_ICON, DEFAULT_SPECIES_ICON } from "@/lib/mockIcons";
 import DataAttributionFooter from "@/components/DataAttributionFooter";
+import type { CitedFact } from "@/lib/types";
 
 import SpeciesAudioButton from "@/components/audio/SpeciesAudioButton";
 
+function formatRange(v: { min: number; max: number }, unit: string): string {
+  return v.min === v.max ? `${v.min} ${unit}` : `${v.min}–${v.max} ${unit}`;
+}
+
+function CitedFactRow({
+  label,
+  text,
+  fact,
+}: {
+  label: string;
+  text: string;
+  fact: CitedFact<unknown>;
+}) {
+  const note: string | undefined =
+    fact.value && typeof fact.value === "object" && "note" in fact.value
+      ? (fact.value as { note?: string }).note
+      : undefined;
+  return (
+    <>
+      <dt className="font-mono uppercase text-zinc-400">{label}</dt>
+      <dd className="text-zinc-800">
+        {text}
+        {note && <span className="ml-1.5 text-[10px] italic text-zinc-400">({note})</span>}{" "}
+        <a
+          href={fact.source.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[10px] text-zinc-400 underline underline-offset-2 hover:text-zinc-600"
+        >
+          {fact.source.label}
+        </a>
+      </dd>
+    </>
+  );
+}
+
 export default async function SpeciesDetail({ slug }: { slug: string }) {
-  const [species, states] = await Promise.all([getSpecies(), getStates()]);
+  const [species, states, funFacts] = await Promise.all([getSpecies(), getStates(), getFunFacts()]);
   const item = species.find((s) => s.slug === slug);
 
   if (!item) notFound();
 
   const foundIn = states.filter((s) => item.stateSlugs.includes(s.slug));
+  const funFact = funFacts.find((f) => f.speciesSlug === item.slug);
 
   return (
     <>
@@ -43,6 +81,20 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
             {item.photoAttribution.license}
           </a>{" "}
           via Wikimedia Commons.
+        </p>
+      )}
+
+      {item.audioAttribution && (
+        <p className="mt-1 text-[11px] text-zinc-400">
+          Call:{" "}
+          <a href={item.audioAttribution.sourceUrl} className="underline underline-offset-2" target="_blank" rel="noopener noreferrer">
+            {item.audioAttribution.author}
+          </a>
+          , licensed{" "}
+          <a href={item.audioAttribution.licenseUrl} className="underline underline-offset-2" target="_blank" rel="noopener noreferrer">
+            {item.audioAttribution.license}
+          </a>{" "}
+          via Xeno-canto.
         </p>
       )}
 
@@ -98,7 +150,39 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
             </dd>
           </>
         )}
+        {item.physicalTraits?.massKg && (
+          <CitedFactRow label="Mass" text={formatRange(item.physicalTraits.massKg.value, "kg")} fact={item.physicalTraits.massKg} />
+        )}
+        {item.physicalTraits?.heightCm && (
+          <CitedFactRow label="Height" text={formatRange(item.physicalTraits.heightCm.value, "cm")} fact={item.physicalTraits.heightCm} />
+        )}
+        {item.physicalTraits?.lengthCm && (
+          <CitedFactRow label="Length" text={formatRange(item.physicalTraits.lengthCm.value, "cm")} fact={item.physicalTraits.lengthCm} />
+        )}
+        {item.physicalTraits?.gestationDays && (
+          <CitedFactRow label="Gestation" text={formatRange(item.physicalTraits.gestationDays.value, "days")} fact={item.physicalTraits.gestationDays} />
+        )}
+        {item.physicalTraits?.collectiveNoun && (
+          <CitedFactRow label="Collective noun" text={item.physicalTraits.collectiveNoun.value} fact={item.physicalTraits.collectiveNoun} />
+        )}
       </dl>
+
+      {funFact && (
+        <div className="mt-5 rounded-xl bg-zinc-50 p-3.5 border border-zinc-200/60">
+          <span className="block font-mono text-[10px] font-semibold text-zinc-500 uppercase tracking-wider mb-2">
+            Did you know
+          </span>
+          <p className="text-sm text-zinc-700 leading-relaxed">{funFact.fact}</p>
+          <a
+            href={funFact.wikipediaUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2.5 inline-flex items-center gap-1 text-[11px] font-semibold text-zinc-500 underline underline-offset-2 hover:text-zinc-900 transition-colors"
+          >
+            Source: Wikipedia ↗
+          </a>
+        </div>
+      )}
 
       {item.populationTrend && item.populationTrend.length > 0 && (
         <div className="mt-5 rounded-xl bg-zinc-50 p-3.5 border border-zinc-200/60">
@@ -138,7 +222,13 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
         </div>
       )}
 
-      <DataAttributionFooter />
+      <DataAttributionFooter
+        extra={
+          item.physicalTraits || item.audioAttribution
+            ? "Physical traits shown above (where present) are real, individually cited Wikidata facts, and bird calls (where present) are real recordings from Xeno-canto, credited on this page — the rest of this species' data is still mock/placeholder."
+            : undefined
+        }
+      />
     </>
   );
 }

@@ -38,6 +38,12 @@ Use only these, all public/open-access — no paid or gated data sources without
 - eBird / State of India's Birds (bird range + trends)
 - ZSI State Fauna Series (state-wise checklists)
 - WII National Wildlife Database / NWIS (protected-area list)
+- Protected Planet / WDPA (protected-area coordinates, approved 2026-07-31 — see `docs/DATASET_PLAN.md` §0)
+- Wikidata (per-species physical traits — mass/height/length/etc. — approved 2026-08-03; each fact cites its own Wikidata statement, see `docs/DATASET_PLAN.md` §0/§4). EOL TraitBank was also approved but turned out not viable — its API is effectively unreachable (broken legacy endpoints, Cloudflare-gated `api.eol.org`) — so it's not part of the live pipeline.
+- Xeno-canto (bird-call audio, approved 2026-08-03 — requires a free personal API key, supplied via env var, never committed; birds only, no equivalent open mammal-call archive exists)
+- Wikipedia (approved 2026-08-03 — article extracts as source facts for national-park/sanctuary/zoo `description` and as the primary source for each entity's non-flagship `additionalKeySpeciesSlugs`, cross-matched against the existing species roster; GBIF occurrence radius-query is the fallback when a fauna section doesn't surface enough matches — see `docs/DATASET_PLAN.md` §0/§4. Descriptions are freshly written from these facts, never copy-pasted Wikipedia prose.)
+- Wikivoyage (approved 2026-08-03 — `en.wikivoyage.org` REST summary endpoint, linked as the third-party "trip/stay/experience" entry in a park/sanctuary's `travelLinks.operators` when a matching article verifiably exists; never a guessed URL. Not used for zoos. See `docs/DATASET_PLAN.md` §0/§4.)
+- State tourism board official sites (approved 2026-08-03 — a small hand-verified state→URL lookup table, populates `travelLinks.official` alongside each entity's own `websiteUrl`; parks/sanctuaries only, see `docs/DATASET_PLAN.md` §0/§4)
 
 Every dataset has its own citation/redistribution terms. Any new data source integration must include a source-attribution footer on the data it powers, matching that source's citation requirements. Do not strip or omit attribution to simplify UI.
 
