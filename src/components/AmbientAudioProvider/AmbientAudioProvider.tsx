@@ -53,6 +53,30 @@ export function AmbientAudioProvider({ children }: { children: React.ReactNode }
     };
   }, []);
 
+  // Pause audio automatically when tab or browser window is hidden/out of view, and resume when refocused
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    function handleVisibilityOrFocus() {
+      if (document.hidden || !document.hasFocus()) {
+        audio?.pause();
+      } else if (!muted) {
+        audio?.play().catch(() => {});
+      }
+    }
+
+    document.addEventListener("visibilitychange", handleVisibilityOrFocus);
+    window.addEventListener("blur", handleVisibilityOrFocus);
+    window.addEventListener("focus", handleVisibilityOrFocus);
+
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityOrFocus);
+      window.removeEventListener("blur", handleVisibilityOrFocus);
+      window.removeEventListener("focus", handleVisibilityOrFocus);
+    };
+  }, [muted]);
+
   const toggleMuted = () => {
     setMuted((prev) => {
       const next = !prev;

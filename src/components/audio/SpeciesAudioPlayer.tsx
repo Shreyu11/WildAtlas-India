@@ -22,6 +22,8 @@ export default function SpeciesAudioPlayer({
   audioAttribution,
   speciesName,
 }: SpeciesAudioPlayerProps) {
+  // Audio players hidden globally until verified sound recordings are added
+  return null;
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const synthRef = useRef<{ stop: () => void } | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -180,7 +182,7 @@ export default function SpeciesAudioPlayer({
       {audioUrl && (
         <audio
           ref={audioRef}
-          src={audioUrl}
+          src={audioUrl || undefined}
           preload="metadata"
           onTimeUpdate={() => audioRef.current && setCurrentTime(audioRef.current.currentTime)}
           onLoadedMetadata={() => audioRef.current && setDuration(audioRef.current.duration)}
@@ -258,21 +260,21 @@ export default function SpeciesAudioPlayer({
           <span>
             Recording:{" "}
             <a
-              href={audioAttribution.sourceUrl}
+              href={audioAttribution?.sourceUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium text-zinc-700 underline underline-offset-2 hover:text-zinc-900"
             >
-              {audioAttribution.author}
+              {audioAttribution?.author}
             </a>
           </span>
           <a
-            href={audioAttribution.licenseUrl}
+            href={audioAttribution?.licenseUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-0.5 text-[9px] text-zinc-400 hover:text-zinc-600"
           >
-            {audioAttribution.license} <ExternalLink className="h-2.5 w-2.5" />
+            {audioAttribution?.license} <ExternalLink className="h-2.5 w-2.5" />
           </a>
         </div>
       )}

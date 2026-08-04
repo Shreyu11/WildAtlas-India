@@ -16,6 +16,8 @@ export default function SpeciesAudioButton({
   className = "",
   size = "md",
 }: SpeciesAudioButtonProps) {
+  // Audio buttons hidden globally until verified sound recordings are added
+  return null;
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const synthRef = useRef<{ stop: () => void } | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);

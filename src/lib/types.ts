@@ -148,6 +148,9 @@ export interface ProtectedArea {
   description?: string | null;
   photoAttribution?: PhotoAttribution | null; // required whenever photoUrl is a real (non-mock) photo
   travelLinks?: TravelLinks | null;
+  // Best season/time to visit — parks/sanctuaries only, not Zoo (ex-situ,
+  // open year-round regardless of season). See DATASET_PLAN.md §2.2.2.
+  bestTimeToVisit?: string | null;
 }
 
 export type NationalPark = ProtectedArea & { type: "national-park" };

@@ -43,9 +43,9 @@ export default async function ProtectedAreaIndexPage() {
   ).length;
 
   return (
-    <div className="mx-auto max-w-6xl p-6">
-      <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-xl">
-        <div className="flex h-14 items-center justify-between border-b border-zinc-200 bg-white px-6">
+    <div className="w-full px-6 pt-24 pb-12">
+      <div className="mx-auto w-full overflow-hidden rounded-2xl border border-zinc-200/80 bg-white shadow-xl">
+        <div className="flex h-14 items-center justify-between border-b border-zinc-200/80 bg-white px-6">
           <h2 className="font-mono text-xs font-semibold uppercase tracking-wider text-zinc-700">
             All Parks, Sanctuaries &amp; Zoos
           </h2>
@@ -67,7 +67,7 @@ export default async function ProtectedAreaIndexPage() {
             {withSpecies}/{rows.length} have additional species &middot; {withTravel}/{nationalParks.length + sanctuaries.length} parks/sanctuaries have travel links
           </p>
 
-          <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+          <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
             {rows.map((row) => {
               const missing = missingFields(row);
               const typeIcon = row.kind === "zoo" ? ZOO_ICON : PROTECTED_AREA_ICON[(row.data as ProtectedArea).type] ?? "🌲";

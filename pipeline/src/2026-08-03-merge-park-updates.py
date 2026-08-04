@@ -78,6 +78,7 @@ def merge_entity(
     species_rec: dict | None,
     travel: dict | None,
     desc: dict | None,
+    best_time: dict | None,
     stats: dict,
 ) -> None:
     if photo:
@@ -126,15 +127,20 @@ def merge_entity(
         entry["description"] = desc["description"]
         stats["descriptions_merged"] += 1
 
+    if best_time and best_time.get("bestTimeToVisit"):
+        entry["bestTimeToVisit"] = best_time["bestTimeToVisit"]
+        stats["best_time_merged"] += 1
+
     has_photo = bool(entry.get("photoUrl"))
     has_description = bool(entry.get("description"))
     has_species = bool(entry.get("additionalKeySpeciesSlugs"))
     has_travel = bool(entry.get("travelLinks")) if "travelLinks" in entry or travel is not None else True
+    has_best_time = bool(entry.get("bestTimeToVisit")) if "bestTimeToVisit" in entry or best_time is not None else True
     # Recomputed fresh each run (not OR'd with a prior value) - this pipeline
     # runs incrementally across several sessions as each of the 4 manifests
     # becomes available, and needsResearch should reflect current
     # completeness, not get stuck true from an earlier partial merge.
-    entry["needsResearch"] = not (has_photo and has_description and has_species and has_travel)
+    entry["needsResearch"] = not (has_photo and has_description and has_species and has_travel and has_best_time)
 
 
 def process_file(
@@ -143,6 +149,7 @@ def process_file(
     species_manifest: dict,
     travel_manifest: dict | None,
     descriptions: dict,
+    best_time_manifest: dict | None,
     stats: dict,
 ) -> list[dict]:
     path = DATA_DIR / filename
@@ -155,6 +162,7 @@ def process_file(
             species_manifest.get(slug),
             travel_manifest.get(slug) if travel_manifest is not None else None,
             descriptions.get(slug),
+            best_time_manifest.get(slug) if best_time_manifest is not None else None,
             stats,
         )
     return entries

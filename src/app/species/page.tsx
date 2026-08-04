@@ -11,9 +11,9 @@ export default async function SpeciesIndexPage() {
   const birdCount = species.filter((s) => s.taxon === "bird").length;
 
   return (
-    <div className="mx-auto max-w-5xl p-6">
-      <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-xl">
-        <div className="flex h-14 items-center justify-between border-b border-zinc-200 bg-white px-6">
+    <div className="w-full px-6 pt-24 pb-12">
+      <div className="mx-auto w-full overflow-hidden rounded-2xl border border-zinc-200/80 bg-white shadow-xl">
+        <div className="flex h-14 items-center justify-between border-b border-zinc-200/80 bg-white px-6">
           <h2 className="font-mono text-xs font-semibold uppercase tracking-wider text-zinc-700">
             All Species
           </h2>
@@ -31,7 +31,7 @@ export default async function SpeciesIndexPage() {
             {species.length} species &middot; {mammalCount} mammals &middot; {birdCount} birds
           </p>
 
-          <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+          <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
             {sorted.map((item) => (
               <li key={item.slug}>
                 <Link
