@@ -5,7 +5,7 @@
     "type": "national-park",
     "stateSlug": "assam",
     "headlineSpeciesSlug": "indian-rhinoceros",
-    "photoUrl": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Indian_Rhinoceros_Rhinoceros_unicornis_by_Dr._Raju_Kasambe_%285%29.JPG/960px-Indian_Rhinoceros_Rhinoceros_unicornis_by_Dr._Raju_Kasambe_%285%29.JPG",
     "lat": 26.5775,
     "lng": 93.1711,
     "areaSqKm": 1090,
@@ -16,12 +16,63 @@
         "label": "MoEFCC / Assam Forest Dept",
         "url": "https://kaziranga.assam.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Indian_Rhinoceros_Rhinoceros_unicornis_by_Dr._Raju_Kasambe_(5).JPG",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Kaziranga_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Assam Tourism (official)",
+        "url": "https://assamtourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kaziranga National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Kaziranga_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "Dr. Raju Kasambe",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Rhinoceros_Rhinoceros_unicornis_by_Dr._Raju_Kasambe_(5).JPG"
+    },
+    "additionalKeySpeciesSlugs": [
+      "asian-elephant",
+      "wild-water-buffalo",
+      "fishing-cat",
+      "royal-bengal-tiger",
+      "indian-leopard"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kaziranga National Park",
+          "url": "https://kaziranga.assam.gov.in"
+        },
+        {
+          "label": "Assam Tourism",
+          "url": "https://assamtourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Kaziranga National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Kaziranga_National_Park"
+        }
+      ]
     }
   },
   {
@@ -30,7 +81,7 @@
     "type": "national-park",
     "stateSlug": "assam",
     "headlineSpeciesSlug": "indian-rhinoceros",
-    "photoUrl": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Capped_langur_in_manas.jpg/960px-Capped_langur_in_manas.jpg",
     "lat": 26.6594,
     "lng": 91.0011,
     "areaSqKm": 950,
@@ -41,12 +92,63 @@
         "label": "Assam Forest Dept",
         "url": "https://forest.assam.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Capped_langur_in_manas.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Manas_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Assam Tourism (official)",
+        "url": "https://assamtourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Manas National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Manas_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "Pankaj from Bangalore, India",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capped_langur_in_manas.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "wild-water-buffalo",
+      "great-hornbill",
+      "barasingha",
+      "fishing-cat",
+      "golden-jackal"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Manas National Park",
+          "url": "https://forest.assam.gov.in"
+        },
+        {
+          "label": "Assam Tourism",
+          "url": "https://assamtourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Manas National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Manas_National_Park"
+        }
+      ]
     }
   },
   {
@@ -65,12 +167,63 @@
         "label": "WII / Assam Forest Dept",
         "url": "https://forest.assam.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:NAMERI_NATIONAL_PARK_,_ASSAM,_INDIA,_Wild_Life.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Nameri_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Assam Tourism (official)",
+        "url": "https://assamtourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Nameri National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Nameri_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/NAMERI_NATIONAL_PARK_%2C_ASSAM%2C_INDIA%2C_Wild_Life.jpg/960px-NAMERI_NATIONAL_PARK_%2C_ASSAM%2C_INDIA%2C_Wild_Life.jpg",
+    "photoAttribution": {
+      "author": "Vikramjit Kakati",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NAMERI_NATIONAL_PARK_,_ASSAM,_INDIA,_Wild_Life.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "clouded-leopard",
+      "sloth-bear",
+      "indian-giant-squirrel"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Nameri National Park",
+          "url": "https://forest.assam.gov.in"
+        },
+        {
+          "label": "Assam Tourism",
+          "url": "https://assamtourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Nameri National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Nameri_National_Park"
+        }
+      ]
     }
   },
   {
@@ -89,12 +242,58 @@
         "label": "WII",
         "url": "https://wii.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Greater_one-horned_rhinoceros.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Orang_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Orang National Park (official)",
+        "url": "https://forest.assam.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Assam Tourism (official)",
+        "url": "https://assamtourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Greater_one-horned_rhinoceros.jpg/960px-Greater_one-horned_rhinoceros.jpg",
+    "photoAttribution": {
+      "author": "Nejib Ahmed",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greater_one-horned_rhinoceros.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "asian-elephant",
+      "wild-water-buffalo",
+      "royal-bengal-tiger",
+      "fishing-cat"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Orang National Park",
+          "url": "https://forest.assam.gov.in"
+        },
+        {
+          "label": "Assam Tourism",
+          "url": "https://assamtourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -113,12 +312,59 @@
         "label": "WII",
         "url": "https://wii.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Dibru-Saikhowa_National_Park_(2).jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Dibru-Saikhowa_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Dibru-Saikhowa National Park (official)",
+        "url": "https://forest.assam.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Assam Tourism (official)",
+        "url": "https://assamtourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dibru-Saikhowa_National_Park_%282%29.jpg/960px-Dibru-Saikhowa_National_Park_%282%29.jpg",
+    "photoAttribution": {
+      "author": "Rubul Deka",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dibru-Saikhowa_National_Park_(2).jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "clouded-leopard",
+      "sloth-bear",
+      "hoolock-gibbon",
+      "sambar-deer"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Dibru-Saikhowa National Park",
+          "url": "https://forest.assam.gov.in"
+        },
+        {
+          "label": "Assam Tourism",
+          "url": "https://assamtourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -137,12 +383,59 @@
         "label": "Assam Forest Dept",
         "url": "https://forest.assam.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:%E0%A7%B0%E0%A6%BE%E0%A6%87%E0%A6%AE%E0%A6%A8%E0%A6%BE_%E0%A7%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A7%B0%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Raimona_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Assam Tourism (official)",
+        "url": "https://assamtourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/%E0%A7%B0%E0%A6%BE%E0%A6%87%E0%A6%AE%E0%A6%A8%E0%A6%BE_%E0%A7%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A7%B0%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8.jpg",
+    "photoAttribution": {
+      "author": "Nayan j Nath",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%A7%B0%E0%A6%BE%E0%A6%87%E0%A6%AE%E0%A6%A8%E0%A6%BE_%E0%A7%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A7%B0%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "clouded-leopard",
+      "indian-peafowl",
+      "hill-myna",
+      "spotted-dove",
+      "red-vented-bulbul"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Raimona National Park",
+          "url": "https://forest.assam.gov.in"
+        },
+        {
+          "label": "Assam Tourism",
+          "url": "https://assamtourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -155,18 +448,50 @@
     "lng": 95.4833,
     "areaSqKm": 231.6,
     "websiteUrl": "https://forest.assam.gov.in",
-    "uniqueFeatures": "The Amazon of the East — vast lowland rainforest.",
+    "uniqueFeatures": "The Amazon of the East \u2014 vast lowland rainforest.",
     "sources": [
       {
         "label": "Assam Forest Dept",
         "url": "https://forest.assam.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Assam Tourism (official)",
+        "url": "https://assamtourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "additionalKeySpeciesSlugs": [
+      "spotted-dove",
+      "common-myna",
+      "oriental-magpie-robin",
+      "red-vented-bulbul",
+      "common-tailorbird"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Dihing Patkai National Park",
+          "url": "https://forest.assam.gov.in"
+        },
+        {
+          "label": "Assam Tourism",
+          "url": "https://assamtourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -175,7 +500,7 @@
     "type": "national-park",
     "stateSlug": "gujarat",
     "headlineSpeciesSlug": "asiatic-lion",
-    "photoUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Gir_lion-Gir_forest%2Cjunagadh%2Cgujarat%2Cindia.jpeg",
     "lat": 21.1288,
     "lng": 70.7996,
     "areaSqKm": 1412,
@@ -186,12 +511,63 @@
         "label": "Gujarat Forest Dept",
         "url": "https://forests.gujarat.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Gir_lion-Gir_forest,junagadh,gujarat,india.jpeg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Gir_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Gujarat Tourism (official)",
+        "url": "https://www.gujarattourism.com",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Gir Forest National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Gir_Forest_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "Mayankvagadiya",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gir_lion-Gir_forest,junagadh,gujarat,india.jpeg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "striped-hyena",
+      "golden-jackal",
+      "indian-eagle-owl",
+      "indian-peafowl"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Gir National Park",
+          "url": "https://forests.gujarat.gov.in"
+        },
+        {
+          "label": "Gujarat Tourism",
+          "url": "https://www.gujarattourism.com"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Gir Forest National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Gir_Forest_National_Park"
+        }
+      ]
     }
   },
   {
@@ -210,12 +586,69 @@
         "label": "Gujarat Forest Dept",
         "url": "https://forests.gujarat.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Antilope_cervicapra_from_velavadar.JPG",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Blackbuck_National_Park,_Velavadar",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Gujarat Tourism (official)",
+        "url": "https://www.gujarattourism.com",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Blackbuck National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Blackbuck_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Antilope_cervicapra_from_velavadar.JPG/960px-Antilope_cervicapra_from_velavadar.JPG",
+    "photoAttribution": {
+      "author": "Chinmayisk",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antilope_cervicapra_from_velavadar.JPG"
+    },
+    "additionalKeySpeciesSlugs": [
+      "blackbuck",
+      "striped-hyena",
+      "golden-jackal",
+      "black-drongo",
+      "red-wattled-lapwing"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Blackbuck National Park, Velavadar",
+          "url": "https://forests.gujarat.gov.in"
+        },
+        {
+          "label": "Gujarat Tourism",
+          "url": "https://www.gujarattourism.com"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Blackbuck National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Blackbuck_National_Park"
+        }
+      ]
     }
   },
   {
@@ -234,12 +667,64 @@
         "label": "WII",
         "url": "https://wii.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Vast_Expanse_of_Narara_Sea_Bed_during_Low_Tide_of_Narara_Marine_National_Park.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Marine_National_Park,_Gulf_of_Kutch",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Marine National Park, Gulf of Kutch (official)",
+        "url": "https://forests.gujarat.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Gujarat Tourism (official)",
+        "url": "https://www.gujarattourism.com",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/The_Vast_Expanse_of_Narara_Sea_Bed_during_Low_Tide_of_Narara_Marine_National_Park.jpg/960px-The_Vast_Expanse_of_Narara_Sea_Bed_during_Low_Tide_of_Narara_Marine_National_Park.jpg",
+    "photoAttribution": {
+      "author": "Jan Joseph George",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Vast_Expanse_of_Narara_Sea_Bed_during_Low_Tide_of_Narara_Marine_National_Park.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "greater-flamingo",
+      "grey-heron",
+      "painted-stork",
+      "little-cormorant",
+      "green-bee-eater"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Marine National Park, Gulf of Kutch",
+          "url": "https://forests.gujarat.gov.in"
+        },
+        {
+          "label": "Gujarat Tourism",
+          "url": "https://www.gujarattourism.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -258,12 +743,53 @@
         "label": "Gujarat Forest Dept",
         "url": "https://forests.gujarat.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Vansda_N_Park6.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Vansda_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Gujarat Tourism (official)",
+        "url": "https://www.gujarattourism.com",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Vansda_N_Park6.jpg/960px-Vansda_N_Park6.jpg",
+    "photoAttribution": {
+      "author": "The original uploader was \u0ab8\u0aa4\u0abf\u0ab7\u0a9a\u0a82\u0aa6\u0acd\u0ab0 at Gujarati Wikipedia.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vansda_N_Park6.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "striped-hyena",
+      "indian-giant-squirrel",
+      "jungle-babbler"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Vansda National Park",
+          "url": "https://forests.gujarat.gov.in"
+        },
+        {
+          "label": "Gujarat Tourism",
+          "url": "https://www.gujarattourism.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -272,7 +798,7 @@
     "type": "national-park",
     "stateSlug": "rajasthan",
     "headlineSpeciesSlug": "royal-bengal-tiger",
-    "photoUrl": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ranthambore_Fort_Jain_Temple.jpg/960px-Ranthambore_Fort_Jain_Temple.jpg",
     "lat": 26.0173,
     "lng": 76.5026,
     "areaSqKm": 1334,
@@ -283,12 +809,63 @@
         "label": "Rajasthan Forest Dept",
         "url": "https://forest.rajasthan.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Ranthambore_Fort_Jain_Temple.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Ranthambore_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Rajasthan Tourism (official)",
+        "url": "https://www.tourism.rajasthan.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Ranthambhore National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Ranthambhore_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "Anishshah19",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ranthambore_Fort_Jain_Temple.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "blackbuck",
+      "golden-jackal",
+      "striped-hyena",
+      "indian-leopard",
+      "sloth-bear"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Ranthambore National Park",
+          "url": "https://forest.rajasthan.gov.in"
+        },
+        {
+          "label": "Rajasthan Tourism",
+          "url": "https://www.tourism.rajasthan.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Ranthambhore National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Ranthambhore_National_Park"
+        }
+      ]
     }
   },
   {
@@ -307,12 +884,54 @@
         "label": "Rajasthan Forest Dept",
         "url": "https://forest.rajasthan.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Deer_in_Sariska_Reserve.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Sariska_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Rajasthan Tourism (official)",
+        "url": "https://www.tourism.rajasthan.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Deer_in_Sariska_Reserve.jpg/960px-Deer_in_Sariska_Reserve.jpg",
+    "photoAttribution": {
+      "author": "Dan Lundberg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deer_in_Sariska_Reserve.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "sloth-bear",
+      "indian-leopard",
+      "striped-hyena",
+      "golden-jackal",
+      "sambar-deer"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Sariska National Park",
+          "url": "https://forest.rajasthan.gov.in"
+        },
+        {
+          "label": "Rajasthan Tourism",
+          "url": "https://www.tourism.rajasthan.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -331,12 +950,64 @@
         "label": "WII",
         "url": "https://wii.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Desert_National_Park_(50861830528).jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Desert_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Desert National Park (official)",
+        "url": "https://forest.rajasthan.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Rajasthan Tourism (official)",
+        "url": "https://www.tourism.rajasthan.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Desert_National_Park_%2850861830528%29.jpg/960px-Desert_National_Park_%2850861830528%29.jpg",
+    "photoAttribution": {
+      "author": "Mike Prince from Bangalore, India",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Desert_National_Park_(50861830528).jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "chinkara",
+      "eurasian-collared-dove",
+      "house-sparrow",
+      "rock-pigeon",
+      "green-bee-eater"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Desert National Park",
+          "url": "https://forest.rajasthan.gov.in"
+        },
+        {
+          "label": "Rajasthan Tourism",
+          "url": "https://www.tourism.rajasthan.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -355,12 +1026,64 @@
         "label": "Rajasthan Forest Dept",
         "url": "https://forest.rajasthan.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Keoladeo_Ghana_National_Park,_Bharatpur,_Rajasthan,_India.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Keoladeo_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Rajasthan Tourism (official)",
+        "url": "https://www.tourism.rajasthan.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Keoladeo Bird Sanctuary (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Keoladeo_Bird_Sanctuary",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Keoladeo_Ghana_National_Park%2C_Bharatpur%2C_Rajasthan%2C_India.jpg/960px-Keoladeo_Ghana_National_Park%2C_Bharatpur%2C_Rajasthan%2C_India.jpg",
+    "photoAttribution": {
+      "author": "Nikhilchandra81",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keoladeo_Ghana_National_Park,_Bharatpur,_Rajasthan,_India.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "bar-headed-goose",
+      "little-cormorant",
+      "painted-stork",
+      "sarus-crane",
+      "blackbuck"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Keoladeo National Park",
+          "url": "https://forest.rajasthan.gov.in"
+        },
+        {
+          "label": "Rajasthan Tourism",
+          "url": "https://www.tourism.rajasthan.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Keoladeo Bird Sanctuary (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Keoladeo_Bird_Sanctuary"
+        }
+      ]
     }
   },
   {
@@ -379,12 +1102,44 @@
         "label": "Rajasthan Forest Dept",
         "url": "https://forest.rajasthan.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Rajasthan Tourism (official)",
+        "url": "https://www.tourism.rajasthan.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "additionalKeySpeciesSlugs": [
+      "rose-ringed-parakeet",
+      "red-vented-bulbul",
+      "red-wattled-lapwing",
+      "rufous-treepie",
+      "black-drongo"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Mukundra Hills National Park",
+          "url": "https://forest.rajasthan.gov.in"
+        },
+        {
+          "label": "Rajasthan Tourism",
+          "url": "https://www.tourism.rajasthan.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -393,7 +1148,7 @@
     "type": "national-park",
     "stateSlug": "uttarakhand",
     "headlineSpeciesSlug": "royal-bengal-tiger",
-    "photoUrl": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Corbett_View.jpg/960px-Corbett_View.jpg",
     "lat": 29.53,
     "lng": 78.77,
     "areaSqKm": 1318,
@@ -404,12 +1159,63 @@
         "label": "Uttarakhand Forest Dept",
         "url": "https://corbettonline.uk.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Corbett_View.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Jim_Corbett_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Uttarakhand Tourism (official)",
+        "url": "https://uttarakhandtourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Jim Corbett National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Jim_Corbett_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "netlancer2006 from Bangalore, India",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corbett_View.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "asian-elephant",
+      "indian-rhinoceros",
+      "indian-leopard",
+      "fishing-cat",
+      "sambar-deer"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Jim Corbett National Park",
+          "url": "https://corbettonline.uk.gov.in"
+        },
+        {
+          "label": "Uttarakhand Tourism",
+          "url": "https://uttarakhandtourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Jim Corbett National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Jim_Corbett_National_Park"
+        }
+      ]
     }
   },
   {
@@ -428,12 +1234,69 @@
         "label": "Uttarakhand Forest Dept",
         "url": "https://uk.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Safari_at_Rajaji_National_Park_(Haridwar).jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Rajaji_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Rajaji National Park (official)",
+        "url": "https://rajajinationalpark.co.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Uttarakhand Tourism (official)",
+        "url": "https://uttarakhandtourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Rajaji National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Rajaji_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Safari_at_Rajaji_National_Park_%28Haridwar%29.jpg/960px-Safari_at_Rajaji_National_Park_%28Haridwar%29.jpg",
+    "photoAttribution": {
+      "author": "Tarun802",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Safari_at_Rajaji_National_Park_(Haridwar).jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "sambar-deer",
+      "barasingha",
+      "sloth-bear",
+      "golden-jackal"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Rajaji National Park",
+          "url": "https://rajajinationalpark.co.in"
+        },
+        {
+          "label": "Uttarakhand Tourism",
+          "url": "https://uttarakhandtourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Rajaji National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Rajaji_National_Park"
+        }
+      ]
     }
   },
   {
@@ -457,12 +1320,66 @@
         "label": "Nanda Devi National Park visitor guidelines (Uttarakhand Forest Dept / trekking permit summaries)",
         "url": "https://himalayatrekker.com/trek-permits-regulations/uttarakhand-trekking-permits-regulations/",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Nanda_Devi.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Nanda Devi National Park (official)",
+        "url": "https://forest.uk.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Uttarakhand Tourism (official)",
+        "url": "https://uttarakhandtourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Nanda Devi National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Nanda_Devi_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "restricted",
       "accessNotes": "Inner sanctuary (core zone) closed to general trekking/mountaineering since 1983 to protect the fragile high-alpine ecosystem after over-visitation and grazing damage. Limited eco-tourism reopened in 2003 under strict caps: max 500 permitted visitors per season, groups of up to 5 with a registered guide, permits issued by the DFO Joshimath."
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nanda_Devi.jpg/960px-Nanda_Devi.jpg",
+    "photoAttribution": {
+      "author": "Michael Scalet from India",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanda_Devi.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "himalayan-monal",
+      "house-sparrow"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Nanda Devi National Park",
+          "url": "https://forest.uk.gov.in"
+        },
+        {
+          "label": "Uttarakhand Tourism",
+          "url": "https://uttarakhandtourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Nanda Devi National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Nanda_Devi_National_Park"
+        }
+      ]
     }
   },
   {
@@ -481,12 +1398,74 @@
         "label": "WII",
         "url": "https://wii.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Vof_46.JPG",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Valley_of_Flowers_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Valley of Flowers National Park (official)",
+        "url": "https://forest.uk.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Uttarakhand Tourism (official)",
+        "url": "https://uttarakhandtourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Ghangaria (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Ghangaria",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Vof_46.JPG/960px-Vof_46.JPG",
+    "photoAttribution": {
+      "author": "Guptaele",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vof_46.JPG"
+    },
+    "additionalKeySpeciesSlugs": [
+      "himalayan-monal",
+      "spotted-dove",
+      "large-billed-crow",
+      "house-sparrow",
+      "rock-pigeon"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Valley of Flowers National Park",
+          "url": "https://forest.uk.gov.in"
+        },
+        {
+          "label": "Uttarakhand Tourism",
+          "url": "https://uttarakhandtourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Ghangaria (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Ghangaria"
+        }
+      ]
     }
   },
   {
@@ -505,12 +1484,63 @@
         "label": "Uttarakhand Forest Dept",
         "url": "https://uk.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Gomukha_gangotri.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Gangotri_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Gangotri National Park (official)",
+        "url": "https://forest.uk.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Uttarakhand Tourism (official)",
+        "url": "https://uttarakhandtourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gomukha_gangotri.jpg",
+    "photoAttribution": {
+      "author": "Maneesh.pal",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gomukha_gangotri.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "himalayan-monal",
+      "large-billed-crow",
+      "rock-pigeon",
+      "house-sparrow"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Gangotri National Park",
+          "url": "https://forest.uk.gov.in"
+        },
+        {
+          "label": "Uttarakhand Tourism",
+          "url": "https://uttarakhandtourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -529,12 +1559,61 @@
         "label": "Uttarakhand Forest Dept",
         "url": "https://uk.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Flowers_And_View.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Govind_Pashu_Vihar_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Govind Pashu Vihar National Park (official)",
+        "url": "https://forest.uk.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Uttarakhand Tourism (official)",
+        "url": "https://uttarakhandtourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flowers_And_View.jpg/960px-Flowers_And_View.jpg",
+    "photoAttribution": {
+      "author": "Anshul24Sharma",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flowers_And_View.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "himalayan-monal",
+      "large-billed-crow"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Govind Pashu Vihar National Park",
+          "url": "https://forest.uk.gov.in"
+        },
+        {
+          "label": "Uttarakhand Tourism",
+          "url": "https://uttarakhandtourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -543,7 +1622,7 @@
     "type": "national-park",
     "stateSlug": "madhya-pradesh",
     "headlineSpeciesSlug": "royal-bengal-tiger",
-    "photoUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Southern_plains_grey_langur_%28Semnopithecus_dussumieri%29_female_head.jpg/960px-Southern_plains_grey_langur_%28Semnopithecus_dussumieri%29_female_head.jpg",
     "lat": 22.3344,
     "lng": 80.6115,
     "areaSqKm": 940,
@@ -554,12 +1633,63 @@
         "label": "MP Forest Dept",
         "url": "https://mpforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Southern_plains_grey_langur_(Semnopithecus_dussumieri)_female_head.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Kanha_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Madhya Pradesh Tourism (official)",
+        "url": "https://www.mptourism.com",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kanha National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Kanha_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southern_plains_grey_langur_(Semnopithecus_dussumieri)_female_head.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "sloth-bear",
+      "barasingha",
+      "blackbuck",
+      "green-bee-eater"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kanha National Park",
+          "url": "https://mpforest.gov.in"
+        },
+        {
+          "label": "Madhya Pradesh Tourism",
+          "url": "https://www.mptourism.com"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Kanha National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Kanha_National_Park"
+        }
+      ]
     }
   },
   {
@@ -568,7 +1698,7 @@
     "type": "national-park",
     "stateSlug": "madhya-pradesh",
     "headlineSpeciesSlug": "royal-bengal-tiger",
-    "photoUrl": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Fort_Bandhavgarh_National_Park_Madhya_Pradesh_India.jpg",
     "lat": 23.7014,
     "lng": 81.0261,
     "areaSqKm": 1536,
@@ -579,12 +1709,63 @@
         "label": "MP Forest Dept",
         "url": "https://mpforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Fort_Bandhavgarh_National_Park_Madhya_Pradesh_India.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Bandhavgarh_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Madhya Pradesh Tourism (official)",
+        "url": "https://www.mptourism.com",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Bandhavgarh National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Bandhavgarh_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "LRBurdak",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fort_Bandhavgarh_National_Park_Madhya_Pradesh_India.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "sloth-bear",
+      "striped-hyena",
+      "golden-jackal",
+      "fishing-cat",
+      "indian-peafowl"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Bandhavgarh National Park",
+          "url": "https://mpforest.gov.in"
+        },
+        {
+          "label": "Madhya Pradesh Tourism",
+          "url": "https://www.mptourism.com"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Bandhavgarh National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Bandhavgarh_National_Park"
+        }
+      ]
     }
   },
   {
@@ -603,12 +1784,64 @@
         "label": "MP Forest Dept",
         "url": "https://mpforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Indian_scops_owls_(Otus_bakkamoena)_male_on_right.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Pench_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Madhya Pradesh Tourism (official)",
+        "url": "https://www.mptourism.com",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Pench National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Pench_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Indian_scops_owls_%28Otus_bakkamoena%29_male_on_right.jpg/960px-Indian_scops_owls_%28Otus_bakkamoena%29_male_on_right.jpg",
+    "photoAttribution": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_scops_owls_(Otus_bakkamoena)_male_on_right.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "golden-jackal",
+      "sloth-bear",
+      "indian-peafowl",
+      "indian-vulture"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Pench National Park",
+          "url": "https://mpforest.gov.in"
+        },
+        {
+          "label": "Madhya Pradesh Tourism",
+          "url": "https://www.mptourism.com"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Pench National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Pench_National_Park"
+        }
+      ]
     }
   },
   {
@@ -627,12 +1860,64 @@
         "label": "MP Forest Dept",
         "url": "https://mpforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:A_view_from_Burki_Sada,_Satpura_TR,_Dimocarpus_longan_AJT_Johnsingh._DSCN6575.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Satpura_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Madhya Pradesh Tourism (official)",
+        "url": "https://www.mptourism.com",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Satpura National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Satpura_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/A_view_from_Burki_Sada%2C_Satpura_TR%2C_Dimocarpus_longan_AJT_Johnsingh._DSCN6575.jpg/960px-A_view_from_Burki_Sada%2C_Satpura_TR%2C_Dimocarpus_longan_AJT_Johnsingh._DSCN6575.jpg",
+    "photoAttribution": {
+      "author": "A. J. T. Johnsingh, WWF-India and NCF",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_view_from_Burki_Sada,_Satpura_TR,_Dimocarpus_longan_AJT_Johnsingh._DSCN6575.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "barasingha",
+      "sloth-bear",
+      "indian-giant-squirrel",
+      "malabar-whistling-thrush",
+      "malabar-pied-hornbill"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Satpura National Park",
+          "url": "https://mpforest.gov.in"
+        },
+        {
+          "label": "Madhya Pradesh Tourism",
+          "url": "https://www.mptourism.com"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Satpura National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Satpura_National_Park"
+        }
+      ]
     }
   },
   {
@@ -651,12 +1936,64 @@
         "label": "MP Forest Dept",
         "url": "https://mpforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Panna_river.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Panna_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Madhya Pradesh Tourism (official)",
+        "url": "https://www.mptourism.com",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Panna National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Panna_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Panna_river.jpg/960px-Panna_river.jpg",
+    "photoAttribution": {
+      "author": "Anurag nashirabadkar",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panna_river.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "sambar-deer",
+      "sloth-bear",
+      "bar-headed-goose",
+      "indian-vulture"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Panna National Park",
+          "url": "https://mpforest.gov.in"
+        },
+        {
+          "label": "Madhya Pradesh Tourism",
+          "url": "https://www.mptourism.com"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Panna National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Panna_National_Park"
+        }
+      ]
     }
   },
   {
@@ -675,12 +2012,54 @@
         "label": "MoEFCC / MP Forest",
         "url": "https://mpforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:A_well-fed_bull_in_Kuno_WS_AJTJ_P1070807.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Kuno_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Madhya Pradesh Tourism (official)",
+        "url": "https://www.mptourism.com",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/A_well-fed_bull_in_Kuno_WS_AJTJ_P1070807.jpg/960px-A_well-fed_bull_in_Kuno_WS_AJTJ_P1070807.jpg",
+    "photoAttribution": {
+      "author": "A. J. T. Johnsingh, WWF-India and NCF",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_well-fed_bull_in_Kuno_WS_AJTJ_P1070807.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "asiatic-lion",
+      "cheetah",
+      "blackbuck",
+      "indian-leopard",
+      "sloth-bear"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kuno National Park",
+          "url": "https://mpforest.gov.in"
+        },
+        {
+          "label": "Madhya Pradesh Tourism",
+          "url": "https://www.mptourism.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -699,12 +2078,54 @@
         "label": "MP Forest Dept",
         "url": "https://mpforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Oriolus_xanthornus,_Black-hooded_Oriole,_India_2013.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Sanjay_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Madhya Pradesh Tourism (official)",
+        "url": "https://www.mptourism.com",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Oriolus_xanthornus%2C_Black-hooded_Oriole%2C_India_2013.jpg/960px-Oriolus_xanthornus%2C_Black-hooded_Oriole%2C_India_2013.jpg",
+    "photoAttribution": {
+      "author": "Alastair Rae",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oriolus_xanthornus,_Black-hooded_Oriole,_India_2013.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "sambar-deer",
+      "sloth-bear",
+      "golden-jackal",
+      "striped-hyena"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Sanjay National Park",
+          "url": "https://mpforest.gov.in"
+        },
+        {
+          "label": "Madhya Pradesh Tourism",
+          "url": "https://www.mptourism.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -723,12 +2144,54 @@
         "label": "MP Forest Dept",
         "url": "https://mpforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Madhav_Natioinal_Park.JPG",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Madhya Pradesh Tourism (official)",
+        "url": "https://www.mptourism.com",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Madhav_Natioinal_Park.JPG/960px-Madhav_Natioinal_Park.JPG",
+    "photoAttribution": {
+      "author": "LRBurdak",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madhav_Natioinal_Park.JPG"
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-vented-bulbul",
+      "red-wattled-lapwing",
+      "rock-pigeon",
+      "indian-robin",
+      "rose-ringed-parakeet"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Madhav National Park",
+          "url": "https://mpforest.gov.in"
+        },
+        {
+          "label": "Madhya Pradesh Tourism",
+          "url": "https://www.mptourism.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -747,12 +2210,59 @@
         "label": "WII",
         "url": "https://wii.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Ghughuwa_fossil.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Mandla Plant Fossils National Park (official)",
+        "url": "https://mpforest.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Madhya Pradesh Tourism (official)",
+        "url": "https://www.mptourism.com",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ghughuwa_fossil.jpg/960px-Ghughuwa_fossil.jpg",
+    "photoAttribution": {
+      "author": "NJneeraj",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ghughuwa_fossil.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "black-drongo",
+      "red-wattled-lapwing",
+      "indian-roller",
+      "house-crow",
+      "little-egret"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Mandla Plant Fossils National Park",
+          "url": "https://mpforest.gov.in"
+        },
+        {
+          "label": "Madhya Pradesh Tourism",
+          "url": "https://www.mptourism.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -771,12 +2281,49 @@
         "label": "WII",
         "url": "https://wii.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Dhar Dinosaur Fossils National Park (official)",
+        "url": "https://mpforest.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Madhya Pradesh Tourism (official)",
+        "url": "https://www.mptourism.com",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "additionalKeySpeciesSlugs": [
+      "red-vented-bulbul",
+      "red-wattled-lapwing",
+      "laughing-dove",
+      "rose-ringed-parakeet",
+      "black-drongo"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Dhar Dinosaur Fossils National Park",
+          "url": "https://mpforest.gov.in"
+        },
+        {
+          "label": "Madhya Pradesh Tourism",
+          "url": "https://www.mptourism.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -795,12 +2342,59 @@
         "label": "MP Forest Dept",
         "url": "https://mpforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Alligator_at_Van_Vihar_National_Park.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Van_Vihar_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Madhya Pradesh Tourism (official)",
+        "url": "https://www.mptourism.com",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Alligator_at_Van_Vihar_National_Park.jpg/960px-Alligator_at_Van_Vihar_National_Park.jpg",
+    "photoAttribution": {
+      "author": "Sudheer Pandey",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alligator_at_Van_Vihar_National_Park.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "blackbuck",
+      "red-vented-bulbul",
+      "red-wattled-lapwing",
+      "laughing-dove",
+      "black-drongo"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Van Vihar National Park",
+          "url": "https://mpforest.gov.in"
+        },
+        {
+          "label": "Madhya Pradesh Tourism",
+          "url": "https://www.mptourism.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -809,7 +2403,7 @@
     "type": "national-park",
     "stateSlug": "west-bengal",
     "headlineSpeciesSlug": "royal-bengal-tiger",
-    "photoUrl": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Sundarban_Tiger.jpg/960px-Sundarban_Tiger.jpg",
     "lat": 21.9497,
     "lng": 88.9007,
     "areaSqKm": 1330,
@@ -820,12 +2414,59 @@
         "label": "West Bengal Forest Dept",
         "url": "https://westbengalforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Sundarban_Tiger.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Sundarbans_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Sundarbans National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Sundarbans_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "Soumyajit Nandy",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sundarban_Tiger.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "fishing-cat",
+      "eurasian-collared-dove",
+      "spotted-dove",
+      "asian-palm-swift",
+      "common-iora"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Sundarbans National Park",
+          "url": "https://westbengalforest.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Sundarbans National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Sundarbans_National_Park"
+        }
+      ]
     }
   },
   {
@@ -844,12 +2485,45 @@
         "label": "WB Forest Dept",
         "url": "https://westbengalforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:MYSTERY_UNFOLDING.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Buxa_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/MYSTERY_UNFOLDING.jpg/960px-MYSTERY_UNFOLDING.jpg",
+    "photoAttribution": {
+      "author": "Ssandipchatterjee2016",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MYSTERY_UNFOLDING.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "asian-elephant",
+      "sambar-deer",
+      "clouded-leopard",
+      "indian-leopard",
+      "black-necked-crane"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Buxa National Park",
+          "url": "https://westbengalforest.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -868,12 +2542,60 @@
         "label": "WB Forest Dept",
         "url": "https://westbengalforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Gorumara_Gateway_Arnab_Dutta.JPG",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Gorumara_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Gorumara National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Gorumara_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Gorumara_Gateway_Arnab_Dutta.JPG/960px-Gorumara_Gateway_Arnab_Dutta.JPG",
+    "photoAttribution": {
+      "author": "Jonoikobangali",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gorumara_Gateway_Arnab_Dutta.JPG"
+    },
+    "additionalKeySpeciesSlugs": [
+      "asian-elephant",
+      "sloth-bear",
+      "sambar-deer",
+      "little-cormorant",
+      "common-myna"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Gorumara National Park",
+          "url": "https://westbengalforest.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Gorumara National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Gorumara_National_Park"
+        }
+      ]
     }
   },
   {
@@ -892,12 +2614,60 @@
         "label": "WB Forest Dept",
         "url": "https://westbengalforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:NH317_running_through_Jaldapara_National_Park,_Alipurdooar_India.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Jaldapara_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Jaldapara National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Jaldapara_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/NH317_running_through_Jaldapara_National_Park%2C_Alipurdooar_India.jpg",
+    "photoAttribution": {
+      "author": "Vulpes-bengalensis",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NH317_running_through_Jaldapara_National_Park,_Alipurdooar_India.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "common-myna",
+      "indian-peafowl",
+      "spotted-dove",
+      "black-drongo"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Jaldapara National Park",
+          "url": "https://westbengalforest.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Jaldapara National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Jaldapara_National_Park"
+        }
+      ]
     }
   },
   {
@@ -916,12 +2686,45 @@
         "label": "WB Forest Dept",
         "url": "https://westbengalforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Neora_valley1.png",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Neora_Valley_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Neora_valley1.png",
+    "photoAttribution": {
+      "author": "Anirban Biswas",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neora_valley1.png"
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-panda",
+      "indian-leopard",
+      "sloth-bear",
+      "sambar-deer",
+      "clouded-leopard"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Neora Valley National Park",
+          "url": "https://westbengalforest.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -940,12 +2743,52 @@
         "label": "WB Forest Dept",
         "url": "https://westbengalforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:The_sleeping_Buddha.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Singalila_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Singalila National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Singalila_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/The_sleeping_Buddha.jpg/960px-The_sleeping_Buddha.jpg",
+    "photoAttribution": {
+      "author": "Nibeditajha",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_sleeping_Buddha.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-panda",
+      "clouded-leopard"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Singalila National Park",
+          "url": "https://westbengalforest.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Singalila National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Singalila_National_Park"
+        }
+      ]
     }
   },
   {
@@ -964,12 +2807,68 @@
         "label": "Kerala Forest Dept",
         "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Dense_forest_of_the_Periyar_tiger_reserve_around_the_Sabarimala_temple.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Periyar_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Periyar National Park (official)",
+        "url": "https://periyartigerreserve.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kerala Tourism (official)",
+        "url": "https://www.keralatourism.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Periyar National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Periyar_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Dense_forest_of_the_Periyar_tiger_reserve_around_the_Sabarimala_temple.jpg/960px-Dense_forest_of_the_Periyar_tiger_reserve_around_the_Sabarimala_temple.jpg",
+    "photoAttribution": {
+      "author": "Shantham11",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dense_forest_of_the_Periyar_tiger_reserve_around_the_Sabarimala_temple.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-giant-squirrel",
+      "sloth-bear",
+      "nilgiri-tahr",
+      "lion-tailed-macaque"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Periyar National Park",
+          "url": "https://periyartigerreserve.org"
+        },
+        {
+          "label": "Kerala Tourism",
+          "url": "https://www.keralatourism.org"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Periyar National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Periyar_National_Park"
+        }
+      ]
     }
   },
   {
@@ -978,7 +2877,7 @@
     "type": "national-park",
     "stateSlug": "kerala",
     "headlineSpeciesSlug": "lion-tailed-macaque",
-    "photoUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Shola_Forest_Silent_valley_NP_%282%29.jpg/960px-Shola_Forest_Silent_valley_NP_%282%29.jpg",
     "lat": 11.0822,
     "lng": 76.4422,
     "areaSqKm": 237,
@@ -989,12 +2888,68 @@
         "label": "Kerala Forest Dept",
         "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Shola_Forest_Silent_valley_NP_(2).jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Silent_Valley_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kerala Tourism (official)",
+        "url": "https://www.keralatourism.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Silent Valley National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Silent_Valley_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "Davidvraju",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shola_Forest_Silent_valley_NP_(2).jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "malabar-pied-hornbill",
+      "nilgiri-tahr",
+      "white-cheeked-barbet",
+      "red-whiskered-bulbul",
+      "red-vented-bulbul"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Silent Valley National Park",
+          "url": "https://keralaforest.gov.in"
+        },
+        {
+          "label": "Kerala Tourism",
+          "url": "https://www.keralatourism.org"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Silent Valley National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Silent_Valley_National_Park"
+        }
+      ]
     }
   },
   {
@@ -1013,12 +2968,74 @@
         "label": "Kerala Forest Dept",
         "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Eravikulam_national_park.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Eravikulam_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Eravikulam National Park (official)",
+        "url": "https://eravikulam.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kerala Tourism (official)",
+        "url": "https://www.keralatourism.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Munnar (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Munnar",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Eravikulam_national_park.jpg/960px-Eravikulam_national_park.jpg",
+    "photoAttribution": {
+      "author": "Gannu03",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eravikulam_national_park.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "nilgiri-tahr",
+      "indian-leopard",
+      "red-whiskered-bulbul",
+      "white-cheeked-barbet",
+      "malabar-whistling-thrush"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Eravikulam National Park",
+          "url": "https://eravikulam.org"
+        },
+        {
+          "label": "Kerala Tourism",
+          "url": "https://www.keralatourism.org"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Munnar (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Munnar"
+        }
+      ]
     }
   },
   {
@@ -1037,12 +3054,59 @@
         "label": "Kerala Forest Dept",
         "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Anamudi_shola_national_park.JPG",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Anamudi_Shola_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kerala Tourism (official)",
+        "url": "https://www.keralatourism.org",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Anamudi_shola_national_park.JPG/960px-Anamudi_shola_national_park.JPG",
+    "photoAttribution": {
+      "author": "Fotokannan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anamudi_shola_national_park.JPG"
+    },
+    "additionalKeySpeciesSlugs": [
+      "nilgiri-tahr",
+      "sloth-bear",
+      "red-whiskered-bulbul",
+      "white-cheeked-barbet",
+      "malabar-whistling-thrush"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Anamudi Shola National Park",
+          "url": "https://keralaforest.gov.in"
+        },
+        {
+          "label": "Kerala Tourism",
+          "url": "https://www.keralatourism.org"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1061,12 +3125,54 @@
         "label": "Kerala Forest Dept",
         "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Pampadumshola.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kerala Tourism (official)",
+        "url": "https://www.keralatourism.org",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pampadumshola.jpg/960px-Pampadumshola.jpg",
+    "photoAttribution": {
+      "author": "Varkey Parakkal",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pampadumshola.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-whiskered-bulbul",
+      "white-cheeked-barbet",
+      "indian-white-eye",
+      "large-billed-crow",
+      "pied-bushchat"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Pambadum Shola National Park",
+          "url": "https://keralaforest.gov.in"
+        },
+        {
+          "label": "Kerala Tourism",
+          "url": "https://www.keralatourism.org"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1085,12 +3191,54 @@
         "label": "Kerala Forest Dept",
         "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Indian_Elephant.jpeg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kerala Tourism (official)",
+        "url": "https://www.keralatourism.org",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Indian_Elephant.jpeg/960px-Indian_Elephant.jpeg",
+    "photoAttribution": {
+      "author": "Ravindraboopathi",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Elephant.jpeg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-whiskered-bulbul",
+      "white-cheeked-barbet",
+      "indian-white-eye",
+      "large-billed-crow",
+      "malabar-whistling-thrush"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Mathikettan Shola National Park",
+          "url": "https://keralaforest.gov.in"
+        },
+        {
+          "label": "Kerala Tourism",
+          "url": "https://www.keralatourism.org"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1109,12 +3257,64 @@
         "label": "Karnataka Forest Dept",
         "url": "https://aranya.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Bandipur_Tiger_Reserve_Karnataka.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Bandipur_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Karnataka Tourism (official)",
+        "url": "https://karnatakatourism.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Bandipur National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Bandipur_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bandipur_Tiger_Reserve_Karnataka.jpg/960px-Bandipur_Tiger_Reserve_Karnataka.jpg",
+    "photoAttribution": {
+      "author": "Vinaysalimath",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bandipur_Tiger_Reserve_Karnataka.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "sloth-bear",
+      "golden-jackal",
+      "indian-giant-squirrel",
+      "indian-vulture",
+      "indian-roller"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Bandipur National Park",
+          "url": "https://aranya.gov.in"
+        },
+        {
+          "label": "Karnataka Tourism",
+          "url": "https://karnatakatourism.org"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Bandipur National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Bandipur_National_Park"
+        }
+      ]
     }
   },
   {
@@ -1133,12 +3333,54 @@
         "label": "Karnataka Forest Dept",
         "url": "https://aranya.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Peacock_amidst_parthenium_(51340508701).jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Karnataka Tourism (official)",
+        "url": "https://karnatakatourism.org",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Peacock_amidst_parthenium_%2851340508701%29.jpg/960px-Peacock_amidst_parthenium_%2851340508701%29.jpg",
+    "photoAttribution": {
+      "author": "Kandukuru Nagarjun from Bangalore, India",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peacock_amidst_parthenium_(51340508701).jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "white-cheeked-barbet",
+      "red-whiskered-bulbul",
+      "spotted-dove",
+      "white-throated-kingfisher",
+      "red-vented-bulbul"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Nagarhole National Park (Kabini)",
+          "url": "https://aranya.gov.in"
+        },
+        {
+          "label": "Karnataka Tourism",
+          "url": "https://karnatakatourism.org"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1157,12 +3399,69 @@
         "label": "Karnataka Forest Dept",
         "url": "https://aranya.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Family_Lunch.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Bannerghatta_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Karnataka Tourism (official)",
+        "url": "https://karnatakatourism.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Bannerghatta National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Bannerghatta_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Family_Lunch.jpg/960px-Family_Lunch.jpg",
+    "photoAttribution": {
+      "author": "Surya Katakam",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Family_Lunch.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "sambar-deer",
+      "black-kite",
+      "rock-pigeon",
+      "rose-ringed-parakeet"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Bannerghatta National Park",
+          "url": "https://aranya.gov.in"
+        },
+        {
+          "label": "Karnataka Tourism",
+          "url": "https://karnatakatourism.org"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Bannerghatta National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Bannerghatta_National_Park"
+        }
+      ]
     }
   },
   {
@@ -1181,12 +3480,69 @@
         "label": "Karnataka Forest Dept",
         "url": "https://aranya.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Kudremukh_national_park.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Kudremukh_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Karnataka Tourism (official)",
+        "url": "https://karnatakatourism.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kudremukh National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Kudremukh_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Kudremukh_national_park.jpg/960px-Kudremukh_national_park.jpg",
+    "photoAttribution": {
+      "author": "Naveen",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kudremukh_national_park.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "sloth-bear",
+      "red-whiskered-bulbul",
+      "white-cheeked-barbet",
+      "large-billed-crow",
+      "oriental-magpie-robin"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kudremukh National Park",
+          "url": "https://aranya.gov.in"
+        },
+        {
+          "label": "Karnataka Tourism",
+          "url": "https://karnatakatourism.org"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Kudremukh National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Kudremukh_National_Park"
+        }
+      ]
     }
   },
   {
@@ -1205,12 +3561,54 @@
         "label": "Karnataka Forest Dept",
         "url": "https://aranya.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Anshi_National_Park_drive.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Karnataka Tourism (official)",
+        "url": "https://karnatakatourism.org",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Anshi_National_Park_drive.jpg/960px-Anshi_National_Park_drive.jpg",
+    "photoAttribution": {
+      "author": "Ms.Mulish",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anshi_National_Park_drive.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-whiskered-bulbul",
+      "brahminy-kite",
+      "white-throated-kingfisher",
+      "spotted-dove",
+      "house-crow"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kali Tiger Reserve (Anshi National Park)",
+          "url": "https://aranya.gov.in"
+        },
+        {
+          "label": "Karnataka Tourism",
+          "url": "https://karnatakatourism.org"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1229,12 +3627,64 @@
         "label": "TN Forest Dept",
         "url": "https://forests.tn.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Elephant_Female_and_Calf_Mudumalai_Mar21_DSC01384.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Mudumalai_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Tamil Nadu Tourism (official)",
+        "url": "https://www.tamilnadutourism.tn.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Mudumalai National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Mudumalai_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Elephant_Female_and_Calf_Mudumalai_Mar21_DSC01384.jpg/960px-Elephant_Female_and_Calf_Mudumalai_Mar21_DSC01384.jpg",
+    "photoAttribution": {
+      "author": "Timothy A. Gonsalves",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elephant_Female_and_Calf_Mudumalai_Mar21_DSC01384.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-vented-bulbul",
+      "red-whiskered-bulbul",
+      "indian-leopard",
+      "dhole",
+      "golden-jackal"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Mudumalai National Park",
+          "url": "https://forests.tn.gov.in"
+        },
+        {
+          "label": "Tamil Nadu Tourism",
+          "url": "https://www.tamilnadutourism.tn.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Mudumalai National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Mudumalai_National_Park"
+        }
+      ]
     }
   },
   {
@@ -1253,12 +3703,59 @@
         "label": "TN Forest Dept",
         "url": "https://forests.tn.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Guindy_national_park.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Guindy_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Tamil Nadu Tourism (official)",
+        "url": "https://www.tamilnadutourism.tn.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Guindy_national_park.jpg/960px-Guindy_national_park.jpg",
+    "photoAttribution": {
+      "author": "abhidg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guindy_national_park.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "blackbuck",
+      "red-wattled-lapwing",
+      "asian-koel",
+      "house-crow",
+      "rock-pigeon"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Guindy National Park",
+          "url": "https://forests.tn.gov.in"
+        },
+        {
+          "label": "Tamil Nadu Tourism",
+          "url": "https://www.tamilnadutourism.tn.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1277,12 +3774,54 @@
         "label": "TN Forest Dept",
         "url": "https://forests.tn.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Dugong.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Tamil Nadu Tourism (official)",
+        "url": "https://www.tamilnadutourism.tn.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Dugong.jpg/960px-Dugong.jpg",
+    "photoAttribution": {
+      "author": "Ranveig",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dugong.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "brahminy-kite",
+      "house-crow",
+      "black-kite",
+      "common-myna",
+      "little-egret"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Gulf of Mannar Marine National Park",
+          "url": "https://forests.tn.gov.in"
+        },
+        {
+          "label": "Tamil Nadu Tourism",
+          "url": "https://www.tamilnadutourism.tn.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1301,12 +3840,44 @@
         "label": "TN Forest Dept",
         "url": "https://forests.tn.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Tamil Nadu Tourism (official)",
+        "url": "https://www.tamilnadutourism.tn.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "additionalKeySpeciesSlugs": [
+      "white-cheeked-barbet",
+      "red-whiskered-bulbul",
+      "malabar-whistling-thrush",
+      "spotted-dove",
+      "oriental-magpie-robin"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Anamalai Tiger Reserve (Indira Gandhi NP)",
+          "url": "https://forests.tn.gov.in"
+        },
+        {
+          "label": "Tamil Nadu Tourism",
+          "url": "https://www.tamilnadutourism.tn.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1325,12 +3896,53 @@
         "label": "TN Forest Dept",
         "url": "https://forests.tn.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Niltahr.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Mukurthi_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Tamil Nadu Tourism (official)",
+        "url": "https://www.tamilnadutourism.tn.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Niltahr.jpg",
+    "photoAttribution": {
+      "author": "Rajeshdxb at English Wikipedia",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Niltahr.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "nilgiri-tahr",
+      "sambar-deer",
+      "malabar-whistling-thrush",
+      "indian-white-eye"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Mukurthi National Park",
+          "url": "https://forests.tn.gov.in"
+        },
+        {
+          "label": "Tamil Nadu Tourism",
+          "url": "https://www.tamilnadutourism.tn.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1349,12 +3961,54 @@
         "label": "Maharashtra Forest Dept",
         "url": "https://mahaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:TIGRESS_SHARMILEE_AND_HER_TWO_CUBS.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Maharashtra Tourism (official)",
+        "url": "https://www.maharashtratourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/TIGRESS_SHARMILEE_AND_HER_TWO_CUBS.jpg/960px-TIGRESS_SHARMILEE_AND_HER_TWO_CUBS.jpg",
+    "photoAttribution": {
+      "author": "Harshawardhangupta.ngp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TIGRESS_SHARMILEE_AND_HER_TWO_CUBS.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "spotted-dove",
+      "black-drongo",
+      "red-vented-bulbul",
+      "white-throated-kingfisher",
+      "red-wattled-lapwing"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Tadoba Andhari National Park",
+          "url": "https://mahaforest.gov.in"
+        },
+        {
+          "label": "Maharashtra Tourism",
+          "url": "https://www.maharashtratourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1373,12 +4027,54 @@
         "label": "Maharashtra Forest Dept",
         "url": "https://sgnp.maharashtra.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Sanjay_Gandhi_National_Park,_Borivali.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Maharashtra Tourism (official)",
+        "url": "https://www.maharashtratourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sanjay_Gandhi_National_Park%2C_Borivali.jpg/960px-Sanjay_Gandhi_National_Park%2C_Borivali.jpg",
+    "photoAttribution": {
+      "author": "Samirmaity31",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanjay_Gandhi_National_Park,_Borivali.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "house-crow",
+      "black-kite",
+      "common-myna",
+      "rock-pigeon",
+      "rose-ringed-parakeet"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Sanjay Gandhi National Park (Borivali)",
+          "url": "https://sgnp.maharashtra.gov.in"
+        },
+        {
+          "label": "Maharashtra Tourism",
+          "url": "https://www.maharashtratourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1397,12 +4093,54 @@
         "label": "Maharashtra Forest Dept",
         "url": "https://mahaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Indian_scops_owls_(Otus_bakkamoena)_male_on_right.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Maharashtra Tourism (official)",
+        "url": "https://www.maharashtratourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Indian_scops_owls_%28Otus_bakkamoena%29_male_on_right.jpg/960px-Indian_scops_owls_%28Otus_bakkamoena%29_male_on_right.jpg",
+    "photoAttribution": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_scops_owls_(Otus_bakkamoena)_male_on_right.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "rufous-treepie",
+      "jungle-babbler",
+      "spotted-dove",
+      "black-drongo",
+      "white-throated-kingfisher"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Pench National Park (Maharashtra)",
+          "url": "https://mahaforest.gov.in"
+        },
+        {
+          "label": "Maharashtra Tourism",
+          "url": "https://www.maharashtratourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1421,12 +4159,59 @@
         "label": "Maharashtra Forest Dept",
         "url": "https://mahaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:IMAG0378_03.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Navegaon_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Maharashtra Tourism (official)",
+        "url": "https://www.maharashtratourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/IMAG0378_03.jpg/960px-IMAG0378_03.jpg",
+    "photoAttribution": {
+      "author": "Dhargave",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:IMAG0378_03.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "sloth-bear",
+      "gaur",
+      "sambar-deer",
+      "red-vented-bulbul",
+      "green-bee-eater"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Navegaon National Park",
+          "url": "https://mahaforest.gov.in"
+        },
+        {
+          "label": "Maharashtra Tourism",
+          "url": "https://www.maharashtratourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1445,12 +4230,54 @@
         "label": "Maharashtra Forest Dept",
         "url": "https://mahaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:River_and_tree.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Maharashtra Tourism (official)",
+        "url": "https://www.maharashtratourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/River_and_tree.jpg/960px-River_and_tree.jpg",
+    "photoAttribution": {
+      "author": "Ankitfunk",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_and_tree.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-vented-bulbul",
+      "rufous-treepie",
+      "rose-ringed-parakeet",
+      "jungle-babbler",
+      "white-throated-kingfisher"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Gugamal National Park (Melghat)",
+          "url": "https://mahaforest.gov.in"
+        },
+        {
+          "label": "Maharashtra Tourism",
+          "url": "https://www.maharashtratourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1469,12 +4296,59 @@
         "label": "Maharashtra Forest Dept",
         "url": "https://mahaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Oriental_Garden_Lizard_or_Bloodsucker.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Chandoli_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Maharashtra Tourism (official)",
+        "url": "https://www.maharashtratourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Oriental_Garden_Lizard_or_Bloodsucker.jpg/960px-Oriental_Garden_Lizard_or_Bloodsucker.jpg",
+    "photoAttribution": {
+      "author": "Anjumandeodhar",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oriental_Garden_Lizard_or_Bloodsucker.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "sloth-bear",
+      "sambar-deer",
+      "blackbuck",
+      "red-whiskered-bulbul",
+      "red-vented-bulbul"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Chandoli National Park",
+          "url": "https://mahaforest.gov.in"
+        },
+        {
+          "label": "Maharashtra Tourism",
+          "url": "https://www.maharashtratourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1493,12 +4367,59 @@
         "label": "Odisha Forest Dept",
         "url": "https://similipal.org",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Palpala_River_near_lulung,_Similipal_National_Park.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Similipal_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Odisha Tourism (official)",
+        "url": "https://odishatourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Palpala_River_near_lulung%2C_Similipal_National_Park.jpg/960px-Palpala_River_near_lulung%2C_Similipal_National_Park.jpg",
+    "photoAttribution": {
+      "author": "Byomakesh07",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palpala_River_near_lulung,_Similipal_National_Park.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "asian-elephant",
+      "sambar-deer",
+      "malabar-pied-hornbill",
+      "red-vented-bulbul",
+      "spotted-dove"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Similipal National Park",
+          "url": "https://similipal.org"
+        },
+        {
+          "label": "Odisha Tourism",
+          "url": "https://odishatourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1517,12 +4438,69 @@
         "label": "Odisha Forest Dept",
         "url": "https://odishaforest.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Habalikhati_Nature_Camp.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Bhitarkanika_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Odisha Tourism (official)",
+        "url": "https://odishatourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Bhitarkanika National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Bhitarkanika_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Habalikhati_Nature_Camp.jpg/960px-Habalikhati_Nature_Camp.jpg",
+    "photoAttribution": {
+      "author": "Subhrasingh",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Habalikhati_Nature_Camp.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "sambar-deer",
+      "rose-ringed-parakeet",
+      "indian-pond-heron",
+      "spotted-dove",
+      "little-egret"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Bhitarkanika National Park",
+          "url": "https://odishaforest.in"
+        },
+        {
+          "label": "Odisha Tourism",
+          "url": "https://odishatourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Bhitarkanika National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Bhitarkanika_National_Park"
+        }
+      ]
     }
   },
   {
@@ -1531,7 +4509,7 @@
     "type": "national-park",
     "stateSlug": "jammu-and-kashmir",
     "headlineSpeciesSlug": "snow-leopard",
-    "photoUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/StokKangripiccrop.jpg/960px-StokKangripiccrop.jpg",
     "lat": 33.92,
     "lng": 77.42,
     "areaSqKm": 4400,
@@ -1542,12 +4520,51 @@
         "label": "J&K Wildlife Dept",
         "url": "https://jkwildlife.com",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:StokKangripiccrop.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Hemis National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Hemis_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "ray (talk)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:StokKangripiccrop.jpg"
+    },
+    "additionalKeySpeciesSlugs": [
+      "house-sparrow",
+      "rock-pigeon"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Hemis National Park",
+          "url": "https://jkwildlife.com"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Hemis National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Hemis_National_Park"
+        }
+      ]
     }
   },
   {
@@ -1566,12 +4583,50 @@
         "label": "J&K Wildlife Dept",
         "url": "https://jkwildlife.com",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Sarband-kashmir.JPG",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Dachigam_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sarband-kashmir.JPG/960px-Sarband-kashmir.JPG",
+    "photoAttribution": {
+      "author": "Nadeem Hassan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarband-kashmir.JPG"
+    },
+    "additionalKeySpeciesSlugs": [
+      "himalayan-monal",
+      "black-kite",
+      "common-myna",
+      "house-sparrow",
+      "rock-pigeon"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Dachigam National Park",
+          "url": "https://jkwildlife.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1590,12 +4645,35 @@
         "label": "J&K Wildlife Dept",
         "url": "https://jkwildlife.com",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "additionalKeySpeciesSlugs": [
+      "large-billed-crow",
+      "house-sparrow",
+      "common-myna",
+      "rock-pigeon",
+      "black-kite"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kishtwar High Altitude National Park",
+          "url": "https://jkwildlife.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1614,12 +4692,40 @@
         "label": "J&K Wildlife Dept",
         "url": "https://jkwildlife.com",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Kazinag_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "himalayan-monal",
+      "large-billed-crow",
+      "black-kite",
+      "common-myna"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kazinag National Park",
+          "url": "https://jkwildlife.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1638,12 +4744,35 @@
         "label": "J&K Wildlife Dept",
         "url": "https://jkwildlife.com",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "additionalKeySpeciesSlugs": [
+      "black-kite",
+      "common-myna",
+      "house-sparrow",
+      "rock-pigeon",
+      "large-billed-crow"
+    ],
+    "travelLinks": {
+      "official": [
+        {
+          "label": "City Forest (Salim Ali) National Park",
+          "url": "https://jkwildlife.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1662,12 +4791,57 @@
         "label": "HP Forest Dept",
         "url": "https://hpforest.nic.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Great_Himalayan_National_Park,_Kullu,_Himachal.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Great Himalayan National Park (official)",
+        "url": "https://greathimalayannationalpark.com",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Himachal Pradesh Tourism (official)",
+        "url": "https://himachaltourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Central Himachal Pradesh (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Central_Himachal_Pradesh",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Great_Himalayan_National_Park%2C_Kullu%2C_Himachal.jpg/960px-Great_Himalayan_National_Park%2C_Kullu%2C_Himachal.jpg",
+    "photoAttribution": {
+      "author": "Samir Azad",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Himalayan_National_Park,_Kullu,_Himachal.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Great Himalayan National Park",
+          "url": "https://greathimalayannationalpark.com"
+        },
+        {
+          "label": "Himachal Pradesh Tourism",
+          "url": "https://himachaltourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Central Himachal Pradesh (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Central_Himachal_Pradesh"
+        }
+      ]
     }
   },
   {
@@ -1686,12 +4860,42 @@
         "label": "HP Forest Dept",
         "url": "https://hpforest.nic.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Pin_Valley_Spiti_Himachal_Jun18_D72_7092.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Himachal Pradesh Tourism (official)",
+        "url": "https://himachaltourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pin_Valley_Spiti_Himachal_Jun18_D72_7092.jpg/960px-Pin_Valley_Spiti_Himachal_Jun18_D72_7092.jpg",
+    "photoAttribution": {
+      "author": "Timothy Gonsalves",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pin_Valley_Spiti_Himachal_Jun18_D72_7092.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Pin Valley National Park",
+          "url": "https://hpforest.nic.in"
+        },
+        {
+          "label": "Himachal Pradesh Tourism",
+          "url": "https://himachaltourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1710,12 +4914,32 @@
         "label": "HP Forest Dept",
         "url": "https://hpforest.nic.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Himachal Pradesh Tourism (official)",
+        "url": "https://himachaltourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Inderkilla National Park",
+          "url": "https://hpforest.nic.in"
+        },
+        {
+          "label": "Himachal Pradesh Tourism",
+          "url": "https://himachaltourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1734,12 +4958,42 @@
         "label": "HP Forest Dept",
         "url": "https://hpforest.nic.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Khirganga3.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Himachal Pradesh Tourism (official)",
+        "url": "https://himachaltourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Khirganga3.jpg/960px-Khirganga3.jpg",
+    "photoAttribution": {
+      "author": "Yywilk",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khirganga3.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Khirganga National Park",
+          "url": "https://hpforest.nic.in"
+        },
+        {
+          "label": "Himachal Pradesh Tourism",
+          "url": "https://himachaltourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1758,12 +5012,32 @@
         "label": "HP Forest Dept",
         "url": "https://hpforest.nic.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Himachal Pradesh Tourism (official)",
+        "url": "https://himachaltourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Simbalbara National Park",
+          "url": "https://hpforest.nic.in"
+        },
+        {
+          "label": "Himachal Pradesh Tourism",
+          "url": "https://himachaltourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1782,12 +5056,57 @@
         "label": "UP Forest Dept",
         "url": "https://upforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:DeerDudhwa_Blue.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Dudhwa National Park (official)",
+        "url": "https://dudhwatigerreserve.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Uttar Pradesh Tourism (official)",
+        "url": "https://uptourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Dudhwa National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Dudhwa_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DeerDudhwa_Blue.jpg/960px-DeerDudhwa_Blue.jpg",
+    "photoAttribution": {
+      "author": "Abhishek Shastri",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DeerDudhwa_Blue.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Dudhwa National Park",
+          "url": "https://dudhwatigerreserve.in"
+        },
+        {
+          "label": "Uttar Pradesh Tourism",
+          "url": "https://uptourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Dudhwa National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Dudhwa_National_Park"
+        }
+      ]
     }
   },
   {
@@ -1806,12 +5125,33 @@
         "label": "Bihar Forest Dept",
         "url": "https://forest.bihar.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Live_behind_Art.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Live_behind_Art.jpg/960px-Live_behind_Art.jpg",
+    "photoAttribution": {
+      "author": "Amit De Nimi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Live_behind_Art.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Valmiki National Park",
+          "url": "https://forest.bihar.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1830,12 +5170,33 @@
         "label": "CG Forest Dept",
         "url": "https://forest.cg.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Bubalus_arnee_Kaziranga.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bubalus_arnee_Kaziranga.jpg/960px-Bubalus_arnee_Kaziranga.jpg",
+    "photoAttribution": {
+      "author": "dhaag23",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bubalus_arnee_Kaziranga.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Indravati National Park",
+          "url": "https://forest.cg.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1854,12 +5215,33 @@
         "label": "CG Forest Dept",
         "url": "https://forest.cg.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Kanger_valley12.JPG",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Kanger_valley12.JPG/960px-Kanger_valley12.JPG",
+    "photoAttribution": {
+      "author": "Theasg sap",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kanger_valley12.JPG"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kanger Valley National Park",
+          "url": "https://forest.cg.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1878,12 +5260,33 @@
         "label": "CG Forest Dept",
         "url": "https://forest.cg.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Tadiyabaan_Lake_in_Chhattisgarh.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Tadiyabaan_Lake_in_Chhattisgarh.jpg/960px-Tadiyabaan_Lake_in_Chhattisgarh.jpg",
+    "photoAttribution": {
+      "author": "Susmitad830",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tadiyabaan_Lake_in_Chhattisgarh.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Guru Ghasidas National Park",
+          "url": "https://forest.cg.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1902,12 +5305,43 @@
         "label": "Jharkhand Forest Dept",
         "url": "https://forest.jharkhand.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Macaca_mulatta_in_Guiyang.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Betla National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Betla_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Macaca_mulatta_in_Guiyang.jpg",
+    "photoAttribution": {
+      "author": "Einar Fredriksen",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macaca_mulatta_in_Guiyang.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Betla National Park",
+          "url": "https://forest.jharkhand.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Betla National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Betla_National_Park"
+        }
+      ]
     }
   },
   {
@@ -1926,12 +5360,52 @@
         "label": "AP Forest Dept",
         "url": "https://forests.ap.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Papikondalu_view_16.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Andhra Pradesh Tourism (official)",
+        "url": "https://tourism.ap.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Papikonda National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Papikonda_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Papikondalu_view_16.jpg",
+    "photoAttribution": {
+      "author": "Pranayraj1985",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Papikondalu_view_16.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Papikonda National Park",
+          "url": "https://forests.ap.gov.in"
+        },
+        {
+          "label": "Andhra Pradesh Tourism",
+          "url": "https://tourism.ap.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Papikonda National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Papikonda_National_Park"
+        }
+      ]
     }
   },
   {
@@ -1950,12 +5424,42 @@
         "label": "AP Forest Dept",
         "url": "https://forests.ap.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Sri_Venkateswara_National_Park_Tirumala_Hills_01.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Andhra Pradesh Tourism (official)",
+        "url": "https://tourism.ap.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Sri_Venkateswara_National_Park_Tirumala_Hills_01.jpg/960px-Sri_Venkateswara_National_Park_Tirumala_Hills_01.jpg",
+    "photoAttribution": {
+      "author": "ShashiBellamkonda",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sri_Venkateswara_National_Park_Tirumala_Hills_01.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Sri Venkateswara National Park",
+          "url": "https://forests.ap.gov.in"
+        },
+        {
+          "label": "Andhra Pradesh Tourism",
+          "url": "https://tourism.ap.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1974,12 +5478,33 @@
         "label": "Telangana Forest Dept",
         "url": "https://forests.telangana.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Kbrpark.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Kbrpark.jpg",
+    "photoAttribution": {
+      "author": "Cephas 405 (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kbrpark.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kasu Brahmananda Reddy National Park",
+          "url": "https://forests.telangana.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -1998,12 +5523,43 @@
         "label": "Telangana Forest Dept",
         "url": "https://forests.telangana.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Common_Hawk_Cuckoo_(Cuculus_varius)_in_Hyderabad_W_IMG_7381.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Hyderabad/East (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Hyderabad%2FEast",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Common_Hawk_Cuckoo_%28Cuculus_varius%29_in_Hyderabad_W_IMG_7381.jpg",
+    "photoAttribution": {
+      "author": "J.M.Garg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_Hawk_Cuckoo_(Cuculus_varius)_in_Hyderabad_W_IMG_7381.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Mahavir Harina Vanasthali National Park",
+          "url": "https://forests.telangana.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Hyderabad/East (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Hyderabad%2FEast"
+        }
+      ]
     }
   },
   {
@@ -2022,16 +5578,37 @@
         "label": "Telangana Forest Dept",
         "url": "https://forests.telangana.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Daboia_head.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Daboia_head.jpg",
+    "photoAttribution": {
+      "author": "Unknown",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daboia_head.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Mrugavani National Park",
+          "url": "https://forests.telangana.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
-    "slug": "भगवान-महावीर-राष्ट्रीय-उद्यान-mollem",
+    "slug": "\u092d\u0917\u0935\u093e\u0928-\u092e\u0939\u093e\u0935\u0940\u0930-\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f-\u0909\u0926\u094d\u092f\u093e\u0928-mollem",
     "name": "Bhagwan Mahaveer (Mollem) National Park",
     "type": "national-park",
     "stateSlug": "goa",
@@ -2046,12 +5623,32 @@
         "label": "Goa Forest Dept",
         "url": "https://forest.goa.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Goa Tourism (official)",
+        "url": "https://www.goatourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Bhagwan Mahaveer (Mollem) National Park",
+          "url": "https://forest.goa.gov.in"
+        },
+        {
+          "label": "Goa Tourism",
+          "url": "https://www.goatourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2075,12 +5672,33 @@
         "label": "Inner Line Permit (ILP) for Arunachal Pradesh",
         "url": "https://www.tourmyindia.com/states/arunachalpradesh/permit-for-indian.html",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Namdapha2.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Arunachal Pradesh Inner Line Permit (ILP) required for all non-resident Indian citizens; foreign nationals additionally need a Protected Area Permit (PAP). Standard park entry is otherwise open once the ILP/PAP is obtained."
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Namdapha2.jpg",
+    "photoAttribution": {
+      "author": "The original uploader was Yogeshw at English Wikipedia.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Namdapha2.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Namdapha National Park",
+          "url": "https://arunachalforest.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2104,12 +5722,33 @@
         "label": "Inner Line Permit (ILP) for Arunachal Pradesh",
         "url": "https://www.tourmyindia.com/states/arunachalpradesh/permit-for-indian.html",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Tragopan_blythii01.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Arunachal Pradesh Inner Line Permit (ILP) required for all non-resident Indian citizens; foreign nationals additionally need a Protected Area Permit (PAP). Remote and largely undeveloped for tourism beyond the permit requirement."
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tragopan_blythii01.jpg",
+    "photoAttribution": {
+      "author": "No machine-readable author provided. JoJan assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tragopan_blythii01.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Mouling National Park",
+          "url": "https://arunachalforest.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2133,12 +5772,52 @@
         "label": "Inner-Line Permit in Manipur",
         "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/inner-line-permit-in-manipur",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Sangai_at_the_Keibullamjao_National_Park,_Manipur.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Manipur Tourism (official)",
+        "url": "https://manipurtourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Keibul Lamjao National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Keibul_Lamjao_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Manipur Inner Line Permit (ILP) required for all domestic (non-Manipur-resident) visitors since the state was brought under the ILP system in December 2019."
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sangai_at_the_Keibullamjao_National_Park%2C_Manipur.jpg/960px-Sangai_at_the_Keibullamjao_National_Park%2C_Manipur.jpg",
+    "photoAttribution": {
+      "author": "G Devadarshan Sharma",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sangai_at_the_Keibullamjao_National_Park,_Manipur.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Keibul Lamjao National Park",
+          "url": "https://forest.manipur.gov.in"
+        },
+        {
+          "label": "Manipur Tourism",
+          "url": "https://manipurtourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Keibul Lamjao National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Keibul_Lamjao_National_Park"
+        }
+      ]
     }
   },
   {
@@ -2157,12 +5836,42 @@
         "label": "Meghalaya Forest Dept",
         "url": "https://megforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Muntjac_deer.JPG",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Meghalaya Tourism (official)",
+        "url": "https://meghalayatourism.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Muntjac_deer.JPG",
+    "photoAttribution": {
+      "author": "Pratheepps",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muntjac_deer.JPG"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Balphakram National Park",
+          "url": "https://megforest.gov.in"
+        },
+        {
+          "label": "Meghalaya Tourism",
+          "url": "https://meghalayatourism.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2181,12 +5890,42 @@
         "label": "Meghalaya Forest Dept",
         "url": "https://megforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Foggy_weather_of_Nokrek_national_park.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Meghalaya Tourism (official)",
+        "url": "https://meghalayatourism.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Foggy_weather_of_Nokrek_national_park.jpg/960px-Foggy_weather_of_Nokrek_national_park.jpg",
+    "photoAttribution": {
+      "author": "Moniruj",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Foggy_weather_of_Nokrek_national_park.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Nokrek National Park",
+          "url": "https://megforest.gov.in"
+        },
+        {
+          "label": "Meghalaya Tourism",
+          "url": "https://meghalayatourism.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2210,12 +5949,33 @@
         "label": "Inner Line Permits for Northeast India",
         "url": "https://www.northeasttourspackages.in/blog/permits-northeast-india",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Champhai,_Mizoram,_from_south,_with_Zotlang_in_the_foreground.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Mizoram Inner Line Permit (ILP) required for all domestic (non-Mizoram-resident) visitors; free, fast online application."
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Champhai%2C_Mizoram%2C_from_south%2C_with_Zotlang_in_the_foreground.jpg/960px-Champhai%2C_Mizoram%2C_from_south%2C_with_Zotlang_in_the_foreground.jpg",
+    "photoAttribution": {
+      "author": "Bogman",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Champhai,_Mizoram,_from_south,_with_Zotlang_in_the_foreground.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Murlen National Park",
+          "url": "https://forest.mizoram.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2239,12 +5999,33 @@
         "label": "Inner Line Permits for Northeast India",
         "url": "https://www.northeasttourspackages.in/blog/permits-northeast-india",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:2007-blue-mtn-farpak.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Mizoram Inner Line Permit (ILP) required for all domestic (non-Mizoram-resident) visitors; free, fast online application."
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2007-blue-mtn-farpak.jpg",
+    "photoAttribution": {
+      "author": "Yathin S Krishnappa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2007-blue-mtn-farpak.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Phawngpui Blue Mountain National Park",
+          "url": "https://forest.mizoram.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2268,12 +6049,42 @@
         "label": "Nagaland ILP Information",
         "url": "https://police.nagaland.gov.in/ilp-information/",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Asian_Elephant_in_Corbett_National_Park.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Nagaland Tourism (official)",
+        "url": "https://tourism.nagaland.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Nagaland Inner Line Permit (ILP) required for all domestic (non-Nagaland-resident) visitors; free online application, no separate requirement for foreign passport holders beyond local police registration."
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Asian_Elephant_in_Corbett_National_Park.jpg",
+    "photoAttribution": {
+      "author": "No machine-readable author provided. Bodenseemann assumed (based on copyright claims).",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asian_Elephant_in_Corbett_National_Park.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Ntangki National Park",
+          "url": "https://forest.nagaland.gov.in"
+        },
+        {
+          "label": "Nagaland Tourism",
+          "url": "https://tourism.nagaland.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2292,12 +6103,52 @@
         "label": "Sikkim Forest Dept",
         "url": "https://sikkimforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Abhishek532_LamuneyValley.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Sikkim Tourism (official)",
+        "url": "https://www.sikkimtourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Khangchendzonga National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Khangchendzonga_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Abhishek532_LamuneyValley.jpg/960px-Abhishek532_LamuneyValley.jpg",
+    "photoAttribution": {
+      "author": "Abhishek532",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abhishek532_LamuneyValley.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Khangchendzonga National Park",
+          "url": "https://sikkimforest.gov.in"
+        },
+        {
+          "label": "Sikkim Tourism",
+          "url": "https://www.sikkimtourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Khangchendzonga National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Khangchendzonga_National_Park"
+        }
+      ]
     }
   },
   {
@@ -2316,12 +6167,42 @@
         "label": "Tripura Forest Dept",
         "url": "https://forest.tripura.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Capped_Langur_Tripura_(2).jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Tripura Tourism (official)",
+        "url": "https://tripuratourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Capped_Langur_Tripura_%282%29.jpg/960px-Capped_Langur_Tripura_%282%29.jpg",
+    "photoAttribution": {
+      "author": "Miraj Hussain",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capped_Langur_Tripura_(2).jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Clouded Leopard National Park",
+          "url": "https://forest.tripura.gov.in"
+        },
+        {
+          "label": "Tripura Tourism",
+          "url": "https://tripuratourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2340,12 +6221,32 @@
         "label": "Tripura Forest Dept",
         "url": "https://forest.tripura.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Tripura Tourism (official)",
+        "url": "https://tripuratourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Rajbari (Bison) National Park",
+          "url": "https://forest.tripura.gov.in"
+        },
+        {
+          "label": "Tripura Tourism",
+          "url": "https://tripuratourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2369,12 +6270,33 @@
         "label": "Andaman & Nicobar entry permit guidelines",
         "url": "https://www.tourmyindia.com/states/andaman/entry-permits.html",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Nicobar_Treeshrew_(Tupaia_nicobarica_nicobarica).jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "restricted",
       "accessNotes": "On Great Nicobar Island; travel to the Nicobar group is highly restricted for both Indian citizens and foreigners, with permits rarely issued except in exceptional cases approved by the Deputy Commissioner, Andaman District. Reached only by weekly government ferry or helicopter from Port Blair (3-4 days by sea); no general tourist infrastructure."
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Nicobar_Treeshrew_%28Tupaia_nicobarica_nicobarica%29.jpg",
+    "photoAttribution": {
+      "author": "Shreeram M V",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nicobar_Treeshrew_(Tupaia_nicobarica_nicobarica).jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Campbell Bay National Park",
+          "url": "https://forest.andaman.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2398,12 +6320,33 @@
         "label": "Andaman & Nicobar entry permit guidelines",
         "url": "https://www.tourmyindia.com/states/andaman/entry-permits.html",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Caloenas_nicobarica_-_Kragentaube2.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "restricted",
       "accessNotes": "On Great Nicobar Island; same Nicobar-group travel restrictions as Campbell Bay National Park apply (permits rarely issued to Indian citizens or foreigners). Part of the area affected by the Great Nicobar development project, with no general tourist infrastructure."
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Caloenas_nicobarica_-_Kragentaube2.jpg/960px-Caloenas_nicobarica_-_Kragentaube2.jpg",
+    "photoAttribution": {
+      "author": "Unknown",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caloenas_nicobarica_-_Kragentaube2.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Galathea Bay National Park",
+          "url": "https://forest.andaman.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2422,12 +6365,43 @@
         "label": "A&N Forest Dept",
         "url": "https://forest.andaman.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Jolly_Boys_Island_2010.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Mahatma Gandhi Marine National Park (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Mahatma_Gandhi_Marine_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Jolly_Boys_Island_2010.jpg/960px-Jolly_Boys_Island_2010.jpg",
+    "photoAttribution": {
+      "author": "Sankara Subramanian from Bangalore, India",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jolly_Boys_Island_2010.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Mahatma Gandhi Marine National Park",
+          "url": "https://forest.andaman.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Mahatma Gandhi Marine National Park (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Mahatma_Gandhi_Marine_National_Park"
+        }
+      ]
     }
   },
   {
@@ -2446,12 +6420,33 @@
         "label": "A&N Forest Dept",
         "url": "https://forest.andaman.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Cheetal_(Axis_axis).jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Cheetal_%28Axis_axis%29.jpg/960px-Cheetal_%28Axis_axis%29.jpg",
+    "photoAttribution": {
+      "author": "Mahbob Yusof",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheetal_(Axis_axis).jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Middle Button Island National Park",
+          "url": "https://forest.andaman.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2470,12 +6465,33 @@
         "label": "A&N Forest Dept",
         "url": "https://forest.andaman.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Button_Islands-North_Button.png",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Button_Islands-North_Button.png",
+    "photoAttribution": {
+      "author": "Lubicz at Polish Wikipedia",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Button_Islands-North_Button.png"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "North Button Island National Park",
+          "url": "https://forest.andaman.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2494,12 +6510,33 @@
         "label": "A&N Forest Dept",
         "url": "https://forest.andaman.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Button_Islands-South_Button.png",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Button_Islands-South_Button.png",
+    "photoAttribution": {
+      "author": "Lubicz at Polish Wikipedia",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Button_Islands-South_Button.png"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "South Button Island National Park",
+          "url": "https://forest.andaman.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2512,7 +6549,7 @@
     "lng": 92.7333,
     "areaSqKm": 46.62,
     "websiteUrl": "https://forest.andaman.gov.in",
-    "uniqueFeatures": "Peak reserve near Port Blair depicted on the back of the ₹20 currency note.",
+    "uniqueFeatures": "Peak reserve near Port Blair depicted on the back of the \u20b920 currency note.",
     "sources": [
       {
         "label": "A&N Forest Dept",
@@ -2520,10 +6557,21 @@
         "accessedDate": "2026-07-29"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Mount Manipur (Harriet) National Park",
+          "url": "https://forest.andaman.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2542,12 +6590,33 @@
         "label": "A&N Forest Dept",
         "url": "https://forest.andaman.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Asian_Elephant_in_Corbett_National_Park.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Asian_Elephant_in_Corbett_National_Park.jpg",
+    "photoAttribution": {
+      "author": "No machine-readable author provided. Bodenseemann assumed (based on copyright claims).",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asian_Elephant_in_Corbett_National_Park.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Rani Jhansi Marine National Park",
+          "url": "https://forest.andaman.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -2566,12 +6635,33 @@
         "label": "A&N Forest Dept",
         "url": "https://forest.andaman.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Asian_Elephant_in_Corbett_National_Park.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Asian_Elephant_in_Corbett_National_Park.jpg",
+    "photoAttribution": {
+      "author": "No machine-readable author provided. Bodenseemann assumed (based on copyright claims).",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asian_Elephant_in_Corbett_National_Park.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Saddle Peak National Park",
+          "url": "https://forest.andaman.gov.in"
+        }
+      ],
+      "operators": []
     }
   }
 ]

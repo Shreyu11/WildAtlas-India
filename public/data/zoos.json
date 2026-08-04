@@ -6,7 +6,7 @@
     "city": "Kolkata",
     "establishedYear": 1876,
     "headlineSpeciesSlug": "royal-bengal-tiger",
-    "photoUrl": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Alipore_Zoological_Garden_-_Kolkata_2011-05-03_2548.JPG/960px-Alipore_Zoological_Garden_-_Kolkata_2011-05-03_2548.JPG",
     "lat": 22.5354,
     "lng": 88.3329,
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Alipore_Zoological_Gardens",
@@ -19,8 +19,20 @@
         "label": "Alipore Zoological Gardens (Wikipedia)",
         "url": "https://en.wikipedia.org/wiki/Alipore_Zoological_Gardens",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Alipore_Zoological_Garden_-_Kolkata_2011-05-03_2548.JPG",
+        "accessedDate": "2026-08-04"
       }
-    ]
+    ],
+    "photoAttribution": {
+      "author": "Biswarup Ganguly",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alipore_Zoological_Garden_-_Kolkata_2011-05-03_2548.JPG"
+    },
+    "needsResearch": true
   },
   {
     "slug": "sakkarbaug-zoological-garden",
@@ -29,7 +41,7 @@
     "city": "Junagadh",
     "establishedYear": 1863,
     "headlineSpeciesSlug": "asiatic-lion",
-    "photoUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Guj_21_Sakkarbaug_zoo_Indian_wild_ass.jpg/960px-Guj_21_Sakkarbaug_zoo_Indian_wild_ass.jpg",
     "lat": 21.5222,
     "lng": 70.4579,
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Sakkarbaug_Zoological_Garden",
@@ -42,8 +54,20 @@
         "label": "Sakkarbaug Zoological Garden (Wikipedia)",
         "url": "https://en.wikipedia.org/wiki/Sakkarbaug_Zoological_Garden",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Guj_21_Sakkarbaug_zoo_Indian_wild_ass.jpg",
+        "accessedDate": "2026-08-04"
       }
-    ]
+    ],
+    "photoAttribution": {
+      "author": "VasuVR",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guj_21_Sakkarbaug_zoo_Indian_wild_ass.jpg"
+    },
+    "needsResearch": true
   },
   {
     "slug": "assam-state-zoo-cum-botanical-garden",
@@ -52,7 +76,7 @@
     "city": "Guwahati",
     "establishedYear": 1957,
     "headlineSpeciesSlug": "indian-rhinoceros",
-    "photoUrl": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/ASSAM_STATE_ZOO_CUM_BOTANICAL_GARDEN%2C_GUWAHATI%21_01.jpg/960px-ASSAM_STATE_ZOO_CUM_BOTANICAL_GARDEN%2C_GUWAHATI%21_01.jpg",
     "lat": 26.1526,
     "lng": 91.7864,
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Assam_State_Zoo",
@@ -65,8 +89,20 @@
         "label": "Assam State Zoo cum Botanical Garden (Wikipedia)",
         "url": "https://en.wikipedia.org/wiki/Assam_State_Zoo",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:ASSAM_STATE_ZOO_CUM_BOTANICAL_GARDEN,_GUWAHATI!_01.jpg",
+        "accessedDate": "2026-08-04"
       }
-    ]
+    ],
+    "photoAttribution": {
+      "author": "GK Dutta",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ASSAM_STATE_ZOO_CUM_BOTANICAL_GARDEN,_GUWAHATI!_01.jpg"
+    },
+    "needsResearch": true
   },
   {
     "slug": "thiruvananthapuram-zoo",
@@ -75,7 +111,7 @@
     "city": "Thiruvananthapuram",
     "establishedYear": 1859,
     "headlineSpeciesSlug": "asian-elephant",
-    "photoUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": null,
     "lat": 8.5074,
     "lng": 76.9541,
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Thiruvananthapuram_Zoo",
@@ -89,7 +125,9 @@
         "url": "https://en.wikipedia.org/wiki/Thiruvananthapuram_Zoo",
         "accessedDate": "2026-07-31"
       }
-    ]
+    ],
+    "photoAttribution": null,
+    "needsResearch": true
   },
   {
     "slug": "sri-chamarajendra-zoological-gardens",
@@ -98,7 +136,7 @@
     "city": "Mysuru",
     "establishedYear": 1892,
     "headlineSpeciesSlug": "lion-tailed-macaque",
-    "photoUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef9?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Sri_Chamarajendra_Zoological_Gardens_%28Mysore_Zoo%29%2C_Image_%289%29%2C_Mysore%2C_Karnataka%2C_India.jpg/960px-Sri_Chamarajendra_Zoological_Gardens_%28Mysore_Zoo%29%2C_Image_%289%29%2C_Mysore%2C_Karnataka%2C_India.jpg",
     "lat": 12.3052,
     "lng": 76.6552,
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Mysore_Zoo",
@@ -111,8 +149,20 @@
         "label": "Sri Chamarajendra Zoological Gardens (Mysore Zoo) (Wikipedia)",
         "url": "https://en.wikipedia.org/wiki/Mysore_Zoo",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Sri_Chamarajendra_Zoological_Gardens_(Mysore_Zoo),_Image_(9),_Mysore,_Karnataka,_India.jpg",
+        "accessedDate": "2026-08-04"
       }
-    ]
+    ],
+    "photoAttribution": {
+      "author": "Gpkp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sri_Chamarajendra_Zoological_Gardens_(Mysore_Zoo),_Image_(9),_Mysore,_Karnataka,_India.jpg"
+    },
+    "needsResearch": true
   },
   {
     "slug": "nahargarh-biological-park",
@@ -121,7 +171,7 @@
     "city": "Jaipur",
     "establishedYear": 2010,
     "headlineSpeciesSlug": "royal-bengal-tiger",
-    "photoUrl": "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Panoramic_view_from_amer_fort_overlooking_the_city.jpg/960px-Panoramic_view_from_amer_fort_overlooking_the_city.jpg",
     "lat": 26.9622,
     "lng": 75.8317,
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Nahargarh_Biological_Park",
@@ -134,8 +184,20 @@
         "label": "Nahargarh Biological Park (Wikipedia)",
         "url": "https://en.wikipedia.org/wiki/Nahargarh_Biological_Park",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Panoramic_view_from_amer_fort_overlooking_the_city.jpg",
+        "accessedDate": "2026-08-04"
       }
-    ]
+    ],
+    "photoAttribution": {
+      "author": "Gayatri Priyadarshini",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panoramic_view_from_amer_fort_overlooking_the_city.jpg"
+    },
+    "needsResearch": true
   },
   {
     "slug": "van-vihar-national-park",
@@ -144,7 +206,7 @@
     "city": "Bhopal",
     "establishedYear": 1979,
     "headlineSpeciesSlug": "royal-bengal-tiger",
-    "photoUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Alligator_at_Van_Vihar_National_Park.jpg/960px-Alligator_at_Van_Vihar_National_Park.jpg",
     "lat": 23.2367,
     "lng": 77.3803,
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Van_Vihar_National_Park",
@@ -157,8 +219,20 @@
         "label": "Van Vihar National Park (Wikipedia)",
         "url": "https://en.wikipedia.org/wiki/Van_Vihar_National_Park",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Alligator_at_Van_Vihar_National_Park.jpg",
+        "accessedDate": "2026-08-04"
       }
-    ]
+    ],
+    "photoAttribution": {
+      "author": "Sudheer Pandey",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alligator_at_Van_Vihar_National_Park.jpg"
+    },
+    "needsResearch": true
   },
   {
     "slug": "veermata-jijabai-bhonsale-udyan",
@@ -167,7 +241,7 @@
     "city": "Mumbai",
     "establishedYear": 1861,
     "headlineSpeciesSlug": null,
-    "photoUrl": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": null,
     "lat": 18.975,
     "lng": 72.8347,
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Veermata_Jijabai_Bhonsale_Udyan_and_Zoo",
@@ -181,6 +255,8 @@
         "url": "https://en.wikipedia.org/wiki/Veermata_Jijabai_Bhonsale_Udyan_and_Zoo",
         "accessedDate": "2026-07-31"
       }
-    ]
+    ],
+    "photoAttribution": null,
+    "needsResearch": true
   }
 ]

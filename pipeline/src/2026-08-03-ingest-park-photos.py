@@ -66,6 +66,7 @@ BANNED_KEYWORDS = [
     "illustration", "drawing", "painting", "route map", "location map",
     "unreviewed", "modi", "minister", "inaugurat", "president", "governor",
     "politician", "vip visit", "flag hoisting", "foundation stone", "rally",
+    "resort", "hotel", "lodge", "guest house", "guesthouse", "homestay",
 ]
 BANNED_KEYWORD_PATTERN = re.compile(
     r"\b(?:" + "|".join(re.escape(k) for k in BANNED_KEYWORDS) + r")\b",

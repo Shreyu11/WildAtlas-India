@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getZoos, getSpecies, getStates } from "@/lib/data";
 import { SPECIES_ICON, DEFAULT_SPECIES_ICON, PUBLIC_ACCESS_LABEL } from "@/lib/mockIcons";
 import DataAttributionFooter from "@/components/DataAttributionFooter";
+import LinkPreviewCard from "@/components/LinkPreviewCard";
 
 export default async function ZooDetail({ slug }: { slug: string }) {
   const [zoos, species, states] = await Promise.all([
@@ -45,6 +46,10 @@ export default async function ZooDetail({ slug }: { slug: string }) {
           </>
         )}
       </p>
+
+      {zoo.description && (
+        <p className="mt-3 text-sm text-zinc-700 leading-relaxed">{zoo.description}</p>
+      )}
 
       {zoo.establishedYear && (
         <p className="mt-2 text-xs text-zinc-600">
@@ -92,20 +97,53 @@ export default async function ZooDetail({ slug }: { slug: string }) {
         </div>
       )}
 
-      {zoo.wikipediaUrl && (
-        <div className="mt-6 pt-4 border-t border-zinc-100">
-          <a
-            href={zoo.wikipediaUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-xs font-medium text-zinc-600 hover:text-zinc-900 underline underline-offset-2"
-          >
-            Read more on Wikipedia ↗
-          </a>
+      {zoo.additionalKeySpeciesSlugs && zoo.additionalKeySpeciesSlugs.length > 0 && (
+        <div className="mt-5">
+          <span className="block font-mono text-[10px] font-semibold text-zinc-400 uppercase tracking-wider mb-2">
+            Also Housed Here
+          </span>
+          <div className="grid grid-cols-2 gap-2">
+            {zoo.additionalKeySpeciesSlugs.map((slug) => {
+              const sp = species.find((s) => s.slug === slug);
+              if (!sp) return null;
+              return (
+                <Link
+                  key={slug}
+                  href={`/species/${sp.slug}`}
+                  className="flex items-center gap-2 rounded-lg border border-zinc-200 p-2 hover:bg-zinc-50 transition"
+                >
+                  <span className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full bg-zinc-100 text-base">
+                    {sp.photoUrl ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={sp.photoUrl} alt={sp.commonName} className="h-full w-full object-cover" />
+                    ) : (
+                      SPECIES_ICON[sp.slug] ?? DEFAULT_SPECIES_ICON
+                    )}
+                  </span>
+                  <p className="text-xs font-medium text-zinc-800 leading-tight">{sp.commonName}</p>
+                </Link>
+              );
+            })}
+          </div>
         </div>
       )}
 
-      <DataAttributionFooter />
+      {zoo.wikipediaUrl && (
+        <div className="mt-6 pt-4 border-t border-zinc-100">
+          <span className="block font-mono text-[10px] font-semibold text-zinc-400 uppercase tracking-wider mb-2">
+            Reference &amp; Information
+          </span>
+          <LinkPreviewCard label={`${zoo.name} on Wikipedia`} url={zoo.wikipediaUrl} category="wiki" />
+        </div>
+      )}
+
+      <DataAttributionFooter
+        extra={
+          zoo.photoAttribution
+            ? "Cover photo sourced from Wikimedia Commons; resident species sourced from Wikipedia/GBIF, linked above."
+            : undefined
+        }
+      />
     </>
   );
 }

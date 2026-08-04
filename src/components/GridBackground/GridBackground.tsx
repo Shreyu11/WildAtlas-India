@@ -3,16 +3,17 @@
 import { useEffect, useRef } from "react";
 
 const CELL = 8;
-const BASE_LINE = "rgba(10, 24, 51, 0.12)";
-const SPOTLIGHT_LINE = "rgba(10, 24, 51, 0.35)";
-const SPOTLIGHT_RADIUS = 220;
-const EASE = 0.12;
+const BASE_LINE = "rgba(15, 23, 42, 0.12)";
+const SPOTLIGHT_LINE = "rgba(15, 23, 42, 0.80)";
+const SPOTLIGHT_RADIUS = 260;
+const EASE = 0.15;
 
-const gridImage = (dotColor: string) => `radial-gradient(circle, ${dotColor} 1px, transparent 1px)`;
+const gridImage = (dotColor: string, size: number = 1) =>
+  `radial-gradient(circle, ${dotColor} ${size}px, transparent ${size}px)`;
 
 // Site-wide background grid (ref: 21st.dev "The Infinite Grid"): a faint
 // base grid everywhere, plus a cursor-following radial spotlight that
-// reveals the grid more clearly nearby. Pure CSS (background-image +
+// reveals the grid with crisp contrast nearby. Pure CSS (background-image +
 // mask-image), no canvas/WebGL — cheap and works behind the MapLibre
 // canvas since the map's own background layer is made transparent.
 export default function GridBackground() {
@@ -49,16 +50,16 @@ export default function GridBackground() {
     <div className="pointer-events-none fixed inset-0 -z-10" aria-hidden="true">
       <div
         className="absolute inset-0"
-        style={{ backgroundImage: gridImage(BASE_LINE), backgroundSize: `${CELL}px ${CELL}px` }}
+        style={{ backgroundImage: gridImage(BASE_LINE, 1), backgroundSize: `${CELL}px ${CELL}px` }}
       />
       <div
         ref={spotlightRef}
         className="absolute inset-0"
         style={{
-          backgroundImage: gridImage(SPOTLIGHT_LINE),
+          backgroundImage: gridImage(SPOTLIGHT_LINE, 1.25),
           backgroundSize: `${CELL}px ${CELL}px`,
-          maskImage: `radial-gradient(circle ${SPOTLIGHT_RADIUS}px at var(--mx) var(--my), black, transparent)`,
-          WebkitMaskImage: `radial-gradient(circle ${SPOTLIGHT_RADIUS}px at var(--mx) var(--my), black, transparent)`,
+          maskImage: `radial-gradient(circle ${SPOTLIGHT_RADIUS}px at var(--mx) var(--my), black 0%, black 40%, transparent 100%)`,
+          WebkitMaskImage: `radial-gradient(circle ${SPOTLIGHT_RADIUS}px at var(--mx) var(--my), black 0%, black 40%, transparent 100%)`,
         }}
       />
     </div>

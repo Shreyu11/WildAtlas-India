@@ -5,7 +5,7 @@
     "type": "wildlife-sanctuary",
     "stateSlug": "kerala",
     "headlineSpeciesSlug": "asian-elephant",
-    "photoUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Dense_forest_of_the_Periyar_tiger_reserve_around_the_Sabarimala_temple.jpg/960px-Dense_forest_of_the_Periyar_tiger_reserve_around_the_Sabarimala_temple.jpg",
     "lat": 9.4667,
     "lng": 77.15,
     "areaSqKm": 777,
@@ -16,12 +16,41 @@
         "label": "Periyar Tiger Reserve",
         "url": "https://periyartigerreserve.org",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Dense_forest_of_the_Periyar_tiger_reserve_around_the_Sabarimala_temple.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kerala Tourism (official)",
+        "url": "https://www.keralatourism.org",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "Shantham11",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dense_forest_of_the_Periyar_tiger_reserve_around_the_Sabarimala_temple.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Periyar Wildlife Sanctuary",
+          "url": "https://periyartigerreserve.org"
+        },
+        {
+          "label": "Kerala Tourism",
+          "url": "https://www.keralatourism.org"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -40,12 +69,52 @@
         "label": "Kerala Forest Dept",
         "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Misty_Wayanad_Wildlife_Sanctuary,_Muthanga_Range_-_panoramio_(3).jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kerala Tourism (official)",
+        "url": "https://www.keralatourism.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wayanad Wildlife Sanctuary (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Wayanad_Wildlife_Sanctuary",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Misty_Wayanad_Wildlife_Sanctuary%2C_Muthanga_Range_-_panoramio_%283%29.jpg/960px-Misty_Wayanad_Wildlife_Sanctuary%2C_Muthanga_Range_-_panoramio_%283%29.jpg",
+    "photoAttribution": {
+      "author": "Jaseem Hamza",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Misty_Wayanad_Wildlife_Sanctuary,_Muthanga_Range_-_panoramio_(3).jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Wayanad Wildlife Sanctuary",
+          "url": "https://keralaforest.gov.in"
+        },
+        {
+          "label": "Kerala Tourism",
+          "url": "https://www.keralatourism.org"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Wayanad Wildlife Sanctuary (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Wayanad_Wildlife_Sanctuary"
+        }
+      ]
     }
   },
   {
@@ -64,12 +133,57 @@
         "label": "Kerala Forest Dept",
         "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Parambikulam_dam.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Parambikulam Wildlife Sanctuary (official)",
+        "url": "https://parambikulam.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kerala Tourism (official)",
+        "url": "https://www.keralatourism.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Parambikulam Wildlife Sanctuary (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Parambikulam_Wildlife_Sanctuary",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Parambikulam_dam.jpg/960px-Parambikulam_dam.jpg",
+    "photoAttribution": {
+      "author": "Bhuvaneshkpv",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parambikulam_dam.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Parambikulam Wildlife Sanctuary",
+          "url": "https://parambikulam.org"
+        },
+        {
+          "label": "Kerala Tourism",
+          "url": "https://www.keralatourism.org"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Parambikulam Wildlife Sanctuary (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Parambikulam_Wildlife_Sanctuary"
+        }
+      ]
     }
   },
   {
@@ -88,12 +202,32 @@
         "label": "Kerala Forest Dept",
         "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Kerala Tourism (official)",
+        "url": "https://www.keralatourism.org",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Thattekad Bird Sanctuary (Salim Ali)",
+          "url": "https://keralaforest.gov.in"
+        },
+        {
+          "label": "Kerala Tourism",
+          "url": "https://www.keralatourism.org"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -112,12 +246,42 @@
         "label": "Kerala Forest Dept",
         "url": "https://keralaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Watch_tower_in_Kumarakom_Bird_Sanctuary.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Kerala Tourism (official)",
+        "url": "https://www.keralatourism.org",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Watch_tower_in_Kumarakom_Bird_Sanctuary.jpg/960px-Watch_tower_in_Kumarakom_Bird_Sanctuary.jpg",
+    "photoAttribution": {
+      "author": "Ganesh Mohan T",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Watch_tower_in_Kumarakom_Bird_Sanctuary.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kumarakom Bird Sanctuary",
+          "url": "https://keralaforest.gov.in"
+        },
+        {
+          "label": "Kerala Tourism",
+          "url": "https://www.keralatourism.org"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -126,7 +290,7 @@
     "type": "bird-sanctuary",
     "stateSlug": "rajasthan",
     "headlineSpeciesSlug": "indian-peafowl",
-    "photoUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Keoladeo_Ghana_National_Park%2C_Bharatpur%2C_Rajasthan%2C_India.jpg/960px-Keoladeo_Ghana_National_Park%2C_Bharatpur%2C_Rajasthan%2C_India.jpg",
     "lat": 27.16,
     "lng": 77.52,
     "areaSqKm": 29,
@@ -137,12 +301,51 @@
         "label": "Rajasthan Forest Dept",
         "url": "https://forest.rajasthan.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Keoladeo_Ghana_National_Park,_Bharatpur,_Rajasthan,_India.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Rajasthan Tourism (official)",
+        "url": "https://www.tourism.rajasthan.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Keoladeo Bird Sanctuary (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Keoladeo_Bird_Sanctuary",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "Nikhilchandra81",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keoladeo_Ghana_National_Park,_Bharatpur,_Rajasthan,_India.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Keoladeo Bird Sanctuary",
+          "url": "https://forest.rajasthan.gov.in"
+        },
+        {
+          "label": "Rajasthan Tourism",
+          "url": "https://www.tourism.rajasthan.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Keoladeo Bird Sanctuary (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Keoladeo_Bird_Sanctuary"
+        }
+      ]
     }
   },
   {
@@ -161,12 +364,42 @@
         "label": "Rajasthan Forest Dept",
         "url": "https://forest.rajasthan.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Wilderness_and_existance.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Rajasthan Tourism (official)",
+        "url": "https://www.tourism.rajasthan.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Wilderness_and_existance.jpg/960px-Wilderness_and_existance.jpg",
+    "photoAttribution": {
+      "author": "Ashvij Narayanan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wilderness_and_existance.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kumbhalgarh Wildlife Sanctuary",
+          "url": "https://forest.rajasthan.gov.in"
+        },
+        {
+          "label": "Rajasthan Tourism",
+          "url": "https://www.tourism.rajasthan.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -185,12 +418,47 @@
         "label": "WII",
         "url": "https://wii.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Chambal_river_near_Dhaulpur,_India.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "National Chambal Sanctuary (official)",
+        "url": "https://forest.rajasthan.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Rajasthan Tourism (official)",
+        "url": "https://www.tourism.rajasthan.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Chambal_river_near_Dhaulpur%2C_India.jpg/960px-Chambal_river_near_Dhaulpur%2C_India.jpg",
+    "photoAttribution": {
+      "author": "Yann (talk)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chambal_river_near_Dhaulpur,_India.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "National Chambal Sanctuary",
+          "url": "https://forest.rajasthan.gov.in"
+        },
+        {
+          "label": "Rajasthan Tourism",
+          "url": "https://www.tourism.rajasthan.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -209,12 +477,42 @@
         "label": "Rajasthan Forest Dept",
         "url": "https://forest.rajasthan.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Nakki_Lake_from_Mount_Abu_Wildlife_Sanctuary.JPG",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Rajasthan Tourism (official)",
+        "url": "https://www.tourism.rajasthan.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Nakki_Lake_from_Mount_Abu_Wildlife_Sanctuary.JPG/960px-Nakki_Lake_from_Mount_Abu_Wildlife_Sanctuary.JPG",
+    "photoAttribution": {
+      "author": "CorrectKnowledge",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nakki_Lake_from_Mount_Abu_Wildlife_Sanctuary.JPG"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Mount Abu Wildlife Sanctuary",
+          "url": "https://forest.rajasthan.gov.in"
+        },
+        {
+          "label": "Rajasthan Tourism",
+          "url": "https://www.tourism.rajasthan.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -223,7 +521,7 @@
     "type": "bird-sanctuary",
     "stateSlug": "goa",
     "headlineSpeciesSlug": "great-hornbill",
-    "photoUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Salim_Ali_Sanctuary.jpg/960px-Salim_Ali_Sanctuary.jpg",
     "lat": 15.5128,
     "lng": 73.8706,
     "areaSqKm": 1.8,
@@ -234,12 +532,41 @@
         "label": "Goa Forest Dept",
         "url": "https://forest.goa.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Salim_Ali_Sanctuary.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Goa Tourism (official)",
+        "url": "https://www.goatourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "Shyamal",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salim_Ali_Sanctuary.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Salim Ali Bird Sanctuary",
+          "url": "https://forest.goa.gov.in"
+        },
+        {
+          "label": "Goa Tourism",
+          "url": "https://www.goatourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -258,12 +585,52 @@
         "label": "Goa Forest Dept",
         "url": "https://forest.goa.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Somewhere_in_the_interiors_of_Cotigao.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Goa Tourism (official)",
+        "url": "https://www.goatourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Cotigao Wildlife Sanctuary (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Cotigao_Wildlife_Sanctuary",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Somewhere_in_the_interiors_of_Cotigao.jpg/960px-Somewhere_in_the_interiors_of_Cotigao.jpg",
+    "photoAttribution": {
+      "author": "Vikram2784",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Somewhere_in_the_interiors_of_Cotigao.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Cotigao Wildlife Sanctuary",
+          "url": "https://forest.goa.gov.in"
+        },
+        {
+          "label": "Goa Tourism",
+          "url": "https://www.goatourism.gov.in"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Cotigao Wildlife Sanctuary (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Cotigao_Wildlife_Sanctuary"
+        }
+      ]
     }
   },
   {
@@ -282,12 +649,42 @@
         "label": "Goa Forest Dept",
         "url": "https://forest.goa.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Netravali.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Goa Tourism (official)",
+        "url": "https://www.goatourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Netravali.jpg/960px-Netravali.jpg",
+    "photoAttribution": {
+      "author": "Rohanguj2",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Netravali.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Netravali Wildlife Sanctuary",
+          "url": "https://forest.goa.gov.in"
+        },
+        {
+          "label": "Goa Tourism",
+          "url": "https://www.goatourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -296,7 +693,7 @@
     "type": "wildlife-sanctuary",
     "stateSlug": "odisha",
     "headlineSpeciesSlug": "royal-bengal-tiger",
-    "photoUrl": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Habalikhati_Nature_Camp.jpg/960px-Habalikhati_Nature_Camp.jpg",
     "lat": 20.7067,
     "lng": 86.8683,
     "areaSqKm": 672,
@@ -307,12 +704,41 @@
         "label": "Odisha Forest Dept",
         "url": "https://odishaforest.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Habalikhati_Nature_Camp.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Odisha Tourism (official)",
+        "url": "https://odishatourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": {
+      "author": "Subhrasingh",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Habalikhati_Nature_Camp.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Bhitarkanika Wildlife Sanctuary",
+          "url": "https://odishaforest.in"
+        },
+        {
+          "label": "Odisha Tourism",
+          "url": "https://odishatourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -331,12 +757,42 @@
         "label": "Chilika Development Authority",
         "url": "https://chilika.com",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Asian_Dowitcher,_Chilika_Lake,_Odisha,_India_(19401127763).jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Odisha Tourism (official)",
+        "url": "https://odishatourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Asian_Dowitcher%2C_Chilika_Lake%2C_Odisha%2C_India_%2819401127763%29.jpg/960px-Asian_Dowitcher%2C_Chilika_Lake%2C_Odisha%2C_India_%2819401127763%29.jpg",
+    "photoAttribution": {
+      "author": "Mike Prince from Bangalore, India",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asian_Dowitcher,_Chilika_Lake,_Odisha,_India_(19401127763).jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Nalabana Bird Sanctuary (Chilika Lake)",
+          "url": "https://chilika.com"
+        },
+        {
+          "label": "Odisha Tourism",
+          "url": "https://odishatourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -360,12 +816,32 @@
         "label": "Gahirmatha Marine Sanctuary visitor guidelines",
         "url": "https://en.wikipedia.org/wiki/Gahirmatha_Marine_Sanctuary",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "Odisha Tourism (official)",
+        "url": "https://odishatourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Mandatory permits required given the sensitive olive ridley turtle nesting habitat; access is via guided motorboat tours from a limited number of permitted operators. Zones can close on short notice during the annual mass-nesting period (Jan-Feb) and hatching season."
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Gahirmatha Marine Sanctuary",
+          "url": "https://odishaforest.in"
+        },
+        {
+          "label": "Odisha Tourism",
+          "url": "https://odishatourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -374,7 +850,7 @@
     "type": "bird-sanctuary",
     "stateSlug": "tamil-nadu",
     "headlineSpeciesSlug": "indian-peafowl",
-    "photoUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "photoUrl": null,
     "lat": 10.3014,
     "lng": 79.8453,
     "areaSqKm": 21,
@@ -385,12 +861,31 @@
         "label": "TN Forest Dept",
         "url": "https://forests.tn.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Tamil Nadu Tourism (official)",
+        "url": "https://www.tamilnadutourism.tn.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoAttribution": null,
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Point Calimere Wildlife & Bird Sanctuary",
+          "url": "https://forests.tn.gov.in"
+        },
+        {
+          "label": "Tamil Nadu Tourism",
+          "url": "https://www.tamilnadutourism.tn.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -409,12 +904,42 @@
         "label": "TN Forest Dept",
         "url": "https://forests.tn.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Vedanthangal_Lake.JPG",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Tamil Nadu Tourism (official)",
+        "url": "https://www.tamilnadutourism.tn.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Vedanthangal_Lake.JPG/960px-Vedanthangal_Lake.JPG",
+    "photoAttribution": {
+      "author": "Phoenix bangalore",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vedanthangal_Lake.JPG"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Vedanthangal Bird Sanctuary",
+          "url": "https://forests.tn.gov.in"
+        },
+        {
+          "label": "Tamil Nadu Tourism",
+          "url": "https://www.tamilnadutourism.tn.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -433,12 +958,32 @@
         "label": "TN Forest Dept",
         "url": "https://forests.tn.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Tamil Nadu Tourism (official)",
+        "url": "https://www.tamilnadutourism.tn.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": null,
+    "photoAttribution": null,
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Srivilliputhur Grizzled Squirrel Sanctuary",
+          "url": "https://forests.tn.gov.in"
+        },
+        {
+          "label": "Tamil Nadu Tourism",
+          "url": "https://www.tamilnadutourism.tn.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -457,12 +1002,42 @@
         "label": "Gujarat Forest Dept",
         "url": "https://forests.gujarat.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Greater_Flamingo_2_at_Kutch.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Gujarat Tourism (official)",
+        "url": "https://www.gujarattourism.com",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Greater_Flamingo_2_at_Kutch.jpg/960px-Greater_Flamingo_2_at_Kutch.jpg",
+    "photoAttribution": {
+      "author": "Dhaval Vargiya",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greater_Flamingo_2_at_Kutch.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kutch Desert Wildlife Sanctuary",
+          "url": "https://forests.gujarat.gov.in"
+        },
+        {
+          "label": "Gujarat Tourism",
+          "url": "https://www.gujarattourism.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -481,12 +1056,42 @@
         "label": "Gujarat Forest Dept",
         "url": "https://forests.gujarat.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Wild_ass_india.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Gujarat Tourism (official)",
+        "url": "https://www.gujarattourism.com",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wild_ass_india.jpg/960px-Wild_ass_india.jpg",
+    "photoAttribution": {
+      "author": "Sballal",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wild_ass_india.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Wild Ass Sanctuary (Little Rann of Kutch)",
+          "url": "https://forests.gujarat.gov.in"
+        },
+        {
+          "label": "Gujarat Tourism",
+          "url": "https://www.gujarattourism.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -505,12 +1110,42 @@
         "label": "Gujarat Forest Dept",
         "url": "https://forests.gujarat.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Ruddy_Shelduck_at_Nalsarovar_Bird_Sanctuary.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Gujarat Tourism (official)",
+        "url": "https://www.gujarattourism.com",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Ruddy_Shelduck_at_Nalsarovar_Bird_Sanctuary.jpg/960px-Ruddy_Shelduck_at_Nalsarovar_Bird_Sanctuary.jpg",
+    "photoAttribution": {
+      "author": "Ikshan Ganpathi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruddy_Shelduck_at_Nalsarovar_Bird_Sanctuary.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Nal Sarovar Bird Sanctuary",
+          "url": "https://forests.gujarat.gov.in"
+        },
+        {
+          "label": "Gujarat Tourism",
+          "url": "https://www.gujarattourism.com"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -529,12 +1164,42 @@
         "label": "Karnataka Forest Dept",
         "url": "https://aranya.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:River_Cauvery_at_Cauvery_Wildlife_sanctuary_AparnaK.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Karnataka Tourism (official)",
+        "url": "https://karnatakatourism.org",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/River_Cauvery_at_Cauvery_Wildlife_sanctuary_AparnaK.jpg/960px-River_Cauvery_at_Cauvery_Wildlife_sanctuary_AparnaK.jpg",
+    "photoAttribution": {
+      "author": "Aparna K",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_Cauvery_at_Cauvery_Wildlife_sanctuary_AparnaK.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Cauvery Wildlife Sanctuary",
+          "url": "https://aranya.gov.in"
+        },
+        {
+          "label": "Karnataka Tourism",
+          "url": "https://karnatakatourism.org"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -553,12 +1218,42 @@
         "label": "Karnataka Forest Dept",
         "url": "https://aranya.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:2006-Tigers-and-Gaurs.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Karnataka Tourism (official)",
+        "url": "https://karnatakatourism.org",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/2006-Tigers-and-Gaurs.jpg",
+    "photoAttribution": {
+      "author": "Yathin S Krishnappa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2006-Tigers-and-Gaurs.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Bhadra Wildlife Sanctuary",
+          "url": "https://aranya.gov.in"
+        },
+        {
+          "label": "Karnataka Tourism",
+          "url": "https://karnatakatourism.org"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -577,12 +1272,52 @@
         "label": "Karnataka Forest Dept",
         "url": "https://aranya.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Eurasian_Spoonbill_Walking_Ranganathittu_Karnataka_Jan24_A7C_09151.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Karnataka Tourism (official)",
+        "url": "https://karnatakatourism.org",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Ranganathittu Bird Sanctuary (Wikivoyage)",
+        "url": "https://en.wikivoyage.org/wiki/Ranganathittu_Bird_Sanctuary",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Eurasian_Spoonbill_Walking_Ranganathittu_Karnataka_Jan24_A7C_09151.jpg/960px-Eurasian_Spoonbill_Walking_Ranganathittu_Karnataka_Jan24_A7C_09151.jpg",
+    "photoAttribution": {
+      "author": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurasian_Spoonbill_Walking_Ranganathittu_Karnataka_Jan24_A7C_09151.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Ranganathittu Bird Sanctuary",
+          "url": "https://aranya.gov.in"
+        },
+        {
+          "label": "Karnataka Tourism",
+          "url": "https://karnatakatourism.org"
+        }
+      ],
+      "operators": [
+        {
+          "label": "Ranganathittu Bird Sanctuary (Wikivoyage)",
+          "url": "https://en.wikivoyage.org/wiki/Ranganathittu_Bird_Sanctuary"
+        }
+      ]
     }
   },
   {
@@ -601,12 +1336,42 @@
         "label": "Maharashtra Forest Dept",
         "url": "https://mahaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Koyna-Dam3.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Maharashtra Tourism (official)",
+        "url": "https://www.maharashtratourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Koyna-Dam3.jpg",
+    "photoAttribution": {
+      "author": "Nichalp",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koyna-Dam3.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Koyna Wildlife Sanctuary",
+          "url": "https://mahaforest.gov.in"
+        },
+        {
+          "label": "Maharashtra Tourism",
+          "url": "https://www.maharashtratourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -625,12 +1390,42 @@
         "label": "Maharashtra Forest Dept",
         "url": "https://mahaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Sunset_Sunrise_Bhimashankar_Wildlife_Sanctuary_Pune_(1)_02.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Maharashtra Tourism (official)",
+        "url": "https://www.maharashtratourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sunset_Sunrise_Bhimashankar_Wildlife_Sanctuary_Pune_%281%29_02.jpg/960px-Sunset_Sunrise_Bhimashankar_Wildlife_Sanctuary_Pune_%281%29_02.jpg",
+    "photoAttribution": {
+      "author": "nikhil more",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Sunrise_Bhimashankar_Wildlife_Sanctuary_Pune_(1)_02.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Bhimashankar Wildlife Sanctuary",
+          "url": "https://mahaforest.gov.in"
+        },
+        {
+          "label": "Maharashtra Tourism",
+          "url": "https://www.maharashtratourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -649,12 +1444,42 @@
         "label": "Maharashtra Forest Dept",
         "url": "https://mahaforest.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Radhanagri_wildlife_reserve.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Maharashtra Tourism (official)",
+        "url": "https://www.maharashtratourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Radhanagri_wildlife_reserve.jpg/960px-Radhanagri_wildlife_reserve.jpg",
+    "photoAttribution": {
+      "author": "Pratikkulkarni228",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radhanagri_wildlife_reserve.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Radhanagari Wildlife Sanctuary",
+          "url": "https://mahaforest.gov.in"
+        },
+        {
+          "label": "Maharashtra Tourism",
+          "url": "https://www.maharashtratourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -673,12 +1498,42 @@
         "label": "Assam Forest Dept",
         "url": "https://forest.assam.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:House_in_the_Wild.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Assam Tourism (official)",
+        "url": "https://assamtourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/House_in_the_Wild.jpg/960px-House_in_the_Wild.jpg",
+    "photoAttribution": {
+      "author": "Bhavabhuthi",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_in_the_Wild.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Pobitora Wildlife Sanctuary",
+          "url": "https://forest.assam.gov.in"
+        },
+        {
+          "label": "Assam Tourism",
+          "url": "https://assamtourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -697,12 +1552,42 @@
         "label": "Assam Forest Dept",
         "url": "https://forest.assam.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Hoolock_hoolock_001.jpg",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Assam Tourism (official)",
+        "url": "https://assamtourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Hoolock_hoolock_001.jpg",
+    "photoAttribution": {
+      "author": "Vijay Cavale",
+      "license": "CC BY-SA 1.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoolock_hoolock_001.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Hoollongapar Gibbon Sanctuary",
+          "url": "https://forest.assam.gov.in"
+        },
+        {
+          "label": "Assam Tourism",
+          "url": "https://assamtourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -721,12 +1606,42 @@
         "label": "HP Forest Dept",
         "url": "https://hpforest.nic.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Kalatop_Wildlife_Sanctuary.JPG",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Himachal Pradesh Tourism (official)",
+        "url": "https://himachaltourism.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kalatop_Wildlife_Sanctuary.JPG/960px-Kalatop_Wildlife_Sanctuary.JPG",
+    "photoAttribution": {
+      "author": "Truewebsolution",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kalatop_Wildlife_Sanctuary.JPG"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Kalatop Khajjiar Wildlife Sanctuary",
+          "url": "https://hpforest.nic.in"
+        },
+        {
+          "label": "Himachal Pradesh Tourism",
+          "url": "https://himachaltourism.gov.in"
+        }
+      ],
+      "operators": []
     }
   },
   {
@@ -745,12 +1660,33 @@
         "label": "J&K Wildlife Dept",
         "url": "https://jkwildlife.com",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "Wikimedia Commons (cover photo)",
+        "url": "https://commons.wikimedia.org/wiki/File:Flora_of_Gulmarg_Wildlife_Sanctuary.jpg",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": false,
+    "needsResearch": true,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Flora_of_Gulmarg_Wildlife_Sanctuary.jpg/960px-Flora_of_Gulmarg_Wildlife_Sanctuary.jpg",
+    "photoAttribution": {
+      "author": "Tanujdogra",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flora_of_Gulmarg_Wildlife_Sanctuary.jpg"
+    },
+    "travelLinks": {
+      "official": [
+        {
+          "label": "Gulmarg Wildlife Sanctuary",
+          "url": "https://jkwildlife.com"
+        }
+      ],
+      "operators": []
     }
   }
 ]
