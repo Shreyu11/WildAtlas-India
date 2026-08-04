@@ -63,7 +63,8 @@
       "nilgiri-tahr",
       "lion-tailed-macaque"
     ],
-    "description": "Periyar Wildlife Sanctuary is a wildlife sanctuary in Kerala, spanning 777 sq km. Scenic artificial lake formed by Mullaperiyar Dam where wild elephant herds gather. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Giant Squirrel, Sloth Bear, Nilgiri Tahr, and Lion-tailed Macaque. It is open to visitors with a standard entry or safari permit."
+    "description": "Periyar Wildlife Sanctuary is a wildlife sanctuary in Kerala, spanning 777 sq km. Scenic artificial lake formed by Mullaperiyar Dam where wild elephant herds gather. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Giant Squirrel, Sloth Bear, Nilgiri Tahr, and Lion-tailed Macaque. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "wayanad-wildlife-sanctuary",
@@ -145,7 +146,8 @@
       "red-whiskered-bulbul",
       "white-cheeked-barbet"
     ],
-    "description": "Wayanad Wildlife Sanctuary is a wildlife sanctuary in Kerala, spanning 344.44 sq km. Part of Nilgiri Biosphere Reserve connecting Bandipur and Mudumalai. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Peafowl, Indian Leopard, Sloth Bear, Red-whiskered Bulbul, and White-cheeked Barbet. It is open to visitors with a standard entry or safari permit."
+    "description": "Wayanad Wildlife Sanctuary is a wildlife sanctuary in Kerala, spanning 344.44 sq km. Part of Nilgiri Biosphere Reserve connecting Bandipur and Mudumalai. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Peafowl, Indian Leopard, Sloth Bear, Red-whiskered Bulbul, and White-cheeked Barbet. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "parambikulam-tiger-reserve",
@@ -227,7 +229,8 @@
       "sloth-bear",
       "little-cormorant"
     ],
-    "description": "Parambikulam Wildlife Sanctuary is a wildlife sanctuary in Kerala, spanning 285 sq km. High tiger density reserve featuring Kannimara Teak, one of the world's oldest teak trees. Its flagship species is the Asian Elephant. Other notable species seen here include Lion-tailed Macaque, Nilgiri Tahr, Indian Leopard, Sloth Bear, and Little Cormorant. It is open to visitors with a standard entry or safari permit."
+    "description": "Parambikulam Wildlife Sanctuary is a wildlife sanctuary in Kerala, spanning 285 sq km. High tiger density reserve featuring Kannimara Teak, one of the world's oldest teak trees. Its flagship species is the Asian Elephant. Other notable species seen here include Lion-tailed Macaque, Nilgiri Tahr, Indian Leopard, Sloth Bear, and Little Cormorant. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "thattekad-bird-sanctuary",
@@ -284,7 +287,8 @@
       "white-throated-kingfisher",
       "greater-coucal"
     ],
-    "description": "Thattekad Bird Sanctuary (Salim Ali) is a bird sanctuary in Kerala, spanning 25.16 sq km. Described by Dr. Salim Ali as the richest bird habitat in peninsular India. Its flagship species is the Indian Peafowl. Other notable species seen here include White-cheeked Barbet, Red-whiskered Bulbul, Rufous Treepie, White-throated Kingfisher, and Greater Coucal. It is open to visitors with a standard entry or safari permit."
+    "description": "Thattekad Bird Sanctuary (Salim Ali) is a bird sanctuary in Kerala, spanning 25.16 sq km. Described by Dr. Salim Ali as the richest bird habitat in peninsular India. Its flagship species is the Indian Peafowl. Other notable species seen here include White-cheeked Barbet, Red-whiskered Bulbul, Rufous Treepie, White-throated Kingfisher, and Greater Coucal. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "November to February is peak season - the winter migratory-bird window, when wintering waterfowl numbers are highest."
   },
   {
     "slug": "kumarakom-bird-sanctuary",
@@ -355,7 +359,8 @@
       "asian-koel",
       "indian-pond-heron"
     ],
-    "description": "Kumarakom Bird Sanctuary is a bird sanctuary in Kerala, spanning 0.57 sq km. Vembanad lakefront wetland roosting ground for migratory Siberian Cranes. Its flagship species is the Brahminy Kite. Other notable species seen here include House Crow, Common Myna, Asian Koel, and Indian Pond Heron. It is open to visitors with a standard entry or safari permit."
+    "description": "Kumarakom Bird Sanctuary is a bird sanctuary in Kerala, spanning 0.57 sq km. Vembanad lakefront wetland roosting ground for migratory Siberian Cranes. Its flagship species is the Brahminy Kite. Other notable species seen here include House Crow, Common Myna, Asian Koel, and Indian Pond Heron. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "November to February is peak season - the winter migratory-bird window, when wintering waterfowl numbers are highest."
   },
   {
     "slug": "keoladeo-bird-sanctuary",
@@ -432,7 +437,8 @@
       "red-vented-bulbul",
       "jungle-babbler"
     ],
-    "description": "Keoladeo Bird Sanctuary is a bird sanctuary in Rajasthan, spanning 29 sq km. UNESCO World Heritage wetlands hosting over 370 bird species. Its flagship species is the Indian Peafowl. Other notable species seen here include Rose-ringed Parakeet, White-throated Kingfisher, Red-wattled Lapwing, Red-vented Bulbul, and Jungle Babbler. It is open to visitors with a standard entry or safari permit."
+    "description": "Keoladeo Bird Sanctuary is a bird sanctuary in Rajasthan, spanning 29 sq km. UNESCO World Heritage wetlands hosting over 370 bird species. Its flagship species is the Indian Peafowl. Other notable species seen here include Rose-ringed Parakeet, White-throated Kingfisher, Red-wattled Lapwing, Red-vented Bulbul, and Jungle Babbler. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "November to February is peak season - the winter migratory-bird window, when wintering waterfowl numbers are highest."
   },
   {
     "slug": "kumbhalgarh-wildlife-sanctuary",
@@ -498,7 +504,8 @@
       "golden-jackal",
       "indian-eagle-owl"
     ],
-    "description": "Kumbhalgarh Wildlife Sanctuary is a wildlife sanctuary in Rajasthan, spanning 578 sq km. Aravalli range sanctuary surrounding historical Kumbhalgarh Fort. Its flagship species is the Indian Leopard. Other notable species seen here include Sloth Bear, Striped Hyena, Golden Jackal, and Indian Eagle-Owl. It is open to visitors with a standard entry or safari permit."
+    "description": "Kumbhalgarh Wildlife Sanctuary is a wildlife sanctuary in Rajasthan, spanning 578 sq km. Aravalli range sanctuary surrounding historical Kumbhalgarh Fort. Its flagship species is the Indian Leopard. Other notable species seen here include Sloth Bear, Striped Hyena, Golden Jackal, and Indian Eagle-Owl. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "national-chambal-sanctuary",
@@ -569,7 +576,8 @@
       "sarus-crane",
       "bar-headed-goose"
     ],
-    "description": "National Chambal Sanctuary is a wildlife sanctuary in Rajasthan, spanning 5,400 sq km. Tri-state river sanctuary protecting critically endangered Gharial and Gangetic Dolphin. Its flagship species is the Striped Hyena. Other notable species seen here include Golden Jackal, Blackbuck, Sarus Crane, and Bar-headed Goose. It is open to visitors with a standard entry or safari permit."
+    "description": "National Chambal Sanctuary is a wildlife sanctuary in Rajasthan, spanning 5,400 sq km. Tri-state river sanctuary protecting critically endangered Gharial and Gangetic Dolphin. Its flagship species is the Striped Hyena. Other notable species seen here include Golden Jackal, Blackbuck, Sarus Crane, and Bar-headed Goose. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "October to March is best, avoiding the extreme summer heat (April-June); many desert species are also easiest to spot near winter waterholes."
   },
   {
     "slug": "mount-abu-wildlife-sanctuary",
@@ -635,7 +643,8 @@
       "striped-hyena",
       "golden-jackal"
     ],
-    "description": "Mount Abu Wildlife Sanctuary is a wildlife sanctuary in Rajasthan, spanning 288 sq km. Sub-tropical forest plateau in Aravalli range rich in orchids and leopards. Its flagship species is the Indian Leopard. Other notable species seen here include Sloth Bear, Sambar Deer, Striped Hyena, and Golden Jackal. It is open to visitors with a standard entry or safari permit."
+    "description": "Mount Abu Wildlife Sanctuary is a wildlife sanctuary in Rajasthan, spanning 288 sq km. Sub-tropical forest plateau in Aravalli range rich in orchids and leopards. Its flagship species is the Indian Leopard. Other notable species seen here include Sloth Bear, Sambar Deer, Striped Hyena, and Golden Jackal. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "salim-ali-bird-sanctuary",
@@ -702,7 +711,8 @@
       "white-throated-kingfisher",
       "black-kite"
     ],
-    "description": "Salim Ali Bird Sanctuary is a bird sanctuary in Goa, spanning 1.8 sq km. Estuarine mangrove habitat along Mandovi River named after Dr. Salim Ali. Its flagship species is the Great Hornbill. Other notable species seen here include Brahminy Kite, House Crow, Red-whiskered Bulbul, White-throated Kingfisher, and Black Kite. It is open to visitors with a standard entry or safari permit."
+    "description": "Salim Ali Bird Sanctuary is a bird sanctuary in Goa, spanning 1.8 sq km. Estuarine mangrove habitat along Mandovi River named after Dr. Salim Ali. Its flagship species is the Great Hornbill. Other notable species seen here include Brahminy Kite, House Crow, Red-whiskered Bulbul, White-throated Kingfisher, and Black Kite. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "November to February is peak season - the winter migratory-bird window, when wintering waterfowl numbers are highest."
   },
   {
     "slug": "cotigao-wildlife-sanctuary",
@@ -779,7 +789,8 @@
       "white-throated-kingfisher",
       "black-kite"
     ],
-    "description": "Cotigao Wildlife Sanctuary is a wildlife sanctuary in Goa, spanning 86 sq km. Dense multi-story Western Ghats forest with observation treetop decks. Its flagship species is the Great Hornbill. Other notable species seen here include Brahminy Kite, Red-whiskered Bulbul, House Crow, White-throated Kingfisher, and Black Kite. It is open to visitors with a standard entry or safari permit."
+    "description": "Cotigao Wildlife Sanctuary is a wildlife sanctuary in Goa, spanning 86 sq km. Dense multi-story Western Ghats forest with observation treetop decks. Its flagship species is the Great Hornbill. Other notable species seen here include Brahminy Kite, Red-whiskered Bulbul, House Crow, White-throated Kingfisher, and Black Kite. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "netravali-wildlife-sanctuary",
@@ -851,7 +862,8 @@
       "red-whiskered-bulbul",
       "brahminy-kite"
     ],
-    "description": "Netravali Wildlife Sanctuary is a wildlife sanctuary in Goa, spanning 211 sq km. Crucial Western Ghats corridor connecting Bhagwan Mahaveer and Bhimgad. Its flagship species is the Great Hornbill. Other notable species seen here include Gaur (Indian Bison), Indian Giant Squirrel, Sloth Bear, Red-whiskered Bulbul, and Brahminy Kite. It is open to visitors with a standard entry or safari permit."
+    "description": "Netravali Wildlife Sanctuary is a wildlife sanctuary in Goa, spanning 211 sq km. Crucial Western Ghats corridor connecting Bhagwan Mahaveer and Bhimgad. Its flagship species is the Great Hornbill. Other notable species seen here include Gaur (Indian Bison), Indian Giant Squirrel, Sloth Bear, Red-whiskered Bulbul, and Brahminy Kite. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "bhitarkanika-wildlife-sanctuary",
@@ -922,7 +934,8 @@
       "spotted-dove",
       "little-egret"
     ],
-    "description": "Bhitarkanika Wildlife Sanctuary is a wildlife sanctuary in Odisha, spanning 672 sq km. Second largest mangrove ecosystem in India, famous for giant Saltwater Crocodiles. Its flagship species is the Sambar Deer. Other notable species seen here include Rose-ringed Parakeet, Indian Pond Heron, Spotted Dove, and Little Egret. It is open to visitors with a standard entry or safari permit."
+    "description": "Bhitarkanika Wildlife Sanctuary is a wildlife sanctuary in Odisha, spanning 672 sq km. Second largest mangrove ecosystem in India, famous for giant Saltwater Crocodiles. Its flagship species is the Sambar Deer. Other notable species seen here include Rose-ringed Parakeet, Indian Pond Heron, Spotted Dove, and Little Egret. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "chilika-lake-nalabana-bird-sanctuary",
@@ -989,7 +1002,8 @@
       "little-cormorant",
       "indian-pond-heron"
     ],
-    "description": "Nalabana Bird Sanctuary (Chilika Lake) is a bird sanctuary in Odisha, spanning 15.53 sq km. Core island sanctuary of Asia's largest brackish water lagoon, hosting over a million wintering waterfowl. Its flagship species is the Indian Peafowl. Other notable species seen here include House Crow, Little Egret, Brahminy Kite, Little Cormorant, and Indian Pond Heron. It is open to visitors with a standard entry or safari permit."
+    "description": "Nalabana Bird Sanctuary (Chilika Lake) is a bird sanctuary in Odisha, spanning 15.53 sq km. Core island sanctuary of Asia's largest brackish water lagoon, hosting over a million wintering waterfowl. Its flagship species is the Indian Peafowl. Other notable species seen here include House Crow, Little Egret, Brahminy Kite, Little Cormorant, and Indian Pond Heron. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "November to February is peak season - the winter migratory-bird window, when wintering waterfowl numbers are highest."
   },
   {
     "slug": "gahirmatha-marine-sanctuary",
@@ -1050,7 +1064,8 @@
       "spotted-dove",
       "little-egret"
     ],
-    "description": "Gahirmatha Marine Sanctuary is a wildlife sanctuary in Odisha, spanning 1,435 sq km. World's largest rookery for Olive Ridley Sea Turtles. Its flagship species is the White-throated Kingfisher. Other notable species seen here include Rose-ringed Parakeet, Indian Pond Heron, Spotted Dove, and Little Egret. Visiting requires a specific access permit beyond standard entry."
+    "description": "Gahirmatha Marine Sanctuary is a wildlife sanctuary in Odisha, spanning 1,435 sq km. World's largest rookery for Olive Ridley Sea Turtles. Its flagship species is the White-throated Kingfisher. Other notable species seen here include Rose-ringed Parakeet, Indian Pond Heron, Spotted Dove, and Little Egret. Visiting requires a specific access permit beyond standard entry.",
+    "bestTimeToVisit": "October to March is best, for calm seas and clear water visibility; the June-September monsoon brings rough seas and reduced access."
   },
   {
     "slug": "point-calimere-wildlife-and-bird-sanctuary",
@@ -1107,7 +1122,8 @@
       "white-throated-kingfisher",
       "painted-stork"
     ],
-    "description": "Point Calimere Wildlife & Bird Sanctuary is a bird sanctuary in Tamil Nadu, spanning 21 sq km. Ramsar wetland site along Palk Strait, famous for wintering Greater Flamingos. Its flagship species is the Indian Peafowl. Other notable species seen here include Brahminy Kite, Common Myna, Little Egret, White-throated Kingfisher, and Painted Stork. It is open to visitors with a standard entry or safari permit."
+    "description": "Point Calimere Wildlife & Bird Sanctuary is a bird sanctuary in Tamil Nadu, spanning 21 sq km. Ramsar wetland site along Palk Strait, famous for wintering Greater Flamingos. Its flagship species is the Indian Peafowl. Other notable species seen here include Brahminy Kite, Common Myna, Little Egret, White-throated Kingfisher, and Painted Stork. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "November to February is peak season - the winter migratory-bird window, when wintering waterfowl numbers are highest."
   },
   {
     "slug": "vedanthangal-bird-sanctuary",
@@ -1173,7 +1189,8 @@
       "grey-heron",
       "indian-pond-heron"
     ],
-    "description": "Vedanthangal Bird Sanctuary is a bird sanctuary in Tamil Nadu, spanning 0.3 sq km. India's oldest waterbird sanctuary, protected by villagers for over 250 years. Its flagship species is the Painted Stork. Other notable species seen here include Little Cormorant, Little Egret, Grey Heron, and Indian Pond Heron. It is open to visitors with a standard entry or safari permit."
+    "description": "Vedanthangal Bird Sanctuary is a bird sanctuary in Tamil Nadu, spanning 0.3 sq km. India's oldest waterbird sanctuary, protected by villagers for over 250 years. Its flagship species is the Painted Stork. Other notable species seen here include Little Cormorant, Little Egret, Grey Heron, and Indian Pond Heron. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "November to February is peak season - the winter migratory-bird window, when wintering waterfowl numbers are highest."
   },
   {
     "slug": "srivilliputhur-grizzled-squirrel-sanctuary",
@@ -1230,7 +1247,8 @@
       "purple-sunbird",
       "white-cheeked-barbet"
     ],
-    "description": "Srivilliputhur Grizzled Squirrel Sanctuary is a wildlife sanctuary in Tamil Nadu, spanning 485 sq km. Created specifically to protect the near-threatened Grizzled Giant Squirrel. Its flagship species is the Indian Giant Squirrel. Other notable species seen here include Common Myna, House Crow, Black Drongo, Purple Sunbird, and White-cheeked Barbet. It is open to visitors with a standard entry or safari permit."
+    "description": "Srivilliputhur Grizzled Squirrel Sanctuary is a wildlife sanctuary in Tamil Nadu, spanning 485 sq km. Created specifically to protect the near-threatened Grizzled Giant Squirrel. Its flagship species is the Indian Giant Squirrel. Other notable species seen here include Common Myna, House Crow, Black Drongo, Purple Sunbird, and White-cheeked Barbet. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "kutch-desert-wildlife-sanctuary",
@@ -1302,7 +1320,8 @@
       "eurasian-collared-dove",
       "red-vented-bulbul"
     ],
-    "description": "Kutch Desert Wildlife Sanctuary is a wildlife sanctuary in Gujarat, spanning 7,506.22 sq km. Largest sanctuary in India, containing the famous Flamingo City breeding ground. Its flagship species is the Indian Wild Ass (Khur). Other notable species seen here include Green Bee-eater, Laughing Dove, House Sparrow, Eurasian Collared Dove, and Red-vented Bulbul. It is open to visitors with a standard entry or safari permit."
+    "description": "Kutch Desert Wildlife Sanctuary is a wildlife sanctuary in Gujarat, spanning 7,506.22 sq km. Largest sanctuary in India, containing the famous Flamingo City breeding ground. Its flagship species is the Indian Wild Ass (Khur). Other notable species seen here include Green Bee-eater, Laughing Dove, House Sparrow, Eurasian Collared Dove, and Red-vented Bulbul. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "October to March is best, avoiding the extreme summer heat (April-June); many desert species are also easiest to spot near winter waterholes."
   },
   {
     "slug": "wild-ass-sanctuary-little-rann-of-kutch",
@@ -1374,7 +1393,8 @@
       "red-wattled-lapwing",
       "greater-flamingo"
     ],
-    "description": "Wild Ass Sanctuary (Little Rann of Kutch) is a wildlife sanctuary in Gujarat, spanning 4,953.7 sq km. The sole refuge of the endangered Indian Wild Ass (Khur). Its flagship species is the Indian Wild Ass (Khur). Other notable species seen here include Green Bee-eater, Eurasian Collared Dove, Black Drongo, Red-wattled Lapwing, and Greater Flamingo. It is open to visitors with a standard entry or safari permit."
+    "description": "Wild Ass Sanctuary (Little Rann of Kutch) is a wildlife sanctuary in Gujarat, spanning 4,953.7 sq km. The sole refuge of the endangered Indian Wild Ass (Khur). Its flagship species is the Indian Wild Ass (Khur). Other notable species seen here include Green Bee-eater, Eurasian Collared Dove, Black Drongo, Red-wattled Lapwing, and Greater Flamingo. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "October to March is best, avoiding the extreme summer heat (April-June); many desert species are also easiest to spot near winter waterholes."
   },
   {
     "slug": "nal-sarovar-bird-sanctuary",
@@ -1441,7 +1461,8 @@
       "green-bee-eater",
       "indian-pond-heron"
     ],
-    "description": "Nal Sarovar Bird Sanctuary is a bird sanctuary in Gujarat, spanning 120.82 sq km. Largest wetland bird sanctuary in Gujarat, hosting pelicans, flamingos, and storks. Its flagship species is the Indian Peafowl. Other notable species seen here include Red-wattled Lapwing, Eurasian Collared Dove, Black Drongo, Green Bee-eater, and Indian Pond Heron. It is open to visitors with a standard entry or safari permit."
+    "description": "Nal Sarovar Bird Sanctuary is a bird sanctuary in Gujarat, spanning 120.82 sq km. Largest wetland bird sanctuary in Gujarat, hosting pelicans, flamingos, and storks. Its flagship species is the Indian Peafowl. Other notable species seen here include Red-wattled Lapwing, Eurasian Collared Dove, Black Drongo, Green Bee-eater, and Indian Pond Heron. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "November to February is peak season - the winter migratory-bird window, when wintering waterfowl numbers are highest."
   },
   {
     "slug": "cauvery-wildlife-sanctuary",
@@ -1508,7 +1529,8 @@
       "indian-giant-squirrel",
       "indian-vulture"
     ],
-    "description": "Cauvery Wildlife Sanctuary is a wildlife sanctuary in Karnataka, spanning 1,027 sq km. Riverine elephant corridor along Cauvery River, sanctuary for Mahseer fish. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Leopard, Sloth Bear, Chital (Spotted Deer), Indian Giant Squirrel, and Indian Vulture. It is open to visitors with a standard entry or safari permit."
+    "description": "Cauvery Wildlife Sanctuary is a wildlife sanctuary in Karnataka, spanning 1,027 sq km. Riverine elephant corridor along Cauvery River, sanctuary for Mahseer fish. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Leopard, Sloth Bear, Chital (Spotted Deer), Indian Giant Squirrel, and Indian Vulture. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "bhadra-wildlife-sanctuary",
@@ -1575,7 +1597,8 @@
       "hill-myna",
       "malabar-whistling-thrush"
     ],
-    "description": "Bhadra Wildlife Sanctuary is a wildlife sanctuary in Karnataka, spanning 492.46 sq km. Western Ghats tiger reserve surrounded by Bababudangiri hills. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Leopard, Sloth Bear, Emerald Dove, Hill Myna, and Malabar Whistling Thrush. It is open to visitors with a standard entry or safari permit."
+    "description": "Bhadra Wildlife Sanctuary is a wildlife sanctuary in Karnataka, spanning 492.46 sq km. Western Ghats tiger reserve surrounded by Bababudangiri hills. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Leopard, Sloth Bear, Emerald Dove, Hill Myna, and Malabar Whistling Thrush. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "ranganathittu-bird-sanctuary",
@@ -1656,7 +1679,8 @@
       "black-kite",
       "ashy-prinia"
     ],
-    "description": "Ranganathittu Bird Sanctuary is a bird sanctuary in Karnataka, spanning 0.67 sq km. Ramsar islet sanctuary on Kaveri river near Mysuru, nesting site for Painted Storks. Its flagship species is the Painted Stork. Other notable species seen here include Rose-ringed Parakeet, Common Myna, Black Kite, and Ashy Prinia. It is open to visitors with a standard entry or safari permit."
+    "description": "Ranganathittu Bird Sanctuary is a bird sanctuary in Karnataka, spanning 0.67 sq km. Ramsar islet sanctuary on Kaveri river near Mysuru, nesting site for Painted Storks. Its flagship species is the Painted Stork. Other notable species seen here include Rose-ringed Parakeet, Common Myna, Black Kite, and Ashy Prinia. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "November to February is peak season - the winter migratory-bird window, when wintering waterfowl numbers are highest."
   },
   {
     "slug": "koyna-wildlife-sanctuary",
@@ -1727,7 +1751,8 @@
       "spotted-dove",
       "white-throated-kingfisher"
     ],
-    "description": "Koyna Wildlife Sanctuary is a wildlife sanctuary in Maharashtra, spanning 426.52 sq km. UNESCO World Heritage Western Ghats reserve surrounding Shivsagar Lake. Its flagship species is the Sambar Deer. Other notable species seen here include Malabar Pied Hornbill, Red-vented Bulbul, Spotted Dove, and White-throated Kingfisher. It is open to visitors with a standard entry or safari permit."
+    "description": "Koyna Wildlife Sanctuary is a wildlife sanctuary in Maharashtra, spanning 426.52 sq km. UNESCO World Heritage Western Ghats reserve surrounding Shivsagar Lake. Its flagship species is the Sambar Deer. Other notable species seen here include Malabar Pied Hornbill, Red-vented Bulbul, Spotted Dove, and White-throated Kingfisher. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "bhimashankar-wildlife-sanctuary",
@@ -1799,7 +1824,8 @@
       "indian-robin",
       "purple-sunbird"
     ],
-    "description": "Bhimashankar Wildlife Sanctuary is a wildlife sanctuary in Maharashtra, spanning 130.78 sq km. Created specifically to protect the Indian Giant Squirrel (Shekru). Its flagship species is the Indian Giant Squirrel. Other notable species seen here include Golden Jackal, Red-vented Bulbul, Red-whiskered Bulbul, Indian Robin, and Purple Sunbird. It is open to visitors with a standard entry or safari permit."
+    "description": "Bhimashankar Wildlife Sanctuary is a wildlife sanctuary in Maharashtra, spanning 130.78 sq km. Created specifically to protect the Indian Giant Squirrel (Shekru). Its flagship species is the Indian Giant Squirrel. Other notable species seen here include Golden Jackal, Red-vented Bulbul, Red-whiskered Bulbul, Indian Robin, and Purple Sunbird. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "radhanagari-wildlife-sanctuary",
@@ -1871,7 +1897,8 @@
       "red-whiskered-bulbul",
       "red-vented-bulbul"
     ],
-    "description": "Radhanagari Wildlife Sanctuary is a wildlife sanctuary in Maharashtra, spanning 351.16 sq km. First sanctuary in Maharashtra, prime habitat for Indian Bison (Gaur). Its flagship species is the Indian Giant Squirrel. Other notable species seen here include Gaur (Indian Bison), Indian Leopard, Sloth Bear, Red-whiskered Bulbul, and Red-vented Bulbul. It is open to visitors with a standard entry or safari permit."
+    "description": "Radhanagari Wildlife Sanctuary is a wildlife sanctuary in Maharashtra, spanning 351.16 sq km. First sanctuary in Maharashtra, prime habitat for Indian Bison (Gaur). Its flagship species is the Indian Giant Squirrel. Other notable species seen here include Gaur (Indian Bison), Indian Leopard, Sloth Bear, Red-whiskered Bulbul, and Red-vented Bulbul. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "pobitora-wildlife-sanctuary",
@@ -1943,7 +1970,8 @@
       "common-myna",
       "red-vented-bulbul"
     ],
-    "description": "Pobitora Wildlife Sanctuary is a wildlife sanctuary in Assam, spanning 38.85 sq km. Highest density of One-horned Rhinoceroses in the world. Its flagship species is the Indian Rhinoceros. Other notable species seen here include Golden Jackal, Indian Leopard, Spotted Dove, Common Myna, and Red-vented Bulbul. It is open to visitors with a standard entry or safari permit."
+    "description": "Pobitora Wildlife Sanctuary is a wildlife sanctuary in Assam, spanning 38.85 sq km. Highest density of One-horned Rhinoceroses in the world. Its flagship species is the Indian Rhinoceros. Other notable species seen here include Golden Jackal, Indian Leopard, Spotted Dove, Common Myna, and Red-vented Bulbul. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "November to April is best - dry-season foliage thins out and wildlife concentrates around waterholes, making sightings far easier. Core zones of many reserves are closed during the monsoon (1 July-30 September, per NTCA guidelines) regardless of season."
   },
   {
     "slug": "hoollongapar-gibbon-sanctuary",
@@ -2014,7 +2042,8 @@
       "red-vented-bulbul",
       "white-throated-kingfisher"
     ],
-    "description": "Hoollongapar Gibbon Sanctuary is a wildlife sanctuary in Assam, spanning 20.98 sq km. Sole sanctuary in India named after India's only ape species, the Hoolock Gibbon. Its flagship species is the Hoolock Gibbon. Other notable species seen here include Common Myna, Spotted Dove, Red-vented Bulbul, and White-throated Kingfisher. It is open to visitors with a standard entry or safari permit."
+    "description": "Hoollongapar Gibbon Sanctuary is a wildlife sanctuary in Assam, spanning 20.98 sq km. Sole sanctuary in India named after India's only ape species, the Hoolock Gibbon. Its flagship species is the Hoolock Gibbon. Other notable species seen here include Common Myna, Spotted Dove, Red-vented Bulbul, and White-throated Kingfisher. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "September to April is best; the June-August monsoon brings lush scenery but reduces trail access and wildlife visibility."
   },
   {
     "slug": "chambal-sanctuary-hp",
@@ -2086,7 +2115,8 @@
       "rock-pigeon",
       "common-myna"
     ],
-    "description": "Kalatop Khajjiar Wildlife Sanctuary is a wildlife sanctuary in Himachal Pradesh, spanning 30.69 sq km. Deodar forest sanctuary near Dalhousie protecting Himalayan Black Bear and Serow. Its flagship species is the Snow Leopard. Other notable species seen here include Himalayan Monal, Large-billed Crow, Black Kite, Rock Pigeon, and Common Myna. It is open to visitors with a standard entry or safari permit."
+    "description": "Kalatop Khajjiar Wildlife Sanctuary is a wildlife sanctuary in Himachal Pradesh, spanning 30.69 sq km. Deodar forest sanctuary near Dalhousie protecting Himalayan Black Bear and Serow. Its flagship species is the Snow Leopard. Other notable species seen here include Himalayan Monal, Large-billed Crow, Black Kite, Rock Pigeon, and Common Myna. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "May to October is best - most high-altitude routes are snowbound and closed from November to April, and wildlife is far harder to spot in deep snow."
   },
   {
     "slug": "gulmarg-wildlife-sanctuary",
@@ -2149,6 +2179,7 @@
       "black-kite",
       "common-myna"
     ],
-    "description": "Gulmarg Wildlife Sanctuary is a wildlife sanctuary in Jammu & Kashmir, spanning 180 sq km. Pir Panjal mountain range sanctuary protecting Musk Deer and Himalayan Monal. Its flagship species is the Snow Leopard. Other notable species seen here include Himalayan Monal, Clouded Leopard, Large-billed Crow, Black Kite, and Common Myna. It is open to visitors with a standard entry or safari permit."
+    "description": "Gulmarg Wildlife Sanctuary is a wildlife sanctuary in Jammu & Kashmir, spanning 180 sq km. Pir Panjal mountain range sanctuary protecting Musk Deer and Himalayan Monal. Its flagship species is the Snow Leopard. Other notable species seen here include Himalayan Monal, Clouded Leopard, Large-billed Crow, Black Kite, and Common Myna. It is open to visitors with a standard entry or safari permit.",
+    "bestTimeToVisit": "May to October is best - most high-altitude routes are snowbound and closed from November to April, and wildlife is far harder to spot in deep snow."
   }
 ]

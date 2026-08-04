@@ -22,6 +22,9 @@ which of the four new fields remain unfilled after this merge.
   is >= 45 (small buffer under the 50-word target) - shorter ones are left
   unset + logged, rather than shipping something that doesn't meet the
   ask.
+- bestTimeToVisit (2026-08-04): only set for national-parks.json /
+  sanctuaries.json, same zoo-exclusion pattern as travelLinks - see
+  2026-08-04-generate-best-time-to-visit.py.
 
 Usage:
     python3 2026-08-03-merge-park-updates.py --dry-run   # stats only
@@ -177,17 +180,18 @@ def main() -> None:
     species_manifest = load_manifest(RAW_DIR / "park-species" / "manifest.jsonl")
     travel_manifest = load_manifest(RAW_DIR / "park-travel" / "manifest.jsonl")
     descriptions = load_manifest(RAW_DIR / "park-descriptions" / "manifest.jsonl")
+    best_time_manifest = load_manifest(RAW_DIR / "best-time-to-visit" / "manifest.jsonl")
 
     log(
         f"Manifests: photos={len(photos)} species={len(species_manifest)} "
-        f"travel={len(travel_manifest)} descriptions={len(descriptions)}"
+        f"travel={len(travel_manifest)} descriptions={len(descriptions)} best_time={len(best_time_manifest)}"
     )
 
-    stats = {"photos_merged": 0, "species_merged": 0, "travel_merged": 0, "descriptions_merged": 0}
+    stats = {"photos_merged": 0, "species_merged": 0, "travel_merged": 0, "descriptions_merged": 0, "best_time_merged": 0}
 
-    national_parks = process_file("national-parks.json", photos, species_manifest, travel_manifest, descriptions, stats)
-    sanctuaries = process_file("sanctuaries.json", photos, species_manifest, travel_manifest, descriptions, stats)
-    zoos = process_file("zoos.json", photos, species_manifest, None, descriptions, stats)
+    national_parks = process_file("national-parks.json", photos, species_manifest, travel_manifest, descriptions, best_time_manifest, stats)
+    sanctuaries = process_file("sanctuaries.json", photos, species_manifest, travel_manifest, descriptions, best_time_manifest, stats)
+    zoos = process_file("zoos.json", photos, species_manifest, None, descriptions, None, stats)
 
     log(f"\n=== Merge stats === {stats}")
     log(

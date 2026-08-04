@@ -65,6 +65,15 @@ export default async function ProtectedAreaDetail({ slug }: { slug: string }) {
         </div>
       )}
 
+      {area.bestTimeToVisit && (
+        <div className="mt-4 rounded-xl bg-zinc-50 p-3.5 border border-zinc-100">
+          <span className="block font-mono text-[10px] font-semibold text-zinc-400 uppercase tracking-wider mb-1">
+            Best Time to Visit
+          </span>
+          <p className="text-xs text-zinc-700 leading-relaxed">{area.bestTimeToVisit}</p>
+        </div>
+      )}
+
       {area.uniqueFeatures && (
         <div className="mt-4 rounded-xl bg-zinc-50 p-3.5 border border-zinc-100">
           <span className="block font-mono text-[10px] font-semibold text-zinc-400 uppercase tracking-wider mb-1">
