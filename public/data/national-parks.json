@@ -538,6 +538,11 @@
         "label": "Gir Forest National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Gir_Forest_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Book a Safari \u2014 Gir Lion Safari Portal",
+        "url": "https://girlion.gujarat.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
     "needsResearch": false,
@@ -567,6 +572,10 @@
         {
           "label": "Gujarat Tourism",
           "url": "https://www.gujarattourism.com"
+        },
+        {
+          "label": "Book a Safari \u2014 Gir Lion Safari Portal",
+          "url": "https://girlion.gujarat.gov.in"
         }
       ],
       "operators": [
@@ -1671,6 +1680,11 @@
         "label": "Kanha National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Kanha_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+        "url": "https://forest.mponline.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
     "needsResearch": false,
@@ -1700,6 +1714,10 @@
         {
           "label": "Madhya Pradesh Tourism",
           "url": "https://www.mptourism.com"
+        },
+        {
+          "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+          "url": "https://forest.mponline.gov.in"
         }
       ],
       "operators": [
@@ -1748,6 +1766,11 @@
         "label": "Bandhavgarh National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Bandhavgarh_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+        "url": "https://forest.mponline.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
     "needsResearch": false,
@@ -1777,6 +1800,10 @@
         {
           "label": "Madhya Pradesh Tourism",
           "url": "https://www.mptourism.com"
+        },
+        {
+          "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+          "url": "https://forest.mponline.gov.in"
         }
       ],
       "operators": [
@@ -1824,6 +1851,11 @@
         "label": "Pench National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Pench_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+        "url": "https://forest.mponline.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
     "needsResearch": false,
@@ -1854,6 +1886,10 @@
         {
           "label": "Madhya Pradesh Tourism",
           "url": "https://www.mptourism.com"
+        },
+        {
+          "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+          "url": "https://forest.mponline.gov.in"
         }
       ],
       "operators": [
@@ -1901,6 +1937,11 @@
         "label": "Satpura National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Satpura_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+        "url": "https://forest.mponline.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
     "needsResearch": false,
@@ -1931,6 +1972,10 @@
         {
           "label": "Madhya Pradesh Tourism",
           "url": "https://www.mptourism.com"
+        },
+        {
+          "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+          "url": "https://forest.mponline.gov.in"
         }
       ],
       "operators": [
@@ -1978,6 +2023,11 @@
         "label": "Panna National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Panna_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+        "url": "https://forest.mponline.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
     "needsResearch": false,
@@ -2008,6 +2058,10 @@
         {
           "label": "Madhya Pradesh Tourism",
           "url": "https://www.mptourism.com"
+        },
+        {
+          "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+          "url": "https://forest.mponline.gov.in"
         }
       ],
       "operators": [
@@ -2050,6 +2104,11 @@
         "label": "Madhya Pradesh Tourism (official)",
         "url": "https://www.mptourism.com",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+        "url": "https://forest.mponline.gov.in",
+        "accessedDate": "2026-08-04"
       }
     ],
     "needsResearch": false,
@@ -2079,6 +2138,10 @@
         {
           "label": "Madhya Pradesh Tourism",
           "url": "https://www.mptourism.com"
+        },
+        {
+          "label": "Book a Safari \u2014 MP Forest Permits (MPOnline)",
+          "url": "https://forest.mponline.gov.in"
         }
       ],
       "operators": []
