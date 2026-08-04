@@ -38,7 +38,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -73,7 +73,8 @@
           "url": "https://en.wikivoyage.org/wiki/Kaziranga_National_Park"
         }
       ]
-    }
+    },
+    "description": "Kaziranga National Park is a national park in Assam, spanning 1,090 sq km. UNESCO World Heritage site hosting two-thirds of the world's Great One-horned Rhinoceroses. Its flagship species is the Indian Rhinoceros. Other notable species seen here include Asian Elephant, Wild Water Buffalo, Fishing Cat, Royal Bengal Tiger, and Indian Leopard. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "manas-national-park",
@@ -114,7 +115,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -149,7 +150,8 @@
           "url": "https://en.wikivoyage.org/wiki/Manas_National_Park"
         }
       ]
-    }
+    },
+    "description": "Manas National Park is a national park in Assam, spanning 950 sq km. UNESCO World Heritage Site at Himalayan foothills, known for Pygmy Hog and Golden Langur. Its flagship species is the Indian Rhinoceros. Other notable species seen here include Wild Water Buffalo, Great Hornbill, Barasingha, Fishing Cat, and Golden Jackal. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "nameri-national-park",
@@ -189,7 +191,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -224,7 +226,8 @@
           "url": "https://en.wikivoyage.org/wiki/Nameri_National_Park"
         }
       ]
-    }
+    },
+    "description": "Nameri National Park is a national park in Assam, spanning 200 sq km. Eastern Himalayan foothills sanctuary famous for White-winged Wood Duck. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Leopard, Clouded Leopard, Sloth Bear, and Indian Giant Squirrel. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "orang-national-park",
@@ -264,7 +267,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -294,7 +297,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Orang National Park is a national park in Assam, spanning 78.8 sq km. Known as Mini Kaziranga due to its rich Rhino and Tiger population. Its flagship species is the Indian Rhinoceros. Other notable species seen here include Asian Elephant, Wild Water Buffalo, Royal Bengal Tiger, and Fishing Cat. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "dibru-saikhowa-national-park",
@@ -334,7 +338,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -365,7 +369,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Dibru-Saikhowa National Park is a national park in Assam, spanning 340 sq km. Feral horses and endangered White-winged Wood Duck breeding ground. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Leopard, Clouded Leopard, Sloth Bear, Hoolock Gibbon, and Sambar Deer. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "raimona-national-park",
@@ -405,7 +410,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -436,7 +441,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Raimona National Park is a national park in Assam, spanning 422 sq km. Notable habitat for Golden Langur in western Assam. Its flagship species is the Asian Elephant. Other notable species seen here include Clouded Leopard, Indian Peafowl, Hill Myna, Spotted Dove, and Red-vented Bulbul. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "dihing-patkai-national-park",
@@ -492,7 +498,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Dihing Patkai National Park is a national park in Assam, spanning 231.6 sq km. The Amazon of the East \u2014 vast lowland rainforest. Its flagship species is the Asian Elephant. Other notable species seen here include Spotted Dove, Common Myna, Oriental Magpie-Robin, Red-vented Bulbul, and Common Tailorbird. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "gir-national-park",
@@ -533,7 +540,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -568,14 +575,15 @@
           "url": "https://en.wikivoyage.org/wiki/Gir_Forest_National_Park"
         }
       ]
-    }
+    },
+    "description": "Gir National Park is a national park in Gujarat, spanning 1,412 sq km. The sole surviving natural habitat of the Asiatic Lion in the world. Its flagship species is the Asiatic Lion. Other notable species seen here include Indian Leopard, Striped Hyena, Golden Jackal, Indian Eagle-Owl, and Indian Peafowl. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "blackbuck-national-park-velavadar",
     "name": "Blackbuck National Park, Velavadar",
     "type": "national-park",
     "stateSlug": "gujarat",
-    "headlineSpeciesSlug": "asiatic-lion",
+    "headlineSpeciesSlug": "blackbuck",
     "lat": 22.0333,
     "lng": 72.0333,
     "areaSqKm": 34.08,
@@ -613,7 +621,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -626,7 +634,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antilope_cervicapra_from_velavadar.JPG"
     },
     "additionalKeySpeciesSlugs": [
-      "blackbuck",
       "striped-hyena",
       "golden-jackal",
       "black-drongo",
@@ -649,14 +656,15 @@
           "url": "https://en.wikivoyage.org/wiki/Blackbuck_National_Park"
         }
       ]
-    }
+    },
+    "description": "Blackbuck National Park, Velavadar is a national park in Gujarat, spanning 34.08 sq km. Flat open grassland sanctuary famous for massive Blackbuck herds and Lesser Florican. Its flagship species is the Blackbuck. Other notable species seen here include Striped Hyena, Golden Jackal, Black Drongo, and Red-wattled Lapwing. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "marine-national-park-gulf-of-kutch",
     "name": "Marine National Park, Gulf of Kutch",
     "type": "national-park",
     "stateSlug": "gujarat",
-    "headlineSpeciesSlug": "asiatic-lion",
+    "headlineSpeciesSlug": "greater-flamingo",
     "lat": 22.4833,
     "lng": 69.6167,
     "areaSqKm": 162.89,
@@ -694,7 +702,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -707,7 +715,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Vast_Expanse_of_Narara_Sea_Bed_during_Low_Tide_of_Narara_Marine_National_Park.jpg"
     },
     "additionalKeySpeciesSlugs": [
-      "greater-flamingo",
       "grey-heron",
       "painted-stork",
       "little-cormorant",
@@ -725,14 +732,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Marine National Park, Gulf of Kutch is a national park in Gujarat, spanning 162.89 sq km. First marine national park in India protecting coral reefs and mangroves. Its flagship species is the Greater Flamingo. Other notable species seen here include Grey Heron, Painted Stork, Little Cormorant, and Green Bee-eater. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "vansda-national-park",
     "name": "Vansda National Park",
     "type": "national-park",
     "stateSlug": "gujarat",
-    "headlineSpeciesSlug": "asiatic-lion",
+    "headlineSpeciesSlug": "indian-leopard",
     "lat": 20.7667,
     "lng": 73.4833,
     "areaSqKm": 23.99,
@@ -760,7 +768,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -773,7 +781,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vansda_N_Park6.jpg"
     },
     "additionalKeySpeciesSlugs": [
-      "indian-leopard",
       "striped-hyena",
       "indian-giant-squirrel",
       "jungle-babbler"
@@ -790,7 +797,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Vansda National Park is a national park in Gujarat, spanning 23.99 sq km. Dense moist deciduous forest of Dang south Gujarat. Its flagship species is the Indian Leopard. Other notable species seen here include Striped Hyena, Indian Giant Squirrel, and Jungle Babbler. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "ranthambore-national-park",
@@ -831,7 +839,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -866,7 +874,8 @@
           "url": "https://en.wikivoyage.org/wiki/Ranthambhore_National_Park"
         }
       ]
-    }
+    },
+    "description": "Ranthambore National Park is a national park in Rajasthan, spanning 1,334 sq km. Famous for diurnal tiger sightings amidst ancient Ranthambore Fort ruins. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Blackbuck, Golden Jackal, Striped Hyena, Indian Leopard, and Sloth Bear. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "sariska-national-park",
@@ -901,7 +910,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -932,7 +941,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Sariska National Park is a national park in Rajasthan, spanning 881 sq km. Aravalli hills reserve, famous for successful tiger relocation program. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Sloth Bear, Indian Leopard, Striped Hyena, Golden Jackal, and Sambar Deer. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "desert-national-park",
@@ -977,7 +987,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1008,14 +1018,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Desert National Park is a national park in Rajasthan, spanning 3,162 sq km. Vast Thar Desert ecosystem, crucial stronghold for the Critically Endangered Great Indian Bustard. Its flagship species is the Great Indian Bustard. Other notable species seen here include Chinkara (Indian Gazelle), Eurasian Collared Dove, House Sparrow, Rock Pigeon, and Green Bee-eater. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "keoladeo-national-park",
     "name": "Keoladeo National Park",
     "type": "national-park",
     "stateSlug": "rajasthan",
-    "headlineSpeciesSlug": "indian-peafowl",
+    "headlineSpeciesSlug": "bar-headed-goose",
     "lat": 27.16,
     "lng": 77.52,
     "areaSqKm": 28.73,
@@ -1048,7 +1059,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1061,7 +1072,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keoladeo_Ghana_National_Park,_Bharatpur,_Rajasthan,_India.jpg"
     },
     "additionalKeySpeciesSlugs": [
-      "bar-headed-goose",
       "little-cormorant",
       "painted-stork",
       "sarus-crane",
@@ -1084,7 +1094,8 @@
           "url": "https://en.wikivoyage.org/wiki/Keoladeo_Bird_Sanctuary"
         }
       ]
-    }
+    },
+    "description": "Keoladeo National Park is a national park in Rajasthan, spanning 28.73 sq km. UNESCO World Heritage bird sanctuary, hosting over 370 migratory species. Its flagship species is the Bar-headed Goose. Other notable species seen here include Little Cormorant, Painted Stork, Sarus Crane, and Blackbuck. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "mukundra-hills-national-park",
@@ -1140,7 +1151,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Mukundra Hills National Park is a national park in Rajasthan, spanning 759.99 sq km. Chambal river valley reserve, third tiger reserve of Rajasthan. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Rose-ringed Parakeet, Red-vented Bulbul, Red-wattled Lapwing, Rufous Treepie, and Black Drongo. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "jim-corbett-national-park",
@@ -1181,7 +1193,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1216,7 +1228,8 @@
           "url": "https://en.wikivoyage.org/wiki/Jim_Corbett_National_Park"
         }
       ]
-    }
+    },
+    "description": "Jim Corbett National Park is a national park in Uttarakhand, spanning 1,318 sq km. India's oldest national park, established in 1936, birthplace of Project Tiger. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Asian Elephant, Indian Rhinoceros, Indian Leopard, Fishing Cat, and Sambar Deer. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "rajaji-national-park",
@@ -1261,7 +1274,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1297,7 +1310,8 @@
           "url": "https://en.wikivoyage.org/wiki/Rajaji_National_Park"
         }
       ]
-    }
+    },
+    "description": "Rajaji National Park is a national park in Uttarakhand, spanning 820.42 sq km. Shivalik foothills elephant corridor and tiger reserve. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Leopard, Sambar Deer, Barasingha, Sloth Bear, and Golden Jackal. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "nanda-devi-national-park",
@@ -1347,7 +1361,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "restricted",
       "accessNotes": "Inner sanctuary (core zone) closed to general trekking/mountaineering since 1983 to protect the fragile high-alpine ecosystem after over-visitation and grazing damage. Limited eco-tourism reopened in 2003 under strict caps: max 500 permitted visitors per season, groups of up to 5 with a registered guide, permits issued by the DFO Joshimath."
@@ -1380,7 +1394,8 @@
           "url": "https://en.wikivoyage.org/wiki/Nanda_Devi_National_Park"
         }
       ]
-    }
+    },
+    "description": "Nanda Devi National Park is a national park in Uttarakhand, spanning 630.33 sq km. UNESCO World Heritage glaciated peak reserve centered around Nanda Devi peak. Its flagship species is the Snow Leopard. Other notable species seen here include Himalayan Monal, and House Sparrow. It is not routinely open to the general public."
   },
   {
     "slug": "valley-of-flowers-national-park",
@@ -1430,7 +1445,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1466,7 +1481,8 @@
           "url": "https://en.wikivoyage.org/wiki/Ghangaria"
         }
       ]
-    }
+    },
+    "description": "Valley of Flowers National Park is a national park in Uttarakhand, spanning 87.5 sq km. UNESCO World Heritage alpine meadow carpeted with endemic Himalayan flora. Its flagship species is the Snow Leopard. Other notable species seen here include Himalayan Monal, Spotted Dove, Large-billed Crow, House Sparrow, and Rock Pigeon. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "gangotri-national-park",
@@ -1511,7 +1527,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1541,7 +1557,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Gangotri National Park is a national park in Uttarakhand, spanning 2,390 sq km. High altitude Himalayan park housing the origin of river Ganga. Its flagship species is the Snow Leopard. Other notable species seen here include Himalayan Monal, Large-billed Crow, Rock Pigeon, and House Sparrow. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "govind-pashu-vihar-national-park",
@@ -1586,7 +1603,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1614,7 +1631,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Govind Pashu Vihar National Park is a national park in Uttarakhand, spanning 472.08 sq km. High altitude sanctuary protecting Snow Leopard and Bearded Vulture. Its flagship species is the Snow Leopard. Other notable species seen here include Himalayan Monal, and Large-billed Crow. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "kanha-national-park",
@@ -1655,7 +1673,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1690,7 +1708,8 @@
           "url": "https://en.wikivoyage.org/wiki/Kanha_National_Park"
         }
       ]
-    }
+    },
+    "description": "Kanha National Park is a national park in Madhya Pradesh, spanning 940 sq km. Sal forest landscape that inspired Kipling's Jungle Book; saved the Hard-ground Barasingha. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Indian Leopard, Sloth Bear, Barasingha, Blackbuck, and Green Bee-eater. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "bandhavgarh-national-park",
@@ -1731,7 +1750,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1766,7 +1785,8 @@
           "url": "https://en.wikivoyage.org/wiki/Bandhavgarh_National_Park"
         }
       ]
-    }
+    },
+    "description": "Bandhavgarh National Park is a national park in Madhya Pradesh, spanning 1,536 sq km. Highest tiger density in India, built around Bandhavgarh Fort. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Sloth Bear, Striped Hyena, Golden Jackal, Fishing Cat, and Indian Peafowl. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "pench-national-park-mp",
@@ -1806,7 +1826,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1842,7 +1862,8 @@
           "url": "https://en.wikivoyage.org/wiki/Pench_National_Park"
         }
       ]
-    }
+    },
+    "description": "Pench National Park is a national park in Madhya Pradesh, spanning 758 sq km. Tiger reserve along Pench River spanning MP and Maharashtra border. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Indian Leopard, Golden Jackal, Sloth Bear, Indian Peafowl, and Indian Vulture. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "satpura-national-park",
@@ -1882,7 +1903,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1918,7 +1939,8 @@
           "url": "https://en.wikivoyage.org/wiki/Satpura_National_Park"
         }
       ]
-    }
+    },
+    "description": "Satpura National Park is a national park in Madhya Pradesh, spanning 524 sq km. Satpura range reserve with walking safaris and canoe excursions. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Barasingha, Sloth Bear, Indian Giant Squirrel, Malabar Whistling Thrush, and Malabar Pied Hornbill. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "panna-national-park",
@@ -1958,7 +1980,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -1994,14 +2016,15 @@
           "url": "https://en.wikivoyage.org/wiki/Panna_National_Park"
         }
       ]
-    }
+    },
+    "description": "Panna National Park is a national park in Madhya Pradesh, spanning 542.67 sq km. Ken River gorge habitat, famous for successful tiger reintroduction. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Indian Leopard, Sambar Deer, Sloth Bear, Bar-headed Goose, and Indian Vulture. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "kuno-national-park",
     "name": "Kuno National Park",
     "type": "national-park",
     "stateSlug": "madhya-pradesh",
-    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "headlineSpeciesSlug": "asiatic-lion",
     "lat": 25.6,
     "lng": 77.2667,
     "areaSqKm": 748.76,
@@ -2029,7 +2052,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2042,7 +2065,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_well-fed_bull_in_Kuno_WS_AJTJ_P1070807.jpg"
     },
     "additionalKeySpeciesSlugs": [
-      "asiatic-lion",
       "cheetah",
       "blackbuck",
       "indian-leopard",
@@ -2060,7 +2082,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Kuno National Park is a national park in Madhya Pradesh, spanning 748.76 sq km. Site of India's historic Cheetah Reintroduction Project. Its flagship species is the Asiatic Lion. Other notable species seen here include Cheetah, Blackbuck, Indian Leopard, and Sloth Bear. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "sanjay-national-park-mp",
@@ -2095,7 +2118,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2126,7 +2149,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Sanjay National Park is a national park in Madhya Pradesh, spanning 466.7 sq km. Part of Sanjay-Dubri Tiger Reserve in Narmada catchment. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Indian Leopard, Sambar Deer, Sloth Bear, Golden Jackal, and Striped Hyena. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "madhav-national-park",
@@ -2161,7 +2185,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2192,7 +2216,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Madhav National Park is a national park in Madhya Pradesh, spanning 354 sq km. Vindhyan hills ecosystem near Shivpuri with Sakhya Sagar lake. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Red-vented Bulbul, Red-wattled Lapwing, Rock Pigeon, Indian Robin, and Rose-ringed Parakeet. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "fossil-national-park-mandla",
@@ -2232,7 +2257,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2263,7 +2288,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Mandla Plant Fossils National Park is a national park in Madhya Pradesh, spanning 0.27 sq km. Preserves plant fossils between 40 and 150 million years old. Its flagship species is the Barasingha. Other notable species seen here include Black Drongo, Red-wattled Lapwing, Indian Roller, House Crow, and Little Egret. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "dinosaurs-fossils-national-park-dhar",
@@ -2324,14 +2350,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Dhar Dinosaur Fossils National Park is a national park in Madhya Pradesh, spanning 0.89 sq km. Preserves fossilized dinosaur eggs and nests. Its flagship species is the Barasingha. Other notable species seen here include Red-vented Bulbul, Red-wattled Lapwing, Laughing Dove, Rose-ringed Parakeet, and Black Drongo. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "van-vihar-national-park-bhopal",
     "name": "Van Vihar National Park",
     "type": "national-park",
     "stateSlug": "madhya-pradesh",
-    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "headlineSpeciesSlug": "blackbuck",
     "lat": 23.2367,
     "lng": 77.3803,
     "areaSqKm": 4.45,
@@ -2364,7 +2391,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2377,7 +2404,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alligator_at_Van_Vihar_National_Park.jpg"
     },
     "additionalKeySpeciesSlugs": [
-      "blackbuck",
       "red-vented-bulbul",
       "red-wattled-lapwing",
       "laughing-dove",
@@ -2395,7 +2421,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Van Vihar National Park is a national park in Madhya Pradesh, spanning 4.45 sq km. Urban national park along Upper Lake in Bhopal. Its flagship species is the Blackbuck. Other notable species seen here include Red-vented Bulbul, Red-wattled Lapwing, Laughing Dove, and Black Drongo. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "sundarbans-national-park",
@@ -2436,7 +2463,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2467,7 +2494,8 @@
           "url": "https://en.wikivoyage.org/wiki/Sundarbans_National_Park"
         }
       ]
-    }
+    },
+    "description": "Sundarbans National Park is a national park in West Bengal, spanning 1,330 sq km. World's largest mangrove forest reserve, home to swimming tigers. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Fishing Cat, Eurasian Collared Dove, Spotted Dove, Asian Palm Swift, and Common Iora. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "buxa-national-park",
@@ -2497,7 +2525,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2524,7 +2552,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Buxa National Park is a national park in West Bengal, spanning 760 sq km. Eastern Dooars tiger reserve bordering Bhutan. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Asian Elephant, Sambar Deer, Clouded Leopard, Indian Leopard, and Black-necked Crane. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "gorumara-national-park",
@@ -2564,7 +2593,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2596,7 +2625,8 @@
           "url": "https://en.wikivoyage.org/wiki/Gorumara_National_Park"
         }
       ]
-    }
+    },
+    "description": "Gorumara National Park is a national park in West Bengal, spanning 79.45 sq km. Dooars floodplain park famous for Indian Rhinoceros sightings. Its flagship species is the Indian Rhinoceros. Other notable species seen here include Asian Elephant, Sloth Bear, Sambar Deer, Little Cormorant, and Common Myna. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "jaldapara-national-park",
@@ -2636,7 +2666,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2668,14 +2698,15 @@
           "url": "https://en.wikivoyage.org/wiki/Jaldapara_National_Park"
         }
       ]
-    }
+    },
+    "description": "Jaldapara National Park is a national park in West Bengal, spanning 216.51 sq km. Holds the second largest population of One-horned Rhinos in India after Kaziranga. Its flagship species is the Indian Rhinoceros. Other notable species seen here include Indian Leopard, Common Myna, Indian Peafowl, Spotted Dove, and Black Drongo. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "neora-valley-national-park",
     "name": "Neora Valley National Park",
     "type": "national-park",
     "stateSlug": "west-bengal",
-    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "headlineSpeciesSlug": "red-panda",
     "lat": 27.05,
     "lng": 88.75,
     "areaSqKm": 88,
@@ -2698,7 +2729,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2711,7 +2742,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neora_valley1.png"
     },
     "additionalKeySpeciesSlugs": [
-      "red-panda",
       "indian-leopard",
       "sloth-bear",
       "sambar-deer",
@@ -2725,14 +2755,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Neora Valley National Park is a national park in West Bengal, spanning 88 sq km. Pristine virgin forest ecosystem in Kalimpong hills. Its flagship species is the Red Panda. Other notable species seen here include Indian Leopard, Sloth Bear, Sambar Deer, and Clouded Leopard. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "singalila-national-park",
     "name": "Singalila National Park",
     "type": "national-park",
     "stateSlug": "west-bengal",
-    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "headlineSpeciesSlug": "red-panda",
     "lat": 27.05,
     "lng": 88.0333,
     "areaSqKm": 78.6,
@@ -2760,7 +2791,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2773,7 +2804,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_sleeping_Buddha.jpg"
     },
     "additionalKeySpeciesSlugs": [
-      "red-panda",
       "clouded-leopard"
     ],
     "travelLinks": {
@@ -2789,7 +2819,8 @@
           "url": "https://en.wikivoyage.org/wiki/Singalila_National_Park"
         }
       ]
-    }
+    },
+    "description": "Singalila National Park is a national park in West Bengal, spanning 78.6 sq km. High altitude Eastern Himalayan park along Singalila Ridge, home to Red Panda. Its flagship species is the Red Panda. Other notable species seen here include Clouded Leopard. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "periyar-national-park",
@@ -2834,7 +2865,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2869,7 +2900,8 @@
           "url": "https://en.wikivoyage.org/wiki/Periyar_National_Park"
         }
       ]
-    }
+    },
+    "description": "Periyar National Park is a national park in Kerala, spanning 350 sq km. Western Ghats elephant sanctuary centered around Periyar Lake. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Giant Squirrel, Sloth Bear, Nilgiri Tahr, and Lion-tailed Macaque. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "silent-valley-national-park-kerala",
@@ -2915,7 +2947,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -2950,14 +2982,15 @@
           "url": "https://en.wikivoyage.org/wiki/Silent_Valley_National_Park"
         }
       ]
-    }
+    },
+    "description": "Silent Valley National Park is a national park in Kerala, spanning 237 sq km. Pristine rainforest stronghold for Lion-tailed Macaques. Its flagship species is the Lion-tailed Macaque. Other notable species seen here include Malabar Pied Hornbill, Nilgiri Tahr, White-cheeked Barbet, Red-whiskered Bulbul, and Red-vented Bulbul. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "eravikulam-national-park",
     "name": "Eravikulam National Park",
     "type": "national-park",
     "stateSlug": "kerala",
-    "headlineSpeciesSlug": "asian-elephant",
+    "headlineSpeciesSlug": "nilgiri-tahr",
     "lat": 10.2,
     "lng": 77.0833,
     "areaSqKm": 97,
@@ -3000,7 +3033,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3013,7 +3046,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eravikulam_national_park.jpg"
     },
     "additionalKeySpeciesSlugs": [
-      "nilgiri-tahr",
       "indian-leopard",
       "red-whiskered-bulbul",
       "white-cheeked-barbet",
@@ -3036,7 +3068,8 @@
           "url": "https://en.wikivoyage.org/wiki/Munnar"
         }
       ]
-    }
+    },
+    "description": "Eravikulam National Park is a national park in Kerala, spanning 97 sq km. High altitude shola-grassland sanctuary protecting Nilgiri Tahr and Neelakurinji blooms. Its flagship species is the Nilgiri Tahr. Other notable species seen here include Indian Leopard, Red-whiskered Bulbul, White-cheeked Barbet, and Malabar Whistling Thrush. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "anamudi-shola-national-park",
@@ -3076,7 +3109,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3107,7 +3140,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Anamudi Shola National Park is a national park in Kerala, spanning 7.5 sq km. Protected shola forest ecosystem surrounding Anamudi Peak. Its flagship species is the Asian Elephant. Other notable species seen here include Nilgiri Tahr, Sloth Bear, Red-whiskered Bulbul, White-cheeked Barbet, and Malabar Whistling Thrush. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "pambadum-shola-national-park",
@@ -3142,7 +3176,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3173,7 +3207,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Pambadum Shola National Park is a national park in Kerala, spanning 1.32 sq km. Smallest national park in Kerala protecting high altitude shola forests. Its flagship species is the Asian Elephant. Other notable species seen here include Red-whiskered Bulbul, White-cheeked Barbet, Indian White-eye, Large-billed Crow, and Pied Bushchat. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "mathikettan-shola-national-park",
@@ -3208,7 +3243,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3239,7 +3274,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Mathikettan Shola National Park is a national park in Kerala, spanning 12.82 sq km. Crucial elephant migration corridor connecting Cardamom Hills. Its flagship species is the Asian Elephant. Other notable species seen here include Red-whiskered Bulbul, White-cheeked Barbet, Indian White-eye, Large-billed Crow, and Malabar Whistling Thrush. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "bandipur-national-park",
@@ -3279,7 +3315,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3315,7 +3351,8 @@
           "url": "https://en.wikivoyage.org/wiki/Bandipur_National_Park"
         }
       ]
-    }
+    },
+    "description": "Bandipur National Park is a national park in Karnataka, spanning 874 sq km. Part of Nilgiri Biosphere Reserve, premier elephant and tiger stronghold. Its flagship species is the Asian Elephant. Other notable species seen here include Sloth Bear, Golden Jackal, Indian Giant Squirrel, Indian Vulture, and Indian Roller. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "nagarhole-national-park",
@@ -3350,7 +3387,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3381,7 +3418,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Nagarhole National Park (Kabini) is a national park in Karnataka, spanning 643 sq km. Famous for Kabini riverfront wildlife sightings and leopards. Its flagship species is the Asian Elephant. Other notable species seen here include White-cheeked Barbet, Red-whiskered Bulbul, Spotted Dove, White-throated Kingfisher, and Red-vented Bulbul. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "bannerghatta-national-park",
@@ -3426,7 +3464,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3462,7 +3500,8 @@
           "url": "https://en.wikivoyage.org/wiki/Bannerghatta_National_Park"
         }
       ]
-    }
+    },
+    "description": "Bannerghatta National Park is a national park in Karnataka, spanning 260.5 sq km. Urban national park near Bengaluru featuring elephant corridor and rescue center. Its flagship species is the Asian Elephant. Other notable species seen here include Indian Leopard, Sambar Deer, Black Kite, Rock Pigeon, and Rose-ringed Parakeet. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "kudremukh-national-park",
@@ -3507,7 +3546,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3543,7 +3582,8 @@
           "url": "https://en.wikivoyage.org/wiki/Kudremukh_National_Park"
         }
       ]
-    }
+    },
+    "description": "Kudremukh National Park is a national park in Karnataka, spanning 600.32 sq km. Western Ghats tropical wet evergreen forest, prime Lion-tailed Macaque habitat. Its flagship species is the Lion-tailed Macaque. Other notable species seen here include Sloth Bear, Red-whiskered Bulbul, White-cheeked Barbet, Large-billed Crow, and Oriental Magpie-Robin. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "ansi-national-park-kali",
@@ -3578,7 +3618,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3609,7 +3649,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Kali Tiger Reserve (Anshi National Park) is a national park in Karnataka, spanning 417.34 sq km. Dense Western Ghats rainforest along Kali River, home to Black Panthers. Its flagship species is the Asian Elephant. Other notable species seen here include Red-whiskered Bulbul, Brahminy Kite, White-throated Kingfisher, Spotted Dove, and House Crow. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "mudumalai-national-park",
@@ -3649,7 +3690,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3685,7 +3726,8 @@
           "url": "https://en.wikivoyage.org/wiki/Mudumalai_National_Park"
         }
       ]
-    }
+    },
+    "description": "Mudumalai National Park is a national park in Tamil Nadu, spanning 321 sq km. Nilgiri biosphere tiger and elephant sanctuary bordering Kerala and Karnataka. Its flagship species is the Asian Elephant. Other notable species seen here include Red-vented Bulbul, Red-whiskered Bulbul, Indian Leopard, Dhole (Indian Wild Dog), and Golden Jackal. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "guindy-national-park",
@@ -3725,7 +3767,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3756,14 +3798,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Guindy National Park is a national park in Tamil Nadu, spanning 2.7 sq km. One of the few national parks situated inside a major Indian metropolis (Chennai). Its flagship species is the Indian Peafowl. Other notable species seen here include Blackbuck, Red-wattled Lapwing, Asian Koel, House Crow, and Rock Pigeon. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "gulf-of-mannar-marine-national-park",
     "name": "Gulf of Mannar Marine National Park",
     "type": "national-park",
     "stateSlug": "tamil-nadu",
-    "headlineSpeciesSlug": "indian-peafowl",
+    "headlineSpeciesSlug": "dugong",
     "lat": 9.2333,
     "lng": 79.1333,
     "areaSqKm": 560,
@@ -3789,9 +3832,14 @@
         "label": "Tamil Nadu Tourism (official)",
         "url": "https://www.tamilnadutourism.tn.gov.in",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (headline species correction)",
+        "url": "https://en.wikipedia.org/wiki/Gulf_of_Mannar_Marine_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3822,7 +3870,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Gulf of Mannar Marine National Park is a national park in Tamil Nadu, spanning 560 sq km. Consists of 21 islands protecting coral reefs, sea turtles, and Dugongs. Its flagship species is the Dugong (Sea Cow). Other notable species seen here include Brahminy Kite, House Crow, Black Kite, Common Myna, and Little Egret. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "indira-gandhi-national-park-anamalai",
@@ -3878,7 +3927,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Anamalai Tiger Reserve (Indira Gandhi NP) is a national park in Tamil Nadu, spanning 117.1 sq km. Western Ghats mountain reserve famous for Nilgiri Tahr and Great Hornbills. Its flagship species is the Asian Elephant. Other notable species seen here include White-cheeked Barbet, Red-whiskered Bulbul, Malabar Whistling Thrush, Spotted Dove, and Oriental Magpie-Robin. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "mukurthi-national-park",
@@ -3913,7 +3963,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -3943,7 +3993,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Mukurthi National Park is a national park in Tamil Nadu, spanning 78.46 sq km. High altitude Nilgiri montane grassland created specifically to protect the Nilgiri Tahr. Its flagship species is the Asian Elephant. Other notable species seen here include Nilgiri Tahr, Sambar Deer, Malabar Whistling Thrush, and Indian White-eye. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "tadoba-andhari-national-park",
@@ -3978,7 +4029,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4009,7 +4060,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Tadoba Andhari National Park is a national park in Maharashtra, spanning 625.4 sq km. Maharashtra's oldest and largest national park, famous for high tiger sighting frequency. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Spotted Dove, Black Drongo, Red-vented Bulbul, White-throated Kingfisher, and Red-wattled Lapwing. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "sanjay-gandhi-national-park",
@@ -4044,7 +4096,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4075,7 +4127,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Sanjay Gandhi National Park (Borivali) is a national park in Maharashtra, spanning 87 sq km. Vast protected tropical forest inside Mumbai city limits, housing Kanheri Caves and leopards. Its flagship species is the Indian Giant Squirrel. Other notable species seen here include House Crow, Black Kite, Common Myna, Rock Pigeon, and Rose-ringed Parakeet. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "pench-national-park-maharashtra",
@@ -4110,7 +4163,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4141,14 +4194,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Pench National Park (Maharashtra) is a national park in Maharashtra, spanning 257.26 sq km. Southern extension of the Pench tiger habitat in Nagpur district. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Rufous Treepie, Jungle Babbler, Spotted Dove, Black Drongo, and White-throated Kingfisher. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "navegaon-national-park",
     "name": "Navegaon National Park",
     "type": "national-park",
     "stateSlug": "maharashtra",
-    "headlineSpeciesSlug": "indian-giant-squirrel",
+    "headlineSpeciesSlug": "sloth-bear",
     "lat": 20.9167,
     "lng": 80.1667,
     "areaSqKm": 133.88,
@@ -4181,7 +4235,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4194,7 +4248,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:IMAG0378_03.jpg"
     },
     "additionalKeySpeciesSlugs": [
-      "sloth-bear",
       "gaur",
       "sambar-deer",
       "red-vented-bulbul",
@@ -4212,7 +4265,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Navegaon National Park is a national park in Maharashtra, spanning 133.88 sq km. Vidarbha forest reserve around Navegaon Lake, vital bird migration habitat. Its flagship species is the Sloth Bear. Other notable species seen here include Gaur (Indian Bison), Sambar Deer, Red-vented Bulbul, and Green Bee-eater. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "gugamal-national-park",
@@ -4247,7 +4301,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4278,7 +4332,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Gugamal National Park (Melghat) is a national park in Maharashtra, spanning 361.28 sq km. Satpura hill forest of Melghat Tiger Reserve. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Red-vented Bulbul, Rufous Treepie, Rose-ringed Parakeet, Jungle Babbler, and White-throated Kingfisher. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "chandoli-national-park",
@@ -4318,7 +4373,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4349,7 +4404,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Chandoli National Park is a national park in Maharashtra, spanning 317.67 sq km. UNESCO Sahyadri Tiger Reserve core area along Chandoli Dam. Its flagship species is the Indian Giant Squirrel. Other notable species seen here include Sloth Bear, Sambar Deer, Blackbuck, Red-whiskered Bulbul, and Red-vented Bulbul. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "similipal-national-park",
@@ -4389,7 +4445,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4420,14 +4476,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Similipal National Park is a national park in Odisha, spanning 845.7 sq km. UNESCO Biosphere Reserve, home to unique melanistic (black) tigers. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Asian Elephant, Sambar Deer, Malabar Pied Hornbill, Red-vented Bulbul, and Spotted Dove. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "bhitarkanika-national-park",
     "name": "Bhitarkanika National Park",
     "type": "national-park",
     "stateSlug": "odisha",
-    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "headlineSpeciesSlug": "sambar-deer",
     "lat": 20.7333,
     "lng": 86.8667,
     "areaSqKm": 145,
@@ -4465,7 +4522,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4478,7 +4535,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Habalikhati_Nature_Camp.jpg"
     },
     "additionalKeySpeciesSlugs": [
-      "sambar-deer",
       "rose-ringed-parakeet",
       "indian-pond-heron",
       "spotted-dove",
@@ -4501,7 +4557,8 @@
           "url": "https://en.wikivoyage.org/wiki/Bhitarkanika_National_Park"
         }
       ]
-    }
+    },
+    "description": "Bhitarkanika National Park is a national park in Odisha, spanning 145 sq km. India's premier saltwater crocodile breeding sanctuary and mangrove delta. Its flagship species is the Sambar Deer. Other notable species seen here include Rose-ringed Parakeet, Indian Pond Heron, Spotted Dove, and Little Egret. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "hemis-national-park-ladakh",
@@ -4537,7 +4594,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4565,7 +4622,8 @@
           "url": "https://en.wikivoyage.org/wiki/Hemis_National_Park"
         }
       ]
-    }
+    },
+    "description": "Hemis National Park is a national park in Jammu & Kashmir, spanning 4,400 sq km. India's largest national park; global stronghold for Snow Leopards. Its flagship species is the Snow Leopard. Other notable species seen here include House Sparrow, and Rock Pigeon. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "dachigam-national-park",
@@ -4600,7 +4658,7 @@
         "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4627,7 +4685,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Dachigam National Park is a national park in Jammu & Kashmir, spanning 141 sq km. The sole natural habitat of the critically endangered Hangul (Kashmir Stag). Its flagship species is the Snow Leopard. Other notable species seen here include Himalayan Monal, Black Kite, Common Myna, House Sparrow, and Rock Pigeon. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "kishtwar-national-park",
@@ -4674,7 +4733,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Kishtwar High Altitude National Park is a national park in Jammu & Kashmir, spanning 400 sq km. High altitude alpine park protecting Himalayan Brown Bear and Musk Deer. Its flagship species is the Snow Leopard. Other notable species seen here include Large-billed Crow, House Sparrow, Common Myna, Rock Pigeon, and Black Kite. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "kazinag-national-park",
@@ -4726,7 +4786,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "Kazinag National Park is a national park in Jammu & Kashmir, spanning 160 sq km. Created along LOC to protect the endangered Markhor wild goat. Its flagship species is the Snow Leopard. Other notable species seen here include Indian Leopard, Himalayan Monal, Large-billed Crow, Black Kite, and Common Myna. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "salim-ali-national-park-srinagar",
@@ -4773,7 +4834,8 @@
         }
       ],
       "operators": []
-    }
+    },
+    "description": "City Forest (Salim Ali) National Park is a national park in Jammu & Kashmir, spanning 9.07 sq km. Urban wetland national park in Srinagar near Dal Lake. Its flagship species is the Snow Leopard. Other notable species seen here include Black Kite, Common Myna, House Sparrow, Rock Pigeon, and Large-billed Crow. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "great-himalayan-national-park",
@@ -4811,9 +4873,14 @@
         "label": "Central Himachal Pradesh (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Central_Himachal_Pradesh",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4842,7 +4909,12 @@
           "url": "https://en.wikivoyage.org/wiki/Central_Himachal_Pradesh"
         }
       ]
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "large-billed-crow",
+      "common-myna"
+    ],
+    "description": "Great Himalayan National Park is a national park in Himachal Pradesh, spanning 754.4 sq km. UNESCO World Heritage site protecting Western Himalayan biodiversity and Western Tragopan. Its flagship species is the Snow Leopard. Other notable species seen here include Large-billed Crow, and Common Myna. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "pin-valley-national-park",
@@ -4870,9 +4942,14 @@
         "label": "Himachal Pradesh Tourism (official)",
         "url": "https://himachaltourism.gov.in",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4896,7 +4973,12 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "house-sparrow",
+      "rock-pigeon"
+    ],
+    "description": "Pin Valley National Park is a national park in Himachal Pradesh, spanning 675 sq km. Cold desert high altitude park in Spiti Valley, habitat of Snow Leopard and Ibex. Its flagship species is the Snow Leopard. Other notable species seen here include House Sparrow, and Rock Pigeon. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "inderkilla-national-park",
@@ -4919,6 +5001,11 @@
         "label": "Himachal Pradesh Tourism (official)",
         "url": "https://himachaltourism.gov.in",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
     "needsResearch": true,
@@ -4940,7 +5027,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "large-billed-crow",
+      "common-myna",
+      "rock-pigeon",
+      "house-sparrow",
+      "black-kite"
+    ],
+    "description": "Inderkilla National Park is a national park in Himachal Pradesh, spanning 104 sq km. Kullu mountain park protecting rare flora and alpine fauna. Its flagship species is the Snow Leopard. Other notable species seen here include Large-billed Crow, Common Myna, Rock Pigeon, House Sparrow, and Black Kite. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "khirganga-national-park",
@@ -4968,9 +5063,14 @@
         "label": "Himachal Pradesh Tourism (official)",
         "url": "https://himachaltourism.gov.in",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -4994,14 +5094,20 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "large-billed-crow",
+      "himalayan-monal",
+      "sambar-deer"
+    ],
+    "description": "Khirganga National Park is a national park in Himachal Pradesh, spanning 710 sq km. High altitude Parvati Valley reserve. Its flagship species is the Snow Leopard. Other notable species seen here include Large-billed Crow, Himalayan Monal, and Sambar Deer. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "simbalbara-national-park",
     "name": "Simbalbara National Park",
     "type": "national-park",
     "stateSlug": "himachal-pradesh",
-    "headlineSpeciesSlug": "snow-leopard",
+    "headlineSpeciesSlug": "sambar-deer",
     "lat": 30.4333,
     "lng": 77.5167,
     "areaSqKm": 27.88,
@@ -5016,6 +5122,16 @@
       {
         "label": "Himachal Pradesh Tourism (official)",
         "url": "https://himachaltourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Simbalbara_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
         "accessedDate": "2026-08-04"
       }
     ],
@@ -5038,7 +5154,14 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "black-kite",
+      "indian-white-eye",
+      "large-billed-crow",
+      "little-cormorant"
+    ],
+    "description": "Simbalbara National Park is a national park in Himachal Pradesh, spanning 27.88 sq km. Shivalik valley park protecting Goral and Sambhar in Sirmaur district. Its flagship species is the Sambar Deer. Other notable species seen here include Black Kite, Indian White-eye, Large-billed Crow, and Little Cormorant. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "dudhwa-national-park",
@@ -5076,9 +5199,14 @@
         "label": "Dudhwa National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Dudhwa_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Dudhwa_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5107,7 +5235,15 @@
           "url": "https://en.wikivoyage.org/wiki/Dudhwa_National_Park"
         }
       ]
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "sambar-deer",
+      "indian-rhinoceros",
+      "indian-leopard",
+      "sloth-bear",
+      "golden-jackal"
+    ],
+    "description": "Dudhwa National Park is a national park in Uttar Pradesh, spanning 490.3 sq km. Terai marshland reserve along Nepal border protecting Swamp Deer, Rhinos, and Tigers. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Sambar Deer, Indian Rhinoceros, Indian Leopard, Sloth Bear, and Golden Jackal. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "valmiki-national-park",
@@ -5130,9 +5266,14 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Live_behind_Art.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Valmiki_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5152,7 +5293,14 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-rhinoceros",
+      "asian-elephant",
+      "sloth-bear",
+      "emerald-dove"
+    ],
+    "description": "Valmiki National Park is a national park in Bihar, spanning 335.65 sq km. Bihar's sole tiger reserve, located along Gandak River contiguous with Chitwan in Nepal. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Indian Rhinoceros, Asian Elephant, Sloth Bear, and Emerald Dove. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "indravati-national-park",
@@ -5175,9 +5323,14 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Bubalus_arnee_Kaziranga.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Indravati_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5197,7 +5350,14 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "wild-water-buffalo",
+      "asian-elephant",
+      "blackbuck",
+      "sloth-bear"
+    ],
+    "description": "Indravati National Park is a national park in Chhattisgarh, spanning 1,258 sq km. Famous as one of the last wild refuges for the endangered Wild Water Buffalo. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Wild Water Buffalo, Asian Elephant, Blackbuck, and Sloth Bear. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "kanger-valley-national-park",
@@ -5220,9 +5380,14 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Kanger_valley12.JPG",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Kanger_Valley_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5242,7 +5407,13 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "hill-myna",
+      "sloth-bear",
+      "striped-hyena"
+    ],
+    "description": "Kanger Valley National Park is a national park in Chhattisgarh, spanning 200 sq km. Famous for subterranean limestone caves (Kotumsar Caves) and Bastar Hill Myna. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Hill Myna, Sloth Bear, and Striped Hyena. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "guru-ghasidas-national-park",
@@ -5265,9 +5436,19 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Tadiyabaan_Lake_in_Chhattisgarh.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Guru_Ghasidas_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5287,7 +5468,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "sloth-bear",
+      "rufous-treepie",
+      "red-vented-bulbul",
+      "jungle-babbler",
+      "indian-roller"
+    ],
+    "description": "Guru Ghasidas National Park is a national park in Chhattisgarh, spanning 1,440.7 sq km. Vast northern Chhattisgarh forest connecting Sanjay Tiger Reserve in MP. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Sloth Bear, Rufous Treepie, Red-vented Bulbul, Jungle Babbler, and Indian Roller. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "betla-national-park",
@@ -5315,9 +5504,19 @@
         "label": "Betla National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Betla_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Betla_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5342,7 +5541,15 @@
           "url": "https://en.wikivoyage.org/wiki/Betla_National_Park"
         }
       ]
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "sloth-bear",
+      "indian-giant-squirrel",
+      "forest-owlet",
+      "rose-ringed-parakeet",
+      "spotted-dove"
+    ],
+    "description": "Betla National Park is a national park in Jharkhand, spanning 226 sq km. One of India's earliest Project Tiger reserves in Chota Nagpur plateau. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Sloth Bear, Indian Giant Squirrel, Forest Owlet, Rose-ringed Parakeet, and Spotted Dove. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "papikonda-national-park",
@@ -5375,9 +5582,14 @@
         "label": "Papikonda National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Papikonda_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Papikonda_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5406,7 +5618,15 @@
           "url": "https://en.wikivoyage.org/wiki/Papikonda_National_Park"
         }
       ]
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "sloth-bear",
+      "sambar-deer",
+      "malabar-pied-hornbill",
+      "malabar-whistling-thrush"
+    ],
+    "description": "Papikonda National Park is a national park in Andhra Pradesh, spanning 1,012.86 sq km. Eastern Ghats river gorge reserve along Godavari River. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Indian Leopard, Sloth Bear, Sambar Deer, Malabar Pied Hornbill, and Malabar Whistling Thrush. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "sri-venkateswara-national-park",
@@ -5434,9 +5654,19 @@
         "label": "Andhra Pradesh Tourism (official)",
         "url": "https://tourism.ap.gov.in",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Sri_Venkateswara_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5460,7 +5690,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "golden-jackal",
+      "sloth-bear",
+      "indian-giant-squirrel",
+      "black-drongo",
+      "red-vented-bulbul"
+    ],
+    "description": "Sri Venkateswara National Park is a national park in Andhra Pradesh, spanning 353.62 sq km. Seshachalam Biosphere Reserve, sanctuary for endemic Red Sanders tree. Its flagship species is the Asian Elephant. Other notable species seen here include Golden Jackal, Sloth Bear, Indian Giant Squirrel, Black Drongo, and Red-vented Bulbul. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "kasu-brahmananda-reddy-national-park",
@@ -5483,9 +5721,14 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Kbrpark.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5505,7 +5748,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "rock-pigeon",
+      "red-vented-bulbul",
+      "spotted-dove",
+      "purple-sunbird",
+      "ashy-prinia"
+    ],
+    "description": "Kasu Brahmananda Reddy National Park is a national park in Telangana, spanning 1.43 sq km. Urban national park in Jubilee Hills, Hyderabad. Its flagship species is the Indian Peafowl. Other notable species seen here include Rock Pigeon, Red-vented Bulbul, Spotted Dove, Purple Sunbird, and Ashy Prinia. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "mahavir-harina-vanasthali-national-park",
@@ -5533,9 +5784,14 @@
         "label": "Hyderabad/East (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Hyderabad%2FEast",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5560,7 +5816,15 @@
           "url": "https://en.wikivoyage.org/wiki/Hyderabad%2FEast"
         }
       ]
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "rock-pigeon",
+      "red-vented-bulbul",
+      "purple-sunbird",
+      "spotted-dove",
+      "house-crow"
+    ],
+    "description": "Mahavir Harina Vanasthali National Park is a national park in Telangana, spanning 14.59 sq km. Blackbuck sanctuary on outskirts of Hyderabad. Its flagship species is the Indian Peafowl. Other notable species seen here include Rock Pigeon, Red-vented Bulbul, Purple Sunbird, Spotted Dove, and House Crow. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "mrugavani-national-park",
@@ -5583,9 +5847,14 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Daboia_head.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5605,7 +5874,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "rock-pigeon",
+      "red-vented-bulbul",
+      "spotted-dove",
+      "purple-sunbird",
+      "ashy-prinia"
+    ],
+    "description": "Mrugavani National Park is a national park in Telangana, spanning 3.6 sq km. Deciduous rocky scrub forest reserve in Chilkur, Hyderabad. Its flagship species is the Indian Peafowl. Other notable species seen here include Rock Pigeon, Red-vented Bulbul, Spotted Dove, Purple Sunbird, and Ashy Prinia. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "\u092d\u0917\u0935\u093e\u0928-\u092e\u0939\u093e\u0935\u0940\u0930-\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f-\u0909\u0926\u094d\u092f\u093e\u0928-mollem",
@@ -5628,6 +5905,11 @@
         "label": "Goa Tourism (official)",
         "url": "https://www.goatourism.gov.in",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
     "needsResearch": true,
@@ -5649,7 +5931,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-whiskered-bulbul",
+      "white-throated-kingfisher",
+      "oriental-magpie-robin",
+      "common-iora",
+      "spotted-dove"
+    ],
+    "description": "Bhagwan Mahaveer (Mollem) National Park is a national park in Goa, spanning 107 sq km. Western Ghats tropical forest housing Dudhsagar Falls. Its flagship species is the Great Hornbill. Other notable species seen here include Red-whiskered Bulbul, White-throated Kingfisher, Oriental Magpie-Robin, Common Iora, and Spotted Dove. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "namdapha-national-park",
@@ -5677,9 +5967,14 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Namdapha2.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Namdapha_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Arunachal Pradesh Inner Line Permit (ILP) required for all non-resident Indian citizens; foreign nationals additionally need a Protected Area Permit (PAP). Standard park entry is otherwise open once the ILP/PAP is obtained."
@@ -5699,7 +5994,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "snow-leopard",
+      "clouded-leopard",
+      "red-panda",
+      "fishing-cat",
+      "hoolock-gibbon"
+    ],
+    "description": "Namdapha National Park is a national park in Arunachal Pradesh, spanning 1,985.2 sq km. Biodiversity hotspot where snow leopards, cloud leopards, common leopards, and tigers coexist. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Snow Leopard, Clouded Leopard, Red Panda, Fishing Cat, and Hoolock Gibbon. Visiting requires a specific access permit beyond standard entry."
   },
   {
     "slug": "mouling-national-park",
@@ -5727,9 +6030,19 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Tragopan_blythii01.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Mouling_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Arunachal Pradesh Inner Line Permit (ILP) required for all non-resident Indian citizens; foreign nationals additionally need a Protected Area Permit (PAP). Remote and largely undeveloped for tourism beyond the permit requirement."
@@ -5749,14 +6062,21 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "red-panda",
+      "red-whiskered-bulbul",
+      "red-vented-bulbul"
+    ],
+    "description": "Mouling National Park is a national park in Arunachal Pradesh, spanning 483 sq km. Siang valley park protecting Red Panda and Takin. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Indian Leopard, Red Panda, Red-whiskered Bulbul, and Red-vented Bulbul. Visiting requires a specific access permit beyond standard entry."
   },
   {
     "slug": "keibul-lamjao-national-park",
     "name": "Keibul Lamjao National Park",
     "type": "national-park",
     "stateSlug": "manipur",
-    "headlineSpeciesSlug": "barasingha",
+    "headlineSpeciesSlug": "sangai",
     "lat": 24.5,
     "lng": 93.85,
     "areaSqKm": 40,
@@ -5787,9 +6107,14 @@
         "label": "Keibul Lamjao National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Keibul_Lamjao_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Keibul_Lamjao_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Manipur Inner Line Permit (ILP) required for all domestic (non-Manipur-resident) visitors since the state was brought under the ILP system in December 2019."
@@ -5818,7 +6143,14 @@
           "url": "https://en.wikivoyage.org/wiki/Keibul_Lamjao_National_Park"
         }
       ]
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "black-kite",
+      "hill-myna",
+      "sarus-crane",
+      "white-breasted-waterhen"
+    ],
+    "description": "Keibul Lamjao National Park is a national park in Manipur, spanning 40 sq km. The world's only floating national park, located on Loktak Lake; sole home of Sangai deer. Its flagship species is the Sangai (Brow-antlered Deer). Other notable species seen here include Black Kite, Hill Myna, Sarus Crane, and White-breasted Waterhen. Visiting requires a specific access permit beyond standard entry."
   },
   {
     "slug": "balphakram-national-park",
@@ -5846,9 +6178,19 @@
         "label": "Meghalaya Tourism (official)",
         "url": "https://meghalayatourism.in",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Balphakram_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5872,7 +6214,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "wild-water-buffalo",
+      "red-panda",
+      "red-vented-bulbul",
+      "spotted-dove",
+      "oriental-magpie-robin"
+    ],
+    "description": "Balphakram National Park is a national park in Meghalaya, spanning 220 sq km. Garo Hills plateau canyon park famous for Asian Elephants and Red Pandas. Its flagship species is the Asian Elephant. Other notable species seen here include Wild Water Buffalo, Red Panda, Red-vented Bulbul, Spotted Dove, and Oriental Magpie-Robin. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "nokrek-national-park",
@@ -5900,9 +6250,19 @@
         "label": "Meghalaya Tourism (official)",
         "url": "https://meghalayatourism.in",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Nokrek_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -5926,7 +6286,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "hoolock-gibbon",
+      "royal-bengal-tiger",
+      "red-panda",
+      "red-vented-bulbul",
+      "common-tailorbird"
+    ],
+    "description": "Nokrek National Park is a national park in Meghalaya, spanning 47.48 sq km. UNESCO Biosphere Reserve in West Garo Hills protecting wild Citrus (gene sanctuary). Its flagship species is the Asian Elephant. Other notable species seen here include Hoolock Gibbon, Royal Bengal Tiger, Red Panda, Red-vented Bulbul, and Common Tailorbird. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "murlen-national-park",
@@ -5954,9 +6322,19 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Champhai,_Mizoram,_from_south,_with_Zotlang_in_the_foreground.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Murlen_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Mizoram Inner Line Permit (ILP) required for all domestic (non-Mizoram-resident) visitors; free, fast online application."
@@ -5976,14 +6354,22 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "hoolock-gibbon",
+      "hill-myna",
+      "red-vented-bulbul",
+      "indian-white-eye",
+      "mithun"
+    ],
+    "description": "Murlen National Park is a national park in Mizoram, spanning 100 sq km. Dense sub-tropical forest where sunlight barely penetrates the canopy. Its flagship species is the Royal Bengal Tiger. Other notable species seen here include Hoolock Gibbon, Hill Myna, Red-vented Bulbul, Indian White-eye, and Mithun (Gayal). Visiting requires a specific access permit beyond standard entry."
   },
   {
     "slug": "phawngpui-blue-mountain-national-park",
     "name": "Phawngpui Blue Mountain National Park",
     "type": "national-park",
     "stateSlug": "mizoram",
-    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "headlineSpeciesSlug": "clouded-leopard",
     "lat": 22.65,
     "lng": 93.0333,
     "areaSqKm": 50,
@@ -6004,9 +6390,19 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:2007-blue-mtn-farpak.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Phawngpui_Blue_Mountain_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Mizoram Inner Line Permit (ILP) required for all domestic (non-Mizoram-resident) visitors; free, fast online application."
@@ -6026,14 +6422,18 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-vented-bulbul"
+    ],
+    "description": "Phawngpui Blue Mountain National Park is a national park in Mizoram, spanning 50 sq km. Highest peak reserve in Mizoram, home to Blyth's Tragopan. Its flagship species is the Clouded Leopard. Other notable species seen here include Red-vented Bulbul. Visiting requires a specific access permit beyond standard entry."
   },
   {
     "slug": "ntangki-national-park",
     "name": "Ntangki National Park",
     "type": "national-park",
     "stateSlug": "nagaland",
-    "headlineSpeciesSlug": "asian-elephant",
+    "headlineSpeciesSlug": "hoolock-gibbon",
     "lat": 25.5667,
     "lng": 93.5333,
     "areaSqKm": 202.02,
@@ -6059,9 +6459,19 @@
         "label": "Nagaland Tourism (official)",
         "url": "https://tourism.nagaland.gov.in",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Ntangki_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "permit-required",
       "accessNotes": "Nagaland Inner Line Permit (ILP) required for all domestic (non-Nagaland-resident) visitors; free online application, no separate requirement for foreign passport holders beyond local police registration."
@@ -6085,7 +6495,14 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "sloth-bear",
+      "red-vented-bulbul",
+      "common-tailorbird",
+      "common-myna"
+    ],
+    "description": "Ntangki National Park is a national park in Nagaland, spanning 202.02 sq km. Peren district rainforest protecting Hoolock Gibbon and Hornbills. Its flagship species is the Hoolock Gibbon. Other notable species seen here include Sloth Bear, Red-vented Bulbul, Common Tailorbird, and Common Myna. Visiting requires a specific access permit beyond standard entry."
   },
   {
     "slug": "khangchendzonga-national-park",
@@ -6118,9 +6535,19 @@
         "label": "Khangchendzonga National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Khangchendzonga_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Khangchendzonga_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -6149,14 +6576,22 @@
           "url": "https://en.wikivoyage.org/wiki/Khangchendzonga_National_Park"
         }
       ]
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "indian-leopard",
+      "clouded-leopard",
+      "red-panda",
+      "red-vented-bulbul",
+      "large-billed-crow"
+    ],
+    "description": "Khangchendzonga National Park is a national park in Sikkim, spanning 1,784 sq km. UNESCO Mixed Heritage Site surrounding Mt. Kanchenjunga, world's 3rd highest peak. Its flagship species is the Snow Leopard. Other notable species seen here include Indian Leopard, Clouded Leopard, Red Panda, Red-vented Bulbul, and Large-billed Crow. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "clouded-leopard-national-park",
     "name": "Clouded Leopard National Park",
     "type": "national-park",
     "stateSlug": "tripura",
-    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "headlineSpeciesSlug": "clouded-leopard",
     "lat": 23.6167,
     "lng": 91.3167,
     "areaSqKm": 5.08,
@@ -6177,9 +6612,19 @@
         "label": "Tripura Tourism (official)",
         "url": "https://tripuratourism.gov.in",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Clouded_Leopard_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -6203,14 +6648,21 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "spotted-dove",
+      "black-drongo",
+      "indian-pond-heron",
+      "white-throated-kingfisher"
+    ],
+    "description": "Clouded Leopard National Park is a national park in Tripura, spanning 5.08 sq km. Part of Sepahijala Wildlife Sanctuary protecting rare Clouded Leopards. Its flagship species is the Clouded Leopard. Other notable species seen here include Spotted Dove, Black Drongo, Indian Pond Heron, and White-throated Kingfisher. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "bison-rajbari-national-park",
     "name": "Rajbari (Bison) National Park",
     "type": "national-park",
     "stateSlug": "tripura",
-    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "headlineSpeciesSlug": "gaur",
     "lat": 23.2833,
     "lng": 91.4333,
     "areaSqKm": 31.63,
@@ -6225,6 +6677,16 @@
       {
         "label": "Tripura Tourism (official)",
         "url": "https://tripuratourism.gov.in",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (headline species correction)",
+        "url": "https://en.wikipedia.org/wiki/Rajbari_(Bison)_National_Park",
         "accessedDate": "2026-08-04"
       }
     ],
@@ -6247,7 +6709,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "spotted-dove",
+      "red-vented-bulbul",
+      "oriental-magpie-robin",
+      "common-tailorbird",
+      "common-myna"
+    ],
+    "description": "Rajbari (Bison) National Park is a national park in Tripura, spanning 31.63 sq km. Trishna Wildlife Sanctuary core protecting Indian Gaur (Bison). Its flagship species is the Gaur (Indian Bison). Other notable species seen here include Spotted Dove, Red-vented Bulbul, Oriental Magpie-Robin, Common Tailorbird, and Common Myna. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "campbell-bay-national-park",
@@ -6275,9 +6745,14 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Nicobar_Treeshrew_(Tupaia_nicobarica_nicobarica).jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "restricted",
       "accessNotes": "On Great Nicobar Island; travel to the Nicobar group is highly restricted for both Indian citizens and foreigners, with permits rarely issued except in exceptional cases approved by the Deputy Commissioner, Andaman District. Reached only by weekly government ferry or helicopter from Port Blair (3-4 days by sea); no general tourist infrastructure."
@@ -6297,7 +6772,15 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "asian-koel",
+      "white-breasted-waterhen",
+      "hill-myna",
+      "common-myna",
+      "emerald-dove"
+    ],
+    "description": "Campbell Bay National Park is a national park in Andaman & Nicobar, spanning 426 sq km. Great Nicobar Biosphere Reserve protecting Nicobar Megapode and Crab-eating Macaque. Its flagship species is the Nicobar Long-tailed Macaque. Other notable species seen here include Asian Koel, White-breasted Waterhen, Hill Myna, Common Myna, and Emerald Dove. It is not routinely open to the general public."
   },
   {
     "slug": "galathea-bay-national-park",
@@ -6325,9 +6808,14 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Caloenas_nicobarica_-_Kragentaube2.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "restricted",
       "accessNotes": "On Great Nicobar Island; same Nicobar-group travel restrictions as Campbell Bay National Park apply (permits rarely issued to Indian citizens or foreigners). Part of the area affected by the Great Nicobar development project, with no general tourist infrastructure."
@@ -6347,14 +6835,22 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "asian-koel",
+      "white-breasted-waterhen",
+      "hill-myna",
+      "common-myna",
+      "emerald-dove"
+    ],
+    "description": "Galathea Bay National Park is a national park in Andaman & Nicobar, spanning 110 sq km. Great Nicobar nesting beach for Giant Leatherback Sea Turtles. Its flagship species is the Nicobar Long-tailed Macaque. Other notable species seen here include Asian Koel, White-breasted Waterhen, Hill Myna, Common Myna, and Emerald Dove. It is not routinely open to the general public."
   },
   {
     "slug": "mahatma-gandhi-marine-national-park",
     "name": "Mahatma Gandhi Marine National Park",
     "type": "national-park",
     "stateSlug": "andaman-and-nicobar-islands",
-    "headlineSpeciesSlug": "narcondam-hornbill",
+    "headlineSpeciesSlug": "dugong",
     "lat": 11.6,
     "lng": 92.5833,
     "areaSqKm": 281.5,
@@ -6375,9 +6871,19 @@
         "label": "Mahatma Gandhi Marine National Park (Wikivoyage)",
         "url": "https://en.wikivoyage.org/wiki/Mahatma_Gandhi_Marine_National_Park",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (headline species correction)",
+        "url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi_Marine_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -6402,14 +6908,22 @@
           "url": "https://en.wikivoyage.org/wiki/Mahatma_Gandhi_Marine_National_Park"
         }
       ]
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "white-throated-kingfisher",
+      "red-whiskered-bulbul",
+      "common-myna",
+      "oriental-magpie-robin",
+      "house-crow"
+    ],
+    "description": "Mahatma Gandhi Marine National Park is a national park in Andaman & Nicobar, spanning 281.5 sq km. Wandoor coral reef islands preserving rich marine life and sea turtles. Its flagship species is the Dugong (Sea Cow). Other notable species seen here include White-throated Kingfisher, Red-whiskered Bulbul, Common Myna, Oriental Magpie-Robin, and House Crow. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "middle-button-island-national-park",
     "name": "Middle Button Island National Park",
     "type": "national-park",
     "stateSlug": "andaman-and-nicobar-islands",
-    "headlineSpeciesSlug": "narcondam-hornbill",
+    "headlineSpeciesSlug": "dugong",
     "lat": 12.2833,
     "lng": 92.9667,
     "areaSqKm": 0.44,
@@ -6425,9 +6939,19 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Cheetal_(Axis_axis).jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (headline species correction)",
+        "url": "https://en.wikipedia.org/wiki/Middle_Button_Island_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -6447,14 +6971,22 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "white-throated-kingfisher",
+      "red-whiskered-bulbul",
+      "oriental-magpie-robin",
+      "large-billed-crow",
+      "hill-myna"
+    ],
+    "description": "Middle Button Island National Park is a national park in Andaman & Nicobar, spanning 0.44 sq km. Island park protecting coral reefs and Spotted Deer. Its flagship species is the Dugong (Sea Cow). Other notable species seen here include White-throated Kingfisher, Red-whiskered Bulbul, Oriental Magpie-Robin, Large-billed Crow, and Hill Myna. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "north-button-island-national-park",
     "name": "North Button Island National Park",
     "type": "national-park",
     "stateSlug": "andaman-and-nicobar-islands",
-    "headlineSpeciesSlug": "narcondam-hornbill",
+    "headlineSpeciesSlug": "dugong",
     "lat": 12.3167,
     "lng": 92.9333,
     "areaSqKm": 0.44,
@@ -6470,9 +7002,19 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Button_Islands-North_Button.png",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (headline species correction)",
+        "url": "https://en.wikipedia.org/wiki/North_Button_Island_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -6492,14 +7034,22 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "white-throated-kingfisher",
+      "red-whiskered-bulbul",
+      "large-billed-crow",
+      "oriental-magpie-robin",
+      "hill-myna"
+    ],
+    "description": "North Button Island National Park is a national park in Andaman & Nicobar, spanning 0.44 sq km. Dugong and dolphin marine island reserve. Its flagship species is the Dugong (Sea Cow). Other notable species seen here include White-throated Kingfisher, Red-whiskered Bulbul, Large-billed Crow, Oriental Magpie-Robin, and Hill Myna. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "south-button-island-national-park",
     "name": "South Button Island National Park",
     "type": "national-park",
     "stateSlug": "andaman-and-nicobar-islands",
-    "headlineSpeciesSlug": "narcondam-hornbill",
+    "headlineSpeciesSlug": "dugong",
     "lat": 12.2167,
     "lng": 93.0167,
     "areaSqKm": 0.03,
@@ -6515,9 +7065,19 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Button_Islands-South_Button.png",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (headline species correction)",
+        "url": "https://en.wikipedia.org/wiki/South_Button_Island_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -6537,14 +7097,22 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-whiskered-bulbul",
+      "oriental-magpie-robin",
+      "asian-koel",
+      "hill-myna",
+      "white-throated-kingfisher"
+    ],
+    "description": "South Button Island National Park is a national park in Andaman & Nicobar, spanning 0.03 sq km. Tiny islet famous for scuba diving among shallow coral reefs. Its flagship species is the Dugong (Sea Cow). Other notable species seen here include Red-whiskered Bulbul, Oriental Magpie-Robin, Asian Koel, Hill Myna, and White-throated Kingfisher. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "mount-harriet-national-park",
     "name": "Mount Manipur (Harriet) National Park",
     "type": "national-park",
     "stateSlug": "andaman-and-nicobar-islands",
-    "headlineSpeciesSlug": "narcondam-hornbill",
+    "headlineSpeciesSlug": "brahminy-kite",
     "lat": 11.7167,
     "lng": 92.7333,
     "areaSqKm": 46.62,
@@ -6555,6 +7123,16 @@
         "label": "A&N Forest Dept",
         "url": "https://forest.andaman.gov.in",
         "accessedDate": "2026-07-29"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (headline species correction)",
+        "url": "https://en.wikipedia.org/wiki/Mount_Manipur_(Harriet)_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
     "needsResearch": true,
@@ -6572,14 +7150,22 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "white-throated-kingfisher",
+      "red-whiskered-bulbul",
+      "common-myna",
+      "oriental-magpie-robin",
+      "house-crow"
+    ],
+    "description": "Mount Manipur (Harriet) National Park is a national park in Andaman & Nicobar, spanning 46.62 sq km. Peak reserve near Port Blair depicted on the back of the \u20b920 currency note. Its flagship species is the Brahminy Kite. Other notable species seen here include White-throated Kingfisher, Red-whiskered Bulbul, Common Myna, Oriental Magpie-Robin, and House Crow. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "rani-jhansi-marine-national-park",
     "name": "Rani Jhansi Marine National Park",
     "type": "national-park",
     "stateSlug": "andaman-and-nicobar-islands",
-    "headlineSpeciesSlug": "narcondam-hornbill",
+    "headlineSpeciesSlug": "dugong",
     "lat": 12,
     "lng": 93.0833,
     "areaSqKm": 256.14,
@@ -6595,9 +7181,19 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Asian_Elephant_in_Corbett_National_Park.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (headline species correction)",
+        "url": "https://en.wikipedia.org/wiki/Rani_Jhansi_Marine_National_Park",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -6617,14 +7213,22 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "red-whiskered-bulbul",
+      "oriental-magpie-robin",
+      "hill-myna",
+      "asian-koel",
+      "white-throated-kingfisher"
+    ],
+    "description": "Rani Jhansi Marine National Park is a national park in Andaman & Nicobar, spanning 256.14 sq km. Ritchie's Archipelago coral reef reserve. Its flagship species is the Dugong (Sea Cow). Other notable species seen here include Red-whiskered Bulbul, Oriental Magpie-Robin, Hill Myna, Asian Koel, and White-throated Kingfisher. It is open to visitors with a standard entry or safari permit."
   },
   {
     "slug": "saddle-peak-national-park",
     "name": "Saddle Peak National Park",
     "type": "national-park",
     "stateSlug": "andaman-and-nicobar-islands",
-    "headlineSpeciesSlug": "narcondam-hornbill",
+    "headlineSpeciesSlug": "brahminy-kite",
     "lat": 13.25,
     "lng": 93.0333,
     "areaSqKm": 32.54,
@@ -6640,9 +7244,19 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Asian_Elephant_in_Corbett_National_Park.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "Wikipedia (fauna section)",
+        "url": "https://en.wikipedia.org/wiki/Saddle_Peak_National_Park",
+        "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
-    "needsResearch": true,
+    "needsResearch": false,
     "visitingHours": {
       "publicAccess": "open",
       "accessNotes": null
@@ -6662,6 +7276,14 @@
         }
       ],
       "operators": []
-    }
+    },
+    "additionalKeySpeciesSlugs": [
+      "hill-myna",
+      "white-throated-kingfisher",
+      "red-whiskered-bulbul",
+      "oriental-magpie-robin",
+      "common-myna"
+    ],
+    "description": "Saddle Peak National Park is a national park in Andaman & Nicobar, spanning 32.54 sq km. Highest point in North Andaman surrounded by uninhabited tropical forest. Its flagship species is the Brahminy Kite. Other notable species seen here include Hill Myna, White-throated Kingfisher, Red-whiskered Bulbul, Oriental Magpie-Robin, and Common Myna. It is open to visitors with a standard entry or safari permit."
   }
 ]

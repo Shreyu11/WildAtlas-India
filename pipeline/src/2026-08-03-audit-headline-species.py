@@ -37,6 +37,14 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent.parent
 DATA_DIR = REPO_ROOT / "public" / "data"
 OUT_PATH = SCRIPT_DIR.parent / "data" / "raw" / "headline-species-audit.jsonl"
+EXTRACT_CACHE_PATH = SCRIPT_DIR.parent / "data" / "raw" / "headline-audit-extract-cache.jsonl"
+
+# Common words that appear in many unrelated species names ("Owl", "Crane")
+# or, worse, as ordinary English words in park prose ("bustard" is safe, but
+# generic nouns aren't) - excluded from the loose last-word match so they
+# don't produce a flood of false "mentioned" matches. Long/distinctive nouns
+# are kept.
+GENERIC_LAST_WORDS = {"bird", "deer", "cat", "fox", "dove", "duck", "goose"}
 
 WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
 CONTACT = "shreyas.rygbee@gmail.com"
@@ -90,6 +98,50 @@ def fetch_wikipedia_extract(title: str, session: requests.Session) -> str | None
     return None
 
 
+def species_mentioned(extract: str, common_name: str) -> bool:
+    """True if the full common name appears, OR its last (most distinctive)
+    word does - Wikipedia prose usually drops the qualifier ("tiger" not
+    "Royal Bengal Tiger", "elephant" not "Asian Elephant"), so requiring the
+    exact full phrase produces a flood of false negatives."""
+    lower_text = extract.lower()
+    if re.search(r"\b" + re.escape(common_name.lower()) + r"\b", lower_text):
+        return True
+    last_word = common_name.split()[-1].lower().strip("()-")
+    if last_word in GENERIC_LAST_WORDS or len(last_word) < 4:
+        return False
+    return bool(re.search(r"\b" + re.escape(last_word) + r"\b", lower_text))
+
+
+def load_processed_slugs(path: Path) -> set[str]:
+    if not path.exists():
+        return set()
+    processed = set()
+    with path.open() as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                processed.add(json.loads(line)["slug"])
+            except (json.JSONDecodeError, KeyError):
+                continue
+    return processed
+
+
+def load_extract_cache() -> dict[str, str | None]:
+    if not EXTRACT_CACHE_PATH.exists():
+        return {}
+    cache = {}
+    with EXTRACT_CACHE_PATH.open() as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            rec = json.loads(line)
+            cache[rec["name"]] = rec["extract"]
+    return cache
+
+
 def main() -> None:
     species = json.loads((DATA_DIR / "species.json").read_text())
     species_by_slug = {s["slug"]: s for s in species}
@@ -97,24 +149,32 @@ def main() -> None:
     session = requests.Session()
     session.headers["User-Agent"] = USER_AGENT
 
+    extract_cache = load_extract_cache()
+    already_done = load_processed_slugs(OUT_PATH)
     flagged = []
-    total = 0
+    total = len(already_done)
 
-    with OUT_PATH.open("w") as out_f:
+    with OUT_PATH.open("a") as out_f, EXTRACT_CACHE_PATH.open("a") as cache_f:
         for filename in ENTITY_FILES:
             entities = json.loads((DATA_DIR / filename).read_text())
             for entity in entities:
-                total += 1
                 slug = entity["slug"]
+                if slug in already_done:
+                    continue
+                total += 1
                 name = entity["name"]
                 headline_slug = entity.get("headlineSpeciesSlug")
                 headline = species_by_slug.get(headline_slug) if headline_slug else None
 
-                extract = fetch_wikipedia_extract(name, session)
-                mentioned = False
-                if extract and headline:
-                    pattern = re.compile(r"\b" + re.escape(headline["commonName"].lower()) + r"\b")
-                    mentioned = bool(pattern.search(extract.lower()))
+                if name in extract_cache:
+                    extract = extract_cache[name]
+                else:
+                    extract = fetch_wikipedia_extract(name, session)
+                    extract_cache[name] = extract
+                    cache_f.write(json.dumps({"name": name, "extract": extract}) + "\n")
+                    cache_f.flush()
+
+                mentioned = bool(extract and headline and species_mentioned(extract, headline["commonName"]))
 
                 habitat_flag = None
                 if MARINE_KEYWORDS.search(name) and headline and headline["slug"] not in {"indian-flamingo", "painted-stork"}:
@@ -143,9 +203,12 @@ def main() -> None:
 
                 time.sleep(0.25)
 
-    log(f"\n=== Done === {total} entities checked, {len(flagged)} flagged for review")
+    all_records = [json.loads(line) for line in OUT_PATH.read_text().splitlines() if line.strip()]
+    all_flagged = [r for r in all_records if not r["mentionedInWikipedia"] or r["habitatFlag"]]
+
+    log(f"\n=== Done === {len(all_records)} entities checked total, {len(all_flagged)} flagged for review")
     log(f"Report: {OUT_PATH}")
-    for r in flagged:
+    for r in all_flagged:
         reason = []
         if not r["mentionedInWikipedia"]:
             reason.append("not mentioned in Wikipedia" if r["hasExtract"] else "no Wikipedia article found")

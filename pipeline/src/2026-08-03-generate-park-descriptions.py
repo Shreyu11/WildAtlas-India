@@ -159,7 +159,9 @@ def main() -> None:
             headline_slug = entity.get("headlineSpeciesSlug")
             headline_name = species_by_slug.get(headline_slug) if headline_slug else None
             additional_slugs = additional_species_by_slug.get(entity["slug"], [])
-            additional_names = [species_by_slug[s] for s in additional_slugs if s in species_by_slug]
+            additional_names = [
+                species_by_slug[s] for s in additional_slugs if s in species_by_slug and s != headline_slug
+            ]
 
             description = build_description(entity, entity_type, state_name, headline_name, additional_names)
             wc = word_count(description)

@@ -24,6 +24,11 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Alipore_Zoological_Garden_-_Kolkata_2011-05-03_2548.JPG",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
     "photoAttribution": {
@@ -32,7 +37,15 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alipore_Zoological_Garden_-_Kolkata_2011-05-03_2548.JPG"
     },
-    "needsResearch": true
+    "needsResearch": false,
+    "additionalKeySpeciesSlugs": [
+      "sambar-deer",
+      "lion-tailed-macaque",
+      "asiatic-lion",
+      "house-crow",
+      "common-myna"
+    ],
+    "description": "Alipore Zoological Gardens is a zoo in West Bengal, located in Kolkata. It was established in 1876 as a captive-wildlife and conservation-education facility. The zoo is home to the Royal Bengal Tiger among its resident wildlife. Other notable species also housed here include Sambar Deer, Lion-tailed Macaque, Asiatic Lion, House Crow, and Common Myna."
   },
   {
     "slug": "sakkarbaug-zoological-garden",
@@ -59,6 +72,11 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Guj_21_Sakkarbaug_zoo_Indian_wild_ass.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
     "photoAttribution": {
@@ -67,7 +85,15 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guj_21_Sakkarbaug_zoo_Indian_wild_ass.jpg"
     },
-    "needsResearch": true
+    "needsResearch": false,
+    "additionalKeySpeciesSlugs": [
+      "cheetah",
+      "red-vented-bulbul",
+      "red-wattled-lapwing",
+      "rose-ringed-parakeet",
+      "rock-pigeon"
+    ],
+    "description": "Sakkarbaug Zoological Garden is a zoo in Gujarat, located in Junagadh. It was established in 1863 as a captive-wildlife and conservation-education facility. The zoo is home to the Asiatic Lion among its resident wildlife. Other notable species also housed here include Cheetah, Red-vented Bulbul, Red-wattled Lapwing, Rose-ringed Parakeet, and Rock Pigeon."
   },
   {
     "slug": "assam-state-zoo-cum-botanical-garden",
@@ -94,6 +120,11 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:ASSAM_STATE_ZOO_CUM_BOTANICAL_GARDEN,_GUWAHATI!_01.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
     "photoAttribution": {
@@ -102,7 +133,15 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:ASSAM_STATE_ZOO_CUM_BOTANICAL_GARDEN,_GUWAHATI!_01.jpg"
     },
-    "needsResearch": true
+    "needsResearch": false,
+    "additionalKeySpeciesSlugs": [
+      "spotted-dove",
+      "black-kite",
+      "house-crow",
+      "common-myna",
+      "red-vented-bulbul"
+    ],
+    "description": "Assam State Zoo cum Botanical Garden is a zoo in Assam, located in Guwahati. It was established in 1957 as a captive-wildlife and conservation-education facility. The zoo is home to the Indian Rhinoceros among its resident wildlife. Other notable species also housed here include Spotted Dove, Black Kite, House Crow, Common Myna, and Red-vented Bulbul."
   },
   {
     "slug": "thiruvananthapuram-zoo",
@@ -124,10 +163,23 @@
         "label": "Thiruvananthapuram Zoo (Sri Chitra Zoological Park) (Wikipedia)",
         "url": "https://en.wikipedia.org/wiki/Thiruvananthapuram_Zoo",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
     "photoAttribution": null,
-    "needsResearch": true
+    "needsResearch": true,
+    "additionalKeySpeciesSlugs": [
+      "house-crow",
+      "common-myna",
+      "white-cheeked-barbet",
+      "large-billed-crow",
+      "black-kite"
+    ],
+    "description": "Thiruvananthapuram Zoo (Sri Chitra Zoological Park) is a zoo in Kerala, located in Thiruvananthapuram. It was established in 1859 as a captive-wildlife and conservation-education facility. The zoo is home to the Asian Elephant among its resident wildlife. Other notable species also housed here include House Crow, Common Myna, White-cheeked Barbet, Large-billed Crow, and Black Kite."
   },
   {
     "slug": "sri-chamarajendra-zoological-gardens",
@@ -154,6 +206,11 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Sri_Chamarajendra_Zoological_Gardens_(Mysore_Zoo),_Image_(9),_Mysore,_Karnataka,_India.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
     "photoAttribution": {
@@ -162,7 +219,15 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sri_Chamarajendra_Zoological_Gardens_(Mysore_Zoo),_Image_(9),_Mysore,_Karnataka,_India.jpg"
     },
-    "needsResearch": true
+    "needsResearch": false,
+    "additionalKeySpeciesSlugs": [
+      "rose-ringed-parakeet",
+      "common-myna",
+      "ashy-prinia",
+      "black-kite",
+      "red-whiskered-bulbul"
+    ],
+    "description": "Sri Chamarajendra Zoological Gardens (Mysore Zoo) is a zoo in Karnataka, located in Mysuru. It was established in 1892 as a captive-wildlife and conservation-education facility. The zoo is home to the Lion-tailed Macaque among its resident wildlife. Other notable species also housed here include Rose-ringed Parakeet, Common Myna, Ashy Prinia, Black Kite, and Red-whiskered Bulbul."
   },
   {
     "slug": "nahargarh-biological-park",
@@ -170,7 +235,7 @@
     "stateSlug": "rajasthan",
     "city": "Jaipur",
     "establishedYear": 2010,
-    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "headlineSpeciesSlug": "indian-leopard",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Panoramic_view_from_amer_fort_overlooking_the_city.jpg/960px-Panoramic_view_from_amer_fort_overlooking_the_city.jpg",
     "lat": 26.9622,
     "lng": 75.8317,
@@ -189,6 +254,11 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Panoramic_view_from_amer_fort_overlooking_the_city.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
     "photoAttribution": {
@@ -197,7 +267,14 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panoramic_view_from_amer_fort_overlooking_the_city.jpg"
     },
-    "needsResearch": true
+    "needsResearch": false,
+    "additionalKeySpeciesSlugs": [
+      "eurasian-collared-dove",
+      "rock-pigeon",
+      "red-vented-bulbul",
+      "common-myna"
+    ],
+    "description": "Nahargarh Biological Park is a zoo in Rajasthan, located in Jaipur. It was established in 2010 as a captive-wildlife and conservation-education facility. The zoo is home to the Indian Leopard among its resident wildlife. Other notable species also housed here include Eurasian Collared Dove, Rock Pigeon, Red-vented Bulbul, and Common Myna."
   },
   {
     "slug": "van-vihar-national-park",
@@ -205,7 +282,7 @@
     "stateSlug": "madhya-pradesh",
     "city": "Bhopal",
     "establishedYear": 1979,
-    "headlineSpeciesSlug": "royal-bengal-tiger",
+    "headlineSpeciesSlug": "blackbuck",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Alligator_at_Van_Vihar_National_Park.jpg/960px-Alligator_at_Van_Vihar_National_Park.jpg",
     "lat": 23.2367,
     "lng": 77.3803,
@@ -224,6 +301,11 @@
         "label": "Wikimedia Commons (cover photo)",
         "url": "https://commons.wikimedia.org/wiki/File:Alligator_at_Van_Vihar_National_Park.jpg",
         "accessedDate": "2026-08-04"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
     "photoAttribution": {
@@ -232,7 +314,14 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alligator_at_Van_Vihar_National_Park.jpg"
     },
-    "needsResearch": true
+    "needsResearch": false,
+    "additionalKeySpeciesSlugs": [
+      "red-vented-bulbul",
+      "red-wattled-lapwing",
+      "laughing-dove",
+      "black-drongo"
+    ],
+    "description": "Van Vihar National Park is a zoo in Madhya Pradesh, located in Bhopal. It was established in 1979 as a captive-wildlife and conservation-education facility. The zoo is home to the Blackbuck among its resident wildlife. Other notable species also housed here include Red-vented Bulbul, Red-wattled Lapwing, Laughing Dove, and Black Drongo."
   },
   {
     "slug": "veermata-jijabai-bhonsale-udyan",
@@ -254,9 +343,21 @@
         "label": "Veermata Jijabai Bhonsale Udyan (Byculla Zoo) (Wikipedia)",
         "url": "https://en.wikipedia.org/wiki/Veermata_Jijabai_Bhonsale_Udyan_and_Zoo",
         "accessedDate": "2026-07-31"
+      },
+      {
+        "label": "GBIF occurrence records",
+        "url": "https://www.gbif.org/occurrence/search",
+        "accessedDate": "2026-08-04"
       }
     ],
     "photoAttribution": null,
-    "needsResearch": true
+    "needsResearch": true,
+    "additionalKeySpeciesSlugs": [
+      "house-crow",
+      "black-kite",
+      "rock-pigeon",
+      "common-myna",
+      "rose-ringed-parakeet"
+    ]
   }
 ]

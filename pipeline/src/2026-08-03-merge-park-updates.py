@@ -96,7 +96,14 @@ def merge_entity(
             entry["photoAttribution"] = None
 
     if species_rec and species_rec.get("additionalKeySpeciesSlugs"):
-        entry["additionalKeySpeciesSlugs"] = species_rec["additionalKeySpeciesSlugs"]
+        # Exclude the current headline species - the raw manifest was built
+        # from Wikipedia/GBIF matches independent of headlineSpeciesSlug, so
+        # if a later headline correction (2026-08-03-fix-headline-species.py)
+        # promoted one of these same species to flagship, it would otherwise
+        # show up twice (once as flagship, once as "also found here").
+        entry["additionalKeySpeciesSlugs"] = [
+            s for s in species_rec["additionalKeySpeciesSlugs"] if s != entry.get("headlineSpeciesSlug")
+        ]
         method = species_rec.get("sourceMethod", "wikipedia")
         if "wikipedia" in method:
             add_source(entry, "Wikipedia (fauna section)", f"https://en.wikipedia.org/wiki/{entry['name'].replace(' ', '_')}")
@@ -123,8 +130,11 @@ def merge_entity(
     has_description = bool(entry.get("description"))
     has_species = bool(entry.get("additionalKeySpeciesSlugs"))
     has_travel = bool(entry.get("travelLinks")) if "travelLinks" in entry or travel is not None else True
-    was_needs_research = entry.get("needsResearch", False)
-    entry["needsResearch"] = was_needs_research or not (has_photo and has_description and has_species and has_travel)
+    # Recomputed fresh each run (not OR'd with a prior value) - this pipeline
+    # runs incrementally across several sessions as each of the 4 manifests
+    # becomes available, and needsResearch should reflect current
+    # completeness, not get stuck true from an earlier partial merge.
+    entry["needsResearch"] = not (has_photo and has_description and has_species and has_travel)
 
 
 def process_file(
