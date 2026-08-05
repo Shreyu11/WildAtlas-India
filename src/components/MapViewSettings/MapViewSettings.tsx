@@ -14,43 +14,36 @@ export default function MapViewSettings() {
   const toggleItems: Array<{
     key: keyof MapSettings;
     label: string;
-    description: string;
     icon: string;
   }> = [
     {
       key: "mammals",
       label: "Mammals",
-      description: "Tigers, elephants, lions & terrestrial mammals",
       icon: "🐾",
     },
     {
       key: "birds",
       label: "Birds",
-      description: "Resident & migratory bird species",
       icon: "🦚",
     },
     {
       key: "zoos",
       label: "Zoo",
-      description: "Ex-situ zoological gardens & parks",
       icon: "🏛️",
     },
     {
       key: "nationalParks",
       label: "National Park",
-      description: "Protected national parks & reserves",
       icon: "🏞️",
     },
     {
       key: "wildlifeSanctuaries",
       label: "Wildlife Sanctuaries",
-      description: "Protected wildlife habitats & reserves",
       icon: "🏕️",
     },
     {
       key: "birdSanctuaries",
       label: "Bird Sanctuaries",
-      description: "Avian sanctuaries & wetlands",
       icon: "🪶",
     },
   ];
@@ -141,12 +134,12 @@ export default function MapViewSettings() {
     <div ref={panelRef} className="absolute bottom-6 left-6 z-30 flex flex-col items-start">
       {/* Popover Settings Panel */}
       {isOpen && (
-        <div className="mb-3 w-84 rounded-[24px] border border-zinc-300/80 bg-white/95 p-5 shadow-2xl backdrop-blur-2xl transition-all duration-300 ease-ios animate-in fade-in slide-in-from-bottom-2">
+        <div className="mb-3 w-80 rounded-[24px] border border-zinc-300/80 bg-white/95 p-5 shadow-2xl backdrop-blur-2xl transition-all duration-300 ease-ios animate-in fade-in slide-in-from-bottom-2">
           {/* Header */}
           <div className="flex items-center justify-between pb-3 border-b border-zinc-200/60">
             <div>
               <h2 className="font-sans text-xs font-bold uppercase tracking-wider text-zinc-800">
-                Map View Settings
+                Layer details
               </h2>
               <span className="font-mono text-[10px] text-zinc-400 block mt-0.5">
                 ↑/↓ Navigate · Enter Toggle · Esc Close
@@ -187,14 +180,9 @@ export default function MapViewSettings() {
                       <span className="text-lg leading-none select-none p-1.5 rounded-xl bg-zinc-100 border border-black/5 shadow-2xs">
                         {item.icon}
                       </span>
-                      <div className="flex flex-col">
-                        <span className="text-xs font-semibold text-zinc-900 leading-tight">
-                          {item.label}
-                        </span>
-                        <span className="text-[11px] text-zinc-500 leading-tight mt-0.5">
-                          {item.description}
-                        </span>
-                      </div>
+                      <span className="text-sm font-semibold text-zinc-900 leading-tight">
+                        {item.label}
+                      </span>
                     </div>
 
                     {/* Authentic iOS Toggle Switch */}
@@ -252,14 +240,9 @@ export default function MapViewSettings() {
             <path d="m22 17.5-8.58 3.91a2 2 0 0 1-1.66 0L3.18 17.5" />
           </svg>
         </div>
-        <div className="flex flex-col items-start text-left">
-          <span className="font-sans text-xs font-bold text-zinc-900 leading-tight">
-            Map view
-          </span>
-          <span className="text-[10px] font-medium text-zinc-500 leading-tight">
-            Layers & details
-          </span>
-        </div>
+        <span className="font-sans text-xs font-bold text-zinc-900 leading-tight">
+          Layer details
+        </span>
       </button>
     </div>
   );
