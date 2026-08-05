@@ -81,9 +81,9 @@ export default function FunFactCard({ facts, species }: { facts: FunFact[]; spec
     >
       {/* Header Row: Lightbulb + Did you know? + Close Button */}
       <div className="flex w-full items-center justify-between gap-2">
-        <div className="flex items-center gap-2.5">
-          <Lightbulb className="h-6 w-6 text-slate-800 shrink-0 stroke-[2.25]" />
-          <h2 className="font-mono text-[17px] font-bold tracking-tight text-slate-800">
+        <div className="flex items-center gap-2">
+          <Lightbulb className="h-5 w-5 text-slate-800 shrink-0 stroke-[2.25]" />
+          <h2 className="font-mono text-[14px] font-bold tracking-tight text-slate-800">
             Did you know?
           </h2>
         </div>
