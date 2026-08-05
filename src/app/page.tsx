@@ -3,6 +3,7 @@ import WelcomeCard from "@/components/WelcomeCard/WelcomeCard";
 import ExploreRail from "@/components/ExploreRail/ExploreRail";
 import FunFactCard from "@/components/FunFactCard/FunFactCard";
 import MapViewSettings from "@/components/MapViewSettings/MapViewSettings";
+import VibeBadge from "@/components/VibeBadge/VibeBadge";
 import {
   getCountryMarkers,
   getFunFacts,
@@ -38,6 +39,7 @@ export default async function Home() {
       <MapViewSettings />
       <WelcomeCard />
       <FunFactCard facts={funFacts} species={species} />
+      <VibeBadge />
     </div>
   );
 }
