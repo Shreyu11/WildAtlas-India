@@ -28,12 +28,12 @@ export default function MapViewSettings() {
     },
     {
       key: "zoos",
-      label: "Zoo",
+      label: "Zoos",
       icon: "🏛️",
     },
     {
       key: "nationalParks",
-      label: "National Park",
+      label: "National Parks",
       icon: "🏞️",
     },
     {
