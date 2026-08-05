@@ -51,6 +51,7 @@ export default function ExploreRail({ species }: { species: Species[] }) {
             <li key={entry.speciesSlug}>
               <Link
                 href={`/species/${entry.speciesSlug}`}
+                replace
                 onClick={() => setQuery(item?.commonName ?? entry.label)}
                 className="group flex items-center gap-3 p-1.5 rounded-xl hover:bg-zinc-100/70 active:scale-95 transition-all duration-150 ease-ios"
               >

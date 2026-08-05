@@ -81,6 +81,7 @@ export default function StateDetailTabs({
               </span>
               <Link
                 href={`/species/${stateAnimal.slug}`}
+                replace
                 className="font-semibold text-xs text-emerald-950 hover:underline truncate block"
               >
                 {stateAnimal.commonName}
@@ -106,6 +107,7 @@ export default function StateDetailTabs({
               </span>
               <Link
                 href={`/species/${stateBird.slug}`}
+                replace
                 className="font-semibold text-xs text-sky-950 hover:underline truncate block"
               >
                 {stateBird.commonName}
@@ -222,7 +224,7 @@ export default function StateDetailTabs({
               species.map((item) => (
                 <li key={item.slug}>
                   <div className="flex items-center justify-between rounded-xl border border-zinc-200/80 bg-white p-3 hover:bg-zinc-50/80 transition-colors shadow-2xs">
-                    <Link href={`/species/${item.slug}`} className="flex items-center gap-3 min-w-0 flex-1">
+                    <Link href={`/species/${item.slug}`} replace className="flex items-center gap-3 min-w-0 flex-1">
                       <span className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-zinc-100 text-lg border border-zinc-200">
                         {item.photoUrl ? (
                           // eslint-disable-next-line @next/next/no-img-element
@@ -271,6 +273,7 @@ export default function StateDetailTabs({
                 <li key={np.slug}>
                   <Link
                     href={`/protected-area/${np.slug}`}
+                    replace
                     className="flex items-center justify-between rounded-xl border border-zinc-200/80 bg-white p-3 hover:bg-zinc-50/80 transition-colors shadow-2xs"
                   >
                     <div className="flex items-center gap-3 min-w-0 flex-1">
@@ -306,6 +309,7 @@ export default function StateDetailTabs({
                 <li key={sanc.slug}>
                   <Link
                     href={`/protected-area/${sanc.slug}`}
+                    replace
                     className="flex items-center justify-between rounded-xl border border-zinc-200/80 bg-white p-3 hover:bg-zinc-50/80 transition-colors shadow-2xs"
                   >
                     <div className="flex items-center gap-3 min-w-0 flex-1">
@@ -346,6 +350,7 @@ export default function StateDetailTabs({
                 <li key={zoo.slug}>
                   <Link
                     href={`/zoo/${zoo.slug}`}
+                    replace
                     className="flex items-center justify-between rounded-xl border border-zinc-200/80 bg-white p-3 hover:bg-zinc-50/80 transition-colors shadow-2xs"
                   >
                     <div className="flex items-center gap-3 min-w-0 flex-1">

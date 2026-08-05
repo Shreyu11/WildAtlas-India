@@ -22,7 +22,9 @@ export default function Drawer({ children, title = "Species Info" }: DrawerProps
 
   function close() {
     setEntered(false);
-    setTimeout(() => router.back(), TRANSITION_MS);
+    setTimeout(() => {
+      router.push("/");
+    }, TRANSITION_MS);
   }
 
   useEffect(() => {

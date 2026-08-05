@@ -40,7 +40,7 @@ export default async function ZooDetail({ slug }: { slug: string }) {
         {state && (
           <>
             {" · "}
-            <Link href={`/state/${state.slug}`} className="underline underline-offset-2">
+            <Link href={`/state/${state.slug}`} replace className="underline underline-offset-2">
               {state.name}
             </Link>
           </>
@@ -75,6 +75,7 @@ export default async function ZooDetail({ slug }: { slug: string }) {
           </span>
           <Link
             href={`/species/${headline.slug}`}
+            replace
             className="flex items-center gap-3 rounded-xl border border-zinc-200 p-3 hover:bg-zinc-50 transition"
           >
             <span className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-full bg-zinc-100 text-xl">
@@ -110,6 +111,7 @@ export default async function ZooDetail({ slug }: { slug: string }) {
                 <Link
                   key={slug}
                   href={`/species/${sp.slug}`}
+                  replace
                   className="flex items-center gap-2 rounded-lg border border-zinc-200 p-2 hover:bg-zinc-50 transition"
                 >
                   <span className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full bg-zinc-100 text-base">

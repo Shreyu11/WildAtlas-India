@@ -151,6 +151,13 @@ export interface ProtectedArea {
   // Best season/time to visit — parks/sanctuaries only, not Zoo (ex-situ,
   // open year-round regardless of season). See DATASET_PLAN.md §2.2.2.
   bestTimeToVisit?: string | null;
+  // Real international conservation designations (UNESCO World Heritage
+  // Site, Ramsar Wetland of International Importance, UNESCO-MAB Biosphere
+  // Reserve) this entity holds, sourced from the WDPA/Protected Planet bulk
+  // CSV (India's live web/API access restricts most of its WDPA data, but
+  // the public bulk download still includes these ~90 internationally-
+  // designated sites). Parks/sanctuaries only. See DATASET_PLAN.md §2.2.3.
+  internationalDesignations?: Array<{ designation: string; since: number }>;
 }
 
 export type NationalPark = ProtectedArea & { type: "national-park" };
