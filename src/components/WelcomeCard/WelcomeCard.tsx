@@ -15,9 +15,9 @@ export default function WelcomeCard() {
   if (dismissed) return null;
 
   return (
-    <div className="absolute bottom-6 right-20 z-20 w-80 rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios">
+    <div className="absolute bottom-[68px] right-16 z-20 w-80 rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios">
       <div className="flex items-center justify-between gap-2 border-b border-zinc-200/60 pb-2">
-        <p className="font-sans text-sm font-bold text-zinc-900">Hi there 👋</p>
+        <p className="font-sans text-base font-bold text-zinc-900">Welcome 👋</p>
         <button
           type="button"
           aria-label="Dismiss welcome card"
@@ -30,7 +30,7 @@ export default function WelcomeCard() {
           <X className="h-3.5 w-3.5" />
         </button>
       </div>
-      <p className="mt-2.5 text-xs font-normal leading-relaxed text-zinc-600">
+      <p className="mt-2.5 text-sm font-normal leading-relaxed text-zinc-600">
         Explore India&apos;s wildlife state by state — tap a photo bubble on the
         map, or spotlight a species from search above.
       </p>
