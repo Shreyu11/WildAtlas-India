@@ -240,9 +240,14 @@ export default function MapViewSettings() {
             <path d="m22 17.5-8.58 3.91a2 2 0 0 1-1.66 0L3.18 17.5" />
           </svg>
         </div>
-        <span className="font-sans text-xs font-bold text-zinc-900 leading-tight">
-          Layer details
-        </span>
+        <div className="flex flex-col items-start text-left">
+          <span className="font-sans text-xs font-bold text-zinc-900 leading-tight">
+            Layer details
+          </span>
+          <span className="font-mono text-[10px] font-medium text-zinc-500 leading-tight">
+            Shift + V
+          </span>
+        </div>
       </button>
     </div>
   );
