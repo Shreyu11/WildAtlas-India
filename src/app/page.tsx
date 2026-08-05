@@ -1,6 +1,5 @@
 import Map from "@/components/Map/Map";
 import WelcomeCard from "@/components/WelcomeCard/WelcomeCard";
-import ExploreRail from "@/components/ExploreRail/ExploreRail";
 import FunFactCard from "@/components/FunFactCard/FunFactCard";
 import MapViewSettings from "@/components/MapViewSettings/MapViewSettings";
 import VibeBadge from "@/components/VibeBadge/VibeBadge";
@@ -35,7 +34,6 @@ export default async function Home() {
         speciesDensity={speciesDensity}
         markers={markers}
       />
-      <ExploreRail species={species} />
       <MapViewSettings />
       <WelcomeCard />
       <FunFactCard facts={funFacts} species={species} />
