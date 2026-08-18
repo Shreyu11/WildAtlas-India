@@ -68,15 +68,10 @@ export default function DesignSystemPage() {
       {/* Top Header */}
       <header className="max-w-7xl mx-auto mb-8 pb-6 border-b border-zinc-200">
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-200/60 font-mono text-xs font-medium text-zinc-700 mb-3">
-            <span>System Preview</span>
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-            <span>v1.0</span>
-          </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-zinc-900 tracking-tight">
             WildAtlas India Design System
           </h1>
-          <p className="text-sm text-zinc-600 mt-1 max-w-2xl">
+          <p className="text-sm text-zinc-600 mt-1.5 w-full">
             Central single-source component library. High-contrast monochromatic UI chrome, WCAG 2.1 AA accessibility, and native React primitives.
           </p>
         </div>
