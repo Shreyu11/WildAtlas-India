@@ -26,6 +26,7 @@ import {
   MarkerTooltip,
   SearchBar,
   Card,
+  Marker,
   colorSwatches,
   typographyScale,
 } from "@/design-system";
@@ -56,6 +57,7 @@ export default function DesignSystemPage() {
     { id: "tooltip", label: "Hover Tooltip", icon: <MapPin className="h-3.5 w-3.5" /> },
     { id: "searchbar", label: "Search Bar", icon: <Search className="h-3.5 w-3.5" /> },
     { id: "cards", label: "Cards", icon: <Layers className="h-3.5 w-3.5" /> },
+    { id: "markers", label: "Markers", icon: <Compass className="h-3.5 w-3.5" /> },
   ];
 
   // Track active section on scroll
@@ -825,6 +827,101 @@ export default function DesignSystemPage() {
   onDismiss={handleDismiss}
   onClick={handleClick}
 />`}
+                </pre>
+              </div>
+            </div>
+          </section>
+
+          {/* Section 9: Markers */}
+          <section id="markers" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
+            <div className="mb-6 pb-4 border-b border-zinc-100">
+              <div className="flex items-center gap-3">
+                <h2 className="text-xl font-bold text-zinc-900">Markers</h2>
+                <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold uppercase tracking-wide">
+                  Active
+                </span>
+              </div>
+              <p className="text-xs text-zinc-500 mt-1">
+                Map location pin markers for species, national parks, wildlife sanctuaries, zoos, and numbered cluster badges.
+              </p>
+              <div className="mt-3 font-mono text-xs text-zinc-500 flex flex-wrap items-center gap-2">
+                <span className="font-medium text-zinc-400">Import:</span>
+                <code className="bg-zinc-100 text-zinc-800 px-2.5 py-1 rounded-lg border border-zinc-200/70 font-mono text-[11px] select-all">
+                  import &#123; Marker &#125; from "@/design-system";
+                </code>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              {/* 1. Marker Types Grid */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  1. Marker Type Variants (Species, Parks, Sanctuaries, Zoos & Numbered Clusters)
+                </h3>
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-6 items-end">
+                  {/* Species Marker */}
+                  <div className="flex flex-col items-center gap-3 py-2">
+                    <Marker
+                      type="species"
+                      photoUrl="https://images.unsplash.com/photo-1555169062-013468b47731?w=200&auto=format&fit=crop&q=80"
+                      label="Species Pin"
+                    />
+                    <span className="font-mono text-[11px] text-zinc-600 text-center font-medium">Species</span>
+                  </div>
+
+                  {/* National Park Marker */}
+                  <div className="flex flex-col items-center gap-3 py-2">
+                    <Marker type="national-park" label="Jim Corbett" />
+                    <span className="font-mono text-[11px] text-zinc-600 text-center font-medium">National Park</span>
+                  </div>
+
+                  {/* Sanctuary Marker */}
+                  <div className="flex flex-col items-center gap-3 py-2">
+                    <Marker type="sanctuary" label="Bharatpur" />
+                    <span className="font-mono text-[11px] text-zinc-600 text-center font-medium">Sanctuary</span>
+                  </div>
+
+                  {/* Zoo Marker */}
+                  <div className="flex flex-col items-center gap-3 py-2">
+                    <Marker type="zoo" label="Mysore Zoo" />
+                    <span className="font-mono text-[11px] text-zinc-600 text-center font-medium">Zoo</span>
+                  </div>
+
+                  {/* Numbered Cluster Marker */}
+                  <div className="flex flex-col items-center gap-3 py-2">
+                    <div className="flex items-center gap-2">
+                      <Marker type="cluster" count={5} />
+                      <Marker type="cluster" count={14} />
+                      <Marker type="cluster" count={32} />
+                    </div>
+                    <span className="font-mono text-[11px] text-zinc-600 text-center font-medium">Numbered Cluster</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Code Snippet */}
+              <div className="relative bg-zinc-900 text-zinc-200 p-4 rounded-2xl font-mono text-xs">
+                <div className="flex items-center justify-between pb-2 mb-2 border-b border-zinc-800">
+                  <span className="text-[11px] text-zinc-400">JSX Example</span>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      copyToClipboard(
+                        `<Marker type="species" photoUrl="/images/tiger.jpg" label="Bengal Tiger" />\n<Marker type="national-park" label="Jim Corbett" />\n<Marker type="cluster" count={12} />`,
+                        "marker"
+                      )
+                    }
+                    className="text-[11px] text-emerald-400 hover:text-emerald-300 font-sans"
+                  >
+                    {copiedSnippet === "marker" ? "Copied!" : "Copy Code"}
+                  </button>
+                </div>
+                <pre className="overflow-x-auto text-emerald-300">
+                  {`<Marker type="species" photoUrl="/images/tiger.jpg" label="Bengal Tiger" />
+<Marker type="national-park" label="Jim Corbett" />
+<Marker type="sanctuary" label="Bharatpur" />
+<Marker type="zoo" label="Mysore Zoo" />
+<Marker type="cluster" count={12} />`}
                 </pre>
               </div>
             </div>

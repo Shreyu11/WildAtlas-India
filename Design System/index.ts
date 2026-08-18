@@ -7,3 +7,4 @@ export { Tabs, type TabsProps, type TabItem } from "./Tabs/Tabs";
 export { MarkerTooltip, type MarkerTooltipProps } from "./MarkerTooltip/MarkerTooltip";
 export { SearchBar, type SearchBarProps } from "./SearchBar/SearchBar";
 export { Card, FunFactCardVariation, type CardProps, type FunFactCardVariationProps } from "./Card/Card";
+export { Marker, type MarkerProps } from "./Marker/Marker";
