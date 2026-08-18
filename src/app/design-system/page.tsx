@@ -694,10 +694,10 @@ export default function DesignSystemPage() {
                   {colorSwatches.map((item) => (
                     <div
                       key={item.name}
-                      className="flex items-center gap-3.5 p-3 rounded-2xl bg-zinc-50 border border-zinc-200/60 transition-all hover:border-zinc-300 shadow-2xs"
+                      className="flex items-center gap-3.5 py-2 px-1"
                     >
                       {/* Color Visual Swatch Box */}
-                      <div className={`h-12 w-12 shrink-0 rounded-xl shadow-xs ${item.class}`} />
+                      <div className={`h-10 w-10 shrink-0 rounded-xl shadow-2xs ${item.class}`} />
                       <div className="min-w-0 flex-1">
                         <div className="flex items-center justify-between gap-1">
                           <span className="text-xs font-bold text-zinc-900 truncate">{item.name}</span>
@@ -715,17 +715,17 @@ export default function DesignSystemPage() {
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
                   2. Typography Scale & Hierarchy (H1, H2, H3, Body, Sub-text, Tags)
                 </h3>
-                <div className="space-y-4">
+                <div className="space-y-6">
                   {typographyScale.map((item) => (
                     <div
                       key={item.role}
-                      className="p-5 rounded-2xl bg-zinc-50 border border-zinc-200/60 space-y-3"
+                      className="py-3 border-b border-zinc-100 last:border-b-0 space-y-2"
                     >
                       {/* Role Header Info */}
-                      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-zinc-200/60 pb-2 font-mono text-xs">
+                      <div className="flex flex-wrap items-center justify-between gap-2 font-mono text-xs">
                         <div className="flex items-center gap-2">
                           <span className="font-bold text-zinc-900 font-sans">{item.role}</span>
-                          <span className="text-[10px] px-2 py-0.5 rounded bg-zinc-200/70 text-zinc-700">{item.font}</span>
+                          <span className="text-[10px] px-2 py-0.5 rounded bg-zinc-100 text-zinc-700">{item.font}</span>
                         </div>
                         <div className="flex items-center gap-3 text-[11px] text-zinc-500">
                           <span>{item.size}</span>
