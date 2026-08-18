@@ -31,11 +31,11 @@ export interface MarkerTooltipProps {
   className?: string;
 }
 
-const statusBadgeVariantMap: Record<NonNullable<Species["conservationStatus"]>, "red" | "amber" | "sky" | "teal" | "emerald"> = {
+const statusBadgeVariantMap: Record<NonNullable<Species["conservationStatus"]>, "red" | "amber" | "orange" | "yellow" | "emerald"> = {
   CR: "red",
   EN: "amber",
-  VU: "sky",
-  NT: "teal",
+  VU: "orange",
+  NT: "yellow",
   LC: "emerald",
 };
 

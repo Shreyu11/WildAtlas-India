@@ -17,7 +17,7 @@ export const CONSERVATION_TONE: Record<ConservationStatus, string> = {
   EW: "bg-rose-800 text-white font-semibold shadow-2xs",
   CR: "bg-red-600 text-white font-semibold shadow-2xs",
   EN: "bg-red-500 text-white font-semibold shadow-2xs",
-  VU: "bg-amber-500 text-white font-semibold shadow-2xs",
+  VU: "bg-orange-500 text-white font-semibold shadow-2xs",
   NT: "bg-yellow-400 text-yellow-950 font-bold shadow-2xs",
   LC: "bg-emerald-600 text-white font-semibold shadow-2xs",
 };

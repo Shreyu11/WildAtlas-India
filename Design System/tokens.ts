@@ -20,8 +20,8 @@ export const colorSwatches = [
   // Status & Accents
   { name: "Emerald 500", hex: "#10b981", class: "bg-emerald-500", category: "Accent & Status", usage: "Active toggles, active indicators" },
   { name: "Emerald 700", hex: "#047857", class: "bg-emerald-700", category: "Accent & Status", usage: "Least Concern (LC) status, state animal tag" },
-  { name: "Teal 600", hex: "#0d9488", class: "bg-teal-600", category: "Accent & Status", usage: "Near Threatened (NT) status badge" },
-  { name: "Sky 500", hex: "#0ea5e9", class: "bg-sky-500", category: "Accent & Status", usage: "Vulnerable (VU) status, state bird tag" },
+  { name: "Yellow 500", hex: "#eab308", class: "bg-yellow-500", category: "Accent & Status", usage: "Near Threatened (NT) status badge" },
+  { name: "Orange 500", hex: "#f97316", class: "bg-orange-500", category: "Accent & Status", usage: "Vulnerable (VU) status badge" },
   { name: "Amber 600", hex: "#d97706", class: "bg-amber-600", category: "Accent & Status", usage: "Endangered (EN) status, zoo marker" },
   { name: "Red 600", hex: "#dc2626", class: "bg-red-600", category: "Accent & Status", usage: "Critically Endangered (CR) status, danger action" },
   { name: "Audio Blue", hex: "#1a73e8", class: "bg-[#1a73e8]", category: "Accent & Status", usage: "Species call audio speaker button" },

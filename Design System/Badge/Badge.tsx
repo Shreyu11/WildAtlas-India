@@ -2,7 +2,7 @@ import React from "react";
 
 export interface BadgeProps {
   /** Visual color variant */
-  variant?: "neutral" | "emerald" | "sky" | "amber" | "teal" | "red";
+  variant?: "neutral" | "emerald" | "sky" | "amber" | "teal" | "red" | "orange" | "yellow";
   /** Size tier */
   size?: "sm" | "md" | "lg";
   /** Optional icon element */
@@ -29,6 +29,8 @@ export const Badge: React.FC<BadgeProps> = ({
     emerald: "border border-emerald-200/80 bg-emerald-50/80 text-emerald-900 shadow-2xs",
     sky: "border border-sky-200/80 bg-sky-50/80 text-sky-900 shadow-2xs",
     amber: "border border-amber-200/80 bg-amber-50/80 text-amber-900 shadow-2xs",
+    orange: "border border-orange-200/80 bg-orange-50/80 text-orange-900 shadow-2xs",
+    yellow: "border border-yellow-200/80 bg-yellow-50/80 text-yellow-950 shadow-2xs",
     teal: "border border-teal-200/80 bg-teal-50/80 text-teal-900 shadow-2xs",
     red: "border border-red-200/80 bg-red-50/80 text-red-900 shadow-2xs",
   };

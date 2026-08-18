@@ -447,8 +447,8 @@ export default function DesignSystemPage() {
                 <div className="flex flex-wrap items-center gap-3 py-1">
                   <Badge variant="red">Critically Endangered (CR)</Badge>
                   <Badge variant="amber">Endangered (EN)</Badge>
-                  <Badge variant="sky">Vulnerable (VU)</Badge>
-                  <Badge variant="teal">Near Threatened (NT)</Badge>
+                  <Badge variant="orange">Vulnerable (VU)</Badge>
+                  <Badge variant="yellow">Near Threatened (NT)</Badge>
                   <Badge variant="emerald">Least Concern (LC)</Badge>
                   <Badge variant="neutral">Vibe Badge</Badge>
                 </div>
