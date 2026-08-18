@@ -16,9 +16,10 @@ import {
   Tag,
   LayoutList,
   Palette,
+  MapPin,
   Check,
 } from "lucide-react";
-import { IconButton, Toggle, Button, Badge, Tabs, colorSwatches, typographyScale } from "@/design-system";
+import { IconButton, Toggle, Button, Badge, Tabs, MarkerTooltip, colorSwatches, typographyScale } from "@/design-system";
 
 export default function DesignSystemPage() {
   const [clickCount, setClickCount] = useState(0);
@@ -27,6 +28,7 @@ export default function DesignSystemPage() {
   const [mammalToggle, setMammalToggle] = useState(true);
   const [birdToggle, setBirdToggle] = useState(false);
   const [activeTabDemo, setActiveTabDemo] = useState("species");
+  const [interactiveTooltipExpanded, setInteractiveTooltipExpanded] = useState(false);
   const [activeSection, setActiveSection] = useState("icon-button");
 
   const copyToClipboard = (text: string, label: string) => {
@@ -41,6 +43,7 @@ export default function DesignSystemPage() {
     { id: "button", label: "Button", icon: <Sparkles className="h-3.5 w-3.5" /> },
     { id: "badge", label: "Badge", icon: <Tag className="h-3.5 w-3.5" /> },
     { id: "tabs", label: "Tabs", icon: <LayoutList className="h-3.5 w-3.5" /> },
+    { id: "tooltip", label: "Hover Tooltip", icon: <MapPin className="h-3.5 w-3.5" /> },
     { id: "tokens", label: "Design Tokens", icon: <Palette className="h-3.5 w-3.5" /> },
   ];
 
@@ -545,7 +548,123 @@ export default function DesignSystemPage() {
             </div>
           </section>
 
-          {/* Section 6: Design Tokens */}
+          {/* Section 6: Hover Tooltip */}
+          <section id="tooltip" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
+            <div className="mb-6 pb-4 border-b border-zinc-100">
+              <div className="flex items-center gap-3">
+                <h2 className="text-xl font-bold text-zinc-900">Hover Tooltip</h2>
+                <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold uppercase tracking-wide">
+                  Active
+                </span>
+              </div>
+              <p className="text-xs text-zinc-500 mt-1">
+                Map marker speech-bubble card with compact default state (112px width) and expanded click/hover state (224px width) featuring scientific subtitle, fact description, conservation status badge, and arrow action button.
+              </p>
+              <div className="mt-3 font-mono text-xs text-zinc-500 flex flex-wrap items-center gap-2">
+                <span className="font-medium text-zinc-400">Import:</span>
+                <code className="bg-zinc-100 text-zinc-800 px-2.5 py-1 rounded-lg border border-zinc-200/70 font-mono text-[11px] select-all">
+                  import &#123; MarkerTooltip &#125; from "@/design-system";
+                </code>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              {/* 1. Default vs Expanded State Side-by-Side */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  1. Component States (Default & Expanded)
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                  {/* Default State */}
+                  <div className="p-6 rounded-2xl border border-zinc-200/80 bg-zinc-50/50 flex flex-col items-center justify-center gap-4">
+                    <div className="text-center space-y-1">
+                      <span className="text-xs font-bold text-zinc-900 block font-sans">Default State</span>
+                      <span className="font-mono text-[10px] text-zinc-500">w-28 (112px) · Compact photo & name</span>
+                    </div>
+                    <MarkerTooltip
+                      photoUrl="https://images.unsplash.com/photo-1555169062-013468b47731?w=400&auto=format&fit=crop&q=80"
+                      label="Coppersmith Barbet"
+                      expanded={false}
+                    />
+                  </div>
+
+                  {/* Expanded State */}
+                  <div className="p-6 rounded-2xl border border-zinc-200/80 bg-zinc-50/50 flex flex-col items-center justify-center gap-4">
+                    <div className="text-center space-y-1">
+                      <span className="text-xs font-bold text-zinc-900 block font-sans">Expanded State</span>
+                      <span className="font-mono text-[10px] text-zinc-500">w-56 (224px) · Subtitle, Fact & Status</span>
+                    </div>
+                    <MarkerTooltip
+                      photoUrl="https://images.unsplash.com/photo-1555169062-013468b47731?w=400&auto=format&fit=crop&q=80"
+                      label="Coppersmith Barbet"
+                      subtitle="Psilopogon haemacephalus"
+                      fact="Named for its metallic 'tuck-tuck' call echoing across Indian woodland canopies."
+                      status="LC"
+                      expanded={true}
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* 2. Interactive Toggle Preview */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  2. Interactive State Toggle
+                </h3>
+                <div className="p-6 rounded-2xl border border-zinc-200/80 bg-white flex flex-col items-center gap-4 shadow-2xs">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xs font-semibold text-zinc-700 font-sans">Expand Tooltip Card</span>
+                    <Toggle
+                      checked={interactiveTooltipExpanded}
+                      onChange={setInteractiveTooltipExpanded}
+                      aria-label="Toggle tooltip expanded state"
+                    />
+                  </div>
+                  <div className="pt-2">
+                    <MarkerTooltip
+                      photoUrl="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=400&auto=format&fit=crop&q=80"
+                      label="Royal Bengal Tiger"
+                      subtitle="Panthera tigris tigris"
+                      fact="Apex predator found across India's national parks, mangrove forests, and tiger reserves."
+                      status="EN"
+                      expanded={interactiveTooltipExpanded}
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Code Snippet */}
+              <div className="relative bg-zinc-900 text-zinc-200 p-4 rounded-2xl font-mono text-xs">
+                <div className="flex items-center justify-between pb-2 mb-2 border-b border-zinc-800">
+                  <span className="text-[11px] text-zinc-400">JSX Example</span>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      copyToClipboard(
+                        `<MarkerTooltip\n  photoUrl="/images/species.jpg"\n  label="Coppersmith Barbet"\n  subtitle="Psilopogon haemacephalus"\n  fact="Metallic tuck-tuck call."\n  status="LC"\n  expanded={isHovered}\n/>`,
+                        "tooltip"
+                      )
+                    }
+                    className="text-[11px] text-emerald-400 hover:text-emerald-300 font-sans"
+                  >
+                    {copiedSnippet === "tooltip" ? "Copied!" : "Copy Code"}
+                  </button>
+                </div>
+                <pre className="overflow-x-auto text-emerald-300">
+                  {`<MarkerTooltip
+  photoUrl="/images/species.jpg"
+  label="Coppersmith Barbet"
+  subtitle="Psilopogon haemacephalus"
+  fact="Metallic tuck-tuck call."
+  status="LC"
+  expanded={isHovered}
+/>`}
+                </pre>
+              </div>
+            </div>
+          </section>
+
+          {/* Section 7: Design Tokens */}
           <section id="tokens" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
             <div className="mb-6 pb-4 border-b border-zinc-100">
               <div className="flex items-center gap-3">
