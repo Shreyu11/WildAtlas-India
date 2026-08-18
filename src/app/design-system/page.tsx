@@ -11,15 +11,23 @@ import {
   Filter,
   Compass,
   MousePointer,
-  ToggleRight,
   Sparkles,
   Tag,
   LayoutList,
   Palette,
   MapPin,
-  Check,
 } from "lucide-react";
-import { IconButton, Toggle, Button, Badge, Tabs, MarkerTooltip, SearchBar, colorSwatches, typographyScale } from "@/design-system";
+import {
+  IconButton,
+  Toggle,
+  Button,
+  Badge,
+  Tabs,
+  MarkerTooltip,
+  SearchBar,
+  colorSwatches,
+  typographyScale,
+} from "@/design-system";
 
 export default function DesignSystemPage() {
   const [clickCount, setClickCount] = useState(0);
@@ -30,7 +38,7 @@ export default function DesignSystemPage() {
   const [activeTabDemo, setActiveTabDemo] = useState("species");
   const [interactiveTooltipExpanded, setInteractiveTooltipExpanded] = useState(false);
   const [searchDemoQuery, setSearchDemoQuery] = useState("");
-  const [activeSection, setActiveSection] = useState("icon-button");
+  const [activeSection, setActiveSection] = useState("tokens");
 
   const copyToClipboard = (text: string, label: string) => {
     navigator.clipboard.writeText(text);
@@ -39,14 +47,13 @@ export default function DesignSystemPage() {
   };
 
   const navItems = [
-    { id: "icon-button", label: "IconButton", icon: <MousePointer className="h-3.5 w-3.5" /> },
-    { id: "toggle", label: "Toggle (Switch)", icon: <ToggleRight className="h-3.5 w-3.5" /> },
-    { id: "button", label: "Button", icon: <Sparkles className="h-3.5 w-3.5" /> },
+    { id: "tokens", label: "Design Tokens", icon: <Palette className="h-3.5 w-3.5" /> },
+    { id: "button", label: "Text Button", icon: <Sparkles className="h-3.5 w-3.5" /> },
+    { id: "icon-button", label: "Icon only Button", icon: <MousePointer className="h-3.5 w-3.5" /> },
     { id: "badge", label: "Badge", icon: <Tag className="h-3.5 w-3.5" /> },
     { id: "tabs", label: "Tabs", icon: <LayoutList className="h-3.5 w-3.5" /> },
     { id: "tooltip", label: "Hover Tooltip", icon: <MapPin className="h-3.5 w-3.5" /> },
     { id: "searchbar", label: "Search Bar", icon: <Search className="h-3.5 w-3.5" /> },
-    { id: "tokens", label: "Design Tokens", icon: <Palette className="h-3.5 w-3.5" /> },
   ];
 
   // Track active section on scroll
@@ -113,11 +120,175 @@ export default function DesignSystemPage() {
 
         {/* Right Main Content Showcase */}
         <main className="flex-1 w-full space-y-12 min-w-0">
-          {/* Section 1: IconButton */}
+          {/* Section 1: Design Tokens */}
+          <section id="tokens" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
+            <div className="mb-6 pb-4 border-b border-zinc-100">
+              <div className="flex items-center gap-3">
+                <h2 className="text-xl font-bold text-zinc-900">Design Tokens</h2>
+                <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold uppercase tracking-wide">
+                  Active
+                </span>
+              </div>
+              <p className="text-xs text-zinc-500 mt-1">
+                Central design tokens aligned with Apple Design System guidelines: color swatches with hex codes, grayscale shades, conservation status badges, and typography hierarchy.
+              </p>
+              <div className="mt-3 font-mono text-xs text-zinc-500 flex flex-wrap items-center gap-2">
+                <span className="font-medium text-zinc-400">Import:</span>
+                <code className="bg-zinc-100 text-zinc-800 px-2.5 py-1 rounded-lg border border-zinc-200/70 font-mono text-[11px] select-all">
+                  import &#123; tokens, colorSwatches, typographyScale &#125; from "@/design-system";
+                </code>
+              </div>
+            </div>
+
+            <div className="space-y-10">
+              {/* 1. Color Palette (Apple HIG Swatches) */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  1. Color Palette (Swatches, Names & Hex Codes)
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {colorSwatches.map((item) => (
+                    <div
+                      key={item.name}
+                      className="flex items-center gap-3.5 py-2 px-1"
+                    >
+                      {/* Color Visual Swatch Box */}
+                      <div className={`h-10 w-10 shrink-0 rounded-xl shadow-2xs ${item.class}`} />
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center justify-between gap-1">
+                          <span className="text-xs font-bold text-zinc-900 truncate">{item.name}</span>
+                          <span className="font-mono text-[10px] font-bold text-zinc-500 select-all shrink-0">{item.hex}</span>
+                        </div>
+                        <span className="font-mono text-[10px] text-zinc-400 block truncate mt-0.5">{item.usage}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* 2. Typography Hierarchy (Apple HIG Scale) */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  2. Typography Scale & Hierarchy (H1, H2, H3, Body, Sub-text, Tags)
+                </h3>
+                <div className="space-y-6">
+                  {typographyScale.map((item) => (
+                    <div
+                      key={item.role}
+                      className="py-3 border-b border-zinc-100 last:border-b-0 space-y-2"
+                    >
+                      {/* Role Header Info */}
+                      <div className="flex flex-wrap items-center justify-between gap-2 font-mono text-xs">
+                        <div className="flex items-center gap-2">
+                          <span className="font-bold text-zinc-900 font-sans">{item.role}</span>
+                          <span className="text-[10px] px-2 py-0.5 rounded bg-zinc-100 text-zinc-700">{item.font}</span>
+                        </div>
+                        <div className="flex items-center gap-3 text-[11px] text-zinc-500">
+                          <span>{item.size}</span>
+                          <span>·</span>
+                          <span>{item.weight}</span>
+                        </div>
+                      </div>
+
+                      {/* Live Text Sample */}
+                      <div className="pt-1 overflow-x-auto">
+                        <p className={item.class}>{item.sample}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Section 2: Text Button */}
+          <section id="button" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
+            <div className="mb-6 pb-4 border-b border-zinc-100">
+              <div className="flex items-center gap-3">
+                <h2 className="text-xl font-bold text-zinc-900">Text Button</h2>
+                <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold uppercase tracking-wide">
+                  Active
+                </span>
+              </div>
+              <p className="text-xs text-zinc-500 mt-1">
+                Standard action button with primary, secondary, outline, ghost, and danger variants, leading/trailing icon slots, and loading spinners.
+              </p>
+              <div className="mt-3 font-mono text-xs text-zinc-500 flex flex-wrap items-center gap-2">
+                <span className="font-medium text-zinc-400">Import:</span>
+                <code className="bg-zinc-100 text-zinc-800 px-2.5 py-1 rounded-lg border border-zinc-200/70 font-mono text-[11px] select-all">
+                  import &#123; Button &#125; from "@/design-system";
+                </code>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              {/* Visual Variants */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  1. Visual Variants
+                </h3>
+                <div className="flex flex-wrap items-center gap-4 py-1">
+                  <Button variant="primary">Primary</Button>
+                  <Button variant="secondary">Secondary</Button>
+                  <Button variant="outline">Outline</Button>
+                  <Button variant="ghost">Ghost</Button>
+                  <Button variant="danger">Danger</Button>
+                </div>
+              </div>
+
+              {/* Icons & Loading States */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  2. Icons & States
+                </h3>
+                <div className="flex flex-wrap items-center gap-4 py-1">
+                  <Button variant="primary" leadingIcon={<Compass className="h-4 w-4" />}>
+                    Explore Species
+                  </Button>
+                  <Button variant="outline" isLoading>
+                    Processing
+                  </Button>
+                  <Button variant="secondary" disabled>
+                    Disabled
+                  </Button>
+                </div>
+              </div>
+
+              {/* Code Snippet */}
+              <div className="relative bg-zinc-900 text-zinc-200 p-4 rounded-2xl font-mono text-xs">
+                <div className="flex items-center justify-between pb-2 mb-2 border-b border-zinc-800">
+                  <span className="text-[11px] text-zinc-400">JSX Example</span>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      copyToClipboard(
+                        `<Button\n  variant="primary"\n  leadingIcon={<Compass className="h-4 w-4" />}\n  onClick={handleExplore}\n>\n  Explore Species\n</Button>`,
+                        "button"
+                      )
+                    }
+                    className="text-[11px] text-emerald-400 hover:text-emerald-300 font-sans"
+                  >
+                    {copiedSnippet === "button" ? "Copied!" : "Copy Code"}
+                  </button>
+                </div>
+                <pre className="overflow-x-auto text-emerald-300">
+                  {`<Button
+  variant="primary"
+  leadingIcon={<Compass className="h-4 w-4" />}
+  onClick={handleExplore}
+>
+  Explore Species
+</Button>`}
+                </pre>
+              </div>
+            </div>
+          </section>
+
+          {/* Section 3: Icon only Button */}
           <section id="icon-button" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
             <div className="mb-6 pb-4 border-b border-zinc-100">
               <div className="flex items-center gap-3">
-                <h2 className="text-xl font-bold text-zinc-900">IconButton</h2>
+                <h2 className="text-xl font-bold text-zinc-900">Icon only Button</h2>
                 <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold uppercase tracking-wide">
                   Active
                 </span>
@@ -240,182 +411,6 @@ export default function DesignSystemPage() {
   icon={<X className="h-4 w-4" />}
   onClick={handleClose}
 />`}
-                </pre>
-              </div>
-            </div>
-          </section>
-
-          {/* Section 2: Toggle */}
-          <section id="toggle" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
-            <div className="mb-6 pb-4 border-b border-zinc-100">
-              <div className="flex items-center gap-3">
-                <h2 className="text-xl font-bold text-zinc-900">Toggle (Switch)</h2>
-                <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold uppercase tracking-wide">
-                  Active
-                </span>
-              </div>
-              <p className="text-xs text-zinc-500 mt-1">
-                Authentic iOS-style switch toggle with smooth spring easing (`ease-ios`), keyboard navigation (`Space`/`Enter`), and ARIA role switch.
-              </p>
-              <div className="mt-3 font-mono text-xs text-zinc-500 flex flex-wrap items-center gap-2">
-                <span className="font-medium text-zinc-400">Import:</span>
-                <code className="bg-zinc-100 text-zinc-800 px-2.5 py-1 rounded-lg border border-zinc-200/70 font-mono text-[11px] select-all">
-                  import &#123; Toggle &#125; from "@/design-system";
-                </code>
-              </div>
-            </div>
-
-            <div className="space-y-8">
-              {/* Live Interactive Toggles */}
-              <div>
-                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
-                  1. Interactive Preview & Label Integration
-                </h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <div className="p-4 rounded-2xl border border-zinc-200/80 bg-white flex items-center justify-between shadow-2xs">
-                    <span className="text-xs font-semibold text-zinc-800">Mammals Layer</span>
-                    <Toggle checked={mammalToggle} onChange={setMammalToggle} aria-label="Mammals layer" />
-                  </div>
-
-                  <div className="p-4 rounded-2xl border border-zinc-200/80 bg-white flex items-center justify-between shadow-2xs">
-                    <span className="text-xs font-semibold text-zinc-800">Birds Layer</span>
-                    <Toggle checked={birdToggle} onChange={setBirdToggle} aria-label="Birds layer" />
-                  </div>
-
-                  <div className="p-4 rounded-2xl border border-zinc-200/80 bg-white flex items-center justify-between shadow-2xs">
-                    <span className="text-xs font-semibold text-zinc-800">Disabled Toggle</span>
-                    <Toggle disabled checked={false} aria-label="Disabled feature" />
-                  </div>
-                </div>
-              </div>
-
-              {/* Size Options */}
-              <div>
-                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
-                  2. Size Scaling
-                </h3>
-                <div className="flex flex-wrap items-center gap-8 py-1">
-                  <div className="flex items-center gap-3">
-                    <Toggle size="sm" checked={toggleState} onChange={setToggleState} aria-label="Small toggle" />
-                    <span className="font-mono text-xs text-zinc-600">sm</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Toggle size="md" checked={toggleState} onChange={setToggleState} aria-label="Medium toggle" />
-                    <span className="font-mono text-xs text-zinc-600">md</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Toggle size="lg" checked={toggleState} onChange={setToggleState} aria-label="Large toggle" />
-                    <span className="font-mono text-xs text-zinc-600">lg</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Code Snippet */}
-              <div className="relative bg-zinc-900 text-zinc-200 p-4 rounded-2xl font-mono text-xs">
-                <div className="flex items-center justify-between pb-2 mb-2 border-b border-zinc-800">
-                  <span className="text-[11px] text-zinc-400">JSX Example</span>
-                  <button
-                    type="button"
-                    onClick={() =>
-                      copyToClipboard(
-                        `<Toggle\n  checked={isActive}\n  onChange={setIsActive}\n  aria-label="Toggle National Parks layer"\n/>`,
-                        "toggle"
-                      )
-                    }
-                    className="text-[11px] text-emerald-400 hover:text-emerald-300 font-sans"
-                  >
-                    {copiedSnippet === "toggle" ? "Copied!" : "Copy Code"}
-                  </button>
-                </div>
-                <pre className="overflow-x-auto text-emerald-300">
-                  {`<Toggle
-  checked={isActive}
-  onChange={setIsActive}
-  aria-label="Toggle National Parks layer"
-/>`}
-                </pre>
-              </div>
-            </div>
-          </section>
-
-          {/* Section 3: Button */}
-          <section id="button" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
-            <div className="mb-6 pb-4 border-b border-zinc-100">
-              <div className="flex items-center gap-3">
-                <h2 className="text-xl font-bold text-zinc-900">Button</h2>
-                <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold uppercase tracking-wide">
-                  Active
-                </span>
-              </div>
-              <p className="text-xs text-zinc-500 mt-1">
-                Standard action button with primary, secondary, outline, ghost, and danger variants, leading/trailing icon slots, and loading spinners.
-              </p>
-              <div className="mt-3 font-mono text-xs text-zinc-500 flex flex-wrap items-center gap-2">
-                <span className="font-medium text-zinc-400">Import:</span>
-                <code className="bg-zinc-100 text-zinc-800 px-2.5 py-1 rounded-lg border border-zinc-200/70 font-mono text-[11px] select-all">
-                  import &#123; Button &#125; from "@/design-system";
-                </code>
-              </div>
-            </div>
-
-            <div className="space-y-8">
-              {/* Visual Variants */}
-              <div>
-                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
-                  1. Visual Variants
-                </h3>
-                <div className="flex flex-wrap items-center gap-4 py-1">
-                  <Button variant="primary">Primary</Button>
-                  <Button variant="secondary">Secondary</Button>
-                  <Button variant="outline">Outline</Button>
-                  <Button variant="ghost">Ghost</Button>
-                  <Button variant="danger">Danger</Button>
-                </div>
-              </div>
-
-              {/* Icons & Loading States */}
-              <div>
-                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
-                  2. Icons & States
-                </h3>
-                <div className="flex flex-wrap items-center gap-4 py-1">
-                  <Button variant="primary" leadingIcon={<Compass className="h-4 w-4" />}>
-                    Explore Species
-                  </Button>
-                  <Button variant="outline" isLoading>
-                    Processing
-                  </Button>
-                  <Button variant="secondary" disabled>
-                    Disabled
-                  </Button>
-                </div>
-              </div>
-
-              {/* Code Snippet */}
-              <div className="relative bg-zinc-900 text-zinc-200 p-4 rounded-2xl font-mono text-xs">
-                <div className="flex items-center justify-between pb-2 mb-2 border-b border-zinc-800">
-                  <span className="text-[11px] text-zinc-400">JSX Example</span>
-                  <button
-                    type="button"
-                    onClick={() =>
-                      copyToClipboard(
-                        `<Button\n  variant="primary"\n  leadingIcon={<Compass className="h-4 w-4" />}\n  onClick={handleExplore}\n>\n  Explore Species\n</Button>`,
-                        "button"
-                      )
-                    }
-                    className="text-[11px] text-emerald-400 hover:text-emerald-300 font-sans"
-                  >
-                    {copiedSnippet === "button" ? "Copied!" : "Copy Code"}
-                  </button>
-                </div>
-                <pre className="overflow-x-auto text-emerald-300">
-                  {`<Button
-  variant="primary"
-  leadingIcon={<Compass className="h-4 w-4" />}
-  onClick={handleExplore}
->
-  Explore Species
-</Button>`}
                 </pre>
               </div>
             </div>
@@ -723,87 +718,6 @@ export default function DesignSystemPage() {
   shortcut="⌘K"
 />`}
                 </pre>
-              </div>
-            </div>
-          </section>
-
-          {/* Section 8: Design Tokens */}
-          <section id="tokens" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
-            <div className="mb-6 pb-4 border-b border-zinc-100">
-              <div className="flex items-center gap-3">
-                <h2 className="text-xl font-bold text-zinc-900">Design Tokens</h2>
-                <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold uppercase tracking-wide">
-                  Active
-                </span>
-              </div>
-              <p className="text-xs text-zinc-500 mt-1">
-                Central design tokens aligned with Apple Design System guidelines: color swatches with hex codes, grayscale shades, conservation status badges, and typography hierarchy.
-              </p>
-              <div className="mt-3 font-mono text-xs text-zinc-500 flex flex-wrap items-center gap-2">
-                <span className="font-medium text-zinc-400">Import:</span>
-                <code className="bg-zinc-100 text-zinc-800 px-2.5 py-1 rounded-lg border border-zinc-200/70 font-mono text-[11px] select-all">
-                  import &#123; tokens, colorSwatches, typographyScale &#125; from "@/design-system";
-                </code>
-              </div>
-            </div>
-
-            <div className="space-y-10">
-              {/* 1. Color Palette (Apple HIG Swatches) */}
-              <div>
-                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
-                  1. Color Palette (Swatches, Names & Hex Codes)
-                </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {colorSwatches.map((item) => (
-                    <div
-                      key={item.name}
-                      className="flex items-center gap-3.5 py-2 px-1"
-                    >
-                      {/* Color Visual Swatch Box */}
-                      <div className={`h-10 w-10 shrink-0 rounded-xl shadow-2xs ${item.class}`} />
-                      <div className="min-w-0 flex-1">
-                        <div className="flex items-center justify-between gap-1">
-                          <span className="text-xs font-bold text-zinc-900 truncate">{item.name}</span>
-                          <span className="font-mono text-[10px] font-bold text-zinc-500 select-all shrink-0">{item.hex}</span>
-                        </div>
-                        <span className="font-mono text-[10px] text-zinc-400 block truncate mt-0.5">{item.usage}</span>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* 2. Typography Hierarchy (Apple HIG Scale) */}
-              <div>
-                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
-                  2. Typography Scale & Hierarchy (H1, H2, H3, Body, Sub-text, Tags)
-                </h3>
-                <div className="space-y-6">
-                  {typographyScale.map((item) => (
-                    <div
-                      key={item.role}
-                      className="py-3 border-b border-zinc-100 last:border-b-0 space-y-2"
-                    >
-                      {/* Role Header Info */}
-                      <div className="flex flex-wrap items-center justify-between gap-2 font-mono text-xs">
-                        <div className="flex items-center gap-2">
-                          <span className="font-bold text-zinc-900 font-sans">{item.role}</span>
-                          <span className="text-[10px] px-2 py-0.5 rounded bg-zinc-100 text-zinc-700">{item.font}</span>
-                        </div>
-                        <div className="flex items-center gap-3 text-[11px] text-zinc-500">
-                          <span>{item.size}</span>
-                          <span>·</span>
-                          <span>{item.weight}</span>
-                        </div>
-                      </div>
-
-                      {/* Live Text Sample */}
-                      <div className="pt-1 overflow-x-auto">
-                        <p className={item.class}>{item.sample}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
               </div>
             </div>
           </section>
