@@ -954,7 +954,7 @@ export default function DesignSystemPage() {
               {/* 1. Navigation Link List Item Variation */}
               <div>
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
-                  1. Navigation Link List Items (Drawer External Links)
+                  1. Navigation Link List Item (Drawer External Link)
                 </h3>
                 <div className="max-w-xl">
                   <List>
@@ -963,16 +963,6 @@ export default function DesignSystemPage() {
                       url="https://forests.ap.gov.in"
                       category="official"
                     />
-                    <List.LinkItem
-                      label="Jim Corbett Official Tourism Portal"
-                      url="https://corbettnationalpark.in"
-                      category="official"
-                    />
-                    <List.LinkItem
-                      label="Kaziranga Travel & Permit Guide"
-                      url="https://kaziranga.tourism.gov.in"
-                      category="travel"
-                    />
                   </List>
                 </div>
               </div>
@@ -980,7 +970,7 @@ export default function DesignSystemPage() {
               {/* 2. Species List Item Variation */}
               <div>
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
-                  2. Species List Items (State & Park Fauna Lists)
+                  2. Species List Items (With Tag & Without Tag)
                 </h3>
                 <div className="max-w-xl space-y-2">
                   <List.SpeciesItem
@@ -988,14 +978,6 @@ export default function DesignSystemPage() {
                     scientificName="Panthera tigris tigris"
                     photoUrl="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=200&auto=format&fit=crop&q=80"
                     tag="DOMINANT"
-                    status="EN"
-                    onClick={() => alert("Clicked species: Royal Bengal Tiger")}
-                  />
-                  <List.SpeciesItem
-                    commonName="Indian Elephant"
-                    scientificName="Elephas maximus indicus"
-                    photoUrl="https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=200&auto=format&fit=crop&q=80"
-                    tag="STATE ANIMAL"
                     status="EN"
                   />
                   <List.SpeciesItem
