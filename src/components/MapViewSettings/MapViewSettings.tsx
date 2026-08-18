@@ -206,7 +206,7 @@ export default function MapViewSettings() {
       <Button
         variant="secondary"
         onClick={() => setIsOpen((prev) => !prev)}
-        title="Map view settings (Shift+V)"
+        title="Map view settings (Shift+V+C)"
         aria-label="Map view settings"
         className="rounded-full border border-zinc-300/80 bg-white/90 p-1.5 pr-4 shadow-md backdrop-blur-xl hover:bg-white active:scale-95"
         leadingIcon={
