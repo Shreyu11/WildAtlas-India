@@ -1,4 +1,4 @@
-export { tokens } from "./tokens";
+export { tokens, colorSwatches, typographyScale } from "./tokens";
 export { IconButton, type IconButtonProps } from "./IconButton/IconButton";
 export { Toggle, type ToggleProps } from "./Toggle/Toggle";
 export { Button, type ButtonProps } from "./Button/Button";

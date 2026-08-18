@@ -18,7 +18,7 @@ import {
   Palette,
   Check,
 } from "lucide-react";
-import { IconButton, Toggle, Button, Badge, Tabs } from "@/design-system";
+import { IconButton, Toggle, Button, Badge, Tabs, colorSwatches, typographyScale } from "@/design-system";
 
 export default function DesignSystemPage() {
   const [clickCount, setClickCount] = useState(0);
@@ -555,42 +555,72 @@ export default function DesignSystemPage() {
                 </span>
               </div>
               <p className="text-xs text-zinc-500 mt-1">
-                Central design tokens object exporting color schemes, typography, border radiuses, and animation easing curves.
+                Central design tokens aligned with Apple Design System guidelines: color swatches with hex codes, grayscale shades, conservation status badges, and typography hierarchy.
               </p>
               <div className="mt-3 font-mono text-xs text-zinc-500 flex flex-wrap items-center gap-2">
                 <span className="font-medium text-zinc-400">Import:</span>
                 <code className="bg-zinc-100 text-zinc-800 px-2.5 py-1 rounded-lg border border-zinc-200/70 font-mono text-[11px] select-all">
-                  import &#123; tokens &#125; from "@/design-system";
+                  import &#123; tokens, colorSwatches, typographyScale &#125; from "@/design-system";
                 </code>
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60 font-mono text-xs space-y-2">
-                <span className="font-bold text-zinc-900 block font-sans">Colors & Easing</span>
-                <div className="flex items-center justify-between text-zinc-600">
-                  <span>Primary BG:</span>
-                  <span className="text-zinc-900 font-bold">bg-zinc-900</span>
-                </div>
-                <div className="flex items-center justify-between text-zinc-600">
-                  <span>Accent Color:</span>
-                  <span className="text-emerald-600 font-bold">emerald-500</span>
-                </div>
-                <div className="flex items-center justify-between text-zinc-600">
-                  <span>Animation Easing:</span>
-                  <span className="text-zinc-900">ease-ios (cubic-bezier)</span>
+            <div className="space-y-10">
+              {/* 1. Color Palette (Apple HIG Swatches) */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  1. Color Palette (Swatches, Names & Hex Codes)
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {colorSwatches.map((item) => (
+                    <div
+                      key={item.name}
+                      className="flex items-center gap-3.5 p-3 rounded-2xl bg-zinc-50 border border-zinc-200/60 transition-all hover:border-zinc-300 shadow-2xs"
+                    >
+                      {/* Color Visual Swatch Box */}
+                      <div className={`h-12 w-12 shrink-0 rounded-xl shadow-xs ${item.class}`} />
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center justify-between gap-1">
+                          <span className="text-xs font-bold text-zinc-900 truncate">{item.name}</span>
+                          <span className="font-mono text-[10px] font-bold text-zinc-500 select-all shrink-0">{item.hex}</span>
+                        </div>
+                        <span className="font-mono text-[10px] text-zinc-400 block truncate mt-0.5">{item.usage}</span>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
 
-              <div className="p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60 font-mono text-xs space-y-2">
-                <span className="font-bold text-zinc-900 block font-sans">Typography</span>
-                <div className="flex items-center justify-between text-zinc-600">
-                  <span>Default Body:</span>
-                  <span className="font-sans font-medium text-zinc-900">Manrope</span>
-                </div>
-                <div className="flex items-center justify-between text-zinc-600">
-                  <span>Labels & Badges:</span>
-                  <span className="font-mono font-medium text-zinc-900">JetBrains Mono</span>
+              {/* 2. Typography Hierarchy (Apple HIG Scale) */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  2. Typography Scale & Hierarchy (H1, H2, H3, Body, Sub-text, Tags)
+                </h3>
+                <div className="space-y-4">
+                  {typographyScale.map((item) => (
+                    <div
+                      key={item.role}
+                      className="p-5 rounded-2xl bg-zinc-50 border border-zinc-200/60 space-y-3"
+                    >
+                      {/* Role Header Info */}
+                      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-zinc-200/60 pb-2 font-mono text-xs">
+                        <div className="flex items-center gap-2">
+                          <span className="font-bold text-zinc-900 font-sans">{item.role}</span>
+                          <span className="text-[10px] px-2 py-0.5 rounded bg-zinc-200/70 text-zinc-700">{item.font}</span>
+                        </div>
+                        <div className="flex items-center gap-3 text-[11px] text-zinc-500">
+                          <span>{item.size}</span>
+                          <span>·</span>
+                          <span>{item.weight}</span>
+                        </div>
+                      </div>
+
+                      {/* Live Text Sample */}
+                      <div className="pt-1 overflow-x-auto">
+                        <p className={item.class}>{item.sample}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
