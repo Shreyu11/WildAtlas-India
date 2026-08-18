@@ -97,7 +97,7 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
             </p>
 
             {/* Footer Row: Status Badge & Action Button */}
-            <div className="mt-2 flex w-full items-center justify-between pt-1 border-t border-zinc-100">
+            <div className="mt-2 flex w-full items-center justify-between pt-0.5">
               <div className="flex items-center gap-1.5">
                 {status && (
                   <Badge variant={statusBadgeVariantMap[status]} size="sm">
