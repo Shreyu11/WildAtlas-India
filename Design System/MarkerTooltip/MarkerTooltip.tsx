@@ -25,7 +25,9 @@ export interface MarkerTooltipProps {
   showTail?: boolean;
   /** Navigation link target */
   href?: string;
-  /** Click/navigation handler */
+  /** Click handler for card */
+  onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
+  /** Navigation handler */
   onNavigate?: () => void;
   /** Custom additional styling */
   className?: string;
@@ -50,6 +52,7 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
   expanded = false,
   showTail = true,
   href = "#",
+  onClick,
   onNavigate,
   className = "",
 }) => {
@@ -59,9 +62,14 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
     >
       {/* Tooltip Card Body */}
       <div
-        onClick={() => expanded && onNavigate?.()}
-        className={`flex flex-col items-center gap-1.5 rounded-2xl border border-white bg-white p-2 transition-[width] duration-300 ease-ios shadow-xs ${
-          expanded ? "w-56 cursor-pointer" : "w-28"
+        onClick={(e) => {
+          onClick?.(e);
+          if (expanded) {
+            onNavigate?.();
+          }
+        }}
+        className={`flex flex-col items-center gap-1.5 rounded-2xl border border-white bg-white p-2 transition-[width] duration-300 ease-ios shadow-xs cursor-pointer ${
+          expanded ? "w-56" : "w-28"
         }`}
       >
         {/* Photo Container */}

@@ -608,20 +608,15 @@ export default function DesignSystemPage() {
                 </div>
               </div>
 
-              {/* 2. Interactive Toggle Preview */}
+              {/* 2. Interactive Click to Expand Preview */}
               <div>
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
-                  2. Interactive State Toggle
+                  2. Interactive Click to Expand Preview
                 </h3>
                 <div className="p-6 rounded-2xl border border-zinc-200/80 bg-white flex flex-col items-center gap-4 shadow-2xs">
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs font-semibold text-zinc-700 font-sans">Expand Tooltip Card</span>
-                    <Toggle
-                      checked={interactiveTooltipExpanded}
-                      onChange={setInteractiveTooltipExpanded}
-                      aria-label="Toggle tooltip expanded state"
-                    />
-                  </div>
+                  <span className="text-xs font-semibold text-zinc-500 font-sans">
+                    Click to expand
+                  </span>
                   <div className="pt-2">
                     <MarkerTooltip
                       photoUrl="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=400&auto=format&fit=crop&q=80"
@@ -630,6 +625,7 @@ export default function DesignSystemPage() {
                       fact="Apex predator found across India's national parks, mangrove forests, and tiger reserves."
                       status="EN"
                       expanded={interactiveTooltipExpanded}
+                      onClick={() => setInteractiveTooltipExpanded((prev) => !prev)}
                     />
                   </div>
                 </div>
