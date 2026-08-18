@@ -957,7 +957,7 @@ export default function DesignSystemPage() {
                   1. Navigation Link List Items (Drawer External Links)
                 </h3>
                 <div className="max-w-xl">
-                  <List header="OFFICIAL">
+                  <List>
                     <List.LinkItem
                       label="Papikonda National Park"
                       url="https://forests.ap.gov.in"

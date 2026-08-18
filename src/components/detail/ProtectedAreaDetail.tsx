@@ -160,13 +160,10 @@ export default async function ProtectedAreaDetail({ slug }: { slug: string }) {
             Plan A Trip
           </span>
           {area.travelLinks.official.length > 0 && (
-            <div className="mb-3.5">
-              <p className="text-[10px] font-mono uppercase text-zinc-400 mb-1.5">Official</p>
-              <div className="space-y-2">
-                {area.travelLinks.official.map((link) => (
-                  <LinkPreviewCard key={link.url} label={link.label} url={link.url} category="official" />
-                ))}
-              </div>
+            <div className="mb-3.5 space-y-2">
+              {area.travelLinks.official.map((link) => (
+                <LinkPreviewCard key={link.url} label={link.label} url={link.url} category="official" />
+              ))}
             </div>
           )}
           {area.travelLinks.operators.length > 0 && (
