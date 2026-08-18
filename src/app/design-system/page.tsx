@@ -48,7 +48,7 @@ export default function DesignSystemPage() {
   useEffect(() => {
     const handleScroll = () => {
       const sections = navItems.map((item) => document.getElementById(item.id));
-      const scrollPosition = window.scrollY + 140;
+      const scrollPosition = window.scrollY + 180;
 
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
@@ -64,7 +64,7 @@ export default function DesignSystemPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-zinc-50 text-zinc-900 font-sans p-4 sm:p-6 md:p-10 pb-24">
+    <div className="min-h-screen bg-zinc-50 text-zinc-900 font-sans px-4 sm:px-6 md:px-10 pt-24 sm:pt-28 md:pt-32 pb-24">
       {/* Top Header */}
       <header className="max-w-7xl mx-auto mb-8 pb-6 border-b border-zinc-200">
         <div>
@@ -85,7 +85,7 @@ export default function DesignSystemPage() {
       {/* Main 2-Column Layout */}
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-start">
         {/* Left Table of Contents Sidebar */}
-        <aside className="w-full lg:w-64 shrink-0 lg:sticky lg:top-8 bg-white border border-zinc-200/80 rounded-3xl p-5 shadow-xs">
+        <aside className="w-full lg:w-64 shrink-0 lg:sticky lg:top-28 bg-white border border-zinc-200/80 rounded-3xl p-5 shadow-xs">
           <div className="font-mono text-[11px] font-bold uppercase tracking-wider text-zinc-400 mb-3 px-2">
             Table of Contents
           </div>
@@ -114,7 +114,7 @@ export default function DesignSystemPage() {
         {/* Right Main Content Showcase */}
         <main className="flex-1 w-full space-y-12 min-w-0">
           {/* Section 1: IconButton */}
-          <section id="icon-button" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-8">
+          <section id="icon-button" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
             <div className="mb-6 pb-4 border-b border-zinc-100">
               <div className="flex items-center gap-3">
                 <h2 className="text-xl font-bold text-zinc-900">IconButton</h2>
@@ -246,7 +246,7 @@ export default function DesignSystemPage() {
           </section>
 
           {/* Section 2: Toggle */}
-          <section id="toggle" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-8">
+          <section id="toggle" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
             <div className="mb-6 pb-4 border-b border-zinc-100">
               <div className="flex items-center gap-3">
                 <h2 className="text-xl font-bold text-zinc-900">Toggle (Switch)</h2>
@@ -339,7 +339,7 @@ export default function DesignSystemPage() {
           </section>
 
           {/* Section 3: Button */}
-          <section id="button" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-8">
+          <section id="button" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
             <div className="mb-6 pb-4 border-b border-zinc-100">
               <div className="flex items-center gap-3">
                 <h2 className="text-xl font-bold text-zinc-900">Button</h2>
@@ -422,7 +422,7 @@ export default function DesignSystemPage() {
           </section>
 
           {/* Section 4: Badge */}
-          <section id="badge" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-8">
+          <section id="badge" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
             <div className="mb-6 pb-4 border-b border-zinc-100">
               <div className="flex items-center gap-3">
                 <h2 className="text-xl font-bold text-zinc-900">Badge</h2>
@@ -478,7 +478,7 @@ export default function DesignSystemPage() {
           </section>
 
           {/* Section 5: Tabs */}
-          <section id="tabs" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-8">
+          <section id="tabs" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
             <div className="mb-6 pb-4 border-b border-zinc-100">
               <div className="flex items-center gap-3">
                 <h2 className="text-xl font-bold text-zinc-900">Tabs</h2>
@@ -551,7 +551,7 @@ export default function DesignSystemPage() {
           </section>
 
           {/* Section 6: Design Tokens */}
-          <section id="tokens" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-8">
+          <section id="tokens" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
             <div className="mb-6 pb-4 border-b border-zinc-100">
               <div className="flex items-center gap-3">
                 <h2 className="text-xl font-bold text-zinc-900">Design Tokens</h2>
