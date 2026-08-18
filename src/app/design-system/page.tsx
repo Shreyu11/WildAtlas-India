@@ -16,6 +16,7 @@ import {
   LayoutList,
   Palette,
   MapPin,
+  List as ListIcon,
 } from "lucide-react";
 import {
   IconButton,
@@ -27,6 +28,7 @@ import {
   SearchBar,
   Card,
   Marker,
+  List,
   colorSwatches,
   typographyScale,
 } from "@/design-system";
@@ -58,6 +60,7 @@ export default function DesignSystemPage() {
     { id: "searchbar", label: "Search Bar", icon: <Search className="h-3.5 w-3.5" /> },
     { id: "cards", label: "Cards", icon: <Layers className="h-3.5 w-3.5" /> },
     { id: "markers", label: "Markers", icon: <Compass className="h-3.5 w-3.5" /> },
+    { id: "lists", label: "Lists", icon: <ListIcon className="h-3.5 w-3.5" /> },
   ];
 
   // Track active section on scroll
@@ -922,6 +925,83 @@ export default function DesignSystemPage() {
 <Marker type="sanctuary" label="Bharatpur" />
 <Marker type="zoo" label="Mysore Zoo" />
 <Marker type="cluster" count={12} />`}
+                </pre>
+              </div>
+            </div>
+          </section>
+
+          {/* Section 10: Lists */}
+          <section id="lists" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
+            <div className="mb-6 pb-4 border-b border-zinc-100">
+              <div className="flex items-center gap-3">
+                <h2 className="text-xl font-bold text-zinc-900">Lists</h2>
+                <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold uppercase tracking-wide">
+                  Active
+                </span>
+              </div>
+              <p className="text-xs text-zinc-500 mt-1">
+                Navigation list items used in National Park & Protected Area detail drawers featuring category icons, domain text, and external link triggers.
+              </p>
+              <div className="mt-3 font-mono text-xs text-zinc-500 flex flex-wrap items-center gap-2">
+                <span className="font-medium text-zinc-400">Import:</span>
+                <code className="bg-zinc-100 text-zinc-800 px-2.5 py-1 rounded-lg border border-zinc-200/70 font-mono text-[11px] select-all">
+                  import &#123; List &#125; from "@/design-system";
+                </code>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              {/* 1. Navigation Link List Item Variation */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  1. Navigation Link List Items (Drawer External Links)
+                </h3>
+                <div className="max-w-xl">
+                  <List header="OFFICIAL">
+                    <List.LinkItem
+                      label="Papikonda National Park"
+                      url="https://forests.ap.gov.in"
+                      category="official"
+                    />
+                    <List.LinkItem
+                      label="Jim Corbett Official Tourism Portal"
+                      url="https://corbettnationalpark.in"
+                      category="official"
+                    />
+                    <List.LinkItem
+                      label="Kaziranga Travel & Permit Guide"
+                      url="https://kaziranga.tourism.gov.in"
+                      category="travel"
+                    />
+                  </List>
+                </div>
+              </div>
+
+              {/* Code Snippet */}
+              <div className="relative bg-zinc-900 text-zinc-200 p-4 rounded-2xl font-mono text-xs">
+                <div className="flex items-center justify-between pb-2 mb-2 border-b border-zinc-800">
+                  <span className="text-[11px] text-zinc-400">JSX Example</span>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      copyToClipboard(
+                        `<List header="OFFICIAL">\n  <List.LinkItem\n    label="Papikonda National Park"\n    url="https://forests.ap.gov.in"\n    category="official"\n  />\n</List>`,
+                        "list"
+                      )
+                    }
+                    className="text-[11px] text-emerald-400 hover:text-emerald-300 font-sans"
+                  >
+                    {copiedSnippet === "list" ? "Copied!" : "Copy Code"}
+                  </button>
+                </div>
+                <pre className="overflow-x-auto text-emerald-300">
+                  {`<List header="OFFICIAL">
+  <List.LinkItem
+    label="Papikonda National Park"
+    url="https://forests.ap.gov.in"
+    category="official"
+  />
+</List>`}
                 </pre>
               </div>
             </div>
