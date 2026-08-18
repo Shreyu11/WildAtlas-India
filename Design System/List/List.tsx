@@ -1,5 +1,6 @@
 import React from "react";
 import { ExternalLink, Globe, Compass, Landmark } from "lucide-react";
+import { Badge } from "../Badge/Badge";
 
 export interface NavigationLinkItemProps {
   /** Primary link title label */
@@ -12,6 +13,27 @@ export interface NavigationLinkItemProps {
   category?: "official" | "travel" | "wiki" | "general";
   /** Custom icon override */
   icon?: React.ReactNode;
+  /** Custom additional styling */
+  className?: string;
+}
+
+export interface SpeciesListItemProps {
+  /** Species common name */
+  commonName: string;
+  /** Scientific name text (rendered in italics) */
+  scientificName?: string;
+  /** Photo URL for thumbnail circle */
+  photoUrl?: string | null;
+  /** Fallback icon emoji */
+  fallbackIcon?: string;
+  /** Optional badge tag (e.g. "DOMINANT" or "STATE ANIMAL") */
+  tag?: string;
+  /** Conservation status code (CR, EN, VU, NT, LC) or custom status text */
+  status?: "CR" | "EN" | "VU" | "NT" | "LC" | string;
+  /** Explicit status badge color variant override */
+  statusVariant?: "red" | "amber" | "orange" | "yellow" | "emerald" | "neutral";
+  /** Optional click or link handler */
+  onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
   /** Custom additional styling */
   className?: string;
 }
@@ -72,7 +94,7 @@ export const NavigationLinkItem: React.FC<NavigationLinkItemProps> = ({
       rel="noopener noreferrer"
       className={`group flex items-center justify-between gap-3 rounded-2xl border border-zinc-200/80 bg-white p-3 shadow-2xs hover:border-emerald-500/50 hover:bg-zinc-50/50 hover:shadow-xs transition-all duration-200 ${className}`}
     >
-      <div className="flex items-center gap-3 min-w-0">
+      <div className="flex items-center gap-3 min-w-0 font-sans">
         <div className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border ${badge.bg}`}>
           {customIcon || <IconComponent className="h-4 w-4" />}
         </div>
@@ -92,8 +114,87 @@ export const NavigationLinkItem: React.FC<NavigationLinkItemProps> = ({
   );
 };
 
+const statusVariantMap: Record<string, "red" | "amber" | "orange" | "yellow" | "emerald" | "neutral"> = {
+  CR: "red",
+  EN: "red",
+  VU: "orange",
+  NT: "yellow",
+  LC: "emerald",
+};
+
+const statusLabelMap: Record<string, string> = {
+  CR: "Critically Endangered",
+  EN: "Endangered",
+  VU: "Vulnerable",
+  NT: "Near Threatened",
+  LC: "Least Concern",
+};
+
+export const SpeciesListItem: React.FC<SpeciesListItemProps> = ({
+  commonName,
+  scientificName,
+  photoUrl,
+  fallbackIcon = "🐾",
+  tag,
+  status,
+  statusVariant,
+  onClick,
+  className = "",
+}) => {
+  const badgeVariant = statusVariant || (status ? statusVariantMap[status] || "neutral" : undefined);
+  const statusDisplayLabel = status ? statusLabelMap[status] || status : undefined;
+
+  return (
+    <div
+      onClick={onClick}
+      className={`group flex items-center justify-between gap-3 rounded-2xl border border-zinc-200/80 bg-white p-3 shadow-2xs hover:border-zinc-300 hover:bg-zinc-50/50 transition-all duration-200 ${
+        onClick ? "cursor-pointer active:scale-[0.99]" : ""
+      } ${className}`}
+    >
+      <div className="flex items-center gap-3 min-w-0 flex-1">
+        {/* Photo Thumbnail */}
+        <div className="h-10 w-10 shrink-0 overflow-hidden rounded-full border border-zinc-200/80 bg-zinc-100 flex items-center justify-center text-lg">
+          {photoUrl ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={photoUrl} alt={commonName} className="h-full w-full object-cover" />
+          ) : (
+            <span>{fallbackIcon}</span>
+          )}
+        </div>
+
+        {/* Title, Tag & Scientific Name */}
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center gap-2">
+            <p className="font-bold text-xs text-zinc-900 truncate font-sans">
+              {commonName}
+            </p>
+            {tag && (
+              <span className="font-mono text-[9px] font-bold uppercase tracking-wider text-amber-700 bg-amber-50 border border-amber-200/60 px-1.5 py-0.2 rounded">
+                {tag}
+              </span>
+            )}
+          </div>
+          {scientificName && (
+            <p className="text-[11px] italic text-zinc-400 truncate mt-0.5 font-sans">
+              {scientificName}
+            </p>
+          )}
+        </div>
+      </div>
+
+      {/* Right Conservation Status Badge */}
+      {statusDisplayLabel && badgeVariant && (
+        <div className="shrink-0">
+          <Badge variant={badgeVariant}>{statusDisplayLabel}</Badge>
+        </div>
+      )}
+    </div>
+  );
+};
+
 export const List: React.FC<ListProps> & {
   LinkItem: typeof NavigationLinkItem;
+  SpeciesItem: typeof SpeciesListItem;
 } = ({ header, children, className = "" }) => {
   return (
     <div className={`space-y-2 ${className}`}>
@@ -108,6 +209,7 @@ export const List: React.FC<ListProps> & {
 };
 
 List.LinkItem = NavigationLinkItem;
+List.SpeciesItem = SpeciesListItem;
 
 List.displayName = "List";
 

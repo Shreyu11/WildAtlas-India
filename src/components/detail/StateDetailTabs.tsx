@@ -8,7 +8,7 @@ import { CONSERVATION_LABEL, CONSERVATION_TONE } from "@/lib/conservation";
 import { SPECIES_ICON, DEFAULT_SPECIES_ICON } from "@/lib/mockIcons";
 import SpeciesAudioButton from "@/components/audio/SpeciesAudioButton";
 import DataAttributionFooter from "@/components/DataAttributionFooter";
-import { Tabs } from "@/design-system";
+import { Tabs, List } from "@/design-system";
 
 interface StateDetailTabsProps {
   state: State;
@@ -151,40 +151,16 @@ export default function StateDetailTabs({
             ) : (
               species.map((item) => (
                 <li key={item.slug}>
-                  <div className="flex items-center justify-between rounded-xl border border-zinc-200/80 bg-white p-3 hover:bg-zinc-50/80 transition-colors shadow-2xs">
-                    <Link href={`/species/${item.slug}`} replace className="flex items-center gap-3 min-w-0 flex-1">
-                      <span className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-zinc-100 text-lg border border-zinc-200">
-                        {item.photoUrl ? (
-                          // eslint-disable-next-line @next/next/no-img-element
-                          <img src={item.photoUrl} alt={item.commonName} className="h-full w-full object-cover" />
-                        ) : (
-                          SPECIES_ICON[item.slug] ?? DEFAULT_SPECIES_ICON
-                        )}
-                      </span>
-                      <div className="min-w-0 flex-1">
-                        <div className="flex items-center gap-2">
-                          <p className="font-semibold text-xs text-zinc-900 truncate">{item.commonName}</p>
-                          {item.slug === state.dominantSpeciesSlug && (
-                            <span className="font-mono text-[9px] uppercase font-bold text-amber-700 bg-amber-50 border border-amber-200/60 px-1.5 py-0.2 rounded">
-                              Dominant
-                            </span>
-                          )}
-                        </div>
-                        <p className="text-[11px] italic text-zinc-500 truncate">{item.scientificName}</p>
-                      </div>
-                    </Link>
-
-                    <div className="flex items-center gap-2 shrink-0 ml-2">
-                      <SpeciesAudioButton audioUrl={item.audioUrl} speciesName={item.commonName} size="sm" />
-                      <span
-                        className={`inline-block rounded px-1.5 py-0.5 font-mono text-[9px] font-medium ${
-                          CONSERVATION_TONE[item.conservationStatus]
-                        }`}
-                      >
-                        {CONSERVATION_LABEL[item.conservationStatus]}
-                      </span>
-                    </div>
-                  </div>
+                  <Link href={`/species/${item.slug}`} replace className="block">
+                    <List.SpeciesItem
+                      commonName={item.commonName}
+                      scientificName={item.scientificName}
+                      photoUrl={item.photoUrl}
+                      fallbackIcon={SPECIES_ICON[item.slug] ?? DEFAULT_SPECIES_ICON}
+                      tag={item.slug === state.dominantSpeciesSlug ? "Dominant" : undefined}
+                      status={item.conservationStatus}
+                    />
+                  </Link>
                 </li>
               ))
             )}

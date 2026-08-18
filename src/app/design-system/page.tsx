@@ -977,6 +977,36 @@ export default function DesignSystemPage() {
                 </div>
               </div>
 
+              {/* 2. Species List Item Variation */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  2. Species List Items (State & Park Fauna Lists)
+                </h3>
+                <div className="max-w-xl space-y-2">
+                  <List.SpeciesItem
+                    commonName="Royal Bengal Tiger"
+                    scientificName="Panthera tigris tigris"
+                    photoUrl="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=200&auto=format&fit=crop&q=80"
+                    tag="DOMINANT"
+                    status="EN"
+                    onClick={() => alert("Clicked species: Royal Bengal Tiger")}
+                  />
+                  <List.SpeciesItem
+                    commonName="Indian Elephant"
+                    scientificName="Elephas maximus indicus"
+                    photoUrl="https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=200&auto=format&fit=crop&q=80"
+                    tag="STATE ANIMAL"
+                    status="EN"
+                  />
+                  <List.SpeciesItem
+                    commonName="Indian Peafowl"
+                    scientificName="Pavo cristatus"
+                    photoUrl="https://images.unsplash.com/photo-1555169062-013468b47731?w=200&auto=format&fit=crop&q=80"
+                    status="LC"
+                  />
+                </div>
+              </div>
+
               {/* Code Snippet */}
               <div className="relative bg-zinc-900 text-zinc-200 p-4 rounded-2xl font-mono text-xs">
                 <div className="flex items-center justify-between pb-2 mb-2 border-b border-zinc-800">
@@ -985,7 +1015,7 @@ export default function DesignSystemPage() {
                     type="button"
                     onClick={() =>
                       copyToClipboard(
-                        `<List header="OFFICIAL">\n  <List.LinkItem\n    label="Papikonda National Park"\n    url="https://forests.ap.gov.in"\n    category="official"\n  />\n</List>`,
+                        `<List.SpeciesItem\n  commonName="Royal Bengal Tiger"\n  scientificName="Panthera tigris tigris"\n  photoUrl="/images/tiger.jpg"\n  tag="DOMINANT"\n  status="EN"\n  onClick={handleClick}\n/>`,
                         "list"
                       )
                     }
@@ -995,13 +1025,14 @@ export default function DesignSystemPage() {
                   </button>
                 </div>
                 <pre className="overflow-x-auto text-emerald-300">
-                  {`<List header="OFFICIAL">
-  <List.LinkItem
-    label="Papikonda National Park"
-    url="https://forests.ap.gov.in"
-    category="official"
-  />
-</List>`}
+                  {`<List.SpeciesItem
+  commonName="Royal Bengal Tiger"
+  scientificName="Panthera tigris tigris"
+  photoUrl="/images/tiger.jpg"
+  tag="DOMINANT"
+  status="EN"
+  onClick={handleClick}
+/>`}
                 </pre>
               </div>
             </div>
