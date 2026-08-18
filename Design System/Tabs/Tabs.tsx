@@ -43,7 +43,7 @@ export function Tabs<T extends string = string>({
               aria-controls={`panel-${tab.id}`}
               tabIndex={isActive ? 0 : -1}
               onClick={() => onChange(tab.id)}
-              className={`flex items-center gap-2 whitespace-nowrap border-b-2 py-2 px-3.5 text-sm font-semibold transition-all duration-150 ease-ios focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900/40 rounded-t-lg ${
+              className={`flex items-center gap-2 cursor-pointer whitespace-nowrap border-b-2 py-2 px-3.5 text-sm font-semibold transition-all duration-150 ease-ios focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900/40 rounded-t-lg ${
                 isActive
                   ? "border-emerald-600 text-emerald-700 font-bold"
                   : "border-transparent text-zinc-500 hover:border-zinc-300 hover:text-zinc-700"

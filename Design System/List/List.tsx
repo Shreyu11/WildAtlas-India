@@ -92,7 +92,7 @@ export const NavigationLinkItem: React.FC<NavigationLinkItemProps> = ({
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className={`group flex items-center justify-between gap-3 rounded-2xl border border-zinc-200/80 bg-white p-3 shadow-2xs hover:border-emerald-500/50 hover:bg-zinc-50/50 hover:shadow-xs transition-all duration-200 ${className}`}
+      className={`group flex items-center justify-between gap-3 rounded-2xl border border-zinc-200/80 bg-white p-3 shadow-2xs hover:border-emerald-500/50 hover:bg-zinc-50/50 hover:shadow-xs cursor-pointer transition-all duration-200 ${className}`}
     >
       <div className="flex items-center gap-3 min-w-0 font-sans">
         <div className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border ${badge.bg}`}>
@@ -147,8 +147,8 @@ export const SpeciesListItem: React.FC<SpeciesListItemProps> = ({
   return (
     <div
       onClick={onClick}
-      className={`group flex items-center justify-between gap-3 rounded-2xl border border-zinc-200/80 bg-white p-3 shadow-2xs hover:border-zinc-300 hover:bg-zinc-50/50 transition-all duration-200 ${
-        onClick ? "cursor-pointer active:scale-[0.99]" : ""
+      className={`group flex items-center justify-between gap-3 rounded-2xl border border-zinc-200/80 bg-white p-3 shadow-2xs hover:border-zinc-300 hover:bg-zinc-50/50 cursor-pointer transition-all duration-200 ${
+        onClick ? "active:scale-[0.99]" : ""
       } ${className}`}
     >
       <div className="flex items-center gap-3 min-w-0 flex-1">
