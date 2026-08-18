@@ -19,7 +19,7 @@ import {
   MapPin,
   Check,
 } from "lucide-react";
-import { IconButton, Toggle, Button, Badge, Tabs, MarkerTooltip, colorSwatches, typographyScale } from "@/design-system";
+import { IconButton, Toggle, Button, Badge, Tabs, MarkerTooltip, SearchBar, colorSwatches, typographyScale } from "@/design-system";
 
 export default function DesignSystemPage() {
   const [clickCount, setClickCount] = useState(0);
@@ -29,6 +29,7 @@ export default function DesignSystemPage() {
   const [birdToggle, setBirdToggle] = useState(false);
   const [activeTabDemo, setActiveTabDemo] = useState("species");
   const [interactiveTooltipExpanded, setInteractiveTooltipExpanded] = useState(false);
+  const [searchDemoQuery, setSearchDemoQuery] = useState("");
   const [activeSection, setActiveSection] = useState("icon-button");
 
   const copyToClipboard = (text: string, label: string) => {
@@ -44,6 +45,7 @@ export default function DesignSystemPage() {
     { id: "badge", label: "Badge", icon: <Tag className="h-3.5 w-3.5" /> },
     { id: "tabs", label: "Tabs", icon: <LayoutList className="h-3.5 w-3.5" /> },
     { id: "tooltip", label: "Hover Tooltip", icon: <MapPin className="h-3.5 w-3.5" /> },
+    { id: "searchbar", label: "Search Bar", icon: <Search className="h-3.5 w-3.5" /> },
     { id: "tokens", label: "Design Tokens", icon: <Palette className="h-3.5 w-3.5" /> },
   ];
 
@@ -664,7 +666,72 @@ export default function DesignSystemPage() {
             </div>
           </section>
 
-          {/* Section 7: Design Tokens */}
+          {/* Section 7: Search Bar */}
+          <section id="searchbar" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
+            <div className="mb-6 pb-4 border-b border-zinc-100">
+              <div className="flex items-center gap-3">
+                <h2 className="text-xl font-bold text-zinc-900">Search Bar</h2>
+                <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold uppercase tracking-wide">
+                  Active
+                </span>
+              </div>
+              <p className="text-xs text-zinc-500 mt-1">
+                Pill search bar control with search glass icon, full-width glassmorphic input, keyboard shortcut badge (`⌘K`), and clear button.
+              </p>
+              <div className="mt-3 font-mono text-xs text-zinc-500 flex flex-wrap items-center gap-2">
+                <span className="font-medium text-zinc-400">Import:</span>
+                <code className="bg-zinc-100 text-zinc-800 px-2.5 py-1 rounded-lg border border-zinc-200/70 font-mono text-[11px] select-all">
+                  import &#123; SearchBar &#125; from "@/design-system";
+                </code>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              {/* 1. Live Interactive Search Bar */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  1. Live Control Preview
+                </h3>
+                <div className="max-w-xl py-1">
+                  <SearchBar
+                    value={searchDemoQuery}
+                    onChange={setSearchDemoQuery}
+                    placeholder="Spotlight species, states, or parks…"
+                    shortcut="⌘K"
+                  />
+                </div>
+              </div>
+
+              {/* Code Snippet */}
+              <div className="relative bg-zinc-900 text-zinc-200 p-4 rounded-2xl font-mono text-xs">
+                <div className="flex items-center justify-between pb-2 mb-2 border-b border-zinc-800">
+                  <span className="text-[11px] text-zinc-400">JSX Example</span>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      copyToClipboard(
+                        `<SearchBar\n  value={query}\n  onChange={setQuery}\n  placeholder="Spotlight species, states, or parks…"\n  shortcut="⌘K"\n/>`,
+                        "searchbar"
+                      )
+                    }
+                    className="text-[11px] text-emerald-400 hover:text-emerald-300 font-sans"
+                  >
+                    {copiedSnippet === "searchbar" ? "Copied!" : "Copy Code"}
+                  </button>
+                </div>
+                <pre className="overflow-x-auto text-emerald-300">
+                  {`<SearchBar
+  value={query}
+  onChange={setQuery}
+  placeholder="Spotlight species, states, or parks…"
+  shortcut="⌘K"
+/>`}
+                </pre>
+              </div>
+            </div>
+          </section>
+
+          {/* Section 8: Design Tokens */}
           <section id="tokens" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
             <div className="mb-6 pb-4 border-b border-zinc-100">
               <div className="flex items-center gap-3">
