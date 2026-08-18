@@ -25,6 +25,7 @@ import {
   Tabs,
   MarkerTooltip,
   SearchBar,
+  Card,
   colorSwatches,
   typographyScale,
 } from "@/design-system";
@@ -54,6 +55,7 @@ export default function DesignSystemPage() {
     { id: "tabs", label: "Tabs", icon: <LayoutList className="h-3.5 w-3.5" /> },
     { id: "tooltip", label: "Hover Tooltip", icon: <MapPin className="h-3.5 w-3.5" /> },
     { id: "searchbar", label: "Search Bar", icon: <Search className="h-3.5 w-3.5" /> },
+    { id: "cards", label: "Cards", icon: <Layers className="h-3.5 w-3.5" /> },
   ];
 
   // Track active section on scroll
@@ -753,6 +755,75 @@ export default function DesignSystemPage() {
   onChange={setQuery}
   placeholder="Spotlight species, states, or parks…"
   shortcut="⌘K"
+/>`}
+                </pre>
+              </div>
+            </div>
+          </section>
+
+          {/* Section 8: Cards */}
+          <section id="cards" className="bg-white rounded-3xl border border-zinc-200/80 p-6 md:p-8 shadow-xs scroll-mt-28">
+            <div className="mb-6 pb-4 border-b border-zinc-100">
+              <div className="flex items-center gap-3">
+                <h2 className="text-xl font-bold text-zinc-900">Cards</h2>
+                <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold uppercase tracking-wide">
+                  Active
+                </span>
+              </div>
+              <p className="text-xs text-zinc-500 mt-1">
+                Container card primitives and floating interactive card variations like the daily wildlife Fun Fact card.
+              </p>
+              <div className="mt-3 font-mono text-xs text-zinc-500 flex flex-wrap items-center gap-2">
+                <span className="font-medium text-zinc-400">Import:</span>
+                <code className="bg-zinc-100 text-zinc-800 px-2.5 py-1 rounded-lg border border-zinc-200/70 font-mono text-[11px] select-all">
+                  import &#123; Card &#125; from "@/design-system";
+                </code>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              {/* 1. Fun Fact Card Variation */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  1. Fun Fact Card Variation (Floating "Did you know?")
+                </h3>
+                <div className="py-1">
+                  <Card.FunFact
+                    imageSrc="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=400&auto=format&fit=crop&q=80"
+                    imageAlt="Bengal tiger"
+                    factText="Bengal tigers have striped skin, not just striped fur — the pattern is unique to each individual like a fingerprint. India holds roughly 70% of the world's wild tiger population."
+                    highlightText="Bengal tiger"
+                    onDismiss={() => alert("Card dismissed!")}
+                    onClick={() => alert("Navigating to species page!")}
+                  />
+                </div>
+              </div>
+
+              {/* Code Snippet */}
+              <div className="relative bg-zinc-900 text-zinc-200 p-4 rounded-2xl font-mono text-xs">
+                <div className="flex items-center justify-between pb-2 mb-2 border-b border-zinc-800">
+                  <span className="text-[11px] text-zinc-400">JSX Example</span>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      copyToClipboard(
+                        `<Card.FunFact\n  title="Did you know?"\n  imageSrc="/images/tiger.jpg"\n  factText="Bengal tigers have striped skin..."\n  highlightText="Bengal tiger"\n  onDismiss={handleDismiss}\n  onClick={handleClick}\n/>`,
+                        "card"
+                      )
+                    }
+                    className="text-[11px] text-emerald-400 hover:text-emerald-300 font-sans"
+                  >
+                    {copiedSnippet === "card" ? "Copied!" : "Copy Code"}
+                  </button>
+                </div>
+                <pre className="overflow-x-auto text-emerald-300">
+                  {`<Card.FunFact
+  title="Did you know?"
+  imageSrc="/images/tiger.jpg"
+  factText="Bengal tigers have striped skin..."
+  highlightText="Bengal tiger"
+  onDismiss={handleDismiss}
+  onClick={handleClick}
 />`}
                 </pre>
               </div>
