@@ -142,7 +142,7 @@ export default function DesignSystemPage() {
                     { variant: "outline" as const, label: "outline (Card action)", icon: <Share2 className="h-4 w-4" /> },
                     { variant: "solid" as const, label: "solid (Primary action)", icon: <Search className="h-4 w-4" /> },
                   ].map((item) => (
-                    <div key={item.variant} className="flex flex-col items-center justify-center p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60 gap-3">
+                    <div key={item.variant} className="flex flex-col items-center justify-center p-4 rounded-2xl border border-zinc-200/80 bg-white gap-3 shadow-2xs">
                       <IconButton
                         variant={item.variant}
                         aria-label={item.label}
@@ -162,7 +162,7 @@ export default function DesignSystemPage() {
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
                   2. Size Scaling
                 </h3>
-                <div className="flex flex-wrap items-center gap-6 p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60">
+                <div className="flex flex-wrap items-center gap-8 py-1">
                   <div className="flex items-center gap-3">
                     <IconButton size="sm" variant="secondary" aria-label="Small close button" icon={<X className="h-3.5 w-3.5" />} />
                     <span className="font-mono text-xs text-zinc-600">sm (28px)</span>
@@ -184,7 +184,7 @@ export default function DesignSystemPage() {
                   3. Interactive States & Accessibility (a11y)
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <div className="p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60 flex items-center justify-between">
+                  <div className="p-4 rounded-2xl border border-zinc-200/80 bg-white flex items-center justify-between shadow-2xs">
                     <div>
                       <span className="block text-xs font-semibold text-zinc-800">Active / Pressed</span>
                       <span className="font-mono text-[10px] text-zinc-500">aria-pressed="true"</span>
@@ -192,7 +192,7 @@ export default function DesignSystemPage() {
                     <IconButton active variant="ghost" aria-label="Bookmarked" icon={<Heart className="h-4 w-4 fill-white" />} />
                   </div>
 
-                  <div className="p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60 flex items-center justify-between">
+                  <div className="p-4 rounded-2xl border border-zinc-200/80 bg-white flex items-center justify-between shadow-2xs">
                     <div>
                       <span className="block text-xs font-semibold text-zinc-800">Disabled State</span>
                       <span className="font-mono text-[10px] text-zinc-500">aria-disabled="true"</span>
@@ -200,7 +200,7 @@ export default function DesignSystemPage() {
                     <IconButton disabled variant="secondary" aria-label="Filter disabled" icon={<Filter className="h-4 w-4" />} />
                   </div>
 
-                  <div className="p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60 flex items-center justify-between">
+                  <div className="p-4 rounded-2xl border border-zinc-200/80 bg-white flex items-center justify-between shadow-2xs">
                     <div>
                       <span className="block text-xs font-semibold text-zinc-800">Click Counter</span>
                       <span className="font-mono text-[10px] text-zinc-500">Clicks: {clickCount}</span>
@@ -267,17 +267,17 @@ export default function DesignSystemPage() {
                   1. Interactive Preview & Label Integration
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <div className="p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60 flex items-center justify-between">
+                  <div className="p-4 rounded-2xl border border-zinc-200/80 bg-white flex items-center justify-between shadow-2xs">
                     <span className="text-xs font-semibold text-zinc-800">Mammals Layer</span>
                     <Toggle checked={mammalToggle} onChange={setMammalToggle} aria-label="Mammals layer" />
                   </div>
 
-                  <div className="p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60 flex items-center justify-between">
+                  <div className="p-4 rounded-2xl border border-zinc-200/80 bg-white flex items-center justify-between shadow-2xs">
                     <span className="text-xs font-semibold text-zinc-800">Birds Layer</span>
                     <Toggle checked={birdToggle} onChange={setBirdToggle} aria-label="Birds layer" />
                   </div>
 
-                  <div className="p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60 flex items-center justify-between">
+                  <div className="p-4 rounded-2xl border border-zinc-200/80 bg-white flex items-center justify-between shadow-2xs">
                     <span className="text-xs font-semibold text-zinc-800">Disabled Toggle</span>
                     <Toggle disabled checked={false} aria-label="Disabled feature" />
                   </div>
@@ -289,7 +289,7 @@ export default function DesignSystemPage() {
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
                   2. Size Scaling
                 </h3>
-                <div className="flex items-center gap-8 p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60">
+                <div className="flex flex-wrap items-center gap-8 py-1">
                   <div className="flex items-center gap-3">
                     <Toggle size="sm" checked={toggleState} onChange={setToggleState} aria-label="Small toggle" />
                     <span className="font-mono text-xs text-zinc-600">sm</span>
@@ -359,7 +359,7 @@ export default function DesignSystemPage() {
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
                   1. Visual Variants
                 </h3>
-                <div className="flex flex-wrap items-center gap-4 p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60">
+                <div className="flex flex-wrap items-center gap-4 py-1">
                   <Button variant="primary">Primary</Button>
                   <Button variant="secondary">Secondary</Button>
                   <Button variant="outline">Outline</Button>
@@ -373,7 +373,7 @@ export default function DesignSystemPage() {
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
                   2. Icons & States
                 </h3>
-                <div className="flex flex-wrap items-center gap-4 p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60">
+                <div className="flex flex-wrap items-center gap-4 py-1">
                   <Button variant="primary" leadingIcon={<Compass className="h-4 w-4" />}>
                     Explore Species
                   </Button>
@@ -441,7 +441,7 @@ export default function DesignSystemPage() {
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
                   1. Conservation Status & Category Badges
                 </h3>
-                <div className="flex flex-wrap items-center gap-3 p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60">
+                <div className="flex flex-wrap items-center gap-3 py-1">
                   <Badge variant="red">Critically Endangered (CR)</Badge>
                   <Badge variant="amber">Endangered (EN)</Badge>
                   <Badge variant="sky">Vulnerable (VU)</Badge>
@@ -497,7 +497,7 @@ export default function DesignSystemPage() {
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
                   1. Interactive Tab Strip
                 </h3>
-                <div className="p-4 bg-zinc-50 rounded-2xl border border-zinc-200/60">
+                <div className="py-1">
                   <Tabs
                     activeTab={activeTabDemo}
                     onChange={setActiveTabDemo}
@@ -508,7 +508,7 @@ export default function DesignSystemPage() {
                       { id: "zoos", label: "Zoos", count: 2 },
                     ]}
                   />
-                  <div className="mt-4 p-4 bg-white rounded-xl border border-zinc-200/80 font-mono text-xs text-zinc-700">
+                  <div className="mt-4 p-4 rounded-2xl border border-zinc-200/80 bg-white font-mono text-xs text-zinc-700 shadow-2xs">
                     Active Panel: <span className="font-bold text-emerald-600">{activeTabDemo}</span>
                   </div>
                 </div>
