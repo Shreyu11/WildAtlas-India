@@ -1,5 +1,7 @@
 "use client";
 
+import { IconButton } from "@/design-system";
+
 import { useEffect, useRef, useState } from "react";
 import { Play, Pause, Volume2, VolumeX, ExternalLink } from "lucide-react";
 import type { PhotoAttribution } from "@/lib/types";
@@ -198,19 +200,20 @@ export default function SpeciesAudioPlayer({
 
       <div className="flex items-center justify-between gap-3">
         {/* Play/Pause Button */}
-        <button
-          type="button"
+        <IconButton
+          variant="solid"
+          size="lg"
           onClick={togglePlay}
-          className="group relative inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-zinc-900 text-white shadow-md transition-all duration-200 ease-ios hover:bg-zinc-800 active:scale-90 focus:outline-none"
           aria-label={isPlaying ? `Pause ${speciesName} call` : `Play ${speciesName} call`}
           title={isPlaying ? "Pause vocalization" : "Listen to vocalization"}
-        >
-          {isPlaying ? (
-            <Pause className="h-5 w-5 fill-current" />
-          ) : (
-            <Play className="h-5 w-5 fill-current translate-x-0.5" />
-          )}
-        </button>
+          icon={
+            isPlaying ? (
+              <Pause className="h-5 w-5 fill-current" />
+            ) : (
+              <Play className="h-5 w-5 fill-current translate-x-0.5" />
+            )
+          }
+        />
 
         {/* Info & Animated Waveform */}
         <div className="flex flex-1 flex-col justify-center min-w-0">
@@ -244,14 +247,14 @@ export default function SpeciesAudioPlayer({
         </div>
 
         {/* Mute Toggle */}
-        <button
-          type="button"
+        <IconButton
+          variant="secondary"
+          size="sm"
           onClick={toggleMute}
-          className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-zinc-200/60 text-zinc-600 hover:bg-zinc-200 hover:text-zinc-900 transition-all duration-150 ease-ios active:scale-90"
+          aria-label={isMuted ? "Unmute" : "Mute"}
           title={isMuted ? "Unmute" : "Mute"}
-        >
-          {isMuted ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
-        </button>
+          icon={isMuted ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
+        />
       </div>
 
       {/* Audio Citation & Attribution */}

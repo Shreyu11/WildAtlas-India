@@ -19,6 +19,7 @@
 
 # production
 /build
+/dist-storylite/
 
 # misc
 .DS_Store

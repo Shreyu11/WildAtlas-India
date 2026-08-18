@@ -1,5 +1,7 @@
 "use client";
 
+import { IconButton } from "@/design-system";
+
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -58,22 +60,21 @@ export default function TopNav() {
 
       {/* Floating Action Cluster Capsule */}
       <div className="pointer-events-auto relative z-10 ml-auto flex shrink-0 items-center gap-1 rounded-full border border-zinc-300/80 bg-white/90 p-1.5 px-2 shadow-md backdrop-blur-xl">
-        <button
-          type="button"
+        <IconButton
+          variant="ghost"
+          size="sm"
           aria-label={muted ? "Unmute jungle ambience" : "Mute jungle ambience"}
           onClick={toggleMuted}
-          className="inline-flex h-8 w-8 items-center justify-center rounded-full text-zinc-600 hover:bg-zinc-200/60 hover:text-zinc-900 transition-all duration-150 ease-ios active:scale-90"
           title={muted ? "Unmute sound (Shift+M)" : "Mute sound (Shift+M)"}
-        >
-          {muted ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
-        </button>
-        <button
-          type="button"
+          icon={muted ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
+        />
+        <IconButton
+          variant="ghost"
+          size="sm"
           aria-label="About WildAtlas India"
-          className="inline-flex h-8 w-8 items-center justify-center rounded-full text-zinc-600 hover:bg-zinc-200/60 hover:text-zinc-900 transition-all duration-150 ease-ios active:scale-90"
-        >
-          <Info className="h-4 w-4" />
-        </button>
+          title="About WildAtlas India"
+          icon={<Info className="h-4 w-4" />}
+        />
       </div>
     </nav>
   );

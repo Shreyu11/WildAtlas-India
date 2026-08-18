@@ -8,6 +8,7 @@ import { CONSERVATION_LABEL, CONSERVATION_TONE } from "@/lib/conservation";
 import { SPECIES_ICON, DEFAULT_SPECIES_ICON } from "@/lib/mockIcons";
 import SpeciesAudioButton from "@/components/audio/SpeciesAudioButton";
 import DataAttributionFooter from "@/components/DataAttributionFooter";
+import { Tabs } from "@/design-system";
 
 interface StateDetailTabsProps {
   state: State;
@@ -129,89 +130,16 @@ export default function StateDetailTabs({
       </div>
 
       {/* 4. Tab Navigation (Species | National Parks | Sanctuaries | Zoos) */}
-      <div className="border-b border-zinc-200/80">
-        <nav className="-mb-px flex space-x-1 overflow-x-auto pb-1" aria-label="Tabs">
-          <button
-            type="button"
-            onClick={() => setActiveTab("species")}
-            className={`flex items-center gap-1.5 whitespace-nowrap border-b-2 py-2 px-3 text-xs font-semibold transition-all ${
-              activeTab === "species"
-                ? "border-emerald-600 text-emerald-700"
-                : "border-transparent text-zinc-500 hover:border-zinc-300 hover:text-zinc-700"
-            }`}
-          >
-            <PawPrint className="h-3.5 w-3.5" />
-            <span>Species</span>
-            <span
-              className={`ml-1 rounded-full px-1.5 py-0.2 text-[10px] font-mono ${
-                activeTab === "species" ? "bg-emerald-100 text-emerald-800" : "bg-zinc-100 text-zinc-600"
-              }`}
-            >
-              {species.length}
-            </span>
-          </button>
-
-          <button
-            type="button"
-            onClick={() => setActiveTab("national-parks")}
-            className={`flex items-center gap-1.5 whitespace-nowrap border-b-2 py-2 px-3 text-xs font-semibold transition-all ${
-              activeTab === "national-parks"
-                ? "border-emerald-600 text-emerald-700"
-                : "border-transparent text-zinc-500 hover:border-zinc-300 hover:text-zinc-700"
-            }`}
-          >
-            <TreePine className="h-3.5 w-3.5" />
-            <span>National Parks</span>
-            <span
-              className={`ml-1 rounded-full px-1.5 py-0.2 text-[10px] font-mono ${
-                activeTab === "national-parks" ? "bg-emerald-100 text-emerald-800" : "bg-zinc-100 text-zinc-600"
-              }`}
-            >
-              {nationalParks.length}
-            </span>
-          </button>
-
-          <button
-            type="button"
-            onClick={() => setActiveTab("sanctuaries")}
-            className={`flex items-center gap-1.5 whitespace-nowrap border-b-2 py-2 px-3 text-xs font-semibold transition-all ${
-              activeTab === "sanctuaries"
-                ? "border-emerald-600 text-emerald-700"
-                : "border-transparent text-zinc-500 hover:border-zinc-300 hover:text-zinc-700"
-            }`}
-          >
-            <Compass className="h-3.5 w-3.5" />
-            <span>Sanctuaries</span>
-            <span
-              className={`ml-1 rounded-full px-1.5 py-0.2 text-[10px] font-mono ${
-                activeTab === "sanctuaries" ? "bg-emerald-100 text-emerald-800" : "bg-zinc-100 text-zinc-600"
-              }`}
-            >
-              {sanctuaries.length}
-            </span>
-          </button>
-
-          <button
-            type="button"
-            onClick={() => setActiveTab("zoos")}
-            className={`flex items-center gap-1.5 whitespace-nowrap border-b-2 py-2 px-3 text-xs font-semibold transition-all ${
-              activeTab === "zoos"
-                ? "border-emerald-600 text-emerald-700"
-                : "border-transparent text-zinc-500 hover:border-zinc-300 hover:text-zinc-700"
-            }`}
-          >
-            <Landmark className="h-3.5 w-3.5" />
-            <span>Zoos</span>
-            <span
-              className={`ml-1 rounded-full px-1.5 py-0.2 text-[10px] font-mono ${
-                activeTab === "zoos" ? "bg-emerald-100 text-emerald-800" : "bg-zinc-100 text-zinc-600"
-              }`}
-            >
-              {zoos.length}
-            </span>
-          </button>
-        </nav>
-      </div>
+      <Tabs
+        activeTab={activeTab}
+        onChange={setActiveTab}
+        tabs={[
+          { id: "species", label: "Species", count: species.length, icon: <PawPrint className="h-3.5 w-3.5" /> },
+          { id: "national-parks", label: "National Parks", count: nationalParks.length, icon: <TreePine className="h-3.5 w-3.5" /> },
+          { id: "sanctuaries", label: "Sanctuaries", count: sanctuaries.length, icon: <Compass className="h-3.5 w-3.5" /> },
+          { id: "zoos", label: "Zoos", count: zoos.length, icon: <Landmark className="h-3.5 w-3.5" /> },
+        ]}
+      />
 
       {/* Tab Panels */}
       <div className="min-h-[220px]">

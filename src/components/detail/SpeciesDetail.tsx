@@ -163,6 +163,22 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
         {item.physicalTraits?.gestationDays && (
           <CitedFactRow label="Gestation" text={formatRange(item.physicalTraits.gestationDays.value, "days")} fact={item.physicalTraits.gestationDays} />
         )}
+        {item.physicalTraits?.lifespanYears && (
+          <CitedFactRow
+            label="Lifespan"
+            text={`Up to ${item.physicalTraits.lifespanYears.value.max} years${
+              item.physicalTraits.lifespanYears.value.context === "wild"
+                ? " in the wild"
+                : item.physicalTraits.lifespanYears.value.context === "captivity"
+                  ? " in captivity"
+                  : ""
+            }`}
+            fact={item.physicalTraits.lifespanYears}
+          />
+        )}
+        {item.physicalTraits?.diet && (
+          <CitedFactRow label="Food" text={item.physicalTraits.diet.value.join(", ")} fact={item.physicalTraits.diet} />
+        )}
         {item.physicalTraits?.collectiveNoun && (
           <CitedFactRow label="Collective noun" text={item.physicalTraits.collectiveNoun.value} fact={item.physicalTraits.collectiveNoun} />
         )}
@@ -226,7 +242,7 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
       <DataAttributionFooter
         extra={
           item.physicalTraits || item.audioAttribution
-            ? "Physical traits shown above (where present) are real, individually cited Wikidata facts, and bird calls (where present) are real recordings from Xeno-canto, credited on this page — the rest of this species' data is still mock/placeholder."
+            ? "Physical traits shown above (where present) are real, individually cited facts (Wikidata/Wikipedia), and bird calls (where present) are real recordings from Xeno-canto, credited on this page — the rest of this species' data is still mock/placeholder."
             : undefined
         }
       />

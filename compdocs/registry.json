@@ -1,0 +1,423 @@
+{
+  "components": [
+    {
+      "name": "AmbientAudioProvider",
+      "path": "src/components/AmbientAudioProvider/AmbientAudioProvider.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "AmbientAudioProvider component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/AmbientAudioProvider/AmbientAudioProvider.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.419Z"
+    },
+    {
+      "name": "Badge",
+      "path": "src/components/atoms/Badge/Badge.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "Badge component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/atoms/Badge/Badge.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.421Z"
+    },
+    {
+      "name": "Button",
+      "path": "src/components/atoms/Button/Button.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "Button component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/atoms/Button/Button.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.421Z"
+    },
+    {
+      "name": "DataAttributionFooter",
+      "path": "src/components/DataAttributionFooter.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "DataAttributionFooter component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/DataAttributionFooter.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.383Z"
+    },
+    {
+      "name": "Drawer",
+      "path": "src/components/Drawer/Drawer.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "Drawer component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/Drawer/Drawer.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.417Z"
+    },
+    {
+      "name": "FootprintLoader",
+      "path": "src/components/FootprintLoader/FootprintLoader.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "FootprintLoader component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/FootprintLoader/FootprintLoader.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.416Z"
+    },
+    {
+      "name": "FunFactCard",
+      "path": "src/components/FunFactCard/FunFactCard.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "FunFactCard component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/FunFactCard/FunFactCard.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.417Z"
+    },
+    {
+      "name": "GridBackground",
+      "path": "src/components/GridBackground/GridBackground.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "GridBackground component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/GridBackground/GridBackground.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.415Z"
+    },
+    {
+      "name": "Icon",
+      "path": "src/components/atoms/Icon/Icon.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "Icon component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/atoms/Icon/Icon.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.420Z"
+    },
+    {
+      "name": "LinkPreviewCard",
+      "path": "src/components/LinkPreviewCard.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "LinkPreviewCard component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/LinkPreviewCard.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.381Z"
+    },
+    {
+      "name": "ListItem",
+      "path": "src/components/atoms/ListItem/ListItem.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "ListItem component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/atoms/ListItem/ListItem.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.419Z"
+    },
+    {
+      "name": "MapSettingsProvider",
+      "path": "src/components/MapSettingsProvider/MapSettingsProvider.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "MapSettingsProvider component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/MapSettingsProvider/MapSettingsProvider.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.415Z"
+    },
+    {
+      "name": "SearchProvider",
+      "path": "src/components/SearchProvider/SearchProvider.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "SearchProvider component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/SearchProvider/SearchProvider.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.403Z"
+    },
+    {
+      "name": "SpeciesAudioButton",
+      "path": "src/components/audio/SpeciesAudioButton.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "SpeciesAudioButton component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/audio/SpeciesAudioButton.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.389Z"
+    },
+    {
+      "name": "SpeciesAudioPlayer",
+      "path": "src/components/audio/SpeciesAudioPlayer.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "SpeciesAudioPlayer component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/audio/SpeciesAudioPlayer.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.387Z"
+    },
+    {
+      "name": "StatusTag",
+      "path": "src/components/atoms/StatusTag/StatusTag.tsx",
+      "category": "atom",
+      "categorySource": "manual",
+      "needsReview": false,
+      "description": "Status tag primitive",
+      "tags": [
+        "atom"
+      ],
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Optional CSS class name"
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Child content"
+        }
+      ],
+      "storyPath": "src/components/atoms/StatusTag/StatusTag.stories.tsx",
+      "lastScanned": "2026-08-18T07:11:50.209Z"
+    },
+    {
+      "name": "Tabs",
+      "path": "src/components/atoms/Tabs/Tabs.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "Tabs component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/atoms/Tabs/Tabs.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.419Z"
+    },
+    {
+      "name": "WelcomeCard",
+      "path": "src/components/WelcomeCard/WelcomeCard.tsx",
+      "category": "atom",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "WelcomeCard component.",
+      "tags": [
+        "atom"
+      ],
+      "props": [],
+      "storyPath": "src/components/WelcomeCard/WelcomeCard.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.402Z"
+    },
+    {
+      "name": "ExploreRail",
+      "path": "src/components/ExploreRail/ExploreRail.tsx",
+      "category": "molecule",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "ExploreRail component.",
+      "tags": [
+        "molecule"
+      ],
+      "props": [],
+      "storyPath": "src/components/ExploreRail/ExploreRail.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.418Z"
+    },
+    {
+      "name": "ProtectedAreaDetail",
+      "path": "src/components/detail/ProtectedAreaDetail.tsx",
+      "category": "molecule",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "ProtectedAreaDetail component.",
+      "tags": [
+        "molecule"
+      ],
+      "props": [],
+      "storyPath": "src/components/detail/ProtectedAreaDetail.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.398Z"
+    },
+    {
+      "name": "SearchBar",
+      "path": "src/components/TopNav/SearchBar.tsx",
+      "category": "molecule",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "SearchBar component.",
+      "tags": [
+        "molecule"
+      ],
+      "props": [],
+      "storyPath": "src/components/TopNav/SearchBar.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.402Z"
+    },
+    {
+      "name": "SpeciesDetail",
+      "path": "src/components/detail/SpeciesDetail.tsx",
+      "category": "molecule",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "SpeciesDetail component.",
+      "tags": [
+        "molecule"
+      ],
+      "props": [],
+      "storyPath": "src/components/detail/SpeciesDetail.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.397Z"
+    },
+    {
+      "name": "StateDetail",
+      "path": "src/components/detail/StateDetail.tsx",
+      "category": "molecule",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "StateDetail component.",
+      "tags": [
+        "molecule"
+      ],
+      "props": [],
+      "storyPath": "src/components/detail/StateDetail.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.395Z"
+    },
+    {
+      "name": "StateDetailTabs",
+      "path": "src/components/detail/StateDetailTabs.tsx",
+      "category": "molecule",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "StateDetailTabs component.",
+      "tags": [
+        "molecule"
+      ],
+      "props": [],
+      "storyPath": "src/components/detail/StateDetailTabs.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.394Z"
+    },
+    {
+      "name": "VibeBadge",
+      "path": "src/components/VibeBadge/VibeBadge.tsx",
+      "category": "molecule",
+      "categorySource": "manual",
+      "needsReview": false,
+      "description": "Generalised vibe badge component displaying attribution",
+      "tags": [
+        "molecule"
+      ],
+      "props": [],
+      "storyPath": "src/components/VibeBadge/VibeBadge.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.403Z"
+    },
+    {
+      "name": "ZooDetail",
+      "path": "src/components/detail/ZooDetail.tsx",
+      "category": "molecule",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "ZooDetail component.",
+      "tags": [
+        "molecule"
+      ],
+      "props": [],
+      "storyPath": "src/components/detail/ZooDetail.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.391Z"
+    },
+    {
+      "name": "Map",
+      "path": "src/components/Map/Map.tsx",
+      "category": "organism",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "Map component.",
+      "tags": [
+        "organism"
+      ],
+      "props": [],
+      "storyPath": "src/components/Map/Map.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.413Z"
+    },
+    {
+      "name": "MapViewSettings",
+      "path": "src/components/MapViewSettings/MapViewSettings.tsx",
+      "category": "organism",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "MapViewSettings component.",
+      "tags": [
+        "organism"
+      ],
+      "props": [],
+      "storyPath": "src/components/MapViewSettings/MapViewSettings.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.404Z"
+    },
+    {
+      "name": "TopNav",
+      "path": "src/components/TopNav/TopNav.tsx",
+      "category": "organism",
+      "categorySource": "heuristic",
+      "needsReview": true,
+      "description": "TopNav component.",
+      "tags": [
+        "organism"
+      ],
+      "props": [],
+      "storyPath": "src/components/TopNav/TopNav.stories.tsx",
+      "lastScanned": "2026-08-18T09:49:20.399Z"
+    }
+  ]
+}

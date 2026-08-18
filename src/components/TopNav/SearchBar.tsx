@@ -1,5 +1,7 @@
 "use client";
 
+import { IconButton } from "@/design-system";
+
 import { useEffect, useRef, useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { useSearch } from "@/components/SearchProvider/SearchProvider";
@@ -209,17 +211,17 @@ export default function SearchBar() {
           ⌘K
         </kbd>
       ) : (
-        <button
-          type="button"
+        <IconButton
+          variant="secondary"
+          size="sm"
           aria-label="Clear search"
+          icon={<X className="h-3.5 w-3.5" />}
+          className="absolute right-2.5 top-1/2 -translate-y-1/2"
           onClick={() => {
             setQuery("");
             setIsOpen(false);
           }}
-          className="absolute right-3.5 top-1/2 -translate-y-1/2 inline-flex h-6 w-6 items-center justify-center rounded-full bg-zinc-300/60 text-zinc-600 hover:bg-zinc-300 hover:text-zinc-900 transition-colors active:scale-90"
-        >
-          <X className="h-3.5 w-3.5" />
-        </button>
+        />
       )}
 
       {/* iOS Glassmorphic Autosuggest Dropdown */}

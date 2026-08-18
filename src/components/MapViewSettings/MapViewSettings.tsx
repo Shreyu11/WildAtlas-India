@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
 import { useMapSettings, type MapSettings } from "@/components/MapSettingsProvider/MapSettingsProvider";
 
+import { IconButton, Toggle, Button } from "@/design-system";
+
 export default function MapViewSettings() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
@@ -145,15 +147,14 @@ export default function MapViewSettings() {
                 ↑/↓ Navigate · Enter Toggle · Esc Close
               </span>
             </div>
-            <button
-              type="button"
+            <IconButton
+              variant="secondary"
+              size="sm"
               onClick={() => setIsOpen(false)}
-              className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-zinc-200/50 text-zinc-600 hover:bg-zinc-200/80 hover:text-zinc-900 transition-all duration-200 ease-ios active:scale-90"
               title="Close settings (Esc)"
               aria-label="Close settings"
-            >
-              <X className="h-4 w-4" />
-            </button>
+              icon={<X className="h-4 w-4" />}
+            />
           </div>
 
           {/* Details Section */}
@@ -185,27 +186,15 @@ export default function MapViewSettings() {
                       </span>
                     </div>
 
-                    {/* Authentic iOS Toggle Switch */}
-                    <button
-                      type="button"
+                    <Toggle
+                      checked={isActive}
+                      aria-label={`Toggle ${item.label}`}
                       tabIndex={-1}
-                      role="switch"
-                      aria-checked={isActive}
-                      onClick={(e) => {
-                        e.stopPropagation();
+                      onChange={() => {
                         setSelectedIndex(index);
                         toggleSetting(item.key);
                       }}
-                      className={`relative inline-flex h-7 w-12 shrink-0 cursor-pointer rounded-full p-0.5 transition-colors duration-200 ease-ios focus:outline-none ${
-                        isActive ? "bg-emerald-500" : "bg-zinc-300/80"
-                      }`}
-                    >
-                      <span
-                        className={`pointer-events-none inline-block h-6 w-6 transform rounded-full bg-white shadow-md transition duration-200 ease-ios ${
-                          isActive ? "translate-x-5" : "translate-x-0"
-                        }`}
-                      />
-                    </button>
+                    />
                   </div>
                 );
               })}
@@ -214,33 +203,34 @@ export default function MapViewSettings() {
         </div>
       )}
 
-      {/* Bottom-left Trigger Button / Thumbnail */}
-      <button
-        type="button"
+      <Button
+        variant="secondary"
         onClick={() => setIsOpen((prev) => !prev)}
-        className="group flex items-center gap-3 rounded-full border border-zinc-300/80 bg-white/90 p-2 pr-4 shadow-md backdrop-blur-xl transition-all duration-200 ease-ios hover:border-zinc-400 hover:bg-white active:scale-95 focus:outline-none"
         title="Map view settings (Shift+V)"
+        aria-label="Map view settings"
+        className="rounded-full border border-zinc-300/80 bg-white/90 p-1.5 pr-4 shadow-md backdrop-blur-xl hover:bg-white active:scale-95"
+        leadingIcon={
+          <div className="relative flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full border border-zinc-200 bg-zinc-100 shadow-xs">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.75"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="text-zinc-700"
+            >
+              <path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" />
+              <path d="m22 12.5-8.58 3.91a2 2 0 0 1-1.66 0L3.18 12.5" />
+              <path d="m22 17.5-8.58 3.91a2 2 0 0 1-1.66 0L3.18 17.5" />
+            </svg>
+          </div>
+        }
       >
-        {/* Layer preview thumbnail */}
-        <div className="relative flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full border border-zinc-200 bg-zinc-100 shadow-inner group-hover:scale-105 transition-transform duration-200 ease-ios">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="18"
-            height="18"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.75"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="text-zinc-700"
-          >
-            <path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" />
-            <path d="m22 12.5-8.58 3.91a2 2 0 0 1-1.66 0L3.18 12.5" />
-            <path d="m22 17.5-8.58 3.91a2 2 0 0 1-1.66 0L3.18 17.5" />
-          </svg>
-        </div>
-        <div className="flex flex-col items-start text-left gap-1">
+        <div className="flex flex-col items-start text-left gap-0.5">
           <span className="font-sans text-xs font-bold text-zinc-900 leading-tight">
             Layer details
           </span>
@@ -248,7 +238,7 @@ export default function MapViewSettings() {
             Shift + V
           </span>
         </div>
-      </button>
+      </Button>
     </div>
   );
 }

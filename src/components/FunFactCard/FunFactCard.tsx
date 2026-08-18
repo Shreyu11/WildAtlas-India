@@ -1,5 +1,7 @@
 "use client";
 
+import { IconButton } from "@/design-system";
+
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { FunFact, Species } from "@/lib/types";
@@ -87,18 +89,17 @@ export default function FunFactCard({ facts, species }: { facts: FunFact[]; spec
             Did you know?
           </h2>
         </div>
-        <button
-          type="button"
+        <IconButton
+          variant="secondary"
+          size="sm"
           aria-label="Dismiss fun fact"
-          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-slate-100/90 text-slate-500 hover:bg-slate-200 hover:text-slate-800 transition-all active:scale-95"
+          icon={<X className="h-4 w-4" />}
           onClick={(e) => {
             e.stopPropagation();
             localStorage.setItem(STORAGE_PREFIX + key, "true");
             setDismissed(true);
           }}
-        >
-          <X className="h-4 w-4" />
-        </button>
+        />
       </div>
 
       {/* Main Content Row: Image + Text Description */}

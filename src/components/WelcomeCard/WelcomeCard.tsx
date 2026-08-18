@@ -1,5 +1,7 @@
 "use client";
 
+import { IconButton } from "@/design-system";
+
 import { useEffect, useState } from "react";
 import { X } from "lucide-react";
 
@@ -18,17 +20,16 @@ export default function WelcomeCard() {
     <div className="absolute bottom-[68px] right-16 z-20 w-80 rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios">
       <div className="flex items-center justify-between gap-2 border-b border-zinc-200/60 pb-2">
         <p className="font-sans text-base font-bold text-zinc-900">Welcome 👋</p>
-        <button
-          type="button"
+        <IconButton
+          variant="secondary"
+          size="sm"
           aria-label="Dismiss welcome card"
-          className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-zinc-200/50 text-zinc-600 hover:bg-zinc-200/80 hover:text-zinc-900 transition-all duration-200 ease-ios active:scale-90"
+          icon={<X className="h-3.5 w-3.5" />}
           onClick={() => {
             localStorage.setItem(STORAGE_KEY, "true");
             setDismissed(true);
           }}
-        >
-          <X className="h-3.5 w-3.5" />
-        </button>
+        />
       </div>
       <p className="mt-2.5 text-sm font-normal leading-relaxed text-zinc-600">
         Explore India&apos;s wildlife state by state — tap a photo bubble on the

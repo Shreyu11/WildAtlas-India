@@ -19,7 +19,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/design-system": ["./Design System/index.ts"],
+      "@/design-system/*": ["./Design System/*"],
+      "@/Design System/*": ["./Design System/*"]
     }
   },
   "include": [

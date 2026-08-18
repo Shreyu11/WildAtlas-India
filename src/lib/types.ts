@@ -54,6 +54,16 @@ export interface PhysicalTraits {
   collectiveNoun?: CitedFact<string> | null;
   termForYoung?: CitedFact<string> | null;
   gestationDays?: CitedFact<{ min: number; max: number }> | null;
+  // context distinguishes "in the wild" (typically shorter) from "in
+  // captivity" lifespan figures, since sources often only report one or the
+  // other and conflating them would misrepresent the fact.
+  lifespanYears?: CitedFact<{
+    max: number;
+    context: "wild" | "captivity" | "unspecified";
+    note?: string;
+  }> | null;
+  // Food items, most-significant first; rendered comma-separated in the UI.
+  diet?: CitedFact<string[]> | null;
 }
 
 export interface SeasonalInfo {

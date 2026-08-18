@@ -1,5 +1,7 @@
 "use client";
 
+import { IconButton } from "@/design-system";
+
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { X } from "lucide-react";
@@ -51,14 +53,13 @@ export default function Drawer({ children, title = "Species Info" }: DrawerProps
         <h2 className="font-sans text-xs font-bold uppercase tracking-wider text-zinc-800">
           {title}
         </h2>
-        <button
-          type="button"
+        <IconButton
+          variant="secondary"
+          size="sm"
           aria-label="Close panel"
           onClick={close}
-          className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-zinc-200/50 text-zinc-600 hover:bg-zinc-200/80 hover:text-zinc-900 transition-all duration-200 ease-ios active:scale-90"
-        >
-          <X className="h-4 w-4" />
-        </button>
+          icon={<X className="h-4 w-4" />}
+        />
       </div>
 
       {/* Scrollable Body */}

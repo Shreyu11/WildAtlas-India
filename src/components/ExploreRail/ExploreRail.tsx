@@ -1,5 +1,7 @@
 "use client";
 
+import { IconButton } from "@/design-system";
+
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { X } from "lucide-react";
@@ -32,17 +34,16 @@ export default function ExploreRail({ species }: { species: Species[] }) {
     <div className="absolute left-6 top-24 w-48 rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios">
       <div className="mb-3 flex items-center justify-between gap-2 border-b border-zinc-200/60 pb-2">
         <p className="font-sans text-xs font-bold uppercase tracking-wider text-zinc-800">Explore</p>
-        <button
-          type="button"
+        <IconButton
+          variant="secondary"
+          size="sm"
           aria-label="Dismiss explore menu"
-          className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-zinc-200/50 text-zinc-600 hover:bg-zinc-200/80 hover:text-zinc-900 transition-all duration-200 ease-ios active:scale-90"
+          icon={<X className="h-3.5 w-3.5" />}
           onClick={() => {
             localStorage.setItem(STORAGE_KEY, "true");
             setDismissed(true);
           }}
-        >
-          <X className="h-3.5 w-3.5" />
-        </button>
+        />
       </div>
       <ul className="flex flex-col gap-2.5">
         {CURATED_SLUGS.map((entry) => {

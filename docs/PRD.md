@@ -234,3 +234,14 @@ The following decisions were made with the product owner (Shreyas) on July 25, 2
 | WII/ZSI data agreements | Public data only for launch | Build on openly published GBIF/IUCN/eBird/ZSI/WII data; pursue formal agreements later only if bulk/API access is needed. |
 | Platform priority | Web-first | Faster to build and iterate for the map-and-browse core loop; responsive but not a native app. |
 | Monetization | None — public good | No revenue plans; the product is treated as an open project. |
+
+---
+
+## 11. Related / Reference Platforms
+
+Similar or adjacent platforms worth keeping an eye on for UX/feature ideas — not data sources for this project (see Section 6 for the approved data-source list).
+
+| Platform | What it is |
+|---|---|
+| [Esri India — National Parks & Wildlife Sanctuaries (ArcGIS Living Atlas)](https://www.arcgis.com/apps/mapviewer/index.html?layers=49328345b051462db7fac2f52e903594) | A GIS map layer plotting India's national parks and wildlife sanctuaries, built by Esri India from MoEFCC/State Forest Department data. Login-gated, non-exportable — reference only. |
+| [India Biodiversity Portal — species list](https://indiabiodiversity.org/species/list) | A citizen-science biodiversity documentation platform for India, with browsable species pages, observations, and maps. |

@@ -1,5 +1,7 @@
 "use client";
 
+import { IconButton } from "@/design-system";
+
 import { useEffect, useRef, useState } from "react";
 import { Volume2 } from "lucide-react";
 
@@ -210,16 +212,15 @@ export default function SpeciesAudioButton({
         </>
       )}
 
-      {/* Google Search Style Circular Blue Speaker Button */}
-      <button
-        type="button"
+      <IconButton
+        variant="solid"
+        size={size === "sm" ? "sm" : size === "lg" ? "lg" : "md"}
         onClick={handleTogglePlay}
-        className={`relative z-10 flex shrink-0 items-center justify-center rounded-full bg-[#1a73e8] text-white shadow-xs transition-all duration-200 hover:bg-[#1557b0] hover:scale-110 active:scale-95 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-1 ${sizeClasses}`}
         title={isPlaying ? `Stop ${speciesName} call` : `Listen to ${speciesName} call`}
         aria-label={isPlaying ? `Stop ${speciesName} call` : `Listen to ${speciesName} call`}
-      >
-        <Volume2 className={`${iconSizes} stroke-[2.2]`} />
-      </button>
+        className={`relative z-10 bg-[#1a73e8] text-white hover:bg-[#1557b0] ${sizeClasses}`}
+        icon={<Volume2 className={`${iconSizes} stroke-[2.2]`} />}
+      />
     </div>
   );
 }
