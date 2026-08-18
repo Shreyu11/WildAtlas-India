@@ -99,10 +99,10 @@ export const NavigationLinkItem: React.FC<NavigationLinkItemProps> = ({
           {customIcon || <IconComponent className="h-4 w-4" />}
         </div>
         <div className="min-w-0 flex-1">
-          <p className="font-semibold text-xs text-zinc-900 truncate group-hover:text-emerald-800 transition-colors">
+          <p className="font-semibold text-sm text-zinc-900 truncate group-hover:text-emerald-800 transition-colors">
             {label}
           </p>
-          <p className="font-mono text-[10px] text-zinc-400 truncate mt-0.5">
+          <p className="font-mono text-xs text-zinc-400 truncate mt-0.5">
             {domainText}
           </p>
         </div>
@@ -165,7 +165,7 @@ export const SpeciesListItem: React.FC<SpeciesListItemProps> = ({
         {/* Title, Tag & Scientific Name */}
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
-            <p className="font-bold text-xs text-zinc-900 truncate font-sans">
+            <p className="font-bold text-sm text-zinc-900 truncate font-sans">
               {commonName}
             </p>
             {tag && (
@@ -175,7 +175,7 @@ export const SpeciesListItem: React.FC<SpeciesListItemProps> = ({
             )}
           </div>
           {scientificName && (
-            <p className="text-[11px] italic text-zinc-400 truncate mt-0.5 font-sans">
+            <p className="text-xs italic text-zinc-400 truncate mt-0.5 font-sans">
               {scientificName}
             </p>
           )}
