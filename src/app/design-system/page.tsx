@@ -141,28 +141,65 @@ export default function DesignSystemPage() {
             </div>
 
             <div className="space-y-10">
-              {/* 1. Color Palette (Apple HIG Swatches) */}
+              {/* 1. Color Palette (2-Column Layout: Grayscale Tokens vs Colored Tokens) */}
               <div>
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
                   1. Color Palette (Swatches, Names & Hex Codes)
                 </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {colorSwatches.map((item) => (
-                    <div
-                      key={item.name}
-                      className="flex items-center gap-3.5 py-2 px-1"
-                    >
-                      {/* Color Visual Swatch Box */}
-                      <div className={`h-10 w-10 shrink-0 rounded-xl shadow-2xs ${item.class}`} />
-                      <div className="min-w-0 flex-1">
-                        <div className="flex items-center justify-between gap-1">
-                          <span className="text-xs font-bold text-zinc-900 truncate">{item.name}</span>
-                          <span className="font-mono text-[10px] font-bold text-zinc-500 select-all shrink-0">{item.hex}</span>
-                        </div>
-                        <span className="font-mono text-[10px] text-zinc-400 block truncate mt-0.5">{item.usage}</span>
-                      </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  {/* Column 1: Grayscale Tokens */}
+                  <div className="space-y-3">
+                    <h4 className="text-xs font-bold text-zinc-800 font-mono uppercase tracking-wide border-b border-zinc-100 pb-2">
+                      Grayscale Tokens
+                    </h4>
+                    <div className="space-y-2">
+                      {colorSwatches
+                        .filter((item) => item.category === "Grayscale")
+                        .map((item) => (
+                          <div
+                            key={item.name}
+                            className="flex items-center gap-3.5 py-1.5 px-1"
+                          >
+                            {/* Color Visual Swatch Box */}
+                            <div className={`h-9 w-9 shrink-0 rounded-xl shadow-2xs ${item.class}`} />
+                            <div className="min-w-0 flex-1">
+                              <div className="flex items-center justify-between gap-1">
+                                <span className="text-xs font-bold text-zinc-900 truncate">{item.name}</span>
+                                <span className="font-mono text-[10px] font-bold text-zinc-500 select-all shrink-0">{item.hex}</span>
+                              </div>
+                              <span className="font-mono text-[10px] text-zinc-400 block truncate mt-0.5">{item.usage}</span>
+                            </div>
+                          </div>
+                        ))}
                     </div>
-                  ))}
+                  </div>
+
+                  {/* Column 2: Colored Tokens */}
+                  <div className="space-y-3">
+                    <h4 className="text-xs font-bold text-zinc-800 font-mono uppercase tracking-wide border-b border-zinc-100 pb-2">
+                      Colored Tokens
+                    </h4>
+                    <div className="space-y-2">
+                      {colorSwatches
+                        .filter((item) => item.category !== "Grayscale")
+                        .map((item) => (
+                          <div
+                            key={item.name}
+                            className="flex items-center gap-3.5 py-1.5 px-1"
+                          >
+                            {/* Color Visual Swatch Box */}
+                            <div className={`h-9 w-9 shrink-0 rounded-xl shadow-2xs ${item.class}`} />
+                            <div className="min-w-0 flex-1">
+                              <div className="flex items-center justify-between gap-1">
+                                <span className="text-xs font-bold text-zinc-900 truncate">{item.name}</span>
+                                <span className="font-mono text-[10px] font-bold text-zinc-500 select-all shrink-0">{item.hex}</span>
+                              </div>
+                              <span className="font-mono text-[10px] text-zinc-400 block truncate mt-0.5">{item.usage}</span>
+                            </div>
+                          </div>
+                        ))}
+                    </div>
+                  </div>
                 </div>
               </div>
 
