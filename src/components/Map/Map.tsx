@@ -362,7 +362,7 @@ function buildMarkerCard(opts: {
   }
 
   const fact = document.createElement("p");
-  fact.className = "mt-0.5 text-[11px] leading-snug text-zinc-600 line-clamp-3";
+  fact.className = "mt-0.5 text-xs leading-snug text-zinc-600 line-clamp-3";
   fact.textContent = opts.fact;
   detail.appendChild(fact);
 
