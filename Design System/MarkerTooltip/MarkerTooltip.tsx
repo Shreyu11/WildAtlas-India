@@ -60,7 +60,7 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
 }) => {
   return (
     <div
-      className={`relative inline-flex flex-col items-center drop-shadow-lg select-none transition-all duration-300 ease-ios ${className}`}
+      className={`group group/tooltip relative inline-flex flex-col items-center drop-shadow-lg select-none transition-all duration-300 ease-ios ${className}`}
     >
       {/* Tooltip Card Body */}
       <div
