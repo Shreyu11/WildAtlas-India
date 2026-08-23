@@ -373,8 +373,18 @@ function buildMarkerCard(opts: {
   const leftBox = document.createElement("div");
   leftBox.className = "flex items-center gap-1.5";
   if (opts.status) {
+    const badgeStyleMap: Record<string, string> = {
+      LC: "border border-emerald-200/80 bg-emerald-50/80 text-emerald-900 shadow-2xs",
+      NT: "border border-yellow-200/80 bg-yellow-50/80 text-yellow-950 shadow-2xs",
+      VU: "border border-orange-200/80 bg-orange-50/80 text-orange-900 shadow-2xs",
+      EN: "border border-amber-200/80 bg-amber-50/80 text-amber-900 shadow-2xs",
+      CR: "border border-red-200/80 bg-red-50/80 text-red-900 shadow-2xs",
+      EW: "border border-red-200/80 bg-red-50/80 text-red-900 shadow-2xs",
+      EX: "border border-red-200/80 bg-red-50/80 text-red-900 shadow-2xs",
+    };
     const badge = document.createElement("span");
-    badge.className = `inline-block rounded px-1.5 py-0.5 text-[10px] font-mono ${CONSERVATION_TONE[opts.status]}`;
+    const variantStyle = badgeStyleMap[opts.status] || "border border-zinc-200/80 bg-zinc-50 text-zinc-800";
+    badge.className = `inline-flex items-center gap-1.5 rounded-full font-mono transition-all duration-200 select-none shrink-0 px-2 py-0.5 text-[10px] ${variantStyle}`;
     badge.textContent = CONSERVATION_LABEL[opts.status];
     leftBox.appendChild(badge);
   }
