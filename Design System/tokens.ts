@@ -78,6 +78,22 @@ export const typographyScale = [
   },
 ];
 
+export const zIndex = {
+  base: "z-0",
+  mapControls: "z-[2]",
+  nav: "z-10",
+  floatingCard: "z-20",
+  topNav: "z-30",
+  drawer: "z-50",
+  loader: "z-50",
+} as const;
+
+export const glassmorphism = {
+  floatingCapsule: "border border-zinc-300/80 bg-white/90 shadow-md backdrop-blur-xl",
+  floatingCard: "rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl",
+  drawer: "border-l border-white/60 bg-white/90 backdrop-blur-2xl shadow-2xl",
+} as const;
+
 export const tokens = {
   colors: colorSwatches,
   typography: typographyScale,
@@ -92,4 +108,7 @@ export const tokens = {
   animation: {
     ios: "transition-all duration-200 ease-ios",
   },
+  zIndex,
+  glassmorphism,
 } as const;
+

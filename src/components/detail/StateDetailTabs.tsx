@@ -175,27 +175,13 @@ export default function StateDetailTabs({
             ) : (
               nationalParks.map((np) => (
                 <li key={np.slug}>
-                  <Link
-                    href={`/protected-area/${np.slug}`}
-                    replace
-                    className="flex items-center justify-between rounded-xl border border-zinc-200/80 bg-white p-3 hover:bg-zinc-50/80 transition-colors shadow-2xs"
-                  >
-                    <div className="flex items-center gap-3 min-w-0 flex-1">
-                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-800 text-lg">
-                        🏞️
-                      </div>
-                      <div className="min-w-0 flex-1">
-                        <p className="font-semibold text-xs text-zinc-900 truncate">{np.name}</p>
-                        <p className="text-[11px] text-zinc-500 truncate">
-                          Headline species: <span className="text-zinc-700 font-medium">{np.headlineSpeciesSlug.replace(/-/g, " ")}</span>
-                        </p>
-                      </div>
-                    </div>
-                    {np.areaSqKm && (
-                      <span className="font-mono text-[10px] text-zinc-500 bg-zinc-100 px-2 py-1 rounded shrink-0 ml-2">
-                        {np.areaSqKm} km²
-                      </span>
-                    )}
+                  <Link href={`/protected-area/${np.slug}`} replace className="block">
+                    <List.ProtectedAreaItem
+                      name={np.name}
+                      iconEmoji="🏞️"
+                      headlineSpeciesSlug={np.headlineSpeciesSlug}
+                      areaSqKm={np.areaSqKm}
+                    />
                   </Link>
                 </li>
               ))
@@ -211,32 +197,14 @@ export default function StateDetailTabs({
             ) : (
               sanctuaries.map((sanc) => (
                 <li key={sanc.slug}>
-                  <Link
-                    href={`/protected-area/${sanc.slug}`}
-                    replace
-                    className="flex items-center justify-between rounded-xl border border-zinc-200/80 bg-white p-3 hover:bg-zinc-50/80 transition-colors shadow-2xs"
-                  >
-                    <div className="flex items-center gap-3 min-w-0 flex-1">
-                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-teal-100 text-teal-800 text-lg">
-                        {sanc.type === "bird-sanctuary" ? "🦅" : "🌿"}
-                      </div>
-                      <div className="min-w-0 flex-1">
-                        <div className="flex items-center gap-2">
-                          <p className="font-semibold text-xs text-zinc-900 truncate">{sanc.name}</p>
-                          <span className="font-mono text-[9px] uppercase text-teal-700 bg-teal-50 px-1.5 py-0.2 rounded border border-teal-200/60">
-                            {sanc.type === "bird-sanctuary" ? "Bird" : "Wildlife"}
-                          </span>
-                        </div>
-                        <p className="text-[11px] text-zinc-500 truncate">
-                          Headline species: <span className="text-zinc-700 font-medium">{sanc.headlineSpeciesSlug.replace(/-/g, " ")}</span>
-                        </p>
-                      </div>
-                    </div>
-                    {sanc.areaSqKm && (
-                      <span className="font-mono text-[10px] text-zinc-500 bg-zinc-100 px-2 py-1 rounded shrink-0 ml-2">
-                        {sanc.areaSqKm} km²
-                      </span>
-                    )}
+                  <Link href={`/protected-area/${sanc.slug}`} replace className="block">
+                    <List.ProtectedAreaItem
+                      name={sanc.name}
+                      typeLabel={sanc.type === "bird-sanctuary" ? "Bird" : "Wildlife"}
+                      iconEmoji={sanc.type === "bird-sanctuary" ? "🦅" : "🌿"}
+                      headlineSpeciesSlug={sanc.headlineSpeciesSlug}
+                      areaSqKm={sanc.areaSqKm}
+                    />
                   </Link>
                 </li>
               ))
@@ -252,22 +220,12 @@ export default function StateDetailTabs({
             ) : (
               zoos.map((zoo) => (
                 <li key={zoo.slug}>
-                  <Link
-                    href={`/zoo/${zoo.slug}`}
-                    replace
-                    className="flex items-center justify-between rounded-xl border border-zinc-200/80 bg-white p-3 hover:bg-zinc-50/80 transition-colors shadow-2xs"
-                  >
-                    <div className="flex items-center gap-3 min-w-0 flex-1">
-                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-amber-800 text-lg">
-                        🐘
-                      </div>
-                      <div className="min-w-0 flex-1">
-                        <p className="font-semibold text-xs text-zinc-900 truncate">{zoo.name}</p>
-                        <p className="text-[11px] text-zinc-500 truncate">
-                          {zoo.city} {zoo.establishedYear ? `· Est. ${zoo.establishedYear}` : ""}
-                        </p>
-                      </div>
-                    </div>
+                  <Link href={`/zoo/${zoo.slug}`} replace className="block">
+                    <List.ProtectedAreaItem
+                      name={zoo.name}
+                      iconEmoji="🏛️"
+                      subtitle={`${zoo.city}${zoo.establishedYear ? ` · Est. ${zoo.establishedYear}` : ""}`}
+                    />
                   </Link>
                 </li>
               ))

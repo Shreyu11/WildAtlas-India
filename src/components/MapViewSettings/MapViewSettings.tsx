@@ -203,34 +203,33 @@ export default function MapViewSettings() {
         </div>
       )}
 
-      <Button
-        variant="secondary"
+      {/* Bottom-left Trigger Button / Thumbnail */}
+      <button
+        type="button"
         onClick={() => setIsOpen((prev) => !prev)}
-        title="Map view settings (Shift+V+C)"
-        aria-label="Map view settings"
-        className="rounded-full border border-zinc-300/80 bg-white/90 p-1.5 pr-4 shadow-md backdrop-blur-xl hover:bg-white active:scale-95"
-        leadingIcon={
-          <div className="relative flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full border border-zinc-200 bg-zinc-100 shadow-xs">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.75"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="text-zinc-700"
-            >
-              <path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" />
-              <path d="m22 12.5-8.58 3.91a2 2 0 0 1-1.66 0L3.18 12.5" />
-              <path d="m22 17.5-8.58 3.91a2 2 0 0 1-1.66 0L3.18 17.5" />
-            </svg>
-          </div>
-        }
+        className="group flex items-center gap-3 rounded-full border border-zinc-300/80 bg-white/90 p-2 pr-4 shadow-md backdrop-blur-xl transition-all duration-200 ease-ios hover:border-zinc-400 hover:bg-white active:scale-95 focus:outline-none"
+        title="Map view settings (Shift+V)"
       >
-        <div className="flex flex-col items-start text-left gap-0.5">
+        {/* Layer preview thumbnail */}
+        <div className="relative flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full border border-zinc-200 bg-zinc-100 shadow-inner group-hover:scale-105 transition-transform duration-200 ease-ios">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.75"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="text-zinc-700"
+          >
+            <path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" />
+            <path d="m22 12.5-8.58 3.91a2 2 0 0 1-1.66 0L3.18 12.5" />
+            <path d="m22 17.5-8.58 3.91a2 2 0 0 1-1.66 0L3.18 17.5" />
+          </svg>
+        </div>
+        <div className="flex flex-col items-start text-left gap-1">
           <span className="font-sans text-xs font-bold text-zinc-900 leading-tight">
             Layer details
           </span>
@@ -238,7 +237,7 @@ export default function MapViewSettings() {
             Shift + V
           </span>
         </div>
-      </Button>
+      </button>
     </div>
   );
 }

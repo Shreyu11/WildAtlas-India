@@ -192,9 +192,69 @@ export const SpeciesListItem: React.FC<SpeciesListItemProps> = ({
   );
 };
 
+export interface ProtectedAreaListItemProps {
+  name: string;
+  typeLabel?: string;
+  iconEmoji?: string;
+  headlineSpeciesSlug?: string;
+  areaSqKm?: number;
+  subtitle?: string;
+  onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
+  className?: string;
+}
+
+export const ProtectedAreaListItem: React.FC<ProtectedAreaListItemProps> = ({
+  name,
+  typeLabel,
+  iconEmoji = "🏞️",
+  headlineSpeciesSlug,
+  areaSqKm,
+  subtitle,
+  onClick,
+  className = "",
+}) => {
+  return (
+    <div
+      onClick={onClick}
+      className={`group flex items-center justify-between rounded-xl border border-zinc-200/80 bg-white p-3 hover:bg-zinc-50/80 transition-colors shadow-2xs cursor-pointer ${className}`}
+    >
+      <div className="flex items-center gap-3 min-w-0 flex-1">
+        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-800 text-lg">
+          {iconEmoji}
+        </div>
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center gap-2">
+            <p className="font-semibold text-xs text-zinc-900 truncate">{name}</p>
+            {typeLabel && (
+              <span className="font-mono text-[9px] uppercase text-teal-700 bg-teal-50 px-1.5 py-0.2 rounded border border-teal-200/60">
+                {typeLabel}
+              </span>
+            )}
+          </div>
+          {headlineSpeciesSlug && (
+            <p className="text-[11px] text-zinc-500 truncate">
+              Headline species:{" "}
+              <span className="text-zinc-700 font-medium">
+                {headlineSpeciesSlug.replace(/-/g, " ")}
+              </span>
+            </p>
+          )}
+          {subtitle && <p className="text-[11px] text-zinc-500 truncate">{subtitle}</p>}
+        </div>
+      </div>
+      {areaSqKm && (
+        <span className="font-mono text-[10px] text-zinc-500 bg-zinc-100 px-2 py-1 rounded shrink-0 ml-2">
+          {areaSqKm} km²
+        </span>
+      )}
+    </div>
+  );
+};
+
 export const List: React.FC<ListProps> & {
   LinkItem: typeof NavigationLinkItem;
   SpeciesItem: typeof SpeciesListItem;
+  ProtectedAreaItem: typeof ProtectedAreaListItem;
 } = ({ header, children, className = "" }) => {
   return (
     <div className={`space-y-2 ${className}`}>
@@ -210,7 +270,9 @@ export const List: React.FC<ListProps> & {
 
 List.LinkItem = NavigationLinkItem;
 List.SpeciesItem = SpeciesListItem;
+List.ProtectedAreaItem = ProtectedAreaListItem;
 
 List.displayName = "List";
 
 export default List;
+

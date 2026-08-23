@@ -1,8 +1,23 @@
 import React from "react";
 
+export type BadgeVariant =
+  | "neutral"
+  | "emerald"
+  | "sky"
+  | "amber"
+  | "teal"
+  | "red"
+  | "orange"
+  | "yellow"
+  | "CR"
+  | "EN"
+  | "VU"
+  | "NT"
+  | "LC";
+
 export interface BadgeProps {
-  /** Visual color variant */
-  variant?: "neutral" | "emerald" | "sky" | "amber" | "teal" | "red" | "orange" | "yellow";
+  /** Visual color variant or conservation status code */
+  variant?: BadgeVariant;
   /** Size tier */
   size?: "sm" | "md" | "lg";
   /** Optional icon element */
@@ -13,6 +28,14 @@ export interface BadgeProps {
   className?: string;
 }
 
+const statusToVariantMap: Record<string, string> = {
+  CR: "red",
+  EN: "red",
+  VU: "orange",
+  NT: "yellow",
+  LC: "emerald",
+};
+
 export const Badge: React.FC<BadgeProps> = ({
   variant = "neutral",
   size = "md",
@@ -20,10 +43,12 @@ export const Badge: React.FC<BadgeProps> = ({
   children,
   className = "",
 }) => {
+  const resolvedVariant = statusToVariantMap[variant] || variant;
+
   const baseStyles =
     "inline-flex items-center gap-1.5 rounded-full font-mono transition-all duration-200 select-none shrink-0";
 
-  const variantStyles = {
+  const variantStyles: Record<string, string> = {
     neutral:
       "border border-zinc-200/80 bg-white/80 text-zinc-700 backdrop-blur-xl shadow-2xs hover:bg-white hover:border-zinc-300",
     emerald: "border border-emerald-200/80 bg-emerald-50/80 text-emerald-900 shadow-2xs",
@@ -35,6 +60,9 @@ export const Badge: React.FC<BadgeProps> = ({
     red: "border border-red-200/80 bg-red-50/80 text-red-900 shadow-2xs",
   };
 
+  const selectedVariantStyle = variantStyles[resolvedVariant] || variantStyles.neutral;
+
+
   const sizeStyles = {
     sm: "px-2 py-0.5 text-[10px]",
     md: "px-3 py-1 text-xs",
@@ -42,7 +70,7 @@ export const Badge: React.FC<BadgeProps> = ({
   };
 
   return (
-    <span className={`${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${className}`}>
+    <span className={`${baseStyles} ${selectedVariantStyle} ${sizeStyles[size]} ${className}`}>
       {icon}
       <span>{children}</span>
     </span>

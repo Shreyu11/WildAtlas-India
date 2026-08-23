@@ -117,8 +117,24 @@ export const FunFactCardVariation: React.FC<FunFactCardVariationProps> = ({
   );
 };
 
+export interface FloatingCardProps {
+  children: React.ReactNode;
+  className?: string;
+}
+
+export const FloatingCardVariation: React.FC<FloatingCardProps> = ({ children, className = "" }) => {
+  return (
+    <div
+      className={`rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios ${className}`}
+    >
+      {children}
+    </div>
+  );
+};
+
 export const Card: React.FC<CardProps> & {
   FunFact: typeof FunFactCardVariation;
+  Floating: typeof FloatingCardVariation;
 } = ({ children, className = "", onClick }) => {
   return (
     <div
@@ -131,6 +147,7 @@ export const Card: React.FC<CardProps> & {
 };
 
 Card.FunFact = FunFactCardVariation;
+Card.Floating = FloatingCardVariation;
 
 Card.displayName = "Card";
 

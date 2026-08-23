@@ -1,8 +1,8 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { Badge } from "../Badge/Badge";
-import { CONSERVATION_LABEL } from "@/lib/conservation";
-import type { Species } from "@/lib/types";
+import { CONSERVATION_LABEL } from "../../src/lib/conservation";
+import type { Species } from "../../src/lib/types";
 
 export interface MarkerTooltipProps {
   /** Species or place photo image URL */
