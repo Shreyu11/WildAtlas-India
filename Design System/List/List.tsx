@@ -197,7 +197,7 @@ export interface ProtectedAreaListItemProps {
   typeLabel?: string;
   iconEmoji?: string;
   headlineSpeciesSlug?: string;
-  areaSqKm?: number;
+  areaSqKm?: number | null;
   subtitle?: string;
   onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
   className?: string;

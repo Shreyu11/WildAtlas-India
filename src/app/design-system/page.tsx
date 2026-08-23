@@ -241,6 +241,10 @@ export default function DesignSystemPage() {
                         <p className={item.class}>{item.sample}</p>
                       </div>
                     </div>
+                  ))}
+                </div>
+              </div>
+
               {/* 3. Z-Index Elevation Tokens */}
               <div>
                 <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">

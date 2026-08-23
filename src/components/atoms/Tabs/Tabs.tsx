@@ -1,1 +1,3 @@
-export { Tabs, default, type TabsProps, type TabItem } from "@/design-system";
+import { Tabs, type TabsProps, type TabItem } from "@/design-system";
+export { Tabs, type TabsProps, type TabItem };
+export default Tabs;

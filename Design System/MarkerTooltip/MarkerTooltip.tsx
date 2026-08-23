@@ -34,6 +34,8 @@ export interface MarkerTooltipProps {
 }
 
 const statusBadgeVariantMap: Record<NonNullable<Species["conservationStatus"]>, "red" | "amber" | "orange" | "yellow" | "emerald"> = {
+  EX: "red",
+  EW: "red",
   CR: "red",
   EN: "amber",
   VU: "orange",
