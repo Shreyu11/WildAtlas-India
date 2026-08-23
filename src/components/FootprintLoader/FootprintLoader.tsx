@@ -1,13 +1,19 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function FootprintLoader() {
+  const pathname = usePathname();
   const [isVisible, setIsVisible] = useState(true);
   const [isFading, setIsFading] = useState(false);
   const [statusText, setStatusText] = useState("Initializing WildAtlas India...");
 
   useEffect(() => {
+    if (pathname === "/design-system" || pathname?.startsWith("/design-system")) {
+      return;
+    }
+
     const startTime = Date.now();
     const duration = 2400;
 
@@ -41,9 +47,9 @@ export default function FootprintLoader() {
       clearTimeout(fadeTimer);
       clearTimeout(unmountTimer);
     };
-  }, []);
+  }, [pathname]);
 
-  if (!isVisible) return null;
+  if (pathname === "/design-system" || pathname?.startsWith("/design-system") || !isVisible) return null;
 
   return (
     <div

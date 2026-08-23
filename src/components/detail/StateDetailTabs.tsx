@@ -44,7 +44,7 @@ export default function StateDetailTabs({
   return (
     <div className="space-y-5">
       {/* 1. State Topology Cover Photo */}
-      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl bg-zinc-100 flex items-center justify-center border border-zinc-200/60">
+      <div className="aspect-[16/9] w-full overflow-hidden rounded-2xl bg-zinc-100 flex items-center justify-center border border-zinc-200/60">
         {state.photoUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
@@ -57,12 +57,9 @@ export default function StateDetailTabs({
             Topology Photo
           </div>
         )}
-        <div className="absolute bottom-3 left-4 right-4 pointer-events-none">
-          <h1 className="text-2xl font-bold tracking-tight text-zinc-900">
-            {state.name}
-          </h1>
-        </div>
       </div>
+
+      <h1 className="text-2xl font-semibold text-zinc-900">{state.name}</h1>
 
       {/* 2. Official State Animal & State Bird */}
       <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
