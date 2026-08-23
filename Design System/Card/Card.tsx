@@ -1,6 +1,7 @@
 import React from "react";
 import { Lightbulb, X } from "lucide-react";
 import { IconButton } from "../IconButton/IconButton";
+import { glassmorphism } from "../tokens";
 
 export interface CardProps {
   children: React.ReactNode;
@@ -125,7 +126,7 @@ export interface FloatingCardProps {
 export const FloatingCardVariation: React.FC<FloatingCardProps> = ({ children, className = "" }) => {
   return (
     <div
-      className={`rounded-[22px] border border-white/60 bg-white/85 p-4 shadow-xl backdrop-blur-2xl transition-all duration-200 ease-ios ${className}`}
+      className={`${glassmorphism.floatingCard} transition-all duration-200 ease-ios ${className}`}
     >
       {children}
     </div>

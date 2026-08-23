@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import { zIndex } from "@/design-system";
 
 export default function FootprintLoader() {
   const pathname = usePathname();
@@ -53,7 +54,7 @@ export default function FootprintLoader() {
 
   return (
     <div
-      className={`fixed inset-0 z-50 flex flex-col items-center justify-center text-center bg-white/90 backdrop-blur-md transition-opacity duration-400 ease-out ${
+      className={`fixed inset-0 ${zIndex.loader} flex flex-col items-center justify-center text-center bg-white/90 backdrop-blur-md transition-opacity duration-400 ease-out ${
         isFading ? "opacity-0 pointer-events-none" : "opacity-100"
       }`}
       role="status"

@@ -1,6 +1,6 @@
 "use client";
 
-import { IconButton } from "@/design-system";
+import { IconButton, zIndex, glassmorphism } from "@/design-system";
 
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -39,7 +39,7 @@ export default function Drawer({ children, title = "Species Info" }: DrawerProps
 
   return (
     <div
-      className={`fixed inset-y-0 right-0 z-50 flex w-[30vw] min-w-[360px] flex-col rounded-l-[32px] border-l border-white/60 bg-white/90 backdrop-blur-2xl shadow-2xl transition-transform duration-300 ease-ios ${
+      className={`fixed inset-y-0 right-0 ${zIndex.drawer} flex w-[30vw] min-w-[360px] flex-col rounded-l-[32px] ${glassmorphism.drawer} transition-transform duration-300 ease-ios ${
         entered ? "translate-x-0" : "translate-x-full"
       }`}
     >

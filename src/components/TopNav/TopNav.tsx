@@ -1,6 +1,6 @@
 "use client";
 
-import { IconButton } from "@/design-system";
+import { IconButton, zIndex, glassmorphism } from "@/design-system";
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -30,7 +30,7 @@ export default function TopNav() {
     pathname.startsWith("/protected-area");
 
   return (
-    <nav className="fixed inset-x-0 top-0 z-30 pointer-events-none flex h-20 items-center justify-between gap-4 px-6 transition-all duration-300">
+    <nav className={`fixed inset-x-0 top-0 ${zIndex.topNav} pointer-events-none flex h-20 items-center justify-between gap-4 px-6 transition-all duration-300`}>
       {/* Progressive Background Blur Bar on-scroll for List View only */}
       <div
         className={`absolute inset-x-0 top-0 h-28 transition-all duration-300 pointer-events-none ${
@@ -47,7 +47,7 @@ export default function TopNav() {
       {/* Floating Logo Capsule */}
       <Link
         href="/"
-        className="pointer-events-auto relative z-10 shrink-0 flex items-center gap-2 rounded-full border border-zinc-300/80 bg-white/90 px-4 py-2 text-sm font-semibold tracking-tight text-zinc-900 shadow-md backdrop-blur-xl transition-all duration-200 ease-ios hover:border-zinc-400 hover:bg-white active:scale-95"
+        className={`pointer-events-auto relative z-10 shrink-0 flex items-center gap-2 rounded-full ${glassmorphism.floatingCapsule} px-4 py-2 text-sm font-semibold tracking-tight text-zinc-900 transition-all duration-200 ease-ios hover:border-zinc-400 hover:bg-white active:scale-95`}
       >
         <span className="text-base select-none">🐾</span>
         <span className="font-semibold tracking-tight">WildAtlas India</span>
@@ -59,7 +59,7 @@ export default function TopNav() {
       </div>
 
       {/* Floating Action Cluster Capsule */}
-      <div className="pointer-events-auto relative z-10 ml-auto flex shrink-0 items-center gap-1 rounded-full border border-zinc-300/80 bg-white/90 p-1.5 px-2 shadow-md backdrop-blur-xl">
+      <div className={`pointer-events-auto relative z-10 ml-auto flex shrink-0 items-center gap-1 rounded-full ${glassmorphism.floatingCapsule} p-1.5 px-2`}>
         <IconButton
           variant="ghost"
           size="sm"

@@ -31,6 +31,8 @@ import {
   List,
   colorSwatches,
   typographyScale,
+  zIndex,
+  glassmorphism,
 } from "@/design-system";
 
 export default function DesignSystemPage() {
@@ -238,6 +240,32 @@ export default function DesignSystemPage() {
                       <div className="py-2.5 px-1 overflow-x-auto overflow-y-visible">
                         <p className={item.class}>{item.sample}</p>
                       </div>
+                    </div>
+              {/* 3. Z-Index Elevation Tokens */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  3. Z-Index Elevation Tokens (`tokens.zIndex`)
+                </h3>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 font-mono text-xs">
+                  {Object.entries(zIndex).map(([key, val]) => (
+                    <div key={key} className="p-3 rounded-xl border border-zinc-200/80 bg-zinc-50 flex items-center justify-between">
+                      <span className="font-semibold text-zinc-800">{key}</span>
+                      <span className="bg-zinc-200 text-zinc-700 px-2 py-0.5 rounded text-[11px] font-bold">{val}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* 4. Glassmorphic Surface Tokens */}
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400 font-mono mb-4">
+                  4. Glassmorphic Surface Tokens (`tokens.glassmorphism`)
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  {Object.entries(glassmorphism).map(([key, val]) => (
+                    <div key={key} className={`p-4 ${val} space-y-1`}>
+                      <span className="font-mono text-xs font-bold text-zinc-900 block capitalize">{key}</span>
+                      <code className="font-mono text-[10px] text-zinc-500 block truncate">{val}</code>
                     </div>
                   ))}
                 </div>

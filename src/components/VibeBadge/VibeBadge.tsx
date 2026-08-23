@@ -1,8 +1,8 @@
-import { Badge } from "@/design-system";
+import { Badge, zIndex } from "@/design-system";
 
 export default function VibeBadge() {
   return (
-    <div className="absolute bottom-5 right-16 z-20">
+    <div className={`absolute bottom-5 right-16 ${zIndex.floatingCard}`}>
       <Badge variant="neutral" size="md">
         <span>Vibe coded with</span>
         <span className="inline-flex items-center justify-center text-xs animate-pulse">💚</span>
