@@ -40,9 +40,9 @@ export const typographyScale = [
     role: "H2 — Entity & Page Title",
     font: "Manrope (Sans)",
     size: "24px (text-2xl)",
-    weight: "Bold (700)",
+    weight: "Extrabold (800)",
     sample: "Royal Bengal Tiger · Kaziranga National Park",
-    class: "text-2xl font-bold tracking-tight text-zinc-900",
+    class: "text-2xl font-extrabold tracking-tight text-zinc-900",
   },
   {
     role: "H3 — Section Header",
