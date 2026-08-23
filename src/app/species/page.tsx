@@ -1,7 +1,8 @@
+import { Badge } from "@/design-system";
 import Link from "next/link";
 import { X } from "lucide-react";
 import { getSpecies } from "@/lib/data";
-import { CONSERVATION_LABEL, CONSERVATION_TONE } from "@/lib/conservation";
+import { CONSERVATION_LABEL } from "@/lib/conservation";
 import { SPECIES_ICON, DEFAULT_SPECIES_ICON } from "@/lib/mockIcons";
 
 export default async function SpeciesIndexPage() {
@@ -55,13 +56,11 @@ export default async function SpeciesIndexPage() {
                   <div className="flex flex-1 flex-col gap-1 p-3">
                     <p className="truncate text-xs font-semibold text-zinc-900">{item.commonName}</p>
                     <p className="truncate text-[11px] italic text-zinc-500">{item.scientificName}</p>
-                    <span
-                      className={`mt-1 inline-block w-fit rounded px-1.5 py-0.5 font-mono text-[9px] font-medium ${
-                        CONSERVATION_TONE[item.conservationStatus]
-                      }`}
-                    >
-                      {CONSERVATION_LABEL[item.conservationStatus]}
-                    </span>
+                    <div className="mt-1">
+                      <Badge variant={item.conservationStatus} size="sm">
+                        {CONSERVATION_LABEL[item.conservationStatus]}
+                      </Badge>
+                    </div>
                   </div>
                 </Link>
               </li>

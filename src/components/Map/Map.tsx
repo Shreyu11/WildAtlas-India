@@ -3,7 +3,7 @@
 import "maplibre-gl/dist/maplibre-gl.css";
 import {
   Map as MaplibreMap,
-  Marker,
+  Marker as MaplibreMarker,
   NavigationControl,
   AttributionControl,
   LngLatBounds,
@@ -17,7 +17,7 @@ import type { MarkerTier, ProtectedArea, Species, SpeciesDensityCell, SpeciesDen
 import { DEFAULT_SPECIES_ICON, PROTECTED_AREA_ICON, SPECIES_ICON, ZOO_ICON } from "@/lib/mockIcons";
 import { CONSERVATION_LABEL, CONSERVATION_TONE } from "@/lib/conservation";
 import { createRoot } from "react-dom/client";
-import { MarkerTooltip } from "@/design-system";
+import { MarkerTooltip, Marker } from "@/design-system";
 import { useSearch } from "@/components/SearchProvider/SearchProvider";
 import { useMapSettings } from "@/components/MapSettingsProvider/MapSettingsProvider";
 
@@ -323,27 +323,16 @@ function speciesMarkerEl(
   },
 ): HTMLDivElement {
   const wrapper = document.createElement("div");
-  // `[&.expanded]:z-50` (self, not descendant) keeps an expanded card above
-  // sibling markers even after the mouse moves away from it post-click.
   wrapper.className = "group cursor-pointer hover:z-50 [&.expanded]:z-50";
 
-  const circle = document.createElement("div");
-  circle.className =
-    "h-11 w-11 overflow-hidden rounded-full border-2 border-white bg-zinc-200 shadow-md transition-opacity duration-200 ease-out group-hover:opacity-0 [.expanded_&]:opacity-0";
-  wrapper.appendChild(circle);
-
+  const pinContainer = document.createElement("div");
+  pinContainer.className = "transition-opacity duration-200 ease-out group-hover:opacity-0 [.expanded_&]:opacity-0";
   const fallbackIcon = species ? SPECIES_ICON[species.slug] ?? DEFAULT_SPECIES_ICON : DEFAULT_SPECIES_ICON;
-
-  if (species?.photoUrl) {
-    const img = document.createElement("img");
-    img.src = species.photoUrl;
-    img.alt = species.commonName;
-    img.className = "h-full w-full object-cover";
-    circle.appendChild(img);
-  } else {
-    circle.className += " flex items-center justify-center text-xl";
-    circle.textContent = fallbackIcon;
-  }
+  
+  createRoot(pinContainer).render(
+    <Marker type="species" photoUrl={species?.photoUrl} icon={fallbackIcon} />
+  );
+  wrapper.appendChild(pinContainer);
 
   wrapper.appendChild(
     buildMarkerCard({
@@ -358,10 +347,6 @@ function speciesMarkerEl(
   return wrapper;
 }
 
-// Base pin stays the small, distinct non-animal icon at rest (PRD 4.5 —
-// species and protected-area markers must never be visually conflated);
-// only the card shows a photo, borrowed from the park's headline species
-// when one's known.
 function protectedAreaMarkerEl(
   pa: ProtectedArea,
   headline: Species | undefined,
@@ -372,11 +357,14 @@ function protectedAreaMarkerEl(
 
   const fallbackIcon = PROTECTED_AREA_ICON[pa.type] ?? "📍";
 
-  const icon = document.createElement("div");
-  icon.className =
-    "flex h-6 w-6 items-center justify-center rounded-full border-2 border-zinc-600 bg-white text-xs shadow transition-opacity duration-200 ease-out group-hover:opacity-0 [.expanded_&]:opacity-0";
-  icon.textContent = fallbackIcon;
-  wrapper.appendChild(icon);
+  const pinContainer = document.createElement("div");
+  pinContainer.className = "transition-opacity duration-200 ease-out group-hover:opacity-0 [.expanded_&]:opacity-0";
+  
+  const markerType = pa.type === "national-park" ? "national-park" : "sanctuary";
+  createRoot(pinContainer).render(
+    <Marker type={markerType} icon={fallbackIcon} />
+  );
+  wrapper.appendChild(pinContainer);
 
   wrapper.appendChild(
     buildMarkerCard({
@@ -399,11 +387,13 @@ function zooMarkerEl(
   const wrapper = document.createElement("div");
   wrapper.className = "group cursor-pointer hover:z-50 [&.expanded]:z-50";
 
-  const icon = document.createElement("div");
-  icon.className =
-    "flex h-6 w-6 items-center justify-center rounded-full border-2 border-zinc-700 bg-white text-xs shadow transition-opacity duration-200 ease-out group-hover:opacity-0 [.expanded_&]:opacity-0";
-  icon.textContent = ZOO_ICON;
-  wrapper.appendChild(icon);
+  const pinContainer = document.createElement("div");
+  pinContainer.className = "transition-opacity duration-200 ease-out group-hover:opacity-0 [.expanded_&]:opacity-0";
+  
+  createRoot(pinContainer).render(
+    <Marker type="zoo" icon={ZOO_ICON} />
+  );
+  wrapper.appendChild(pinContainer);
 
   wrapper.appendChild(
     buildMarkerCard({
@@ -418,27 +408,14 @@ function zooMarkerEl(
   return wrapper;
 }
 
-// Zoomed-out stand-in for a group of protected-area/zoo markers sitting too
-// close together to render individually (PRD 4.2/4.4 "numbered cluster
-// badges when zoomed out"). Deliberately monochrome, matching the existing
-// protected-area icon pin, not a saturated color like a typical map-provider
-// cluster badge — "color is reserved for wildlife" (PRD Section 7). Carries
-// no name label (unlike a leaf marker) since a cluster has no single name to
-// show.
 function clusterMarkerEl(count: number, onClick: () => void): HTMLDivElement {
-  const size = count < 10 ? 32 : count < 25 ? 40 : 48;
-  const textSizeClass = count < 10 ? "text-xs" : count < 25 ? "text-sm" : "text-base";
-
   const el = document.createElement("div");
-  el.className =
-    `flex cursor-pointer items-center justify-center rounded-full border-2 border-zinc-700 bg-white font-mono font-bold text-zinc-800 shadow-md transition-transform ${textSizeClass}`;
-  el.style.width = `${size}px`;
-  el.style.height = `${size}px`;
-  el.textContent = String(count);
+  el.className = "cursor-pointer";
   el.addEventListener("click", (e) => {
     e.stopPropagation();
     onClick();
   });
+  createRoot(el).render(<Marker type="cluster" count={count} />);
   return el;
 }
 
@@ -505,7 +482,7 @@ function labelEl(text: string, kind: "state" | "protected-area"): HTMLDivElement
 }
 
 interface SpeciesMarkerMeta {
-  marker: Marker;
+  marker: MaplibreMarker;
   speciesSlug: string;
   stateSlug: string;
   lng: number;
@@ -513,7 +490,7 @@ interface SpeciesMarkerMeta {
 }
 
 interface StateLabelMeta {
-  label: Marker;
+  label: MaplibreMarker;
   stateSlug: string;
   stateName: string;
   lng: number;
@@ -559,7 +536,7 @@ export default function Map({ states, species, protectedAreas, zoos = [], specie
   const stateNameBySlugRef = useRef<Map<string, string>>(new globalThis.Map());
   const speciesMarkerMetaRef = useRef<SpeciesMarkerMeta[]>([]);
   const stateLabelMetaRef = useRef<StateLabelMeta[]>([]);
-  const paZooMarkersRef = useRef<Marker[]>([]);
+  const paZooMarkersRef = useRef<MaplibreMarker[]>([]);
   const lastClusterSignatureRef = useRef<string>("");
   const expandedMarkerRef = useRef<HTMLDivElement | null>(null);
   const prevQueryRef = useRef(query);
@@ -740,7 +717,7 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
     map.on("click", handleMapBackgroundClick);
     document.addEventListener("keydown", handleKeyDown);
 
-    const createdMarkers: Marker[] = [];
+    const createdMarkers: MaplibreMarker[] = [];
     const speciesMeta: SpeciesMarkerMeta[] = [];
     const stateMeta: StateLabelMeta[] = [];
 
@@ -762,7 +739,7 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
       });
       wrapper.addEventListener("click", handleMarkerClick(wrapper, sp.slug, marker.lng, marker.lat));
 
-      const m = new Marker({ element: wrapper }).setLngLat([marker.lng, marker.lat]).addTo(map);
+      const m = new MaplibreMarker({ element: wrapper }).setLngLat([marker.lng, marker.lat]).addTo(map);
       createdMarkers.push(m);
 
       speciesMeta.push({
@@ -781,7 +758,7 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
         e.stopPropagation();
         router.push(`/state/${st.slug}`);
       });
-      const label = new Marker({ element: el, anchor: "center" })
+      const label = new MaplibreMarker({ element: el, anchor: "center" })
         .setLngLat([st.lng, st.lat])
         .addTo(map);
       createdMarkers.push(label);
@@ -1154,7 +1131,7 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
                 : Math.min(currentZoom + 2, 8);
             map.easeTo({ center: [lng, lat], zoom: targetZoom, duration: 500 });
           });
-          const m = new Marker({ element: el }).setLngLat([lng, lat]).addTo(map);
+          const m = new MaplibreMarker({ element: el }).setLngLat([lng, lat]).addTo(map);
           paZooMarkersRef.current.push(m);
           continue;
         }
@@ -1177,10 +1154,10 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
           });
           wrapper.addEventListener("click", handleMarkerClick(wrapper, pa.lng, pa.lat));
 
-          const m = new Marker({ element: wrapper }).setLngLat([pa.lng, pa.lat]).addTo(map);
+          const m = new MaplibreMarker({ element: wrapper }).setLngLat([pa.lng, pa.lat]).addTo(map);
           paZooMarkersRef.current.push(m);
 
-          const label = new Marker({ element: labelEl(pa.name, "protected-area"), anchor: "top", offset: [0, 14] })
+          const label = new MaplibreMarker({ element: labelEl(pa.name, "protected-area"), anchor: "top", offset: [0, 14] })
             .setLngLat([pa.lng, pa.lat])
             .addTo(map);
           paZooMarkersRef.current.push(label);
@@ -1200,10 +1177,10 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
           });
           wrapper.addEventListener("click", handleMarkerClick(wrapper, zoo.lng, zoo.lat));
 
-          const m = new Marker({ element: wrapper }).setLngLat([zoo.lng, zoo.lat]).addTo(map);
+          const m = new MaplibreMarker({ element: wrapper }).setLngLat([zoo.lng, zoo.lat]).addTo(map);
           paZooMarkersRef.current.push(m);
 
-          const label = new Marker({ element: labelEl(zoo.name, "protected-area"), anchor: "top", offset: [0, 14] })
+          const label = new MaplibreMarker({ element: labelEl(zoo.name, "protected-area"), anchor: "top", offset: [0, 14] })
             .setLngLat([zoo.lng, zoo.lat])
             .addTo(map);
           paZooMarkersRef.current.push(label);

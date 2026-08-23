@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
 import { useMapSettings, type MapSettings } from "@/components/MapSettingsProvider/MapSettingsProvider";
 
-import { IconButton, Toggle, Button } from "@/design-system";
+import { IconButton, Toggle, Button, zIndex, glassmorphism } from "@/design-system";
 
 export default function MapViewSettings() {
   const [isOpen, setIsOpen] = useState(false);
@@ -133,7 +133,7 @@ export default function MapViewSettings() {
   }, [isOpen, toggleItems, toggleSetting]);
 
   return (
-    <div ref={panelRef} className="absolute bottom-6 left-6 z-30 flex flex-col items-start">
+    <div ref={panelRef} className={`absolute bottom-6 left-6 ${zIndex.topNav} flex flex-col items-start`}>
       {/* Popover Settings Panel */}
       {isOpen && (
         <div className="mb-3 w-80 rounded-[24px] border border-zinc-300/80 bg-white/95 p-5 shadow-2xl backdrop-blur-2xl transition-all duration-300 ease-ios animate-in fade-in slide-in-from-bottom-2">
@@ -207,7 +207,7 @@ export default function MapViewSettings() {
       <button
         type="button"
         onClick={() => setIsOpen((prev) => !prev)}
-        className="group flex items-center gap-3 rounded-full border border-zinc-300/80 bg-white/90 p-2 pr-4 shadow-md backdrop-blur-xl transition-all duration-200 ease-ios hover:border-zinc-400 hover:bg-white active:scale-95 focus:outline-none"
+        className={`group flex items-center gap-3 rounded-full ${glassmorphism.floatingCapsule} p-2 pr-4 transition-all duration-200 ease-ios hover:border-zinc-400 hover:bg-white active:scale-95 focus:outline-none`}
         title="Map view settings (Shift+V)"
       >
         {/* Layer preview thumbnail */}

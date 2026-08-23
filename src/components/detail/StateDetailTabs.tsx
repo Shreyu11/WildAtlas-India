@@ -8,7 +8,7 @@ import { CONSERVATION_LABEL, CONSERVATION_TONE } from "@/lib/conservation";
 import { SPECIES_ICON, DEFAULT_SPECIES_ICON } from "@/lib/mockIcons";
 import SpeciesAudioButton from "@/components/audio/SpeciesAudioButton";
 import DataAttributionFooter from "@/components/DataAttributionFooter";
-import { Tabs, List } from "@/design-system";
+import { Tabs, List, Card } from "@/design-system";
 
 interface StateDetailTabsProps {
   state: State;
@@ -64,7 +64,7 @@ export default function StateDetailTabs({
       {/* 2. Official State Animal & State Bird */}
       <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
         {stateAnimal && (
-          <div className="flex items-center gap-2.5 rounded-2xl bg-emerald-50/80 border border-emerald-200/80 p-3 text-xs text-emerald-950 shadow-2xs">
+          <Card className="flex items-center gap-2.5 bg-emerald-50/80 border-emerald-200/80 p-3 text-xs text-emerald-950 shadow-2xs">
             <span className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-emerald-100/90 border border-emerald-200/80 text-lg">
               {stateAnimal.photoUrl ? (
                 // eslint-disable-next-line @next/next/no-img-element
@@ -86,11 +86,11 @@ export default function StateDetailTabs({
               </Link>
             </div>
             <SpeciesAudioButton audioUrl={stateAnimal.audioUrl} speciesName={stateAnimal.commonName} size="sm" />
-          </div>
+          </Card>
         )}
 
         {stateBird && (
-          <div className="flex items-center gap-2.5 rounded-2xl bg-sky-50/80 border border-sky-200/80 p-3 text-xs text-sky-950 shadow-2xs">
+          <Card className="flex items-center gap-2.5 bg-sky-50/80 border-sky-200/80 p-3 text-xs text-sky-950 shadow-2xs">
             <span className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-sky-100/90 border border-sky-200/80 text-lg">
               {stateBird.photoUrl ? (
                 // eslint-disable-next-line @next/next/no-img-element
@@ -112,7 +112,7 @@ export default function StateDetailTabs({
               </Link>
             </div>
             <SpeciesAudioButton audioUrl={stateBird.audioUrl} speciesName={stateBird.commonName} size="sm" />
-          </div>
+          </Card>
         )}
       </div>
 

@@ -1,7 +1,8 @@
+import { Badge } from "@/design-system";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getSpecies, getStates, getFunFacts } from "@/lib/data";
-import { CONSERVATION_LABEL, CONSERVATION_TONE } from "@/lib/conservation";
+import { CONSERVATION_LABEL } from "@/lib/conservation";
 import { SPECIES_ICON, DEFAULT_SPECIES_ICON } from "@/lib/mockIcons";
 import DataAttributionFooter from "@/components/DataAttributionFooter";
 import type { CitedFact } from "@/lib/types";
@@ -101,12 +102,9 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
       {item.conservationEfforts && item.conservationEfforts.length > 0 && (
         <div className="mt-3 flex flex-wrap gap-1.5">
           {item.conservationEfforts.map((effort) => (
-            <span
-              key={effort}
-              className="inline-block rounded-md bg-zinc-100 px-2 py-0.5 font-mono text-[10px] text-zinc-700 border border-zinc-200"
-            >
+            <Badge key={effort} variant="neutral" size="sm">
               🛡️ {effort}
-            </span>
+            </Badge>
           ))}
         </div>
       )}
@@ -116,11 +114,9 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
       <dl className="mt-6 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2.5 text-xs text-zinc-900">
         <dt className="font-mono uppercase text-zinc-400">IUCN Status</dt>
         <dd>
-          <span
-            className={`inline-block rounded px-2 py-0.5 font-mono text-xs font-semibold ${CONSERVATION_TONE[item.conservationStatus]}`}
-          >
+          <Badge variant={item.conservationStatus} size="sm">
             {CONSERVATION_LABEL[item.conservationStatus]}
-          </span>
+          </Badge>
         </dd>
         <dt className="font-mono uppercase text-zinc-400">Habitat</dt>
         <dd className="text-zinc-800">{item.habitat}</dd>

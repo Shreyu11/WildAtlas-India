@@ -9,6 +9,8 @@ export type BadgeVariant =
   | "red"
   | "orange"
   | "yellow"
+  | "EX"
+  | "EW"
   | "CR"
   | "EN"
   | "VU"
@@ -29,8 +31,10 @@ export interface BadgeProps {
 }
 
 const statusToVariantMap: Record<string, string> = {
+  EX: "red",
+  EW: "red",
   CR: "red",
-  EN: "red",
+  EN: "amber",
   VU: "orange",
   NT: "yellow",
   LC: "emerald",
