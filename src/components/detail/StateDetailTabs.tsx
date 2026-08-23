@@ -64,7 +64,7 @@ export default function StateDetailTabs({
       {/* 2. Official State Animal & State Bird */}
       <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
         {stateAnimal && (
-          <Card className="flex items-center gap-2.5 bg-emerald-50/80 border-emerald-200/80 p-3 text-xs text-emerald-950 shadow-2xs">
+          <div className="flex items-center gap-2.5 rounded-2xl bg-emerald-50/80 border border-emerald-200/80 p-3 text-xs text-emerald-950 shadow-2xs">
             <span className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-emerald-100/90 border border-emerald-200/80 text-lg">
               {stateAnimal.photoUrl ? (
                 // eslint-disable-next-line @next/next/no-img-element
@@ -86,11 +86,11 @@ export default function StateDetailTabs({
               </Link>
             </div>
             <SpeciesAudioButton audioUrl={stateAnimal.audioUrl} speciesName={stateAnimal.commonName} size="sm" />
-          </Card>
+          </div>
         )}
 
         {stateBird && (
-          <Card className="flex items-center gap-2.5 bg-sky-50/80 border-sky-200/80 p-3 text-xs text-sky-950 shadow-2xs">
+          <div className="flex items-center gap-2.5 rounded-2xl bg-sky-50/80 border border-sky-200/80 p-3 text-xs text-sky-950 shadow-2xs">
             <span className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-sky-100/90 border border-sky-200/80 text-lg">
               {stateBird.photoUrl ? (
                 // eslint-disable-next-line @next/next/no-img-element
@@ -112,7 +112,7 @@ export default function StateDetailTabs({
               </Link>
             </div>
             <SpeciesAudioButton audioUrl={stateBird.audioUrl} speciesName={stateBird.commonName} size="sm" />
-          </Card>
+          </div>
         )}
       </div>
 
