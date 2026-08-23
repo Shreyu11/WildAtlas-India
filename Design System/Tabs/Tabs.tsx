@@ -29,7 +29,7 @@ export function Tabs<T extends string = string>({
       <div
         role="tablist"
         aria-orientation="horizontal"
-        className="-mb-px flex space-x-1 overflow-x-auto pb-0.5"
+        className="-mb-[2px] flex space-x-1 overflow-x-auto"
       >
         {tabs.map((tab) => {
           const isActive = activeTab === tab.id;
