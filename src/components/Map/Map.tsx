@@ -304,7 +304,7 @@ function buildMarkerCard(opts: {
 
   const card = document.createElement("div");
   card.className =
-    "flex w-28 flex-col items-center gap-1 rounded-2xl border border-white bg-white p-2 transition-[width] duration-300 ease-out [.expanded_&]:w-56 [.expanded_&]:cursor-pointer";
+    "font-sans flex w-28 flex-col items-center gap-1 rounded-2xl border border-white bg-white p-2 transition-[width] duration-300 ease-out [.expanded_&]:w-56 [.expanded_&]:cursor-pointer";
   card.addEventListener("click", (e) => {
     if (tooltip.parentElement?.classList.contains("expanded")) {
       e.stopPropagation();
@@ -356,13 +356,13 @@ function buildMarkerCard(opts: {
 
   if (opts.subtitle) {
     const subtitle = document.createElement("p");
-    subtitle.className = "pt-1 text-[10px] text-zinc-500";
+    subtitle.className = "pt-1 text-[10px] italic text-zinc-500 font-sans";
     subtitle.textContent = opts.subtitle;
     detail.appendChild(subtitle);
   }
 
   const fact = document.createElement("p");
-  fact.className = "mt-0.5 text-xs leading-snug text-zinc-600 line-clamp-3";
+  fact.className = "mt-0.5 text-xs leading-snug text-zinc-600 font-sans line-clamp-3";
   fact.textContent = opts.fact;
   detail.appendChild(fact);
 

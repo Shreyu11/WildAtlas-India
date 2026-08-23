@@ -118,7 +118,12 @@ body {
   animation: pawFadeToes 2.4s ease-in-out infinite;
 }
 
-/* MapLibre Attribution Control - Closed by default, expands on hover/focus */
+/* MapLibre Attribution Control & Marker Font Family Override */
+.maplibregl-marker,
+.maplibregl-popup {
+  font-family: var(--font-manrope), -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, sans-serif !important;
+}
+
 .maplibregl-ctrl-attrib.maplibregl-compact:not(:hover):not(:focus-within) {
   background-color: transparent !important;
 }
