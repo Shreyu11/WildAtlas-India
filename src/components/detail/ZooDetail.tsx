@@ -34,7 +34,7 @@ export default async function ZooDetail({ slug }: { slug: string }) {
         </div>
       )}
 
-      <h1 className="text-2xl font-semibold text-zinc-900">{zoo.name}</h1>
+      <h2 className="text-2xl font-extrabold tracking-tight text-zinc-900">{zoo.name}</h2>
       <p className="mt-1 font-mono text-xs uppercase text-zinc-500">
         Zoological Garden · {zoo.city}
         {state && (

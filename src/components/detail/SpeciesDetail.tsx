@@ -64,7 +64,7 @@ export default async function SpeciesDetail({ slug }: { slug: string }) {
 
       <div>
         <div className="flex items-center gap-2.5">
-          <h1 className="text-2xl font-semibold text-zinc-900">{item.commonName}</h1>
+          <h2 className="text-2xl font-extrabold tracking-tight text-zinc-900">{item.commonName}</h2>
           <SpeciesAudioButton audioUrl={item.audioUrl} speciesName={item.commonName} size="md" />
         </div>
         <p className="text-sm italic text-zinc-500">{item.scientificName}</p>

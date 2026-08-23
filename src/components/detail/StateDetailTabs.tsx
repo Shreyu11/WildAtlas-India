@@ -59,7 +59,7 @@ export default function StateDetailTabs({
         )}
       </div>
 
-      <h1 className="text-2xl font-semibold text-zinc-900">{state.name}</h1>
+      <h2 className="text-2xl font-extrabold tracking-tight text-zinc-900">{state.name}</h2>
 
       {/* 2. Official State Animal & State Bird */}
       <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
