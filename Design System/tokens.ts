@@ -34,7 +34,7 @@ export const typographyScale = [
     size: "32px / 36px (text-3xl / text-4xl)",
     weight: "Extrabold (800)",
     sample: "WildAtlas India Design System",
-    class: "text-3xl sm:text-4xl font-extrabold tracking-tight text-zinc-900",
+    class: "text-3xl sm:text-4xl font-extrabold tracking-tight text-zinc-900 leading-tight sm:leading-normal",
   },
   {
     role: "H2 — Section Header",

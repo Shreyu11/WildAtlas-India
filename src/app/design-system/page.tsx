@@ -235,7 +235,7 @@ export default function DesignSystemPage() {
                       </div>
 
                       {/* Live Text Sample */}
-                      <div className="pt-1 overflow-x-auto">
+                      <div className="py-2.5 px-1 overflow-x-auto overflow-y-visible">
                         <p className={item.class}>{item.sample}</p>
                       </div>
                     </div>
