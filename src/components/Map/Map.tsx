@@ -16,6 +16,8 @@ import Supercluster from "supercluster";
 import type { MarkerTier, ProtectedArea, Species, SpeciesDensityCell, SpeciesDensityMap, State, Zoo } from "@/lib/types";
 import { DEFAULT_SPECIES_ICON, PROTECTED_AREA_ICON, SPECIES_ICON, ZOO_ICON } from "@/lib/mockIcons";
 import { CONSERVATION_LABEL, CONSERVATION_TONE } from "@/lib/conservation";
+import { createRoot } from "react-dom/client";
+import { MarkerTooltip } from "@/design-system";
 import { useSearch } from "@/components/SearchProvider/SearchProvider";
 import { useMapSettings } from "@/components/MapSettingsProvider/MapSettingsProvider";
 
@@ -277,8 +279,6 @@ function buildDensityGridFeatures(
 // Shared by both marker types below. `photo` fills the card's full content
 // width (not a narrower centered square), so the gap around it reads as the
 // same `p-2` on every side — a fixed-width photo narrower than the card
-// left more visible margin on the left/right than on top, since that margin
-// came from centering rather than padding.
 function buildMarkerCard(opts: {
   photoUrl: string | null | undefined;
   fallbackIcon: string;
@@ -290,132 +290,26 @@ function buildMarkerCard(opts: {
   href: string;
   onNavigate: (href: string) => void;
 }): HTMLDivElement {
-  // Scales up from near the base marker's own footprint (rather than just
-  // fading in place), so growing into the card reads as that marker's shape
-  // stretching upward, not a separate element popping in beside it.
-  const tooltip = document.createElement("div");
-  // `drop-shadow` (a filter, not `box-shadow`) here rather than on `card`
-  // alone — filter-based shadows follow the actual rendered silhouette of
-  // everything inside this wrapper, so the card *and* the tail below read
-  // as one continuous shape with a single soft shadow, instead of two
-  // separately-shadowed pieces that visibly seam where they meet.
-  tooltip.className =
+  const container = document.createElement("div");
+  container.className =
     "absolute bottom-1/2 left-1/2 flex origin-bottom -translate-x-1/2 scale-50 flex-col items-center opacity-0 pointer-events-none drop-shadow-lg transition duration-200 ease-out group-hover:scale-100 group-hover:opacity-100 [.expanded_&]:pointer-events-auto [.expanded_&]:scale-100 [.expanded_&]:opacity-100";
 
-  const card = document.createElement("div");
-  card.className =
-    "font-sans flex w-28 flex-col items-center gap-1 rounded-2xl border border-white bg-white p-2 transition-[width] duration-300 ease-out [.expanded_&]:w-56 [.expanded_&]:cursor-pointer";
-  card.addEventListener("click", (e) => {
-    if (tooltip.parentElement?.classList.contains("expanded")) {
-      e.stopPropagation();
-      opts.onNavigate(opts.href);
-    }
-  });
-  tooltip.appendChild(card);
+  const root = createRoot(container);
+  root.render(
+    <MarkerTooltip
+      photoUrl={opts.photoUrl}
+      fallbackIcon={opts.fallbackIcon}
+      altText={opts.altText}
+      label={opts.label}
+      subtitle={opts.subtitle}
+      fact={opts.fact}
+      status={opts.status}
+      href={opts.href}
+      onNavigate={() => opts.onNavigate(opts.href)}
+    />
+  );
 
-  const photo = document.createElement("div");
-  photo.className = "aspect-[4/3] w-full shrink-0 overflow-hidden rounded-xl bg-zinc-200";
-  if (opts.photoUrl) {
-    const img = document.createElement("img");
-    img.src = opts.photoUrl;
-    img.alt = opts.altText;
-    img.className = "h-full w-full object-cover";
-    img.onerror = () => {
-      photo.className =
-        "aspect-[4/3] w-full shrink-0 overflow-hidden rounded-xl bg-zinc-200 flex items-center justify-center text-2xl";
-      photo.replaceChildren();
-      photo.textContent = opts.fallbackIcon;
-    };
-    photo.appendChild(img);
-  } else {
-    photo.className += " flex items-center justify-center text-2xl";
-    photo.textContent = opts.fallbackIcon;
-  }
-  card.appendChild(photo);
-
-  // Full name, no truncation — wraps onto a second line for longer names
-  // (e.g. "Lion-tailed Macaque") instead of clipping with an ellipsis.
-  const label = document.createElement("span");
-  label.className =
-    "w-full text-center [.expanded_&]:text-left font-mono text-[10px] [.expanded_&]:text-[14px] font-semibold leading-tight text-zinc-800";
-  label.textContent = opts.label;
-  card.appendChild(label);
-
-  // Collapsed to zero height at rest (the compact hover state); only grows
-  // open once the wrapper's `expanded` class is set by a click.
-  const detailGrid = document.createElement("div");
-  detailGrid.className =
-    "grid w-full grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out [.expanded_&]:grid-rows-[1fr]";
-  card.appendChild(detailGrid);
-
-  // `overflow-hidden` on this inner wrapper (not the grid track itself) is
-  // what makes the grid-rows trick clip cleanly while it's collapsing.
-  const detail = document.createElement("div");
-  detail.className = "flex flex-col items-start gap-1 overflow-hidden text-left";
-  detailGrid.appendChild(detail);
-
-  if (opts.subtitle) {
-    const subtitle = document.createElement("p");
-    subtitle.className = "pt-1 text-[10px] italic text-zinc-500 font-sans";
-    subtitle.textContent = opts.subtitle;
-    detail.appendChild(subtitle);
-  }
-
-  const fact = document.createElement("p");
-  fact.className = "mt-0.5 text-xs leading-snug text-zinc-600 font-sans line-clamp-3";
-  fact.textContent = opts.fact;
-  detail.appendChild(fact);
-
-  // Footer row container (status badge on left, arrow button on bottom right)
-  const footerRow = document.createElement("div");
-  footerRow.className = "mt-1 flex w-full items-center justify-between pt-1";
-
-  const leftBox = document.createElement("div");
-  leftBox.className = "flex items-center gap-1.5";
-  if (opts.status) {
-    const badgeStyleMap: Record<string, string> = {
-      LC: "border border-emerald-200/80 bg-emerald-50/80 text-emerald-900 shadow-2xs",
-      NT: "border border-yellow-200/80 bg-yellow-50/80 text-yellow-950 shadow-2xs",
-      VU: "border border-orange-200/80 bg-orange-50/80 text-orange-900 shadow-2xs",
-      EN: "border border-amber-200/80 bg-amber-50/80 text-amber-900 shadow-2xs",
-      CR: "border border-red-200/80 bg-red-50/80 text-red-900 shadow-2xs",
-      EW: "border border-red-200/80 bg-red-50/80 text-red-900 shadow-2xs",
-      EX: "border border-red-200/80 bg-red-50/80 text-red-900 shadow-2xs",
-    };
-    const badge = document.createElement("span");
-    const variantStyle = badgeStyleMap[opts.status] || "border border-zinc-200/80 bg-zinc-50 text-zinc-800";
-    badge.className = `inline-flex items-center gap-1.5 rounded-full font-mono transition-all duration-200 select-none shrink-0 px-2 py-0.5 text-[10px] ${variantStyle}`;
-    badge.textContent = CONSERVATION_LABEL[opts.status];
-    leftBox.appendChild(badge);
-  }
-  footerRow.appendChild(leftBox);
-
-  // Real <a> (not a div with a click handler) for semantics/accessibility;
-  // navigation itself goes through onNavigate (Next.js router.push).
-  const link = document.createElement("a");
-  link.href = opts.href;
-  link.setAttribute("aria-label", "View details");
-  link.className =
-    "ml-auto flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900 text-white overflow-hidden transition-all duration-200 hover:bg-zinc-800 active:scale-90 shadow-2xs";
-  link.innerHTML = `<svg class="animate-arrow-pass" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>`;
-  link.addEventListener("click", (e) => {
-    e.preventDefault();
-    opts.onNavigate(opts.href);
-  });
-  footerRow.appendChild(link);
-
-  detail.appendChild(footerRow);
-
-  // Last flex child of `tooltip`, so it sits flush against the card's
-  // bottom edge — a plain CSS border-triangle (not a rotated, separately-
-  // shadowed square) gives a crisp point with no visible seam where it
-  // meets the card, since it shares the same white fill and has no shadow
-  // of its own (the wrapper's `drop-shadow-lg` covers both).
-  const tail = document.createElement("div");
-  tail.className = "h-0 w-0 border-x-[7px] border-x-transparent border-t-[8px] border-t-white";
-  tooltip.appendChild(tail);
-
-  return tooltip;
+  return container;
 }
 
 function speciesMarkerEl(

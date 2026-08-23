@@ -70,8 +70,8 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
             onNavigate?.();
           }
         }}
-        className={`flex flex-col items-center gap-1.5 rounded-2xl border border-white bg-white p-2 transition-[width] duration-300 ease-ios shadow-xs cursor-pointer ${
-          expanded ? "w-56" : "w-28"
+        className={`flex flex-col items-center gap-1 rounded-2xl border border-white bg-white p-2 transition-[width] duration-300 ease-ios shadow-xs cursor-pointer ${
+          expanded ? "w-56" : "w-28 [.expanded_&]:w-56"
         }`}
       >
         {/* Photo Container */}
@@ -87,27 +87,35 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
         {/* Primary Name Label */}
         <span
           className={`w-full font-mono font-semibold leading-tight text-zinc-800 transition-all ${
-            expanded ? "text-left text-sm" : "text-center text-[10px]"
+            expanded
+              ? "text-left text-sm"
+              : "text-center text-[10px] [.expanded_&]:text-left [.expanded_&]:text-sm"
           }`}
         >
           {label}
         </span>
 
         {/* Expanded Details Section */}
-        {expanded && (
-          <div className="flex w-full flex-col items-start gap-1 text-left animate-in fade-in duration-200">
+        <div
+          className={`w-full ${
+            expanded
+              ? "block"
+              : "grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out [.expanded_&]:grid-rows-[1fr]"
+          }`}
+        >
+          <div className="flex flex-col items-start gap-1 text-left overflow-hidden">
             {subtitle && (
-              <p className="pt-0.5 text-[10px] italic text-zinc-500 font-mono">
+              <p className="pt-0.5 text-[10px] italic text-zinc-500 font-sans">
                 {subtitle}
               </p>
             )}
 
-            <p className="text-xs leading-snug text-zinc-600 font-sans mt-1 line-clamp-3">
+            <p className="text-xs leading-snug text-zinc-600 font-sans mt-0.5 line-clamp-3">
               {fact}
             </p>
 
             {/* Footer Row: Status Badge & Action Button */}
-            <div className="mt-2 flex w-full items-center justify-between pt-0.5">
+            <div className="mt-1.5 flex w-full items-center justify-between pt-0.5">
               <div className="flex items-center gap-1.5">
                 {status && (
                   <Badge variant={statusBadgeVariantMap[status]} size="sm">
@@ -130,7 +138,7 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
               </a>
             </div>
           </div>
-        )}
+        </div>
       </div>
 
       {/* Pointer Speech Bubble Tail */}
