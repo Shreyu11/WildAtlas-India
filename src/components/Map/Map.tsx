@@ -362,7 +362,7 @@ function buildMarkerCard(opts: {
   }
 
   const fact = document.createElement("p");
-  fact.className = "text-[11px] leading-snug text-zinc-600";
+  fact.className = "mt-0.5 text-[11px] leading-snug text-zinc-600 line-clamp-3";
   fact.textContent = opts.fact;
   detail.appendChild(fact);
 
@@ -789,14 +789,27 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
     // Clicks on the "View details" link handle their own navigation+collapse
     // (see buildMarkerCard) — this only toggles for clicks elsewhere on the
     // marker (photo, name, description, or the base circle/icon itself).
-    const handleMarkerClick = (wrapper: HTMLDivElement, speciesSlug?: string) => (e: MouseEvent) => {
-      e.stopPropagation();
-      if (e.target instanceof Element && e.target.closest("a")) return;
-      toggleExpandedMarker(wrapper);
-      if (speciesSlug) {
-        setSelectedSpeciesSlug((prev) => (prev === speciesSlug ? null : speciesSlug));
-      }
-    };
+    const handleMarkerClick =
+      (wrapper: HTMLDivElement, speciesSlug?: string, lng?: number, lat?: number) => (e: MouseEvent) => {
+        e.stopPropagation();
+        if (e.target instanceof Element && e.target.closest("a")) return;
+        const isOpening = expandedMarkerRef.current !== wrapper;
+        toggleExpandedMarker(wrapper);
+        if (speciesSlug) {
+          setSelectedSpeciesSlug((prev) => (prev === speciesSlug ? null : speciesSlug));
+        }
+
+        if (isOpening && lng !== undefined && lat !== undefined && mapInstanceRef.current) {
+          const currentZoom = mapInstanceRef.current.getZoom();
+          const targetZoom = Math.max(currentZoom, 6.5);
+          mapInstanceRef.current.easeTo({
+            center: [lng, lat],
+            zoom: targetZoom,
+            offset: [0, 140],
+            duration: 500,
+          });
+        }
+      };
     // MapLibre's generic map "click" fires for clicks anywhere in the map's
     // interaction area, including on marker DOM elements sitting on top of
     // the canvas — not just genuine empty-map clicks. Without this guard it
@@ -843,7 +856,7 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
           router.push(href);
         },
       });
-      wrapper.addEventListener("click", handleMarkerClick(wrapper, sp.slug));
+      wrapper.addEventListener("click", handleMarkerClick(wrapper, sp.slug, marker.lng, marker.lat));
 
       const m = new Marker({ element: wrapper }).setLngLat([marker.lng, marker.lat]).addTo(map);
       createdMarkers.push(m);
@@ -1005,7 +1018,7 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
       }
     }
 
-    const fitKey = `${activeSpeciesSlug || ""}:${q}`;
+    const fitKey = `${speciesSlugFromPath || ""}:${q}`;
     const shouldFitBounds = fitKey !== prevFitKeyRef.current;
     if (shouldFitBounds) {
       prevFitKeyRef.current = fitKey;
@@ -1056,7 +1069,7 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
           }
 
           if (!bounds.isEmpty()) {
-            map.fitBounds(bounds, { padding: 80, maxZoom: 7, duration: 500 });
+            map.fitBounds(bounds, { padding: { top: 130, bottom: 80, left: 60, right: 60 }, maxZoom: 7, duration: 500 });
           }
         }
       } else {
@@ -1121,7 +1134,7 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
       );
 
       if (shouldFitBounds && hasMatch) {
-        map.fitBounds(bounds, { padding: 80, maxZoom: 7, duration: 500 });
+        map.fitBounds(bounds, { padding: { top: 130, bottom: 80, left: 60, right: 60 }, maxZoom: 7, duration: 500 });
       }
     }
 
@@ -1139,9 +1152,21 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
       wrapper.classList.add("expanded");
       expandedMarkerRef.current = wrapper;
     };
-    const handleMarkerClick = (wrapper: HTMLDivElement) => (e: MouseEvent) => {
+    const handleMarkerClick = (wrapper: HTMLDivElement, lng?: number, lat?: number) => (e: MouseEvent) => {
       if (e.target instanceof Element && e.target.closest("a")) return;
+      const isOpening = expandedMarkerRef.current !== wrapper;
       toggleExpandedMarker(wrapper);
+
+      if (isOpening && lng !== undefined && lat !== undefined && mapInstanceRef.current) {
+        const currentZoom = mapInstanceRef.current.getZoom();
+        const targetZoom = Math.max(currentZoom, 6.5);
+        mapInstanceRef.current.easeTo({
+          center: [lng, lat],
+          zoom: targetZoom,
+          offset: [0, 140],
+          duration: 500,
+        });
+      }
     };
 
     const points: Array<Supercluster.PointFeature<ClusterPointProps>> = [];
@@ -1246,7 +1271,7 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
               router.push(href);
             },
           });
-          wrapper.addEventListener("click", handleMarkerClick(wrapper));
+          wrapper.addEventListener("click", handleMarkerClick(wrapper, pa.lng, pa.lat));
 
           const m = new Marker({ element: wrapper }).setLngLat([pa.lng, pa.lat]).addTo(map);
           paZooMarkersRef.current.push(m);
@@ -1269,7 +1294,7 @@ function findStateByNameOrSlug(states: State[], nameOrSlug: string): State | und
               router.push(href);
             },
           });
-          wrapper.addEventListener("click", handleMarkerClick(wrapper));
+          wrapper.addEventListener("click", handleMarkerClick(wrapper, zoo.lng, zoo.lat));
 
           const m = new Marker({ element: wrapper }).setLngLat([zoo.lng, zoo.lat]).addTo(map);
           paZooMarkersRef.current.push(m);

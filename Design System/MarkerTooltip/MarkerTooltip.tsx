@@ -102,7 +102,7 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
               </p>
             )}
 
-            <p className="text-[11px] leading-snug text-zinc-600 font-sans mt-1">
+            <p className="text-xs leading-snug text-zinc-600 font-sans mt-1 line-clamp-3">
               {fact}
             </p>
 

@@ -1,17 +1,16 @@
 "use client";
 
 import { IconButton, Card } from "@/design-system";
-
 import { useEffect, useState } from "react";
 import { X } from "lucide-react";
 
-const STORAGE_KEY = "wildatlas-welcome-dismissed";
+export const WELCOME_DISMISSED_KEY = "wildatlas-welcome-dismissed";
 
 export default function WelcomeCard() {
   const [dismissed, setDismissed] = useState(true);
 
   useEffect(() => {
-    setDismissed(localStorage.getItem(STORAGE_KEY) === "true");
+    setDismissed(localStorage.getItem(WELCOME_DISMISSED_KEY) !== null);
   }, []);
 
   if (dismissed) return null;
@@ -26,8 +25,10 @@ export default function WelcomeCard() {
           aria-label="Dismiss welcome card"
           icon={<X className="h-3.5 w-3.5" />}
           onClick={() => {
-            localStorage.setItem(STORAGE_KEY, "true");
+            const timestamp = Date.now().toString();
+            localStorage.setItem(WELCOME_DISMISSED_KEY, timestamp);
             setDismissed(true);
+            window.dispatchEvent(new CustomEvent("wildatlas-welcome-dismissed", { detail: { timestamp } }));
           }}
         />
       </div>

@@ -5,8 +5,10 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { FunFact, Species } from "@/lib/types";
 import { DEFAULT_SPECIES_ICON, SPECIES_ICON } from "@/lib/mockIcons";
+import { WELCOME_DISMISSED_KEY } from "@/components/WelcomeCard/WelcomeCard";
 
 const STORAGE_PREFIX = "wildatlas-funfact-dismissed-";
+const TWENTY_FOUR_HOURS_MS = 24 * 60 * 60 * 1000;
 
 function todayKey(): string {
   return new Date().toISOString().slice(0, 10);
@@ -21,6 +23,19 @@ function pickFactOfTheDay(facts: FunFact[]): FunFact | undefined {
   return facts[dayOfYear % facts.length];
 }
 
+function isWelcomeDismissed24hAgo(): boolean {
+  if (typeof window === "undefined") return false;
+  const welcomeVal = localStorage.getItem(WELCOME_DISMISSED_KEY);
+  if (!welcomeVal) return false;
+
+  if (welcomeVal === "true") return true;
+
+  const timestamp = Number(welcomeVal);
+  if (isNaN(timestamp)) return true;
+
+  return Date.now() - timestamp >= TWENTY_FOUR_HOURS_MS;
+}
+
 export default function FunFactCard({ facts, species }: { facts: FunFact[]; species: Species[] }) {
   const [dismissed, setDismissed] = useState(true);
   const [key, setKey] = useState<string | null>(null);
@@ -29,8 +44,19 @@ export default function FunFactCard({ facts, species }: { facts: FunFact[]; spec
   useEffect(() => {
     const todaysKey = todayKey();
     setKey(todaysKey);
-    localStorage.removeItem(STORAGE_PREFIX + todaysKey);
-    setDismissed(false);
+
+    const checkVisibility = () => {
+      const todayDismissed = localStorage.getItem(STORAGE_PREFIX + todaysKey) === "true";
+      const is24hPassed = isWelcomeDismissed24hAgo();
+      setDismissed(todayDismissed || !is24hPassed);
+    };
+
+    checkVisibility();
+
+    window.addEventListener("wildatlas-welcome-dismissed", checkVisibility);
+    return () => {
+      window.removeEventListener("wildatlas-welcome-dismissed", checkVisibility);
+    };
   }, []);
 
   const fact = pickFactOfTheDay(facts);
