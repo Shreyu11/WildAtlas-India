@@ -124,9 +124,9 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
                   e.stopPropagation();
                   onNavigate?.();
                 }}
-                className="ml-auto flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900 text-white transition-all duration-200 hover:bg-zinc-800 active:scale-90 shadow-2xs"
+                className="ml-auto flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900 text-white overflow-hidden transition-all duration-200 hover:bg-zinc-800 active:scale-90 shadow-2xs"
               >
-                <ArrowRight className="h-3.5 w-3.5" />
+                <ArrowRight className="h-3.5 w-3.5 animate-arrow-pass" />
               </a>
             </div>
           </div>

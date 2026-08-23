@@ -124,6 +124,32 @@ body {
   font-family: var(--font-manrope), -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, sans-serif !important;
 }
 
+/* Arrow Pass Through Animation (Move out right, enter from left on hover) */
+@keyframes arrowPassThrough {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  45% {
+    transform: translateX(140%);
+    opacity: 0;
+  }
+  46% {
+    transform: translateX(-140%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.group:hover .animate-arrow-pass,
+.group\/card:hover .animate-arrow-pass,
+.group\/tooltip:hover .animate-arrow-pass {
+  animation: arrowPassThrough 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .maplibregl-ctrl-attrib.maplibregl-compact:not(:hover):not(:focus-within) {
   background-color: transparent !important;
 }

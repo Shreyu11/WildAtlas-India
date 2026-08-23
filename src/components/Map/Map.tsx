@@ -386,8 +386,8 @@ function buildMarkerCard(opts: {
   link.href = opts.href;
   link.setAttribute("aria-label", "View details");
   link.className =
-    "ml-auto flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900 text-white transition-all duration-200 hover:bg-zinc-800 active:scale-90 shadow-2xs";
-  link.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>`;
+    "ml-auto flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900 text-white overflow-hidden transition-all duration-200 hover:bg-zinc-800 active:scale-90 shadow-2xs";
+  link.innerHTML = `<svg class="animate-arrow-pass" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>`;
   link.addEventListener("click", (e) => {
     e.preventDefault();
     opts.onNavigate(opts.href);
