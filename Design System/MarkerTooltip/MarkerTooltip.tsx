@@ -90,8 +90,8 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
         <span
           className={`w-full font-mono font-semibold leading-tight text-zinc-800 transition-all ${
             expanded
-              ? "text-left text-sm"
-              : "text-center text-[10px] [.expanded_&]:text-left [.expanded_&]:text-sm"
+              ? "mt-3 text-left text-sm"
+              : "mt-1 [.expanded_&]:mt-3 text-center text-[10px] [.expanded_&]:text-left [.expanded_&]:text-sm"
           }`}
         >
           {label}
@@ -107,7 +107,7 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
         >
           <div className="flex flex-col items-start gap-1 text-left overflow-hidden">
             {subtitle && (
-              <p className="pt-0.5 text-[10px] italic text-zinc-500 font-sans">
+              <p className="pt-0.5 text-xs text-zinc-500 font-sans">
                 {subtitle}
               </p>
             )}
