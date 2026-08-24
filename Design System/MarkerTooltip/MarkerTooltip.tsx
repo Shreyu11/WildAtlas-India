@@ -66,7 +66,9 @@ export const MarkerTooltip: React.FC<MarkerTooltipProps> = ({
       <div
         onClick={(e) => {
           onClick?.(e);
-          if (expanded) {
+          const isExpandedCard = expanded || !!e.currentTarget.closest(".expanded");
+          if (isExpandedCard) {
+            e.stopPropagation();
             onNavigate?.();
           }
         }}
